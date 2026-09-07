@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { appRouter } from "./routers";
 import type { TrpcContext } from "./_core/context";
@@ -10,8 +12,11 @@ function createTestContext(): TrpcContext {
   };
 }
 
+const hasDatabase = Boolean(process.env.DATABASE_URL);
+const hasReconciliationEvidence = fs.existsSync(path.resolve(process.cwd(), "RECONCILIATION_DRY_RUN.json"));
+
 describe("RamaVerse edition-aware Sarga registry", () => {
-  it("returns only a source-identified Sarga record for the verified Bala Kanda entry", async () => {
+  it.skipIf(!hasDatabase)("returns only a source-identified Sarga record for the verified Bala Kanda entry", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const records = await caller.ramaverse.getSargas({ kandaNumber: 1 });
 
@@ -25,14 +30,13 @@ describe("RamaVerse edition-aware Sarga registry", () => {
     });
   });
 
-  it("does not fabricate Sarga rows for Kandas without verified source locators", async () => {
+  it.skipIf(!hasDatabase)("does not fabricate Sarga rows for Kandas without verified source locators", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const records = await caller.ramaverse.getSargas({ kandaNumber: 2 });
-
     expect(records).toEqual([]);
   });
 
-  it("returns a source-located reader detail without inventing adjacent Sargas", async () => {
+  it.skipIf(!hasDatabase)("returns a source-located reader detail without inventing adjacent Sargas", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const detail = await caller.ramaverse.getSargaDetail({ recordKey: "VR-IITK-BALA-001" });
 
@@ -41,16 +45,15 @@ describe("RamaVerse edition-aware Sarga registry", () => {
     expect(detail.next).toBeNull();
   });
 
-  it("exposes verified Sargas in deterministic local guided search", async () => {
+  it.skipIf(!hasDatabase)("exposes verified Sargas in deterministic local guided search", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const results = await caller.ramaverse.guidedSearch({ query: "Bala" });
-
     expect(results.sargas).toEqual(expect.arrayContaining([
       expect.objectContaining({ recordKey: "VR-IITK-BALA-001", reviewStatus: "source_verified" }),
     ]));
   });
 
-  it("exposes a dry-run-only reconciliation state with no staging publication path", async () => {
+  it.skipIf(!hasReconciliationEvidence)("exposes a dry-run-only reconciliation state with no staging publication path", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const preview = await caller.ramaverse.getReconciliationPreview();
 
@@ -81,7 +84,6 @@ describe("RamaVerse edition-aware Sarga registry", () => {
   it("never returns primary-staging identifiers through canonical guided search", async () => {
     const caller = appRouter.createCaller(createTestContext());
     const results = await caller.ramaverse.guidedSearch({ query: "stg-v2-ayodhyakanda-s23-event-001" });
-
     expect(JSON.stringify(results)).not.toContain("stg-v2-");
   });
 });
