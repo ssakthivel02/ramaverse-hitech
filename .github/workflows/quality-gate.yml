@@ -30,6 +30,20 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Canonical runtime neutrality guard
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(
+            vite.config.ts
+            server/_core/llm.ts
+            client/src/pages/SargaReader.tsx
+          )
+          if grep -En "forge\.manus\.im|vite-plugin-manus-runtime|/__manus__/|manus-storage" "${files[@]}"; then
+            echo "Forbidden Manus/Forge runtime coupling detected in canonical RamaVerse core files."
+            exit 1
+          fi
+
       - name: Typecheck
         run: pnpm check
 
