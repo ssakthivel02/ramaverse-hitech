@@ -6,6 +6,7 @@ import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { assertActiveCorpus } from "../corpusRuntime";
+import { getDb } from "../db";
 
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise(resolve => {
@@ -45,10 +46,37 @@ async function startServer() {
     next();
   });
 
+  app.get("/healthz", (_req, res) => {
+    res.status(200).json({ status: "alive", service: "ramaverse", environment: process.env.NODE_ENV || "unknown" });
+  });
+
+  app.get("/readyz", async (_req, res) => {
+    try {
+      const [active, db] = await Promise.all([assertActiveCorpus(), getDb()]);
+      const databaseReady = Boolean(db);
+      const ready = databaseReady;
+      res.status(ready ? 200 : 503).json({
+        status: ready ? "ready" : "not_ready",
+        service: "ramaverse",
+        dependencies: {
+          canonicalCorpus: "available",
+          database: databaseReady ? "configured" : "unavailable",
+        },
+        activeCorpusVersion: active.pointer.activeCorpusVersion,
+        canonicalCount: active.pointer.canonicalCount,
+        pwaVersion: "ramaverse-cache-v5",
+      });
+    } catch {
+      res.status(503).json({ status: "not_ready", service: "ramaverse", reason: "active_corpus_unavailable" });
+    }
+  });
+
   app.get("/ops/health", async (_req, res) => {
     try {
       const active = await assertActiveCorpus();
-      res.json({ ok: true, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, pwaVersion: "ramaverse-cache-v5" });
+      const db = await getDb();
+      const databaseReady = Boolean(db);
+      res.status(databaseReady ? 200 : 503).json({ ok: databaseReady, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "configured" : "unavailable", pwaVersion: "ramaverse-cache-v5" });
     } catch {
       res.status(503).json({ ok: false, reason: "active_corpus_unavailable" });
     }
