@@ -10,10 +10,11 @@ function createTestContext(): TrpcContext {
   };
 }
 
-describe("RamaVerse Grounded Retrieval & Anti-Hallucination Tests", () => {
+const hasDatabase = Boolean(process.env.DATABASE_URL);
+
+describe.skipIf(!hasDatabase)("RamaVerse Grounded Retrieval & Anti-Hallucination DB integration tests", () => {
   it("retrieves grounded evidence for Hanuman", async () => {
-    const ctx = createTestContext();
-    const caller = appRouter.createCaller(ctx);
+    const caller = appRouter.createCaller(createTestContext());
     const result = await caller.ramaverse.askGrounded({ query: "Who is Hanuman?", persona: "Student" });
 
     expect(result).toBeDefined();
@@ -24,8 +25,7 @@ describe("RamaVerse Grounded Retrieval & Anti-Hallucination Tests", () => {
   });
 
   it("handles unsupported or nonsense questions safely without hallucinating scripture", async () => {
-    const ctx = createTestContext();
-    const caller = appRouter.createCaller(ctx);
+    const caller = appRouter.createCaller(createTestContext());
     const result = await caller.ramaverse.askGrounded({ query: "Quantum mechanics in ancient rocket ships and alien civilization politics", persona: "Scholar" });
 
     expect(result).toBeDefined();
