@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ramaverse-hitech-preview
+    runtime: node
+    plan: free
+    autoDeploy: false
+    buildCommand: corepack enable && corepack prepare pnpm@10.4.1 --activate && pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start
+    healthCheckPath: /readyz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
