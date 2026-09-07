@@ -30,17 +30,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Canonical runtime neutrality guard
+      - name: Repository-wide runtime neutrality guard
         shell: bash
         run: |
           set -euo pipefail
-          files=(
-            vite.config.ts
-            server/_core/llm.ts
-            client/src/pages/SargaReader.tsx
-          )
-          if grep -En "forge\.manus\.im|vite-plugin-manus-runtime|/__manus__/|manus-storage" "${files[@]}"; then
-            echo "Forbidden Manus/Forge runtime coupling detected in canonical RamaVerse core files."
+          if git grep -En -i "forge\.manus\.im|vite-plugin-manus-runtime|/__manus__/|manus-storage|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer|BUILT_IN_FORGE" -- \
+            ':!*.md' ':!*.json' ':!pnpm-lock.yaml' ':!*.example' ':!.github/workflows/quality-gate.yml'; then
+            echo "Forbidden Manus/Forge runtime coupling detected in RamaVerse executable/config source."
             exit 1
           fi
 
