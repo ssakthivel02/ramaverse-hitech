@@ -1,0 +1,1987 @@
+[
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.102.1-49",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.102.1-49",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-102-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.102.1-49",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.102.1-49",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-102-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.102.1-49",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.102.1-49",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Kausalya",
+      "Sumitra",
+      "Kaikeyi",
+      "Bharata",
+      "Vasistha"
+    ],
+    "source_locator": "2.103.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Kausalya",
+      "Sumitra",
+      "Kaikeyi",
+      "Bharata",
+      "Vasistha"
+    ],
+    "source_locator": "2.103.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-103-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Kausalya",
+      "Sumitra",
+      "Kaikeyi",
+      "Bharata",
+      "Vasistha"
+    ],
+    "source_locator": "2.103.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Kausalya",
+      "Sumitra",
+      "Kaikeyi",
+      "Bharata",
+      "Vasistha"
+    ],
+    "source_locator": "2.103.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-103-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Kausalya",
+      "Sumitra",
+      "Kaikeyi",
+      "Bharata",
+      "Vasistha"
+    ],
+    "source_locator": "2.103.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Kausalya",
+      "Sumitra",
+      "Kaikeyi",
+      "Bharata",
+      "Vasistha"
+    ],
+    "source_locator": "2.103.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.104.1-27",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.104.1-27",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-104-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.104.1-27",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.104.1-27",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-104-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.104.1-27",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.104.1-27",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.105.1-46",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.105.1-46",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-105-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.105.1-46",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.105.1-46",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-105-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.105.1-46",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Dasaratha"
+    ],
+    "source_locator": "2.105.1-46",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Dasaratha"
+    ],
+    "source_locator": "2.107.1-19",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Dasaratha"
+    ],
+    "source_locator": "2.107.1-19",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-107-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Dasaratha"
+    ],
+    "source_locator": "2.107.1-19",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Dasaratha"
+    ],
+    "source_locator": "2.107.1-19",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-107-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Dasaratha"
+    ],
+    "source_locator": "2.107.1-19",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Lakshmana",
+      "Sita",
+      "Shatrughna",
+      "Dasaratha"
+    ],
+    "source_locator": "2.107.1-19",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001"
+    ],
+    "entity_ids": [
+      "Jabali",
+      "Rama",
+      "Bharata"
+    ],
+    "source_locator": "2.108.1-18",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Jabali",
+      "Rama",
+      "Bharata"
+    ],
+    "source_locator": "2.108.1-18",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-108-PLACE-001"
+    ],
+    "entity_ids": [
+      "Jabali",
+      "Rama",
+      "Bharata"
+    ],
+    "source_locator": "2.108.1-18",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Jabali",
+      "Rama",
+      "Bharata"
+    ],
+    "source_locator": "2.108.1-18",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-108-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Jabali",
+      "Rama",
+      "Bharata"
+    ],
+    "source_locator": "2.108.1-18",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Jabali",
+      "Rama",
+      "Bharata"
+    ],
+    "source_locator": "2.108.1-18",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Jabali",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.109.1-39",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Jabali",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.109.1-39",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-109-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Jabali",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.109.1-39",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Jabali",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.109.1-39",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-109-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Jabali",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.109.1-39",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Jabali",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.109.1-39",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-PLACE-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-JOURNEY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-JOURNEY-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Dasaratha"
+    ],
+    "source_locator": "2.110.1-36",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-PLACE-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-JOURNEY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-JOURNEY-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Vasistha",
+      "Rama",
+      "Bharata",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.111.1-32",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-PLACE-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-JOURNEY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-JOURNEY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Rama",
+      "Bharata",
+      "Sita",
+      "Lakshmana",
+      "Vasistha"
+    ],
+    "source_locator": "2.112.1-31",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-EVENT-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DIALOGUE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DIALOGUE-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-PLACE-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-PLACE-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-JOURNEY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-JOURNEY-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-DHARMA_LESSON-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DHARMA_LESSON-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-WISDOM-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-WISDOM-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  },
+  {
+    "ask_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-ASK-CHILDREN_STORY-001",
+    "question_intent": [
+      "Who",
+      "What",
+      "Why",
+      "Where",
+      "Which Sarga",
+      "Relationship",
+      "Dharma",
+      "Children explanation",
+      "Source verification"
+    ],
+    "record_ids": [
+      "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHILDREN_STORY-001"
+    ],
+    "entity_ids": [
+      "Bharata",
+      "Rama",
+      "Shatrughna",
+      "Vasistha",
+      "Bharadvaja",
+      "Sumantra",
+      "Dasaratha"
+    ],
+    "source_locator": "2.113.1-24",
+    "confidence": 0.9,
+    "grounding": "Physical source-acquired staging record only; evidence may be insufficient until reconciliation.",
+    "publication_state": "UNPUBLISHED_STAGING"
+  }
+]

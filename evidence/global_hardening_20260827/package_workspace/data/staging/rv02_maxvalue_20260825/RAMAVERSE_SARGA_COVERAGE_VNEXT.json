@@ -1,0 +1,55 @@
+{
+  "batch_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+  "kanda": "Ayodhya Kanda",
+  "sargas": [
+    {
+      "sarga": 94,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.94.1-27"
+    },
+    {
+      "sarga": 95,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.95.1-19"
+    },
+    {
+      "sarga": 96,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.96.1-30"
+    },
+    {
+      "sarga": 97,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.97.1-31"
+    },
+    {
+      "sarga": 98,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.98.1-18"
+    },
+    {
+      "sarga": 99,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.99.1-42"
+    },
+    {
+      "sarga": 100,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.100.1-76"
+    },
+    {
+      "sarga": 101,
+      "source_status": "SOURCE_ACQUIRED_STAGING",
+      "record_count": 9,
+      "source_locator": "2.101.1-9"
+    }
+  ],
+  "next_exact_source": "Ayodhya Kanda Sarga 102 / 2.102.1 onward"
+}

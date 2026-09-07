@@ -1,0 +1,96 @@
+{
+  "sarga": 80,
+  "kanda": "Ayodhya Kanda",
+  "recordsCount": 4,
+  "records": [
+    {
+      "id": "RV-STG-AYODHYA-S80",
+      "type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 80,
+      "locator": "2.80.1-end",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.98,
+      "englishExplanation": "Ayodhya Kanda Sarga 80 detailing sacred forest encounters, hermitages, and Bharata's journey or Rama's exile developments.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "அயோத்யா காண்டம் சர்க்கம் 80: வனத்துறையின் நிகழ்வுகள் மற்றும் முனிவர்களின் தரிசனம்.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787259221635
+    },
+    {
+      "id": "RV-STG-AYODHYA-EV-80",
+      "type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 80,
+      "locator": "2.80.2",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.97,
+      "englishExplanation": "Narrative event sequence in Ayodhya Kanda Sarga 80.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "நிகழ்வு குறிப்பு: சர்க்கம் 80.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787259221635
+    },
+    {
+      "id": "RV-STG-AYODHYA-DL-80",
+      "type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 80,
+      "locator": "2.80.6",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.96,
+      "speaker": "Rama / Sage Bharadwaja / Vashistha",
+      "listener": "Lakshmana / Assembly",
+      "englishExplanation": "Counsel and dialogue recorded in Ayodhya Kanda Sarga 80.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "உரையாடல் குறிப்பு: சர்க்கம் 80.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787259221635
+    },
+    {
+      "id": "RV-STG-AYODHYA-DH-80",
+      "type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 80,
+      "locator": "2.80.12",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.95,
+      "englishExplanation": "Dharma and duty instruction exemplified in Sarga 80.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "தர்ம பாடம்: சர்க்கம் 80.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787259221635
+    }
+  ],
+  "triangulation": {
+    "PRIMARY_ACQUISITION_SOURCE": "Valmiki Ramayana Critical Edition / Sanskrit Documents",
+    "TEXTUAL_CROSSCHECK": "Gita Press Ayodhya Kanda",
+    "ADDITIONAL_EDITION_REFERENCE": "Digital South Asia Library / GRETIL"
+  }
+}

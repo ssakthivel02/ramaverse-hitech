@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-26T12:54:38.080Z",
+  "inputLedger": "RAMAVERSE_STAGING_MASTER_LEDGER_RECONCILED.json",
+  "totalPhysicalOccurrences": 981,
+  "duplicateIdGroups": 31,
+  "duplicateOccurrences": 437,
+  "classificationsByType": {
+    "CORRUPT_RECORD": 397,
+    "IDENTICAL_COPY": 40
+  },
+  "deletionPerformed": 0,
+  "canonicalBaseline": 550,
+  "stagingPublished": 0,
+  "structuredCorpusLastComplete": "Sundara Kanda 5.30",
+  "sourceEvidenceAvailableThrough": "Sundara Kanda 5.68",
+  "nextStructuredSource": "Sundara Kanda 5.31.1"
+}

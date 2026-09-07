@@ -1,0 +1,179 @@
+{
+  "records": 72,
+  "registry_entries": 8,
+  "registry_keys": [
+    "source_id",
+    "source_work",
+    "source_tradition",
+    "edition_or_presentation",
+    "source_locator",
+    "source_url",
+    "source_retrieval_date",
+    "source_role",
+    "source_confidence",
+    "evidence"
+  ],
+  "source_ids": [
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+    "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+  ],
+  "unresolved": 72,
+  "sample": [
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+      "source_locator": "2.94.1-27",
+      "sarga": 94,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "source_locator": "2.95.1-19",
+      "sarga": 95,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "source_locator": "2.95.1-19",
+      "sarga": 95,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "source_locator": "2.95.1-19",
+      "sarga": 95,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+      "source_locator": "2.95.1-19",
+      "sarga": 95,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "source_locator": "2.95.1-19",
+      "sarga": 95,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+      ]
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "source_locator": "2.95.1-19",
+      "sarga": 95,
+      "kanda": "Ayodhya Kanda",
+      "source_match": false,
+      "available_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+      ]
+    }
+  ]
+}

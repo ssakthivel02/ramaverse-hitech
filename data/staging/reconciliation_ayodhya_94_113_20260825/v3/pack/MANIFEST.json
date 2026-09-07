@@ -1,0 +1,18 @@
+{
+  "pack": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE-v3",
+  "records": 175,
+  "approved_corpus_count": 175,
+  "search_delta": 175,
+  "ask_delta": 70,
+  "reader_delta": 175,
+  "graph_delta": 0,
+  "held_count": 9,
+  "variant_count": 9,
+  "entity_held_count": 34,
+  "canonical_baseline": 550,
+  "tamil_human_reviewed": 0,
+  "canonical_modified": 0,
+  "staging_published": 0,
+  "governance_consistency": "PASS",
+  "p0": 0
+}

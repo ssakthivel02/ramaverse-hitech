@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.94.1-27",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 94; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.95.1-19",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 95; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.96.1-30",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 96; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.97.1-31",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 97; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.98.1-18",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 98; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.99.1-42",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 99; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.100.1-76",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 100; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "edition_or_presentation": "StotraNidhi IAST page",
+      "source_locator": "2.101.1-9",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+      "source_retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "evidence": "Page title identifies Ayodhya Kanda Sarga 101; displayed Sanskrit text and explicit sarga colophon were inspected. Independent critical-edition cross-check remains pending before promotion."
+    }
+  ]
+}

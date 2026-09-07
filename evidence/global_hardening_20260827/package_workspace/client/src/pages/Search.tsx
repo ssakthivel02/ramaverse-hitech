@@ -1,0 +1,55 @@
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import { BookOpen, MapPin, Search as SearchIcon, Sparkles, Users } from "lucide-react";
+import { Link } from "wouter";
+import { RamaFooter } from "@/components/RamaFooter";
+import { RamaNavbar } from "@/components/RamaNavbar";
+import { Input } from "@/components/ui/input";
+import { formatTranslation, localizedPath, useTranslation } from "@/contexts/MultilingualContext";
+import { trpc } from "@/lib/trpc";
+import type { IntelligenceLocale, IntelligenceRecord } from "../../../shared/intelligence";
+
+const typeIcon = { character: Users, place: MapPin, sarga: BookOpen, wisdom: Sparkles, guidance: Sparkles, dharma: Sparkles, dialogue: BookOpen, devotion: Sparkles } as const;
+type SearchRecord = IntelligenceRecord & { reviewStatus?: string };
+type LegacySearch = { wisdom?: Array<{ id: number; recordNumber: number; title: string; translation: string; reviewStatus?: string }>; characters?: Array<{ id: number; characterNumber: number; name: string; description: string; reviewStatus?: string }>; places?: Array<{ id: number; placeNumber: number; name: string; significance: string; reviewStatus?: string }>; guidance?: Array<{ id: number; recordNumber: number; title: string; advice: string; reviewStatus?: string }>; sargas?: Array<{ recordKey: string; kandaNumber: number; editionId?: string; sargaIdentifier: string; summary: string; sourceLocator?: string | null; reviewStatus?: string }> };
+const useNoopQuery = () => ({ data: undefined, isLoading: false });
+function normalizeLegacy(data?: LegacySearch): SearchRecord[] {
+  if (!data) return [];
+  return [
+    ...(data.sargas ?? []).map((row) => ({ recordId: row.recordKey, type: "sarga" as const, title: row.sargaIdentifier, excerpt: row.summary, kanda: `Kanda ${row.kandaNumber}`, sarga: row.sargaIdentifier, sourceLocator: row.sourceLocator ?? null, confidence: row.reviewStatus === "source_verified" ? "high" as const : "medium" as const, reviewStatus: row.reviewStatus })),
+    ...(data.wisdom ?? []).map((row) => ({ recordId: `WIS-${row.recordNumber}`, type: "wisdom" as const, title: row.title, excerpt: row.translation, confidence: "medium" as const, reviewStatus: row.reviewStatus })),
+    ...(data.characters ?? []).map((row) => ({ recordId: `CHR-${row.characterNumber}`, type: "character" as const, title: row.name, excerpt: row.description, confidence: "medium" as const, reviewStatus: row.reviewStatus })),
+    ...(data.places ?? []).map((row) => ({ recordId: `PLC-${row.placeNumber}`, type: "place" as const, title: row.name, excerpt: row.significance, confidence: "medium" as const, reviewStatus: row.reviewStatus })),
+    ...(data.guidance ?? []).map((row) => ({ recordId: `GDN-${row.recordNumber}`, type: "guidance" as const, title: row.title, excerpt: row.advice, confidence: "medium" as const, reviewStatus: row.reviewStatus })),
+  ];
+}
+
+export default function SearchPage() {
+  const { language, t } = useTranslation();
+  const locale: IntelligenceLocale = (["en", "ta", "hi", "te", "kn", "ml"] as const).includes(language as IntelligenceLocale) ? language as IntelligenceLocale : "en";
+  const [query, setQuery] = useState("");
+  const [activeQuery, setActiveQuery] = useState("");
+  const [entityType, setEntityType] = useState("all");
+  const [reviewState, setReviewState] = useState("all");
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const resultRef = useRef<HTMLDivElement>(null);
+  const modernSearchHook = trpc.ramaverse.intelligenceSearch?.useQuery ?? useNoopQuery;
+  const legacySearchHook = trpc.ramaverse.guidedSearch?.useQuery ?? useNoopQuery;
+  const modernSearch = modernSearchHook({ query: activeQuery, locale, limit: 16 }, { enabled: activeQuery.trim().length > 0 });
+  const legacySearch = legacySearchHook({ query: activeQuery }, { enabled: !trpc.ramaverse.intelligenceSearch && activeQuery.trim().length > 0 });
+  const records: SearchRecord[] = (modernSearch.data as { results?: SearchRecord[] } | undefined)?.results ?? normalizeLegacy(legacySearch.data as LegacySearch | undefined);
+  const filtered = useMemo(() => records.filter((record) => (entityType === "all" ? true : entityType === "characters" ? record.type === "character" : record.type === entityType) && (reviewState === "all" || record.reviewStatus === reviewState)), [entityType, records, reviewState]);
+
+  useEffect(() => setSelectedIndex(0), [activeQuery, entityType]);
+  const submit = (event: React.FormEvent) => { event.preventDefault(); setActiveQuery(query.trim()); };
+  const onKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!filtered.length) return;
+    if (event.key === "ArrowDown") { event.preventDefault(); setSelectedIndex((index) => (index + 1) % filtered.length); }
+    if (event.key === "ArrowUp") { event.preventDefault(); setSelectedIndex((index) => (index - 1 + filtered.length) % filtered.length); }
+    if (event.key === "Enter" && filtered[selectedIndex]) { event.preventDefault(); resultRef.current?.querySelector<HTMLElement>(`[data-result-index="${selectedIndex}"]`)?.focus(); }
+  };
+
+  const isLoading = Boolean(modernSearch.isLoading || legacySearch.isLoading);
+  const labelFor = (type: IntelligenceRecord["type"]) => ({ character: t("characters"), place: t("sacredPlaces"), sarga: `${t("sourceLocated")} Sarga`, wisdom: t("wisdomRecords"), guidance: t("guidanceRecords"), dharma: t("guidanceRecords"), dialogue: t("sourceLocated"), devotion: t("guidanceRecords") }[type]);
+
+  return <div className="rv-shell min-h-screen bg-[#070b14] text-[#f3e9d2]"><RamaNavbar /><main className="rv-section script-safe mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 lg:px-8"><div className="mx-auto max-w-3xl text-center"><div className="inline-flex items-center gap-2 rounded-full border border-[#d4af37]/30 bg-[#d4af37]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-[#d4af37]"><SearchIcon className="h-4 w-4" />{t("searchBadge")}</div><h1 className="mt-4 font-serif text-4xl font-bold gold-gradient-text sm:text-5xl">{t("searchTitle")}</h1><p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-[#f3e9d2]/70 sm:text-base">{t("searchSubtitle")}</p></div><form onSubmit={submit} className="rv-glass mx-auto mt-10 max-w-3xl rounded-3xl p-4 sm:p-6"><div className="relative"><SearchIcon className="absolute left-4 top-4 h-5 w-5 text-[#d4af37]" /><Input aria-label={t("searchInput")} placeholder={t("searchInput")} value={query} onChange={(event) => { const next = event.target.value; setQuery(next); setActiveQuery(next.trim()); }} onKeyDown={onKeyDown} className="script-safe h-12 rounded-2xl border-[#d4af37]/40 bg-[#0b101b]/75 pl-12 text-base text-[#f3e9d2] placeholder:text-[#f3e9d2]/40" /></div><div className="mt-4 grid gap-3 sm:grid-cols-2"><label className="text-xs text-[#f3e9d2]/70">{t("contentType")}<select aria-label={t("contentType")} value={entityType} onChange={(event) => setEntityType(event.target.value)} className="mt-1 block w-full rounded-lg border border-[#d4af37]/30 bg-[#162032] px-3 py-2 text-sm text-[#f3e9d2] outline-none focus:ring-2 focus:ring-[#d4af37]/60"><option value="all">{t("allTypes")}</option><option value="sarga">{t("sourceLocated")} Sargas</option><option value="wisdom">{t("wisdomRecords")}</option><option value="characters">{t("characters")}</option><option value="place">{t("sacredPlaces")}</option><option value="guidance">{t("guidanceRecords")}</option><option value="dharma">{t("guidanceRecords")}</option><option value="dialogue">{t("sourceLocated")}</option><option value="devotion">{t("guidanceRecords")}</option></select></label><label className="text-xs text-[#f3e9d2]/70">{t("reviewState")}<select aria-label={t("reviewState")} value={reviewState} onChange={(event) => setReviewState(event.target.value)} className="mt-1 block w-full rounded-lg border border-[#d4af37]/30 bg-[#162032] px-3 py-2 text-sm text-[#f3e9d2] outline-none focus:ring-2 focus:ring-[#d4af37]/60"><option value="all">{t("allStates")}</option><option value="source_verified">{t("sourceLocated")}</option><option value="needs_source_review">{t("needsSourceReview")}</option><option value="needs_human_tamil_review">{t("needsTamilReview")}</option></select></label><div className="flex items-end"><button type="submit" className="h-10 w-full rounded-lg bg-[#d4af37] px-4 text-sm font-semibold text-[#0b101b] transition hover:bg-[#f4d98b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f4d98b]">{t("searchTitle")}</button></div></div><p className="mt-3 text-center text-[11px] leading-5 text-[#f3e9d2]/55">{t("searchCanonicalOnly")} {t("stagingNotIndexed")}</p>{activeQuery && <p className="mt-2 text-center text-xs text-[#d4af37]">{formatTranslation(t("foundMatches"), { n: filtered.length, q: activeQuery })}</p>}</form>{!activeQuery ? <div className="py-20 text-center text-sm text-[#f3e9d2]/50">{t("searchBegin")}</div> : isLoading ? <div className="py-20 text-center text-[#d4af37]">{t("searching")}</div> : filtered.length === 0 ? <div className="py-20 text-center text-sm text-[#f3e9d2]/60">{formatTranslation(t("noRecords"), { q: activeQuery })}</div> : <div ref={resultRef} className="mt-12 grid gap-4 md:grid-cols-2" aria-live="polite">{filtered.map((record, index) => { const Icon = typeIcon[record.type]; return <article key={record.recordId} data-result-index={index} tabIndex={0} style={{ minWidth: 0, overflowWrap: "anywhere", lineHeight: 1.5 }} className={`rv-glass script-safe rounded-2xl p-5 outline-none transition focus-visible:ring-2 focus-visible:ring-[#d4af37] leading-relaxed ${index === selectedIndex ? "border border-[#d4af37]/55" : "border border-white/10"}`}><div className="flex items-start justify-between gap-3"><div className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[.16em] text-[#d4af37]"><Icon className="h-4 w-4" />{labelFor(record.type)}</div><span className="rounded-full border border-emerald-300/20 px-2 py-1 text-[10px] uppercase text-emerald-200">{record.confidence}</span></div><h2 className="mt-3 font-serif text-xl text-[#f3e9d2]">{record.title}</h2><p className="mt-2 text-sm leading-6 text-[#f3e9d2]/70">{record.excerpt}</p><div className="mt-4 flex flex-wrap items-center gap-2 text-[11px] text-[#f3e9d2]/55"><code className="text-[#d4af37]">{record.recordId}</code>{record.kanda && <span>{record.kanda}</span>}{record.sarga && record.sarga !== record.title && <span>{record.sarga}</span>}{record.sourceLocator && <span className="max-w-full break-all text-[#d4af37]">{record.sourceLocator}</span>}{record.reviewStatus && <span className="rounded-full border border-amber-300/25 px-2 py-1 text-[10px] uppercase text-amber-200">{t("editorialReview")}: {record.reviewStatus.replaceAll("_", " ")}</span>}</div>{record.type === "sarga" && <Link href={localizedPath(language, `/sargas/${record.recordId}`)} className="mt-4 inline-flex text-xs font-semibold text-[#d4af37] hover:text-[#f4d98b] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#d4af37]">{t("openReader")}</Link>}</article>; })}</div>}</main><RamaFooter /></div>;
+}

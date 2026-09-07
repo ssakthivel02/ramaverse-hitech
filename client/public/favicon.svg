@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-labelledby="title desc">
+  <title id="title">RamaVerse</title>
+  <desc id="desc">A gold sacred mark on a deep navy field.</desc>
+  <rect width="192" height="192" rx="44" fill="#0b101b"/>
+  <circle cx="96" cy="96" r="62" fill="#d7b45a"/>
+  <circle cx="96" cy="96" r="53" fill="#101a2a" stroke="#f4d98b" stroke-width="3"/>
+  <text x="96" y="119" text-anchor="middle" font-size="67" font-family="Noto Sans, sans-serif" fill="#f4d98b">ॐ</text>
+</svg>

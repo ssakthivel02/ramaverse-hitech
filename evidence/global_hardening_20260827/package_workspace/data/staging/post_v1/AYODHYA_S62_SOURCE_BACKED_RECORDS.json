@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s62-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 62,
+    "verse_locator": "2.62.1-2.62.24",
+    "source_id": "src-valmiki-ayodhya-s62-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 62, verses 1-24",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Dasaratha faints after hearing Kausalya's reproaches, regains consciousness, repents for his past shabda-vedhi sin, and begs Kausalya for forgiveness.",
+    "tamil_draft": "கௌசல்யாவின் கடுஞ்சொற்களைக் கேட்டு மூர்ச்சையடைந்த தசரதர், பின்னர் விழித்துத் தனது பழைய சாப பாவத்தை நினைத்து கௌசல்யாவிடம் மன்னிப்புக் கோருகிறார்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s62-event-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 62,
+    "verse_locator": "2.62.3-2.62.7",
+    "source_id": "src-valmiki-ayodhya-s52-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 62, verses 3-7",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Dasaratha recalls his past shabda-vedhi sin and seeks Kausalya's forgiveness in deep remorse.",
+    "tamil_draft": "தசரதர் தன் பழைய பாபத்தை நினைத்து கௌசல்யாவிடம் வருந்தி மன்னிப்புக் கோரும் நிகழ்வு.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

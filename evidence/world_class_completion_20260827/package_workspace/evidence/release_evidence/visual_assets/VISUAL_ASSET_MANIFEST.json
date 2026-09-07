@@ -1,0 +1,25 @@
+{
+  "name": "RamaVerse Original Visual Asset Pack",
+  "generatedAt": "2026-08-25T23:07:00Z",
+  "license": "Original RamaVerse project artwork; no third-party artwork included.",
+  "runtimePolicy": "The SVGs are source/release evidence assets. The Website runtime uses lightweight CSS motifs and the local favicon; no heavy decorative asset dependency is introduced.",
+  "assets": [
+    {
+      "file": "kanda-identities.svg",
+      "purpose": "Seven Kanda identity strip for source documentation and future reusable surfaces",
+      "dimensions": "1200x240"
+    },
+    {
+      "file": "journey-source-offline.svg",
+      "purpose": "Journey path, source evidence, place context, and offline readiness markers",
+      "dimensions": "960x240"
+    },
+    {
+      "file": "child-learning.svg",
+      "purpose": "Calm child-friendly learning motif",
+      "dimensions": "480x240"
+    }
+  ],
+  "colorSystem": ["#070b14", "#d7b45a", "#f4d98b", "#4a72c5", "#e77d3a", "#7fb9a2"],
+  "accessibility": "Decorative runtime use must remain aria-hidden; any visible labels are duplicated through semantic page content, not conveyed by imagery alone."
+}

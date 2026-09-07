@@ -1,0 +1,12 @@
+{
+  "startingOverlapAccounting": true,
+  "classificationAccounting": true,
+  "oneClassificationPerRecord": true,
+  "stableIdDuplicates": 0,
+  "variantPreservation": true,
+  "sourceReferencesPresent": true,
+  "searchAskLeakage": 0,
+  "stagingPublished": 0,
+  "canonicalChanged": 0,
+  "pass": true
+}

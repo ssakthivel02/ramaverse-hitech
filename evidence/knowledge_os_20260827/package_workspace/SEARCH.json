@@ -1,0 +1,6052 @@
+[
+  {
+    "id": "CANONICAL-REC-001",
+    "title": "Canonical Record 1",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-1",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a5f5ebcb8fd62e139ba343320b312d5abe3a811ccd966f9ecf7d0295ec136d41"
+  },
+  {
+    "id": "CANONICAL-REC-002",
+    "title": "Canonical Record 2",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-2",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a0f874cb8704cad61498e3092da1f69543cd16ca8762789a81c80f85159eb8ed"
+  },
+  {
+    "id": "CANONICAL-REC-003",
+    "title": "Canonical Record 3",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-3",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3d66240f8a32e0c8d17ecc8d578e49e3d208bb89e345b8006b7d99dbaf1e235f"
+  },
+  {
+    "id": "CANONICAL-REC-004",
+    "title": "Canonical Record 4",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-4",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5805a19dbcf30f4a61ec72a29358a0ff77de530a66b7da46eee137b17f80f646"
+  },
+  {
+    "id": "CANONICAL-REC-005",
+    "title": "Canonical Record 5",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-5",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "62be439aa1434509c328714b669c26e871a1ef6ed0cf488281070a2b803f5854"
+  },
+  {
+    "id": "CANONICAL-REC-006",
+    "title": "Canonical Record 6",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-6",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "016c6a0554a4ccd3da85009ebae451b589b8d0cbcce1dcb164e17841a82b558e"
+  },
+  {
+    "id": "CANONICAL-REC-007",
+    "title": "Canonical Record 7",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-7",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "339011cf49b05c331b6c7c4dca9c4e6ca2628edacf6bf55205898591caf97665"
+  },
+  {
+    "id": "CANONICAL-REC-008",
+    "title": "Canonical Record 8",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-8",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "8ac3b9d6390419420ada725bd085dbfecefed2da8e3397aa98a0e9be993363f3"
+  },
+  {
+    "id": "CANONICAL-REC-009",
+    "title": "Canonical Record 9",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-9",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c5902d11dddedf0d782f826b5cf55837830eeabb32ebad8f7a88930f941f73e1"
+  },
+  {
+    "id": "CANONICAL-REC-010",
+    "title": "Canonical Record 10",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-10",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5d42534a72082b18b4f873f3dfef86fc6440f5f529e06cd5cf3391d841e3780e"
+  },
+  {
+    "id": "CANONICAL-REC-011",
+    "title": "Canonical Record 11",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-11",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "53c01e06d1062264d7bc72376a74ee0252f51739dc11bcf3271330d711945ac9"
+  },
+  {
+    "id": "CANONICAL-REC-012",
+    "title": "Canonical Record 12",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-12",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "aeb0e919af9dbff0d9280f8a08385e49e0a80b6f3b1c2df04156d97f0dbc3a5f"
+  },
+  {
+    "id": "CANONICAL-REC-013",
+    "title": "Canonical Record 13",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-13",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5c6512931f0fed219aaa42f5adf7f8fb96df52af7b3c12a17922408e63391d7d"
+  },
+  {
+    "id": "CANONICAL-REC-014",
+    "title": "Canonical Record 14",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-14",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "26f2681f9243f639f1a35aab47a53658f4cce4e465386baffe3699ae56f747a8"
+  },
+  {
+    "id": "CANONICAL-REC-015",
+    "title": "Canonical Record 15",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-15",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "492ed2e6baae6fbe405d030f7f7c2777a7b063812722af457dbbd95e6a113417"
+  },
+  {
+    "id": "CANONICAL-REC-016",
+    "title": "Canonical Record 16",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-16",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a18ce80212da26a0e750c093ec6c01ef34a5cd01bd3270c94f92c3408f0070fa"
+  },
+  {
+    "id": "CANONICAL-REC-017",
+    "title": "Canonical Record 17",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-17",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "339412bfe9824fca65ce13cf46c0439fb1e82b07c9e9a1391c1d9b378ecea607"
+  },
+  {
+    "id": "CANONICAL-REC-018",
+    "title": "Canonical Record 18",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-18",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b5cc9cf6bad1361ed859cf6b64cb36aab0a3c2e8bc602d17e41bc1045b30f23f"
+  },
+  {
+    "id": "CANONICAL-REC-019",
+    "title": "Canonical Record 19",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-19",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "127059e4a346984b19405a742369f0f695f321599f5d9638ed2e27fef1aaef33"
+  },
+  {
+    "id": "CANONICAL-REC-020",
+    "title": "Canonical Record 20",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-20",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f9cdf7d80222277de7fd3a5d6dc966ef40a23c1021f3022fe30578d34800ca5d"
+  },
+  {
+    "id": "CANONICAL-REC-021",
+    "title": "Canonical Record 21",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-21",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f921f54f8e319b2d9556f11dbfb97e11862a7e64b54c81ce629ad1f01f40f826"
+  },
+  {
+    "id": "CANONICAL-REC-022",
+    "title": "Canonical Record 22",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-22",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7e16eb31290eab13f6f22f9375f9598baab9a35681efd79a138cc7a3c0774670"
+  },
+  {
+    "id": "CANONICAL-REC-023",
+    "title": "Canonical Record 23",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-23",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2aaaf1503314d3e6695d7e107e147e867309084aa2fb1f5dfe334dc6d6e16ef8"
+  },
+  {
+    "id": "CANONICAL-REC-024",
+    "title": "Canonical Record 24",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-24",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "863ae57e5e4d24b205884906d06a67f124db9ecbada9044c7cdff9992e9b3fe1"
+  },
+  {
+    "id": "CANONICAL-REC-025",
+    "title": "Canonical Record 25",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-25",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "91bad298a14b1734bc36459fd0616ceea32973007da027cffa1822b84f63f1d3"
+  },
+  {
+    "id": "CANONICAL-REC-026",
+    "title": "Canonical Record 26",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-26",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b09e5865a74787ad47cdaa769e38cec849dd335b9b98405c8d684d0b5b7643ba"
+  },
+  {
+    "id": "CANONICAL-REC-027",
+    "title": "Canonical Record 27",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-27",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "33dc95d577967208f3e827dd567481794df152e52ffff780d1d4d77881524ded"
+  },
+  {
+    "id": "CANONICAL-REC-028",
+    "title": "Canonical Record 28",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-28",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4af5528372af2f642a2952968d5babf857271927617c2c0f6ac440ffa86d83a7"
+  },
+  {
+    "id": "CANONICAL-REC-029",
+    "title": "Canonical Record 29",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-29",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c3633278f0b95b4fb9fb433e2713a496c5d1b6eead33c5e3878e85f040bab35b"
+  },
+  {
+    "id": "CANONICAL-REC-030",
+    "title": "Canonical Record 30",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-30",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f34400f594b8955f65b945e19a407a22c4d2b18d37bb5c5d61057e45a890ce0f"
+  },
+  {
+    "id": "CANONICAL-REC-031",
+    "title": "Canonical Record 31",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-31",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b11fa47777940458152a39e9d93dc166165bff863ce7074fc356ccaa5912403a"
+  },
+  {
+    "id": "CANONICAL-REC-032",
+    "title": "Canonical Record 32",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-32",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3f3a2d5b1314597dc36fbce4db94fb2ceedd226937e5bc2918702cfe90539e3d"
+  },
+  {
+    "id": "CANONICAL-REC-033",
+    "title": "Canonical Record 33",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-33",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "98ccabb1d3ea3eb5242c1a75fca7305879108da55a03d6b2235b3b75b82b3422"
+  },
+  {
+    "id": "CANONICAL-REC-034",
+    "title": "Canonical Record 34",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-34",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "506e67faa60a00e8ccb63cb67a8c4ca270706de65322582c67c7d156fa8b6d8a"
+  },
+  {
+    "id": "CANONICAL-REC-035",
+    "title": "Canonical Record 35",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-35",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "cf771752b8e8e89ad76f243f152fceeb4ca8bb59c14c94ef44e9ba396a6ee1ac"
+  },
+  {
+    "id": "CANONICAL-REC-036",
+    "title": "Canonical Record 36",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-36",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "fedbd02a3f85d43e23bf69f86dbb8f8d138f2ee4bd8c92cd32abcbefaac38149"
+  },
+  {
+    "id": "CANONICAL-REC-037",
+    "title": "Canonical Record 37",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-37",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "867043be0728a746356d6dfd359488bb8172be580a12e08b56c2ed4e27995c8c"
+  },
+  {
+    "id": "CANONICAL-REC-038",
+    "title": "Canonical Record 38",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-38",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0797b8dc443d9e541c39ee6479951de3d8f9ee40da8ca612fafc5de8fba1b10f"
+  },
+  {
+    "id": "CANONICAL-REC-039",
+    "title": "Canonical Record 39",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-39",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f18ebdd3b939328f25df1df70f24d20041c63bae6c8145cd4f3452c5924599f2"
+  },
+  {
+    "id": "CANONICAL-REC-040",
+    "title": "Canonical Record 40",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-40",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "57e687db740acefc0b43659631cf2efdc0cdb8469de747fb856019ef8855d297"
+  },
+  {
+    "id": "CANONICAL-REC-041",
+    "title": "Canonical Record 41",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-41",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b1d594948d97c93d00425d686b57895c26cafb8cef21f6c9d8a7cdab96b3995c"
+  },
+  {
+    "id": "CANONICAL-REC-042",
+    "title": "Canonical Record 42",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-42",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "567d487673d7e70e38bb98ff2d63b92722e88f8edf7c07e72d11b5983ae65236"
+  },
+  {
+    "id": "CANONICAL-REC-043",
+    "title": "Canonical Record 43",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-43",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "42dffd6bd7984bb0ccdd16098d264a78784f717ebfc79784c5f8e0c1caa4fef7"
+  },
+  {
+    "id": "CANONICAL-REC-044",
+    "title": "Canonical Record 44",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-44",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5440ad4e1618494afd9cb2d80991a04cf6eba0356b7174724d5c6c2d34c8633e"
+  },
+  {
+    "id": "CANONICAL-REC-045",
+    "title": "Canonical Record 45",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-45",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "18e6e4350a86301936b5501ef20e99d2c8aac6b0e2ba285803b27dcfc98c7a69"
+  },
+  {
+    "id": "CANONICAL-REC-046",
+    "title": "Canonical Record 46",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-46",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d9e3112b746777536767331fb391797f07367018727af97746f47703985d22d4"
+  },
+  {
+    "id": "CANONICAL-REC-047",
+    "title": "Canonical Record 47",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-47",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3752486473033aba19d0eee318eef6e1c0c1c3cef96b43b9652f644950920dcb"
+  },
+  {
+    "id": "CANONICAL-REC-048",
+    "title": "Canonical Record 48",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-48",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c6066c0c827b94d07d191930e8b330643f070d3cc20db82981a772a84dc1d4d8"
+  },
+  {
+    "id": "CANONICAL-REC-049",
+    "title": "Canonical Record 49",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-49",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "262ba5c69dafc6149925754bfbe75bfb20b1eff094776e3842ce2ed003aa2395"
+  },
+  {
+    "id": "CANONICAL-REC-050",
+    "title": "Canonical Record 50",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-50",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5c8b5e5ec136c7dc5afd95457b75e8ad90fa342f8064173bf68a0772e4ea2bf8"
+  },
+  {
+    "id": "CANONICAL-REC-051",
+    "title": "Canonical Record 51",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-51",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ea9b6578d4840ffdf9b95d2c2cccaf98da874d68117f29f8add39e8e87f11ff0"
+  },
+  {
+    "id": "CANONICAL-REC-052",
+    "title": "Canonical Record 52",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-52",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2ade9ee6d2412af7bcc1ae277d719c5c4e05918b632bb2ffa777fab85e451d22"
+  },
+  {
+    "id": "CANONICAL-REC-053",
+    "title": "Canonical Record 53",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-53",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "aff27084097670ce194e16096d2cd04d3e3c5bcbb9212a664a0b0ff823f9241e"
+  },
+  {
+    "id": "CANONICAL-REC-054",
+    "title": "Canonical Record 54",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-54",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6a9b247b3258aa35642fdfb98fca25c7c18e154c007086232ad2db9ef8093e16"
+  },
+  {
+    "id": "CANONICAL-REC-055",
+    "title": "Canonical Record 55",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-55",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "28957a4a69366dbf2a6c094bdba35c928f1d40990ef617eb1a61871ec43a3595"
+  },
+  {
+    "id": "CANONICAL-REC-056",
+    "title": "Canonical Record 56",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-56",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a2a7a41ff9e9e50a9ef892880a5943a42dacd4c977d5fc8f13366190efdc69be"
+  },
+  {
+    "id": "CANONICAL-REC-057",
+    "title": "Canonical Record 57",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-57",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0abc973ef8b2ad2f8b52981a923e618e26e39a209a1e4d619b73380420d48b11"
+  },
+  {
+    "id": "CANONICAL-REC-058",
+    "title": "Canonical Record 58",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-58",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c17d19d59b363e5e17e5d478cb07ce2dfb87041d0896250309bd1577bb7ad3a9"
+  },
+  {
+    "id": "CANONICAL-REC-059",
+    "title": "Canonical Record 59",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-59",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "89b99fc4344cccc406f5b3b8f328604d50f4a8a545fc8a31dad2dd0ca74651ff"
+  },
+  {
+    "id": "CANONICAL-REC-060",
+    "title": "Canonical Record 60",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-60",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a5f3207b50312cd6f85a81abae4c208d4cf0be0a3ba5f8eeca2f1813d25a16ed"
+  },
+  {
+    "id": "CANONICAL-REC-061",
+    "title": "Canonical Record 61",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-61",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "61b0e6d980ebe0ea225f2114252c5c4523f34f115a2e45ec5c255e64b9f56b92"
+  },
+  {
+    "id": "CANONICAL-REC-062",
+    "title": "Canonical Record 62",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-62",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "648f358ee1d2e97914e8119db3d7d9160cdc2f92d429e87e15d11dcd28110685"
+  },
+  {
+    "id": "CANONICAL-REC-063",
+    "title": "Canonical Record 63",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-63",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "11b038c5012b7588f99effc294a315b031c25fbff014304baf5e0bbdbcfc3648"
+  },
+  {
+    "id": "CANONICAL-REC-064",
+    "title": "Canonical Record 64",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-64",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "938aff7a02f16447b29a0759746464799efdbe1c96030eee93a16a9c0d319e0c"
+  },
+  {
+    "id": "CANONICAL-REC-065",
+    "title": "Canonical Record 65",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-65",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5432baa3c211b43249d843f370b89ab215d864986edfdde5fa55a3da4febf811"
+  },
+  {
+    "id": "CANONICAL-REC-066",
+    "title": "Canonical Record 66",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-66",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "31f3acdef871a90892c14a819f1120c5a6aa404322ac1f44fb3d040df98c12ee"
+  },
+  {
+    "id": "CANONICAL-REC-067",
+    "title": "Canonical Record 67",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-67",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b3cd2ff163caaefbef056b594ec43dd3c7f32e7ef90abacbff9f03a81e8fc952"
+  },
+  {
+    "id": "CANONICAL-REC-068",
+    "title": "Canonical Record 68",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-68",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ea748d2341c240a5bcffb6ca6f95deab7a40e30caefe9918676650c382d72114"
+  },
+  {
+    "id": "CANONICAL-REC-069",
+    "title": "Canonical Record 69",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-69",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c87fd29862282738aca95c8de4ccae47cda3180bc897e8aff684fcef31bacbc5"
+  },
+  {
+    "id": "CANONICAL-REC-070",
+    "title": "Canonical Record 70",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-70",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ab2a20fb79d149004d58bdb4cc3b19b0025c70c675165590d5338c66b994f845"
+  },
+  {
+    "id": "CANONICAL-REC-071",
+    "title": "Canonical Record 71",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-71",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2e260e3d0594549f2e58ef57e16e3c86ee2f29b36634981f54eb3b30d4391785"
+  },
+  {
+    "id": "CANONICAL-REC-072",
+    "title": "Canonical Record 72",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-72",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3291249bd258cc12e323cd380e1e391b9be6e77ec162b8924be25fa55247e840"
+  },
+  {
+    "id": "CANONICAL-REC-073",
+    "title": "Canonical Record 73",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-73",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "02f205af30a0457aa42cb13540c80447d2da77c9aa6c0e38c8b14dc342de411d"
+  },
+  {
+    "id": "CANONICAL-REC-074",
+    "title": "Canonical Record 74",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-74",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "47b1c6d00b90c91be34b608eda6b5cbcac905b89d8b82a87a21328bbf4587c31"
+  },
+  {
+    "id": "CANONICAL-REC-075",
+    "title": "Canonical Record 75",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-75",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e41c25d92f0c0bdaf36d695aba89ee2fc584585dc7265560fb2d361fa270164b"
+  },
+  {
+    "id": "CANONICAL-REC-076",
+    "title": "Canonical Record 76",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-76",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ca4824cef2cd9d649472d12d2a73520cbbc40108ab369ebcba06ba72f52ee54b"
+  },
+  {
+    "id": "CANONICAL-REC-077",
+    "title": "Canonical Record 77",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-77",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7017aabdd568489bbd9349d09bcaa8c5c6462f0938314d87789414be05a1a00c"
+  },
+  {
+    "id": "CANONICAL-REC-078",
+    "title": "Canonical Record 78",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-78",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "70ac5641832ce2625997051829de83d35152ed68a31b09e78f56029465671bab"
+  },
+  {
+    "id": "CANONICAL-REC-079",
+    "title": "Canonical Record 79",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-79",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e5a8de79e337bfa856a2a64d0c8b9d541db81e82e618f8758a44cf109dc7ae15"
+  },
+  {
+    "id": "CANONICAL-REC-080",
+    "title": "Canonical Record 80",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-80",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4b27376ec4c9df3dee52232e7cd9e1cf934c06640626a06bd7e425b4d69db33d"
+  },
+  {
+    "id": "CANONICAL-REC-081",
+    "title": "Canonical Record 81",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-81",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "353757fba9ec8d0563ad3a42814e074e2303e2927995780e11fbb3c59bdb5c14"
+  },
+  {
+    "id": "CANONICAL-REC-082",
+    "title": "Canonical Record 82",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-82",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a177b0ccbefef6262fd967e671e68cb21542b42bf24666b8f0ee1f39ab4bf460"
+  },
+  {
+    "id": "CANONICAL-REC-083",
+    "title": "Canonical Record 83",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-83",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a5fe8d5a1057c70456377ca1fed3b452a111ee42df3b8ba0ce8745d275a793d1"
+  },
+  {
+    "id": "CANONICAL-REC-084",
+    "title": "Canonical Record 84",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-84",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "658b41ab0272e3ba82756ce18c3d676c955ba3c240f5de6e81a27c1c2bc4f5b0"
+  },
+  {
+    "id": "CANONICAL-REC-085",
+    "title": "Canonical Record 85",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-85",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d9c785d0f7defd1b8a8ca6d575426b9a5cace96dd4c96cc2b107283ddd8dfb13"
+  },
+  {
+    "id": "CANONICAL-REC-086",
+    "title": "Canonical Record 86",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-86",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "53aad74dfacb3eecfd0b77202266ec1b147cfb597d92448540516dc8fabe7226"
+  },
+  {
+    "id": "CANONICAL-REC-087",
+    "title": "Canonical Record 87",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-87",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "61f1fdafd29230c17f39e29a94fca10f85ecc51ac082a0d0156934f2bc3b6ac2"
+  },
+  {
+    "id": "CANONICAL-REC-088",
+    "title": "Canonical Record 88",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-88",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f8e5a632e71ab8c821836f787573aaf88529260296a4f1efd8d9061f9d1a8f5d"
+  },
+  {
+    "id": "CANONICAL-REC-089",
+    "title": "Canonical Record 89",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-89",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c1b437589a96e585f521f886ec7e52499bfcfc8d634036d30f0db6f60df76016"
+  },
+  {
+    "id": "CANONICAL-REC-090",
+    "title": "Canonical Record 90",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-90",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "92976362f679be0fa4164d727f4c0f7f708a16c5b6b1177085367fe5bf56b44a"
+  },
+  {
+    "id": "CANONICAL-REC-091",
+    "title": "Canonical Record 91",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-91",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9aaff3f9b6b6c7c9d30c420ccb13f9ea3ca2c8e593a16aebaa7c837c5439305e"
+  },
+  {
+    "id": "CANONICAL-REC-092",
+    "title": "Canonical Record 92",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-92",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "151617dc74c21e5f2a2bb3a69d5e82993b5ed33dc109eea3b295d32704e51fd0"
+  },
+  {
+    "id": "CANONICAL-REC-093",
+    "title": "Canonical Record 93",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-93",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "349ab6602cd06fe259413c1391b69f907901722ff8353da50238e28702556c97"
+  },
+  {
+    "id": "CANONICAL-REC-094",
+    "title": "Canonical Record 94",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-94",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5cf128b723e13cf90c0f3ae54e355ecf20adbcc54c4e25d55224a3eaa4272971"
+  },
+  {
+    "id": "CANONICAL-REC-095",
+    "title": "Canonical Record 95",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-95",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "91dd3ca6533d59174dc9d3c3f99f95ecebdda6a80df445654bdf0802c6a87372"
+  },
+  {
+    "id": "CANONICAL-REC-096",
+    "title": "Canonical Record 96",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-96",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7fbef0cf126975aa58a39ebb31673210db8e1f1d8ff69aced80e31b8b839c386"
+  },
+  {
+    "id": "CANONICAL-REC-097",
+    "title": "Canonical Record 97",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-97",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "98563ca74022567894049fe754d91868d46665067d829abd23fd74fde65b6fd0"
+  },
+  {
+    "id": "CANONICAL-REC-098",
+    "title": "Canonical Record 98",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-98",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "151f51965cc42d39f372c12b9b26cf59da904eaa2d5a78ac1a2b565c1d89a2a0"
+  },
+  {
+    "id": "CANONICAL-REC-099",
+    "title": "Canonical Record 99",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-99",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e45d5097368b6689e933e709efaedce0a8a474841700cf05964041506b32719b"
+  },
+  {
+    "id": "CANONICAL-REC-100",
+    "title": "Canonical Record 100",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-100",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d689d33130f4dca9364684bb903e6ed630ee24f19bc6c85d299d74d84f67145b"
+  },
+  {
+    "id": "CANONICAL-REC-101",
+    "title": "Canonical Record 101",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-101",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "97474ff0ca63f2e20d25fbc1ebac2efa9e634e3d816f47dc078f3dcfbbef4617"
+  },
+  {
+    "id": "CANONICAL-REC-102",
+    "title": "Canonical Record 102",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-102",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "59bc99de6caa6c45fefe37526e67267a461f5bf571fa37d943b610cf11f17343"
+  },
+  {
+    "id": "CANONICAL-REC-103",
+    "title": "Canonical Record 103",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-103",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "bc3c363c152892013b3153464a6d289762d61ec42250d79cc0ad7152591724ef"
+  },
+  {
+    "id": "CANONICAL-REC-104",
+    "title": "Canonical Record 104",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-104",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6400ee10160414cd172d4a6d7d3c0b497517fb30c7edee2460dabe6b183ccc77"
+  },
+  {
+    "id": "CANONICAL-REC-105",
+    "title": "Canonical Record 105",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-105",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "41a39b3aa996d88717e04011e936d0f46c97d28704de09344eae644d5543739d"
+  },
+  {
+    "id": "CANONICAL-REC-106",
+    "title": "Canonical Record 106",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-106",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f424cf4adc0254f9d462c6798d4a1c07abb63ea1c5c10ba649a417409d7e4c7d"
+  },
+  {
+    "id": "CANONICAL-REC-107",
+    "title": "Canonical Record 107",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-107",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "51f56fa382f96e094bb95e5838e215997416cb892740af9128439561e7232765"
+  },
+  {
+    "id": "CANONICAL-REC-108",
+    "title": "Canonical Record 108",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-108",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2eb23a9c9fc37a867894fbae97e5039b643e4d79af2b06df48a326900fc1859c"
+  },
+  {
+    "id": "CANONICAL-REC-109",
+    "title": "Canonical Record 109",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-109",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d60fec6b290b0f606aa5b2867b6d6de36ce3c144ff86a2a33ace17c4955a8bcd"
+  },
+  {
+    "id": "CANONICAL-REC-110",
+    "title": "Canonical Record 110",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-110",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "12de650399e7c55426a0c5a737c16ced1a0d3bc6cca9ef4f55300f5a86f7ebb2"
+  },
+  {
+    "id": "CANONICAL-REC-111",
+    "title": "Canonical Record 111",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-111",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "95f1d8a3933a91707d505af7ac3a9d46e0f9b23f3e080b51d8763f9cec9f7b65"
+  },
+  {
+    "id": "CANONICAL-REC-112",
+    "title": "Canonical Record 112",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-112",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "fecc318c91596816e0a5f1d4210599a0210f993bf726c92f042ac41ae8d2c0e4"
+  },
+  {
+    "id": "CANONICAL-REC-113",
+    "title": "Canonical Record 113",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-113",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5454da8446297b94054de8c8016ac6b972d65da4e009673923b6473d64fe580d"
+  },
+  {
+    "id": "CANONICAL-REC-114",
+    "title": "Canonical Record 114",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-114",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3a6d634cb48320a2efc91cb3992bba8b3e845ce440477c02a220d9939ce42b9b"
+  },
+  {
+    "id": "CANONICAL-REC-115",
+    "title": "Canonical Record 115",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-115",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2d08760dfb53c1af3f3f6ab5c5f34a0f263edd16305ce853387cca8c44fabe68"
+  },
+  {
+    "id": "CANONICAL-REC-116",
+    "title": "Canonical Record 116",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-116",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "22d2f977e9bce5b5d7d2d0466daf5d4540d83b43afa049cbe3d5d49af0629897"
+  },
+  {
+    "id": "CANONICAL-REC-117",
+    "title": "Canonical Record 117",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-117",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "8138161f7d7fb047f04cd90ac8b612855f806e109f6933001668f6154601780e"
+  },
+  {
+    "id": "CANONICAL-REC-118",
+    "title": "Canonical Record 118",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-118",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ded25b7d9b27279b9103ce67ac1d4d65f03be551f6493cad6ff2126f098e4d5b"
+  },
+  {
+    "id": "CANONICAL-REC-119",
+    "title": "Canonical Record 119",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-119",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c20b725443533b00e29d670a2668ca2721f8fe46b3c55e677c5a792979831614"
+  },
+  {
+    "id": "CANONICAL-REC-120",
+    "title": "Canonical Record 120",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-120",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ae0c377ef6672e94e3a916ac25663030a9984bffba1c1c45dd6d0a620543406b"
+  },
+  {
+    "id": "CANONICAL-REC-121",
+    "title": "Canonical Record 121",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-121",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c797b17e1d0ee6e5e43b0fec0133b39dc272249930fc5485358b37d58fdc4829"
+  },
+  {
+    "id": "CANONICAL-REC-122",
+    "title": "Canonical Record 122",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-122",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e6f119336e7e7caa19a1d7b1772de05a285289e284f33a28c64da724bf7446d7"
+  },
+  {
+    "id": "CANONICAL-REC-123",
+    "title": "Canonical Record 123",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-123",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "66fa3933ddf1af125bece219c8e7d57caf1d320482618412e4f0b8671f1b512c"
+  },
+  {
+    "id": "CANONICAL-REC-124",
+    "title": "Canonical Record 124",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-124",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "87264bcffa0d3d0bb42530f3e3e7c4a4c9c9e9702765fedc3b8a56e4e84b2a24"
+  },
+  {
+    "id": "CANONICAL-REC-125",
+    "title": "Canonical Record 125",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-125",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "68fc9515b9b0361435ec35620982771f637dcb91c6745071fda6476a555b3a4c"
+  },
+  {
+    "id": "CANONICAL-REC-126",
+    "title": "Canonical Record 126",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-126",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1aa11679f02c9a2d6fdeb8f128b144be65e56b7b3b9f56ea79a787f13fe5d3f7"
+  },
+  {
+    "id": "CANONICAL-REC-127",
+    "title": "Canonical Record 127",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-127",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "87a24121544a0bc2c4dcbce9520a765d579b7a0e34b6d8d7b6940c6b17af1860"
+  },
+  {
+    "id": "CANONICAL-REC-128",
+    "title": "Canonical Record 128",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-128",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "075c597bfc541a57bac6c4e0555b2ab2c59b61ad79589d97858acfb952956502"
+  },
+  {
+    "id": "CANONICAL-REC-129",
+    "title": "Canonical Record 129",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-129",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7decfbce03a3dd5086d0b1b53df5c9114f093565dde8e71fae9c70cf8ad114c7"
+  },
+  {
+    "id": "CANONICAL-REC-130",
+    "title": "Canonical Record 130",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-130",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c299aa57131574b093524c9ddc4ae613a3bfb659b67b662245928ef4518e94de"
+  },
+  {
+    "id": "CANONICAL-REC-131",
+    "title": "Canonical Record 131",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-131",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f7d5d5322a2dd0aa46da84b3c909c06405a7328ff83862eb31422efd4cd49c87"
+  },
+  {
+    "id": "CANONICAL-REC-132",
+    "title": "Canonical Record 132",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-132",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d719c08de250bf1c6b05836141c446e12c1178a9995493c0a7714752cfc2fb68"
+  },
+  {
+    "id": "CANONICAL-REC-133",
+    "title": "Canonical Record 133",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-133",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b693f50dd2bdccb73d69b8a3bf8ed29d5eaf6a6ddc3f2221fb9c89a3062300f8"
+  },
+  {
+    "id": "CANONICAL-REC-134",
+    "title": "Canonical Record 134",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-134",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5511940564f5a29ef16bb11072c736368758a33a16d229d66ed43bff628948b6"
+  },
+  {
+    "id": "CANONICAL-REC-135",
+    "title": "Canonical Record 135",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-135",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "625df7396de8d6f62572267f323266e15e99adddc20c200ba1ed84c1c447f6b9"
+  },
+  {
+    "id": "CANONICAL-REC-136",
+    "title": "Canonical Record 136",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-136",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9c96da831c881a2d1602f17af14c6eb21a3f19c74843002227331b8f38686fd8"
+  },
+  {
+    "id": "CANONICAL-REC-137",
+    "title": "Canonical Record 137",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-137",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b4da4afcee6615e7ca66d678ceddc02c22e4d0c5794308436a2ad3ac2a46dc15"
+  },
+  {
+    "id": "CANONICAL-REC-138",
+    "title": "Canonical Record 138",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-138",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4ac59eedaa1d44ac500de146186811f76eb0ed866d7ee57e29699ea6c19f1141"
+  },
+  {
+    "id": "CANONICAL-REC-139",
+    "title": "Canonical Record 139",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-139",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b7f0db15551643a85d53a6f038df19b172cfc9e8a3cacb4a2e1daa57a357408d"
+  },
+  {
+    "id": "CANONICAL-REC-140",
+    "title": "Canonical Record 140",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-140",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6c555c730cf38441003e64b4b54b43e8a202d3d831aa62c6787dcb0ee05c8b83"
+  },
+  {
+    "id": "CANONICAL-REC-141",
+    "title": "Canonical Record 141",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-141",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7213b43761a84ad6708256c3c4e57033107587e45823a6fde048280dec3bab2e"
+  },
+  {
+    "id": "CANONICAL-REC-142",
+    "title": "Canonical Record 142",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-142",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "02613f7ece99543f549a18f04c99a13e1bc1f55fdaf2044ba3bfc258f12a7276"
+  },
+  {
+    "id": "CANONICAL-REC-143",
+    "title": "Canonical Record 143",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-143",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9a8f8612f1534bf478ac821e5a8606e25ff1aa2903b6b4eb85ad448f29fdc7a7"
+  },
+  {
+    "id": "CANONICAL-REC-144",
+    "title": "Canonical Record 144",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-144",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "cf6715fa5a053de5fbb12e1d2b743504483493b77e13e4e43ecc4dde1738c3c9"
+  },
+  {
+    "id": "CANONICAL-REC-145",
+    "title": "Canonical Record 145",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-145",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6f319db8b15042943c1318329363917fb47f65247c598c7de26cc1330705ca5e"
+  },
+  {
+    "id": "CANONICAL-REC-146",
+    "title": "Canonical Record 146",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-146",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5f18ea9265b96d58016caacca36625060d47c947756d6ac50452d65c494a5a5d"
+  },
+  {
+    "id": "CANONICAL-REC-147",
+    "title": "Canonical Record 147",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-147",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e6d0fb1fda1f9aca06f0895d25ce89e6f130c3608101ae6548db81544973525d"
+  },
+  {
+    "id": "CANONICAL-REC-148",
+    "title": "Canonical Record 148",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-148",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "65becb511aa4eab99d8a9d8560ab7ae0f89ecd4ad8a8e84c1bd472cf2afb282b"
+  },
+  {
+    "id": "CANONICAL-REC-149",
+    "title": "Canonical Record 149",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-149",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "623bb9496825420346056101331103639c2b00874ea48d4a6a295567cd03f123"
+  },
+  {
+    "id": "CANONICAL-REC-150",
+    "title": "Canonical Record 150",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-150",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "57d8696c7277b326903af1e3eaa203a0dce20f6a4c6f014caceafee31a6d34ba"
+  },
+  {
+    "id": "CANONICAL-REC-151",
+    "title": "Canonical Record 151",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-151",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a2dddfc88b9dd0b4ffef09ee7d224cc795b91258ea80498f1a3cffe9a85f8c7e"
+  },
+  {
+    "id": "CANONICAL-REC-152",
+    "title": "Canonical Record 152",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-152",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b3ff39b9e6090dc14fdd44a8a91fe38f113c8d3297bba9ad6f82d6824643ef6a"
+  },
+  {
+    "id": "CANONICAL-REC-153",
+    "title": "Canonical Record 153",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-153",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f5ea77ad84106231d52c2b04ba74ea0fce849a8c954a551ca94adb062fb9c677"
+  },
+  {
+    "id": "CANONICAL-REC-154",
+    "title": "Canonical Record 154",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-154",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "79dee6815743fe383880e37394937f189fa121025d291b706ddf856701a078de"
+  },
+  {
+    "id": "CANONICAL-REC-155",
+    "title": "Canonical Record 155",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-155",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3af06e8a78c635d15370a8f6f726336dd82868dcaf1f09ed21acf1fb47d95ef2"
+  },
+  {
+    "id": "CANONICAL-REC-156",
+    "title": "Canonical Record 156",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-156",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "248fe56c63289c5cab0ef81a547e6458401928bf57f2c4a06708650da0addc23"
+  },
+  {
+    "id": "CANONICAL-REC-157",
+    "title": "Canonical Record 157",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-157",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2f7080c81f8f787c0e67efb6a8079af9271ca0c98996a1003eb7e365c921dbbc"
+  },
+  {
+    "id": "CANONICAL-REC-158",
+    "title": "Canonical Record 158",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-158",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6162143160c6bcb9b51d1d93310ae13ea34adaffc748a23611bb8efc16b9fcec"
+  },
+  {
+    "id": "CANONICAL-REC-159",
+    "title": "Canonical Record 159",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-159",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f69357d48d8207e8980269b29f5133703eb294d5c00de951f6e7aebbba8f38b4"
+  },
+  {
+    "id": "CANONICAL-REC-160",
+    "title": "Canonical Record 160",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-160",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e01e7532c6c2606b0ab9c28b69da948b340a61b3a5777f7c9834044f78dd7fdd"
+  },
+  {
+    "id": "CANONICAL-REC-161",
+    "title": "Canonical Record 161",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-161",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ed1d978d789d7acc8fe4870231f0673d3057219bcddd2d5bdc59d64bdb6c5ed2"
+  },
+  {
+    "id": "CANONICAL-REC-162",
+    "title": "Canonical Record 162",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-162",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7992f9c904ba5e39dcaa510de7d7e70e4a6a5669509625b2ace8c99818d73bb2"
+  },
+  {
+    "id": "CANONICAL-REC-163",
+    "title": "Canonical Record 163",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-163",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5eface2f961487e5a0ec0864017a81f89fed55c54137d1757a762b3915c24d26"
+  },
+  {
+    "id": "CANONICAL-REC-164",
+    "title": "Canonical Record 164",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-164",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "49c2f04b312ece67eaea05ca8e2b2b111a2240e40c1ce2469a8426b3b8a2ec02"
+  },
+  {
+    "id": "CANONICAL-REC-165",
+    "title": "Canonical Record 165",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-165",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c51866543b7c387ba357ebe1301f071d10accbce8d369b627f51a1fe309130d8"
+  },
+  {
+    "id": "CANONICAL-REC-166",
+    "title": "Canonical Record 166",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-166",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ff2d4ed5a975b5ce75a75a26abd20da3b70fbb565f543547d20d48f38076c8bf"
+  },
+  {
+    "id": "CANONICAL-REC-167",
+    "title": "Canonical Record 167",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-167",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3725d64ace9070b2146b3272f68746e7a344a4aeaafdb49ac76adf5fe3c6e782"
+  },
+  {
+    "id": "CANONICAL-REC-168",
+    "title": "Canonical Record 168",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-168",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "731663f6a645f76fb7d939b1a872cef2d93524250c029493db3deeef8761e7bd"
+  },
+  {
+    "id": "CANONICAL-REC-169",
+    "title": "Canonical Record 169",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-169",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3bc46d6bb9b38194c9f1b509c816ed6143ef738aafb6355f98d402066a11fed8"
+  },
+  {
+    "id": "CANONICAL-REC-170",
+    "title": "Canonical Record 170",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-170",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "237df170390808e234a6315fa501154c7dd8478b2515ca01ea06f9cab2393bca"
+  },
+  {
+    "id": "CANONICAL-REC-171",
+    "title": "Canonical Record 171",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-171",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "eeefbd6aaa1c6c6ce86b6702597ceb6ffa3c2867f1826eefad1dfda1fb894e01"
+  },
+  {
+    "id": "CANONICAL-REC-172",
+    "title": "Canonical Record 172",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-172",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c8ea12a16361cfcdd96a49e2e08887aa201fb96293dae4dfc3cd753f90ac61ac"
+  },
+  {
+    "id": "CANONICAL-REC-173",
+    "title": "Canonical Record 173",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-173",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e66dc07598d145f109616e63de5a9cb726a986e4eaea43719572f83722ff1450"
+  },
+  {
+    "id": "CANONICAL-REC-174",
+    "title": "Canonical Record 174",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-174",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1cb21eed92e18ea7854c4b5cb8a2219d9686014758b6281f8b49450ac9ea134b"
+  },
+  {
+    "id": "CANONICAL-REC-175",
+    "title": "Canonical Record 175",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-175",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "409a450e4bec6d9d401189129e7cae5a539badfd29989406a7bad5771c6eec35"
+  },
+  {
+    "id": "CANONICAL-REC-176",
+    "title": "Canonical Record 176",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-176",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f477f190a54e59da44ffd9183b9ace02c4d90f46ceea1c31cf442d68b570f3a5"
+  },
+  {
+    "id": "CANONICAL-REC-177",
+    "title": "Canonical Record 177",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-177",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "24aa4dd7d65b33e0ba66d90fe88dc3cdb2c7309e4ee0fca109967700884fabad"
+  },
+  {
+    "id": "CANONICAL-REC-178",
+    "title": "Canonical Record 178",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-178",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1bf838e2351927b8c43e50c8ed19e079327483f45848b61e2999ef0e7ac5e43c"
+  },
+  {
+    "id": "CANONICAL-REC-179",
+    "title": "Canonical Record 179",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-179",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "45139cc964d53567718726838c768030ef51fa194ade2ea3731e7fa75f99928f"
+  },
+  {
+    "id": "CANONICAL-REC-180",
+    "title": "Canonical Record 180",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-180",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5b1cb551e2aaa51143205d3bb0d37dd12053be4b9b154a92850954ba588decea"
+  },
+  {
+    "id": "CANONICAL-REC-181",
+    "title": "Canonical Record 181",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-181",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "8366824f2963656b017c4e3b1388a4a854d22b15b991070d229c7f235e475e49"
+  },
+  {
+    "id": "CANONICAL-REC-182",
+    "title": "Canonical Record 182",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-182",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f4ba38f68d7f3696a2f31c1520ee169bd133d0e53a00cdbfde2efba14052f56d"
+  },
+  {
+    "id": "CANONICAL-REC-183",
+    "title": "Canonical Record 183",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-183",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0b4483c0e93039dbd7970ef9a05109d36326084737d2ecf54aeaf3e0f720903b"
+  },
+  {
+    "id": "CANONICAL-REC-184",
+    "title": "Canonical Record 184",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-184",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f3b550bf804809933630f65bb4fe39643a7f8ec128ba8bf9395fc25beaac112f"
+  },
+  {
+    "id": "CANONICAL-REC-185",
+    "title": "Canonical Record 185",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-185",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "766c234b99bdaf00028738a88089e2eb00fd9e5c860ec4f8081a58973034ecbf"
+  },
+  {
+    "id": "CANONICAL-REC-186",
+    "title": "Canonical Record 186",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-186",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "63bc893e0c0a7309da112d4039a45dc55cdc2ab0d7f49d77bc93645ddcd25cac"
+  },
+  {
+    "id": "CANONICAL-REC-187",
+    "title": "Canonical Record 187",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-187",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "596aeb60c27f02e9539734f1a0c78d8c4881eafc47d33393d032277db0b0c3f4"
+  },
+  {
+    "id": "CANONICAL-REC-188",
+    "title": "Canonical Record 188",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-188",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5b152a25edf680b0d2edc01f4cab5faabaf6287c63fdc1ba85dd0b46b21b9a3c"
+  },
+  {
+    "id": "CANONICAL-REC-189",
+    "title": "Canonical Record 189",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-189",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "850785330b317c1de820bb420ba3cebce7f6e74076612e2ccecb3c152ec00dd2"
+  },
+  {
+    "id": "CANONICAL-REC-190",
+    "title": "Canonical Record 190",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-190",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e90c6770101869a4d6838c417b16ec898665397c1acc7338eeee1b7ffe8a9055"
+  },
+  {
+    "id": "CANONICAL-REC-191",
+    "title": "Canonical Record 191",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-191",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "31cfa90e58c3292a3e9403b03913cdf004b9ecaab6cf86993f7d14ddf8d913e8"
+  },
+  {
+    "id": "CANONICAL-REC-192",
+    "title": "Canonical Record 192",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-192",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "705f0ecbe7b6d6e2d4825c1b034c0f0067070f6b738499de8b1cccc0c9819ed6"
+  },
+  {
+    "id": "CANONICAL-REC-193",
+    "title": "Canonical Record 193",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-193",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1f02a39f3bb4ffe27b14627115955bcc63c0584460d080ca2419392dea1f77fa"
+  },
+  {
+    "id": "CANONICAL-REC-194",
+    "title": "Canonical Record 194",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-194",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "710d5dfd55efb80ab87418838b106fc8378be236c8bde17e6c45dddb88c1fd2d"
+  },
+  {
+    "id": "CANONICAL-REC-195",
+    "title": "Canonical Record 195",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-195",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c8f8e345571cb779229aa0ebe350d2f4488ef1db0170d834948244dde7d98a7b"
+  },
+  {
+    "id": "CANONICAL-REC-196",
+    "title": "Canonical Record 196",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-196",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "655d836671d3823d855862c0a15d89358374fa6619de6cd804b7c46bade233c4"
+  },
+  {
+    "id": "CANONICAL-REC-197",
+    "title": "Canonical Record 197",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-197",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "34a30423bce23c2b92fb2aac17c7c3230a84e935a7856e2962f2680d2324b292"
+  },
+  {
+    "id": "CANONICAL-REC-198",
+    "title": "Canonical Record 198",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-198",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "cc31979534bdae05f474b6349f1c0155049b5bbd8715b6a6004d9950b7e92961"
+  },
+  {
+    "id": "CANONICAL-REC-199",
+    "title": "Canonical Record 199",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-199",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "531d9b147cc5fb5983bf3b8d1c8f4f32692c2c2bd52979f9128079645a2a1c6a"
+  },
+  {
+    "id": "CANONICAL-REC-200",
+    "title": "Canonical Record 200",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-200",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ffeaf58089bb2f93184a8f15feccbea57653451ef0c685844955344b64f95a12"
+  },
+  {
+    "id": "CANONICAL-REC-201",
+    "title": "Canonical Record 201",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-201",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "960cac6e618a02e63a71054579948b30df51b963871ff5952782e7b56e5b3091"
+  },
+  {
+    "id": "CANONICAL-REC-202",
+    "title": "Canonical Record 202",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-202",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "868a0c8027f38b17fd0ee353c464fdbbf580bf3f8800da3362c93be497fd2138"
+  },
+  {
+    "id": "CANONICAL-REC-203",
+    "title": "Canonical Record 203",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-203",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "bc220d7f2abcaa881a2cff28e036494adbfb7985bf849e04589224e6809ef46e"
+  },
+  {
+    "id": "CANONICAL-REC-204",
+    "title": "Canonical Record 204",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-204",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "923e9a609894dfce2df6a77a9530aa00bac4286a1ea293d634533d032d777223"
+  },
+  {
+    "id": "CANONICAL-REC-205",
+    "title": "Canonical Record 205",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-205",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4ab3eeb76db5fee0f552288dd8f059925770b6dee2834eb1e99d849c1d0d6ffa"
+  },
+  {
+    "id": "CANONICAL-REC-206",
+    "title": "Canonical Record 206",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-206",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c9b6b33bcbac6c99a149ad5b8d3358ac5769ba50d80e2c734372f5fd9749b0b3"
+  },
+  {
+    "id": "CANONICAL-REC-207",
+    "title": "Canonical Record 207",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-207",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a2d15a82ab2486c003985608d3495146988bfe1ed2b1a6842785730f2a34cfcd"
+  },
+  {
+    "id": "CANONICAL-REC-208",
+    "title": "Canonical Record 208",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-208",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ba93fa6ad925b7a74068bc772637a1aa7c283ab716d9427227ae2cadf082e345"
+  },
+  {
+    "id": "CANONICAL-REC-209",
+    "title": "Canonical Record 209",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-209",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2f1325a294bc240fdbb0e62f9e5e1881658ff1f7071d2e7860ca92d81d8f26fa"
+  },
+  {
+    "id": "CANONICAL-REC-210",
+    "title": "Canonical Record 210",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-210",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b4b1edb5ff44af63371e0499f95bf0e24a818362179b50dd85e84bea2242b43f"
+  },
+  {
+    "id": "CANONICAL-REC-211",
+    "title": "Canonical Record 211",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-211",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c8c8a31b7e37946a675f5866336e74db505fae2307512d99aea69d9f1c162d75"
+  },
+  {
+    "id": "CANONICAL-REC-212",
+    "title": "Canonical Record 212",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-212",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e07a3d722b2c5c0e0cf32e5756b83f8305d8cba997122a30973daff9457e3b0a"
+  },
+  {
+    "id": "CANONICAL-REC-213",
+    "title": "Canonical Record 213",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-213",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "77ffc773f483813afa2d216e53cbf998e00061dddd9e203444cf81c90379849a"
+  },
+  {
+    "id": "CANONICAL-REC-214",
+    "title": "Canonical Record 214",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-214",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "36162adaee81f4417374042dd68d709372b2c8983c34e638be8261605aa43dfa"
+  },
+  {
+    "id": "CANONICAL-REC-215",
+    "title": "Canonical Record 215",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-215",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "391a287ceee09d3af61e142df6fdfed319080439385204f158c58840254a1979"
+  },
+  {
+    "id": "CANONICAL-REC-216",
+    "title": "Canonical Record 216",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-216",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2d47b32a72102e63d9e74205dba219e4df62e82b2e16bcad7b814b5137c80e80"
+  },
+  {
+    "id": "CANONICAL-REC-217",
+    "title": "Canonical Record 217",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-217",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0a82a146c304c26417d0b6c3c46ed8382f9d347466ec4189b9dfc31e603cec76"
+  },
+  {
+    "id": "CANONICAL-REC-218",
+    "title": "Canonical Record 218",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-218",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "38fc87ad98efa3678cb7650d85d9d24e8f49d4b3e5245183f82850012a29c258"
+  },
+  {
+    "id": "CANONICAL-REC-219",
+    "title": "Canonical Record 219",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-219",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "fa248ea64ec5d3217f7d29459b81ff6c5b5fe87caea5a6408424f56abb7b9fa0"
+  },
+  {
+    "id": "CANONICAL-REC-220",
+    "title": "Canonical Record 220",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-220",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "75cd7cbe21d0ca044e45491f4214cceaef666701bb0eecd3ecf00e076e3a755c"
+  },
+  {
+    "id": "CANONICAL-REC-221",
+    "title": "Canonical Record 221",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-221",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "576c80a50080e076f1f285c2cc89aed33905f83c6e3218b2198f97c380d19571"
+  },
+  {
+    "id": "CANONICAL-REC-222",
+    "title": "Canonical Record 222",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-222",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2977699452f4797d3bb963b57a0a3d5cce2e512f447b986240f7454ff2a8d1b3"
+  },
+  {
+    "id": "CANONICAL-REC-223",
+    "title": "Canonical Record 223",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-223",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9dba699bb1d83af8371db22c38f3d258f756fbfe96f6e3946c203e011871a55a"
+  },
+  {
+    "id": "CANONICAL-REC-224",
+    "title": "Canonical Record 224",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-224",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c74fa4c966388d1f97ed25d7f58f1f9eeaed5f10076d97d08fe28e688eb53558"
+  },
+  {
+    "id": "CANONICAL-REC-225",
+    "title": "Canonical Record 225",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-225",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0900bc09f10653a8f27f9df2be39f11e01827b115da195a391667d83146275be"
+  },
+  {
+    "id": "CANONICAL-REC-226",
+    "title": "Canonical Record 226",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-226",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "93159dee205109cfa68e2c15d1a685f4a939cf10cf9e00a4bb715c423067bd10"
+  },
+  {
+    "id": "CANONICAL-REC-227",
+    "title": "Canonical Record 227",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-227",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "78cba514d5a1386401e470f9efb8dddac0617d649d926845269d53c5e4642c66"
+  },
+  {
+    "id": "CANONICAL-REC-228",
+    "title": "Canonical Record 228",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-228",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a618be725daec947e9ed00746a75b9f6a2ebedc410f8c89ba698f7e35f2b21ca"
+  },
+  {
+    "id": "CANONICAL-REC-229",
+    "title": "Canonical Record 229",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-229",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f9fdb5c71613a69c2564d60a458dd405da93a7406da6cc40ed5c3fabfdbba288"
+  },
+  {
+    "id": "CANONICAL-REC-230",
+    "title": "Canonical Record 230",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-230",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5cd77c50b24b96caa6f8e5b1e833a2a202ea8febc0ec6a1bfda0500cadf34d0f"
+  },
+  {
+    "id": "CANONICAL-REC-231",
+    "title": "Canonical Record 231",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-231",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "fc70e00cc8b79965e885b96d5f93d78b0b2d9e075f6b3763b4f3fa8feeaaeb8c"
+  },
+  {
+    "id": "CANONICAL-REC-232",
+    "title": "Canonical Record 232",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-232",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1fd2edd2ab60753b71de61fa9fe22dbb17281b1c6145332166b76124c4f68370"
+  },
+  {
+    "id": "CANONICAL-REC-233",
+    "title": "Canonical Record 233",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-233",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "30e03dcd5231ddadc59da1f113cb01e9df39e0a6c02a2f31a8ff1f2ce2b4cd6b"
+  },
+  {
+    "id": "CANONICAL-REC-234",
+    "title": "Canonical Record 234",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-234",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2438fb9bc17f6873f177179d460ab2a1606c7484242cf029988cef37b4e9221c"
+  },
+  {
+    "id": "CANONICAL-REC-235",
+    "title": "Canonical Record 235",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-235",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "262078a0eea4eafc62344cb2348890ed53e3ef8a96079d5dacb486926eb769d5"
+  },
+  {
+    "id": "CANONICAL-REC-236",
+    "title": "Canonical Record 236",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-236",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "30aeab30db535f301d78a3f1755f2d3b15728174def50c573ac14ccf739197d5"
+  },
+  {
+    "id": "CANONICAL-REC-237",
+    "title": "Canonical Record 237",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-237",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b37d21508a13599eccc238dd3c654a69d33d21d418f3640668bb6025419935aa"
+  },
+  {
+    "id": "CANONICAL-REC-238",
+    "title": "Canonical Record 238",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-238",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1ab1927badfd29f7439212cb763a1b861d4710672018c6425b540c91a56badfb"
+  },
+  {
+    "id": "CANONICAL-REC-239",
+    "title": "Canonical Record 239",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-239",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ecf0600411594f4ceaab7a7308ae195fb24bb6504fc7975f4b4e87c85354b9cd"
+  },
+  {
+    "id": "CANONICAL-REC-240",
+    "title": "Canonical Record 240",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-240",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a93b766720c03cdb6a77c1fe55fcaea0839c36818043f53d93076bc879247db2"
+  },
+  {
+    "id": "CANONICAL-REC-241",
+    "title": "Canonical Record 241",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-241",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "17d8f228ec06b5053a87b1fad070bf2a21222724e8cb146701d49dc3bf76ba5e"
+  },
+  {
+    "id": "CANONICAL-REC-242",
+    "title": "Canonical Record 242",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-242",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0e59221d0d0111d585d308e7f07944fde14c7f2be69412e8719c6b80a1e59e62"
+  },
+  {
+    "id": "CANONICAL-REC-243",
+    "title": "Canonical Record 243",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-243",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ade4080363e3ff065f233cc8783135014058295227fe5b1ac7b41082b7cec9a7"
+  },
+  {
+    "id": "CANONICAL-REC-244",
+    "title": "Canonical Record 244",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-244",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c8ec339892c8d58579ae119773b85ba8b450213aa0d677ce824dafaa046968f8"
+  },
+  {
+    "id": "CANONICAL-REC-245",
+    "title": "Canonical Record 245",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-245",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "94b25ef6118bc08f6d27eca9661fd0156ab7d2f3489d63e0bb83f1af5eea137a"
+  },
+  {
+    "id": "CANONICAL-REC-246",
+    "title": "Canonical Record 246",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-246",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3ab233b21c2f869c0aad4935a3a6fe63674bb974d0ab7551b56f688c85457426"
+  },
+  {
+    "id": "CANONICAL-REC-247",
+    "title": "Canonical Record 247",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-247",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "cbc3663083e15552bf5e88ceb731c195542994f067ddeefb1a35d64d3528b061"
+  },
+  {
+    "id": "CANONICAL-REC-248",
+    "title": "Canonical Record 248",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-248",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6d388c90cff11fdf69973e454ad1251f39e8b5c11ca9994a2160e2abe1bb12fe"
+  },
+  {
+    "id": "CANONICAL-REC-249",
+    "title": "Canonical Record 249",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-249",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a82819c09445d02152b536ca3deb5ce7bec3095b004cdf27de7ec01e1504b9a9"
+  },
+  {
+    "id": "CANONICAL-REC-250",
+    "title": "Canonical Record 250",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-250",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "843e7da5712d737ffaf122179b7969976e870093337be41b829d6d3798438f7e"
+  },
+  {
+    "id": "CANONICAL-REC-251",
+    "title": "Canonical Record 251",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-251",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "204e6421e3b0db581331ceef80025f8b5afae1f6b95ea9cb9586b656b5fa6bcb"
+  },
+  {
+    "id": "CANONICAL-REC-252",
+    "title": "Canonical Record 252",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-252",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a67accb303757c85db04d8842c3c3eb1045927922d0494dbf3ed07f80e1a2fad"
+  },
+  {
+    "id": "CANONICAL-REC-253",
+    "title": "Canonical Record 253",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-253",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3e2ac7780e1c7ea6c088639481b158e94d49865956c4bba5fe249d265f198757"
+  },
+  {
+    "id": "CANONICAL-REC-254",
+    "title": "Canonical Record 254",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-254",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f8921510ca1ec3ddabcb15ae66f06880546570eeeee22cb4b91fca1e494f1580"
+  },
+  {
+    "id": "CANONICAL-REC-255",
+    "title": "Canonical Record 255",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-255",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "05c3814b25a1914a142db7263c0498a390ae4825103c6a3aed251926a5de3133"
+  },
+  {
+    "id": "CANONICAL-REC-256",
+    "title": "Canonical Record 256",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-256",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1818732462341c38cfd6c88a355358f81d1a19b6ef6dc060b594cb7d92ffd717"
+  },
+  {
+    "id": "CANONICAL-REC-257",
+    "title": "Canonical Record 257",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-257",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "54eb677eeb136d15befc937e9b28dff3fc7f9a5a88befd8300529b8acfeb5a19"
+  },
+  {
+    "id": "CANONICAL-REC-258",
+    "title": "Canonical Record 258",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-258",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "246783e01a0b97ee69ac1b991b502d05595654ae89ab3d7dca67ae7f048df5d6"
+  },
+  {
+    "id": "CANONICAL-REC-259",
+    "title": "Canonical Record 259",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-259",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d5c58f8837828bb24922a09e54c05edaafd0b330e173d364ae07fc6d86b9954f"
+  },
+  {
+    "id": "CANONICAL-REC-260",
+    "title": "Canonical Record 260",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-260",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d54020f2f0a1baf528aa820a27bf7421090834177715ef86b0b6831146d104d5"
+  },
+  {
+    "id": "CANONICAL-REC-261",
+    "title": "Canonical Record 261",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-261",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "388a8df39b24a2559658ddc71502f0287a7580471662550cb08f510a4fb348a2"
+  },
+  {
+    "id": "CANONICAL-REC-262",
+    "title": "Canonical Record 262",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-262",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "828780d72e10edddc5a4ac780f38ed5c25e2a0756153b5fd4b77ed9c4513c420"
+  },
+  {
+    "id": "CANONICAL-REC-263",
+    "title": "Canonical Record 263",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-263",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "74ec506ed86fe49c433595d3793734d6556013e86d7958933a4c0971fb78df16"
+  },
+  {
+    "id": "CANONICAL-REC-264",
+    "title": "Canonical Record 264",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-264",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6f57c943d00a4fb1558d514836a328e7a7eadf8d26c0b10f6d2c20ac63126bd5"
+  },
+  {
+    "id": "CANONICAL-REC-265",
+    "title": "Canonical Record 265",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-265",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b9c32ad6b0b1db29e75217850dedd047160ed28990686fc45ea4320c0c7a48db"
+  },
+  {
+    "id": "CANONICAL-REC-266",
+    "title": "Canonical Record 266",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-266",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "bed77678129782cce4b1a180d93bb862f4d1421ea9acd548dd6bd4b4eb5e139e"
+  },
+  {
+    "id": "CANONICAL-REC-267",
+    "title": "Canonical Record 267",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-267",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0a8c38ede8444c3c3bf6fb0f154b18f762c3cd3a1d936c9f68692e55d7c8ed16"
+  },
+  {
+    "id": "CANONICAL-REC-268",
+    "title": "Canonical Record 268",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-268",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7a0f8f681504b467fb65ff5490eddf82fa1051da55dd78d3ff9986dc63cae916"
+  },
+  {
+    "id": "CANONICAL-REC-269",
+    "title": "Canonical Record 269",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-269",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6f98d458d55d69204a7a50ac46f3305bf4afc62cf90457020d2ef824a01f8a06"
+  },
+  {
+    "id": "CANONICAL-REC-270",
+    "title": "Canonical Record 270",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-270",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "05ec1da6f458cd3da01424a3fd1d03f16587193a0318a60643b4f04b8bfc1ef5"
+  },
+  {
+    "id": "CANONICAL-REC-271",
+    "title": "Canonical Record 271",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-271",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ac9f77e68c487f8b1b654ba6ef121e504d8ad4160039b21251e69a9006463c0c"
+  },
+  {
+    "id": "CANONICAL-REC-272",
+    "title": "Canonical Record 272",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-272",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6a2b866694f92027ed691a36ab69770482c388dec19c08913c851e384f558e9f"
+  },
+  {
+    "id": "CANONICAL-REC-273",
+    "title": "Canonical Record 273",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-273",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c5313c1cb87658368cf0603334426b3ae10edad6ed99ec28b2d8492c0db19144"
+  },
+  {
+    "id": "CANONICAL-REC-274",
+    "title": "Canonical Record 274",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-274",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "20d47c0897a8e4851ba6f00efaf58917f197ce350faf838e415f515b5cf1609f"
+  },
+  {
+    "id": "CANONICAL-REC-275",
+    "title": "Canonical Record 275",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-275",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c7360ea5fa64bbf94ef1f093ba454983e67592e1caff4f641b67e411925396d3"
+  },
+  {
+    "id": "CANONICAL-REC-276",
+    "title": "Canonical Record 276",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-276",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a3fab7a258b4fa980dee15610739161a1cdb4ed9789d488f98569b799b4696e3"
+  },
+  {
+    "id": "CANONICAL-REC-277",
+    "title": "Canonical Record 277",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-277",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a884b0609bf267516fa50673cd4f9b55c7eec6627b9673925bd638764d327fcb"
+  },
+  {
+    "id": "CANONICAL-REC-278",
+    "title": "Canonical Record 278",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-278",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e29dea56205b21b51e089b4602031304e480ca94f15cce999180a3fb469c8c11"
+  },
+  {
+    "id": "CANONICAL-REC-279",
+    "title": "Canonical Record 279",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-279",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c41d085742d671e6ac03bdb7cff8940dcddea9823574fe4ca5a0decbddd85ceb"
+  },
+  {
+    "id": "CANONICAL-REC-280",
+    "title": "Canonical Record 280",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-280",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "21e9a83e49d2902feb50c53c546b4fc525c2ce20da0172c2df479ee582273ce1"
+  },
+  {
+    "id": "CANONICAL-REC-281",
+    "title": "Canonical Record 281",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-281",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "68e7cce94fb865dfa3eedda92ffb4f6eb2859062d3769c47348da793dc13c2f0"
+  },
+  {
+    "id": "CANONICAL-REC-282",
+    "title": "Canonical Record 282",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-282",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c6269fc00b9ac83aeb4a0561561da6096d8d488126689808d461f91b689a0154"
+  },
+  {
+    "id": "CANONICAL-REC-283",
+    "title": "Canonical Record 283",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-283",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "99c1d588d7136d726505b36f52db2b73cd82db325ea5be690bbade96ac745b0a"
+  },
+  {
+    "id": "CANONICAL-REC-284",
+    "title": "Canonical Record 284",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-284",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "bb13d5da665eb9df620cc42cecc9f77d2423e797035282a1418777cb40d31937"
+  },
+  {
+    "id": "CANONICAL-REC-285",
+    "title": "Canonical Record 285",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-285",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "34c34ab790db6a7ef54439e40e4c65f0ce1905cd8c1054fa36c1c07a24861d19"
+  },
+  {
+    "id": "CANONICAL-REC-286",
+    "title": "Canonical Record 286",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-286",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4ed8bc77d0a8e000880c05ce9e2091eaf3b1bc504c937ef08ceab6cc1ab4688f"
+  },
+  {
+    "id": "CANONICAL-REC-287",
+    "title": "Canonical Record 287",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-287",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "40e3fd627a46f6e019bda850880d35497efa8c6a5a0c2a943e7582b2101630c5"
+  },
+  {
+    "id": "CANONICAL-REC-288",
+    "title": "Canonical Record 288",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-288",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3f5403ef9a55676d74426106d967aa5b561a70b8eaf8395beba349de6a9b1f8f"
+  },
+  {
+    "id": "CANONICAL-REC-289",
+    "title": "Canonical Record 289",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-289",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5f76730c1e1be3a50e8999d7369a9007db6afff9fdc1095b84d85e6dad93391e"
+  },
+  {
+    "id": "CANONICAL-REC-290",
+    "title": "Canonical Record 290",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-290",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9bc528c99747229e529b01d927c39990fcc5a8af23b9b95e0b47e87db047283b"
+  },
+  {
+    "id": "CANONICAL-REC-291",
+    "title": "Canonical Record 291",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-291",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c923baae391ca4054059e5b199071f0c31b08070f130a1be9f4927a9ba3d9a09"
+  },
+  {
+    "id": "CANONICAL-REC-292",
+    "title": "Canonical Record 292",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-292",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4603c220b667bce4cb2115857a914b9f35d149fb361010d6736972ebc4d2ba7c"
+  },
+  {
+    "id": "CANONICAL-REC-293",
+    "title": "Canonical Record 293",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-293",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "edb621ab19910d3f284cfc04006bbf6db8a908938f8feead5083378886623b52"
+  },
+  {
+    "id": "CANONICAL-REC-294",
+    "title": "Canonical Record 294",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-294",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5f8bd0d9469cd9df00c7d738daddaf7c423d5338ae3a51c5713ca97b944b6f17"
+  },
+  {
+    "id": "CANONICAL-REC-295",
+    "title": "Canonical Record 295",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-295",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d21085f35f85804045bd0fd53354acadc09a50dbc30ebed9762d8bcb0ddce5ab"
+  },
+  {
+    "id": "CANONICAL-REC-296",
+    "title": "Canonical Record 296",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-296",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f3af9ca3b0cbaad8d76d3b679f89d5bf7c785a9c07a6293a50e27eb5490b1f14"
+  },
+  {
+    "id": "CANONICAL-REC-297",
+    "title": "Canonical Record 297",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-297",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2f5c2929bcf22f9dd90370c4d89f6f91537ba253c830b972bd75ad12a7bac310"
+  },
+  {
+    "id": "CANONICAL-REC-298",
+    "title": "Canonical Record 298",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-298",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ea7b49d690da1cc3dddbaf921a43d2d6c7de974d772aa22e9f1642e31696ed0b"
+  },
+  {
+    "id": "CANONICAL-REC-299",
+    "title": "Canonical Record 299",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-299",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7fb13b1a4ac3cf16ba1d33a36d20f1a11ca9a26b5dd9470a865d2a77319f06f8"
+  },
+  {
+    "id": "CANONICAL-REC-300",
+    "title": "Canonical Record 300",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-300",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e2d030b96c09d296288ff81dd453bf92008ef9686f70f4f6218ccb4e48d3be6b"
+  },
+  {
+    "id": "CANONICAL-REC-301",
+    "title": "Canonical Record 301",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-301",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2dba8e8cd466b404aca11fb5e20126233fb3a2056453c5825e23562803285365"
+  },
+  {
+    "id": "CANONICAL-REC-302",
+    "title": "Canonical Record 302",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-302",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "cdda246b96c3e5159486d19865751f6c850ed697240d6f4eabd5327473427e1b"
+  },
+  {
+    "id": "CANONICAL-REC-303",
+    "title": "Canonical Record 303",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-303",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ea5d423248602c2004dce899fdac1a32326447b380cce30a0903f4f3fbbe890e"
+  },
+  {
+    "id": "CANONICAL-REC-304",
+    "title": "Canonical Record 304",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-304",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d4772a52d126ec1e0bfb6ac55257412da9ddcec523aaefae9a91c4489ad98e46"
+  },
+  {
+    "id": "CANONICAL-REC-305",
+    "title": "Canonical Record 305",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-305",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "4c63d356854060c57240adcfd242bda7ebf539b7a5dcf71b6c622c5ac2a595c8"
+  },
+  {
+    "id": "CANONICAL-REC-306",
+    "title": "Canonical Record 306",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-306",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1a9448c9ea1aadcbbf1221a64f69cca94b7da231fbee03375d58c9c4dfaf257a"
+  },
+  {
+    "id": "CANONICAL-REC-307",
+    "title": "Canonical Record 307",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-307",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3caf9354e4c30aef3333ec1c040ba9c60753928741f5c47a243a7aef9adde50f"
+  },
+  {
+    "id": "CANONICAL-REC-308",
+    "title": "Canonical Record 308",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-308",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5cb60a2b2f45d0c935e6458fd46430064b529c90981dcd4a6289e618c2418ba7"
+  },
+  {
+    "id": "CANONICAL-REC-309",
+    "title": "Canonical Record 309",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-309",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "21adcaf040b5a0ae7d74202e69ecab51f683441fc402341c5b1eddaf1fdf65c9"
+  },
+  {
+    "id": "CANONICAL-REC-310",
+    "title": "Canonical Record 310",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-310",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f569e273ca243ed1ff7c69d89ea27c3d1cd39fc8e1d0b2f44dc5a8abbc4e87e0"
+  },
+  {
+    "id": "CANONICAL-REC-311",
+    "title": "Canonical Record 311",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-311",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "03b8a2391b012bc5f8d51c111779ba13ff117a46f2a7ab602549a8d88783dedf"
+  },
+  {
+    "id": "CANONICAL-REC-312",
+    "title": "Canonical Record 312",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-312",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "132e2719c4ebd6965a6e4e88e8903c9ef38574f5d1decd4908c636af3e12d9d2"
+  },
+  {
+    "id": "CANONICAL-REC-313",
+    "title": "Canonical Record 313",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-313",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0d3d878af77ff522ffd52a35f93834970f2a1a97131cd99797c12f6fa762fcb3"
+  },
+  {
+    "id": "CANONICAL-REC-314",
+    "title": "Canonical Record 314",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-314",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ab55df1024d7b50ac06e6a1732521dfbe1bf8c93b8d010d581373814442298ce"
+  },
+  {
+    "id": "CANONICAL-REC-315",
+    "title": "Canonical Record 315",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-315",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "8ce772b62b6274c83466f8225430f793c981d98df6d3391a8ff3850d98b63df2"
+  },
+  {
+    "id": "CANONICAL-REC-316",
+    "title": "Canonical Record 316",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-316",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1b8e65ce10d7b8008cd8f4c31bae1254c9ab0bd54e2647917c972b7016c9ee74"
+  },
+  {
+    "id": "CANONICAL-REC-317",
+    "title": "Canonical Record 317",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-317",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d2af3ce8cbdaf3b9c1c6e80a0a0232b7415df38468208c5b0bd3ad3fd6058f7b"
+  },
+  {
+    "id": "CANONICAL-REC-318",
+    "title": "Canonical Record 318",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-318",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0eed964158198fc7805c8e3d5e04bcf4ca025b182b894fc442725d0b254579fe"
+  },
+  {
+    "id": "CANONICAL-REC-319",
+    "title": "Canonical Record 319",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-319",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "fe82e05f8dd28735c0ae273e37c4dc3a024a789eb10976837c73079597113d56"
+  },
+  {
+    "id": "CANONICAL-REC-320",
+    "title": "Canonical Record 320",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-320",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "77c4019615d0c3f7180da24b2b47daa44d755f2c281e298b2ab2cc47151f38d8"
+  },
+  {
+    "id": "CANONICAL-REC-321",
+    "title": "Canonical Record 321",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-321",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "552ded4080462ab7552498ee083e324b050e25e94426d44b3c259b6c0169a841"
+  },
+  {
+    "id": "CANONICAL-REC-322",
+    "title": "Canonical Record 322",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-322",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "35475ee955cf9a79eea7517e2961417f75a7687269ec0277c7a03b8c6de90d8c"
+  },
+  {
+    "id": "CANONICAL-REC-323",
+    "title": "Canonical Record 323",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-323",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "67da0772645cf59035b738b5f2a24f56edb68fb0b5c97fed11ca009610f65f64"
+  },
+  {
+    "id": "CANONICAL-REC-324",
+    "title": "Canonical Record 324",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-324",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0092c2269f31b28c332f361e242deeb2c75df6b6e300f9a7353f3562dcf47963"
+  },
+  {
+    "id": "CANONICAL-REC-325",
+    "title": "Canonical Record 325",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-325",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "df9b2efe41cdb4b83557d4464c724f18e991d21d8dc221edc987466c2b961490"
+  },
+  {
+    "id": "CANONICAL-REC-326",
+    "title": "Canonical Record 326",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-326",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a5b2d704f393d9799e3f8ddb0eed7076941397ac50c0951bcfc974539c7bcbea"
+  },
+  {
+    "id": "CANONICAL-REC-327",
+    "title": "Canonical Record 327",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-327",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5f489fd305e437a4286c5ffa6b1dc6361219d551106adde5e6dfa5643b3b544e"
+  },
+  {
+    "id": "CANONICAL-REC-328",
+    "title": "Canonical Record 328",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-328",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "305b0efa89f06043f194ece5ba4164869ac0e0d75332ea7c5d9cfc808e9d961e"
+  },
+  {
+    "id": "CANONICAL-REC-329",
+    "title": "Canonical Record 329",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-329",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "12bd95a354260ca5e58e388fa1c0a306d297ba631acd38414febbafcefc509de"
+  },
+  {
+    "id": "CANONICAL-REC-330",
+    "title": "Canonical Record 330",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-330",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b32b2c6b8513f0d76b0d013f5978fe9549f9326b7435b1a29f49faa9128f7084"
+  },
+  {
+    "id": "CANONICAL-REC-331",
+    "title": "Canonical Record 331",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-331",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ea494dbdc0977bc40b1bef3f2904a2ad77047a20d6f44b4da495ebb149fd3595"
+  },
+  {
+    "id": "CANONICAL-REC-332",
+    "title": "Canonical Record 332",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-332",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "73b2b0b76a2cddff9a3afb27da7bab5f4b78c5725aaedf1a2b4d6204eaa45dde"
+  },
+  {
+    "id": "CANONICAL-REC-333",
+    "title": "Canonical Record 333",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-333",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "63823db999d7774be8a5434695fdb2eefbb58f6c89c51bc0fba24b9cb6652f2d"
+  },
+  {
+    "id": "CANONICAL-REC-334",
+    "title": "Canonical Record 334",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-334",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ed3347737d5c9ffe502ab3dae55ae44e6c464e03adc554aec9c3b1fc0c5ada4a"
+  },
+  {
+    "id": "CANONICAL-REC-335",
+    "title": "Canonical Record 335",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-335",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6c598bb0eec46438a44e531c038a7084f750f2b4d8cdb406fd984f0dda965ebb"
+  },
+  {
+    "id": "CANONICAL-REC-336",
+    "title": "Canonical Record 336",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-336",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5ef999446523ee775b5b25ff8dbfc78b76941ac231b1bf75fe322cd585b14a50"
+  },
+  {
+    "id": "CANONICAL-REC-337",
+    "title": "Canonical Record 337",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-337",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b995396cddde384bea9c9730909e251a152f10650a1ccfdf0b1d733ba84f59e0"
+  },
+  {
+    "id": "CANONICAL-REC-338",
+    "title": "Canonical Record 338",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-338",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "08125ba5bd5af1a70beb3d78dcedfefb3c601a008dea54be856dcdfae4b1c941"
+  },
+  {
+    "id": "CANONICAL-REC-339",
+    "title": "Canonical Record 339",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-339",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "1dd942074831c588d1efebc457d245eec9e1c1d50ff46f02ab43cb40774d29f0"
+  },
+  {
+    "id": "CANONICAL-REC-340",
+    "title": "Canonical Record 340",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-340",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f7dffb3ec7276feff015dd1006080695a2c79cd1ef4880e27d8f722762c34dd1"
+  },
+  {
+    "id": "CANONICAL-REC-341",
+    "title": "Canonical Record 341",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-341",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "d9052c226b7a1accd6925fb0066e67412540a1dbd37e4fabacf8fa26fe97f527"
+  },
+  {
+    "id": "CANONICAL-REC-342",
+    "title": "Canonical Record 342",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-342",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "83b55567ecffa55991f1b9418782b61e2f89114efbabf3109d229f5bdca17d3b"
+  },
+  {
+    "id": "CANONICAL-REC-343",
+    "title": "Canonical Record 343",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-343",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "558ef4abd4bd69e977736709e6710281709d5b0dbe30f331d2961138300b1f96"
+  },
+  {
+    "id": "CANONICAL-REC-344",
+    "title": "Canonical Record 344",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-344",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f274e5e7ec44e22cbc8314857a81e006ebe952d179dd48c490ebc3a453ff67b9"
+  },
+  {
+    "id": "CANONICAL-REC-345",
+    "title": "Canonical Record 345",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-345",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9993810a3b3f68f62e274f4563294108e978867c632f28776614129463591949"
+  },
+  {
+    "id": "CANONICAL-REC-346",
+    "title": "Canonical Record 346",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-346",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "8fc76e5f3349c4f7fbde443086774fbeb7ae41b5994c9e00d6f16f7671beb085"
+  },
+  {
+    "id": "CANONICAL-REC-347",
+    "title": "Canonical Record 347",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-347",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "aa1a3da0c96b97a218e90291e970e0080c75e18fa2df7d4864fede77fcde8070"
+  },
+  {
+    "id": "CANONICAL-REC-348",
+    "title": "Canonical Record 348",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-348",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9e17ea6ae2ed9408fad1798bed5ade2ab402c1f46fff2256bfe93e460638c7ec"
+  },
+  {
+    "id": "CANONICAL-REC-349",
+    "title": "Canonical Record 349",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-349",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "a2afaeb4e9ab43446a2b0f02a1d75a378e5d2269d0a0d99ee067f0650b52561e"
+  },
+  {
+    "id": "CANONICAL-REC-350",
+    "title": "Canonical Record 350",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-350",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7ea8d3e5b11da55ff72025d12f260df34bdff05feed7bce5fb0377ad08056938"
+  },
+  {
+    "id": "CANONICAL-REC-351",
+    "title": "Canonical Record 351",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-351",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "753c1015381443132f9fe1f56e6fc5989d96f9874ab8e24028fdb10e295378ee"
+  },
+  {
+    "id": "CANONICAL-REC-352",
+    "title": "Canonical Record 352",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-352",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c80f0b4cd57bff544ef0101dad49a721cf9e8920e1ac773f34fe26fde6df7437"
+  },
+  {
+    "id": "CANONICAL-REC-353",
+    "title": "Canonical Record 353",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-353",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "86ef1b98c3504564fb03fbdd2641e0d68f648c1217fe2c7347cf08a2ef68b6f8"
+  },
+  {
+    "id": "CANONICAL-REC-354",
+    "title": "Canonical Record 354",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-354",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6c940cdb50af3ce8d57f5090445d411b667613532fab2440b977db8ab3db4c33"
+  },
+  {
+    "id": "CANONICAL-REC-355",
+    "title": "Canonical Record 355",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-355",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "bd1fb28ece4ec85072bf9c0a7baf92728c82f0ae14c362b12632462dc0317cb9"
+  },
+  {
+    "id": "CANONICAL-REC-356",
+    "title": "Canonical Record 356",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-356",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "e42e879f7af97ea3833686d18ab28c2ccedaaff9a35d0500ee0c7773c2ef4af1"
+  },
+  {
+    "id": "CANONICAL-REC-357",
+    "title": "Canonical Record 357",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-357",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "33b02f6609803f2d56bb370873a63f935a55b6793afbd59488fabb703fcdf1dd"
+  },
+  {
+    "id": "CANONICAL-REC-358",
+    "title": "Canonical Record 358",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-358",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "fde1303ab9421a4b37586a0404d1d220f21f00d35cc47dc5ebf8a5c866721942"
+  },
+  {
+    "id": "CANONICAL-REC-359",
+    "title": "Canonical Record 359",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-359",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6bfff1e742d8816c4c19d2d76ce7b0d0b123a4c7d101370790ab6ad48b02cf76"
+  },
+  {
+    "id": "CANONICAL-REC-360",
+    "title": "Canonical Record 360",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-360",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7d2200595adbb5e41ee960f35774723d05a4348a6435a3741a220dd098e5c5b7"
+  },
+  {
+    "id": "CANONICAL-REC-361",
+    "title": "Canonical Record 361",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-361",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "87c30a2bd391fc39a230e0e71035fae85b36ac22fed074e505e0a1d10c158b44"
+  },
+  {
+    "id": "CANONICAL-REC-362",
+    "title": "Canonical Record 362",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-362",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5baf2fa84141d91bfca947d924c6e714f257033801c52da1ac0224336282e7c7"
+  },
+  {
+    "id": "CANONICAL-REC-363",
+    "title": "Canonical Record 363",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-363",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7a40d0a13017432786da3424b63326f80eee50a02520dc64cfaa185f6a18d344"
+  },
+  {
+    "id": "CANONICAL-REC-364",
+    "title": "Canonical Record 364",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-364",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ad724387eaca294dfd6a60056c983c10cbe28bffba3c824646e45fd830663136"
+  },
+  {
+    "id": "CANONICAL-REC-365",
+    "title": "Canonical Record 365",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-365",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "62fcfd46d402a0d922c4323a732fbd48fc8c7259fcf57a3a11b169029071ec42"
+  },
+  {
+    "id": "CANONICAL-REC-366",
+    "title": "Canonical Record 366",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-366",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c33cea06031c3b09fc3f675db7fd51ea6777ab12dc98a41d2be81cd14b2752d2"
+  },
+  {
+    "id": "CANONICAL-REC-367",
+    "title": "Canonical Record 367",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-367",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "7b979d4189fd031e929663d750be91fb784df49c2e0b7b170dc42d28aa79e634"
+  },
+  {
+    "id": "CANONICAL-REC-368",
+    "title": "Canonical Record 368",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-368",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f25d969f255930ad2fbf222cee3e4c4aec2598822db04377db1d69680f8da003"
+  },
+  {
+    "id": "CANONICAL-REC-369",
+    "title": "Canonical Record 369",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-369",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "dce7064d366bf6d5c1b883d381572d34777f2d9fc76e9ae7973182a9aa0330b6"
+  },
+  {
+    "id": "CANONICAL-REC-370",
+    "title": "Canonical Record 370",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-370",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6d36b335d1566e806615e4018475c5c83056e1f176727821ebf9c49508d9e9cd"
+  },
+  {
+    "id": "CANONICAL-REC-371",
+    "title": "Canonical Record 371",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-371",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0cff510f9f310365e9de98c624299902a5d0c5090c0d70eb5c804d7aece6f6e4"
+  },
+  {
+    "id": "CANONICAL-REC-372",
+    "title": "Canonical Record 372",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-372",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "016f726381079290bef61edaf67b6bf0782e3a1cb90974ad77d620d76bc1210b"
+  },
+  {
+    "id": "CANONICAL-REC-373",
+    "title": "Canonical Record 373",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-373",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6f011fc06a47df300e28a550d8299cfbe34118bda3fe33f401d17cb3af458a68"
+  },
+  {
+    "id": "CANONICAL-REC-374",
+    "title": "Canonical Record 374",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-374",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "f38f4b2d688060b10901e19916dd2777077ba82aed2dcfceb71122d5e281cde8"
+  },
+  {
+    "id": "CANONICAL-REC-375",
+    "title": "Canonical Record 375",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-375",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "0c518a5426b2169c67de134bb6b6aa6e78306e74ca5ed84af069d31d9b09a234"
+  },
+  {
+    "id": "CANONICAL-REC-376",
+    "title": "Canonical Record 376",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-376",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "b96e2c9b7bf6c6250ae73f76fc0db572bcb0c85e4ce2c13ec4f2dd4ca2741077"
+  },
+  {
+    "id": "CANONICAL-REC-377",
+    "title": "Canonical Record 377",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-377",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "834db48463567b322fdbd3617bbd179f3f983217bd946b4a6f9e78281b128a83"
+  },
+  {
+    "id": "CANONICAL-REC-378",
+    "title": "Canonical Record 378",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-378",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6608d98a3a1659b88aaa6a87a243d07d757e35a19af7f161931206261e799985"
+  },
+  {
+    "id": "CANONICAL-REC-379",
+    "title": "Canonical Record 379",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-379",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "5e0d74d3af01fa931b12a1794bd7a43ba7f677fbfa51aad87c2b2d13da878244"
+  },
+  {
+    "id": "CANONICAL-REC-380",
+    "title": "Canonical Record 380",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-380",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "35fcfa084596283ffeaccd5c3362d15d23902c2432a08074efd33abafbdd5686"
+  },
+  {
+    "id": "CANONICAL-REC-381",
+    "title": "Canonical Record 381",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-381",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "cc40bc2ed38d43c6de6443ade470fd97678524e81a8d5c6cdf1b1e7e65ee2857"
+  },
+  {
+    "id": "CANONICAL-REC-382",
+    "title": "Canonical Record 382",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-382",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "9387fcc8316f8fdee1a15bba52a84632655f5fc8781f9e212179732237918de5"
+  },
+  {
+    "id": "CANONICAL-REC-383",
+    "title": "Canonical Record 383",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-383",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "70ec5baa86c0dffce55bece9951745d665bf7bb8fdecb95ab88bdedf14b27f39"
+  },
+  {
+    "id": "CANONICAL-REC-384",
+    "title": "Canonical Record 384",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-384",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "6043c48a6a7d5e621c274a45957de9a22170a6e028f2e38267ddd1825b9602b7"
+  },
+  {
+    "id": "CANONICAL-REC-385",
+    "title": "Canonical Record 385",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-385",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "01f89a8768c08bc5dced59b15a7a32c47a748d5491c1164a108dfa08e180ec65"
+  },
+  {
+    "id": "CANONICAL-REC-386",
+    "title": "Canonical Record 386",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-386",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "339750023dc02aeea68a2b77df1aca41d50950455a32c6266a2f403e05609e6c"
+  },
+  {
+    "id": "CANONICAL-REC-387",
+    "title": "Canonical Record 387",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-387",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "31f5630ed459298c72317a7d94a51c39e7ddd19bf289bbc21a1b1807ab642590"
+  },
+  {
+    "id": "CANONICAL-REC-388",
+    "title": "Canonical Record 388",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-388",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ce103a876891bced95d9647351423c4ca1df54902857669f32d99114f85a47f3"
+  },
+  {
+    "id": "CANONICAL-REC-389",
+    "title": "Canonical Record 389",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-389",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "483c413c4db6c63743160b7045159908816ca2f107d000cdfc30d6c165edee07"
+  },
+  {
+    "id": "CANONICAL-REC-390",
+    "title": "Canonical Record 390",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-390",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "8000aa66b6fbffb1015371228a8e6d7dae30f3f627893df31f3bc1bf07e1091a"
+  },
+  {
+    "id": "CANONICAL-REC-391",
+    "title": "Canonical Record 391",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-391",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ff2852206d3df55c18f385e617bfa8885a3acc46d43a891bbb19578c2f2a2c77"
+  },
+  {
+    "id": "CANONICAL-REC-392",
+    "title": "Canonical Record 392",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-392",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "509f0344e355cd876fe3752ea354deae4b412d60f8decaf1483627cc4491d23a"
+  },
+  {
+    "id": "CANONICAL-REC-393",
+    "title": "Canonical Record 393",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-393",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ccf74df74362eb9a790ce6cb28252ef1b3cccebdd8014fdfe4ab85531198f744"
+  },
+  {
+    "id": "CANONICAL-REC-394",
+    "title": "Canonical Record 394",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-394",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "c4d143282150ed2a2946f36bf0ed373d2cff9add241477a4aa50ac2ab2d804a9"
+  },
+  {
+    "id": "CANONICAL-REC-395",
+    "title": "Canonical Record 395",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-395",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "259faf8a01056cb6afe1431e76f1e9fd594952ba2a6759ca0432ba5efab8a5e0"
+  },
+  {
+    "id": "CANONICAL-REC-396",
+    "title": "Canonical Record 396",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-396",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "3ebf121c5f0ee5023ebf5ce4c8478dbc8dd1a524f007a8676aaa04c98cdfae8b"
+  },
+  {
+    "id": "CANONICAL-REC-397",
+    "title": "Canonical Record 397",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-397",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ffd47fe0359e80dd9326e00b09bcf6e1fa9cd0fbd4991871af31c758f421d3db"
+  },
+  {
+    "id": "CANONICAL-REC-398",
+    "title": "Canonical Record 398",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-398",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "20f76292489e41c2ff979287804cabcb0ca1ab20ee1d9fe2f00902ee9f84d993"
+  },
+  {
+    "id": "CANONICAL-REC-399",
+    "title": "Canonical Record 399",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-399",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "2f19b506c9cb740164a98f3ea3136ca9e8c37cbc138c377c98d7ed3fac5e4f9a"
+  },
+  {
+    "id": "CANONICAL-REC-400",
+    "title": "Canonical Record 400",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-400",
+    "recordType": "RAMA_LIFE_EVENT",
+    "contentHash": "ed3ca61342e6ce8ff56b1b82ab7473b33080a14f831cc08cf42ed0b639caa67f"
+  },
+  {
+    "id": "CANONICAL-REC-401",
+    "title": "Canonical Record 401",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-401",
+    "recordType": "CHARACTER",
+    "contentHash": "417d7c31e26600ac701eda037c23a68690567101af5e0298286b163e1c3899db"
+  },
+  {
+    "id": "CANONICAL-REC-402",
+    "title": "Canonical Record 402",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-402",
+    "recordType": "CHARACTER",
+    "contentHash": "44d901296d45b8ceeceed4aaeb05aa28816402fd9337d5c4ef05cd9ef6672d29"
+  },
+  {
+    "id": "CANONICAL-REC-403",
+    "title": "Canonical Record 403",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-403",
+    "recordType": "CHARACTER",
+    "contentHash": "a6d6dc5531438022156d4d1db26d303ab901a197fd5eaa6aa10e83822a466b43"
+  },
+  {
+    "id": "CANONICAL-REC-404",
+    "title": "Canonical Record 404",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-404",
+    "recordType": "CHARACTER",
+    "contentHash": "cf8082be53aef3666e4e7c51271fbd677808833bd86225b34a55be56fe1c1447"
+  },
+  {
+    "id": "CANONICAL-REC-405",
+    "title": "Canonical Record 405",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-405",
+    "recordType": "CHARACTER",
+    "contentHash": "83d09959b12756484192b26f0be1d59d3801085e6f37cf1a2924ceb6536781d8"
+  },
+  {
+    "id": "CANONICAL-REC-406",
+    "title": "Canonical Record 406",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-406",
+    "recordType": "CHARACTER",
+    "contentHash": "fb52082a52e4377edd0615c2bed5bc067535b36ce3befc72abf37d0313060c01"
+  },
+  {
+    "id": "CANONICAL-REC-407",
+    "title": "Canonical Record 407",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-407",
+    "recordType": "CHARACTER",
+    "contentHash": "7d56b46541b5ceba50c85ddc30035a23b3f02097a7ba8efc2fa5d1da01b2d249"
+  },
+  {
+    "id": "CANONICAL-REC-408",
+    "title": "Canonical Record 408",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-408",
+    "recordType": "CHARACTER",
+    "contentHash": "0facb46d56d8e957e695f75742fdc6bcb0febc1e7c8351fd1aa781bc055c7595"
+  },
+  {
+    "id": "CANONICAL-REC-409",
+    "title": "Canonical Record 409",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-409",
+    "recordType": "CHARACTER",
+    "contentHash": "3e8ca66060b3dcbef489424247187c961f4624eab15f36129ae123e031cd6215"
+  },
+  {
+    "id": "CANONICAL-REC-410",
+    "title": "Canonical Record 410",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-410",
+    "recordType": "CHARACTER",
+    "contentHash": "1b1d66fde2cf62c3fc5988463544af7c99adaf8e4e7bc1a80074aebbd3e351ac"
+  },
+  {
+    "id": "CANONICAL-REC-411",
+    "title": "Canonical Record 411",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-411",
+    "recordType": "CHARACTER",
+    "contentHash": "4fba3cda0f91c32267fb166fb6c92d1a4b9b26ea27bf5e850452c1af06866dda"
+  },
+  {
+    "id": "CANONICAL-REC-412",
+    "title": "Canonical Record 412",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-412",
+    "recordType": "CHARACTER",
+    "contentHash": "ef2d7f4a53053b894912a0c7572f6f37632a66a977f44a8318459ed5701be5ad"
+  },
+  {
+    "id": "CANONICAL-REC-413",
+    "title": "Canonical Record 413",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-413",
+    "recordType": "CHARACTER",
+    "contentHash": "2b94b8dfd6974f9c247c80a38818e82a2e7827210289518422bb941ab39ed7c3"
+  },
+  {
+    "id": "CANONICAL-REC-414",
+    "title": "Canonical Record 414",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-414",
+    "recordType": "CHARACTER",
+    "contentHash": "9cdcb930130a3599d1b6e94204be80d2f86adf854de731704c98af2226cc9ac1"
+  },
+  {
+    "id": "CANONICAL-REC-415",
+    "title": "Canonical Record 415",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-415",
+    "recordType": "CHARACTER",
+    "contentHash": "353867a73ff1adb40fe119e80fbb263f64ed1b7a103e7548b391eea6a4721690"
+  },
+  {
+    "id": "CANONICAL-REC-416",
+    "title": "Canonical Record 416",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-416",
+    "recordType": "CHARACTER",
+    "contentHash": "c4418495025775115232bf9633352da5b3b850770d892616ec6474b2fcd76a43"
+  },
+  {
+    "id": "CANONICAL-REC-417",
+    "title": "Canonical Record 417",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-417",
+    "recordType": "CHARACTER",
+    "contentHash": "5f9386231b475c53a4683e2674e8ee89e00fc3e97c2b2e1a6e2d50b72569187c"
+  },
+  {
+    "id": "CANONICAL-REC-418",
+    "title": "Canonical Record 418",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-418",
+    "recordType": "CHARACTER",
+    "contentHash": "0817e10174525b4e063a29d6b1ff69ff7cccf2921bad0f33e51cb4c4c746fe2b"
+  },
+  {
+    "id": "CANONICAL-REC-419",
+    "title": "Canonical Record 419",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-419",
+    "recordType": "CHARACTER",
+    "contentHash": "e23bb8951ee84df8742ea3e7e71e5443cdd824c8a17e6a8ff679c82e08d443c1"
+  },
+  {
+    "id": "CANONICAL-REC-420",
+    "title": "Canonical Record 420",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-420",
+    "recordType": "CHARACTER",
+    "contentHash": "fe26088822f3c68b33863abe64a9e68446a2e06f4b760155b4912df90e712467"
+  },
+  {
+    "id": "CANONICAL-REC-421",
+    "title": "Canonical Record 421",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-421",
+    "recordType": "CHARACTER",
+    "contentHash": "b3de2ec269fd27ed690ae8e0ae0784919534d7a0ae362f77ead9088a9a7efa2b"
+  },
+  {
+    "id": "CANONICAL-REC-422",
+    "title": "Canonical Record 422",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-422",
+    "recordType": "CHARACTER",
+    "contentHash": "7ea9603d4c0fc150dff12a971ce9e32cba6162d11c16bc5a202b34ba0ec9bb5b"
+  },
+  {
+    "id": "CANONICAL-REC-423",
+    "title": "Canonical Record 423",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-423",
+    "recordType": "CHARACTER",
+    "contentHash": "5b6c8362592ba290d907ec855479f7e7e6adb6672f6b04c8ab6616acf1ce9f86"
+  },
+  {
+    "id": "CANONICAL-REC-424",
+    "title": "Canonical Record 424",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-424",
+    "recordType": "CHARACTER",
+    "contentHash": "773214e0e3c43c326ce66b34f0e9993db464c67ee25fdd8aaae5731c0e58a050"
+  },
+  {
+    "id": "CANONICAL-REC-425",
+    "title": "Canonical Record 425",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-425",
+    "recordType": "CHARACTER",
+    "contentHash": "cfec5a54de5d5e1a1724fd0ed59044f3a4c5afb277ecf22f1031b26a30e00d79"
+  },
+  {
+    "id": "CANONICAL-REC-426",
+    "title": "Canonical Record 426",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-426",
+    "recordType": "CHARACTER",
+    "contentHash": "5add308154d59c146306f3b0a7b58c48d0f0983f9505df59acf4f282a70a043e"
+  },
+  {
+    "id": "CANONICAL-REC-427",
+    "title": "Canonical Record 427",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-427",
+    "recordType": "CHARACTER",
+    "contentHash": "f38795182b0b7f00f5ae9f90a7e38a2bebcf51de65499afb247087c397ed6ecd"
+  },
+  {
+    "id": "CANONICAL-REC-428",
+    "title": "Canonical Record 428",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-428",
+    "recordType": "CHARACTER",
+    "contentHash": "f41070694ab0224c84001efcb013158887159c3a0917272c36965e3047d50c10"
+  },
+  {
+    "id": "CANONICAL-REC-429",
+    "title": "Canonical Record 429",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-429",
+    "recordType": "CHARACTER",
+    "contentHash": "ee72b6e9836d0f85a91b753dd309ffa6a190505e011e274dd5363c5feba13638"
+  },
+  {
+    "id": "CANONICAL-REC-430",
+    "title": "Canonical Record 430",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-430",
+    "recordType": "CHARACTER",
+    "contentHash": "9b30f7ef3f1617ed0fa05c716e536cc6e1c752d8e234a0dfb5a6d1e960159eae"
+  },
+  {
+    "id": "CANONICAL-REC-431",
+    "title": "Canonical Record 431",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-431",
+    "recordType": "CHARACTER",
+    "contentHash": "e026f88b87896985d9b420258668ffb496658016c7157fa457fd2ecc97144eb1"
+  },
+  {
+    "id": "CANONICAL-REC-432",
+    "title": "Canonical Record 432",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-432",
+    "recordType": "CHARACTER",
+    "contentHash": "d14eb4368d7f30c4b25a9edf0e5909a31e302ec9ea7b8f49c74c2843b8a1a247"
+  },
+  {
+    "id": "CANONICAL-REC-433",
+    "title": "Canonical Record 433",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-433",
+    "recordType": "CHARACTER",
+    "contentHash": "ed8e92992b2c37637047f7e5ef5d8c1db99077c3522136b4d300bad06247d417"
+  },
+  {
+    "id": "CANONICAL-REC-434",
+    "title": "Canonical Record 434",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-434",
+    "recordType": "CHARACTER",
+    "contentHash": "399b7fb77873c076290eb28e3b831102cf961b22e44897052c6ff6647132a23d"
+  },
+  {
+    "id": "CANONICAL-REC-435",
+    "title": "Canonical Record 435",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-435",
+    "recordType": "CHARACTER",
+    "contentHash": "150f9cc64988c9bc5f445c399d9efa929c94815c24a5cce4f52e13cac6d0e93e"
+  },
+  {
+    "id": "CANONICAL-REC-436",
+    "title": "Canonical Record 436",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-436",
+    "recordType": "CHARACTER",
+    "contentHash": "ff8686aa0a63a771a4ee87d946f512699ffb472adcfbdb970bfc05081c084087"
+  },
+  {
+    "id": "CANONICAL-REC-437",
+    "title": "Canonical Record 437",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-437",
+    "recordType": "CHARACTER",
+    "contentHash": "674211bfde9e7ea5e59ead049d3a30cd098bfd2cf8fca3f4a8f742a71afbeb9e"
+  },
+  {
+    "id": "CANONICAL-REC-438",
+    "title": "Canonical Record 438",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-438",
+    "recordType": "CHARACTER",
+    "contentHash": "7c813f7dcf39f2bb355dda7cb1ad9eeddf758c3c72e63130fe7bd9c2849217ad"
+  },
+  {
+    "id": "CANONICAL-REC-439",
+    "title": "Canonical Record 439",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-439",
+    "recordType": "CHARACTER",
+    "contentHash": "8ca23d357f6365e97954e5d6c48b34f71086a41071a63313df28276c540ea518"
+  },
+  {
+    "id": "CANONICAL-REC-440",
+    "title": "Canonical Record 440",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-440",
+    "recordType": "CHARACTER",
+    "contentHash": "af5e6fd3d4c17c6fff23b7beebd74ff377a058a7ec0fc93a4842505ffb6b18f8"
+  },
+  {
+    "id": "CANONICAL-REC-441",
+    "title": "Canonical Record 441",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-441",
+    "recordType": "CHARACTER",
+    "contentHash": "b1cccb1b21901cacb0f5460ce17ed1967bd0a1b9fcd6680e6b7d798a5a944a39"
+  },
+  {
+    "id": "CANONICAL-REC-442",
+    "title": "Canonical Record 442",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-442",
+    "recordType": "CHARACTER",
+    "contentHash": "0c80d996dad19a4f3cdc116eb82167b70cfebea4ed3bf5a75a713d40b8cf70f1"
+  },
+  {
+    "id": "CANONICAL-REC-443",
+    "title": "Canonical Record 443",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-443",
+    "recordType": "CHARACTER",
+    "contentHash": "e77d096e090340535a3ba3516ca0ceba6724b47308c8c8eddd8987e63f71d012"
+  },
+  {
+    "id": "CANONICAL-REC-444",
+    "title": "Canonical Record 444",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-444",
+    "recordType": "CHARACTER",
+    "contentHash": "717c95d97bf8268a4c21b3557f92931c95412658dce35f3a3e4dc2d8a9e0b9eb"
+  },
+  {
+    "id": "CANONICAL-REC-445",
+    "title": "Canonical Record 445",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-445",
+    "recordType": "CHARACTER",
+    "contentHash": "faec877b235cd35996779654c7e53c29953ecc69306417092a056110e4695830"
+  },
+  {
+    "id": "CANONICAL-REC-446",
+    "title": "Canonical Record 446",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-446",
+    "recordType": "CHARACTER",
+    "contentHash": "9ed103dc16773373e4c3e5caf574a2c5b193da61ab126f3e6d6bc6de6b581eab"
+  },
+  {
+    "id": "CANONICAL-REC-447",
+    "title": "Canonical Record 447",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-447",
+    "recordType": "CHARACTER",
+    "contentHash": "0c02d5cf7787b308ae7c1f7e918df85ea6be468c97aece3334fde0fbb456eec5"
+  },
+  {
+    "id": "CANONICAL-REC-448",
+    "title": "Canonical Record 448",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-448",
+    "recordType": "CHARACTER",
+    "contentHash": "e8c15baaa5ab3a6e749bd44fa67043b4c37f0ade1e99153cdc0de98e818436fb"
+  },
+  {
+    "id": "CANONICAL-REC-449",
+    "title": "Canonical Record 449",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-449",
+    "recordType": "CHARACTER",
+    "contentHash": "df72ab107b2f316c8af053b3aa12aa3486f04979277ee9b586a5f2bfff6450b8"
+  },
+  {
+    "id": "CANONICAL-REC-450",
+    "title": "Canonical Record 450",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-450",
+    "recordType": "CHARACTER",
+    "contentHash": "167eb5c1f30b365c3abff2394317c659301c5c7f7bba1568dc32cb2d11df4ad2"
+  },
+  {
+    "id": "CANONICAL-REC-451",
+    "title": "Canonical Record 451",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-451",
+    "recordType": "PLACE",
+    "contentHash": "f5820a08f4c1f558c9302ed0dce81416d00482a0a86e5c150108ad05435243d0"
+  },
+  {
+    "id": "CANONICAL-REC-452",
+    "title": "Canonical Record 452",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-452",
+    "recordType": "PLACE",
+    "contentHash": "9ddbe5ab157b7baab758cc3218ed78a473ec388f45ccb36835bf95fa7c332918"
+  },
+  {
+    "id": "CANONICAL-REC-453",
+    "title": "Canonical Record 453",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-453",
+    "recordType": "PLACE",
+    "contentHash": "9a759e1e28a6639ce7cde9a93a0222adbeb95d0362cd0b2c097f69e39d627212"
+  },
+  {
+    "id": "CANONICAL-REC-454",
+    "title": "Canonical Record 454",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-454",
+    "recordType": "PLACE",
+    "contentHash": "e17542a3f14f7e14590006172e365b25db173b16abf83dd305ed2e1263c615aa"
+  },
+  {
+    "id": "CANONICAL-REC-455",
+    "title": "Canonical Record 455",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-455",
+    "recordType": "PLACE",
+    "contentHash": "5498c5fa3f559ec334998b2fa8b803da7c4a7577e778cddabf216bde454ff113"
+  },
+  {
+    "id": "CANONICAL-REC-456",
+    "title": "Canonical Record 456",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-456",
+    "recordType": "PLACE",
+    "contentHash": "21880a380d6be1b097f5da32695e771597a3dba7775f95cf4224c7ecb53f2350"
+  },
+  {
+    "id": "CANONICAL-REC-457",
+    "title": "Canonical Record 457",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-457",
+    "recordType": "PLACE",
+    "contentHash": "4987ee3dbf8dd120a4b2af47df81a0d8e79df9f0685bb51c518633bfc783df29"
+  },
+  {
+    "id": "CANONICAL-REC-458",
+    "title": "Canonical Record 458",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-458",
+    "recordType": "PLACE",
+    "contentHash": "b2a33a8b6469c41b55920bde3d70b823975f6457145812102aef899472ca0371"
+  },
+  {
+    "id": "CANONICAL-REC-459",
+    "title": "Canonical Record 459",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-459",
+    "recordType": "PLACE",
+    "contentHash": "ceb77780d53dacdd2054258533438ea56dff86bb34bce46eeb9c3c27f53d4b0c"
+  },
+  {
+    "id": "CANONICAL-REC-460",
+    "title": "Canonical Record 460",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-460",
+    "recordType": "PLACE",
+    "contentHash": "c1227710acd7c7a42da1caf83942f79f5cfd11bc405fbe2f71350c20868b7d5c"
+  },
+  {
+    "id": "CANONICAL-REC-461",
+    "title": "Canonical Record 461",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-461",
+    "recordType": "PLACE",
+    "contentHash": "affd605ce6650a005123b44423ac379aa44a77dbb7030977ba56abb283ed5954"
+  },
+  {
+    "id": "CANONICAL-REC-462",
+    "title": "Canonical Record 462",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-462",
+    "recordType": "PLACE",
+    "contentHash": "7da01ac1f0b951ebf74bb4bbe3000ebc7551593a825b484d7a2917376a000b06"
+  },
+  {
+    "id": "CANONICAL-REC-463",
+    "title": "Canonical Record 463",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-463",
+    "recordType": "PLACE",
+    "contentHash": "725ce0c5992f8236decd063db80c1032b3a9da0d9a00027aeba886198a0e58bf"
+  },
+  {
+    "id": "CANONICAL-REC-464",
+    "title": "Canonical Record 464",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-464",
+    "recordType": "PLACE",
+    "contentHash": "7f923fa8b0a84a98e31e899e3f37ee8a091eb6644ec4b349ecd9337720ed697e"
+  },
+  {
+    "id": "CANONICAL-REC-465",
+    "title": "Canonical Record 465",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-465",
+    "recordType": "PLACE",
+    "contentHash": "5af64c16e2d1eeb30e860c0ff00079f4507ad80388201f8cffb4a53ede6e07be"
+  },
+  {
+    "id": "CANONICAL-REC-466",
+    "title": "Canonical Record 466",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-466",
+    "recordType": "PLACE",
+    "contentHash": "aa1a6a532158fc063efe8bc1d02a96a4b91eed45895fd675231d1c0de5bee6bb"
+  },
+  {
+    "id": "CANONICAL-REC-467",
+    "title": "Canonical Record 467",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-467",
+    "recordType": "PLACE",
+    "contentHash": "00d725132276e02efbcf7633da5ce2da300acb1a0a195d7566d7bc943504b6ee"
+  },
+  {
+    "id": "CANONICAL-REC-468",
+    "title": "Canonical Record 468",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-468",
+    "recordType": "PLACE",
+    "contentHash": "06104aa39d64cb4be625104a1e3da488ebc352750982e9862b5aa4f516fd9348"
+  },
+  {
+    "id": "CANONICAL-REC-469",
+    "title": "Canonical Record 469",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-469",
+    "recordType": "PLACE",
+    "contentHash": "922c79766bfa0e965a4cc5d39f214ac78656629e4b46fbd1f0a402a72ccf9810"
+  },
+  {
+    "id": "CANONICAL-REC-470",
+    "title": "Canonical Record 470",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-470",
+    "recordType": "PLACE",
+    "contentHash": "dd545cbce0f664844daad5736c4f0de7a3432e7ce2f76018e0287d62f110dfec"
+  },
+  {
+    "id": "CANONICAL-REC-471",
+    "title": "Canonical Record 471",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-471",
+    "recordType": "PLACE",
+    "contentHash": "fa0ffc3b5459791168dbe8445e8fa1a93b1f2925a26d854e3275614b05c2189c"
+  },
+  {
+    "id": "CANONICAL-REC-472",
+    "title": "Canonical Record 472",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-472",
+    "recordType": "PLACE",
+    "contentHash": "7ae899733cc3668938df0e5687696c251c77c5e758a69f9e481533d27f9fa26e"
+  },
+  {
+    "id": "CANONICAL-REC-473",
+    "title": "Canonical Record 473",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-473",
+    "recordType": "PLACE",
+    "contentHash": "53f2d32a44d4ca4ae1696ee81dcec8b4e3e18e58572c2b947adb0d4eda5b98e7"
+  },
+  {
+    "id": "CANONICAL-REC-474",
+    "title": "Canonical Record 474",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-474",
+    "recordType": "PLACE",
+    "contentHash": "275830d83efed7386ec7dc4714743ec0ddcd758f3cffba7d8faf0c8a733aeee9"
+  },
+  {
+    "id": "CANONICAL-REC-475",
+    "title": "Canonical Record 475",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-475",
+    "recordType": "PLACE",
+    "contentHash": "df8a18d62d6cbbdd890b3d355c4f474f8aa0b03d527f8731546267f23477e314"
+  },
+  {
+    "id": "CANONICAL-REC-476",
+    "title": "Canonical Record 476",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-476",
+    "recordType": "PLACE",
+    "contentHash": "0bcd527ea765875c2282c52d3608e0fda8e5d91b092107f84fbcd68917cf7acd"
+  },
+  {
+    "id": "CANONICAL-REC-477",
+    "title": "Canonical Record 477",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-477",
+    "recordType": "PLACE",
+    "contentHash": "a615c887edf717cc259814cf267bf9bc906dc36fd08eefba37932bd0ff523dc8"
+  },
+  {
+    "id": "CANONICAL-REC-478",
+    "title": "Canonical Record 478",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-478",
+    "recordType": "PLACE",
+    "contentHash": "6b5b21f3a9cff0192e0109d8c28d5480b637066064a5bebce2cbc74baa389246"
+  },
+  {
+    "id": "CANONICAL-REC-479",
+    "title": "Canonical Record 479",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-479",
+    "recordType": "PLACE",
+    "contentHash": "66e415eaae858836fd835f82d810cba9b55a768fb122c467957e1a9dfee0acc0"
+  },
+  {
+    "id": "CANONICAL-REC-480",
+    "title": "Canonical Record 480",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-480",
+    "recordType": "PLACE",
+    "contentHash": "9ff41eefb5594e1421e2ae6befc1ea1df1851b23def019b0ec25b32d3e11d089"
+  },
+  {
+    "id": "CANONICAL-REC-481",
+    "title": "Canonical Record 481",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-481",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "7bd986df0e79ac877be0e53c71a300617e4eea8ba7b79cc06c79a9785b3e6db1"
+  },
+  {
+    "id": "CANONICAL-REC-482",
+    "title": "Canonical Record 482",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-482",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "c7ffe4a73f742b9d4e976d5063e1f15381bf1862cdf17f8f3fa605b64f868be0"
+  },
+  {
+    "id": "CANONICAL-REC-483",
+    "title": "Canonical Record 483",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-483",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "9139266430946a21419aa523da9bb1b253653ab0b3525574a99fba118a33e34d"
+  },
+  {
+    "id": "CANONICAL-REC-484",
+    "title": "Canonical Record 484",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-484",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "96df78e03727b35e4c5953c56ec81a1ceff165a398afda27175a06ad35146ab6"
+  },
+  {
+    "id": "CANONICAL-REC-485",
+    "title": "Canonical Record 485",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-485",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "ef26fe90457c36a71529d19556921258974d01c1512110dd26bf4384e39464c9"
+  },
+  {
+    "id": "CANONICAL-REC-486",
+    "title": "Canonical Record 486",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-486",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "38e81944e6bd4390791cfa21afb73bb409a7653cdb5c45c684be9cfa96258e61"
+  },
+  {
+    "id": "CANONICAL-REC-487",
+    "title": "Canonical Record 487",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-487",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "f0bd693fe6db550107720dd19ee37ddc0fd2f4bacfa8143317fa7a65dfceccfd"
+  },
+  {
+    "id": "CANONICAL-REC-488",
+    "title": "Canonical Record 488",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-488",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "3bd9253368682239fd137a7705c4d1b586482b4d0c02e8153be97251b567b660"
+  },
+  {
+    "id": "CANONICAL-REC-489",
+    "title": "Canonical Record 489",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-489",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "e8f30b8719656ddf2989300dd1a5620890aadb175cacf1d94186fead86b78b6e"
+  },
+  {
+    "id": "CANONICAL-REC-490",
+    "title": "Canonical Record 490",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-490",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "06b59b3b12036e8435fac39ffeeba385fbe2d30ef215faaf381c245948707393"
+  },
+  {
+    "id": "CANONICAL-REC-491",
+    "title": "Canonical Record 491",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-491",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "4ec1fd8d726256d05097fe556b6e3fecd5e9826833328374614f2d22991c0931"
+  },
+  {
+    "id": "CANONICAL-REC-492",
+    "title": "Canonical Record 492",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-492",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "a9133590b9493132c53cd69d3f23cf8bfa0d77d47a04734f7e5e05e35d7a6c24"
+  },
+  {
+    "id": "CANONICAL-REC-493",
+    "title": "Canonical Record 493",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-493",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "495081de293dda3ca44cdc27bc8801b2a7663ea1377d6a38b1e5c137584ff165"
+  },
+  {
+    "id": "CANONICAL-REC-494",
+    "title": "Canonical Record 494",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-494",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "b6408a248cf7689070c33d6145ff59e152b608b7d424321b98b1fdc940defa4b"
+  },
+  {
+    "id": "CANONICAL-REC-495",
+    "title": "Canonical Record 495",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-495",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "ef118a8a0a1770a9d7c078450b3a45d66ae8b7ca7fa46c010ed67401eb27a305"
+  },
+  {
+    "id": "CANONICAL-REC-496",
+    "title": "Canonical Record 496",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-496",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "891e69e81ad28eb8b9f41c656e367597547ef201856d9465916294f155320497"
+  },
+  {
+    "id": "CANONICAL-REC-497",
+    "title": "Canonical Record 497",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-497",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "d4b6fe293ec71aa8c383f8d686661fda3149ad1cdb94139f2022e54d7cd16d52"
+  },
+  {
+    "id": "CANONICAL-REC-498",
+    "title": "Canonical Record 498",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-498",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "6cc55e96c49c45ec23e93607dbce4b095684a310d0d549302f2ad7398c0e607e"
+  },
+  {
+    "id": "CANONICAL-REC-499",
+    "title": "Canonical Record 499",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-499",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "24b583b3b90ec7eda48236d0dba1b7a58e2a92f247876b143a1ebd49e22452ae"
+  },
+  {
+    "id": "CANONICAL-REC-500",
+    "title": "Canonical Record 500",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-500",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "76c2a78288cf2cb7d0900c66fd675cdab076ccd57ddc556200aa51a2815ac461"
+  },
+  {
+    "id": "CANONICAL-REC-501",
+    "title": "Canonical Record 501",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-501",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "1bcd15f1db98c7c90711a31073d278553a3b27fc27fb1306259792d09dcc268f"
+  },
+  {
+    "id": "CANONICAL-REC-502",
+    "title": "Canonical Record 502",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-502",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "410aaf520940bf9b861b5214fef072adbbe7bce50e019c88e9613b1522cdd66d"
+  },
+  {
+    "id": "CANONICAL-REC-503",
+    "title": "Canonical Record 503",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-503",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "7ee4347c80e99226e4c2d102b4cebd2a886567606cd7dbdc9029eb2d59b738bf"
+  },
+  {
+    "id": "CANONICAL-REC-504",
+    "title": "Canonical Record 504",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-504",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "2297333e5313aeece9b1a11cfabfc86d013ec17770fa706dcd1b7313edb11238"
+  },
+  {
+    "id": "CANONICAL-REC-505",
+    "title": "Canonical Record 505",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-505",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "98d6c02664b9a4353a694fc41ac4336015ad4d91a7b9f3acd513940761dbe8f0"
+  },
+  {
+    "id": "CANONICAL-REC-506",
+    "title": "Canonical Record 506",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-506",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "cf14c9955c27dd2e658f5fc509bd3a97ad55ed50744dddf255cdf0a5791bfec9"
+  },
+  {
+    "id": "CANONICAL-REC-507",
+    "title": "Canonical Record 507",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-507",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "28759742ce09a783d736a8d859a2066c8d9657518095fc257e6ba0bfefa64e71"
+  },
+  {
+    "id": "CANONICAL-REC-508",
+    "title": "Canonical Record 508",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-508",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "ba15a626a4855508c7e0e865d172cc63f0d9fcf131f07f4ffb810fbb6f196ba7"
+  },
+  {
+    "id": "CANONICAL-REC-509",
+    "title": "Canonical Record 509",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-509",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "0829433dc8eca2eb4d7ac9fe57640daa62036e3c0db1fcc8c217ab240a0a08a4"
+  },
+  {
+    "id": "CANONICAL-REC-510",
+    "title": "Canonical Record 510",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-510",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "ad0aa3e12098aae020c3561697b550144f1a288785a8a0beedaa4dc5cae7c125"
+  },
+  {
+    "id": "CANONICAL-REC-511",
+    "title": "Canonical Record 511",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-511",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "bcc30f9d63852fc6a9039330ba029837561dedd06ba89fb29bced56cececd5cd"
+  },
+  {
+    "id": "CANONICAL-REC-512",
+    "title": "Canonical Record 512",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-512",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "c8df1228797be71d59a59fedd44641bc46fdbb6cae7a633e505b9e03e8af29e7"
+  },
+  {
+    "id": "CANONICAL-REC-513",
+    "title": "Canonical Record 513",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-513",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "245fea23154a4abeacb9b7d547140f9ff0786dfc871502c216a808eb979d30a9"
+  },
+  {
+    "id": "CANONICAL-REC-514",
+    "title": "Canonical Record 514",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-514",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "998a721ecdddae7efeecefeee60160a9c2f8586d27256428c501e76034df6a26"
+  },
+  {
+    "id": "CANONICAL-REC-515",
+    "title": "Canonical Record 515",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-515",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "c0898d1a434deeb4ffd41df9aa39c5a110a6f68ab3aa158595e5dcc7a2bdf067"
+  },
+  {
+    "id": "CANONICAL-REC-516",
+    "title": "Canonical Record 516",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-516",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "53c13f83cccd3ee65d46062065d82be33e8c50d4af9153f342203d660cc39bc5"
+  },
+  {
+    "id": "CANONICAL-REC-517",
+    "title": "Canonical Record 517",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-517",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "5d2721e3d9a3b903d4b2ec82367261d0b2edb7cbfcc37d326db4dbd5838f217c"
+  },
+  {
+    "id": "CANONICAL-REC-518",
+    "title": "Canonical Record 518",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-518",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "40b0cbd4860d3ea7b5d3db3ed71e92001ad1a7b4d49adf84e42dcea072082767"
+  },
+  {
+    "id": "CANONICAL-REC-519",
+    "title": "Canonical Record 519",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-519",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "19043452a2d916d4cffd2863d3ffdafeac2d20ba00ddf4026897c5b4720724d5"
+  },
+  {
+    "id": "CANONICAL-REC-520",
+    "title": "Canonical Record 520",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-520",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "276a9ee78745cd4e20370717e5688a233b14416db232bba8fe05a44af90e9394"
+  },
+  {
+    "id": "CANONICAL-REC-521",
+    "title": "Canonical Record 521",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-521",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "357c9563836e1a0097438c19c088665d33852cc12298cabe77be203a81be7ea0"
+  },
+  {
+    "id": "CANONICAL-REC-522",
+    "title": "Canonical Record 522",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-522",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "cbc2309616f895d4a6dfcd97e57665c13827586ce51bda7e2613b8bde1d757e6"
+  },
+  {
+    "id": "CANONICAL-REC-523",
+    "title": "Canonical Record 523",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-523",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "f672b614c15e8782d370d04faa75276849ed6022d767470186ecdd0757828a64"
+  },
+  {
+    "id": "CANONICAL-REC-524",
+    "title": "Canonical Record 524",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-524",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "422589746c57c893e9e417244e98000c7c5353c1f1ec713afe87aa712c698460"
+  },
+  {
+    "id": "CANONICAL-REC-525",
+    "title": "Canonical Record 525",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-525",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "353d311771ef9b6c82b8786038b3abbb9c9dcb4f663aac014de89cf444f294ba"
+  },
+  {
+    "id": "CANONICAL-REC-526",
+    "title": "Canonical Record 526",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-526",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "8df1f95fbbcd5562e753df0fb2c823e36901bb8ebd24a9a5d9d0ef4731634302"
+  },
+  {
+    "id": "CANONICAL-REC-527",
+    "title": "Canonical Record 527",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-527",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "3125488d2efe1992f8c84ad78a631bac0cb6d534b08c00f2f13a2f08cb707510"
+  },
+  {
+    "id": "CANONICAL-REC-528",
+    "title": "Canonical Record 528",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-528",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "fc0e1dda68de4fbed177b3f1a7044d85d6befb1d4b4242a3e489821b626ae0b5"
+  },
+  {
+    "id": "CANONICAL-REC-529",
+    "title": "Canonical Record 529",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-529",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "dfd2e05c473e2171628cbbc89d265af3395383f08c5ed5e118810cbc486eebb6"
+  },
+  {
+    "id": "CANONICAL-REC-530",
+    "title": "Canonical Record 530",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-530",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "edc96b79faa974f1c732c012b9f952de94cbd1751e448b01e34c87cbed57c3c9"
+  },
+  {
+    "id": "CANONICAL-REC-531",
+    "title": "Canonical Record 531",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-531",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "cee1ec50424254b14be025188819b619a0259aa9b41b57ad97c21d99671dfdb0"
+  },
+  {
+    "id": "CANONICAL-REC-532",
+    "title": "Canonical Record 532",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-532",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "ffcf69982d14ef8261f34fd64c34d6ad760701c677c020d8f07f1d00f417c5a8"
+  },
+  {
+    "id": "CANONICAL-REC-533",
+    "title": "Canonical Record 533",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-533",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "d72acc765849320543611a42daaae99a080cf8a0b32bd349ecab83df4255be18"
+  },
+  {
+    "id": "CANONICAL-REC-534",
+    "title": "Canonical Record 534",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-534",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "44ef115c2039cd172a3f0bd5c96f320476b0f26b1d8885024e08a29973e3d2f5"
+  },
+  {
+    "id": "CANONICAL-REC-535",
+    "title": "Canonical Record 535",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-535",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "b3618a233e608f8f4c23eabd485a60a645ecfaa286b8d3e8f51edf07486b30a8"
+  },
+  {
+    "id": "CANONICAL-REC-536",
+    "title": "Canonical Record 536",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-536",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "34c829c3d394626f5d747f06745f1954fe98ea713829d4e2ec9b3d318e61a15d"
+  },
+  {
+    "id": "CANONICAL-REC-537",
+    "title": "Canonical Record 537",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-537",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "c44dff3210342d2b5f62785f6f5594ca34c405c4cb128116db943121209b1b9e"
+  },
+  {
+    "id": "CANONICAL-REC-538",
+    "title": "Canonical Record 538",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-538",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "14c73e33cb6fc2f268ec74a7cecc5caec04d19e8697054e5508a24a8ff148cb5"
+  },
+  {
+    "id": "CANONICAL-REC-539",
+    "title": "Canonical Record 539",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-539",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "9606bbe4a11855182de073e2bd90394435862ea8092514cebaca12505bf2debb"
+  },
+  {
+    "id": "CANONICAL-REC-540",
+    "title": "Canonical Record 540",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-540",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "9057eec6e9c987e016f89f044ab4c7ce3ecdcd57132ad2a3eca6a563f8f1f141"
+  },
+  {
+    "id": "CANONICAL-REC-541",
+    "title": "Canonical Record 541",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-541",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "f84f414af65d1a466438e765c695d2fe2f6d318c794d883ba500f3659ffa5ea0"
+  },
+  {
+    "id": "CANONICAL-REC-542",
+    "title": "Canonical Record 542",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-542",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "71e6a6be5742c120a42150f3fde71022e82f666841ff4c92085d1a7ab361d7b3"
+  },
+  {
+    "id": "CANONICAL-REC-543",
+    "title": "Canonical Record 543",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-543",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "6d10270a8cf48b66bf62792c643a3432bab9ef942d419d24a51c03ac1c4fc5c5"
+  },
+  {
+    "id": "CANONICAL-REC-544",
+    "title": "Canonical Record 544",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-544",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "226aaaf83b49a4945d765a8ea74d52db4fc26711d9ace7640298b5c5c235f49b"
+  },
+  {
+    "id": "CANONICAL-REC-545",
+    "title": "Canonical Record 545",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-545",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "8d79c69fad300c6e8c311d317e4a2b5c570ed1873a6dda92068babaabfea5215"
+  },
+  {
+    "id": "CANONICAL-REC-546",
+    "title": "Canonical Record 546",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-546",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "a2ee18512c6b029bfbd43fd4ffaffd9b808fa93dd256fc083ae0a5bf4d2c9197"
+  },
+  {
+    "id": "CANONICAL-REC-547",
+    "title": "Canonical Record 547",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-547",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "9229b83daddc055240a64b4d4d3874cd63720928d083ba6907b311ec55b80ce9"
+  },
+  {
+    "id": "CANONICAL-REC-548",
+    "title": "Canonical Record 548",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-548",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "9be7e1d6c25b293074599c5db9f37f950e069499f3075598470bd8c006be8e80"
+  },
+  {
+    "id": "CANONICAL-REC-549",
+    "title": "Canonical Record 549",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-549",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "d69f6587e8f1434205fe279e1cd645f5c2c9d406f6accf379a4cf4b7ef7b76a2"
+  },
+  {
+    "id": "CANONICAL-REC-550",
+    "title": "Canonical Record 550",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-550",
+    "recordType": "RAMA_STATEMENT",
+    "contentHash": "57509fb431262648b6694c9974fa20d56233a72c29caad6ef6f133a09bf400fb"
+  }
+]

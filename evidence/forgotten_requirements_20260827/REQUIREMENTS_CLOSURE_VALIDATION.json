@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-08-27T16:05:53.102Z",
+  "decision": "RECOVERY_COMPLETE_WITH_SAFE_GAPS_DEFERRED",
+  "totalRequirements": 49,
+  "counts": {
+    "DESIGN_MISSING": 4,
+    "ASSET_MISSING": 7,
+    "IMPLEMENTED_COMPLETE": 25,
+    "IMPLEMENTED_PARTIAL": 8,
+    "DATA_MISSING": 4,
+    "WEBSITE_MISSING": 1
+  },
+  "implementedThisRun": 0,
+  "deferred": 24,
+  "top20Remaining": [
+    "R-013",
+    "R-001",
+    "R-002",
+    "R-003",
+    "R-004",
+    "R-005",
+    "R-006",
+    "R-007",
+    "R-008",
+    "R-009",
+    "R-011",
+    "R-017",
+    "R-021",
+    "R-022",
+    "R-034",
+    "R-037",
+    "R-018",
+    "R-024",
+    "R-027",
+    "R-028"
+  ],
+  "integrity": {
+    "allRequiredFields": true,
+    "uniqueRequirementIds": true,
+    "parityRows": true,
+    "canonicalBaseline": 550,
+    "stagingPublished": 0,
+    "mobileModified": false,
+    "productionDeployment": false,
+    "fabricatedContentAdded": false,
+    "sourceAuthorityChanged": false
+  },
+  "physicalEvidence": {
+    "rootFileCount": 682,
+    "evidenceFiles": [
+      {
+        "file": "RAMAVERSE_PROJECT_STATE.json",
+        "sha256": "74b1460d32f0d7f3412ae6f7b495e2362f29cbd85d52d545fffdb1d80388d515"
+      },
+      {
+        "file": "RAMAVERSE_STAGING_MASTER_LEDGER.json",
+        "sha256": "85d17fbc2d3ef89d2bdb7fc288cc4fb32b7d3be64b7e31b65ce1979cb4785a49"
+      },
+      {
+        "file": "RECONCILIATION_DRY_RUN.json",
+        "sha256": "ca51a1f932fe235bb56a3383775286aca16c39850d7fc63194f35843a5f77470"
+      },
+      {
+        "file": "client/src/App.tsx",
+        "sha256": "960d84d392bd32d539fd7becef827e4cd18d4ffb0aeae47fb83fd403b2f47e13"
+      },
+      {
+        "file": "client/src/contexts/MultilingualContext.tsx",
+        "sha256": "0eebc41abea6d24693bcd8bbfd03e9fcf03c15968e154d779c90f201dfb37489"
+      },
+      {
+        "file": "client/public/manifest.json",
+        "sha256": "ef50381c8e1d2273b6446b2a86c10720a3595aa3e362f1ddb3ea28687a348abf"
+      },
+      {
+        "file": "client/public/sw.js",
+        "sha256": "fea677525f65dfed5064eb17268f9546b20a603a1adf28fbd4bffa8442d84093"
+      },
+      {
+        "file": "client/public/robots.txt",
+        "sha256": "80bcd08147cf2dab246638872a74c1fb35793861340bb5945cd493239570e093"
+      },
+      {
+        "file": "client/public/sitemap.xml",
+        "sha256": "bfa035d304cc2c2a47d72931628714cdcae298dd1e73656ec00d5b7192048e18"
+      },
+      {
+        "file": ".gitlab-ci.yml",
+        "sha256": "248f7e77ffaac76b30482eade8a4e7ba08c7ee217a99801df5a8ffdf4f177b7a"
+      },
+      {
+        "file": "work_escrow_final/RAMAVERSE_COMPLETENESS_BLUEPRINT_STATE.json",
+        "sha256": "3d115b2f82cabf8ffa1f60a757362cf199f16f880c74962a1113f7ec0638a00f"
+      },
+      {
+        "file": "work_escrow_final/RAMAVERSE_COMPLETE_CORPUS_COVERAGE_MATRIX.json",
+        "sha256": "19134f55dca7b00def878ae2501b0312ff4bd345800158d6bd1b8f25b39e6334"
+      },
+      {
+        "file": "work_escrow_final/RAMAVERSE_COVERAGE_MATRIX.json",
+        "sha256": "4c2a7ff41a9d2cb9f7436f0c707ca0fd105a5a198178f66e78cdce6e62e3f960"
+      },
+      {
+        "file": "work_escrow_final/RAMAVERSE_GAP_MATRIX.csv",
+        "sha256": "11a581a389461e84b4fcaac33b309c1d1730b04777a865f8078575c11b018713"
+      },
+      {
+        "file": "work_escrow_final/ROUTE_MATRIX.csv",
+        "sha256": "412bed68cf2bc6d46604a70b861eb0dc44d6f9d328273e143d375c42ceb3e031"
+      },
+      {
+        "file": "work_escrow_final/LANGUAGE_MATRIX.csv",
+        "sha256": "518f7f9b202c91e26dfa92a1322a37c5c2d50f7d130620fc1b9cae2b5ba695e4"
+      },
+      {
+        "file": "work_escrow_final/WEBSITE_MOBILE_CORPUS_SYNC_REPORT_V4.md",
+        "sha256": "129cbe6d4addf3ed7b708f1a670a2f0b2c4da49bfb4b4b7adffeca8a8727a7e9"
+      },
+      {
+        "file": "work_escrow_final/SOURCE_AUTHORITY_MATRIX.json",
+        "sha256": "d695ba7bbecc248947839ddc9d1fe6ecb2cbf77901080836e5f162fda6ffca4c"
+      },
+      {
+        "file": "work_escrow_final/RAMAVERSE_PRODUCTION_ROUTE_MATRIX.json",
+        "sha256": "924e907ffeec4b0b847d714fe4e4430dfeb11c58b71ebf50f103f448e0e42c22"
+      }
+    ],
+    "websitePages": [
+      "AskRamaVerse.test",
+      "AskRamaVerse",
+      "Audio",
+      "CharacterEvidence.test",
+      "Characters",
+      "ComponentShowcase",
+      "Guidance",
+      "GuidanceDisclosure.test",
+      "Home",
+      "Intelligence.test",
+      "Intelligence",
+      "Journey",
+      "Kandas",
+      "KandasCoverage.test",
+      "KnowledgeGraph",
+      "Library",
+      "MixedScriptSurfaces.test",
+      "NotFound",
+      "Places",
+      "Quizzes",
+      "RamaLife.test",
+      "RamaLife",
+      "ReconciliationWorkbench",
+      "ReviewStatusSurfaces.test",
+      "SargaReader",
+      "SargaReaderAndWorkbench.test",
+      "Search",
+      "Stories",
+      "Timeline",
+      "Wisdom"
+    ],
+    "websiteComponents": [
+      "AIChatBox",
+      "DashboardLayout",
+      "DashboardLayoutSkeleton",
+      "ErrorBoundary",
+      "KandaAtmosphere.test",
+      "KandaAtmosphere",
+      "LanguageSelector.test",
+      "LanguageSelector",
+      "ManusDialog",
+      "Map",
+      "RamaFooter",
+      "RamaFooterClassification.test",
+      "RamaNavbar",
+      "ReviewStatusBadge",
+      "TraditionClassificationBadge"
+    ],
+    "mobileEvidenceRoots": [
+      "work_escrow_final/mobile_candidate_pack",
+      "work_escrow_final/mobile_candidate_pack_v2",
+      "work_escrow_final/mobile_candidate_pack_v3",
+      "work_escrow_final/mobile_v1_5_handoff"
+    ],
+    "notes": "Mobile source was not modified; no unsupported parity was inferred."
+  }
+}

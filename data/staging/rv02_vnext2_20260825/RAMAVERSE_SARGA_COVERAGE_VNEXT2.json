@@ -1,0 +1,80 @@
+{
+  "batch_id": "RV02-VNEXT2-20260825-AYODHYA-102-113",
+  "kanda": "Ayodhya Kanda",
+  "sargas": [
+    {
+      "sarga": 102,
+      "locator": "2.102.1-49",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 103,
+      "locator": "2.103.1-32",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 104,
+      "locator": "2.104.1-27",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 105,
+      "locator": "2.105.1-46",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 106,
+      "locator": "2.106.1-33,35",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 107,
+      "locator": "2.107.1-19",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 108,
+      "locator": "2.108.1-18",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 109,
+      "locator": "2.109.1-39",
+      "records": 9,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 110,
+      "locator": "2.110.1-36",
+      "records": 10,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 111,
+      "locator": "2.111.1-32",
+      "records": 10,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 112,
+      "locator": "2.112.1-31",
+      "records": 10,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "sarga": 113,
+      "locator": "2.113.1-24",
+      "records": 10,
+      "source_status": "SOURCE_ACQUIRED_STAGING"
+    }
+  ],
+  "sequence_pass": true,
+  "next_exact_source": "Ayodhya Kanda Sarga 114 / 2.114.1 onward"
+}

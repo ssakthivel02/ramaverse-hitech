@@ -1,0 +1,542 @@
+[
+  {
+    "id": "CANONICAL-REC-451",
+    "title": "Canonical Record 451",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-451",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "f5820a08f4c1f558c9302ed0dce81416d00482a0a86e5c150108ad05435243d0",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 451 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-452",
+    "title": "Canonical Record 452",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-452",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "9ddbe5ab157b7baab758cc3218ed78a473ec388f45ccb36835bf95fa7c332918",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 452 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-453",
+    "title": "Canonical Record 453",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-453",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "9a759e1e28a6639ce7cde9a93a0222adbeb95d0362cd0b2c097f69e39d627212",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 453 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-454",
+    "title": "Canonical Record 454",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-454",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "e17542a3f14f7e14590006172e365b25db173b16abf83dd305ed2e1263c615aa",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 454 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-455",
+    "title": "Canonical Record 455",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-455",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "5498c5fa3f559ec334998b2fa8b803da7c4a7577e778cddabf216bde454ff113",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 455 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-456",
+    "title": "Canonical Record 456",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-456",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "21880a380d6be1b097f5da32695e771597a3dba7775f95cf4224c7ecb53f2350",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 456 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-457",
+    "title": "Canonical Record 457",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-457",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "4987ee3dbf8dd120a4b2af47df81a0d8e79df9f0685bb51c518633bfc783df29",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 457 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-458",
+    "title": "Canonical Record 458",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-458",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "b2a33a8b6469c41b55920bde3d70b823975f6457145812102aef899472ca0371",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 458 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-459",
+    "title": "Canonical Record 459",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-459",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "ceb77780d53dacdd2054258533438ea56dff86bb34bce46eeb9c3c27f53d4b0c",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 459 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-460",
+    "title": "Canonical Record 460",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-460",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "c1227710acd7c7a42da1caf83942f79f5cfd11bc405fbe2f71350c20868b7d5c",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 460 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-461",
+    "title": "Canonical Record 461",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-461",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "affd605ce6650a005123b44423ac379aa44a77dbb7030977ba56abb283ed5954",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 461 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-462",
+    "title": "Canonical Record 462",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-462",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "7da01ac1f0b951ebf74bb4bbe3000ebc7551593a825b484d7a2917376a000b06",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 462 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-463",
+    "title": "Canonical Record 463",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-463",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "725ce0c5992f8236decd063db80c1032b3a9da0d9a00027aeba886198a0e58bf",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 463 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-464",
+    "title": "Canonical Record 464",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-464",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "7f923fa8b0a84a98e31e899e3f37ee8a091eb6644ec4b349ecd9337720ed697e",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 464 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-465",
+    "title": "Canonical Record 465",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-465",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "5af64c16e2d1eeb30e860c0ff00079f4507ad80388201f8cffb4a53ede6e07be",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 465 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-466",
+    "title": "Canonical Record 466",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-466",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "aa1a6a532158fc063efe8bc1d02a96a4b91eed45895fd675231d1c0de5bee6bb",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 466 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-467",
+    "title": "Canonical Record 467",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-467",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "00d725132276e02efbcf7633da5ce2da300acb1a0a195d7566d7bc943504b6ee",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 467 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-468",
+    "title": "Canonical Record 468",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-468",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "06104aa39d64cb4be625104a1e3da488ebc352750982e9862b5aa4f516fd9348",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 468 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-469",
+    "title": "Canonical Record 469",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-469",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "922c79766bfa0e965a4cc5d39f214ac78656629e4b46fbd1f0a402a72ccf9810",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 469 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-470",
+    "title": "Canonical Record 470",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-470",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "dd545cbce0f664844daad5736c4f0de7a3432e7ce2f76018e0287d62f110dfec",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 470 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-471",
+    "title": "Canonical Record 471",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-471",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "fa0ffc3b5459791168dbe8445e8fa1a93b1f2925a26d854e3275614b05c2189c",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 471 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-472",
+    "title": "Canonical Record 472",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-472",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "7ae899733cc3668938df0e5687696c251c77c5e758a69f9e481533d27f9fa26e",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 472 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-473",
+    "title": "Canonical Record 473",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-473",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "53f2d32a44d4ca4ae1696ee81dcec8b4e3e18e58572c2b947adb0d4eda5b98e7",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 473 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-474",
+    "title": "Canonical Record 474",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-6, Sarga-1, Verse-474",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "275830d83efed7386ec7dc4714743ec0ddcd758f3cffba7d8faf0c8a733aeee9",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 474 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-475",
+    "title": "Canonical Record 475",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-7, Sarga-1, Verse-475",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "df8a18d62d6cbbdd890b3d355c4f474f8aa0b03d527f8731546267f23477e314",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 475 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-476",
+    "title": "Canonical Record 476",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-1, Sarga-1, Verse-476",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "0bcd527ea765875c2282c52d3608e0fda8e5d91b092107f84fbcd68917cf7acd",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 476 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-477",
+    "title": "Canonical Record 477",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-2, Sarga-1, Verse-477",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "a615c887edf717cc259814cf267bf9bc906dc36fd08eefba37932bd0ff523dc8",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 477 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-478",
+    "title": "Canonical Record 478",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-3, Sarga-1, Verse-478",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "6b5b21f3a9cff0192e0109d8c28d5480b637066064a5bebce2cbc74baa389246",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 478 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-479",
+    "title": "Canonical Record 479",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-4, Sarga-1, Verse-479",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "66e415eaae858836fd835f82d810cba9b55a768fb122c467957e1a9dfee0acc0",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 479 historical baseline 550 source governed."
+  },
+  {
+    "id": "CANONICAL-REC-480",
+    "title": "Canonical Record 480",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "Kanda-5, Sarga-1, Verse-480",
+    "authorityClass": "PRIMARY_SCRIPTURE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "HIGH",
+    "reviewStatus": "verified",
+    "publicationStatus": "ACTIVE_CANONICAL",
+    "contentHash": "9ff41eefb5594e1421e2ae6befc1ea1df1851b23def019b0ec25b32d3e11d089",
+    "relatedIds": [],
+    "recordType": "PLACE",
+    "searchText": "Ramayana canonical record 480 historical baseline 550 source governed."
+  }
+]

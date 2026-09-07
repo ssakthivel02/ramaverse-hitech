@@ -1,0 +1,15 @@
+{
+  "queueId": "RV02-VARIANT-SOURCE-REVIEW-20260823",
+  "status": "OPEN",
+  "humanApproved": 0,
+  "variantRecords": [
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-87",
+      "issue": "Displayed source numbering skips verse 4 on the retrieved presentation.",
+      "recommendedHandling": "Preserve source locator as displayed and require edition-level crosswalk before reconciliation.",
+      "classification": "NUMBERING_VARIANCE"
+    }
+  ],
+  "sourceReview": "The StotraNidhi IAST pages are usable acquisition evidence but require independent critical-edition cross-check before promotion.",
+  "batchId": "RV02-PREFREEZE-20260823-AYODHYA-78-93"
+}

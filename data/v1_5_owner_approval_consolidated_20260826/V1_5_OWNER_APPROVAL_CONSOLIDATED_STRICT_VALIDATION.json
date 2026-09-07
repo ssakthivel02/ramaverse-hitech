@@ -1,0 +1,73 @@
+{
+  "valid": true,
+  "errors": [],
+  "oldBatches": 527,
+  "finalGroups": 8,
+  "tierA": 6,
+  "tierB": 1,
+  "tierC": 1,
+  "tierARecords": 484,
+  "tierBRecords": 58,
+  "tierCRecords": 1,
+  "recordMap": 543,
+  "scenarios": [
+    {
+      "name": "CURRENT",
+      "canonicalCount": 550,
+      "search": 550,
+      "ask": 550,
+      "reader": 550,
+      "graphReady": 0,
+      "timelineReady": 0,
+      "characterPlaceJourneyReady": 0,
+      "dangling": 0,
+      "holdLeakage": 0,
+      "variantLeakage": 0,
+      "sourceEvidenceOnlyLeakage": 0
+    },
+    {
+      "name": "TIER_A_ONLY",
+      "canonicalCount": 1034,
+      "search": 1034,
+      "ask": 1034,
+      "reader": 1034,
+      "graphReady": 0,
+      "timelineReady": 0,
+      "characterPlaceJourneyReady": 0,
+      "dangling": 0,
+      "holdLeakage": 0,
+      "variantLeakage": 0,
+      "sourceEvidenceOnlyLeakage": 0
+    },
+    {
+      "name": "TIER_A_PLUS_TIER_B",
+      "canonicalCount": 1092,
+      "search": 1092,
+      "ask": 1092,
+      "reader": 1092,
+      "graphReady": 0,
+      "timelineReady": 0,
+      "characterPlaceJourneyReady": 0,
+      "dangling": 0,
+      "holdLeakage": 0,
+      "variantLeakage": 0,
+      "sourceEvidenceOnlyLeakage": 0
+    },
+    {
+      "name": "FULL_SAFE_NEW",
+      "canonicalCount": 1092,
+      "search": 1092,
+      "ask": 1092,
+      "reader": 1092,
+      "graphReady": 0,
+      "timelineReady": 0,
+      "characterPlaceJourneyReady": 0,
+      "dangling": 0,
+      "holdLeakage": 0,
+      "variantLeakage": 0,
+      "sourceEvidenceOnlyLeakage": 0
+    }
+  ],
+  "canonical": 550,
+  "stagingPublished": 0
+}

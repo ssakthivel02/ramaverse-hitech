@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s64-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 64,
+    "verse_locator": "2.64.1-2.64.76",
+    "source_id": "src-valmiki-ayodhya-s64-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 64, verses 1-76",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Dasaratha describes how he confessed to the blind parents of the slain hermit boy, how they grieved and cursed him to die of grief for his son, and how Dasaratha finally expires.",
+    "tamil_draft": "தசரதர் குருட்டு முனிவர்களிடம் நடந்ததைக் கூறி வருந்தியதும், அவர்கள் இராமனின் பிரிவால் தசரதர் துயருற்று இறப்பார் எனச் சாபமிட்டதும், பின்னர் தசரதர் உயிர் துறப்பதும்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s64-event-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 64,
+    "verse_locator": "2.64.60-2.64.76",
+    "source_id": "src-valmiki-ayodhya-s64-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 64, verses 60-76",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "The passing away of King Dasaratha due to overwhelming grief over Rama's exile, fulfilling the hermit's curse.",
+    "tamil_draft": "இராமனின் பிரிவினால் ஏற்பட்ட துயரத்தாலும் முனிவரின் சாபத்தாலும் தசரதர் உயிர் துறக்கும் நிகழ்வு.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

@@ -1,0 +1,629 @@
+{
+  "ledgerId": "ramaverse-website-staging-master-v3",
+  "generatedAt": "2026-08-15T15:58:33.299Z",
+  "mode": "non_mutating_physical_artifact_inventory",
+  "historicalCanonicalBaseline": 550,
+  "stagingPublished": 0,
+  "physicallyAvailableUniqueRecords": 28,
+  "physicallyAvailableArtifacts": [
+    {
+      "file": "data/staging/physical/STAGING_RECORDS.json",
+      "sha256": "dab89c2ce1de4790acee93bc5e26b2a19f0f81cde704fda7f988026784a9f3c6"
+    },
+    {
+      "file": "data/staging/physical/STAGING_MASTER_LEDGER.json",
+      "sha256": "de5bf88e101d0e08ccef8d4f0b8c58a2c32782466c261ab24dda7df80affd766"
+    }
+  ],
+  "artifactInventory": [
+    {
+      "file": "data/staging/physical/CHECKPOINT_MANIFEST.json",
+      "role": "source_checkpoint_manifest",
+      "bytes": 1571,
+      "sha256": "3d0cfc3455dfc9d7b19497c8dd3fac6a21456b82ebc5d217b58b85b63518f8df"
+    },
+    {
+      "file": "data/staging/physical/CONTINUATION_STATE.json",
+      "role": "continuation_claims_and_blockers",
+      "bytes": 1116,
+      "sha256": "d0be02fcb7dd2af70bd8f27fa9c70cc99df5c02230d1447365ef9d9456b9210b"
+    },
+    {
+      "file": "data/staging/physical/DUPLICATE_AUDIT.json",
+      "role": "inherited_duplicate_audit",
+      "bytes": 1686,
+      "sha256": "f53908b25844d2d80750009781be0821e91577224ffb2919746cf1c3cf18911d"
+    },
+    {
+      "file": "data/staging/physical/ramaverse_canonical_staging_v2.json",
+      "role": "canonical_staging_payload",
+      "bytes": 27879,
+      "sha256": "af746e4994ef6a2a2b77cb0c53d673ce86ee60cceb5c4ded7c550895c4f6721b"
+    },
+    {
+      "file": "data/staging/physical/RAMAVERSE_STAGING_V2_CONTINUATION.md",
+      "role": "verified_branch_continuation",
+      "bytes": 2134,
+      "sha256": "2003229fbf1f8950109148c82643dcf3d9eb107aa9b63cfc747f62ad6dbf9c25"
+    },
+    {
+      "file": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "source_archive_container",
+      "bytes": 28522,
+      "sha256": "a5fcc26dc611783ba2123be72d7e47dfa880cb4704553accd91c1d6341089b62"
+    },
+    {
+      "file": "data/staging/physical/RECONCILIATION_QUEUE.csv",
+      "role": "reconciliation_queue",
+      "bytes": 5844,
+      "sha256": "1830540e6c55947f28758f200ad71c6d45b8dc7701d23f13b50fb9f523b578bd"
+    },
+    {
+      "file": "data/staging/physical/SHA256SUMS.txt",
+      "role": "source_checksum_evidence",
+      "bytes": 828,
+      "sha256": "dfad5c107739775a7b548c7d471cc273d8493ee3e0f8a25c38b2cdb9d9b9fca4"
+    },
+    {
+      "file": "data/staging/physical/SOURCE_CONTINUITY_BLOCKER.md",
+      "role": "source_continuity_blocker",
+      "bytes": 1783,
+      "sha256": "69b6e536c9c3ffb5d69931e9f2cd94f0b21c4a4ad4587d088c87888b023bf8e1"
+    },
+    {
+      "file": "data/staging/physical/SOURCE_REGISTRY_STAGING.csv",
+      "role": "staging_source_registry",
+      "bytes": 2430,
+      "sha256": "700b85379c7f905ec91e3e223572b65f78ad72aa50b26acf375289bf1e2b8e7c"
+    },
+    {
+      "file": "data/staging/physical/STAGING_BRANCH_RECONCILIATION_REPORT.md",
+      "role": "inherited_branch_report",
+      "bytes": 3551,
+      "sha256": "376950e2b2aeded38d3e0464c4fe9a32ecf71ea899130137c0a8cb0b03078101"
+    },
+    {
+      "file": "data/staging/physical/STAGING_MASTER_LEDGER.json",
+      "role": "inherited_branch_ledger",
+      "bytes": 74235,
+      "sha256": "de5bf88e101d0e08ccef8d4f0b8c58a2c32782466c261ab24dda7df80affd766"
+    },
+    {
+      "file": "data/staging/physical/STAGING_RECORDS.json",
+      "role": "candidate_record_payload",
+      "bytes": 60006,
+      "sha256": "dab89c2ce1de4790acee93bc5e26b2a19f0f81cde704fda7f988026784a9f3c6"
+    },
+    {
+      "file": "data/staging/physical/TAMIL_REVIEW_QUEUE.csv",
+      "role": "tamil_editorial_queue",
+      "bytes": 5337,
+      "sha256": "e14cd74315fc5f249be13aa3de649e6fd289b13ad317f7ecaf0812d743e86178"
+    }
+  ],
+  "archiveMemberInventory": [
+    {
+      "member": "CHECKPOINT_MANIFEST.json",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "source_checkpoint_manifest"
+    },
+    {
+      "member": "CONTINUATION_STATE.json",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "continuation_claims_and_blockers"
+    },
+    {
+      "member": "DUPLICATE_AUDIT.json",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "inherited_duplicate_audit"
+    },
+    {
+      "member": "RECONCILIATION_QUEUE.csv",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "reconciliation_queue"
+    },
+    {
+      "member": "SHA256SUMS.txt",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "source_checksum_evidence"
+    },
+    {
+      "member": "SOURCE_REGISTRY_STAGING.csv",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "staging_source_registry"
+    },
+    {
+      "member": "STAGING_BRANCH_RECONCILIATION_REPORT.md",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "inherited_branch_report"
+    },
+    {
+      "member": "STAGING_MASTER_LEDGER.json",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "inherited_branch_ledger"
+    },
+    {
+      "member": "STAGING_RECORDS.json",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "candidate_record_payload"
+    },
+    {
+      "member": "TAMIL_REVIEW_QUEUE.csv",
+      "origin": "data/staging/physical/RAMAVERSE-STAGING-MASTER-20260814T161302Z.zip",
+      "role": "tamil_editorial_queue"
+    }
+  ],
+  "declaredButUnavailableClaims": [
+    {
+      "claimId": "CLAIM-2026-08-14-50",
+      "declaredRecords": 50,
+      "declaredCoverage": "All seven Kandas / Uttara continuation",
+      "declaredLatestSarga": null,
+      "declaredNextAcquisition": "Uttara Kanda Chapter 95",
+      "origin": "CONTINUATION_STATE.json",
+      "artifactAvailable": false
+    },
+    {
+      "claimId": "CLAIM-2026-08-15-97",
+      "declaredRecords": 97,
+      "declaredCoverage": "Ayodhya Kanda through Sarga 24",
+      "declaredLatestSarga": "Ayodhya Kanda Sarga 24",
+      "declaredNextAcquisition": "Ayodhya Kanda Sarga 25",
+      "origin": "pasted_content_7.txt",
+      "artifactAvailable": false
+    },
+    {
+      "claimId": "CLAIM-2026-08-15-S25-DELTA",
+      "declaredRecords": 17,
+      "declaredCoverage": "Ayodhya Kanda Sarga 25 delta",
+      "declaredLatestSarga": "Ayodhya Kanda Sarga 25",
+      "declaredNextAcquisition": "Ayodhya Kanda Sarga 26",
+      "origin": "pasted_content_7.txt",
+      "artifactAvailable": false
+    },
+    {
+      "claimId": "CLAIM-2026-08-15-109",
+      "declaredRecords": 109,
+      "declaredCoverage": "Declared cumulative staging total",
+      "declaredLatestSarga": "Ayodhya Kanda Sarga 25",
+      "declaredNextAcquisition": "Ayodhya Kanda Sarga 26",
+      "origin": "pasted_content_7.txt",
+      "artifactAvailable": false
+    }
+  ],
+  "duplicates": {
+    "candidateIds": [],
+    "count": 0
+  },
+  "conflicts": [
+    "The physical 28-record branch through Ayodhya Sarga 20 does not establish a relationship to the separately declared 50-, 97-, 17-, or 109-record claims.",
+    "Declared cumulative counts cannot be added, deduplicated, or promoted without their physical ledgers and candidate IDs."
+  ],
+  "latestVerifiedSarga": {
+    "sarga": "Ayodhya Kanda Sarga 20",
+    "evidence": "physical staging record locator",
+    "status": "STAGING_NEEDS_RECONCILIATION"
+  },
+  "nextAcquisitionPoint": {
+    "sarga": "Ayodhya Kanda Sarga 21",
+    "basis": "physical verified-branch continuation",
+    "status": "SOURCE_REVIEW_PENDING"
+  },
+  "records": [
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-event-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.18.1–18",
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-relationship-001",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.18.11–18",
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-character-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.18.1–41; 2.19.1–40",
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-character-002",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.18.1–41",
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-character-003",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.18.19–41; 2.19.1–26",
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-event-002",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.18.19–41",
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-event-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.19.1–8",
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-relationship-001",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.19.5–8, 22–26",
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-place-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.19.2, 11, 14–16",
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-event-002",
+      "record_type": "NARRATIVE_SEQUENCE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.19.9–26",
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-event-003",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.19.27–40",
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-character-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "2.19.30, 39",
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "1–7",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-narrative-001",
+      "record_type": "NARRATIVE_SEQUENCE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "8–13",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-character-004",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "14–19",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-object-001",
+      "record_type": "OBJECT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "17–18",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-relationship-002",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "20–22",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-002",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "22–25",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-003",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "25–31",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-place-002",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "26–31",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-004",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "32–34",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-character-005",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "35–40",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-theme-001",
+      "record_type": "THEME",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "36–41",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-relationship-003",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "42–47",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-005",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "48–55",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-narrative-002",
+      "record_type": "NARRATIVE_SEQUENCE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "1–55",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-theme-002",
+      "record_type": "THEME",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "14–31",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-source-001",
+      "record_type": "VERSE_SECTION",
+      "kanda": "Ayodhya Kanda",
+      "sarga": "1–55",
+      "source_ids": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "origin_file": "data/staging/physical/STAGING_RECORDS.json",
+      "branch": "ayodhya_v2_verified",
+      "review_status": "needs_human_tamil_review",
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "possible_legacy_overlap": true
+    }
+  ]
+}

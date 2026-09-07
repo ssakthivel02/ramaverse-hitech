@@ -1,0 +1,148 @@
+{
+  "sources": [
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S102",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.102.1-49",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 102 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-102-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 102; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S103",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.103.1-32",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 103 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-103-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 103; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S104",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.104.1-27",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 104 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-104-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 104; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S105",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.105.1-46",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 105 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-105-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 105; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.106.1-33,35",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 106 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-106-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 106; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S107",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.107.1-19",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 107 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-107-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 107; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S108",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.108.1-18",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 108 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-108-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 108; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S109",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.109.1-39",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 109 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-109-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 109; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S110",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.110.1-36",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 110 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-110-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 110; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S111",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.111.1-32",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 111 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-111-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 111; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S112",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.112.1-31",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 112 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-112-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 112; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    },
+    {
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S113",
+      "source_work": "Valmiki Ramayana",
+      "source_tradition": "PRIMARY_TEXT",
+      "source_locator": "2.113.1-24",
+      "source_reference": "StotraNidhi Ayodhya Kanda Sarga 113 IAST page",
+      "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-113-in-english/",
+      "retrieval_date": "2026-08-25",
+      "source_role": "PRIMARY_ACQUISITION_SOURCE",
+      "source_confidence": 0.9,
+      "source_note": "Page heading and explicit sarga colophon identify Ayodhya Kanda Sarga 113; displayed verse numbering was inspected. Independent critical-edition cross-check remains pending."
+    }
+  ]
+}

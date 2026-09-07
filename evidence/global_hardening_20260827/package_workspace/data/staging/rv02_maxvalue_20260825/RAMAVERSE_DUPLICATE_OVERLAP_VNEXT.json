@@ -1,0 +1,10 @@
+{
+  "batch_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+  "checked_against": [
+    "RV02-PREFREEZE-20260823-AYODHYA-78-93",
+    "data/staging/post_v1"
+  ],
+  "duplicate_record_ids": [],
+  "semantic_overlap_candidates": [],
+  "possible_legacy_overlap_count": 0
+}

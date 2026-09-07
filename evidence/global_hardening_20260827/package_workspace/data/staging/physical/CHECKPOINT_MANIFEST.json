@@ -1,0 +1,46 @@
+{
+  "checkpoint_id": "ramaverse-staging-checkpoint-20260814t161302z",
+  "created_at_utc": "2026-08-14T16:13:02.911304+00:00",
+  "purpose": "Evidence-limited reconciliation of active staging ledger artifacts",
+  "verified_staging_records": 28,
+  "historical_baseline": 550,
+  "production_merge": false,
+  "files": [
+    {
+      "name": "CHECKPOINT_MANIFEST.json",
+      "sha256": "81de3e3150360033f15edc8ff5881e33a096b880b7a8609b204929227cafdcb5"
+    },
+    {
+      "name": "CONTINUATION_STATE.json",
+      "sha256": "d0be02fcb7dd2af70bd8f27fa9c70cc99df5c02230d1447365ef9d9456b9210b"
+    },
+    {
+      "name": "DUPLICATE_AUDIT.json",
+      "sha256": "f53908b25844d2d80750009781be0821e91577224ffb2919746cf1c3cf18911d"
+    },
+    {
+      "name": "RECONCILIATION_QUEUE.csv",
+      "sha256": "1830540e6c55947f28758f200ad71c6d45b8dc7701d23f13b50fb9f523b578bd"
+    },
+    {
+      "name": "SOURCE_REGISTRY_STAGING.csv",
+      "sha256": "700b85379c7f905ec91e3e223572b65f78ad72aa50b26acf375289bf1e2b8e7c"
+    },
+    {
+      "name": "STAGING_BRANCH_RECONCILIATION_REPORT.md",
+      "sha256": "376950e2b2aeded38d3e0464c4fe9a32ecf71ea899130137c0a8cb0b03078101"
+    },
+    {
+      "name": "STAGING_MASTER_LEDGER.json",
+      "sha256": "de5bf88e101d0e08ccef8d4f0b8c58a2c32782466c261ab24dda7df80affd766"
+    },
+    {
+      "name": "STAGING_RECORDS.json",
+      "sha256": "dab89c2ce1de4790acee93bc5e26b2a19f0f81cde704fda7f988026784a9f3c6"
+    },
+    {
+      "name": "TAMIL_REVIEW_QUEUE.csv",
+      "sha256": "e14cd74315fc5f249be13aa3de649e6fd289b13ad317f7ecaf0812d743e86178"
+    }
+  ]
+}

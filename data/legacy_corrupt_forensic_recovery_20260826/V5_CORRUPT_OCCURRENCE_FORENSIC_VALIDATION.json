@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-26T15:56:33.672Z",
+  "inputOccurrences": 397,
+  "accounted": 397,
+  "counts": {
+    "RECOVERED_EXISTING_ID": 0,
+    "RECOVERED_FROM_MANIFEST": 0,
+    "RECOVERED_FROM_PROJECTION": 239,
+    "IDENTICAL_CORRUPT_COPY": 0,
+    "UNRECOVERABLE_NULL": 158,
+    "CONFLICTING_EVIDENCE": 0,
+    "VALID_VARIANT_WITHOUT_ID": 0
+  },
+  "recoveryMapCount": 239,
+  "holdCount": 158,
+  "logicalRecordsBefore": 543,
+  "genuinelyRestoredLogicalRecords": 0,
+  "logicalRecordsAfter": 543,
+  "logicalDuplicateIds": 0,
+  "inventedIds": 0,
+  "physicalEvidenceDeleted": 0,
+  "sourceReferenceValidation": "PASS",
+  "publicationStateIntegrity": "PASS",
+  "canonical": 550,
+  "canonicalMutation": 0,
+  "stagingPublished": 0,
+  "websiteModified": false,
+  "mobileModified": false,
+  "deployment": "NOT_PERFORMED",
+  "checks": {
+    "accounting": true,
+    "classificationDomain": true,
+    "recoveryDeterministic": true,
+    "zeroInventedIds": true,
+    "zeroDeletion": true,
+    "logicalUnique": true,
+    "canonicalSafe": true,
+    "publicationSafe": true
+  },
+  "decision": "PARTIAL_RECOVERY_REQUIRES_AUTHORITY_REVIEW"
+}

@@ -1,0 +1,16 @@
+{
+  "rc": {
+    "filename": "RAMAVERSE-WEB-v1.5-GLOBAL-PRODUCTION-HARDENING-RC.zip",
+    "integrity": "PASS",
+    "entries": 969,
+    "bytes": 4792381,
+    "sha256": "84a96d623762f8113b4ca55c55ec0e78baf4352e9916bc4e027cea1d06915f0a"
+  },
+  "operations": {
+    "filename": "RAMAVERSE-WEB-v1.5-OPERATIONS-HANDOFF.zip",
+    "integrity": "PASS",
+    "entries": 10,
+    "bytes": 4851,
+    "sha256": "4133a2cca4a5b2a6932ef0532538c83a0ade9668c93a5920b56db1b770f3d7cd"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "scenarios": [
+    {
+      "scenarioId": "FAIL-01",
+      "scenario": "wrong candidate SHA",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-02",
+      "scenario": "missing record",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-03",
+      "scenario": "duplicate ID",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-04",
+      "scenario": "bad source locator",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-05",
+      "scenario": "missing Search target",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-06",
+      "scenario": "missing Ask target",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-07",
+      "scenario": "missing Reader target",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-08",
+      "scenario": "dangling graph edge",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-09",
+      "scenario": "variant leakage",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-10",
+      "scenario": "held-record leakage",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-11",
+      "scenario": "corrupt manifest",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    },
+    {
+      "scenarioId": "FAIL-12",
+      "scenario": "interrupted activation",
+      "detected": true,
+      "failClosed": true,
+      "baselineRetained": 550,
+      "productionPointerSwitched": false,
+      "stagingPublished": 0
+    }
+  ],
+  "allFailClosed": true
+}

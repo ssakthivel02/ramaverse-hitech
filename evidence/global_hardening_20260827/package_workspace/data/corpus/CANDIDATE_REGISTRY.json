@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "candidates": [
+    {
+      "corpusVersion": "v1.5.0",
+      "status": "REGISTERED_NOT_ACTIVE",
+      "canonicalCount": 1092,
+      "source": "RAMAVERSE-WEB-v1.5-PROMOTION-MASTER.zip",
+      "holdExcluded": true,
+      "stagingPublished": 0
+    }
+  ]
+}

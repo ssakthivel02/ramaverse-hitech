@@ -1,0 +1,7526 @@
+{
+  "generatedAt": "2026-08-26T21:42:59.352Z",
+  "recordCount": 484,
+  "batchCount": 469,
+  "batches": [
+    {
+      "batchId": "BATCH-001",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 1,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-1-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-002",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 10,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-10-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-003",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 11,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-11-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-004",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 12,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-12-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-005",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 13,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-13-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-006",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 14,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-14-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-007",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 15,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-15-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-008",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 16,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-16-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-009",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 17,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-17-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-010",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 18,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-18-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-011",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 19,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-19-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-012",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 2,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-2-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-013",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 20,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-20-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-014",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 21,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-21-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-015",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 22,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-22-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-016",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 23,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-23-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-017",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 24,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-24-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-018",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 25,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-25-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-019",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 26,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-26-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-020",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 27,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-27-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-021",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 28,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-28-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-022",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 29,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-29-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-023",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 3,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-3-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-024",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 30,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-30-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-025",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 31,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-31-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-026",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 32,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-32-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-027",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 33,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-33-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-028",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 34,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-34-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-029",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 35,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-35-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-030",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 36,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-36-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-031",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 37,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-37-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-032",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 38,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-38-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-033",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 39,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-39-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-034",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 4,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-4-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-035",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 40,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-40-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-036",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 41,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-41-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-037",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 42,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-42-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-038",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 43,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-43-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-039",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 44,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-44-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-040",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 45,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-45-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-041",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 46,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-46-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-042",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 47,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-47-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-043",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 48,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-48-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-044",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 49,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-49-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-045",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 5,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-5-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-046",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 50,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-50-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-047",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 51,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-51-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-048",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 52,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-52-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-049",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 53,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-53-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-050",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 54,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-54-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-051",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 55,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-55-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-052",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 56,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-56-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-053",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 57,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-57-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-054",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 58,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-58-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-055",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 59,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-59-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-056",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 6,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-6-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-057",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 60,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-60-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-058",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 61,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-61-2026",
+        "STAGING-ARANYA-SARGA-61-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-059",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 62,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-62-2026",
+        "STAGING-ARANYA-SARGA-62-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-060",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 63,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-63-2026",
+        "STAGING-ARANYA-SARGA-63-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-061",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 64,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-64-2026",
+        "STAGING-ARANYA-SARGA-64-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-062",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 65,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-65-2026",
+        "STAGING-ARANYA-SARGA-65-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-063",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 66,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-66-2026",
+        "STAGING-ARANYA-SARGA-66-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-064",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 67,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-67-2026",
+        "STAGING-ARANYA-SARGA-67-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-065",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 68,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-68-2026",
+        "STAGING-ARANYA-SARGA-68-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-066",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 69,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-69-2026",
+        "STAGING-ARANYA-SARGA-69-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-067",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 7,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-7-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-068",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 70,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-70-2026",
+        "STAGING-ARANYA-SARGA-70-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-069",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 71,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-71-2026",
+        "STAGING-ARANYA-SARGA-71-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-070",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 72,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-72-2026",
+        "STAGING-ARANYA-SARGA-72-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-071",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 73,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-73-2026",
+        "STAGING-ARANYA-SARGA-73-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-072",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 74,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-74-2026",
+        "STAGING-ARANYA-SARGA-74-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-073",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 75,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-75-2026",
+        "STAGING-ARANYA-SARGA-75-FORCED-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-074",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 8,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-8-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-075",
+      "source": [
+        "VALMIKI_RAMAYANA_ARANYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Aranya Kanda",
+      "sarga": 9,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-ARANYA-SARGA-9-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-076",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-100-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-077",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-101-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-078",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 102,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-102-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-079",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 103,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-103-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-080",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 104,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-104-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-081",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 105,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-105-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-082",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 106,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-106-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-083",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 107,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-107-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-084",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 108,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-108-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-085",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 109,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-109-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-086",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 110,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-110-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-087",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 111,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-111-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-088",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 112,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-112-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-089",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 113,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-113-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-090",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 114,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-114-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-091",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 115,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-115-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-092",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-96-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-093",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-97-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-094",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-98-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-095",
+      "source": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-AYODHYA-SARGA-99-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-096",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 1,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-1-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-097",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 10,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-10-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-098",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 11,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-11-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-099",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 12,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-12-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-100",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 13,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-13-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-101",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 14,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-14-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-102",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 15,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-15-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-103",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 16,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-16-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-104",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 17,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-17-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-105",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 18,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-18-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-106",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 19,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-19-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-107",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 2,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-2-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-108",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 20,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-20-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-109",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 21,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-21-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-110",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 22,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-22-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-111",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 23,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-23-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-112",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 24,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-24-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-113",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 25,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-25-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-114",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 26,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-26-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-115",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 27,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-27-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-116",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 28,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-28-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-117",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 29,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-29-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-118",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 3,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-3-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-119",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 30,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-30-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-120",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 31,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-31-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-121",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 32,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-32-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-122",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 33,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-33-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-123",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 34,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-34-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-124",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 35,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-35-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-125",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 36,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-36-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-126",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 37,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-37-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-127",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 38,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-38-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-128",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 39,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-39-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-129",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 4,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-4-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-130",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 40,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-40-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-131",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 41,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-41-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-132",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 42,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-42-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-133",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 43,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-43-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-134",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 44,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-44-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-135",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 45,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-45-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-136",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 46,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-46-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-137",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 47,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-47-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-138",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 48,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-48-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-139",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 49,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-49-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-140",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 5,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-5-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-141",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 50,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-50-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-142",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 51,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-51-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-143",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 52,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-52-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-144",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 53,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-53-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-145",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 54,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-54-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-146",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 55,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-55-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-147",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 56,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-56-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-148",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 57,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-57-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-149",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 58,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-58-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-150",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 59,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-59-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-151",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 6,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-6-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-152",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 60,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-60-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-153",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 61,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-61-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-154",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 62,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-62-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-155",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 63,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-63-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-156",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 64,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-64-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-157",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 65,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-65-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-158",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 66,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-66-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-159",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 67,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-67-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-160",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 7,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-7-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-161",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 8,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-8-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-162",
+      "source": [
+        "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Kishkindha Kanda",
+      "sarga": 9,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-KISHKINDHA-SARGA-9-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-163",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 1,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-1-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-164",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 10,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-10-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-165",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 11,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-11-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-166",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 12,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-12-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-167",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 13,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-13-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-168",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 14,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-14-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-169",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 15,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-15-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-170",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 16,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-16-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-171",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 17,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-17-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-172",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 18,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-18-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-173",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 19,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-19-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-174",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 2,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-2-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-175",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 20,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-20-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-176",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 21,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-21-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-177",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 22,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-22-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-178",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 23,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-23-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-179",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 24,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-24-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-180",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 25,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-25-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-181",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 26,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-26-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-182",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 27,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-27-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-183",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 28,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-28-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-184",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 29,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-29-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-185",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 3,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-3-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-186",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 30,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-30-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-187",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 31,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-31-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-188",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 32,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-32-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-189",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 33,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-33-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-190",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 34,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-34-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-191",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 35,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-35-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-192",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 36,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-36-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-193",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 37,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-37-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-194",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 38,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-38-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-195",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 39,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-39-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-196",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 4,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-4-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-197",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 40,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-40-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-198",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 41,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-41-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-199",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 42,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-42-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-200",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 43,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-43-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-201",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 44,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-44-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-202",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 45,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-45-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-203",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 46,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-46-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-204",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 47,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-47-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-205",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 48,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-48-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-206",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 49,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-49-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-207",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 5,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-5-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-208",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 50,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-50-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-209",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 51,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-51-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-210",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 52,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-52-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-211",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 53,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-53-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-212",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 54,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-54-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-213",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 55,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-55-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-214",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 56,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-56-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-215",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 57,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-57-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-216",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 58,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-58-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-217",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 59,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-59-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-218",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 6,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-6-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-219",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 60,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-60-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-220",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 61,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-61-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-221",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 62,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-62-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-222",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 63,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-63-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-223",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 64,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-64-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-224",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 65,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-65-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-225",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 66,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-66-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-226",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 67,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-67-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-227",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 68,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-68-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-228",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 7,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-7-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-229",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 8,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-8-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-230",
+      "source": [
+        "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Sundara Kanda",
+      "sarga": 9,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-SUNDARA-SARGA-9-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-231",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 1,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-1-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-232",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 10,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-10-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-233",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 100,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-100-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-234",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 101,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-101-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-235",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 102,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-102-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-236",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 103,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-103-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-237",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 104,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-104-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-238",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 105,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-105-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-239",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 106,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-106-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-240",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 107,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-107-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-241",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 108,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-108-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-242",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 109,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-109-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-243",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 11,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-11-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-244",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 110,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-110-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-245",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 111,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-111-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-246",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 12,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-12-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-247",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 13,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-13-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-248",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 14,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-14-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-249",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 15,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-15-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-250",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 16,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-16-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-251",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 17,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-17-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-252",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 18,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-18-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-253",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 19,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-19-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-254",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 2,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-2-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-255",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 20,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-20-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-256",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 21,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-21-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-257",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 22,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-22-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-258",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 23,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-23-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-259",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 24,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-24-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-260",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 25,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-25-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-261",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 26,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-26-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-262",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 27,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-27-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-263",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 28,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-28-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-264",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 29,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-29-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-265",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 3,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-3-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-266",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 30,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-30-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-267",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 31,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-31-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-268",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 32,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-32-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-269",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 33,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-33-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-270",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 34,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-34-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-271",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 35,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-35-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-272",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 36,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-36-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-273",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 37,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-37-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-274",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 38,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-38-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-275",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 39,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-39-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-276",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 4,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-4-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-277",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 40,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-40-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-278",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 41,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-41-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-279",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 42,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-42-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-280",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 43,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-43-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-281",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 44,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-44-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-282",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 45,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-45-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-283",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 46,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-46-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-284",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 47,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-47-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-285",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 48,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-48-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-286",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 49,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-49-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-287",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 5,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-5-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-288",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 50,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-50-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-289",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 51,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-51-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-290",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 52,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-52-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-291",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 53,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-53-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-292",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 54,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-54-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-293",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 55,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-55-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-294",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 56,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-56-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-295",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 57,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-57-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-296",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 58,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-58-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-297",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 59,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-59-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-298",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 6,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-6-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-299",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 60,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-60-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-300",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 61,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-61-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-301",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 62,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-62-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-302",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 63,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-63-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-303",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 64,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-64-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-304",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 65,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-65-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-305",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 66,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-66-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-306",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 67,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-67-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-307",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 68,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-68-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-308",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 69,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-69-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-309",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 7,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-7-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-310",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 70,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-70-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-311",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 71,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-71-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-312",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 72,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-72-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-313",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 73,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-73-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-314",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 74,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-74-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-315",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 75,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-75-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-316",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 76,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-76-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-317",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 77,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-77-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-318",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 78,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-78-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-319",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 79,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-79-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-320",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 8,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-8-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-321",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 80,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-80-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-322",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 81,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-81-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-323",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 82,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-82-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-324",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 83,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-83-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-325",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 84,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-84-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-326",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 85,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-85-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-327",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 86,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-86-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-328",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 87,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-87-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-329",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 88,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-88-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-330",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 89,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-89-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-331",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 9,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-9-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-332",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 90,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-90-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-333",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 91,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-91-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-334",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 92,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-92-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-335",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 93,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-93-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-336",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 94,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-94-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-337",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 95,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-95-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-338",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 96,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-96-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-339",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 97,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-97-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-340",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 98,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-98-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-341",
+      "source": [
+        "VALMIKI_RAMAYANA_UTTARA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Uttara Kanda",
+      "sarga": 99,
+      "recordType": null,
+      "confidence": 0.98,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-UTTARA-SARGA-99-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-342",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 1,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-1-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-343",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 10,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-10-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-344",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 100,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-100-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-345",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 101,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-101-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-346",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 102,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-102-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-347",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 103,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-103-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-348",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 104,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-104-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-349",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 105,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-105-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-350",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 106,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-106-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-351",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 107,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-107-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-352",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 108,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-108-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-353",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 109,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-109-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-354",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 11,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-11-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-355",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 110,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-110-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-356",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 111,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-111-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-357",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 112,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-112-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-358",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 113,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-113-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-359",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 114,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-114-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-360",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 115,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-115-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-361",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 116,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-116-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-362",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 117,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-117-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-363",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 118,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-118-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-364",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 119,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-119-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-365",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 12,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-12-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-366",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 120,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-120-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-367",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 121,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-121-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-368",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 122,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-122-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-369",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 123,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-123-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-370",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 124,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-124-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-371",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 125,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-125-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-372",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 126,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-126-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-373",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 127,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-127-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-374",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 128,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-128-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-375",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 13,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-13-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-376",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 14,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-14-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-377",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 15,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-15-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-378",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 16,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-16-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-379",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 17,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-17-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-380",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 18,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-18-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-381",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 19,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-19-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-382",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 2,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-2-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-383",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 20,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-20-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-384",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 21,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-21-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-385",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 22,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-22-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-386",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 23,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-23-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-387",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 24,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-24-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-388",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 25,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-25-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-389",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 26,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-26-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-390",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 27,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-27-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-391",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 28,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-28-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-392",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 29,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-29-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-393",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 3,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-3-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-394",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 30,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-30-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-395",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 31,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-31-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-396",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 32,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-32-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-397",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 33,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-33-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-398",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 34,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-34-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-399",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 35,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-35-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-400",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 36,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-36-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-401",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 37,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-37-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-402",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 38,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-38-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-403",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 39,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-39-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-404",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 4,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-4-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-405",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 40,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-40-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-406",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 41,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-41-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-407",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 42,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-42-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-408",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 43,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-43-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-409",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 44,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-44-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-410",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 45,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-45-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-411",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 46,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-46-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-412",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 47,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-47-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-413",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 48,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-48-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-414",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 49,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-49-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-415",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 5,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-5-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-416",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 50,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-50-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-417",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 51,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-51-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-418",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 52,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-52-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-419",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 53,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-53-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-420",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 54,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-54-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-421",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 55,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-55-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-422",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 56,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-56-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-423",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 57,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-57-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-424",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 58,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-58-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-425",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 59,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-59-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-426",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 6,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-6-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-427",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 60,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-60-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-428",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 61,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-61-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-429",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 62,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-62-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-430",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 63,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-63-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-431",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 64,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-64-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-432",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 65,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-65-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-433",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 66,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-66-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-434",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 67,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-67-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-435",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 68,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-68-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-436",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 69,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-69-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-437",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 7,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-7-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-438",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 70,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-70-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-439",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 71,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-71-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-440",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 72,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-72-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-441",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 73,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-73-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-442",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 74,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-74-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-443",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 75,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-75-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-444",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 76,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-76-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-445",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 77,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-77-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-446",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 78,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-78-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-447",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 79,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-79-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-448",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 8,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-8-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-449",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 80,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-80-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-450",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 81,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-81-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-451",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 82,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-82-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-452",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 83,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-83-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-453",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 84,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-84-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-454",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 85,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-85-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-455",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 86,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-86-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-456",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 87,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-87-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-457",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 88,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-88-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-458",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 89,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-89-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-459",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 9,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-9-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-460",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 90,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-90-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-461",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 91,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-91-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-462",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 92,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-92-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-463",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 93,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-93-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-464",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 94,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-94-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-465",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 95,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-95-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-466",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 96,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-96-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-467",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 97,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-97-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-468",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 98,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-98-2026"
+      ]
+    },
+    {
+      "batchId": "BATCH-469",
+      "source": [
+        "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "kanda": "Yuddha Kanda",
+      "sarga": 99,
+      "recordType": null,
+      "confidence": 0.99,
+      "validation": "PASS",
+      "recordIds": [
+        "STAGING-YUDDHA-SARGA-99-2026"
+      ]
+    }
+  ]
+}

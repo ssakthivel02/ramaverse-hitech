@@ -1,0 +1,148 @@
+{
+  "requirements": 73,
+  "classification": {
+    "COMPLETE": 36,
+    "PARTIAL": 22,
+    "NOT_WIRED": 0,
+    "MISSING_DATA": 0,
+    "MISSING_ASSET": 15,
+    "MISSING_WEBSITE": 0,
+    "MISSING_MOBILE": 0,
+    "MISSING_LANGUAGE": 0,
+    "QA_REQUIRED": 0,
+    "SUPERSEDED": 0,
+    "BLOCKED": 0
+  },
+  "websiteGaps": 0,
+  "mobileGaps": 73,
+  "dataGaps": 35,
+  "mediaGaps": 42,
+  "languageGaps": 5,
+  "implementedThisRun": 0,
+  "ownerDashboard": "PASS",
+  "websiteMobileParityPercent": 0,
+  "canonicalChanged": 0,
+  "stagingPublished": 0,
+  "topRemaining": [
+    {
+      "id": "A-001",
+      "feature": "Grounded Ask",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "A-002",
+      "feature": "Search",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "A-011",
+      "feature": "Offline intelligence",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "D-001",
+      "feature": "Private/local Owner Command Center",
+      "reason": "MISSING_MOBILE",
+      "priority": "P0"
+    },
+    {
+      "id": "D-004",
+      "feature": "Exact Website/Mobile parity",
+      "reason": "MISSING_MOBILE",
+      "priority": "P0"
+    },
+    {
+      "id": "L-001",
+      "feature": "English",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "L-002",
+      "feature": "Tamil",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-001",
+      "feature": "Home",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-003",
+      "feature": "Seven Kandas",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-004",
+      "feature": "Sarga Reader",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-005",
+      "feature": "Search",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-006",
+      "feature": "Ask",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-011",
+      "feature": "Characters",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-014",
+      "feature": "Places",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-015",
+      "feature": "Journey",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-024",
+      "feature": "Sources",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-032",
+      "feature": "PWA",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-033",
+      "feature": "Offline",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "W-034",
+      "feature": "Recovery",
+      "reason": "QA_REQUIRED",
+      "priority": "P0"
+    },
+    {
+      "id": "A-003",
+      "feature": "Explain simply",
+      "reason": "QA_REQUIRED",
+      "priority": "P1"
+    }
+  ]
+}

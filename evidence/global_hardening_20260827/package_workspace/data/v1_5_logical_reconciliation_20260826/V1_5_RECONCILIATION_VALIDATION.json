@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-26T17:01:29.160Z",
+  "logicalInput": 543,
+  "accounted": 543,
+  "counts": {
+    "SAFE_NEW": 0,
+    "SAFE_ENRICHMENT": 0,
+    "IDENTICAL_DUPLICATE": 0,
+    "SEMANTIC_OVERLAP": 0,
+    "TEXTUAL_VARIANT": 0,
+    "TRANSLATION_VARIANT": 0,
+    "ENTITY_ALIAS": 0,
+    "SOURCE_HOLD": 543,
+    "ENTITY_HOLD": 0,
+    "CONFLICT": 0,
+    "REJECTED": 0
+  },
+  "baseCanonical": 550,
+  "resultingCandidate": 550,
+  "stableIdDuplicates": 0,
+  "invalidSourceRefs": 0,
+  "sourceEvidenceOnlyLeakage": 0,
+  "stagingLeakage": 0,
+  "variantHoldLeakage": 0,
+  "canonicalMutation": 0,
+  "stagingPublished": 0,
+  "search": 550,
+  "ask": 550,
+  "reader": 550,
+  "graph": 0,
+  "checks": {
+    "accounting": true,
+    "candidateCount": true,
+    "idsUnique": true,
+    "sourceRefs": true,
+    "noLeakage": true,
+    "canonicalSafe": true,
+    "publicationSafe": true
+  },
+  "P0": 0,
+  "P1": 0,
+  "decision": "READY_FOR_OWNER_v1_5_REVIEW"
+}

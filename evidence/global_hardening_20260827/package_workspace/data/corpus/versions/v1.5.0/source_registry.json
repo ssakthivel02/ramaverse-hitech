@@ -1,0 +1,1049 @@
+{
+  "generatedAt": "2026-08-26T21:42:59.346Z",
+  "mappings": [
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-11",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 11,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga11.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-11 is scoped to Sundara Sarga 11",
+        "Kanda/Sarga/locator agree with 5.11.1–5.11.47"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-12",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 12,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga12.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-12 is scoped to Sundara Sarga 12",
+        "Kanda/Sarga/locator agree with 5.12.1–5.12.25"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-13",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 13,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga13.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-13 is scoped to Sundara Sarga 13",
+        "Kanda/Sarga/locator agree with 5.13.1–5.13.69"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-14",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 14,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga14.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-14 is scoped to Sundara Sarga 14",
+        "Kanda/Sarga/locator agree with 5.14.1–5.14.52"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-15",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 15,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga15.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-15 is scoped to Sundara Sarga 15",
+        "Kanda/Sarga/locator agree with 5.15.1–5.15.54"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-16",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 16,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga16.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-16 is scoped to Sundara Sarga 16",
+        "Kanda/Sarga/locator agree with 5.16.1–5.16.32"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-17",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 17,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga17.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-17 is scoped to Sundara Sarga 17",
+        "Kanda/Sarga/locator agree with 5.17.2–5.17.32"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-18",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 18,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga18.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-18 is scoped to Sundara Sarga 18",
+        "Kanda/Sarga/locator agree with 5.18.1–5.18.32"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-19",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 19,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga19.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-19 is scoped to Sundara Sarga 19",
+        "Kanda/Sarga/locator agree with 5.19.1–5.19.23"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-20",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 20,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga20.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-20 is scoped to Sundara Sarga 20",
+        "Kanda/Sarga/locator agree with 5.20.1–5.20.36"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-21",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 21,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga21.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-21 is scoped to Sundara Sarga 21",
+        "Kanda/Sarga/locator agree with 5.21.1–5.21.34"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-22",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 22,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga22.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-22 is scoped to Sundara Sarga 22",
+        "Kanda/Sarga/locator agree with 5.22.1–5.22.46"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-23",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 23,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga23.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-23 is scoped to Sundara Sarga 23",
+        "Kanda/Sarga/locator agree with 5.23.1–5.23.21"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-24",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 24,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga24.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-24 is scoped to Sundara Sarga 24",
+        "Kanda/Sarga/locator agree with 5.24.1–5.24.48"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-25",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 25,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga25.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-25 is scoped to Sundara Sarga 25",
+        "Kanda/Sarga/locator agree with 5.25.1–5.25.20"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-26",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 26,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga26.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-26 is scoped to Sundara Sarga 26",
+        "Kanda/Sarga/locator agree with 5.26.1–5.26.51"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-27",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 27,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga27.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-27 is scoped to Sundara Sarga 27",
+        "Kanda/Sarga/locator agree with 5.27.1–5.27.51"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-28",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 28,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga28.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-28 is scoped to Sundara Sarga 28",
+        "Kanda/Sarga/locator agree with 5.28.1–5.28.20"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-29",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 29,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga29.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-29 is scoped to Sundara Sarga 29",
+        "Kanda/Sarga/locator agree with 5.29.1–5.29.8"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-30",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 30,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga30.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-30 is scoped to Sundara Sarga 30",
+        "Kanda/Sarga/locator agree with 5.30.1–5.30.44"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-31",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 31,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga31.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-31 is scoped to Sundara Sarga 31",
+        "Kanda/Sarga/locator agree with 5.31.1–5.31.19"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-32",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 32,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga32.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-32 is scoped to Sundara Sarga 32",
+        "Kanda/Sarga/locator agree with 5.32.1–5.32.14"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-33",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 33,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga33.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-33 is scoped to Sundara Sarga 33",
+        "Kanda/Sarga/locator agree with 5.33.1–5.33.31"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-34",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 34,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga34.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-34 is scoped to Sundara Sarga 34",
+        "Kanda/Sarga/locator agree with 5.34.1–5.34.41"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-35",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 35,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga35.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-35 is scoped to Sundara Sarga 35",
+        "Kanda/Sarga/locator agree with 5.35.1–5.35.89"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-36",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 36,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga36.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-36 is scoped to Sundara Sarga 36",
+        "Kanda/Sarga/locator agree with 5.36.1–5.36.47"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-37",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 37,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga37.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-37 is scoped to Sundara Sarga 37",
+        "Kanda/Sarga/locator agree with 5.37.1–5.37.66"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-38",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 38,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga38.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-38 is scoped to Sundara Sarga 38",
+        "Kanda/Sarga/locator agree with 5.38.1–5.38.73"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-39",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 39,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga39.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-39 is scoped to Sundara Sarga 39",
+        "Kanda/Sarga/locator agree with 5.39.1–5.39.54"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-40",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 40,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga40.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-40 is scoped to Sundara Sarga 40",
+        "Kanda/Sarga/locator agree with 5.40.1–5.40.25"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-41",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 41,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga41.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-41 is scoped to Sundara Sarga 41",
+        "Kanda/Sarga/locator agree with 5.41.1–5.41.21"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-42",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 42,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga42.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-42 is scoped to Sundara Sarga 42",
+        "Kanda/Sarga/locator agree with 5.42.1–5.42.43"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-43",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 43,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga43.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-43 is scoped to Sundara Sarga 43",
+        "Kanda/Sarga/locator agree with 5.43.1–5.43.25"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-44",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 44,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga44.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-44 is scoped to Sundara Sarga 44",
+        "Kanda/Sarga/locator agree with 5.44.1–5.44.20"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-45",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 45,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga45.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-45 is scoped to Sundara Sarga 45",
+        "Kanda/Sarga/locator agree with 5.45.1–5.45.17"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-46",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 46,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga46.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-46 is scoped to Sundara Sarga 46",
+        "Kanda/Sarga/locator agree with 5.46.1–5.46.39"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-47",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 47,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga47.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-47 is scoped to Sundara Sarga 47",
+        "Kanda/Sarga/locator agree with 5.47.1–5.47.38"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-48",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 48,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga48.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-48 is scoped to Sundara Sarga 48",
+        "Kanda/Sarga/locator agree with 5.48.1–5.48.61"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-49",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 49,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga49.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-49 is scoped to Sundara Sarga 49",
+        "Kanda/Sarga/locator agree with 5.49.1–5.49.20"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-50",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 50,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga50.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-50 is scoped to Sundara Sarga 50",
+        "Kanda/Sarga/locator agree with 5.50.1–5.50.19"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-51",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 51,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga51.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-51 is scoped to Sundara Sarga 51",
+        "Kanda/Sarga/locator agree with 5.51.1–5.51.46"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-52",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 52,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga52.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-52 is scoped to Sundara Sarga 52",
+        "Kanda/Sarga/locator agree with 5.52.1–5.52.27"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-53",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 53,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga53.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-53 is scoped to Sundara Sarga 53",
+        "Kanda/Sarga/locator agree with 5.53.1–5.53.44"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-54",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 54,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga54.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-54 is scoped to Sundara Sarga 54",
+        "Kanda/Sarga/locator agree with 5.54.1–5.54.50"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-55",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 55,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga55.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-55 is scoped to Sundara Sarga 55",
+        "Kanda/Sarga/locator agree with 5.55.1–5.55.34"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-56",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 56,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga56.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-56 is scoped to Sundara Sarga 56",
+        "Kanda/Sarga/locator agree with 5.56.1–5.56.34"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-57",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 57,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga57.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-57 is scoped to Sundara Sarga 57",
+        "Kanda/Sarga/locator agree with 5.57.1–5.57.51"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-58",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 58,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga58.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-58 is scoped to Sundara Sarga 58",
+        "Kanda/Sarga/locator agree with 5.58.1–5.58.166"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-59",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 59,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga59.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-59 is scoped to Sundara Sarga 59",
+        "Kanda/Sarga/locator agree with 5.59.1–5.59.36"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-60",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 60,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga60.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-60 is scoped to Sundara Sarga 60",
+        "Kanda/Sarga/locator agree with 5.60.1–5.60.6"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-61",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 61,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga61.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-61 is scoped to Sundara Sarga 61",
+        "Kanda/Sarga/locator agree with 5.61.1–5.61.23"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-62",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 62,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga62.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-62 is scoped to Sundara Sarga 62",
+        "Kanda/Sarga/locator agree with 5.62.1–5.62.40"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-63",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 63,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga63.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-63 is scoped to Sundara Sarga 63",
+        "Kanda/Sarga/locator agree with 5.63.1–5.63.29"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-64",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 64,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga64.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-64 is scoped to Sundara Sarga 64",
+        "Kanda/Sarga/locator agree with 5.64.1–5.64.39"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-65",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 65,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga65.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-65 is scoped to Sundara Sarga 65",
+        "Kanda/Sarga/locator agree with 5.65.1–5.65.27"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-66",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 66,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga66.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-66 is scoped to Sundara Sarga 66",
+        "Kanda/Sarga/locator agree with 5.66.1–5.66.15"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-67",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 67,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga67.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-67 is scoped to Sundara Sarga 67",
+        "Kanda/Sarga/locator agree with 5.67.1–5.67.37"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    },
+    {
+      "old_source_id": "SRC-SANSKRIT-DOCUMENTS-SUNDARA-68",
+      "new_governed_source_id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "old_registry_version": "STAGING_PRE_V1_5",
+      "new_registry_version": "GOVERNED_KANDA_SOURCE_v1_5",
+      "edition": "Sanskrit Documents IAST presentation",
+      "tradition": "PRIMARY_VALMIKI_TEXT",
+      "kanda": "Sundara Kanda",
+      "sarga": 68,
+      "locator_model": "Kanda/Sarga + sourceLocator",
+      "evidence": [
+        "Exact physical source page /home/ubuntu/ramaverse/data/staging/sundara_11_68_source_evidence_20260826/sarga68.html",
+        "Exact source ID SRC-SANSKRIT-DOCUMENTS-SUNDARA-68 is scoped to Sundara Sarga 68",
+        "Kanda/Sarga/locator agree with 5.68.1–5.68.29"
+      ],
+      "confidence": 0.97,
+      "reason": "Exact page-level source evidence supports treating the per-Sarga staging identifier as an alias of the governed Sundara Kanda source; no title-only or fuzzy mapping used."
+    }
+  ]
+}

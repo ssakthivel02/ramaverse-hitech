@@ -1,0 +1,218 @@
+[
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001",
+    "record_type": "CHILDREN_STORY",
+    "kanda": "Ayodhya Kanda",
+    "sarga_number": 106,
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+    ],
+    "source_locator": "2.106.1-33,35",
+    "confidence": 0.9,
+    "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+    "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+    "recommended_action": "Keep quarantined for editorial/source decision.",
+    "structural_checks": {
+      "complete": true,
+      "source_resolves": true,
+      "hash_valid": true,
+      "no_template_marker": true,
+      "unpublished": true,
+      "quarantined": true
+    }
+  }
+]

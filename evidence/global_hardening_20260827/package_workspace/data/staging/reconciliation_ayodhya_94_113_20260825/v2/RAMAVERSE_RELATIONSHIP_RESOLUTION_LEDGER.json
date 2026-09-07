@@ -1,0 +1,349 @@
+{
+  "input_records": 34,
+  "accounted": 34,
+  "resolved_safe": 0,
+  "editor_review_required": 34,
+  "relationship_records": [
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-001",
+      "source_entity": "Rama",
+      "target_entity": "Bharata",
+      "sarga_number": 102,
+      "source_locator": "2.102.1-49",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-002",
+      "source_entity": "Rama",
+      "target_entity": "Lakshmana",
+      "sarga_number": 102,
+      "source_locator": "2.102.1-49",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-003",
+      "source_entity": "Rama",
+      "target_entity": "Dasaratha",
+      "sarga_number": 102,
+      "source_locator": "2.102.1-49",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-004",
+      "source_entity": "Rama",
+      "target_entity": "Kausalya",
+      "sarga_number": 103,
+      "source_locator": "2.103.1-32",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-005",
+      "source_entity": "Lakshmana",
+      "target_entity": "Rama",
+      "sarga_number": 103,
+      "source_locator": "2.103.1-32",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-006",
+      "source_entity": "Sita",
+      "target_entity": "Kausalya",
+      "sarga_number": 103,
+      "source_locator": "2.103.1-32",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-007",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 104,
+      "source_locator": "2.104.1-27",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-008",
+      "source_entity": "Rama",
+      "target_entity": "Bharata",
+      "sarga_number": 104,
+      "source_locator": "2.104.1-27",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-009",
+      "source_entity": "Rama",
+      "target_entity": "Dasaratha",
+      "sarga_number": 104,
+      "source_locator": "2.104.1-27",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-010",
+      "source_entity": "Rama",
+      "target_entity": "Bharata",
+      "sarga_number": 105,
+      "source_locator": "2.105.1-46",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-011",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 105,
+      "source_locator": "2.105.1-46",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-012",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 106,
+      "source_locator": "2.106.1-33,35",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-013",
+      "source_entity": "Bharata",
+      "target_entity": "Kaikeyi",
+      "sarga_number": 106,
+      "source_locator": "2.106.1-33,35",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-014",
+      "source_entity": "Rama",
+      "target_entity": "Bharata",
+      "sarga_number": 106,
+      "source_locator": "2.106.1-33,35",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-015",
+      "source_entity": "Rama",
+      "target_entity": "Bharata",
+      "sarga_number": 107,
+      "source_locator": "2.107.1-19",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-016",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 107,
+      "source_locator": "2.107.1-19",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-017",
+      "source_entity": "Rama",
+      "target_entity": "Dandaka forest",
+      "sarga_number": 107,
+      "source_locator": "2.107.1-19",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-018",
+      "source_entity": "Jabali",
+      "target_entity": "Rama",
+      "sarga_number": 108,
+      "source_locator": "2.108.1-18",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-019",
+      "source_entity": "Rama",
+      "target_entity": "Jabali",
+      "sarga_number": 108,
+      "source_locator": "2.108.1-18",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-020",
+      "source_entity": "Rama",
+      "target_entity": "Jabali",
+      "sarga_number": 109,
+      "source_locator": "2.109.1-39",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-021",
+      "source_entity": "Rama",
+      "target_entity": "Truth",
+      "sarga_number": 109,
+      "source_locator": "2.109.1-39",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-REL-022",
+      "source_entity": "Rama",
+      "target_entity": "Dasaratha",
+      "sarga_number": 109,
+      "source_locator": "2.109.1-39",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-001",
+      "source_entity": "Vasistha",
+      "target_entity": "Rama",
+      "sarga_number": 110,
+      "source_locator": "2.110.1-36",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-002",
+      "source_entity": "Rama",
+      "target_entity": "Dasaratha",
+      "sarga_number": 110,
+      "source_locator": "2.110.1-36",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-003",
+      "source_entity": "Rama",
+      "target_entity": "Ikshvaku lineage",
+      "sarga_number": 110,
+      "source_locator": "2.110.1-36",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-004",
+      "source_entity": "Vasistha",
+      "target_entity": "Rama",
+      "sarga_number": 111,
+      "source_locator": "2.111.1-32",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-005",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 111,
+      "source_locator": "2.111.1-32",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-006",
+      "source_entity": "Rama",
+      "target_entity": "Vasistha",
+      "sarga_number": 111,
+      "source_locator": "2.111.1-32",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-007",
+      "source_entity": "Rama",
+      "target_entity": "Bharata",
+      "sarga_number": 112,
+      "source_locator": "2.112.1-31",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-008",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 112,
+      "source_locator": "2.112.1-31",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-009",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 112,
+      "source_locator": "2.112.1-31",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-010",
+      "source_entity": "Bharata",
+      "target_entity": "Shatrughna",
+      "sarga_number": 113,
+      "source_locator": "2.113.1-24",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-011",
+      "source_entity": "Bharata",
+      "target_entity": "Ayodhya",
+      "sarga_number": 113,
+      "source_locator": "2.113.1-24",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    },
+    {
+      "relationship_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-REL-012",
+      "source_entity": "Bharata",
+      "target_entity": "Rama",
+      "sarga_number": 113,
+      "source_locator": "2.113.1-24",
+      "resolution": "EDITOR_REVIEW_REQUIRED",
+      "reason": "Endpoint names are present, but governed stable entity IDs are not physically established in the supplied authority inputs.",
+      "canonical_effect": "none"
+    }
+  ],
+  "dangling_rejected": 0
+}

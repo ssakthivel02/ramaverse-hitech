@@ -1,0 +1,61 @@
+{
+  "version": "FINAL-v1",
+  "generatedAt": "2026-08-27T20:46:14.283Z",
+  "policy": "Only PROJECT_ORIGINAL or independently LICENSED media may enter production.",
+  "assets": [
+    {
+      "id": "VISUAL-KANDA-IDENTITIES",
+      "subject": "Seven Kanda identity strip",
+      "creator": "RamaVerse project original",
+      "rightsStatus": "PROJECT_ORIGINAL",
+      "file": "release_evidence/visual_assets/kanda-identities.svg"
+    },
+    {
+      "id": "VISUAL-JOURNEY-OFFLINE",
+      "subject": "Journey/source/offline motif",
+      "creator": "RamaVerse project original",
+      "rightsStatus": "PROJECT_ORIGINAL",
+      "file": "release_evidence/visual_assets/journey-source-offline.svg"
+    },
+    {
+      "id": "VISUAL-CHILD-LEARNING",
+      "subject": "Child learning motif",
+      "creator": "RamaVerse project original",
+      "rightsStatus": "PROJECT_ORIGINAL",
+      "file": "release_evidence/visual_assets/child-learning.svg"
+    },
+    {
+      "id": "VISUAL-CSS-MOTIFS",
+      "subject": "Dawn/bow/river/forest/Setu/Lanka/evidence motifs",
+      "creator": "RamaVerse project original",
+      "rightsStatus": "PROJECT_ORIGINAL",
+      "file": "client/src/index.css"
+    }
+  ],
+  "reviewRequired": [
+    {
+      "subject": "Hero raster art",
+      "status": "MISSING_ASSET"
+    },
+    {
+      "subject": "Character raster art",
+      "status": "MISSING_ASSET"
+    },
+    {
+      "subject": "Place raster art",
+      "status": "MISSING_ASSET"
+    },
+    {
+      "subject": "Production devotional audio",
+      "status": "PARTIAL_RIGHTS_BLOCKED"
+    }
+  ],
+  "prohibited": [
+    "TV serial imagery",
+    "films",
+    "Google Images",
+    "commercial posters",
+    "other websites",
+    "copyrighted paintings"
+  ]
+}

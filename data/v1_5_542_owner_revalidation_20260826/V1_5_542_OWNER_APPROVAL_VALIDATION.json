@@ -1,0 +1,89 @@
+{
+  "input": 542,
+  "accounted": 542,
+  "accounting": true,
+  "confirmedSafeNew": 542,
+  "downgradeSourceHold": 0,
+  "allIdsUnique": true,
+  "allSourceEvidencePresent": true,
+  "noDefaultApproval": true,
+  "highRiskExcludedFromBulk": true,
+  "candidateScenarios": [
+    {
+      "name": "CURRENT",
+      "counts": {
+        "search": 550,
+        "ask": 550,
+        "reader": 550,
+        "graphReady": 0,
+        "timelineReady": 0,
+        "character": 0,
+        "place": 0,
+        "journey": 0,
+        "dangling": 0,
+        "heldLeakage": 0,
+        "variantLeakage": 0,
+        "sourceEvidenceOnlyLeakage": 0
+      }
+    },
+    {
+      "name": "LOW_RISK_ONLY",
+      "counts": {
+        "search": 1034,
+        "ask": 1034,
+        "reader": 1034,
+        "graphReady": 0,
+        "timelineReady": 0,
+        "character": 0,
+        "place": 0,
+        "journey": 0,
+        "dangling": 0,
+        "heldLeakage": 0,
+        "variantLeakage": 0,
+        "sourceEvidenceOnlyLeakage": 0
+      }
+    },
+    {
+      "name": "LOW_PLUS_MEDIUM",
+      "counts": {
+        "search": 1092,
+        "ask": 1092,
+        "reader": 1092,
+        "graphReady": 0,
+        "timelineReady": 0,
+        "character": 0,
+        "place": 0,
+        "journey": 0,
+        "dangling": 0,
+        "heldLeakage": 0,
+        "variantLeakage": 0,
+        "sourceEvidenceOnlyLeakage": 0
+      }
+    },
+    {
+      "name": "FULL_SAFE_NEW",
+      "counts": {
+        "search": 1092,
+        "ask": 1092,
+        "reader": 1092,
+        "graphReady": 0,
+        "timelineReady": 0,
+        "character": 0,
+        "place": 0,
+        "journey": 0,
+        "dangling": 0,
+        "heldLeakage": 0,
+        "variantLeakage": 0,
+        "sourceEvidenceOnlyLeakage": 0
+      }
+    }
+  ],
+  "dangling": 0,
+  "heldLeakage": 0,
+  "variantLeakage": 0,
+  "sourceEvidenceOnlyLeakage": 0,
+  "canonicalProduction": 550,
+  "stagingPublished": 0,
+  "productionCanonicalUnchanged": true,
+  "decision": "READY_FOR_OWNER_BATCH_APPROVAL"
+}

@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-27T22:09:43.200Z",
+  "requirements": 73,
+  "counts": {
+    "MISSING_ASSET": 11,
+    "COMPLETE": 35,
+    "PARTIAL_EVIDENCE_BLOCKED": 14,
+    "PARTIAL_RIGHTS_BLOCKED": 3,
+    "PARTIAL_HUMAN_REVIEW_REQUIRED": 10
+  },
+  "features": {
+    "characterVisuals": "0/19 raster assets; CSS/SVG fallback only",
+    "kandaVisuals": "7/7",
+    "ramaSpeaks": "PARTIAL_EVIDENCE_BLOCKED",
+    "ramaLeadership": "PARTIAL_EVIDENCE_BLOCKED",
+    "sita": "PARTIAL_EVIDENCE_BLOCKED",
+    "hanuman": "PARTIAL_EVIDENCE_BLOCKED",
+    "ramaSetu": "PARTIAL_EVIDENCE_BLOCKED",
+    "family": "PASS",
+    "festivals": "PARTIAL_HUMAN_REVIEW_REQUIRED",
+    "globalRamayana": "PARTIAL_HUMAN_REVIEW_REQUIRED",
+    "aiContext": "PARTIAL_EVIDENCE_BLOCKED",
+    "languages": "PASS UI / PARTIAL governed content"
+  },
+  "gates": {
+    "tests": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "build": "PASS",
+    "routeSmoke": "PASS",
+    "responsive": "PASS",
+    "sixLanguageUI": "PASS",
+    "wrongScript": "PASS 0",
+    "accessibility": "PASS",
+    "reducedMotion": "PASS",
+    "pwaOffline": "PASS",
+    "security": "PASS",
+    "rights": "PASS for supplied project-original assets",
+    "assetReferences": "PASS",
+    "danglingIDs": "PASS 0",
+    "sourceLeakage": "PASS 0",
+    "canonicalMutation": "PASS 0",
+    "mobileMutation": "PASS 0",
+    "stagingPublication": "PASS 0",
+    "fabricatedQuotes": "PASS 0",
+    "guaranteedOutcomes": "PASS 0"
+  },
+  "production": "NOT_DEPLOYED",
+  "canonicalBaseline": 550,
+  "activeCorpus": "v1.4.0",
+  "mobile": "FROZEN / NOT_MODIFIED",
+  "decision": "PRODUCTION_CANDIDATE_READY_WITH_EXPLICIT_EVIDENCE_RIGHTS_AND_HUMAN_REVIEW_GAPS"
+}

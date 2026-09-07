@@ -1,0 +1,1876 @@
+{
+  "generatedAt": "2026-08-26T05:43:33.480Z",
+  "startingP0": 265,
+  "rootCauseCounts": {
+    "SOURCE_IDENTITY_CONFLICT": 0,
+    "SOURCE_LOCATOR_CONFLICT": 0,
+    "VERSE_NUMBERING_CONFLICT": 0,
+    "SARGA_BOUNDARY_CONFLICT": 206,
+    "ENTITY_IDENTITY_CONFLICT": 0,
+    "DIALOGUE_ATTRIBUTION_CONFLICT": 47,
+    "PLACE_IDENTITY_CONFLICT": 0,
+    "EVENT_IDENTITY_CONFLICT": 0,
+    "TRANSLATION_DIFFERENCE": 0,
+    "TEXTUAL_VARIANT": 0,
+    "TRADITION_DIFFERENCE": 0,
+    "SCHEMA_MAPPING_CONFLICT": 0,
+    "OTHER": 12
+  },
+  "conflicts": [
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-dialogue-004",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-dialogue-004",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-dialogue-004",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-dialogue-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-dialogue-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-dialogue-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-dharma-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-dharma-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-dharma-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-dharma-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-dharma-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-dharma-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-dharma-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-dharma-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-event-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s18-event-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s18-event-002",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s19-event-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s19-event-002",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s19-event-003",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-event-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-event-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-event-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-event-004",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-event-005",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-narrative-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-narrative-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-narrative-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-narrative-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-character-reference-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-character-reference-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s18-character-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-character-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s18-character-002",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-character-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s18-character-003",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-character-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s18-relationship-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s19-character-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-character-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s19-relationship-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-character-004",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-character-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-character-005",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-character-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-relationship-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-relationship-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-relationship-003",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-relationship-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-journey-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-journey-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s19-place-001",
+      "root_cause": "OTHER",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-place-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-place-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-place-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s21-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s21-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s22-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s22-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s23-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s23-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s24-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s24-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-devotional-context-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-devotional-context-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-devotional-context-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-devotional-context-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s25-verse-section-006",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s25-verse-section-006"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s26-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s26-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s27-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s27-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-historical-context-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-historical-context-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s28-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s28-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-historical-norm-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-historical-norm-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s29-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s29-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s30-verse-section-006",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s30-verse-section-006"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-object-reference-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-object-reference-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s31-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s31-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-object-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-object-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-source-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-theme-001",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-v2-ayodhyakanda-s20-theme-002",
+      "root_cause": "DIALOGUE_ATTRIBUTION_CONFLICT",
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-theme-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-dialogue-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-dialogue-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-dialogue-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-dialogue-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-dialogue-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-dialogue-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-dialogue-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-dialogue-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-dialogue-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-dialogue-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-event-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-event-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-event-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-event-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-character-reference-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-character-reference-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-place-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-place-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-verse-section-006",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-verse-section-006"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-journey-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-journey-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-place-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-place-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s32-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s32-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s33-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s33-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-dharma-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-dharma-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-dialogue-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-dialogue-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-dialogue-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-dialogue-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-dialogue-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-dialogue-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-dialogue-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-dialogue-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-dialogue-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-event-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-event-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-event-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-event-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-event-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-event-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-verse-section-005",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-verse-section-005"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-verse-section-006",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-verse-section-006"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-relationship-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-relationship-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s34-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s34-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s35-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s35-source-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-dialogue-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-dialogue-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-dialogue-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-dialogue-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-dialogue-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-dialogue-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-dialogue-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-dialogue-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-event-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-event-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-event-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-event-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-event-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-event-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-event-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-event-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-historical-norm-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-historical-norm-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-sarga-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-sarga-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-theme-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-theme-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-character-reference-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-character-reference-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-verse-section-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-verse-section-001"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-verse-section-002",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-verse-section-002"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-verse-section-003",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-verse-section-003"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-verse-section-004",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-verse-section-004"
+      ]
+    },
+    {
+      "conflict_id": "P0-stg-postv1-ayodhyakanda-s36-source-001",
+      "root_cause": "SARGA_BOUNDARY_CONFLICT",
+      "record_ids": [
+        "stg-postv1-ayodhyakanda-s36-source-001"
+      ]
+    }
+  ]
+}

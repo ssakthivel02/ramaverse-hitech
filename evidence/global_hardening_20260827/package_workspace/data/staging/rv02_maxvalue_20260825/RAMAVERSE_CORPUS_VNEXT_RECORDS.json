@@ -1,0 +1,3584 @@
+[
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "content_ta": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "874d6d7b416a0abf3a464d2a13391f2941fe47ecd84827e10203a08789693e4e"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "content_ta": "நிகழ்வு: Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "d7140d8e98eab9c5e5f6b31dd2e8c7e901197267c217c31d242926fb9eb3bbc4"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Rama speaks to Sita while showing her the features of Citrakuta.",
+    "content_ta": "உரையாடல் பொருள்: Rama speaks to Sita while showing her the features of Citrakuta.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Sita"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "f8ec406fca89bcf7a2d06171e4c13a56c8af0fe9dd103b189fa85814e922cacc"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Character evidence in this sarga concerns Rama, Sita, Lakshmana.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Sita, Lakshmana.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "479e5c5f12509170b2c5efbb87db028215d0a80b04ea0e6a8abc029e30fcdac6"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Place evidence: Citrakuta.",
+    "content_ta": "இட ஆதாரம்: Citrakuta.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "e31979f4ea0e06456b8302882edee96bea21092dfe091ea6a85838b05f609e0f"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "The exiles remain at Citrakuta while Rama explains the landscape and their forest life.",
+    "content_ta": "பயணக் குறிப்பு: The exiles remain at Citrakuta while Rama explains the landscape and their forest life.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "d7bf71fbbe907a31b8b4d06ff74f8fd107c3418183997589ab3c6771a0baf806"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Forest residence is framed as a duty undertaken with fidelity to the father’s word and regard for family well-being.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: Forest residence is framed as a duty undertaken with fidelity to the father’s word and regard for family well-being.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "140122b62a4c36eebd1388d8e7635040938b980941b365992ea42a1cc989eb50"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "A source-linked reflection from Sarga 94: Forest residence is framed as a duty undertaken with fidelity to the father’s word and regard for family well-being.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: Forest residence is framed as a duty undertaken with fidelity to the father’s word and regard for family well-being.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "0cfeaede1e52e4f9c8847a239a45cbd59608f83a6c885c9d1bbd955833474258"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 94",
+    "sarga_number": 94,
+    "verse_start": 1,
+    "verse_end": 27,
+    "title_en": "Citrakuta description",
+    "title_ta": "சித்திரகூட வர்ணனை",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 94: Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 94.",
+    "summary_en": "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment.",
+    "summary_ta": "சித்திரகூட வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes Citrakuta to Sita and presents forest residence in relation to duty, family obligation, and contentment."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.94.1-27",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-94-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S94"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "a3b3845898ae87ae5077e91e94e2372e53678c80b75cc14cb61ed7349c06047a"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "content_ta": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "268f2d0a656de810928af5ebe91e2da83fc7b9ca467f3e7987d2793a52809f6b"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "content_ta": "நிகழ்வு: Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "318147cfabd614ed89673067e63bd2ca3b66eff5fbf91b492fde0847e0252ee4"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Rama addresses Sita in a descriptive and reflective speech about the Mandakini.",
+    "content_ta": "உரையாடல் பொருள்: Rama addresses Sita in a descriptive and reflective speech about the Mandakini.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Sita"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "f3a5daa792066340ea8e44495e29962bcf7a9d724362c6310c40962d0074da46"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Character evidence in this sarga concerns Rama, Sita, Lakshmana, Ascetics.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Sita, Lakshmana, Ascetics.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "94d6abb67e4b88d9ac6c0d7d4114bf0561d9425f5a6dbbd6c890e87bf6114b6a"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Place evidence: Mandakini River, Citrakuta.",
+    "content_ta": "இட ஆதாரம்: Mandakini River, Citrakuta.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "5d67a6e3065f6514a6f0565600de667283c8de311449f57dd4620da0b5334363"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "The exiles move through the Citrakuta landscape to the Mandakini and continue their forest residence.",
+    "content_ta": "பயணக் குறிப்பு: The exiles move through the Citrakuta landscape to the Mandakini and continue their forest residence.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "a04c0947f25882ea96a1f5f829e9a6ea72f04256195d8422e9cacea8a72b50dd"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Contentment, disciplined practice, and fidelity to a chosen duty are presented as compatible with a life away from royal comfort.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: Contentment, disciplined practice, and fidelity to a chosen duty are presented as compatible with a life away from royal comfort.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "493f2954269a483bf6e02fa06dd1c713ed2c626ad2b3a957255f5e1ae69d2c08"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "A source-linked reflection from Sarga 95: Contentment, disciplined practice, and fidelity to a chosen duty are presented as compatible with a life away from royal comfort.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: Contentment, disciplined practice, and fidelity to a chosen duty are presented as compatible with a life away from royal comfort.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "ad1054c6f4238d3f88282bbdfbcd49aeb32d422757759dca8824cbacf2ff8990"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 95",
+    "sarga_number": 95,
+    "verse_start": 1,
+    "verse_end": 19,
+    "title_en": "Mandakini description",
+    "title_ta": "மந்தாகினி வர்ணனை",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 95: Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 95.",
+    "summary_en": "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya.",
+    "summary_ta": "மந்தாகினி வர்ணனை தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ascetics"
+    ],
+    "places": [
+      "Mandakini River",
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama describes the Mandakini River, the ascetics who bathe and worship there, and his contentment with Sita and Lakshmana away from Ayodhya."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.95.1-19",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-95-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S95"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "97a80985d74d36f26bf400eec8b8e31f067b19e1ab0ad851bb8fafa967d5f78a"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "content_ta": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "b452b2df6e0839922a7668036114a3ef31f4bcb30a9d4966f21f8ecf05149bb6"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "content_ta": "நிகழ்வு: The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "47e46ba461188859dcf9345f91f4861adec8679114a5c5356ed4dd065662c71d"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "Lakshmana proposes defense and Rama questions the basis of that suspicion.",
+    "content_ta": "உரையாடல் பொருள்: Lakshmana proposes defense and Rama questions the basis of that suspicion.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Lakshmana"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "fcf6b4187237dbd6e34ee41dbcbd250363d3acaa6af908b9601b7c6c9ba069e5"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "Character evidence in this sarga concerns Rama, Lakshmana, Bharata, Sita.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Lakshmana, Bharata, Sita.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "4d13fb2096eb277ea8f0f3cf83af4cd725bf37083b96b3e35023328c7c803caa"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "Place evidence: Citrakuta.",
+    "content_ta": "இட ஆதாரம்: Citrakuta.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "558f1a346361e71933021ee3b7979b4eb5daa0cbb69411f74be5da4393b86b9c"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "Bharata’s army approaches Citrakuta, bringing the political crisis into the forest.",
+    "content_ta": "பயணக் குறிப்பு: Bharata’s army approaches Citrakuta, bringing the political crisis into the forest.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "85c5bce597fb92bcc2073d0d7a158ac78d67dabc410350132c89de3043ef3bf6"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "Rama’s response places restraint, evidence, and trust above immediate suspicion; the violent speech remains contextual source narrative.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: Rama’s response places restraint, evidence, and trust above immediate suspicion; the violent speech remains contextual source narrative.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "a617f1e35bf21cb5b5408d57413b3853a5d67f8d12654f2e4db8bb643076ea81"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "A source-linked reflection from Sarga 96: Rama’s response places restraint, evidence, and trust above immediate suspicion; the violent speech remains contextual source narrative.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: Rama’s response places restraint, evidence, and trust above immediate suspicion; the violent speech remains contextual source narrative.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "17cbc80c9fb8af2bfa41cf884677945c1de838a6dbc9a9f7a1724d360a0c5c89"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 96",
+    "sarga_number": 96,
+    "verse_start": 1,
+    "verse_end": 30,
+    "title_en": "Lakshmana’s anger",
+    "title_ta": "இலக்குவனின் கோபம்",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 96: The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 96.",
+    "summary_en": "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting.",
+    "summary_ta": "இலக்குவனின் கோபம் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "The approaching army alarms the forest; Lakshmana suspects Bharata, while Rama asks him to assess the situation before acting."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.96.1-30",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-96-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S96"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "cd05d0d36a43f8ae920a1bf40742885b06e46850846ed3456ddf9dc8b3111be4"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "content_ta": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "8339c2205a7d29f9fd2169408cb54742b5b8c5a7cf1258d0441ea015ca8c061e"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "content_ta": "நிகழ்வு: Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "36ed892718fd1d225ff19c4288156b53207740018631114ef36712ef63fb0d6d"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Rama counsels Lakshmana about Bharata’s likely intention and his own willingness to yield the kingdom.",
+    "content_ta": "உரையாடல் பொருள்: Rama counsels Lakshmana about Bharata’s likely intention and his own willingness to yield the kingdom.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Lakshmana"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "5702eca651dac7f155752c44301ac574a78c72bb80bba4580d6d5a240c25be38"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Character evidence in this sarga concerns Rama, Lakshmana, Bharata.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Lakshmana, Bharata.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "544f8a27649d0243169893fb33f2f5ed1d01041b79002734e2f5b911d40c84a7"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Place evidence: Citrakuta.",
+    "content_ta": "இட ஆதாரம்: Citrakuta.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "60a08218bf48a56c3db9684d530e352b235e885874b473df009b05689e1760d4"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Bharata’s army encamps around the mountain while Rama’s party prepares to receive him.",
+    "content_ta": "பயணக் குறிப்பு: Bharata’s army encamps around the mountain while Rama’s party prepares to receive him.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "e6571ee7dd0a0c9026e7905efbfadfcaa97d6acd423cb0c56023c85d0e8e86f7"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Rama models charitable interpretation and refuses to condemn a brother without evidence.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: Rama models charitable interpretation and refuses to condemn a brother without evidence.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "6fa1075f2ac5bf02b3fd2a70983711c78552046fef33b5674655119caeb6b155"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "A source-linked reflection from Sarga 97: Rama models charitable interpretation and refuses to condemn a brother without evidence.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: Rama models charitable interpretation and refuses to condemn a brother without evidence.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "ed1c859dfab0c0ed216b9471e898f7357cc2e2d7949a9e23c14fdef6eaf9c22d"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 97",
+    "sarga_number": 97,
+    "verse_start": 1,
+    "verse_end": 31,
+    "title_en": "Praise of Bharata",
+    "title_ta": "பரதனின் குணப் பாராட்டு",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 97: Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 97.",
+    "summary_en": "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty.",
+    "summary_ta": "பரதனின் குணப் பாராட்டு தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Lakshmana",
+      "Bharata"
+    ],
+    "places": [
+      "Citrakuta"
+    ],
+    "events": [
+      "Rama rejects Lakshmana’s suspicion, praises Bharata’s character, and recognizes that Bharata likely comes from fraternal affection and duty."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.97.1-31",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-97-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S97"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "f4e824c75ceb7220d21a0cf5df68103c308473c2f367cfb14641c21c6f2a7f94"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "content_ta": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "05493c49ad57ae9683eddce006dd31faa236c208c2e14cebd83e20e74c4c7939"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "content_ta": "நிகழ்வு: Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "8ca581dc6cebda9ce97ca8f31102353d3c89f6ba3358bf920c1119e4f599e17b"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Bharata instructs Shatrughna, Guha, and the searchers to find Rama, Lakshmana, and Sita.",
+    "content_ta": "உரையாடல் பொருள்: Bharata instructs Shatrughna, Guha, and the searchers to find Rama, Lakshmana, and Sita.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Bharata"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Shatrughna"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "68cd287cb0c51d03643751148106000d900102c68bbba24c7d179f44183c32de"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Character evidence in this sarga concerns Bharata, Shatrughna, Guha, Rama, Lakshmana, Sita.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Bharata, Shatrughna, Guha, Rama, Lakshmana, Sita.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "fbbebb014fb9be93d8e7634d6e921d03ec1ed9e706cda100276558ac66578fb9"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Place evidence: Citrakuta, Rama’s hermitage.",
+    "content_ta": "இட ஆதாரம்: Citrakuta, Rama’s hermitage.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "66f70b79316234d3c3dfa732123c831ffa4656a8d811031bada3f7aa50cba9a7"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Bharata advances from the army camp toward the hermitage, using searchers and Guha’s assistance.",
+    "content_ta": "பயணக் குறிப்பு: Bharata advances from the army camp toward the hermitage, using searchers and Guha’s assistance.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "51fc72fc4e76d530be4d962493eaf0d05d571679fb724b448f16668a3ff5346f"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "The search is driven by responsibility and longing for reconciliation rather than conquest.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: The search is driven by responsibility and longing for reconciliation rather than conquest.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "b1ccebc21e823dd840242484de585d242f84fc7e3e433b89f7f294a60e5138ec"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "A source-linked reflection from Sarga 98: The search is driven by responsibility and longing for reconciliation rather than conquest.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: The search is driven by responsibility and longing for reconciliation rather than conquest.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "d8808130c58252af91bd41858b9ec21fc37b8ba9c94e98ff4145f2fb81c4fbd8"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 98",
+    "sarga_number": 98,
+    "verse_start": 1,
+    "verse_end": 18,
+    "title_en": "Search for Rama",
+    "title_ta": "இராமனைத் தேடுதல்",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 98: Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 98.",
+    "summary_en": "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage.",
+    "summary_ta": "இராமனைத் தேடுதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Bharata",
+      "Shatrughna",
+      "Guha",
+      "Rama",
+      "Lakshmana",
+      "Sita"
+    ],
+    "places": [
+      "Citrakuta",
+      "Rama’s hermitage"
+    ],
+    "events": [
+      "Bharata organizes a search around Citrakuta, walks into the forest, and recognizes the signs of Rama’s hermitage."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.98.1-18",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-98-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S98"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "edfe6206c627e779abaca444b6a451b37c9dd1c077ff2bde0fb2f3533c8ae836"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "content_ta": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "bbaa42e5527685a9e75df7c672fb222be1d261baa6f59c19d63f81b609c543d1"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "content_ta": "நிகழ்வு: Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "c762eab32159d855f5253a1acef84ecd45f2feaead8f8592a944648dafa518b9"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Bharata laments before Rama; the brothers embrace and the surrounding parties grieve.",
+    "content_ta": "உரையாடல் பொருள்: Bharata laments before Rama; the brothers embrace and the surrounding parties grieve.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Bharata"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "8ac365e439235b83f1594b217cfbd185c1b836df5d39e344958c4df063d0321d"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Character evidence in this sarga concerns Rama, Bharata, Shatrughna, Lakshmana, Sita, Guha, Sumantra.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Bharata, Shatrughna, Lakshmana, Sita, Guha, Sumantra.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "1ff42cfca0180d074e839640183dfaddb921c96d40f6db0f3d45be5674092f09"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Place evidence: Rama’s hermitage, Citrakuta.",
+    "content_ta": "இட ஆதாரம்: Rama’s hermitage, Citrakuta.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "e13f5f6f327a7d4731d2fc25f78b562e052796573d13a2257871b26ea896b056"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Bharata’s expedition reaches the hermitage at the end of the forest approach.",
+    "content_ta": "பயணக் குறிப்பு: Bharata’s expedition reaches the hermitage at the end of the forest approach.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "e04efe59dbe7e396d965dcb3024b03627f2c6ae1ddff6adc31e615f328dd4a10"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "The meeting makes the cost of exile visible and turns political succession into a personal and ethical encounter.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: The meeting makes the cost of exile visible and turns political succession into a personal and ethical encounter.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "471c203f887e0d0526ed4038aa6822c9049849d55eaf2354e17984595e65a8e4"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "A source-linked reflection from Sarga 99: The meeting makes the cost of exile visible and turns political succession into a personal and ethical encounter.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: The meeting makes the cost of exile visible and turns political succession into a personal and ethical encounter.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "130325191fac46aa24a8f28e951486c48ed6f62d54129a87667ebd0be21f1d06"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 99",
+    "sarga_number": 99,
+    "verse_start": 1,
+    "verse_end": 42,
+    "title_en": "Meeting with Rama",
+    "title_ta": "இராமனைச் சந்தித்தல்",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 99: Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 99.",
+    "summary_en": "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions.",
+    "summary_ta": "இராமனைச் சந்தித்தல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Shatrughna",
+      "Lakshmana",
+      "Sita",
+      "Guha",
+      "Sumantra"
+    ],
+    "places": [
+      "Rama’s hermitage",
+      "Citrakuta"
+    ],
+    "events": [
+      "Bharata reaches Rama’s hermitage, sees the austerity of Rama’s life, laments, and meets Rama together with Shatrughna and their companions."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.99.1-42",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-99-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S99"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "2c25329c9e49b2a4441d16190ad2f4b03b968620bcf56c02974bd7077e75b88d"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "content_ta": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "11a4384a25bbf4c72c63e1b3d7671be8d8efc0bcfd4e274b768874c561f2531a"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "content_ta": "நிகழ்வு: Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "95bc6a0c787101d146961e5acf0ded37c008e00bad63ddfbfd91b6b2802a1d6b"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "Rama questions Bharata about the administration of Ayodhya; the speech is a governance dialogue, not a modern policy document.",
+    "content_ta": "உரையாடல் பொருள்: Rama questions Bharata about the administration of Ayodhya; the speech is a governance dialogue, not a modern policy document.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Bharata"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "86f823987b736484cea92ca7d94340c5792493f3c61142fca4e26903dab0cf3a"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "Character evidence in this sarga concerns Rama, Bharata, Vasistha, Ministers.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Bharata, Vasistha, Ministers.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "eb1f799b9a5d325fd49ad6f0fb0c2768583776ffa8f2bf72604725016f14e10f"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "Place evidence: Citrakuta hermitage.",
+    "content_ta": "இட ஆதாரம்: Citrakuta hermitage.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "3065344b1331ba445cef6bb2b6298dccbb2cc024ba21825727ac4406001483f5"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "The brothers’ meeting becomes a sustained conversation at Rama’s forest dwelling.",
+    "content_ta": "பயணக் குறிப்பு: The brothers’ meeting becomes a sustained conversation at Rama’s forest dwelling.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "b6d9503c08ee24516f04bc745429fffd5f1e8622aaca3d256e268ed85723c54e"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "The sarga presents kingship as disciplined service: wise counsel, fair justice, protection of subjects, financial restraint, and respect for teachers and elders.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: The sarga presents kingship as disciplined service: wise counsel, fair justice, protection of subjects, financial restraint, and respect for teachers and elders.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "6f5d834d1745204aeed6671643f4f9fb34d1227283fbf9038844fa4e6d4e334b"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "A source-linked reflection from Sarga 100: The sarga presents kingship as disciplined service: wise counsel, fair justice, protection of subjects, financial restraint, and respect for teachers and elders.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: The sarga presents kingship as disciplined service: wise counsel, fair justice, protection of subjects, financial restraint, and respect for teachers and elders.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "0c51370b229389a7ee2869cd3c2441a528aaa19560347afdab649a19847d3e0c"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 100",
+    "sarga_number": 100,
+    "verse_start": 1,
+    "verse_end": 76,
+    "title_en": "Rama’s questions on kingship",
+    "title_ta": "இராமனின் அரசியல் கேள்விகள்",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 100: Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 100.",
+    "summary_en": "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler.",
+    "summary_ta": "இராமனின் அரசியல் கேள்விகள் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Vasistha",
+      "Ministers"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Rama receives Bharata and asks detailed questions about governance, counsel, justice, protection, finance, and the duties of a ruler."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.100.1-76",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-100-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S100"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "ed0523ac5f72cff06e392d3c219e86aef297e0f436ad409eae79154c95ccb76b"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "content_ta": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "6c70c3ca17526c9f211816d9fb1f8f0a9eda4238cab5ffb4c92bb160d153a316"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "content_ta": "நிகழ்வு: Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "d6b21cbae8ee9f38d05c44f368fb64bf34309d3e42873966dde8fb52c973d837"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Bharata speaks to Rama about succession and Dasaratha; no quotation beyond the source text is manufactured.",
+    "content_ta": "உரையாடல் பொருள்: Bharata speaks to Rama about succession and Dasaratha; no quotation beyond the source text is manufactured.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [
+      {
+        "type": "SPOKEN_BY",
+        "target": "Rama"
+      },
+      {
+        "type": "ADDRESSED_TO",
+        "target": "Bharata"
+      }
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "0327da136175ee9049b690e018c135dc7079e36dd6a34ace95a5146859a81b99"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Character evidence in this sarga concerns Rama, Bharata, Dasaratha, Shatrughna.",
+    "content_ta": "இந்த சர்க்கத்தில் இடம்பெறும் பாத்திர ஆதாரம்: Rama, Bharata, Dasaratha, Shatrughna.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "6cb40a385312e8d27940f4ab210ef3ede3c137210f408d6436785d09e1fd5044"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Place evidence: Citrakuta hermitage.",
+    "content_ta": "இட ஆதாரம்: Citrakuta hermitage.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "52571b45db2fcdea5fda2d76ea724fca570e6c8d0f1e4e2e6c844162d6034a7b"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+    "record_type": "JOURNEY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "The succession conversation turns toward the mourning duty connected with Dasaratha’s death.",
+    "content_ta": "பயணக் குறிப்பு: The succession conversation turns toward the mourning duty connected with Dasaratha’s death.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "6af4836510dfa2bbf4095433ce58e386e50b6f60d0c1241fe82d777be9b39ee7"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Bharata argues from elder-son duty and asks Rama to honor their father through the prescribed rite.",
+    "content_ta": "தர்மப் பிரதிபலிப்பு: Bharata argues from elder-son duty and asks Rama to honor their father through the prescribed rite.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "4e89fc26d699a09eb264645b3b8cf8854f49ca4fb5cfdbb0cc8a32cf71e6acc6"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "A source-linked reflection from Sarga 101: Bharata argues from elder-son duty and asks Rama to honor their father through the prescribed rite.",
+    "content_ta": "ஆதார இணைப்புள்ள ஞானப் பிரதிபலிப்பு: Bharata argues from elder-son duty and asks Rama to honor their father through the prescribed rite.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "a43b54f1f503a970a83e8e581570a3dba7f08af1310720f05beb76f424381673"
+  },
+  {
+    "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 101",
+    "sarga_number": 101,
+    "verse_start": 1,
+    "verse_end": 9,
+    "title_en": "Hearing of the father’s death",
+    "title_ta": "தந்தையின் மறைவை அறிதல்",
+    "content_en": "Ayodhya Kanda sequence marker for Sarga 101: Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "content_ta": "அயோத்தியாகாண்ட வரிசைக் குறிப்பு: சர்க்கம் 101.",
+    "summary_en": "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father.",
+    "summary_ta": "தந்தையின் மறைவை அறிதல் தொடர்பான ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "characters": [
+      "Rama",
+      "Bharata",
+      "Dasaratha",
+      "Shatrughna"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata invokes elder-son succession and tells Rama of Dasaratha’s death, asking Rama to perform the water rite for their father."
+    ],
+    "relationships": [],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.101.1-9",
+    "source_url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-101-in-english/",
+    "source_retrieval_date": "2026-08-25",
+    "source_ids": [
+      "SRC-RV02-STOTRANIDHI-AYODHYA-S101"
+    ],
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "PENDING_INDEPENDENT_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_RV02_PREVIOUS_IDS",
+    "created_batch": "RV02-MAXVALUE-20260825-AYODHYA-94-101",
+    "content_hash": "1b813e675b746f789953f8788786b1e00e512bc6784b271b319b98d7c14ce69a"
+  }
+]

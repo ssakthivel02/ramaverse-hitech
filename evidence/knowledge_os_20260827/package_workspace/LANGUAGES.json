@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "supported": {
+    "en": {
+      "ui": "COMPLETE",
+      "content": "PARTIAL",
+      "humanReviewed": 0,
+      "machineDraft": "NOT_APPLICABLE",
+      "wrongScript": 0,
+      "missingKeys": 0
+    },
+    "ta": {
+      "ui": "COMPLETE",
+      "content": "PARTIAL",
+      "humanReviewed": 0,
+      "machineDraft": "EDITORIAL_READY_FOR_HUMAN",
+      "wrongScript": 0,
+      "missingKeys": 0
+    },
+    "hi": {
+      "ui": "PARTIAL",
+      "content": "PENDING",
+      "humanReviewed": 0,
+      "machineDraft": "NOT_APPROVED",
+      "wrongScript": 0,
+      "missingKeys": 0
+    },
+    "te": {
+      "ui": "PARTIAL",
+      "content": "PENDING",
+      "humanReviewed": 0,
+      "machineDraft": "NOT_APPROVED",
+      "wrongScript": 0,
+      "missingKeys": 0
+    },
+    "kn": {
+      "ui": "PARTIAL",
+      "content": "PENDING",
+      "humanReviewed": 0,
+      "machineDraft": "NOT_APPROVED",
+      "wrongScript": 0,
+      "missingKeys": 0
+    },
+    "ml": {
+      "ui": "PARTIAL",
+      "content": "PENDING",
+      "humanReviewed": 0,
+      "machineDraft": "NOT_APPROVED",
+      "wrongScript": 0,
+      "missingKeys": 0
+    }
+  },
+  "expansion": [
+    "bn",
+    "mr",
+    "gu",
+    "or",
+    "pa",
+    "as",
+    "ne",
+    "es",
+    "fr",
+    "de",
+    "pt",
+    "id",
+    "th"
+  ]
+}

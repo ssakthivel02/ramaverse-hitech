@@ -1,0 +1,29 @@
+candidate_id,record_type,kanda,sarga_reference,review_status,reason
+stg-v2-ayodhyakanda-s18-event-001,EVENT,Ayodhya Kanda,2.18.1–18,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s18-relationship-001,RELATIONSHIP,Ayodhya Kanda,2.18.11–18,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s18-character-001,CHARACTER,Ayodhya Kanda,2.18.1–41; 2.19.1–40,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s18-character-002,CHARACTER,Ayodhya Kanda,2.18.1–41,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s18-character-003,CHARACTER,Ayodhya Kanda,2.18.19–41; 2.19.1–26,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s18-event-002,EVENT,Ayodhya Kanda,2.18.19–41,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s19-event-001,EVENT,Ayodhya Kanda,2.19.1–8,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s19-relationship-001,RELATIONSHIP,Ayodhya Kanda,"2.19.5–8, 22–26",needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s19-place-001,PLACE,Ayodhya Kanda,"2.19.2, 11, 14–16",needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s19-event-002,NARRATIVE_SEQUENCE,Ayodhya Kanda,2.19.9–26,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s19-event-003,EVENT,Ayodhya Kanda,2.19.27–40,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s19-character-001,CHARACTER,Ayodhya Kanda,"2.19.30, 39",needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-event-001,EVENT,Ayodhya Kanda,1–7,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-narrative-001,NARRATIVE_SEQUENCE,Ayodhya Kanda,8–13,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-character-004,CHARACTER,Ayodhya Kanda,14–19,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-object-001,OBJECT,Ayodhya Kanda,17–18,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-relationship-002,RELATIONSHIP,Ayodhya Kanda,20–22,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-event-002,EVENT,Ayodhya Kanda,22–25,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-event-003,EVENT,Ayodhya Kanda,25–31,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-place-002,PLACE,Ayodhya Kanda,26–31,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-event-004,EVENT,Ayodhya Kanda,32–34,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-character-005,CHARACTER,Ayodhya Kanda,35–40,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-theme-001,THEME,Ayodhya Kanda,36–41,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-relationship-003,RELATIONSHIP,Ayodhya Kanda,42–47,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-event-005,EVENT,Ayodhya Kanda,48–55,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-narrative-002,NARRATIVE_SEQUENCE,Ayodhya Kanda,1–55,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-theme-002,THEME,Ayodhya Kanda,14–31,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.
+stg-v2-ayodhyakanda-s20-source-001,VERSE_SECTION,Ayodhya Kanda,1–55,needs_human_tamil_review,Tamil explanatory field requires human editorial review; no automatic status upgrade made.

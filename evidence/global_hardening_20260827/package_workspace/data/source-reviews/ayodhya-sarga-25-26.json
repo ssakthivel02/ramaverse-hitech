@@ -1,0 +1,52 @@
+{
+  "catalog": {
+    "SOURCE_ACQUIRED": "A chapter source locator has been physically acquired but no public corpus record is created.",
+    "STAGING": "A candidate record exists only in non-publishing reconciliation inputs.",
+    "NEEDS_RECONCILIATION": "A source or candidate requires authoritative ledger and editorial reconciliation.",
+    "NEEDS_TAMIL_REVIEW": "Tamil editorial treatment has not been human reviewed.",
+    "READY_FOR_EDITORIAL_APPROVAL": "All documented gates are met and await explicit approval; this does not publish content.",
+    "CANONICAL": "A formally approved public-corpus record only."
+  },
+  "visibilityPolicy": {
+    "SOURCE_ACQUIRED": { "publicReader": false, "publicSearch": false, "offlineCanonical": false, "publicationAction": false },
+    "STAGING": { "publicReader": false, "publicSearch": false, "offlineCanonical": false, "publicationAction": false },
+    "NEEDS_RECONCILIATION": { "publicReader": false, "publicSearch": false, "offlineCanonical": false, "publicationAction": false },
+    "NEEDS_TAMIL_REVIEW": { "publicReader": false, "publicSearch": false, "offlineCanonical": false, "publicationAction": false },
+    "READY_FOR_EDITORIAL_APPROVAL": { "publicReader": false, "publicSearch": false, "offlineCanonical": false, "publicationAction": false },
+    "CANONICAL": { "publicReader": true, "publicSearch": true, "offlineCanonical": true, "publicationAction": false }
+  },
+  "records": [
+    {
+      "recordKey": "SRC-READINESS-AYO-025",
+      "recordType": "SOURCE_READINESS_ONLY",
+      "publicationStatus": "NOT_CANONICAL",
+      "kandaNumber": 2,
+      "kanda": "Ayodhya Kanda",
+      "sargaNumber": 25,
+      "sargaIdentifier": "Ayodhya Kanda 2.25",
+      "sourceLocator": "https://www.valmiki.iitk.ac.in/sloka?field_kanda_tid=2&language=dv&field_sarga_value=25",
+      "sourceIds": ["IITK_VALMIKI_DIGITAL_TEXT"],
+      "traditionId": "VALMIKI_RAMAYANA",
+      "englishEditorialDescriptor": "Kausalya performs benedictory rites for Rama and he departs for Sita's residence.",
+      "readinessStates": ["SOURCE_ACQUIRED", "NEEDS_RECONCILIATION", "NEEDS_TAMIL_REVIEW"],
+      "translationStatus": "NOT_PUBLISHED",
+      "nextSource": "Ayodhya Kanda Sarga 26"
+    },
+    {
+      "recordKey": "SRC-READINESS-AYO-026",
+      "recordType": "SOURCE_READINESS_ONLY",
+      "publicationStatus": "NOT_CANONICAL",
+      "kandaNumber": 2,
+      "kanda": "Ayodhya Kanda",
+      "sargaNumber": 26,
+      "sargaIdentifier": "Ayodhya Kanda 2.26",
+      "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga26/ayodhyaitrans26.htm",
+      "sourceIds": ["SANSKRITDOCUMENTS_VALMIKI_AYODHYA_026"],
+      "traditionId": "VALMIKI_RAMAYANA",
+      "englishEditorialDescriptor": "Rama speaks with Sita about the king's command and his decision to depart for the forest.",
+      "readinessStates": ["SOURCE_ACQUIRED", "NEEDS_RECONCILIATION", "NEEDS_TAMIL_REVIEW"],
+      "translationStatus": "NOT_PUBLISHED",
+      "nextSource": "Not yet acquired"
+    }
+  ]
+}

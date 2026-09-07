@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "set_a_input": 72,
+  "set_a_resolved_safe": 72,
+  "set_a_remaining_held": 0,
+  "variant_input": 9,
+  "variant_resolved": 0,
+  "variant_remaining": 9,
+  "previous_safe": 103,
+  "new_safe": 72,
+  "total_mobile_eligible": 175,
+  "total_held": 9,
+  "accounting": "175+9=184",
+  "canonical_baseline": 550,
+  "resulting_canonical_candidate": 550,
+  "search_delta": 175,
+  "ask_delta": 70,
+  "reader_delta": 175,
+  "graph_delta": 44,
+  "dangling": 0,
+  "tamil_human_reviewed": 0,
+  "p0": 0,
+  "promotion": {
+    "filename": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE-v2.zip",
+    "sha256": "43970d12465982ea138a49abebe65a557fcd6a50e3216f2d6ac539e03bcd3203",
+    "entries": 9,
+    "integrity": true
+  },
+  "editorial_hold": {
+    "filename": "RAMAVERSE-AYODHYA-94-113-EDITORIAL-HOLD-v2.zip",
+    "sha256": "7b26424064253b3c6e06e8b943855944e30289a5f1bdb9b3e4b2357f8204b177",
+    "entries": 6,
+    "integrity": true
+  },
+  "next_exact_action": "Resolve independent variant evidence and govern the stable entity-ID registry before any Mobile intake."
+}

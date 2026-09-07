@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s61-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 61,
+    "verse_locator": "2.61.1-2.61.34",
+    "source_id": "src-valmiki-ayodhya-s61-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 61, verses 1-34",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Kausalya weeps bitterly and reproaches Dasaratha for sending Rama, Sita, and Lakshmana into forest exile.",
+    "tamil_draft": "கௌசல்யா அழுதுகொண்டு, இராமன், சீதை மற்றும் இலக்குவனனை கானகம் அனுப்பியதற்காகத் தசரதைக் கண்டிக்கிறார்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s61-dialogue-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 61,
+    "verse_locator": "2.61.2-2.61.10",
+    "source_id": "src-valmiki-ayodhya-s61-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 61, verses 2-10",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Kausalya's direct reproach to Dasaratha concerning the unbearable hardships faced by Rama and Sita.",
+    "tamil_draft": "இராமனும் சீதையும் காட்டில் படும் துயரங்களைக் கூறி கௌசல்யா தசரதரிடம் வருந்திப் பேசுதல்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

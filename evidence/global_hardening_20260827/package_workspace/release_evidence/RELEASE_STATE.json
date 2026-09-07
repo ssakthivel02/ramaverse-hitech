@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-27T16:01:39.423Z",
+  "project": "RamaVerse Website",
+  "decision": "READY_FOR_OWNER_CONTROLLED_RELEASE",
+  "productionDeployment": "NOT_PERFORMED",
+  "canonicalBaseline": 550,
+  "stagingPublished": 0,
+  "activeCorpusVersion": "v1.4.0",
+  "approvedCorpusRecords": 1092,
+  "checks": {
+    "canonical": true,
+    "openGraph": true,
+    "twitter": true,
+    "structuredData": true,
+    "hreflang": true,
+    "sitemap": true,
+    "robots": true,
+    "internalNoIndex": true,
+    "pwaVersionedCache": true,
+    "pwaReset": true,
+    "pwaVersionProbe": true,
+    "securityHeaders": true,
+    "cspReportOnly": true,
+    "health": true,
+    "privacy": true,
+    "ci": true,
+    "corpusAuthority": true
+  }
+}

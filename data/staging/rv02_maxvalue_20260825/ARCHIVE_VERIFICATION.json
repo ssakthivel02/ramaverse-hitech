@@ -1,0 +1,27 @@
+{
+  "archive": "RAMAVERSE-SEVEN-KANDA-CORPUS-ACQUISITION-vNEXT.zip",
+  "zipIntegrity": true,
+  "entries": 16,
+  "bytes": 29759,
+  "sha256": "ddc29933f3b29df8112396d7a63d4c54a6c4004f0da49c4c735f401fbe000c18",
+  "missingMembers": [],
+  "requiredMembers": [
+    "RAMAVERSE_CORPUS_VNEXT_RECORDS.json",
+    "RAMAVERSE_CORPUS_VNEXT_RECORDS.jsonl",
+    "RAMAVERSE_SOURCE_REGISTRY_VNEXT.json",
+    "RAMAVERSE_SARGA_COVERAGE_VNEXT.json",
+    "RAMAVERSE_ENTITY_CONNECTIONS_VNEXT.json",
+    "RAMAVERSE_SEARCH_METADATA_VNEXT.json",
+    "RAMAVERSE_ASK_METADATA_VNEXT.json",
+    "RAMAVERSE_VARIANT_REGISTER_VNEXT.json",
+    "RAMAVERSE_DUPLICATE_OVERLAP_VNEXT.json",
+    "RAMAVERSE_CONTINUATION_VNEXT.json",
+    "RAMAVERSE_ACQUISITION_VALIDATION_VNEXT.json",
+    "FILE_MANIFEST.csv",
+    "SHA256SUMS.txt",
+    "SOURCE_EVIDENCE_REFERENCE.md",
+    "README.md"
+  ],
+  "requiredPresent": true,
+  "status": "PASS"
+}

@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "default": "REVIEW_REQUIRED",
+  "classes": [
+    "PUBLIC_DOMAIN",
+    "PROJECT_ORIGINAL",
+    "LICENSED",
+    "LINK_ONLY",
+    "REVIEW_REQUIRED",
+    "DO_NOT_USE"
+  ],
+  "entries": [
+    {
+      "sourceId": "SRC-VALMIKI-01",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    },
+    {
+      "sourceId": "VALMIKI_RAMAYANA_ARANYA_KANDA",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    },
+    {
+      "sourceId": "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    },
+    {
+      "sourceId": "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    },
+    {
+      "sourceId": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    },
+    {
+      "sourceId": "VALMIKI_RAMAYANA_UTTARA_KANDA",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    },
+    {
+      "sourceId": "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+      "classification": "REVIEW_REQUIRED",
+      "reason": "Rights evidence must be explicitly verified before production media/text packaging."
+    }
+  ]
+}

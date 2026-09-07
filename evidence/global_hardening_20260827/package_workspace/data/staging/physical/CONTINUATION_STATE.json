@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-08-14T16:13:02.911304+00:00",
+  "historical_baseline": {
+    "total_records": 550,
+    "status": "unchanged"
+  },
+  "global_continuation_status": "blocked_pending_claimed_branch_artifact",
+  "branches": [
+    {
+      "branch_id": "ayodhya_v2_verified",
+      "status": "active_verified_branch",
+      "latest_completed_source": "Ayodhya Kanda Sarga 20 (2.20.1–55)",
+      "next_exact_source": "Ayodhya Kanda Sarga 21",
+      "record_count": 28,
+      "continuation_source_file": "RAMAVERSE_STAGING_V2_CONTINUATION.md"
+    },
+    {
+      "branch_id": "claimed_continuation_state_2026_08_14",
+      "status": "unverified_missing_artifact",
+      "latest_completed_source": null,
+      "next_exact_source": "Uttara Kanda Chapter 95",
+      "claimed_record_count": 50,
+      "continuation_source_file": "continuation-state-2026-08-14.json",
+      "action_required": "Attach or restore the actual continuation-state ledger and its record inventory before branch comparison or acquisition."
+    }
+  ],
+  "records_created_this_reconciliation_run": 0,
+  "production_merge": "NOT_PERFORMED"
+}

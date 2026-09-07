@@ -1,0 +1,21 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s60-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 60,
+    "verse_locator": "2.60.1-2.60.30",
+    "source_id": "src-valmiki-ayodhya-s60-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 60, verses 1-30",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Sumantra attempts to console Kausalya, describing how Rama, Sita, and Lakshmana are enduring forest life with resilience and steadfast devotion.",
+    "tamil_draft": "இராமன், சீதை மற்றும் இலக்குவனன் காட்டில் உறுதியுடன் வாழ்வதை விளக்கி, கௌசல்யாவைச் சுமந்திரன் தேற்றுதல்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

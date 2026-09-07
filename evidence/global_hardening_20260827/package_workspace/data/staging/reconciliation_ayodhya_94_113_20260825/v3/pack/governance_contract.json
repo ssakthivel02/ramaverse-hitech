@@ -1,0 +1,51 @@
+{
+  "contract_id": "RAMAVERSE-MOBILE-RUNTIME-GOVERNANCE-v3",
+  "version": "3.0.0",
+  "canonical_baseline": 550,
+  "states": {
+    "canonical_state": [
+      "EXISTING_CANONICAL",
+      "NON_CANONICAL"
+    ],
+    "publication_state": [
+      "MOBILE_CANDIDATE_ONLY",
+      "UNPUBLISHED_STAGING",
+      "PUBLISHED_WEBSITE"
+    ],
+    "reconciliation_state": [
+      "RECONCILED",
+      "QUARANTINED_UNRECONCILED",
+      "SOURCE_REVIEW_REQUIRED"
+    ],
+    "mobile_runtime_eligibility": [
+      "APPROVED",
+      "HOLD",
+      "REJECTED"
+    ],
+    "tamil_review_state": [
+      "HUMAN_REVIEWED",
+      "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+      "PENDING"
+    ],
+    "variant_state": [
+      "NONE",
+      "VARIANT_HOLD",
+      "EDITION_SPECIFIC_RUNTIME_APPROVED"
+    ]
+  },
+  "pack_rule": {
+    "canonical_state": "NON_CANONICAL",
+    "publication_state": "MOBILE_CANDIDATE_ONLY",
+    "reconciliation_state": "RECONCILED",
+    "mobile_runtime_eligibility": "APPROVED",
+    "forbidden": [
+      "QUARANTINED_UNRECONCILED",
+      "runtime_eligible=false",
+      "held=true",
+      "blocked=true"
+    ]
+  },
+  "canonical_mutation": false,
+  "website_publication": false,
+  "mobile_source_mutation": false
+}

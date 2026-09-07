@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-08-27T23:20:06.509Z",
+  "ui": {
+    "EN": "PASS",
+    "TA": "PASS",
+    "HI": "PASS",
+    "TE": "PASS",
+    "KN": "PASS",
+    "ML": "PASS"
+  },
+  "content": {
+    "EN": "PARTIAL",
+    "TA": "PARTIAL",
+    "HI": "PARTIAL",
+    "TE": "PARTIAL",
+    "KN": "PARTIAL",
+    "ML": "PARTIAL"
+  },
+  "humanReviewed": {
+    "EN": 0,
+    "TA": 0,
+    "HI": 0,
+    "TE": 0,
+    "KN": 0,
+    "ML": 0
+  },
+  "machineDraft": {
+    "EN": "tracked",
+    "TA": "tracked",
+    "HI": "tracked",
+    "TE": "tracked",
+    "KN": "tracked",
+    "ML": "tracked"
+  },
+  "wrongScript": 0,
+  "missingKeys": 0,
+  "futureArchitecture": [
+    "BN",
+    "MR",
+    "GU",
+    "OD",
+    "PA",
+    "AS",
+    "NE",
+    "ES",
+    "FR",
+    "DE",
+    "PT",
+    "ID",
+    "TH"
+  ]
+}

@@ -1,0 +1,9 @@
+groupId,tier,risk,recordCount,recommendedDecision,ownerDecision
+"GROUP-001","A","LOW",90,"APPROVE_GROUP",""
+"GROUP-002","A","LOW",20,"APPROVE_GROUP",""
+"GROUP-003","A","LOW",67,"APPROVE_GROUP",""
+"GROUP-004","A","LOW",68,"APPROVE_GROUP",""
+"GROUP-005","A","LOW",111,"APPROVE_GROUP",""
+"GROUP-006","A","LOW",128,"APPROVE_GROUP",""
+"GROUP-007","B","MEDIUM",58,"REVIEW_INDIVIDUALLY",""
+"GROUP-C-001","C","HOLD",1,"HOLD_GROUP",""

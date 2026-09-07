@@ -1,0 +1,50 @@
+[
+  {
+    "id": "PRIMARY_TEXT",
+    "label": "Primary text",
+    "status": "SUPPORTED",
+    "authorityClass": "PRIMARY_SCRIPTURE"
+  },
+  {
+    "id": "TRADITIONAL_TEXT",
+    "label": "Traditional text",
+    "status": "REVIEW_REQUIRED",
+    "authorityClass": "TRADITIONAL_TEXT"
+  },
+  {
+    "id": "SCHOLARLY",
+    "label": "Scholarly interpretation",
+    "status": "REVIEW_REQUIRED",
+    "authorityClass": "SCHOLARLY"
+  },
+  {
+    "id": "TEMPLE_TRADITION",
+    "label": "Temple tradition",
+    "status": "REVIEW_REQUIRED",
+    "authorityClass": "TEMPLE_TRADITION"
+  },
+  {
+    "id": "DEVOTIONAL_TRADITION",
+    "label": "Devotional tradition",
+    "status": "REVIEW_REQUIRED",
+    "authorityClass": "DEVOTIONAL_TRADITION"
+  },
+  {
+    "id": "EDITORIAL_INTERPRETATION",
+    "label": "Editorial interpretation",
+    "status": "REVIEW_REQUIRED",
+    "authorityClass": "EDITORIAL_INTERPRETATION"
+  },
+  {
+    "id": "MODERN_APPLICATION",
+    "label": "Modern application",
+    "status": "REVIEW_REQUIRED",
+    "authorityClass": "MODERN_APPLICATION"
+  },
+  {
+    "id": "UNVERIFIED",
+    "label": "Unverified",
+    "status": "BLOCKED",
+    "authorityClass": "UNVERIFIED"
+  }
+]

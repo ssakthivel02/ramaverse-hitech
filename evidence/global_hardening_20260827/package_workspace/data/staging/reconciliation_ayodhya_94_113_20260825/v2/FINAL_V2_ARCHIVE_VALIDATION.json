@@ -1,0 +1,49 @@
+{
+  "status": true,
+  "inputs": 184,
+  "accounted": 184,
+  "eligible": 175,
+  "held": 9,
+  "canonical": 550,
+  "canonical_modified": 0,
+  "staging_published": 0,
+  "dangling": 0,
+  "variant_resolved": 0,
+  "tamil_human_reviewed": 0,
+  "promotion": {
+    "archive": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE-v2.zip",
+    "sha256": "43970d12465982ea138a49abebe65a557fcd6a50e3216f2d6ac539e03bcd3203",
+    "entries": 9,
+    "integrity": true,
+    "member_hashes": true,
+    "bad_member_hashes": [],
+    "manifest": {
+      "pack": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE-v2",
+      "records": 175,
+      "previous_safe": 103,
+      "newly_resolved_safe": 72,
+      "held_excluded": 9,
+      "canonical_baseline": 550,
+      "canonical_modified": 0,
+      "staging_published": 0,
+      "p0": 0
+    }
+  },
+  "editorial_hold": {
+    "archive": "RAMAVERSE-AYODHYA-94-113-EDITORIAL-HOLD-v2.zip",
+    "sha256": "7b26424064253b3c6e06e8b943855944e30289a5f1bdb9b3e4b2357f8204b177",
+    "entries": 6,
+    "integrity": true,
+    "member_hashes": true,
+    "bad_member_hashes": [],
+    "manifest": {
+      "pack": "RAMAVERSE-AYODHYA-94-113-EDITORIAL-HOLD",
+      "records": 9,
+      "canonical_modified": 0,
+      "staging_published": 0
+    }
+  },
+  "quarantine_leakage": false,
+  "manifest_ledger_parity": true,
+  "verified_at": "2026-08-25T21:27:15.048Z"
+}

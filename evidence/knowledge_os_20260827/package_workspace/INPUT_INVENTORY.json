@@ -1,0 +1,16 @@
+{
+  "activeCanonical": "data/corpus/versions/v1.4.0/canonical.json",
+  "approvedCandidate": "data/v1_5_final_promotion_candidate_20260826/RAMAVERSE_v1_5_APPROVED_542_FREEZE.json",
+  "excludedPrefixes": [
+    "data/staging/",
+    "quarantine",
+    "source-evidence-only"
+  ],
+  "availableEvidenceFiles": [
+    "client/src/lib/knowledgeUniverse.ts",
+    "work_escrow_final/LANGUAGE_REGISTRY.json",
+    "work_escrow_final/LANGUAGE_MATRIX.csv",
+    "work_escrow_final/V1_5_PHYSICAL_DEVICE_QA_MATRIX.md",
+    "release_evidence/global_hardening_20260827/RELEASE_STATE.json"
+  ]
+}

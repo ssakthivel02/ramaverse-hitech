@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-27T16:01:39.429Z",
+  "files": [
+    {
+      "file": "ARCHIVE_VERIFICATION.json",
+      "sha256": "2044fdec4857f5a67fd4b95272d706d15d9d2549dc21b80b5033c17176907cb7"
+    },
+    {
+      "file": "CORPUS_VERSION.json",
+      "sha256": "086b7d64213914ca7c496e77662f974083150cdb712967079615a27ad1f47fca"
+    },
+    {
+      "file": "HARDENING_EVIDENCE_MANIFEST.json",
+      "sha256": "3b49c419e56a7654aa293fc63a245f9af2871347505d69320b1336152e9635b5"
+    },
+    {
+      "file": "HEALTH_CONTRACT.json",
+      "sha256": "19b711c559e659c99e0e7a15e5d9a07f04e8fbb265ce77ae79eae2b5f3f20ad9"
+    },
+    {
+      "file": "PERFORMANCE_REPORT.json",
+      "sha256": "adfc1c13606b23967189e6e0fbc05ca52de3720f3b9c36b6812e3379f8f8f3cd"
+    },
+    {
+      "file": "PWA_VALIDATION.json",
+      "sha256": "2e5e7ecde5c6a35abeb886c8e0e065229d109c1e462d8e0dc41d2cdf0c4cb919"
+    },
+    {
+      "file": "RELEASE_STATE.json",
+      "sha256": "de0c67923c9951806720455cb74f58c8b86c76f5ba40744688818873acc89f64"
+    },
+    {
+      "file": "ROUTE_MATRIX.json",
+      "sha256": "e4d855181fd4f081122ceab585a69912e35b58ff02133ad0aaa28d99087266c0"
+    },
+    {
+      "file": "SEO_VALIDATION.json",
+      "sha256": "271a3ddcfc9bb0452fb504159e288324130f2b79ae7c6d20b069c5b04998aeb1"
+    }
+  ]
+}

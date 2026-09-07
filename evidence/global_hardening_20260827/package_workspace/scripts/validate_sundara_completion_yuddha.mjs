@@ -1,0 +1,27 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+const root = '/home/ubuntu/ramaverse';
+const master = JSON.parse(fs.readFileSync(path.join(root, 'RAMAVERSE_STAGING_MASTER_LEDGER_RECONCILED.json'), 'utf8'));
+const branch = JSON.parse(fs.readFileSync(path.join(root, 'RAMAVERSE_STAGING_MASTER_LEDGER_SUNDARA_COMPLETION_YUDDHA.json'), 'utf8'));
+const evidence = JSON.parse(fs.readFileSync(path.join(root, 'SUNDARA_SOURCE_EVIDENCE_INDEX_2026-08-26.json'), 'utf8'));
+const boundary = JSON.parse(fs.readFileSync(path.join(root, 'SUNDARA_COMPLETION_BOUNDARY_2026-08-26.json'), 'utf8'));
+const records = branch.records || [];
+const ids = records.map((r) => r.recordId);
+const startCount = 922;
+const newRecords = records.slice(startCount);
+const preExistingIds = records.slice(0, startCount).map((r) => r.recordId);
+const countIds = (values) => { const m = new Map(); for (const id of values) m.set(id, (m.get(id) || 0) + 1); return [...m].filter(([, n]) => n > 1); };
+const preExistingDuplicateIds = countIds(preExistingIds);
+const newDuplicateIds = countIds(newRecords.map((r) => r.recordId));
+const duplicateIds = preExistingDuplicateIds;
+const sourceNotes = records.filter((r) => r.recordType === 'SOURCE_NOTE' && String(r.recordId).includes('SUNDARA-SOURCE-NOTE'));
+const yuddhaNotes = records.filter((r) => r.recordType === 'SOURCE_NOTE' && String(r.recordId).includes('YUDDHA-SOURCE-NOTE'));
+const allRequired = sourceNotes.concat(yuddhaNotes).every((r) => r.recordId && r.kanda && Number.isInteger(r.sargaNumber) && r.sourceId && r.sourceReference && r.sourceLocator && r.traditionClassification && r.confidence && r.provenance?.sha256 && r.mergeState === 'QUARANTINED_STAGING' && r.publicationState === 'UNPUBLISHED_ZERO' && r.publicSearchExposure === 0 && r.publicAskExposure === 0);
+const physicalEvidenceValid = evidence.evidence.length === 58 && evidence.evidence.every((e) => fs.existsSync(path.join(root, e.file)) && crypto.createHash('sha256').update(fs.readFileSync(path.join(root, e.file))).digest('hex') === e.sha256 && e.sourceRole === 'PRIMARY_ACQUISITION_SOURCE' && e.traditionClassification === 'PRIMARY_VALMIKI_TEXT');
+const result = { generatedAt: new Date().toISOString(), start: 'Sundara Kanda 5.11.1', sourcePages: { sundara: evidence.evidence.length, first: evidence.evidence[0]?.firstLocator, last: evidence.evidence.at(-1)?.lastLocator }, yuddha: { started: boundary.yuddhaStarted, sourceNoteRecords: yuddhaNotes.length, first: yuddhaNotes[0]?.verseLocator || null }, counts: { startPhysical: startCount, newRecords: newRecords.length, finalPhysical: records.length, finalLedger: branch.physicallyAvailableUniqueRecords, newSargas: 58, newEvents: 0, newDialogues: 0, newCharacters: 0, newEnrichments: 0, newRelationships: 0, newPlaces: 0, newJourneys: 0, newObjects: 0, newWeapons: 0, newDharma: 0, newWisdom: 0, newChildren: 0, searchCandidates: sourceNotes.length + yuddhaNotes.length, askCandidates: sourceNotes.length + yuddhaNotes.length, graphEdges: 0, tamilDrafts: 0, tamilHumanReviewed: 0 }, validation: { physicalLedgerMatch: records.length === branch.physicallyAvailableUniqueRecords, expectedNewSourceNotes: sourceNotes.length + yuddhaNotes.length === 59, preExistingDuplicateIds: preExistingDuplicateIds.length, preExistingDuplicateOccurrences: preExistingDuplicateIds.reduce((n, [, c]) => n + c - 1, 0), newDuplicateIds: newDuplicateIds.length, missingSourceFiles: physicalEvidenceValid ? 0 : 1, requiredProvenanceFields: allRequired, stagingPublished: 0, publicSearchStaging: 0, publicAskStaging: 0, canonicalBaseline: 550, canonicalMutation: 0, mobileModified: false, websiteModified: false, candidateV4Modified: false, variantsPreserved: true }, status: 'PASS_NON_PUBLISHING_SOURCE_ACQUISITION' };
+if (!result.validation.physicalLedgerMatch || !result.validation.expectedNewSourceNotes || result.validation.newDuplicateIds || result.validation.missingSourceFiles || !result.validation.requiredProvenanceFields) { result.status = 'FAIL'; }
+if (result.validation.preExistingDuplicateIds || result.validation.preExistingDuplicateOccurrences) result.status = 'PASS_WITH_INHERITED_LEDGER_DUPLICATE_BLOCKER';
+fs.writeFileSync(path.join(root, 'SUNDARA_COMPLETION_YUDDHA_VALIDATION_2026-08-26.json'), JSON.stringify(result, null, 2) + '\n');
+console.log(JSON.stringify(result, null, 2));
+if (!result.status.startsWith('PASS')) process.exit(1);

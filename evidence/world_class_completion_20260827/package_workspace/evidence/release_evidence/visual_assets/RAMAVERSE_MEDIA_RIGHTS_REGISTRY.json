@@ -1,0 +1,22 @@
+{
+  "version": "v1.0",
+  "project": "RamaVerse Original Visual Universe",
+  "generatedAt": "2026-08-27T17:07:00Z",
+  "policy": "No TV serial imagery, films, Google Images, copyrighted paintings, or third-party website artwork may enter a production pack.",
+  "classifications": ["PROJECT_ORIGINAL", "LICENSED", "LINK_ONLY", "REVIEW_REQUIRED", "DO_NOT_USE"],
+  "assets": [
+    {"id":"VISUAL-KANDA-IDENTITIES","file":"kanda-identities.svg","coverage":"7 Kanda identity strip","rights":"PROJECT_ORIGINAL","runtime":"source/release evidence; decorative only","status":"APPROVED_FOR_EVIDENCE"},
+    {"id":"VISUAL-JOURNEY-SOURCE-OFFLINE","file":"journey-source-offline.svg","coverage":"Journey, source, offline markers","rights":"PROJECT_ORIGINAL","runtime":"source/release evidence; semantic labels required","status":"APPROVED_FOR_EVIDENCE"},
+    {"id":"VISUAL-CHILD-LEARNING","file":"child-learning.svg","coverage":"Child learning motif","rights":"PROJECT_ORIGINAL","runtime":"source/release evidence; semantic labels required","status":"APPROVED_FOR_EVIDENCE"},
+    {"id":"VISUAL-CSS-MOTIFS","file":"client/src/index.css","coverage":"dawn, bow, river, forest, Setu, Lanka, evidence reveal","rights":"PROJECT_ORIGINAL","runtime":"Website CSS","status":"APPROVED_FOR_RUNTIME"},
+    {"id":"VISUAL-KANDA-ATMOSPHERE","file":"client/src/components/KandaAtmosphere.tsx","coverage":"Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha, Uttara","rights":"PROJECT_ORIGINAL","runtime":"Website component","status":"APPROVED_FOR_RUNTIME"}
+  ],
+  "unavailableCoverage": {
+    "heroRasterImages": "REVIEW_REQUIRED",
+    "characterRasterImages": "REVIEW_REQUIRED",
+    "placeRasterImages": "REVIEW_REQUIRED",
+    "audioPack": "REVIEW_REQUIRED",
+    "reason": "No source-cleared third-party or commissioned media was physically supplied; no placeholder claim is made."
+  },
+  "accessibility": {"decorativeAssetsAriaHidden":true,"semanticLabelsRequired":true,"reducedMotionRequired":true,"autoplayHeavyVideo":"PROHIBITED"}
+}

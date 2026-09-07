@@ -1,0 +1,181 @@
+{
+  "registryId": "RV02-SOURCE-REGISTRY-20260823",
+  "sources": [
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S78",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 78 — kubjāvikṣēpaḥ",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-78-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S79",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 79 — sacivaprārthanāpratiṣēdhaḥ",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-79-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S80",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 80 — mārgasaṁskāraḥ",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-80-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S81",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 81 — sabhāstānam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-81-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S82",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 82 — sēnāprasthāpanam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-82-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S83",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 83 — bharatavanaprasthānam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-83-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S84",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 84 — guhāgamanam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-84-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S85",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 85 — guhasamāgamaḥ",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-85-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S86",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 86 — guhavākyam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-86-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S87",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 87 — rāmaśayanādipraśnaḥ",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-87-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S88",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 88 — śayyānuvīkṣaṇam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-88-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S89",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 89 — gaṅgātaraṇam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-89-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S90",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 90 — bharadvājāśramanivāsaḥ",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-90-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S91",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 91 — bharadvājātithyam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-91-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S92",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 92 — bharadvājāmantraṇam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-92-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    },
+    {
+      "id": "SRC-RV02-STOTRANIDHI-AYODHYA-S93",
+      "title": "Valmiki Ramayana Ayodhya Kanda Sarga 93 — citrakūṭavanaprēkṣaṇam",
+      "url": "https://stotranidhi.com/en/ayodhya-kanda-sarga-93-in-english/",
+      "provider": "StotraNidhi",
+      "edition": "IAST presentation",
+      "role": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "accessedAt": "2026-08-23T00:00:00.000Z",
+      "evidence": "Page title, explicit Sarga colophon, and displayed Sanskrit verse text were inspected; independent critical-edition cross-check remains pending."
+    }
+  ]
+}

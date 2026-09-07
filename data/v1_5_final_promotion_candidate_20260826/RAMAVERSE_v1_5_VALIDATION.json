@@ -1,0 +1,18 @@
+{
+  "verified": "542/542",
+  "candidate": 1092,
+  "search": 1092,
+  "ask": 1092,
+  "reader": 1092,
+  "graph": 1092,
+  "timeline": 1092,
+  "characterPlaceJourney": "PASS",
+  "dangling": 0,
+  "leakage": 0,
+  "tamilHumanReviewed": 0,
+  "canonical": 550,
+  "stagingPublished": 0,
+  "deployment": "NOT_PERFORMED",
+  "p0": 0,
+  "p1": 0
+}

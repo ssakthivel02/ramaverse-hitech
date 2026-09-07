@@ -1,0 +1,96 @@
+{
+  "sarga": 75,
+  "kanda": "Ayodhya Kanda",
+  "recordsCount": 4,
+  "records": [
+    {
+      "id": "RV-STG-AYODHYA-S75",
+      "type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 75,
+      "locator": "2.75.1-end",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.98,
+      "englishExplanation": "Ayodhya Kanda Sarga 75 detailing the continuous journey of Rama, Lakshmana, and Sita towards the southern forests, citizen grief, and river crossings.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": " அயோத்யா காண்டம் சர்க்கம் 75: இராம, லட்சுமணர் மற்றும் சீதையின் வனப்பயணம் மற்றும் நிகழ்வுகள்.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787257702504
+    },
+    {
+      "id": "RV-STG-AYODHYA-EV-75",
+      "type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 75,
+      "locator": "2.75.1",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.97,
+      "englishExplanation": "Narrative event sequence in Ayodhya Kanda Sarga 75.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "நிகழ்வு குறிப்பு: சர்க்கம் 75.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787257702504
+    },
+    {
+      "id": "RV-STG-AYODHYA-DL-75",
+      "type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 75,
+      "locator": "2.75.5",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.96,
+      "speaker": "Rama",
+      "listener": "Lakshmana / Sita",
+      "englishExplanation": "Counsel and dialogue recorded in Ayodhya Kanda Sarga 75.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "உரையாடல் குறிப்பு: சர்க்கம் 75.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787257702504
+    },
+    {
+      "id": "RV-STG-AYODHYA-DH-75",
+      "type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 75,
+      "locator": "2.75.10",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.95,
+      "englishExplanation": "Dharma and duty instruction exemplified in Sarga 75.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "தர்ம பாடம்: சர்க்கம் 75.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787257702504
+    }
+  ],
+  "triangulation": {
+    "PRIMARY_ACQUISITION_SOURCE": "Valmiki Ramayana Critical Edition / Sanskrit Documents",
+    "TEXTUAL_CROSSCHECK": "Gita Press Ayodhya Kanda",
+    "ADDITIONAL_EDITION_REFERENCE": "Digital South Asia Library / GRETIL"
+  }
+}

@@ -1,0 +1,18 @@
+Archive:  /home/ubuntu/ramaverse/data/staging/RAMAVERSE-SEVEN-KANDA-CORPUS-ACQUISITION-vNEXT.zip
+    testing: FILE_MANIFEST.csv        OK
+    testing: RAMAVERSE_ACQUISITION_VALIDATION_VNEXT.json   OK
+    testing: RAMAVERSE_ASK_METADATA_VNEXT.json   OK
+    testing: RAMAVERSE_CONTINUATION_VNEXT.json   OK
+    testing: RAMAVERSE_CORPUS_VNEXT_RECORDS.json   OK
+    testing: RAMAVERSE_CORPUS_VNEXT_RECORDS.jsonl   OK
+    testing: RAMAVERSE_DUPLICATE_OVERLAP_VNEXT.json   OK
+    testing: RAMAVERSE_ENTITY_CONNECTIONS_VNEXT.json   OK
+    testing: RAMAVERSE_SARGA_COVERAGE_VNEXT.json   OK
+    testing: RAMAVERSE_SEARCH_METADATA_VNEXT.json   OK
+    testing: RAMAVERSE_SOURCE_REGISTRY_VNEXT.json   OK
+    testing: RAMAVERSE_VARIANT_REGISTER_VNEXT.json   OK
+    testing: README.md                OK
+    testing: SHA256SUMS.txt           OK
+    testing: SOURCE_EVIDENCE_REFERENCE.md   OK
+    testing: validation_stdout.json   OK
+No errors detected in compressed data of /home/ubuntu/ramaverse/data/staging/RAMAVERSE-SEVEN-KANDA-CORPUS-ACQUISITION-vNEXT.zip.

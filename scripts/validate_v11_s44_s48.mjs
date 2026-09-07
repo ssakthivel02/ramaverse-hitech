@@ -1,0 +1,22 @@
+import fs from "node:fs";
+import crypto from "node:crypto";
+import { execFileSync } from "node:child_process";
+
+const root = "/home/ubuntu/ramaverse/";
+const read = (path) => JSON.parse(fs.readFileSync(root + path, "utf8"));
+const postV1 = "data/staging/post_v1/";
+const records = [...read("data/staging/physical/STAGING_RECORDS.json"), ...fs.readdirSync(root + postV1).filter((file) => /^AYODHYA_S\d+_SOURCE_BACKED_RECORDS\.json$/.test(file)).flatMap((file) => read(postV1 + file).records)];
+const ledger = read("RAMAVERSE_STAGING_MASTER_LEDGER_V11.json");
+const sources = new Set(read("SOURCE_LEDGER_V11.json").sources.map((source) => source.source_id));
+const ids = records.map((record) => record.candidate_id);
+const duplicateIds = ids.filter((id, index) => ids.indexOf(id) !== index);
+const postV1Records = records.filter((record) => record.candidate_id.startsWith("stg-postv1-"));
+const required = ["candidate_id", "record_type", "kanda", "sarga", "verse_locator", "source_id", "source_locator", "source_type", "tradition_classification", "confidence", "merge_state", "possible_legacy_overlap", "publication_policy"];
+const missingFields = postV1Records.flatMap((record) => required.filter((field) => record[field] === undefined || record[field] === null || record[field] === "").map((field) => `${record.candidate_id}:${field}`));
+const missingSources = postV1Records.filter((record) => !sources.has(record.source_id)).map((record) => record.candidate_id);
+const published = records.filter((record) => record.publication_policy !== "STAGING_QUARANTINE_ONLY").map((record) => record.candidate_id);
+const next = read("EXACT_PHYSICAL_CONTINUATION_V11.json");
+const result = { generatedAt: "2026-08-20T00:00:00.000Z", historicalCanonicalBaseline: 550, physicalStaging: records.length, ledgerStaging: ledger.physicallyAvailableUniqueRecords, physicalLedgerMatch: records.length === ledger.physicallyAvailableUniqueRecords, uniqueIds: new Set(ids).size, duplicateIds: [...new Set(duplicateIds)], missingRequiredFields: missingFields, missingSourceIds: missingSources, sourceCount: sources.size, stagingPublished: ledger.stagingPublished, nonQuarantineRecords: published, publicSearchStaging: ledger.publicSurfacePolicy?.stagingExposure ?? null, nextExactSource: `Ayodhya Kanda / Sarga 49 / ${next.next_unacquired_verse}`, valid: records.length === ledger.physicallyAvailableUniqueRecords && duplicateIds.length === 0 && missingFields.length === 0 && missingSources.length === 0 && ledger.stagingPublished === 0 && published.length === 0 && next.next_unacquired_verse === "2.49.1" };
+fs.writeFileSync(root + "VALIDATION_SEQUENTIAL_V11.json", JSON.stringify(result, null, 2) + "\n");
+if (!result.valid) throw new Error(JSON.stringify(result));
+console.log(JSON.stringify(result));

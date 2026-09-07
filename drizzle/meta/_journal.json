@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786487651121,
+      "tag": "0000_fluffy_skin",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786487961433,
+      "tag": "0001_easy_morgan_stark",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786656315295,
+      "tag": "0002_blue_sue_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786656499896,
+      "tag": "0003_tranquil_aqueduct",
+      "breakpoints": true
+    }
+  ]
+}

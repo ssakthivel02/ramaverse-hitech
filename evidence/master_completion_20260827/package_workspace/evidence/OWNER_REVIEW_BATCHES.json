@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-08-27T22:07:50.181Z",
+  "humanReviewed": 0,
+  "batches": [
+    {
+      "batchId": "B-01",
+      "name": "Tamil",
+      "recordIds": [
+        "M-033"
+      ],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Is the Tamil content accurate, natural, and human-approved?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    },
+    {
+      "batchId": "B-02",
+      "name": "Hindi",
+      "recordIds": [],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Is the Hindi content accurate, natural, and human-approved?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    },
+    {
+      "batchId": "B-03",
+      "name": "Telugu",
+      "recordIds": [],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Is the Telugu content accurate, natural, and human-approved?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    },
+    {
+      "batchId": "B-04",
+      "name": "Kannada",
+      "recordIds": [],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Is the Kannada content accurate, natural, and human-approved?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    },
+    {
+      "batchId": "B-05",
+      "name": "Malayalam",
+      "recordIds": [],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Is the Malayalam content accurate, natural, and human-approved?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    },
+    {
+      "batchId": "B-06",
+      "name": "Devotional claims",
+      "recordIds": [],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Is the wording safely framed as tradition rather than a guaranteed outcome?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    },
+    {
+      "batchId": "B-07",
+      "name": "Festival/tradition distinctions",
+      "recordIds": [],
+      "source": "See each record evidence array",
+      "reviewQuestion": "Are tradition, region, and calendar distinctions explicit and evidenced?",
+      "recommendedAction": "Keep machine/editorial draft state until a qualified owner/editor reviews; never mark HUMAN_REVIEWED automatically."
+    }
+  ]
+}

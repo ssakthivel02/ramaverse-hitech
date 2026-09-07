@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-08-27T16:05:22.446Z",
+  "websiteSource": "current /home/ubuntu/ramaverse",
+  "androidSource": "read-only evidence only",
+  "rows": [
+    {
+      "feature": "Hero imagery",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Governed text and CSS motifs available",
+      "missingWork": "Owner-approved original imagery/art direction is missing; CSS abstract hero is present",
+      "priority": "P2"
+    },
+    {
+      "feature": "Rama character art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Sita character art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Hanuman character art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Lakshmana character art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Bharata character art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Ravana character art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Jatayu / Shabari / Sugriva / Vibhishana art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Character metadata exists; no approved art asset",
+      "missingWork": "Source-cleared original art asset and license record",
+      "priority": "P2"
+    },
+    {
+      "feature": "Kanda hero art",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Seven Kanda labels and CSS atmospheres exist",
+      "missingWork": "Commission or approve original abstract/illustrative Kanda assets",
+      "priority": "P2"
+    },
+    {
+      "feature": "Cinematic transitions",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "CSS transitions and reduced-motion rule available",
+      "missingWork": "None for Website baseline",
+      "priority": "P2"
+    },
+    {
+      "feature": "Rama Setu experience",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Journey and timeline data exist; dedicated Setu module not separately evidenced",
+      "missingWork": "Dedicated source-backed Setu interaction if approved",
+      "priority": "P2"
+    },
+    {
+      "feature": "Journey map",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Journey route and map component exist",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Relationship graph",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Approved records and provenance links exist; semantic edges are conservatively zero",
+      "missingWork": "Add only source-proven semantic edges; otherwise retain provenance graph",
+      "priority": "P1"
+    },
+    {
+      "feature": "Character universe",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "51 governed character pages",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Timeline",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Timeline route exists",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Source explorer",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "1,092 approved records with source IDs and locators",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Daily Rama wisdom",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "108 wisdom records; daily rotation contract not separately evidenced",
+      "missingWork": "Owner-approved deterministic daily selection and notification boundary",
+      "priority": "P2"
+    },
+    {
+      "feature": "Daily nama",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No approved daily-nama corpus identified",
+      "missingWork": "Source/tradition-approved content and scheduling contract",
+      "priority": "P3"
+    },
+    {
+      "feature": "Ask RamaVerse",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Canonical-only deterministic retrieval and evidence display",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Life guidance",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Governed guidance route exists",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Rama Speaks",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Source-governed dialogue structures exist; direct quotation safeguards apply",
+      "missingWork": "Complete editorially approved dialogue coverage",
+      "priority": "P2"
+    },
+    {
+      "feature": "Leadership lessons",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Wisdom/guidance surfaces exist",
+      "missingWork": "Explicit source-linked leadership lesson taxonomy",
+      "priority": "P2"
+    },
+    {
+      "feature": "Children mode",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "30 stories and 100 quizzes in existing Website data",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Family mode",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No separate family-mode contract found",
+      "missingWork": "Product definition and governed content mapping",
+      "priority": "P3"
+    },
+    {
+      "feature": "Audio",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "30 audio scripts and browser-safe playback surface",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Read aloud",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Web Speech API/read-aloud surface exists",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Chant follow-along",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No approved synchronized chant dataset identified",
+      "missingWork": "Source/tradition-approved timing/audio contract",
+      "priority": "P3"
+    },
+    {
+      "feature": "Lyrics synchronization",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No synchronized lyric timing data identified",
+      "missingWork": "Approved lyrics/timing dataset",
+      "priority": "P3"
+    },
+    {
+      "feature": "Bookmarks",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Local Library provider exists",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Favorites",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Local Library provider exists",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Reading history",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Local device library state exists",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Continue reading",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Reader progress and local library support exist",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Daily notification architecture",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Heartbeat infrastructure exists but no product notification contract is evidenced",
+      "missingWork": "Owner-authorized schedule, privacy, and notification delivery design",
+      "priority": "P3"
+    },
+    {
+      "feature": "Offline packs",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Offline shell is implemented; governed corpus pack export is not established",
+      "missingWork": "Versioned offline pack contract with integrity checks",
+      "priority": "P2"
+    },
+    {
+      "feature": "Install PWA",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Manifest, service worker, reset flow",
+      "missingWork": "None for Website baseline",
+      "priority": "P1"
+    },
+    {
+      "feature": "Language selector",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "EN/TA/HI/TE/KN/ML UI routing and persistence exist",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Script selector",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Locale selection controls script; separate script-only selection is not evidenced",
+      "missingWork": "Define safe script-vs-content selector contract",
+      "priority": "P2"
+    },
+    {
+      "feature": "Transliteration",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No approved transliteration field set identified",
+      "missingWork": "Source-safe transliteration dataset and review status",
+      "priority": "P3"
+    },
+    {
+      "feature": "Accessibility",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Skip link, focus, semantic controls, reduced motion, responsive safeguards",
+      "missingWork": "Continue route-level QA",
+      "priority": "P1"
+    },
+    {
+      "feature": "Large text",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Reader typography controls and script-safe styles exist",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Reduced motion",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Global media rule and component safeguards exist",
+      "missingWork": "None for Website baseline",
+      "priority": "P1"
+    },
+    {
+      "feature": "Dark/light devotional modes",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Theme provider and devotional dark system exist; light mode is a theme capability",
+      "missingWork": "Visual QA for light theme if enabled",
+      "priority": "P2"
+    },
+    {
+      "feature": "Shareable quote cards",
+      "website": "NOT_COMPLETE",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No approved quote-card rendering/asset contract identified",
+      "missingWork": "Source-safe quote-card design and export flow",
+      "priority": "P3"
+    },
+    {
+      "feature": "Festival mode",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "No dedicated festival route or approved festival calendar found",
+      "missingWork": "Tradition-separated calendar and content contract",
+      "priority": "P3"
+    },
+    {
+      "feature": "Temple/pilgrimage",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "25 sacred places and Journey route exist",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Global Ramayana traditions",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Tradition classification and mapping surfaces exist",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Sources/provenance",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Source IDs, locators, authority fields, and confidence are present",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Editorial status",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Review status and not-published states are visible",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    },
+    {
+      "feature": "Confidence indicators",
+      "website": "PRESENT",
+      "android": "NOT_VERIFIED",
+      "dataAvailable": "Record-level confidence is displayed in the Knowledge Universe",
+      "missingWork": "Mobile parity implementation evidence",
+      "priority": "P1"
+    }
+  ]
+}

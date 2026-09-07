@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">RamaVerse child learning motif</title>
+  <desc id="desc">An original open-book and rising star motif for a gentle learning state.</desc>
+  <rect width="480" height="240" fill="#070b14"/>
+  <g fill="none" stroke="#f4d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 74c44-18 86-11 122 14v88c-36-25-78-32-122-14z"/>
+    <path d="M404 74c-44-18-86-11-122 14v88c36-25 78-32 122-14z"/>
+    <path d="M198 88h84M198 112h84M198 136h64" stroke="#7fb9a2"/>
+    <path d="M240 52l8 16 18 3-13 12 3 18-16-8-16 8 3-18-13-12 18-3z" stroke="#e77d3a"/>
+  </g>
+  <text x="240" y="215" text-anchor="middle" fill="#d7b45a" font-family="sans-serif" font-size="15" letter-spacing="2">GENTLE LEARNING</text>
+</svg>

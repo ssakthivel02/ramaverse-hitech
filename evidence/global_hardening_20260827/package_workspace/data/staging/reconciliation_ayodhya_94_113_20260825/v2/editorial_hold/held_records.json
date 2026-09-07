@@ -1,0 +1,496 @@
+[
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "SARGA"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "2d6aa90d743f6ab20746f8f11eb96121ff32611221e2bf8def7ea27dacdff5a8"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "EVENT"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "fb87f6930bdfdd9b5aeefe5258e6556ae9579ba870b38812b44a67b392c1efbc"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "The sarga contains a source-grounded exchange involving Bharata, Rama, Kaikeyi.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "DIALOGUE"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "423d6cd6ad8171191a2f33259da2ff3a699dc94cb43c9767649fee021e634ddc"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+    "record_type": "CHARACTER",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Source-grounded character references in Sarga 106: Bharata, Rama, Kaikeyi, Dasaratha, Lakshmana.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "CHARACTER"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "ebf8905fd9bbc8957cccf0c2db7a013e88ebf714eb1ae10a0fa960eb6950c9b0"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+    "record_type": "PLACE",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Source-grounded places in Sarga 106: Citrakuta hermitage.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "PLACE"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "5372c136acd22f2fd732ce837e3ceee1841a56805721cce685edf1de48a26945"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+    "record_type": "DHARMA_LESSON",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "The brothers disagree about the right course but continue to speak within a bond of respect.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "DHARMA_LESSON"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "28e8eaa3651e66e3329c5acffdfe3aeecb96bd2870d4faf3a2d370eecb2cc77a"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+    "record_type": "WISDOM",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Educational reflection from Sarga 106: The brothers disagree about the right course but continue to speak within a bond of respect.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "WISDOM"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "41b69f63c89b9888f501e6027827310d23ba28a0929a5c4bb5828d83111ea163"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+    "record_type": "TIMELINE_EVENT",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Ayodhya sequence marker: Sarga 106.",
+    "content_ta": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "Ayodhya Kanda",
+      "TIMELINE_EVENT"
+    ],
+    "themes": [
+      "duty",
+      "family",
+      "grief"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "92fbce06a7fb013d9f26a698d1090d19f45d200f6a41bffe4356e76e99a24e86"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001",
+    "record_type": "CHILDREN_STORY",
+    "kanda": "Ayodhya Kanda",
+    "kanda_number": 2,
+    "sarga": "Sarga 106",
+    "sarga_number": 106,
+    "verse_start": 1,
+    "verse_end": 35,
+    "title_en": "Bharata’s appeal",
+    "title_ta": "பரதனின் வேண்டுகோள்",
+    "summary_en": "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35.",
+    "summary_ta": "பரதனின் வேண்டுகோள் பற்றிய ஆதார அடிப்படையிலான ஆசிரியர் வரைவு.",
+    "content_en": "Bharata asks Rama to come home and rule, while Rama remains committed to his forest duty.",
+    "content_ta": "குழந்தைகளுக்கான எளிய விளக்கம்: Bharata asks Rama to come home and rule, while Rama remains committed to his forest duty.",
+    "characters": [
+      "Bharata",
+      "Rama",
+      "Kaikeyi",
+      "Dasaratha",
+      "Lakshmana"
+    ],
+    "places": [
+      "Citrakuta hermitage"
+    ],
+    "events": [
+      "Bharata asks Rama to return, criticizes Kaikeyi’s action, and argues that Rama should rule; the accessible page displays a numbering jump from 33 to 35."
+    ],
+    "relationships": [],
+    "topics": [
+      "children",
+      "source explanation"
+    ],
+    "themes": [
+      "responsibility",
+      "family"
+    ],
+    "source_work": "Valmiki Ramayana",
+    "source_tradition": "PRIMARY_TEXT",
+    "source_locator": "2.106.1-33,35",
+    "source_reference": "SRC-RV02-STOTRANIDHI-AYODHYA-S106",
+    "retrieval_date": "2026-08-25",
+    "source_confidence": 0.9,
+    "provenance_status": "SOURCE_ACQUIRED_STAGING",
+    "translation_status_en": "ORIGINAL_SUMMARY",
+    "translation_status_ta": "MACHINE_ASSISTED_DRAFT",
+    "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+    "variant_status": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+    "merge_state": "QUARANTINED_UNRECONCILED",
+    "publication_state": "UNPUBLISHED_STAGING",
+    "possible_legacy_overlap": "CHECKED_AGAINST_VNEXT1_IDS",
+    "created_batch": "RV02-VNEXT2-20260825-AYODHYA-102-109",
+    "content_hash": "43d3e17a12f4186192420a35327df0bc40d4b5565796b3f85780c467cac923c2"
+  }
+]

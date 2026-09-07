@@ -1,0 +1,16 @@
+{
+  "cacheName": "ramaverse-cache-v5",
+  "shellAssets": [
+    "/",
+    "/index.html",
+    "/manifest.json",
+    "/favicon.svg",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/offline-reset.html"
+  ],
+  "apiCaching": false,
+  "stagingCaching": false,
+  "resetFlow": true,
+  "versionProbe": true
+}

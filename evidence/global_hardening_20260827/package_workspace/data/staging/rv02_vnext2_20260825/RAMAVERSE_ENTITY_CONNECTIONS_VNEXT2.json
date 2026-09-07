@@ -1,0 +1,484 @@
+{
+  "connections": [
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-001",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-SARGA-001",
+      "source_locator": "2.102.1-49",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-002",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-PLACE-001",
+      "source_locator": "2.102.1-49",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-003",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "source_locator": "2.102.1-49",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-004",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "source_locator": "2.102.1-49",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-005",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-SARGA-001",
+      "source_locator": "2.103.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-006",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-PLACE-001",
+      "source_locator": "2.103.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-007",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "source_locator": "2.103.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-008",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "source_locator": "2.103.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-009",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-SARGA-001",
+      "source_locator": "2.104.1-27",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-010",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-PLACE-001",
+      "source_locator": "2.104.1-27",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-011",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "source_locator": "2.104.1-27",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-012",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "source_locator": "2.104.1-27",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-013",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-SARGA-001",
+      "source_locator": "2.105.1-46",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-014",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-PLACE-001",
+      "source_locator": "2.105.1-46",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-015",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "source_locator": "2.105.1-46",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-016",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "source_locator": "2.105.1-46",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-017",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-018",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-019",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-020",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-021",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-SARGA-001",
+      "source_locator": "2.107.1-19",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-022",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-PLACE-001",
+      "source_locator": "2.107.1-19",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-023",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "source_locator": "2.107.1-19",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-024",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "source_locator": "2.107.1-19",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-025",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-SARGA-001",
+      "source_locator": "2.108.1-18",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-026",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-PLACE-001",
+      "source_locator": "2.108.1-18",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-027",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "source_locator": "2.108.1-18",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-028",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "source_locator": "2.108.1-18",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-029",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-SARGA-001",
+      "source_locator": "2.109.1-39",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-030",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-PLACE-001",
+      "source_locator": "2.109.1-39",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-031",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "source_locator": "2.109.1-39",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-EDGE-032",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "source_locator": "2.109.1-39",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-001",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-SARGA-001",
+      "source_locator": "2.110.1-36",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-002",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-PLACE-001",
+      "source_locator": "2.110.1-36",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-003",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "source_locator": "2.110.1-36",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-004",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "source_locator": "2.110.1-36",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-005",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-SARGA-001",
+      "source_locator": "2.111.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-006",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-PLACE-001",
+      "source_locator": "2.111.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-007",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "source_locator": "2.111.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-008",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "source_locator": "2.111.1-32",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-009",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-SARGA-001",
+      "source_locator": "2.112.1-31",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-010",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-PLACE-001",
+      "source_locator": "2.112.1-31",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-011",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "source_locator": "2.112.1-31",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-012",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "source_locator": "2.112.1-31",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-013",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-SARGA-001",
+      "source_locator": "2.113.1-24",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-014",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-PLACE-001",
+      "source_locator": "2.113.1-24",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-015",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "source_locator": "2.113.1-24",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "connection_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-EDGE-016",
+      "source_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "source_locator": "2.113.1-24",
+      "confidence": 0.84,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING",
+      "publication_state": "UNPUBLISHED_STAGING"
+    }
+  ]
+}

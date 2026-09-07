@@ -1,0 +1,6 @@
+{
+  "domain": "JOURNEY",
+  "records": [],
+  "status": "MISSING_OR_NOT_PHYSICALLY_GOVERNED",
+  "reason": "No separate non-staging governed journey dataset was physically available."
+}

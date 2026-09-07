@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s53-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 53,
+    "verse_locator": "2.53.1-2.53.39",
+    "source_id": "src-valmiki-ayodhya-s53-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 53, verses 1-39",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Rama tries to send Lakshmana back to Ayodhya, apprehending trouble for Kausalya and others in the hands of Kaikeyi. Lakshmana refuses to return, and Rama agrees.",
+    "tamil_draft": "இராமன் இலக்குவனனை அயோத்திக்குத் திரும்பிச் செல்லுமாறு வேண்டுகிறான்; இலக்குவனன் அதனை மறுத்து அவனுடன் காட்டில் தங்குவதைச் உறுதிசெய்கிறான்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s53-dialogue-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 53,
+    "verse_locator": "2.53.2-2.53.21",
+    "source_id": "src-valmiki-ayodhya-s53-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 53, verses 2-21",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Rama expresses grief over Dasaratha's condition and urges Lakshmana to protect Kausalya.",
+    "tamil_draft": "தசரதரின் நிலை குறித்து இராமன் கவலை தெரிவிக்கிறான்; கௌசல்யையைப் பாதுகாக்க இலக்குவனனை அறிவுறுத்துகிறான்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

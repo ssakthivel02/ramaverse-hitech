@@ -1,0 +1,30 @@
+{
+  "publicRoutes": [
+    "/",
+    "/kandas",
+    "/wisdom",
+    "/characters",
+    "/places",
+    "/guidance",
+    "/stories",
+    "/quizzes",
+    "/audio",
+    "/search",
+    "/ask",
+    "/intelligence",
+    "/library",
+    "/journey",
+    "/timeline",
+    "/knowledge",
+    "/rama-life",
+    "/sargas/:recordKey",
+    "/404"
+  ],
+  "protectedOrInternal": [
+    "/api/*",
+    "/reconciliation",
+    "/__manus__/*",
+    "*staging*"
+  ],
+  "routeCount": 20
+}

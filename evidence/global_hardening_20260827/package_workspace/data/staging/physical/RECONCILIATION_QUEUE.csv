@@ -1,0 +1,29 @@
+candidate_id,record_type,kanda,sarga_reference,merge_state,possible_legacy_overlap,action_required
+stg-v2-ayodhyakanda-s18-event-001,EVENT,Ayodhya Kanda,2.18.1–18,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s18-relationship-001,RELATIONSHIP,Ayodhya Kanda,2.18.11–18,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s18-character-001,CHARACTER,Ayodhya Kanda,2.18.1–41; 2.19.1–40,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s18-character-002,CHARACTER,Ayodhya Kanda,2.18.1–41,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s18-character-003,CHARACTER,Ayodhya Kanda,2.18.19–41; 2.19.1–26,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s18-event-002,EVENT,Ayodhya Kanda,2.18.19–41,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s19-event-001,EVENT,Ayodhya Kanda,2.19.1–8,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s19-relationship-001,RELATIONSHIP,Ayodhya Kanda,"2.19.5–8, 22–26",awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s19-place-001,PLACE,Ayodhya Kanda,"2.19.2, 11, 14–16",awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s19-event-002,NARRATIVE_SEQUENCE,Ayodhya Kanda,2.19.9–26,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s19-event-003,EVENT,Ayodhya Kanda,2.19.27–40,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s19-character-001,CHARACTER,Ayodhya Kanda,"2.19.30, 39",awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-event-001,EVENT,Ayodhya Kanda,1–7,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-narrative-001,NARRATIVE_SEQUENCE,Ayodhya Kanda,8–13,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-character-004,CHARACTER,Ayodhya Kanda,14–19,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-object-001,OBJECT,Ayodhya Kanda,17–18,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-relationship-002,RELATIONSHIP,Ayodhya Kanda,20–22,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-event-002,EVENT,Ayodhya Kanda,22–25,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-event-003,EVENT,Ayodhya Kanda,25–31,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-place-002,PLACE,Ayodhya Kanda,26–31,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-event-004,EVENT,Ayodhya Kanda,32–34,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-character-005,CHARACTER,Ayodhya Kanda,35–40,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-theme-001,THEME,Ayodhya Kanda,36–41,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-relationship-003,RELATIONSHIP,Ayodhya Kanda,42–47,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-event-005,EVENT,Ayodhya Kanda,48–55,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-narrative-002,NARRATIVE_SEQUENCE,Ayodhya Kanda,1–55,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-theme-002,THEME,Ayodhya Kanda,14–31,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.
+stg-v2-ayodhyakanda-s20-source-001,VERSE_SECTION,Ayodhya Kanda,1–55,awaiting_v1_4_0_reconciliation,True,Compare against authoritative v1.4.0 corpus IDs and source locators; do not merge automatically.

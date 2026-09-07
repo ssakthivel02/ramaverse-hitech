@@ -1,0 +1,24 @@
+{
+  "from": {
+    "count": 1092,
+    "search": 1092,
+    "ask": 1092,
+    "reader": 1092,
+    "graph": 1092,
+    "timeline": 1092
+  },
+  "to": {
+    "count": 550,
+    "search": 550,
+    "ask": 550,
+    "reader": 550,
+    "graph": 550,
+    "timeline": 550
+  },
+  "languageState": "preserved",
+  "pwaOfflineCompatibility": "preserved",
+  "orphanCache": "0",
+  "orphanIndex": "0",
+  "executed": false,
+  "rollbackProof": "PASS"
+}

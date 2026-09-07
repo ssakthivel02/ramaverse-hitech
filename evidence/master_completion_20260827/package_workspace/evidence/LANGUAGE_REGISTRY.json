@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "defaultLanguage": "en",
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "nativeLabel": "English",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_COMPLETE",
+      "contentStatus": "CONTENT_PARTIAL"
+    },
+    {
+      "code": "ta",
+      "label": "Tamil",
+      "nativeLabel": "தமிழ்",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_COMPLETE",
+      "contentStatus": "CONTENT_PARTIAL"
+    },
+    {
+      "code": "hi",
+      "label": "Hindi",
+      "nativeLabel": "हिन्दी",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "te",
+      "label": "Telugu",
+      "nativeLabel": "తెలుగు",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "kn",
+      "label": "Kannada",
+      "nativeLabel": "ಕನ್ನಡ",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ml",
+      "label": "Malayalam",
+      "nativeLabel": "മലയാളം",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "sa",
+      "label": "Sanskrit",
+      "nativeLabel": "संस्कृतम्",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "mr",
+      "label": "Marathi",
+      "nativeLabel": "मराठी",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "bn",
+      "label": "Bengali",
+      "nativeLabel": "বাংলা",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "gu",
+      "label": "Gujarati",
+      "nativeLabel": "ગુજરાતી",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "or",
+      "label": "Odia",
+      "nativeLabel": "ଓଡ଼ିଆ",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "pa",
+      "label": "Punjabi",
+      "nativeLabel": "ਪੰਜਾਬੀ",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "as",
+      "label": "Assamese",
+      "nativeLabel": "অসমীয়া",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ne",
+      "label": "Nepali",
+      "nativeLabel": "नेपाली",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ur",
+      "label": "Urdu",
+      "nativeLabel": "اردو",
+      "group": "indian-primary",
+      "direction": "rtl",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "si",
+      "label": "Sinhala",
+      "nativeLabel": "සිංහල",
+      "group": "indian-primary",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "es",
+      "label": "Spanish",
+      "nativeLabel": "Español",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "fr",
+      "label": "French",
+      "nativeLabel": "Français",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "de",
+      "label": "German",
+      "nativeLabel": "Deutsch",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "pt",
+      "label": "Portuguese",
+      "nativeLabel": "Português",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "it",
+      "label": "Italian",
+      "nativeLabel": "Italiano",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "nl",
+      "label": "Dutch",
+      "nativeLabel": "Nederlands",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ru",
+      "label": "Russian",
+      "nativeLabel": "Русский",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ar",
+      "label": "Arabic",
+      "nativeLabel": "العربية",
+      "group": "international",
+      "direction": "rtl",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "zh-CN",
+      "label": "Chinese Simplified",
+      "nativeLabel": "中文",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ja",
+      "label": "Japanese",
+      "nativeLabel": "日本語",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ko",
+      "label": "Korean",
+      "nativeLabel": "한국어",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "id",
+      "label": "Indonesian",
+      "nativeLabel": "Bahasa Indonesia",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "th",
+      "label": "Thai",
+      "nativeLabel": "ไทย",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    },
+    {
+      "code": "ms",
+      "label": "Malay",
+      "nativeLabel": "Bahasa Melayu",
+      "group": "international",
+      "direction": "ltr",
+      "fallbackLanguage": "en",
+      "uiStatus": "UI_PARTIAL",
+      "contentStatus": "CONTENT_PENDING"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ledgerId": "RV02-PREFREEZE-LEDGER-20260823",
+  "historicalCanonicalTotal": 550,
+  "stagingPublication": 0,
+  "batchId": "RV02-PREFREEZE-20260823-AYODHYA-78-93",
+  "physicalBatchRecords": 64,
+  "ledgerBatchRecords": 64,
+  "parity": true,
+  "duplicateNewRecords": 0,
+  "overlappingExistingIds": 0,
+  "sourceCount": 16,
+  "nextExactSource": "Ayodhya Kanda Sarga 94 / 2.94.1 onward",
+  "freezeStatus": "NOT_REACHED",
+  "notes": [
+    "This is an append-only RV-02 work product.",
+    "The root project state declares a conflicting RV-02 count and is preserved unchanged.",
+    "No staging record is promoted to canonical."
+  ]
+}

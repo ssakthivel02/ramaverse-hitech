@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-08-26T16:25:23.593Z",
+  "input": 158,
+  "accounted": 158,
+  "groupCounts": {
+    "NO_ID_BUT_SOURCE_PRESENT": 158,
+    "NO_ID_NO_SOURCE": 0,
+    "PARTIAL_CONTENT": 0,
+    "EMPTY_OR_NULL_RECORD": 0,
+    "ORPHAN_PROJECTION": 0,
+    "CORRUPT_SERIALIZATION": 0,
+    "LEGACY_CONTAINER_ARTIFACT": 0,
+    "POSSIBLE_VARIANT": 0,
+    "OTHER": 0
+  },
+  "statusCounts": {
+    "ARCHIVAL_EVIDENCE_ONLY": 0,
+    "RETAIN_QUARANTINED": 0,
+    "POSSIBLE_VARIANT_EVIDENCE": 0,
+    "SOURCE_EVIDENCE_ONLY": 158,
+    "UNUSABLE_CORRUPT_ARTIFACT": 0,
+    "EDITOR_REVIEW_REQUIRED": 0
+  },
+  "logicalRecords": 543,
+  "logicalDuplicateIds": 0,
+  "inventedIds": 0,
+  "physicalEvidenceDeleted": 0,
+  "sourceIntegrity": "PASS",
+  "publicationIntegrity": "PASS",
+  "canonical": 550,
+  "canonicalMutation": 0,
+  "stagingPublished": 0,
+  "blockingCases": 0,
+  "reconciliation": "RECONCILIATION_READY",
+  "checks": {
+    "accounting": true,
+    "classificationComplete": true,
+    "zeroInventedIds": true,
+    "zeroDeletion": true,
+    "logicalUnique": true,
+    "sourceIntegrity": true,
+    "publicationIntegrity": true,
+    "canonicalSafe": true,
+    "publicationSafe": true
+  },
+  "nextExactAction": "Proceed with ordinary v1.5 reconciliation using the 543 logical records; retain 158 source-evidence occurrences outside active runtime until any future stable-ID authority decision."
+}

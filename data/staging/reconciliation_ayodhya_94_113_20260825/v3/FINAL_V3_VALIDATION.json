@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "total_input": 184,
+  "runtime_approved": 175,
+  "variant_hold": 9,
+  "entity_hold": 0,
+  "source_hold": 0,
+  "rejected": 0,
+  "accounting": "175+9=184",
+  "canonical": 550,
+  "entity_ids_governed": 0,
+  "relationships_approved": 0,
+  "relationships_held": 34,
+  "search_delta": 175,
+  "ask_delta": 70,
+  "reader_delta": 175,
+  "graph_delta": 0,
+  "tamil_human_reviewed": 0,
+  "quarantined_records_in_promotion_pack": 0,
+  "candidate_entity_ids_in_promotion_pack": 0,
+  "dangling": 0,
+  "manifest_parity": true,
+  "governance_consistency": true,
+  "promotion": {
+    "filename": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE-v3.zip",
+    "sha256": "c889abd58127a45c36517035fae6cff3c9dd736d411bfc75531648d294b85337",
+    "entries": 12,
+    "integrity": true
+  },
+  "p0": 0
+}

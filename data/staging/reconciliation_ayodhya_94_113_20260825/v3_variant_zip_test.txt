@@ -1,0 +1,11 @@
+Archive:  /home/ubuntu/ramaverse/data/staging/reconciliation_ayodhya_94_113_20260825/v3_input/RAMAVERSE_VARIANT_DECISION_LEDGER-v2.zip
+    testing: RAMAVERSE_VARIANT_DECISION_LEDGER-v2.json   OK
+    testing: RAMAVERSE_SET_A_SOURCE_CROSSWALK.json   OK
+    testing: RAMAVERSE-AYODHYA-94-113-EDITORIAL-HOLD-v2.zip   OK
+    testing: FINAL_V2_ARCHIVE_VALIDATION.json   OK
+    testing: RAMAVERSE_AYODHYA_94_113_RECONCILIATION_LEDGER-v2.json   OK
+    testing: RAMAVERSE_ENTITY_ID_CROSSWALK.json   OK
+    testing: RAMAVERSE_SET_A_72_RESOLUTION_LEDGER.json   OK
+    testing: RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE-v2.zip   OK
+    testing: RAMAVERSE_RELATIONSHIP_RESOLUTION_LEDGER.json   OK
+No errors detected in compressed data of /home/ubuntu/ramaverse/data/staging/reconciliation_ayodhya_94_113_20260825/v3_input/RAMAVERSE_VARIANT_DECISION_LEDGER-v2.zip.

@@ -1,0 +1,21 @@
+{
+  "version": "OFFLINE-PACK-CONTRACT-v1",
+  "packId": "canonical-v1.4.0-ui-en",
+  "schema": "ramaverse.offline.pack.v1",
+  "contentVersion": "v1.4.0",
+  "language": "en",
+  "manifestRequired": true,
+  "sha256Required": true,
+  "sizeBytesRequired": true,
+  "downloadState": [
+    "NOT_DOWNLOADED",
+    "DOWNLOADING",
+    "READY",
+    "CORRUPT",
+    "ROLLED_BACK"
+  ],
+  "activation": "explicit user action only",
+  "rollback": "retain previous valid pack",
+  "corruptPackRejection": true,
+  "apiAndStagingPathsExcluded": true
+}

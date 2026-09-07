@@ -1,0 +1,16 @@
+{
+  "candidateActiveSimulated": 1092,
+  "rollbackTarget": 550,
+  "restored": {
+    "search": 550,
+    "ask": 550,
+    "reader": 550,
+    "graph": 550,
+    "timeline": 550,
+    "languageState": "preserved",
+    "pwaOffline": "compatible",
+    "orphanCache": 0,
+    "orphanIndex": 0
+  },
+  "productionMutated": false
+}

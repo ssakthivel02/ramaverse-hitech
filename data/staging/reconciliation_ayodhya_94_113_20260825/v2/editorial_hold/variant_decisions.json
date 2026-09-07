@@ -1,0 +1,59 @@
+{
+  "input_records": 9,
+  "affected_record_ids": [
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+    "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001"
+  ],
+  "variant_items": [
+    {
+      "variant_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-VAR-001",
+      "source_locator": null,
+      "sarga_number": null,
+      "classification": "EDITOR_REVIEW_REQUIRED",
+      "resolution": "KEEP_AS_VARIANT",
+      "evidence_status": "physical evidence records an edition/presentation difference; no independent evidence supplied here to erase it",
+      "human_approved": false,
+      "canonical_effect": "none"
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-VAR-001",
+      "source_locator": "2.106.33,35",
+      "sarga_number": 106,
+      "classification": "KEEP_AS_VARIANT",
+      "resolution": "KEEP_AS_VARIANT",
+      "evidence_status": "physical evidence records an edition/presentation difference; no independent evidence supplied here to erase it",
+      "human_approved": false,
+      "canonical_effect": "none"
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-VAR-002",
+      "source_locator": "2.87",
+      "sarga_number": 87,
+      "classification": "KEEP_AS_VARIANT",
+      "resolution": "KEEP_AS_VARIANT",
+      "evidence_status": "physical evidence records an edition/presentation difference; no independent evidence supplied here to erase it",
+      "human_approved": false,
+      "canonical_effect": "none"
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-VAR-003",
+      "source_locator": "2.106.33,35",
+      "sarga_number": 106,
+      "classification": "KEEP_AS_VARIANT",
+      "resolution": "KEEP_AS_VARIANT",
+      "evidence_status": "physical evidence records an edition/presentation difference; no independent evidence supplied here to erase it",
+      "human_approved": false,
+      "canonical_effect": "none"
+    }
+  ],
+  "resolved": 0,
+  "remaining": 9,
+  "canonical_modified": 0
+}

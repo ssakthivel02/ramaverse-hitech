@@ -1,0 +1,32 @@
+{
+  "status": true,
+  "inputs": [
+    {
+      "label": "promotion_candidate",
+      "archive": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE.zip",
+      "zip_entries": 12,
+      "integrity": true,
+      "member_hashes": true,
+      "bad_member_hashes": [],
+      "records": 103
+    },
+    {
+      "label": "editorial_hold",
+      "archive": "RAMAVERSE-AYODHYA-94-113-EDITORIAL-HOLD.zip",
+      "zip_entries": 11,
+      "integrity": true,
+      "member_hashes": true,
+      "bad_member_hashes": [],
+      "records": 81
+    }
+  ],
+  "physical_input": 184,
+  "accounted": 184,
+  "disposition_sum": 184,
+  "canonical": 550,
+  "canonical_modified": 0,
+  "staging_published": 0,
+  "promotion_excludes_held": true,
+  "source_tree_not_modified": true,
+  "verified_at": "2026-08-25T21:07:04.426Z"
+}

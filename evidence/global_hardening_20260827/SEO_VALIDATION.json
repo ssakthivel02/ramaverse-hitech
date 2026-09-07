@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "canonical": true,
+    "sitemap": true,
+    "robots": true,
+    "openGraph": true,
+    "twitter": true,
+    "structuredData": true,
+    "hreflang": true,
+    "internalNoIndex": true
+  },
+  "entityTypes": [
+    "characters",
+    "places",
+    "Kandas",
+    "Sargas",
+    "wisdom",
+    "journeys",
+    "sources"
+  ],
+  "fabricatedClaims": 0
+}

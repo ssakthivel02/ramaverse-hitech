@@ -1,0 +1,12 @@
+{
+  "current_kanda": "Ayodhya Kanda",
+  "last_complete_sarga": 113,
+  "last_source_locator": "2.113.1-24",
+  "next_exact_source": "Ayodhya Kanda Sarga 114 / 2.114.1 onward",
+  "new_record_count": 112,
+  "latest_batch_record_count": 40,
+  "source_registry_count": 12,
+  "last_safe_checkpoint": "PHYSICAL_ONLY_NO_PROJECT_CHECKPOINT",
+  "canonical_total": 550,
+  "staging_published": 0
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RamaVerse — Sacred Ramayana Platform",
+  "short_name": "RamaVerse",
+  "description": "A source-grounded, multilingual and offline-capable Ramayana knowledge platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b101b",
+  "theme_color": "#0b101b",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "books", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

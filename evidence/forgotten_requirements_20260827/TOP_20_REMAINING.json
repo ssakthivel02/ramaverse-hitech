@@ -1,0 +1,142 @@
+[
+  {
+    "id": "R-013",
+    "feature": "Relationship graph",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Add only source-proven semantic edges; otherwise retain provenance graph",
+    "priority": "P1"
+  },
+  {
+    "id": "R-001",
+    "feature": "Hero imagery",
+    "classification": "DESIGN_MISSING",
+    "missingWork": "Owner-approved original imagery/art direction is missing; CSS abstract hero is present",
+    "priority": "P2"
+  },
+  {
+    "id": "R-002",
+    "feature": "Rama character art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-003",
+    "feature": "Sita character art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-004",
+    "feature": "Hanuman character art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-005",
+    "feature": "Lakshmana character art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-006",
+    "feature": "Bharata character art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-007",
+    "feature": "Ravana character art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-008",
+    "feature": "Jatayu / Shabari / Sugriva / Vibhishana art",
+    "classification": "ASSET_MISSING",
+    "missingWork": "Source-cleared original art asset and license record",
+    "priority": "P2"
+  },
+  {
+    "id": "R-009",
+    "feature": "Kanda hero art",
+    "classification": "DESIGN_MISSING",
+    "missingWork": "Commission or approve original abstract/illustrative Kanda assets",
+    "priority": "P2"
+  },
+  {
+    "id": "R-011",
+    "feature": "Rama Setu experience",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Dedicated source-backed Setu interaction if approved",
+    "priority": "P2"
+  },
+  {
+    "id": "R-017",
+    "feature": "Daily Rama wisdom",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Owner-approved deterministic daily selection and notification boundary",
+    "priority": "P2"
+  },
+  {
+    "id": "R-021",
+    "feature": "Rama Speaks",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Complete editorially approved dialogue coverage",
+    "priority": "P2"
+  },
+  {
+    "id": "R-022",
+    "feature": "Leadership lessons",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Explicit source-linked leadership lesson taxonomy",
+    "priority": "P2"
+  },
+  {
+    "id": "R-034",
+    "feature": "Offline packs",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Versioned offline pack contract with integrity checks",
+    "priority": "P2"
+  },
+  {
+    "id": "R-037",
+    "feature": "Script selector",
+    "classification": "IMPLEMENTED_PARTIAL",
+    "missingWork": "Define safe script-vs-content selector contract",
+    "priority": "P2"
+  },
+  {
+    "id": "R-018",
+    "feature": "Daily nama",
+    "classification": "DATA_MISSING",
+    "missingWork": "Source/tradition-approved content and scheduling contract",
+    "priority": "P3"
+  },
+  {
+    "id": "R-024",
+    "feature": "Family mode",
+    "classification": "DATA_MISSING",
+    "missingWork": "Product definition and governed content mapping",
+    "priority": "P3"
+  },
+  {
+    "id": "R-027",
+    "feature": "Chant follow-along",
+    "classification": "DESIGN_MISSING",
+    "missingWork": "Source/tradition-approved timing/audio contract",
+    "priority": "P3"
+  },
+  {
+    "id": "R-028",
+    "feature": "Lyrics synchronization",
+    "classification": "DATA_MISSING",
+    "missingWork": "Approved lyrics/timing dataset",
+    "priority": "P3"
+  }
+]

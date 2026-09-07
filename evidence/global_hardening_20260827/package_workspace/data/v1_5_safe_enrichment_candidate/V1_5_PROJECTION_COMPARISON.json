@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-26T05:50:00.310Z",
+  "baseline": {
+    "search": 550,
+    "ask": 550,
+    "reader": 550,
+    "entity": 0,
+    "timeline": 550,
+    "character": 0,
+    "place": 0
+  },
+  "candidate": {
+    "search": 550,
+    "ask": 550,
+    "reader": 550,
+    "entity": 0,
+    "timeline": 550,
+    "character": 0,
+    "place": 0
+  },
+  "delta": {
+    "search": 0,
+    "ask": 0,
+    "reader": 0,
+    "entity": 0,
+    "timeline": 0,
+    "character": 0,
+    "place": 0
+  },
+  "improvement_measurement": "No enrichment values were applied, so projection deltas are zero; no fabricated recall improvement is claimed.",
+  "staging_leakage": 0,
+  "publication_state": "CANDIDATE_ONLY_NOT_PRODUCTION"
+}

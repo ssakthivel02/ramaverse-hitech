@@ -1,0 +1,19 @@
+{
+  "groupId": "GROUP-C-001",
+  "tier": "C",
+  "risk": "HOLD",
+  "recordCount": 1,
+  "recordIds": [
+    "STAGING-YUDDHA-SOURCE-NOTE-1-2026"
+  ],
+  "source": [
+    "SRC-SANSKRIT-DOCUMENTS-YUDDHA-1"
+  ],
+  "kanda": "Yuddha Kanda",
+  "sargaRange": "1-1",
+  "authorityRationale": "No independent governed Yuddha Sarga 1 source artifact is physically available.",
+  "recommendedDecision": "HOLD_GROUP",
+  "ownerDecision": null,
+  "finalState": "SOURCE_HOLD",
+  "investigation": "Current physical governed source registries and source-evidence directories checked; deterministic mapping unavailable."
+}

@@ -1,0 +1,7 @@
+{
+  "buildMeasurement": "PASS",
+  "routeChunks": "PASS",
+  "heavyDependenciesAdded": 0,
+  "largeMediaAdded": 0,
+  "optimizationNote": "Existing lazy route chunks preserved; hardening adds no runtime dependency."
+}

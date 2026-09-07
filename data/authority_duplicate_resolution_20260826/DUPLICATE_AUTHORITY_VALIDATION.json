@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-08-26T13:46:54.492Z",
+  "checks": {
+    "groupAccounting": true,
+    "identicalCopies": true,
+    "corruptQuarantine": true,
+    "logicalUniqueness": true,
+    "sourceReferencesPresent": true,
+    "publicationStateSafe": true,
+    "canonicalBaselineSafe": true,
+    "physicalEvidenceRetained": true,
+    "websiteReadOnly": true,
+    "mobileReadOnly": true
+  },
+  "physicalOccurrences": 981,
+  "duplicateIdGroups": 31,
+  "duplicateOccurrences": 437,
+  "logicalRecordCount": 543,
+  "logicalDuplicateIdsAfterResolution": 0,
+  "sourceRecordsMissingSourceIds": 0,
+  "publishedPhysicalRecords": 0,
+  "canonicalBaseline": 550,
+  "stagingPublished": 0,
+  "structuredCorpusLastComplete": "Sundara Kanda 5.30",
+  "nextExactStructuredSource": "Sundara Kanda 5.31.1",
+  "status": "BLOCKED_PENDING_HUMAN_AUTHORITY_FOR_CORRUPT_NULL_OCCURRENCES"
+}

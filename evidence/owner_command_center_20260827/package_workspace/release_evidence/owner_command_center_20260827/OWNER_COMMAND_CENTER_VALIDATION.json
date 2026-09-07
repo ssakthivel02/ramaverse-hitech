@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-08-27T16:18:38.579Z",
+  "dashboard": "Owner Command Center",
+  "privacy": {
+    "route": "owner-command-center",
+    "adminGated": true,
+    "noFakeActions": true,
+    "publicNavigationLink": false
+  },
+  "sections": [
+    {
+      "id": "health",
+      "present": true
+    },
+    {
+      "id": "corpus",
+      "present": true
+    },
+    {
+      "id": "content",
+      "present": true
+    },
+    {
+      "id": "languages",
+      "present": true
+    },
+    {
+      "id": "media",
+      "present": true
+    },
+    {
+      "id": "parity",
+      "present": true
+    },
+    {
+      "id": "release",
+      "present": true
+    },
+    {
+      "id": "quality",
+      "present": true
+    },
+    {
+      "id": "actions",
+      "present": true
+    }
+  ],
+  "truth": {
+    "canonicalBaseline": 550,
+    "activeCorpus": "v1.4.0",
+    "candidateCorpus": 1092,
+    "stagingPublished": 0,
+    "duplicateIDs": 0,
+    "danglingIDs": 0,
+    "sourceHolds": 1,
+    "textualVariants": 3,
+    "tamilHumanReviewed": 0,
+    "mobileModified": false,
+    "productionDeployed": false
+  },
+  "evidenceFiles": [
+    "RAMAVERSE_PROJECT_STATE.json",
+    "release_evidence/global_hardening_20260827/RELEASE_STATE.json",
+    "release_evidence/global_hardening_20260827/HEALTH_CONTRACT.json",
+    "release_evidence/global_hardening_20260827/CORPUS_VERSION.json",
+    "work_escrow_final/RAMAVERSE_COMPLETE_CORPUS_COVERAGE_MATRIX.json",
+    "work_escrow_final/LANGUAGE_REGISTRY.json",
+    "work_escrow_final/LANGUAGE_MATRIX.csv",
+    "work_escrow_final/V1_5_PHYSICAL_DEVICE_QA_MATRIX.md",
+    "work_escrow_final/WEBSITE_MOBILE_CORPUS_SYNC_REPORT_V4.md"
+  ],
+  "allSectionsPresent": true,
+  "decision": "PASS"
+}

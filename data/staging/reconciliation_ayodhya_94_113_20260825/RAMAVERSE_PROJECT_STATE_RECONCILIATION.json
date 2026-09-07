@@ -1,0 +1,176 @@
+{
+  "state_file": "RAMAVERSE_PROJECT_STATE.json",
+  "stale_state": {
+    "historical_canonical_total": 550,
+    "raw_snapshot": {
+      "project": "RamaVerse",
+      "authoritative_web_source": "RamaVerse website repository at /home/ubuntu/ramaverse",
+      "authoritative_mobile_source": "Frozen PortableCanonicalContentPack RAMAVERSE-CANONICAL-MOBILE-PACK-v1.4.0-FINAL-v2.zip",
+      "historical_canonical_total": 550,
+      "RV_01_staging_count": 398,
+      "RV_02_staging_count": 0,
+      "staging_published": 0,
+      "canonical_dataset_files": [
+        "RAMAVERSE-CANONICAL-MOBILE-PACK-v1.4.0-FINAL-v2.zip"
+      ],
+      "staging_files": [
+        "data/staging/physical/STAGING_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S21_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S22_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S23_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S24_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S25_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S26_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S27_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S28_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S29_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S30_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S31_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S32_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S33_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S34_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S35_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S36_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S37_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S38_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S39_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S40_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S41_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S42_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S43_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S44_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S45_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S46_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S47_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S48_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S49_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S50_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S51_SOURCE_BACKED_RECORDS.json",
+        "data/staging/post_v1/AYODHYA_S52_SOURCE_BACKED_RECORDS.json"
+      ],
+      "stable_id_registries": [
+        "POST_V1_STAGING_PHYSICAL_AUDIT.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_V9.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_V10.json",
+        "POST_V1_SEMANTIC_DUPLICATE_AUDIT_V10.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_VNEXT.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_V2.json",
+        "TEXTUAL_VARIANCE_LEDGER.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_V3.json",
+        "TEXTUAL_VARIANCE_LEDGER_V2.json"
+      ],
+      "RV_01_continuation": {
+        "kanda": "Ayodhya Kanda",
+        "sarga": 53,
+        "verse": "2.53.1"
+      },
+      "RV_02_continuation": "No derivative acquisition scheduled in the current primary-text run",
+      "source_clusters": [
+        "Valmiki Ramayana / Ayodhya Kanda / Sargas 18–28 physical source-backed staging",
+        "Valmiki Ramayana / Ayodhya Kanda / Sarga 29 physical source-backed staging",
+        "Valmiki Ramayana / Ayodhya Kanda / Sargas 30–31 physical source-backed staging",
+        "Valmiki Ramayana / Ayodhya Kanda / Sargas 32–33 physical source-backed staging",
+        "Valmiki Ramayana / Ayodhya Kanda / Sargas 34–35 physical source-backed staging",
+        "Valmiki Ramayana / Ayodhya Kanda / Sarga 36 physical source-backed staging"
+      ],
+      "route_count": 19,
+      "latest_batch_ids": [
+        "post-v1-ayodhya-s49-source-backed-v1",
+        "post-v1-ayodhya-s50-source-backed-v1",
+        "post-v1-ayodhya-s51-source-backed-v1",
+        "post-v1-ayodhya-s52-source-backed-v1"
+      ],
+      "task_output_map": {
+        "physical_ledger": "RAMAVERSE_STAGING_MASTER_LEDGER_V12.json",
+        "continuation": "EXACT_PHYSICAL_CONTINUATION_V12.json",
+        "source_ledger": "SOURCE_LEDGER_V12.json",
+        "accessibility_evidence": "IMPLEMENTATION_ACCESSIBILITY_EVIDENCE_V1.json",
+        "corpus_archive": "RAMAVERSE-CORPUS-AUTHORITY-POST-V1-vNEXT.zip",
+        "tamil_queue": "TAMIL_EDITORIAL_REVIEW_QUEUE_V12.json",
+        "variance_ledger": "TEXTUAL_VARIANCE_LEDGER_V5.json",
+        "variance_adjudication_queue": "TEXTUAL_VARIANCE_ADJUDICATION_QUEUE_V12.json",
+        "source_authority_vnext": "TEXTUAL_VARIANCE_LEDGER_vNEXT.json",
+        "verse_crosswalk_vnext": "VERSE_NUMBERING_CROSSWALK_vNEXT.json",
+        "source_bibliography": "SOURCE_BIBLIOGRAPHY.json",
+        "human_editor_decision_pack_vnext": "HUMAN_EDITOR_DECISION_PACK_vNEXT.md",
+        "variance_crosswalk": "VERSE_NUMBERING_CROSSWALK_V12.json",
+        "corpus_validation": "VALIDATION_SEQUENTIAL_V12.json"
+      },
+      "missing_files": [],
+      "blockers": [
+        "Source acquisition must remain staging-only pending formal v1.4.0 reconciliation."
+      ],
+      "source_freeze": false,
+      "SHA256": {
+        "corpus_archive_v10": "9d332b57e16192c1c5bfa9824aa2f3079d63dd35d976f701af353b55a8888df2",
+        "mobile_pack_final_v2": "938a25d4acee4be69badec749b8a2a1dd7a689c9b7ef90ad9182f6092549f049",
+        "s29_staging_payload": "7226ffed17e2c5003d8528c97c1ff92017bebb198ef2335fc156a650ae9f4699",
+        "staging_ledger_v10": "4518180958a0907718635851380acbc1833e2ddbee952dea57bf4533068264ba",
+        "s30_staging_payload": "0e7d7cafb57d31222a8d54eab85b70ca5dda53cf28e6982423e2626d00c9bc4b",
+        "s31_staging_payload": "f723e0c6a81f21a9187571c523ddd5af74e4b51ad52b38edf13a60fecafeab24",
+        "staging_ledger_vnext": "4dc6fac186859ed14d772c8208142c9eb3da2ea2f5bd9c9e90e9851fa53da9db",
+        "s32_staging_payload": "8aecbd60afdc0452ffba0eed2ee3e8b475f3e4e7dee12b78da3a963519c24c20",
+        "s33_staging_payload": "1f9322160f500545c2748cb23c76a57d4534a8a79c2bc60029cdf641ed64b067",
+        "staging_ledger_v2": "4e81c86e55a65499fec25a07e2c39cbca5cf67ef8a91e87041b7f5ec18260078",
+        "s34_staging_payload": "15b009dfe9b32516678ae8aa056f15813bbfe45a7be66070ccfb7cbc1f1648d5",
+        "s35_staging_payload": "dbf9005bd2907f7f1a6d69a7c89307ec06af7108880de107a3dbc47e6fec4df0",
+        "staging_ledger_v3": "d600b97f35d2ab24f38b5119e6090985eacd0d4340e9e6439cf532770bbc9058",
+        "s36_staging_payload": "969b807cd0bea8c5da71f1d49ed3a8f997f9c7cebfcf9650bdd9f55a1597e418",
+        "staging_ledger_v4": "a603dc3198a2c679adda9f8f011d5cbaae15915ce528a918f5c40d0c698f83bf"
+      },
+      "exact_next_point": "Ayodhya Kanda Sarga 66 (2.66.1)",
+      "updated_at": "2026-08-20T13:45:00.000Z",
+      "PROJECT_STATE_CONFLICT": [
+        {
+          "workstream": "TAMIL_EDITORIAL_FACTORY",
+          "declared_scope": "V10 / 320 records through Sarga 43",
+          "current_acquisition_state": "V11 / 353 records through Sarga 48",
+          "resolution": "Tamil factory uses V10 queue exclusively; Sargas 44+ excluded and unmodified."
+        }
+      ],
+      "Tamil_editorial_factory_scope": {
+        "baseline": "V10",
+        "records": 320,
+        "excluded": "Sargas 44 and later",
+        "source_queue": "TAMIL_EDITORIAL_REVIEW_QUEUE_V10.json"
+      },
+      "source_authority_research": {
+        "scope": "Sargas 31, 32, 42 only",
+        "variants_investigated": 3,
+        "canonical_modified": 0,
+        "staging_published": 0,
+        "mobile_pack_modified": 0,
+        "outputs": [
+          "TEXTUAL_VARIANCE_LEDGER_vNEXT.json",
+          "VERSE_NUMBERING_CROSSWALK_vNEXT.json",
+          "SOURCE_AUTHORITY_MATRIX.json",
+          "SOURCE_BIBLIOGRAPHY.json",
+          "HUMAN_EDITOR_DECISION_PACK_vNEXT.md"
+        ]
+      }
+    },
+    "known_issue": "prior continuation marker is older than physically verified acquisition"
+  },
+  "physical_state": {
+    "last_complete_kanda": "Ayodhya Kanda",
+    "last_complete_sarga": 113,
+    "next_exact_source": "Ayodhya Kanda Sarga 114 / 2.114.1 onward",
+    "physical_input_records": 184,
+    "source_archives": [
+      "ddc29933f3b29df8112396d7a63d4c54a6c4004f0da49c4c735f401fbe000c18",
+      "6e751670b1acdf85cc1d7eac233ee0d6953a9504ab82fde06295727559f5c89f"
+    ]
+  },
+  "decision": "USE_PHYSICAL_ACQUISITION_AS_CURRENT_BRANCH_AUTHORITY; DO_NOT_OVERWRITE_STALE_STATE_SILENTLY",
+  "evidence": [
+    "RAMAVERSE-SEVEN-KANDA-CORPUS-ACQUISITION-vNEXT.zip",
+    "RAMAVERSE-SEVEN-KANDA-CORPUS-ACQUISITION-vNEXT2.zip",
+    "RAMAVERSE_CONTINUATION_VNEXT2.json"
+  ],
+  "replacement_continuation": {
+    "last_complete_sarga": 113,
+    "next_exact_source": "Ayodhya Kanda Sarga 114 / 2.114.1 onward"
+  },
+  "canonical_modified": 0,
+  "staging_published": 0
+}

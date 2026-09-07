@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-27T10:45:45.176Z",
+  "sourceDirectory": "/home/ubuntu/ramaverse/data/v1_5_542_owner_revalidation_20260826",
+  "entries": [
+    {
+      "name": "RAMAVERSE_542_INDEPENDENT_REVALIDATION.json",
+      "sha256": "40668334eadbfff14af69d8bbfc6f409cfd6fa8341596f2819a18b7111f5b4ad"
+    },
+    {
+      "name": "RAMAVERSE_542_RISK_LEDGER.json",
+      "sha256": "fc2d14c0f70c5a9d965bcb6611b2a355bfce56b12cff8a77320d199264432015"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_CANDIDATE_SCENARIOS.json",
+      "sha256": "e8a31a5f6c770f782b4415756d12ef1e657077d3b49cec135cf267eded3b43d7"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_APPROVAL_BATCHES_FINAL.csv",
+      "sha256": "be1b1185f66e14bbcfb1de442b916d0871c87b4fccd876fd6c00134f8f1f49fb"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_APPROVAL_BATCHES_FINAL.json",
+      "sha256": "6370e1158ad2dfe49bb37d831197aed51df90a8443c644666c0e8118b57522d1"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_DECISIONS_TEMPLATE.json",
+      "sha256": "4967989deb101eace1dae0fb74759fcabb18732c9d2e2acb6944e67b5e839c1a"
+    },
+    {
+      "name": "V1_5_542_OWNER_APPROVAL_VALIDATION.json",
+      "sha256": "bd1a8fd288df46fdb7a3607335733543014947ed6243393386ba34b2583b5f4f"
+    },
+    {
+      "name": "YUDDHA_SARGA_1_HOLD_RESULT.json",
+      "sha256": "e2bfc37e0840e0dc060a4e21b83cc262591280ec37b1026d23836f740621e49c"
+    }
+  ],
+  "integrity": "PASS",
+  "productionCanonical": 550,
+  "stagingPublished": 0
+}

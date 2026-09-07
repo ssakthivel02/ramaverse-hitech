@@ -1,0 +1,91 @@
+{
+  "registry_id": "RAMAVERSE-AUTHORITATIVE-ENTITY-IDS-v3",
+  "entities": [
+    {
+      "name": "Rama",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Sita",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Lakshmana",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Bharata",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Shatrughna",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Dasaratha",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Kausalya",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Kaikeyi",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Sumitra",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Vasistha",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Guha",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Janaka",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Jabali",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    },
+    {
+      "name": "Dandaka forest",
+      "status": "NO_GOVERNED_ID",
+      "governed_id": null,
+      "reason": "No authoritative stable entity-ID registry was present in the supplied physical Website authority inputs; candidate IDs are prohibited."
+    }
+  ],
+  "governed_entity_count": 0,
+  "candidate_ids_in_runtime_pack": 0
+}

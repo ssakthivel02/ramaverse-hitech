@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-27T17:03:45.202Z",
+  "decision": "EVIDENCE_COMPLETE_IMPLEMENTATION_DEFERRED",
+  "requirements": 73,
+  "complete": 36,
+  "partial": 22,
+  "missing": 15,
+  "websiteGaps": 0,
+  "mobileGaps": 73,
+  "dataGaps": 35,
+  "mediaGaps": 42,
+  "languageGaps": 5,
+  "implementedThisRun": 0,
+  "ownerDashboard": "PASS",
+  "websiteMobileParityPercent": 0,
+  "canonicalChanged": 0,
+  "stagingPublished": 0,
+  "mobileModified": false,
+  "productionDeployed": false,
+  "notes": [
+    "Website and Mobile implementations were not rebuilt.",
+    "No fabricated content, media, devotional claims, or release evidence was added."
+  ]
+}

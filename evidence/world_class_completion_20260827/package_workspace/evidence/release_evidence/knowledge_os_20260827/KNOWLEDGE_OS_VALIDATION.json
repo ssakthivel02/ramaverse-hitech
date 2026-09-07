@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-08-27T16:59:32.145Z",
+  "totalInputRecords": 1092,
+  "governedRecords": 1092,
+  "activeCanonical": 550,
+  "candidateIsolated": 542,
+  "counts": {
+    "ramaLife": 400,
+    "ramaStatements": 70,
+    "lifeGuidance": 0,
+    "leadership": 0,
+    "characters": 50,
+    "sita": 0,
+    "hanuman": 0,
+    "devotional": 0,
+    "places": 30,
+    "journeys": 0,
+    "children": 0,
+    "search": 550,
+    "ask": 550
+  },
+  "dangling": 0,
+  "sourceBacked": 550,
+  "traditional": 550,
+  "editorial": 0,
+  "reviewRequired": 542,
+  "sources": 7,
+  "rightsHolds": 7,
+  "tamilHumanReviewed": 0,
+  "canonicalChanged": 0,
+  "stagingPublished": 0,
+  "productionDeployed": false,
+  "notes": [
+    "Only active canonical records enter public Search/Ask/Reader/graph projections.",
+    "Approved candidate records remain isolated and non-public.",
+    "No unsupported quotations, guarantees, translations, or rights claims were invented."
+  ],
+  "decision": "BLOCKED",
+  "decisionReason": "Complete Knowledge OS integration is blocked until domain-specific non-staging datasets and rights evidence are physically governed; public projections remain canonical-only."
+}

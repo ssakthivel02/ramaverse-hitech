@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "corpusVersion": "v1.4.0",
+  "canonicalCount": 550,
+  "files": {
+    "RAMAVERSE_v1_5_ASK_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_ASK_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_CHARACTER_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_CHARACTER_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_GRAPH_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_GRAPH_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_JOURNEY_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_JOURNEY_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_PLACE_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_PLACE_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_READER_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_READER_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_SEARCH_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_SEARCH_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "RAMAVERSE_v1_5_TIMELINE_OWNER_APPROVED.json": {
+      "path": "RAMAVERSE_v1_5_TIMELINE_OWNER_APPROVED.json",
+      "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4"
+    },
+    "canonical.json": {
+      "path": "canonical.json",
+      "sha256": "83ee24d67b630fac081f91223019929d6a3c1b436416113282d3721500a6e34b",
+      "count": 550
+    },
+    "source_registry.json": {
+      "path": "source_registry.json",
+      "sha256": "02ae880be43bf8982abe4aafdbf41675aa221991d819bc849e562c07083c8221"
+    }
+  }
+}

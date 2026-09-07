@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+const root='/home/ubuntu/ramaverse'; const evidence=path.join(root,'data','authority_duplicate_resolution_20260826'); const out=path.join(root,'release_evidence','duplicate_authority_resolution_20260826'); fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
+const files=['RAMAVERSE_STAGING_DEDUP_LOGICAL_LEDGER.json','RAMAVERSE_STAGING_DEDUP_DECISION_LEDGER.json','INHERITED_DUPLICATE_AUTHORITY_LEDGER_v1.json','INHERITED_DUPLICATE_AUTHORITY_SUMMARY.json','DUPLICATE_AUTHORITY_VALIDATION.json'];
+for(const f of files)fs.copyFileSync(path.join(evidence,f),path.join(out,f));
+fs.copyFileSync(path.join(root,'RAMAVERSE_STAGING_MASTER_LEDGER_RECONCILED.json'),path.join(out,'PHYSICAL_STAGING_LEDGER_PRESERVED.json')); fs.copyFileSync(path.join(root,'PROJECT_STATE.json'),path.join(out,'PROJECT_STATE_SNAPSHOT.json'));
+fs.writeFileSync(path.join(out,'CONTINUATION.md'),'# Duplicate Authority Continuation\n\nPhysical evidence remains preserved. No record was deleted. The structured corpus is complete through Sundara Kanda 5.30; the next exact structured source is Sundara Kanda 5.31.1.\n\nInherited duplicate authority remains blocked pending owner/editor review of the 397 corrupt/null-ID occurrences.\n');
+const filesOut=fs.readdirSync(out).filter(f=>f!=='SHA256SUMS.txt').sort(); const lines=filesOut.map(f=>`${crypto.createHash('sha256').update(fs.readFileSync(path.join(out,f))).digest('hex')}  ${f}`); fs.writeFileSync(path.join(out,'SHA256SUMS.txt'),lines.join('\n')+'\n'); const zip=path.join(out,'RAMAVERSE-STAGING-DUPLICATE-AUTHORITY-RESOLUTION.zip'); execFileSync('zip',['-q','-X','-r',zip,'.'],{cwd:out}); execFileSync('unzip',['-tq',zip]); const sha=crypto.createHash('sha256').update(fs.readFileSync(zip)).digest('hex'); const entries=execFileSync('unzip',['-Z1',zip],{encoding:'utf8'}).trim().split('\n').length; console.log(JSON.stringify({zip,entries,sha256:sha,integrity:'PASS',files:filesOut},null,2));

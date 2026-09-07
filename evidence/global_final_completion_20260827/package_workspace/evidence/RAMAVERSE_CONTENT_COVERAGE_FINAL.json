@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-08-27T23:20:06.508Z",
+  "domains": [
+    {
+      "domain": "Rama Life",
+      "status": "PASS",
+      "evidence": "550 canonical source-linked records and chronology surfaces"
+    },
+    {
+      "domain": "Rama Speaks",
+      "status": "PARTIAL",
+      "evidence": "Only source-proven Rama speech can be promoted"
+    },
+    {
+      "domain": "Life Guidance",
+      "status": "PARTIAL",
+      "evidence": "Experience Center contract; dedicated governed dataset remains blocked"
+    },
+    {
+      "domain": "Leadership",
+      "status": "PARTIAL",
+      "evidence": "Source-event to Dharma interpretation mapping remains required"
+    },
+    {
+      "domain": "Sita",
+      "status": "PARTIAL",
+      "evidence": "Existing character context; dedicated governed sequence remains blocked"
+    },
+    {
+      "domain": "Hanuman",
+      "status": "PARTIAL",
+      "evidence": "Existing character context; tradition-separated deep dataset remains blocked"
+    },
+    {
+      "domain": "Rama Setu",
+      "status": "PARTIAL",
+      "evidence": "Evidence-separated contract; dedicated sequence remains blocked"
+    },
+    {
+      "domain": "Devotional",
+      "status": "PARTIAL",
+      "evidence": "Metadata/safety contract; rights and editorial review required"
+    },
+    {
+      "domain": "Global Ramayana",
+      "status": "PARTIAL",
+      "evidence": "Tradition namespaces require curated source datasets"
+    },
+    {
+      "domain": "Family",
+      "status": "PASS",
+      "evidence": "Age bands and source-aware activity scaffolding"
+    },
+    {
+      "domain": "Festivals",
+      "status": "PARTIAL",
+      "evidence": "Tradition-separated shell without unsourced dates"
+    },
+    {
+      "domain": "Temples",
+      "status": "PARTIAL",
+      "evidence": "Place surface exists; verified pilgrimage/official links remain required"
+    },
+    {
+      "domain": "Characters",
+      "status": "PASS",
+      "evidence": "51 governed pages"
+    },
+    {
+      "domain": "Places",
+      "status": "PASS",
+      "evidence": "25 governed pages"
+    },
+    {
+      "domain": "Journeys",
+      "status": "PASS",
+      "evidence": "Journey Atlas surface"
+    },
+    {
+      "domain": "Wisdom",
+      "status": "PASS",
+      "evidence": "108 records"
+    },
+    {
+      "domain": "Children",
+      "status": "PASS",
+      "evidence": "Existing stories/quizzes surface"
+    },
+    {
+      "domain": "Audio",
+      "status": "PARTIAL",
+      "evidence": "Read-aloud/scripts available; rights-cleared pack absent"
+    }
+  ]
+}

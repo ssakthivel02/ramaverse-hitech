@@ -1,0 +1,6 @@
+{
+  "domain": "SITA",
+  "records": [],
+  "status": "MISSING_OR_NOT_PHYSICALLY_GOVERNED",
+  "reason": "No separate non-staging governed dataset was physically available."
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-08-14T16:13:02.911304+00:00",
+  "verified_master_record_count": 28,
+  "verified_master_unique_id_count": 28,
+  "duplicate_ids_in_verified_master": [],
+  "duplicate_semantic_groups_in_verified_master": [],
+  "cross_artifact_repeated_candidate_ids": [
+    "stg-v2-ayodhyakanda-s18-character-001",
+    "stg-v2-ayodhyakanda-s18-character-002",
+    "stg-v2-ayodhyakanda-s18-character-003",
+    "stg-v2-ayodhyakanda-s18-event-001",
+    "stg-v2-ayodhyakanda-s18-event-002",
+    "stg-v2-ayodhyakanda-s18-relationship-001",
+    "stg-v2-ayodhyakanda-s19-character-001",
+    "stg-v2-ayodhyakanda-s19-event-001",
+    "stg-v2-ayodhyakanda-s19-event-002",
+    "stg-v2-ayodhyakanda-s19-event-003",
+    "stg-v2-ayodhyakanda-s19-place-001",
+    "stg-v2-ayodhyakanda-s19-relationship-001"
+  ],
+  "cross_artifact_interpretation": "These repetitions reflect two 12-record predecessor snapshots contained in the verified 28-record ledger, not duplicate records inside the master ledger.",
+  "unassessable_claimed_branch": {
+    "branch_id": "claimed_continuation_state_2026_08_14",
+    "claimed_file": "continuation-state-2026-08-14.json",
+    "claimed_by": "user-provided pasted instructions in pasted_content_2.txt",
+    "claimed_staging_count": 50,
+    "claimed_coverage": "completed source clusters across all 7 Kandas",
+    "claimed_next_source": "Uttara Kanda Chapter 95",
+    "artifact_available": false,
+    "evidence_status": "unverified_claim_only",
+    "record_ids_available": false,
+    "reconciliation_decision": "not incorporated into verified master records; no subset, branch, or staleness determination is possible without the actual ledger or archive."
+  }
+}

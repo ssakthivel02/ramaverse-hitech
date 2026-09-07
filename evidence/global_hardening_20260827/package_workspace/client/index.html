@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>RamaVerse — Sacred Ramayana Platform</title>
+    <meta name="description" content="A source-grounded, multilingual and offline-capable Ramayana knowledge platform across seven Kandas." />
+    <link rel="canonical" href="https://ramaverse.omsaravanabhava.org/" />
+    <link rel="alternate" hreflang="x-default" href="https://ramaverse.omsaravanabhava.org/" />
+    <link rel="alternate" hreflang="en" href="https://ramaverse.omsaravanabhava.org/en/" />
+    <link rel="alternate" hreflang="ta" href="https://ramaverse.omsaravanabhava.org/ta/" />
+    <link rel="alternate" hreflang="hi" href="https://ramaverse.omsaravanabhava.org/hi/" />
+    <link rel="alternate" hreflang="te" href="https://ramaverse.omsaravanabhava.org/te/" />
+    <link rel="alternate" hreflang="kn" href="https://ramaverse.omsaravanabhava.org/kn/" />
+    <link rel="alternate" hreflang="ml" href="https://ramaverse.omsaravanabhava.org/ml/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RamaVerse" />
+    <meta property="og:title" content="RamaVerse — Sacred Ramayana Platform" />
+    <meta property="og:description" content="Explore a source-grounded Ramayana knowledge universe across seven Kandas." />
+    <meta property="og:url" content="https://ramaverse.omsaravanabhava.org/" />
+    <meta property="og:image" content="https://ramaverse.omsaravanabhava.org/favicon.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="RamaVerse — Sacred Ramayana Platform" />
+    <meta name="twitter:description" content="A source-grounded, multilingual Ramayana knowledge platform." />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"RamaVerse","url":"https://ramaverse.omsaravanabhava.org/","description":"A source-grounded, multilingual and offline-capable Ramayana knowledge platform across seven Kandas.","inLanguage":["en","ta","hi","te","kn","ml"],"potentialAction":{"@type":"SearchAction","target":"https://ramaverse.omsaravanabhava.org/search?q={search_term_string}","query-input":"required name=search_term_string"}}
+    </script>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600;700&family=Noto+Sans+Gurmukhi:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;500;600;700&family=Noto+Sans+Oriya:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="bg-[#0b101b] text-[#f3e9d2] font-sans antialiased selection:bg-[#d4af37] selection:text-[#0b101b]">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW reg failed', err));
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+
+</html>

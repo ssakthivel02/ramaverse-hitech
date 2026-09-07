@@ -1,0 +1,96 @@
+{
+  "sarga": 86,
+  "kanda": "Ayodhya Kanda",
+  "recordsCount": 4,
+  "records": [
+    {
+      "id": "RV-STG-AYODHYA-S86",
+      "type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 86,
+      "locator": "2.86.1-end",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+        "SANSKRIT_DOCUMENTS_VALMIKI",
+        "READRAMAYANA_GITA_PRESS_COMPARISON"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.98,
+      "englishExplanation": "Ayodhya Kanda Sarga 86 detailing Chitrakoot stay, encounters with sages, and Bharata's approach or exile events.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "அயோத்யா காண்டம் சர்க்கம் 86: சித்ரகூட நிகழ்வுகள் மற்றும் முனிவர்களின் உபதேசம்.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787260450200
+    },
+    {
+      "id": "RV-STG-AYODHYA-EV-86",
+      "type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 86,
+      "locator": "2.86.3",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.97,
+      "englishExplanation": "Narrative event sequence in Ayodhya Kanda Sarga 86.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "நிகழ்வு குறிப்பு: சர்க்கம் 86.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787260450200
+    },
+    {
+      "id": "RV-STG-AYODHYA-DL-86",
+      "type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 86,
+      "locator": "2.86.7",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "PRIMARY_TEXT",
+      "confidence": 0.96,
+      "speaker": "Rama / Bharata / Sage",
+      "listener": "Assembly / Lakshmana",
+      "englishExplanation": "Counsel and dialogue recorded in Ayodhya Kanda Sarga 86.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "உரையாடல் குறிப்பு: சர்க்கம் 86.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787260450200
+    },
+    {
+      "id": "RV-STG-AYODHYA-DH-86",
+      "type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 86,
+      "locator": "2.86.15",
+      "sourceIds": [
+        "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+      ],
+      "sourceRole": "PRIMARY_ACQUISITION_SOURCE",
+      "traditionClassification": "TEXT_DIRECT",
+      "confidence": 0.95,
+      "englishExplanation": "Dharma and duty instruction exemplified in Sarga 86.",
+      "tamilStatus": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "editorialDraftTamil": "தர்ம பாடம்: சர்க்கம் 86.",
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING",
+      "createdAt": 1787260450200
+    }
+  ],
+  "triangulation": {
+    "PRIMARY_ACQUISITION_SOURCE": "Valmiki Ramayana Critical Edition / Sanskrit Documents",
+    "TEXTUAL_CROSSCHECK": "Gita Press Ayodhya Kanda",
+    "ADDITIONAL_EDITION_REFERENCE": "Digital South Asia Library / GRETIL"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-08-15T17:54:39.621Z",
+  "dryRunOnly": true,
+  "historicalCanonicalBaseline": 550,
+  "stagingObserved": 28,
+  "verifiedAttachedRecords": 28,
+  "unavailableClaimedRecords": 50,
+  "claimedStagingTotal": 78,
+  "stagingCoverage": "Ayodhya Kanda Sargas 18–20",
+  "stagingPublished": 0,
+  "rawStagingAttached": true,
+  "inputRecords": 28,
+  "validRecords": 28,
+  "duplicates": 0,
+  "potentialLegacyOverlap": 28,
+  "tamilReviewRequired": 28,
+  "sourceReviewRequired": 0,
+  "schemaErrors": 0,
+  "readyForEditorialReview": 28,
+  "candidateNewCanonicalRecords": 0,
+  "candidateEvidence": [],
+  "decisionStateCounts": {
+    "awaiting_v1_4_0_reconciliation": 28,
+    "needs_human_tamil_review": 28,
+    "possible_legacy_overlap": 28,
+    "unverified_claim_only": 50
+  },
+  "countMatchesObservedLedger": true,
+  "crossBranchReconciliationComplete": false,
+  "reconciliationState": "partial_reconciliation_only_verified_28_plus_unavailable_claim_50",
+  "publicationAvailable": false,
+  "sourceLedger": "STAGING_MASTER_LEDGER.json",
+  "note": "This is a non-mutating dry run. 28 verified staging records are available from Ayodhya Kanda Sargas 18–20. A separate 50-record claim has no accessible ledger or record inventory. Neither group is published or added to the 550-record historical baseline.",
+  "warnings": [
+    "The verified branch is staging-only and awaits v1.4.0 reconciliation; there is no database mutation or canonical publication path.",
+    "The claimed 50-record branch is not incorporated into verified master records because its actual ledger is unavailable."
+  ],
+  "errors": []
+}

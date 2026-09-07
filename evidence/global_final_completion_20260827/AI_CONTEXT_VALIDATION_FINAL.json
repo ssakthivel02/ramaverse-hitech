@@ -1,0 +1,22 @@
+{
+  "grounding": "physical canonical records only",
+  "answersRequire": [
+    "recordId",
+    "kanda",
+    "sarga",
+    "sourceLocator",
+    "confidence"
+  ],
+  "modes": [
+    "Character Ask",
+    "Place Ask",
+    "Journey Ask",
+    "Source Comparison",
+    "Explain Simply",
+    "Explain for Children",
+    "Tamil Explanation"
+  ],
+  "insufficientEvidence": "explicit state",
+  "externalProviderOptional": true,
+  "providerNeutral": true
+}

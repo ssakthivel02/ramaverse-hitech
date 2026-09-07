@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-08-25T23:48:45.393Z",
+  "canonicalBaseline": 550,
+  "startingSemanticOverlaps": 449,
+  "exactSemanticDuplicates": 0,
+  "safeEnrichments": 184,
+  "autoResolved": 184,
+  "remainingHumanDecisions": 265,
+  "stagingPublished": 0,
+  "canonicalChanged": 0,
+  "safePatchesApplied": 0,
+  "status": "CANDIDATE_ONLY_NOT_PRODUCTION"
+}

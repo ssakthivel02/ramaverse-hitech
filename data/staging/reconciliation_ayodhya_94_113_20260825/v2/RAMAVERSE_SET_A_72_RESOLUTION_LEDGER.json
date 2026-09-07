@@ -1,0 +1,1018 @@
+{
+  "input_records": 72,
+  "accounted": 72,
+  "resolved_safe": 72,
+  "source_review_required": 0,
+  "conflict": 0,
+  "rejected": 0,
+  "records": [
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001",
+      "original_source_reference": null,
+      "resolved_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "resolution": "RESOLVED_SAFE",
+      "reason": "source_ids[0] exactly matches the physical registry source_id and registry locator matches Kanda/Sarga; source_reference field absence is a schema-field mismatch, not missing evidence.",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      }
+    }
+  ]
+}

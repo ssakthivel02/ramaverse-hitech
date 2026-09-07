@@ -1,0 +1,1596 @@
+{
+  "ledger_id": "ramaverse-staging-master-20260814t161302z",
+  "created_at_utc": "2026-08-14T16:13:02.911304+00:00",
+  "ledger_status": "verified_branch_master_with_unresolved_claimed_branch",
+  "historical_baseline": {
+    "total_records": 550,
+    "status": "unchanged",
+    "merge_rule": "No staging record is part of the historical baseline until formal reconciliation."
+  },
+  "verified_branch": {
+    "branch_id": "ayodhya_v2_verified",
+    "origin_artifact": "ramaverse_canonical_staging_v2.json",
+    "record_count": 28,
+    "unique_record_count": 28,
+    "kandas": [
+      "Ayodhya Kanda"
+    ],
+    "verified_source_coverage": "Ayodhya Kanda Sargas 18–20",
+    "next_exact_source": "Ayodhya Kanda Sarga 21",
+    "merge_state_values": [
+      "awaiting_v1_4_0_reconciliation"
+    ],
+    "possible_legacy_overlap_count": 28,
+    "source_cluster_count": 27
+  },
+  "historical_snapshots": {
+    "files": [
+      "ramaverse_canonical_staging_v2-2.json",
+      "ramaverse_canonical_staging_v2-3.json"
+    ],
+    "finding": "Both available 12-record snapshots are byte-level staging predecessors by candidate-ID set; each is a strict subset of the verified 28-record branch."
+  },
+  "claimed_unavailable_branch": {
+    "branch_id": "claimed_continuation_state_2026_08_14",
+    "claimed_file": "continuation-state-2026-08-14.json",
+    "claimed_by": "user-provided pasted instructions in pasted_content_2.txt",
+    "claimed_staging_count": 50,
+    "claimed_coverage": "completed source clusters across all 7 Kandas",
+    "claimed_next_source": "Uttara Kanda Chapter 95",
+    "artifact_available": false,
+    "evidence_status": "unverified_claim_only",
+    "record_ids_available": false,
+    "reconciliation_decision": "not incorporated into verified master records; no subset, branch, or staleness determination is possible without the actual ledger or archive."
+  },
+  "branch_reconciliation": {
+    "outcome": "partial_reconciliation_only",
+    "verified_finding": "The 12-record snapshots are stale predecessors, not parallel branches. The 28-record verified ledger supersedes them for Ayodhya Sargas 18–20.",
+    "unresolved_finding": "The claimed 50-record all-Kanda/Uttara ledger is not accessible. Its relationship to the verified 28-record ledger cannot be determined.",
+    "global_next_source": null,
+    "branch_specific_continuation": {
+      "ayodhya_v2_verified": "Ayodhya Kanda Sarga 21",
+      "claimed_continuation_state_2026_08_14": "Uttara Kanda Chapter 95 (unverified claim; do not acquire or merge from this marker until its artifact is available)"
+    }
+  },
+  "source_clusters": [
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "14–19",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-character-004"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "14–31",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-theme-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "17–18",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-object-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "1–55",
+      "record_count": 2,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-narrative-002",
+        "stg-v2-ayodhyakanda-s20-source-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "1–7",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.11–18",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-relationship-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.19–41",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-event-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.19–41; 2.19.1–26",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-character-003"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.1–18",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-event-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.1–41",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-character-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.1–41; 2.19.1–40",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s18-character-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.1–8",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.2, 11, 14–16",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-place-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.27–40",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-event-003"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.30, 39",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-character-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.5–8, 22–26",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-relationship-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.9–26",
+      "record_count": 1,
+      "source_ids": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s19-event-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "20–22",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-relationship-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "22–25",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "25–31",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-003"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "26–31",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-place-002"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "32–34",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-004"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "35–40",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-character-005"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "36–41",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-theme-001"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "42–47",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-relationship-003"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "48–55",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-event-005"
+      ]
+    },
+    {
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "8–13",
+      "record_count": 1,
+      "source_ids": [
+        "src-gretil-ramayana-kandas-1-7",
+        "src-valmiki-ayodhya-s20-sanskritdocuments"
+      ],
+      "record_ids": [
+        "stg-v2-ayodhyakanda-s20-narrative-001"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-event-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.1–18",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18, verses 1–18",
+      "sanskrit_excerpt": "sa dadarśa āsane rāmaḥ niṣaṇṇam pitaram śubhe",
+      "transliteration": "sa dadarśa āsane rāmaḥ niṣaṇṇaṃ pitaraṃ śubhe",
+      "tamil_explanation": "ராமர் தசரதரைச் சந்திக்க வரும்போது, மன்னர் துயரத்தால் வாடிய நிலையில் இருப்பதை அறிகிறார். தந்தையின் உடல் மற்றும் மனநிலையைப் பற்றி அக்கறையுடன் கேட்கிறார்.",
+      "english_explanation": "Rama enters the king’s presence, observes Dasaratha’s extraordinary grief, and asks what has caused the king’s distress.",
+      "characters": [
+        "Rama",
+        "Dasaratha",
+        "Kaikeyi"
+      ],
+      "places": [
+        "Ayodhya royal residence"
+      ],
+      "events": [
+        "Rama sees Dasaratha distressed",
+        "Rama questions Kaikeyi about the king’s condition"
+      ],
+      "relationships": [
+        "Rama–Dasaratha: son and father",
+        "Rama–Kaikeyi: son and stepmother"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Narrative synthesis constrained to the cited verses and the source page’s introduction and rendering.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-character-001",
+        "stg-v2-ayodhyakanda-s18-character-002"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-relationship-001",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.11–18",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18, verses 11–18",
+      "sanskrit_excerpt": "yataḥ mūlam naraḥ paśyet prādurbhāvam iha ātmanaḥ",
+      "transliteration": "yataḥ mūlaṃ naraḥ paśyet prādurbhāvam ihātmanaḥ",
+      "tamil_explanation": "தந்தையைத் தன் வாழ்வின் வெளிப்படையான காரணமாகக் கருதி, அவரிடம் கடமை மற்றும் மரியாதையுடன் நடப்பது ராமரின் பார்வையாக இப்பகுதி காட்டப்படுகிறது.",
+      "english_explanation": "The passage presents Rama’s filial orientation: he treats the father as the visible source of his embodied existence and frames obedience as a serious duty.",
+      "characters": [
+        "Rama",
+        "Dasaratha"
+      ],
+      "places": [
+        "Ayodhya royal residence"
+      ],
+      "events": [
+        "Rama asks whether he has caused the king’s grief",
+        "Rama affirms concern for the father’s welfare"
+      ],
+      "relationships": [
+        "Rama–Dasaratha: filial duty and reverence"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Derived from Rama’s questions and statements in verses 11–18; interpretive wording is kept separate from the event locator.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-event-001",
+        "stg-v2-ayodhyakanda-s19-event-002"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-character-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.1–41; 2.19.1–40",
+      "canonical_source_locator": "Ayodhya Kanda Sargas 18–19",
+      "sanskrit_excerpt": null,
+      "transliteration": "Rāma, Rāghava, Daśaratha-putra",
+      "tamil_explanation": "இந்த இரண்டு சர்க்கங்களில் ராமர் தந்தையின் துயரத்தை உணர்ந்து விசாரிப்பவர், கைகேயியின் கடுமையான அறிவிப்பைக் கேட்டும் நிலைதடுமாறாதவர், தந்தையின் வாக்கை நிறைவேற்ற வனவாசத்தை ஏற்றுக்கொள்பவர் எனத் தோன்றுகிறார்.",
+      "english_explanation": "Across these sargas, Rama is characterized as attentive to his father’s distress, composed before Kaikeyi’s harsh declaration, and resolved to obey the king’s promise by entering forest exile.",
+      "characters": [
+        "Rama"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Rama receives the exile instruction",
+        "Rama prepares to leave the palace"
+      ],
+      "relationships": [
+        "Rama–Dasaratha",
+        "Rama–Kaikeyi",
+        "Rama–Lakshmana"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Character synthesis from the actions and speech attributed to Rama in the cited sargas; no theological identity claim is added.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-event-002",
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-character-002",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.1–41",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18",
+      "sanskrit_excerpt": null,
+      "transliteration": "Daśaratha, Rāma’s father and king of Ayodhyā",
+      "tamil_explanation": "தசரதர் மகன் ராமரைப் பற்றிய துயரத்தால் பேச முடியாமல், கண்ணீருடன் காணப்படுகிறார். கைகேயிக்கு அளித்த வரங்களின் விளைவால் அவர் உள்மனத் துயரத்தில் உள்ளார்.",
+      "english_explanation": "Dasaratha appears unable to speak because of grief over Rama; the sarga connects his distress to the consequences of the boons previously granted to Kaikeyi.",
+      "characters": [
+        "Dasaratha",
+        "Rama",
+        "Kaikeyi"
+      ],
+      "places": [
+        "Ayodhya royal residence"
+      ],
+      "events": [
+        "Dasaratha is unable to address Rama",
+        "Dasaratha’s distress is linked to Kaikeyi’s demands"
+      ],
+      "relationships": [
+        "Dasaratha–Rama: father and son",
+        "Dasaratha–Kaikeyi: husband and queen"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Based on verses 1–10 and 19–41; the causal connection is limited to what Kaikeyi states in the cited passage.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-event-002"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-character-003",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.19–41; 2.19.1–26",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sargas 18–19",
+      "sanskrit_excerpt": "evamuktā tu kaikeyī rāghaveṇa mahātmanā",
+      "transliteration": "evam uktā tu Kaikeyī Rāghaveṇa mahātmanā",
+      "tamil_explanation": "கைகேயி, தசரதர் முன்பு வழங்கிய வரங்களை முன்வைத்து, பரதனின் அபிஷேகமும் ராமரின் தண்டக வனவாசமும் வேண்டும் என்று கூறுகிறார். இங்கு பதிவு செய்யப்படுவது இச்சர்க்கங்களின் உரைச் சித்திரம் மட்டுமே.",
+      "english_explanation": "Kaikeyi invokes the boons previously granted by Dasaratha and states the demands for Bharata’s consecration and Rama’s forest exile. This record does not generalize beyond the cited narrative.",
+      "characters": [
+        "Kaikeyi",
+        "Dasaratha",
+        "Rama",
+        "Bharata"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Kaikeyi states the two demands",
+        "Kaikeyi urges Rama to depart"
+      ],
+      "relationships": [
+        "Kaikeyi–Dasaratha: prior boon and present claim",
+        "Kaikeyi–Rama: stepmother and stepson"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Derived from Kaikeyi’s speech in Sarga 18 and her further instructions in Sarga 19.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; later devotional and regional portrayals are not merged here.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-event-002",
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s18-event-002",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.18.19–41",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18, verses 19–41",
+      "sanskrit_excerpt": "purā deva asure yuddhe pitrā te mama rāghava",
+      "transliteration": "purā deva-asure yuddhe pitrā te mama Rāghava",
+      "tamil_explanation": "கைகேயி முன்பு தசரதர் அளித்த இரண்டு வரங்களை நினைவூட்டுகிறார். பரதனுக்கு அரசாபிஷேகம் செய்து, ராமர் தண்டக வனத்தில் பதினான்கு ஆண்டுகள் வாழ வேண்டும் என்று அவர் கோருகிறார்.",
+      "english_explanation": "Kaikeyi recalls the two boons Dasaratha granted after an earlier battle and states her demands: Bharata’s consecration and Rama’s residence in the Dandaka forest for fourteen years.",
+      "characters": [
+        "Kaikeyi",
+        "Dasaratha",
+        "Rama",
+        "Bharata"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Kaikeyi invokes the earlier boons",
+        "Bharata’s consecration is demanded",
+        "Rama’s fourteen-year exile is demanded"
+      ],
+      "relationships": [
+        "Kaikeyi–Dasaratha: boon-holder and granter",
+        "Rama–Bharata: brothers affected by the succession demand"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "The source page’s verse locators 2-18-31 through 2-18-41 contain the demand and Rama’s response; the duration is stated in the cited passage.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; exact wording and textual extent require later critical-edition reconciliation.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-character-003",
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-event-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.1–8",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 19, verses 1–8",
+      "sanskrit_excerpt": "tat apriyam amitraghnaḥ vacanam maraṇa upamam",
+      "transliteration": "tat apriyam amitraghnaḥ vacanaṃ maraṇopamam",
+      "tamil_explanation": "கைகேயியின் கடுமையான வார்த்தைகளை கேட்டபோதும் ராமர் மனஅமைதியை இழக்கவில்லை. தந்தையின் வாக்கை நிறைவேற்ற வனத்திற்குச் செல்வதாக உடனே அறிவிக்கிறார்.",
+      "english_explanation": "Rama remains composed after hearing Kaikeyi’s harsh words and immediately declares that he will go to the forest in order to fulfil the king’s promise.",
+      "characters": [
+        "Rama",
+        "Kaikeyi",
+        "Dasaratha"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Rama accepts exile",
+        "Rama asks why Dasaratha did not speak directly"
+      ],
+      "relationships": [
+        "Rama–Dasaratha: obedience to the father’s command",
+        "Rama–Kaikeyi: response to the queen’s demand"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Directly grounded in Sarga 19 verses 1–8 and the source introduction.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s18-event-002",
+        "stg-v2-ayodhyakanda-s19-relationship-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-relationship-001",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.5–8, 22–26",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 19",
+      "sanskrit_excerpt": "na hi ataḥ dharma caraṇam kiṃcit asti mahattaram",
+      "transliteration": "na hy ataḥ dharmacaraṇaṃ kiṃcid asti mahattaram",
+      "tamil_explanation": "தந்தையின் கட்டளையை நிறைவேற்றுவதைக் காட்டிலும் உயர்ந்த தர்மநடத்தை இல்லை என்று ராமர் கூறுகிறார். இது இச்சர்க்கங்களில் ராமரின் உரையாகப் பதிவாகிறது; பொதுவான மதிப்பீடாக அல்ல.",
+      "english_explanation": "Rama presents obedience to the father’s command as the highest duty in this exchange. The statement is recorded as Rama’s speech in this sarga, not as a universal editorial conclusion.",
+      "characters": [
+        "Rama",
+        "Dasaratha"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Rama accepts the father’s command",
+        "Rama states his intention to depart after seeing his mother and Sita"
+      ],
+      "relationships": [
+        "Rama–Dasaratha: filial obedience and duty"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "The explanation is restricted to Rama’s speech in verses 5–8 and 22–26.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-place-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.2, 11, 14–16",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 19",
+      "sanskrit_excerpt": "daṇḍaka araṇyam eṣo aham itaḥ gacchāmi satvaraḥ",
+      "transliteration": "Daṇḍakāraṇyam eṣo 'ham itaḥ gacchāmi satvaraḥ",
+      "tamil_explanation": "தண்டகாரண்யம் ராமர் பதினான்கு ஆண்டுகள் வாழ வேண்டிய வனப்பகுதியாக இச்சர்க்கத்தில் குறிப்பிடப்படுகிறது. அதன் வரலாற்று புவியியல் அடையாளம் குறித்து இப்பதிவு எந்த உறுதியான கூற்றையும் முன்வைக்கவில்லை.",
+      "english_explanation": "Dandaka forest is named as the forest in which Rama will reside for fourteen years. This staging record does not assert a modern geographical identification.",
+      "characters": [
+        "Rama",
+        "Dasaratha",
+        "Kaikeyi"
+      ],
+      "places": [
+        "Dandaka forest"
+      ],
+      "events": [
+        "Rama declares forest residence for fourteen years"
+      ],
+      "relationships": [
+        "Rama–Dandaka forest: mandated destination"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Place name and duration are taken from the cited verse locators; geographical certainty is deliberately withheld.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "Later geographical identifications are not included in this primary-text staging record.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s19-event-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-event-002",
+      "record_type": "NARRATIVE_SEQUENCE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.9–26",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 19, verses 9–26",
+      "sanskrit_excerpt": "gacchantu caiva ānayitum dūtāḥ śīghra javaiḥ hayaiḥ",
+      "transliteration": "gacchantu caivānayituṃ dūtāḥ śīghrajavair hayaiḥ",
+      "tamil_explanation": "ராமர் பரதனைத் தாய்மாமன் வீட்டிலிருந்து அழைக்க தூதர்களை அனுப்புமாறு கூறுகிறார்; தந்தையை ஆறுதல்படுத்துமாறும் சொல்கிறார்; பின்னர் தன் தாயையும் சீதையையும் சந்தித்து வனத்திற்குச் செல்லத் தயாராகிறார்.",
+      "english_explanation": "The narrative moves from Rama’s acceptance of exile to arrangements for Bharata’s summons, consolation of Dasaratha, and Rama’s intention to see his mother and Sita before departure.",
+      "characters": [
+        "Rama",
+        "Dasaratha",
+        "Kaikeyi",
+        "Bharata",
+        "Sita"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest",
+        "Bharata’s maternal-uncle’s residence"
+      ],
+      "events": [
+        "Messengers are to summon Bharata",
+        "Rama plans to visit his mother and Sita",
+        "Rama prepares to leave"
+      ],
+      "relationships": [
+        "Rama–Bharata: brothers affected by succession",
+        "Rama–Sita: spouses awaiting his announcement"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Sequence synthesis follows the order of verses 9–26 and does not add events outside the cited sarga.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s19-place-001",
+        "stg-v2-ayodhyakanda-s19-event-003"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-event-003",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.27–40",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 19, verses 27–40",
+      "sanskrit_excerpt": "vanditvā caraṇau rāmaḥ visaṃjñasya pituḥ tadā",
+      "transliteration": "vanditvā caraṇau Rāmaḥ visaṃjñasya pituḥ tadā",
+      "tamil_explanation": "தசரதர் துயரத்தில் மயங்கிய பின், ராமர் தந்தையையும் கைகேயியையும் வணங்கி அரண்மனையிலிருந்து வெளியேறுகிறார். லக்ஷ்மணர் கண்ணீருடன் அவரைப் பின்தொடர்கிறார்.",
+      "english_explanation": "After Dasaratha collapses in grief, Rama salutes his father and Kaikeyi and leaves the inner palace; Lakshmana follows him in distress.",
+      "characters": [
+        "Rama",
+        "Dasaratha",
+        "Kaikeyi",
+        "Lakshmana"
+      ],
+      "places": [
+        "Ayodhya palace"
+      ],
+      "events": [
+        "Dasaratha faints in grief",
+        "Rama exits the palace",
+        "Lakshmana follows Rama"
+      ],
+      "relationships": [
+        "Rama–Lakshmana: younger brother follows Rama",
+        "Rama–Dasaratha: departure after farewell",
+        "Rama–Kaikeyi: departure after the demand"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Event sequence follows the closing verses of Sarga 19; no claim is made about later forest events in this record.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; one verse number is not displayed in the retrieved digital rendering, so no missing verse is inferred.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s19-event-002",
+        "stg-v2-ayodhyakanda-s19-character-001"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s19-character-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "2.19.30, 39",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 19",
+      "sanskrit_excerpt": "lakṣmaṇaḥ parama kruddhaḥ sumitrā ānanda vardhanaḥ",
+      "transliteration": "Lakṣmaṇaḥ parama-kruddhaḥ Sumitrānanda-vardhanaḥ",
+      "tamil_explanation": "லக்ஷ்மணர் துயரமும் கோபமும் கலந்த நிலையில் ராமரைப் பின்தொடர்கிறார். இப்பதிவு இந்த இரண்டு சர்க்கங்களில் காணப்படும் செயற்பாட்டை மட்டுமே பதிவு செய்கிறது.",
+      "english_explanation": "Lakshmana follows Rama while distressed and angry, as the closing movement of Sarga 19 takes Rama out of the palace.",
+      "characters": [
+        "Lakshmana",
+        "Rama"
+      ],
+      "places": [
+        "Ayodhya palace"
+      ],
+      "events": [
+        "Lakshmana follows Rama"
+      ],
+      "relationships": [
+        "Lakshmana–Rama: younger brother accompanies elder brother"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s19-sanskritdocuments"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Character action is tied to verse locators 2-19-30 and 2-19-39.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "related_candidate_ids": [
+        "stg-v2-ayodhyakanda-s19-event-003"
+      ],
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "1–7",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 1–7",
+      "sanskrit_excerpt": "ārtaśabdo mahān jajñe strīṇām antaḥpure tadā",
+      "transliteration": "ārtaśabdo mahān jajñe strīṇām antaḥpure tadā",
+      "tamil_explanation": "ராமர் அரண்மனையை விட்டு வெளியேறும்போது அந்தப்புரப் பெண்களிடையே பெரும் துயரக் குரல் எழுகிறது; தசரதரும் மகன் பிரிவுத் துயரத்தில் சோர்கிறார்.",
+      "english_explanation": "As Rama leaves, a great cry of distress rises among the palace women, while Dasaratha is overwhelmed by grief for his son.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Rama",
+        "Dasaratha",
+        "Palace women"
+      ],
+      "places": [
+        "Ayodhya palace"
+      ],
+      "events": [
+        "Rama leaves the king’s presence",
+        "Palace lament begins",
+        "Dasaratha hears the cries"
+      ],
+      "relationships": [
+        "Rama–palace household: protected community grieving his departure"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-narrative-001",
+      "record_type": "NARRATIVE_SEQUENCE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "8–13",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 8–13",
+      "sanskrit_excerpt": "rāmaḥ tu bhṛśam āyastaḥ niḥśvasann iva kuñjaraḥ",
+      "transliteration": "Rāmaḥ tu bhṛśam āyastaḥ niḥśvasann iva kuñjaraḥ",
+      "tamil_explanation": "ராமர் மிகுந்த துயரத்துடன், லக்ஷ்மணருடன் தாய் கௌசல்யையின் இல்லத்திற்குச் செல்கிறார். அரண்மனை வாயில்களில் உள்ள முதியவர்கள், பிராமணர்கள், பெண்கள் ஆகியோரை அவர் மரியாதையுடன் கடக்கிறார்.",
+      "english_explanation": "Rama, deeply troubled, goes with Lakshmana toward Kausalya’s apartments and passes through the palace enclosures while receiving greetings and showing respect.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Rama",
+        "Lakshmana",
+        "Kausalya",
+        "Palace residents"
+      ],
+      "places": [
+        "Ayodhya palace",
+        "Kausalya’s apartments"
+      ],
+      "events": [
+        "Rama travels from the king’s quarters to Kausalya’s apartments",
+        "Rama salutes elders and Brahmins",
+        "Women announce his arrival to Kausalya"
+      ],
+      "relationships": [
+        "Rama–Lakshmana: brothers travelling together",
+        "Rama–palace residents: respectful public relationship"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-character-004",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "14–19",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 14–19",
+      "sanskrit_excerpt": "kausalyā api tadā devī rātrim sthitvā samāhitā",
+      "transliteration": "Kausalyā api tadā devī rātrim sthitvā samāhitā",
+      "tamil_explanation": "கௌசல்யை இரவு முழுவதும் விரதநெறியில் இருந்து, மகனின் நலனுக்காக விடியற்காலையில் விஷ்ணுவை வணங்கி, அக்னியில் மந்திரங்களுடன் ஹோமம் செய்கிறார்.",
+      "english_explanation": "Kausalya spends the night in observance, worships Viṣṇu for her son’s welfare at dawn, and performs a mantra-accompanied fire offering.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Kausalya",
+        "Rama",
+        "Viṣṇu"
+      ],
+      "places": [
+        "Kausalya’s apartments",
+        "Ritual fire space"
+      ],
+      "events": [
+        "Kausalya performs worship",
+        "Kausalya offers oblations for Rama’s welfare"
+      ],
+      "relationships": [
+        "Kausalya–Rama: mother’s protective concern",
+        "Kausalya–Viṣṇu: worship for the son’s welfare"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-object-001",
+      "record_type": "OBJECT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "17–18",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 17–18",
+      "sanskrit_excerpt": "dadhy akṣataṃ ghṛtaṃ caiva modakān haviṣas tadā",
+      "transliteration": "dadhi-akṣataṃ ghṛtaṃ caiva modakān haviṣas tadā",
+      "tamil_explanation": "கௌசல்யையின் வழிபாட்டிற்காக தயிர், அக்ஷதை, நெய், நைவேத்யப் பொருட்கள், வெள்ளை மாலைகள், பாயசம், சமிதைகள், பூர்ணகும்பங்கள் போன்ற பொருட்கள் தயார் செய்யப்பட்டுள்ளன.",
+      "english_explanation": "The ritual setting includes curd, akṣata, ghee, sweets and oblation materials, white garlands, pāyasa, sacrificial sticks, and full water vessels.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Rama",
+        "Kausalya"
+      ],
+      "places": [
+        "Kausalya’s apartments"
+      ],
+      "events": [
+        "Rama observes ritual materials prepared for worship"
+      ],
+      "relationships": [
+        "Rama–ritual space: witness to the mother’s observance"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-relationship-002",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "20–22",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 20–22",
+      "sanskrit_excerpt": "sa mātaram abhikrāntām upasaṃgṛhya rāghavaḥ",
+      "transliteration": "sa mātaram abhikrāntām upasaṃgṛhya Rāghavaḥ",
+      "tamil_explanation": "கௌசல்யை ராமரை மகிழ்ச்சியுடன் அணுகுகிறார்; ராமர் தாயின் பாதங்களை வணங்க, அவர் மகனைத் தழுவி தலையை முகர்கிறார்.",
+      "english_explanation": "Kausalya approaches Rama joyfully; Rama salutes her feet, and she embraces and affectionately greets him.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Rama",
+        "Kausalya"
+      ],
+      "places": [
+        "Kausalya’s apartments"
+      ],
+      "events": [
+        "Mother and son reunite",
+        "Kausalya embraces Rama"
+      ],
+      "relationships": [
+        "Rama–Kausalya: mother and son, expressed through ritualized greeting and affection"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-002",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "22–25",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 22–25",
+      "sanskrit_excerpt": "adyaiva hi tvāṃ dharmātmā yauvarājye abhiṣekṣyati",
+      "transliteration": "adyaiva hi tvāṃ dharmātmā yauvarājye abhiṣekṣyati",
+      "tamil_explanation": "ராமர் இளவரசராக அபிஷேகம் பெறுவார் என்று கௌசல்யை முதலில் மகிழ்ச்சியுடன் எதிர்பார்த்து ஆசீர்வதிக்கிறார்; இது பின்னர் வரும் துயரச் செய்தியுடன் நேர்மாறான உணர்ச்சி மாற்றத்தை உருவாக்குகிறது.",
+      "english_explanation": "Kausalya initially blesses Rama in the expectation that he will be consecrated as heir-apparent, establishing the emotional reversal that follows when he reveals the exile order.",
+      "speaker": "Kausalya",
+      "characters": [
+        "Kausalya",
+        "Rama"
+      ],
+      "places": [
+        "Kausalya’s apartments"
+      ],
+      "events": [
+        "Kausalya blesses Rama",
+        "Kausalya expects the consecration"
+      ],
+      "relationships": [
+        "Kausalya–Rama: maternal blessing",
+        "Rama–royal succession: expected consecration"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-003",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "25–31",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 25–31",
+      "sanskrit_excerpt": "prasthito daṇḍakāraṇyam āpṛṣṭum upacakrame",
+      "transliteration": "prasthito Daṇḍakāraṇyam āpṛṣṭum upacakrame",
+      "tamil_explanation": "ராமர் தண்டகாரண்யத்திற்கு புறப்பட வேண்டிய கட்டளை வந்துவிட்டதாகத் தாயிடம் தெரிவிக்கிறார். பதினான்கு ஆண்டுகள் வனத்தில் தங்கி, முனிவரைப் போல கிழங்கு, கனி, வேர் உண்டு வாழ வேண்டிய நிலையை விளக்குகிறார்.",
+      "english_explanation": "Rama tells Kausalya that he must depart for Dandaka forest and explains that he is to live there for fourteen years, adopting the austerity of forest life.",
+      "speaker": "Rama",
+      "characters": [
+        "Rama",
+        "Kausalya",
+        "Sita",
+        "Lakshmana"
+      ],
+      "places": [
+        "Ayodhya",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Rama reveals the exile order",
+        "Rama describes fourteen years in the forest",
+        "Rama describes ascetic forest living"
+      ],
+      "relationships": [
+        "Rama–Kausalya: son announces forced departure",
+        "Rama–Sita–Lakshmana: companions named in the exile context"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-place-002",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "26–31",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 26–31",
+      "sanskrit_excerpt": "daṇḍakāraṇyam",
+      "transliteration": "Daṇḍakāraṇyam",
+      "tamil_explanation": "தண்டகாரண்யம் ராமரின் பதினான்கு ஆண்டு வனவாசத்தின் இலக்காகக் குறிப்பிடப்படுகிறது. இப்பதிவு அதன் நவீன புவியியல் அடையாளத்தை உறுதி செய்யவில்லை.",
+      "english_explanation": "Dandaka forest is identified as Rama’s destination for the fourteen-year exile; this record makes no modern geographical claim.",
+      "speaker": "Rama",
+      "characters": [
+        "Rama",
+        "Kausalya"
+      ],
+      "places": [
+        "Dandaka forest"
+      ],
+      "events": [
+        "Forest exile destination is named",
+        "Fourteen-year duration is stated"
+      ],
+      "relationships": [
+        "Rama–Dandaka forest: mandated destination"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-004",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "32–34",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 32–34",
+      "sanskrit_excerpt": "papāta sahasā devī devateva divaś cyutā",
+      "transliteration": "papāta sahasā devī devateva divaś cyutā",
+      "tamil_explanation": "ராமரின் வனவாசச் செய்தியை கேட்ட கௌசல்யை திடீரென மயங்கி விழுகிறார். ராமர் அவளை எழுப்பி, சிதறியிருந்த புனிதத் தீயை கையால் சரிசெய்கிறார்.",
+      "english_explanation": "On hearing the exile news, Kausalya suddenly collapses; Rama raises her and attends to the disturbed sacred fire.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Rama",
+        "Kausalya",
+        "Lakshmana"
+      ],
+      "places": [
+        "Kausalya’s apartments",
+        "Ritual fire space"
+      ],
+      "events": [
+        "Kausalya faints",
+        "Rama lifts Kausalya",
+        "Rama tends the ritual fire"
+      ],
+      "relationships": [
+        "Rama–Kausalya: son cares for distressed mother",
+        "Rama–ritual fire: restores the disturbed sacred setting"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-character-005",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "35–40",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 35–40",
+      "sanskrit_excerpt": "uvāca puruṣavyāghram upaśṛṇvati lakṣmaṇe",
+      "transliteration": "uvāca puruṣavyāghram upaśṛṇvati Lakṣmaṇe",
+      "tamil_explanation": "லக்ஷ்மணர் அருகில் கேட்டு நிற்கும் நிலையில், கௌசல்யை ராமரின் பிரிவால் தன் வாழ்வு அழியும் எனக் கூறி துயரத்தை வெளிப்படுத்துகிறார்.",
+      "english_explanation": "With Lakshmana listening, Kausalya expresses the depth of her grief and fears that Rama’s departure will destroy her life.",
+      "speaker": "Kausalya",
+      "characters": [
+        "Kausalya",
+        "Rama",
+        "Lakshmana"
+      ],
+      "places": [
+        "Kausalya’s apartments"
+      ],
+      "events": [
+        "Kausalya laments before Rama",
+        "Lakshmana hears the lament"
+      ],
+      "relationships": [
+        "Kausalya–Rama: maternal grief",
+        "Lakshmana–Kausalya: witness to shared family distress"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-theme-001",
+      "record_type": "THEME",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "36–41",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 36–41",
+      "sanskrit_excerpt": "na sma duḥkham ataḥ bhūyaḥ paśyeyam aham aprajā",
+      "transliteration": "na sma duḥkham ataḥ bhūyaḥ paśyeyam aham aprajā",
+      "tamil_explanation": "கௌசல்யையின் உரையில் மகனை இழப்பது மரணத்துக்கு ஒப்பான துயரமாகவும், மகன் இல்லாத வாழ்வு அர்த்தமற்றதாகவும் வெளிப்படுகிறது. இது இச்சர்க்கத்தின் துயரச் சொற்பொழிவு; பின்னர் வந்த விளக்கத்தைச் சேர்க்கவில்லை.",
+      "english_explanation": "Kausalya frames the loss of Rama as unbearable grief and imagines life without her son as empty. This record preserves the emotional theme of the cited speech without importing later interpretation.",
+      "speaker": "Kausalya",
+      "characters": [
+        "Kausalya",
+        "Rama"
+      ],
+      "places": [
+        "Ayodhya"
+      ],
+      "events": [
+        "Kausalya expresses fear of losing Rama",
+        "Kausalya compares separation with death-like suffering"
+      ],
+      "relationships": [
+        "Kausalya–Rama: parental attachment and fear of separation"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-relationship-003",
+      "record_type": "RELATIONSHIP",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "42–47",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 42–47",
+      "sanskrit_excerpt": "parivāreṇa kaikeyyā samā vāpy athavāvarā",
+      "transliteration": "parivāreṇa Kaikeyyā samā vāpy athavāvarā",
+      "tamil_explanation": "கைகேயியின் ஆதிக்கம் அதிகரிக்கும்போது, தானும் தன் மகனும் அரண்மனையில் புறக்கணிக்கப்படுவோம் என கௌசல்யை அஞ்சுகிறார். இது கௌசல்யையின் உரையில் காணப்படும் இணைமனைவி உறவின் அரசியல் அச்சமாகும்.",
+      "english_explanation": "Kausalya fears that Kaikeyi’s household will become dominant and that she and Rama will be marginalized; this is recorded as Kausalya’s perspective in the sarga.",
+      "speaker": "Kausalya",
+      "characters": [
+        "Kausalya",
+        "Rama",
+        "Kaikeyi",
+        "Bharata"
+      ],
+      "places": [
+        "Ayodhya palace"
+      ],
+      "events": [
+        "Kausalya anticipates marginalization",
+        "Kausalya contrasts her position with Kaikeyi’s household"
+      ],
+      "relationships": [
+        "Kausalya–Kaikeyi: co-queens in a contested royal household",
+        "Rama–Bharata: succession conflict as perceived by Kausalya"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "The passage is a character perspective; it does not establish an independent sociological generalization.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-event-005",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "48–55",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 48–55",
+      "sanskrit_excerpt": "duḥkhaṃ saṃvardhitaḥ moghaṃ tvaṃ hi durgatayā mayā",
+      "transliteration": "duḥkhaṃ saṃvardhitaḥ moghaṃ tvaṃ hi durgatayā mayā",
+      "tamil_explanation": "ராமரை வளர்த்த தன் வாழ்வு வீணாகிவிட்டதோ என கௌசல்யை அழுகிறார்; பல உருவகங்களால் மகன் பிரிவை விளக்குகிறார். இச்செயல் அடுத்த சர்க்கங்களின் ஆறுதல் உரைகளுக்கு முன்பட்ட துயர உச்சமாகும்.",
+      "english_explanation": "Kausalya laments that the care invested in raising Rama now seems futile and intensifies her grief through a series of comparisons.",
+      "speaker": "Kausalya",
+      "characters": [
+        "Kausalya",
+        "Rama",
+        "Lakshmana"
+      ],
+      "places": [
+        "Kausalya’s apartments"
+      ],
+      "events": [
+        "Kausalya continues her lament",
+        "Rama and Lakshmana hear the grief"
+      ],
+      "relationships": [
+        "Kausalya–Rama: grief over separation"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-narrative-002",
+      "record_type": "NARRATIVE_SEQUENCE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "1–55",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 1–55",
+      "sanskrit_excerpt": "mātur antaḥ puraṃ śubham",
+      "transliteration": "mātur antaḥ puraṃ śubham",
+      "tamil_explanation": "சர்க்கத்தின் ஒழுங்கு: ராமர் தசரதரிடமிருந்து வெளியேறுகிறார்; அரண்மனை துயர்குரலால் நிரம்புகிறது; லக்ஷ்மணருடன் கௌசல்யையைச் சந்திக்கிறார்; அவள் வழிபாட்டை காண்கிறார்; அபிஷேக எதிர்பார்ப்பு வனவாசச் செய்தியாக மாறுகிறது; கௌசல்யை மயங்கி விழுந்து நீண்ட புலம்பலை வெளிப்படுத்துகிறார்.",
+      "english_explanation": "Sequence: Rama leaves the king, the palace erupts in grief, he goes with Lakshmana to Kausalya, witnesses her worship, reverses her consecration expectation by announcing exile, and hears her prolonged lament after she collapses.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Rama",
+        "Kausalya",
+        "Dasaratha",
+        "Lakshmana",
+        "Kaikeyi",
+        "Sita"
+      ],
+      "places": [
+        "Ayodhya palace",
+        "Kausalya’s apartments",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Departure from the king",
+        "Palace lament",
+        "Visit to Kausalya",
+        "Exile disclosure",
+        "Kausalya’s collapse and lament"
+      ],
+      "relationships": [
+        "Rama–Kausalya",
+        "Rama–Lakshmana",
+        "Rama–Dasaratha",
+        "Kausalya–Kaikeyi"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-theme-002",
+      "record_type": "THEME",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "14–31",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 14–31",
+      "sanskrit_excerpt": "putra hita eṣiṇī",
+      "transliteration": "putra-hita eṣiṇī",
+      "tamil_explanation": "கௌசல்யையின் வழிபாடு, மகனுக்கான நலவாழ்வு வேண்டுதல், ராமரின் வனவாசச் செய்தி ஆகியவை தாய்-மகன் அன்பும் கடமை மோதலும் இணையும் அமைப்பை உருவாக்குகின்றன.",
+      "english_explanation": "Kausalya’s worship for her son and Rama’s disclosure of exile place maternal care and duty-bound departure in direct tension within the same scene.",
+      "speaker": "Narrative voice",
+      "characters": [
+        "Kausalya",
+        "Rama"
+      ],
+      "places": [
+        "Kausalya’s apartments",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Kausalya worships for Rama",
+        "Rama announces departure"
+      ],
+      "relationships": [
+        "Kausalya–Rama: maternal care versus compelled separation"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    },
+    {
+      "candidate_id": "stg-v2-ayodhyakanda-s20-source-001",
+      "record_type": "VERSE_SECTION",
+      "kanda": "Ayodhya Kanda",
+      "sarga_reference": "1–55",
+      "canonical_source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20, verses 1–55",
+      "sanskrit_excerpt": "Valmiki Ramayana, Ayodhya Kanda, Sarga 20",
+      "transliteration": "Valmiki Rāmāyaṇa, Ayodhyā Kāṇḍa, Sarga 20",
+      "tamil_explanation": "அயோத்தியா காண்டம் 20-ஆம் சர்க்கம்: ராமர் கௌசல்யையைச் சந்தித்து வனவாசச் செய்தியை அறிவித்தல்; கௌசல்யையின் மயக்கம் மற்றும் புலம்பல்.",
+      "english_explanation": "A complete source-section index record for Ayodhya Kanda Sarga 20: Rama’s visit to Kausalya, disclosure of exile, her collapse, and lament.",
+      "speaker": "Source index",
+      "characters": [
+        "Rama",
+        "Kausalya",
+        "Lakshmana",
+        "Dasaratha",
+        "Kaikeyi",
+        "Sita"
+      ],
+      "places": [
+        "Ayodhya palace",
+        "Kausalya’s apartments",
+        "Dandaka forest"
+      ],
+      "events": [
+        "Sarga 20 source section captured"
+      ],
+      "relationships": [
+        "Source section links all derived Sarga 20 records"
+      ],
+      "source": [
+        "src-valmiki-ayodhya-s20-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
+      ],
+      "source_type": "PRIMARY_TEXT",
+      "provenance": "Synthesis restricted to the cited Sarga 20 locators; no later narrative is inferred.",
+      "confidence": "high",
+      "tradition_classification": "PRIMARY_TEXT",
+      "variant_tradition": "No variant asserted; critical-edition reconciliation remains pending.",
+      "possible_legacy_overlap": true,
+      "merge_state": "awaiting_v1_4_0_reconciliation",
+      "review_status": "needs_human_tamil_review",
+      "copyright_status": "internal_staging_short_excerpt_only"
+    }
+  ],
+  "source_registry_ids": [
+    "src-gretil-ramayana-kandas-1-7",
+    "src-valmiki-ayodhya-s18-sanskritdocuments",
+    "src-valmiki-ayodhya-s19-sanskritdocuments",
+    "src-valmiki-ayodhya-s20-sanskritdocuments"
+  ],
+  "integrity": {
+    "duplicate_ids_in_verified_master": [],
+    "semantic_duplicate_groups_in_verified_master": [],
+    "cross_artifact_repeated_ids": [
+      "stg-v2-ayodhyakanda-s18-character-001",
+      "stg-v2-ayodhyakanda-s18-character-002",
+      "stg-v2-ayodhyakanda-s18-character-003",
+      "stg-v2-ayodhyakanda-s18-event-001",
+      "stg-v2-ayodhyakanda-s18-event-002",
+      "stg-v2-ayodhyakanda-s18-relationship-001",
+      "stg-v2-ayodhyakanda-s19-character-001",
+      "stg-v2-ayodhyakanda-s19-event-001",
+      "stg-v2-ayodhyakanda-s19-event-002",
+      "stg-v2-ayodhyakanda-s19-event-003",
+      "stg-v2-ayodhyakanda-s19-place-001",
+      "stg-v2-ayodhyakanda-s19-relationship-001"
+    ],
+    "cross_artifact_repeated_id_count": 12
+  }
+}

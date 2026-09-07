@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-08-27T22:07:50.181Z",
+  "policy": "Do not scrape or copy copyrighted media.",
+  "briefs": [
+    {
+      "assetId": "ART-RAMA",
+      "subject": "Rama",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Rama; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Rama; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-SITA",
+      "subject": "Sita",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Sita; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Sita; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-HANUMAN",
+      "subject": "Hanuman",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Hanuman; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Hanuman; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-LAKSHMANA",
+      "subject": "Lakshmana",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Lakshmana; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Lakshmana; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-BHARATA",
+      "subject": "Bharata",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Bharata; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Bharata; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-RAVANA",
+      "subject": "Ravana",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Ravana; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Ravana; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-SHABARI",
+      "subject": "Shabari",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Shabari; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Shabari; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-JATAYU",
+      "subject": "Jatayu",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Jatayu; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Jatayu; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-SUGRIVA",
+      "subject": "Sugriva",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Sugriva; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Sugriva; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-VIBHISHANA",
+      "subject": "Vibhishana",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Vibhishana; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Vibhishana; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-AYODHYA",
+      "subject": "Ayodhya",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Ayodhya; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Ayodhya; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-FOREST",
+      "subject": "Forest",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Forest; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Forest; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-LANKA",
+      "subject": "Lanka",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Lanka; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Lanka; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-RAMA-SETU",
+      "subject": "Rama Setu",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Rama Setu; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Rama Setu; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    },
+    {
+      "assetId": "ART-SEVEN-KANDA-HEROES",
+      "subject": "Seven Kanda heroes",
+      "creator": "PROJECT_ORIGINAL or AI-generated project asset only after owner approval",
+      "composition": "Respectful symbolic composition for Seven Kanda heroes; no copied likeness, serial costume, poster, or third-party image.",
+      "responsiveVariants": {
+        "desktop": "wide editorial crop",
+        "tablet": "balanced crop",
+        "mobile": "focal-safe vertical crop"
+      },
+      "altText": "Original symbolic RamaVerse visual for Seven Kanda heroes; no photographic or historical claim.",
+      "rightsClassification": "MISSING_ASSET_EXTERNAL_GENERATION_REQUIRED",
+      "provenance": "Generation specification only; no asset generated in this run."
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "input_records": 184,
+  "eligible_previous": 103,
+  "held": 9,
+  "baseline": 550,
+  "existing_files": [
+    {
+      "file": "/home/ubuntu/ramaverse/data/staging/physical/ramaverse_canonical_staging_v2.json",
+      "keys": [
+        "dataset_id",
+        "dataset_status",
+        "historical_baseline",
+        "staging_defaults",
+        "sources",
+        "records"
+      ]
+    },
+    {
+      "file": "/home/ubuntu/ramaverse/RAMAVERSE_PROJECT_STATE.json",
+      "keys": [
+        "project",
+        "authoritative_web_source",
+        "authoritative_mobile_source",
+        "historical_canonical_total",
+        "RV_01_staging_count",
+        "RV_02_staging_count",
+        "staging_published",
+        "canonical_dataset_files",
+        "staging_files",
+        "stable_id_registries",
+        "RV_01_continuation",
+        "RV_02_continuation",
+        "source_clusters",
+        "route_count",
+        "latest_batch_ids",
+        "task_output_map",
+        "missing_files",
+        "blockers",
+        "source_freeze",
+        "SHA256",
+        "exact_next_point",
+        "updated_at",
+        "PROJECT_STATE_CONFLICT",
+        "Tamil_editorial_factory_scope",
+        "source_authority_research"
+      ]
+    },
+    {
+      "file": "/home/ubuntu/ramaverse/data/staging/reconciliation_ayodhya_94_113_20260825/v2/RAMAVERSE_ENTITY_ID_CROSSWALK.json",
+      "keys": [
+        "mappings",
+        "approved_mappings",
+        "reason"
+      ]
+    }
+  ],
+  "entity_name_hits": [
+    {
+      "path": "dataset_id",
+      "value": "ramaverse_canonical_staging_v2"
+    },
+    {
+      "path": "historical_baseline.dataset_id",
+      "value": "ramaverse_v1_4_0_historical"
+    },
+    {
+      "path": "staging_defaults.schema_version",
+      "value": "ramaverse-staging-v2.0"
+    },
+    {
+      "path": "sources[0].url",
+      "value": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga18/ayodhyaroman18.htm"
+    },
+    {
+      "path": "sources[1].url",
+      "value": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga19/ayodhyaitrans19.htm"
+    },
+    {
+      "path": "sources[2].source_id",
+      "value": "src-gretil-ramayana-kandas-1-7"
+    },
+    {
+      "path": "sources[2].url",
+      "value": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/ramayana/ram_1-7u.htm"
+    },
+    {
+      "path": "records[0].canonical_source_locator",
+      "value": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18, verses 1–18"
+    },
+    {
+      "path": "records[0].english_explanation",
+      "value": "Rama enters the king’s presence, observes Dasaratha’s extraordinary grief, and asks what has caused the king’s distress."
+    },
+    {
+      "path": "records[0].characters[0]",
+      "value": "Rama"
+    },
+    {
+      "path": "records[0].characters[1]",
+      "value": "Dasaratha"
+    },
+    {
+      "path": "records[0].characters[2]",
+      "value": "Kaikeyi"
+    },
+    {
+      "path": "records[0].events[0]",
+      "value": "Rama sees Dasaratha distressed"
+    },
+    {
+      "path": "records[0].events[1]",
+      "value": "Rama questions Kaikeyi about the king’s condition"
+    },
+    {
+      "path": "records[0].relationships[0]",
+      "value": "Rama–Dasaratha: son and father"
+    },
+    {
+      "path": "records[0].relationships[1]",
+      "value": "Rama–Kaikeyi: son and stepmother"
+    },
+    {
+      "path": "records[0].source[1]",
+      "value": "src-gretil-ramayana-kandas-1-7"
+    },
+    {
+      "path": "records[1].canonical_source_locator",
+      "value": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18, verses 11–18"
+    },
+    {
+      "path": "records[1].english_explanation",
+      "value": "The passage presents Rama’s filial orientation: he treats the father as the visible source of his embodied existence and frames obedience as a serious duty."
+    },
+    {
+      "path": "records[1].characters[0]",
+      "value": "Rama"
+    },
+    {
+      "path": "records[1].characters[1]",
+      "value": "Dasaratha"
+    },
+    {
+      "path": "records[1].events[0]",
+      "value": "Rama asks whether he has caused the king’s grief"
+    },
+    {
+      "path": "records[1].events[1]",
+      "value": "Rama affirms concern for the father’s welfare"
+    },
+    {
+      "path": "records[1].relationships[0]",
+      "value": "Rama–Dasaratha: filial duty and reverence"
+    },
+    {
+      "path": "records[1].provenance",
+      "value": "Derived from Rama’s questions and statements in verses 11–18; interpretive wording is kept separate from the event locator."
+    },
+    {
+      "path": "records[2].english_explanation",
+      "value": "Across these sargas, Rama is characterized as attentive to his father’s distress, composed before Kaikeyi’s harsh declaration, and resolved to obey the king’s promise by entering forest exile."
+    },
+    {
+      "path": "records[2].characters[0]",
+      "value": "Rama"
+    },
+    {
+      "path": "records[2].places[1]",
+      "value": "Dandaka forest"
+    },
+    {
+      "path": "records[2].events[0]",
+      "value": "Rama receives the exile instruction"
+    },
+    {
+      "path": "records[2].events[1]",
+      "value": "Rama prepares to leave the palace"
+    },
+    {
+      "path": "records[2].relationships[0]",
+      "value": "Rama–Dasaratha"
+    },
+    {
+      "path": "records[2].relationships[1]",
+      "value": "Rama–Kaikeyi"
+    },
+    {
+      "path": "records[2].relationships[2]",
+      "value": "Rama–Lakshmana"
+    },
+    {
+      "path": "records[2].provenance",
+      "value": "Character synthesis from the actions and speech attributed to Rama in the cited sargas; no theological identity claim is added."
+    },
+    {
+      "path": "records[3].canonical_source_locator",
+      "value": "Valmiki Ramayana, Ayodhya Kanda, Sarga 18"
+    },
+    {
+      "path": "records[3].english_explanation",
+      "value": "Dasaratha appears unable to speak because of grief over Rama; the sarga connects his distress to the consequences of the boons previously granted to Kaikeyi."
+    },
+    {
+      "path": "records[3].characters[0]",
+      "value": "Dasaratha"
+    },
+    {
+      "path": "records[3].characters[1]",
+      "value": "Rama"
+    },
+    {
+      "path": "records[3].characters[2]",
+      "value": "Kaikeyi"
+    },
+    {
+      "path": "records[3].events[0]",
+      "value": "Dasaratha is unable to address Rama"
+    },
+    {
+      "path": "records[3].events[1]",
+      "value": "Dasaratha’s distress is linked to Kaikeyi’s demands"
+    },
+    {
+      "path": "records[3].relationships[0]",
+      "value": "Dasaratha–Rama: father and son"
+    },
+    {
+      "path": "records[3].relationships[1]",
+      "value": "Dasaratha–Kaikeyi: husband and queen"
+    },
+    {
+      "path": "records[3].provenance",
+      "value": "Based on verses 1–10 and 19–41; the causal connection is limited to what Kaikeyi states in the cited passage."
+    },
+    {
+      "path": "records[4].canonical_source_locator",
+      "value": "Valmiki Ramayana, Ayodhya Kanda, Sargas 18–19"
+    },
+    {
+      "path": "records[4].english_explanation",
+      "value": "Kaikeyi invokes the boons previously granted by Dasaratha and states the demands for Bharata’s consecration and Rama’s forest exile. This record does not generalize beyond the cited narrative."
+    },
+    {
+      "path": "records[4].characters[0]",
+      "value": "Kaikeyi"
+    },
+    {
+      "path": "records[4].characters[1]",
+      "value": "Dasaratha"
+    },
+    {
+      "path": "records[4].characters[2]",
+      "value": "Rama"
+    },
+    {
+      "path": "records[4].characters[3]",
+      "value": "Bharata"
+    }
+  ]
+}

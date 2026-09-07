@@ -1,0 +1,26 @@
+{
+  "tierA": {
+    "groups": [
+      "GROUP-001",
+      "GROUP-002",
+      "GROUP-003",
+      "GROUP-004",
+      "GROUP-005",
+      "GROUP-006"
+    ],
+    "records": 484
+  },
+  "tierB": {
+    "groups": [
+      "GROUP-007"
+    ],
+    "records": 58
+  },
+  "tierC": {
+    "groups": [
+      "GROUP-C-001"
+    ],
+    "records": 1,
+    "reason": "Yuddha source hold excluded from bulk approval."
+  }
+}

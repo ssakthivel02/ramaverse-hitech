@@ -1,0 +1,16 @@
+import { createHash } from "node:crypto";
+import { readFileSync, writeFileSync } from "node:fs";
+import path from "node:path";
+const root = "/home/ubuntu/ramaverse";
+const dir = path.join(root, "data/v1_5_safe_enrichment_candidate");
+const candidate = JSON.parse(readFileSync(path.join(dir, "RAMAVERSE_CANONICAL_V1_5_ENRICHED_CANDIDATE.json"), "utf8"));
+const applied = JSON.parse(readFileSync(path.join(dir, "SAFE_ENRICHMENT_APPLIED.json"), "utf8"));
+const rejected = JSON.parse(readFileSync(path.join(dir, "SAFE_ENRICHMENT_REJECTED.json"), "utf8"));
+const comparison = JSON.parse(readFileSync(path.join(dir, "V1_5_PROJECTION_COMPARISON.json"), "utf8"));
+const records = candidate.records;
+const ids = records.map((record) => record.id);
+const locators = records.map((record) => record.canonical_source_locator);
+const validCandidate = candidate.manifest.baseline_count === 550 && candidate.manifest.final_canonical_count === 550 && candidate.manifest.p0_excluded === 265 && candidate.manifest.staging_leakage === 0 && candidate.manifest.canonical_mutation === 0;
+const report = { generated_at: new Date().toISOString(), base_canonical: 550, patches_input: candidate.manifest.patches_input, patches_applied: applied.applied, patches_rejected: rejected.rejected, final_canonical: records.length, record_ids_changed: candidate.manifest.record_ids_changed, source_locators_changed: candidate.manifest.source_locators_changed, canonical_authority_fields_changed: candidate.manifest.canonical_authority_fields_changed, duplicate_record_ids: ids.length - new Set(ids).size, missing_source_locators: locators.filter((locator) => !locator).length, p0_excluded: candidate.manifest.p0_excluded, staging_leakage: candidate.manifest.staging_leakage, baseline_search: comparison.baseline.search, candidate_search: comparison.candidate.search, baseline_ask: comparison.baseline.ask, candidate_ask: comparison.candidate.ask, baseline_reader: comparison.baseline.reader, candidate_reader: comparison.candidate.reader, projection_deltas: comparison.delta, tests: "PENDING", typecheck: "PENDING", lint: "PENDING", build: "PENDING", candidate_integrity: validCandidate && ids.length === 550 && new Set(ids).size === 550 && locators.every(Boolean), decision: applied.applied === 184 ? "SAFE_ENRICHMENT_CANDIDATE_VALID" : "BLOCKED", blocker: applied.applied === 184 ? null : "The 184 approved patch entries contain candidate field lists but no value payload and their target IDs are not present in the frozen v1.4 550-record baseline; no unsupported values were guessed or grafted." };
+writeFileSync(path.join(root, "release_evidence/RAMAVERSE-WEB-v1.5-SAFE-ENRICHMENT-VALIDATION.json"), JSON.stringify(report, null, 2) + "\n");
+console.log(JSON.stringify(report, null, 2));

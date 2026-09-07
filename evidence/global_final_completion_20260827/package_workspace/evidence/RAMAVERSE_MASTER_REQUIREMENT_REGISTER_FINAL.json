@@ -1,0 +1,1566 @@
+{
+  "version": "GLOBAL-FINAL-v1",
+  "generatedAt": "2026-08-27T23:20:06.502Z",
+  "totalRequirements": 73,
+  "counts": {
+    "COMPLETE": 35,
+    "BLOCKED_SOURCE": 14,
+    "BLOCKED_RIGHTS": 3,
+    "BLOCKED_HUMAN_REVIEW": 10,
+    "BLOCKED_EXTERNAL_ASSET": 11
+  },
+  "requirements": [
+    {
+      "id": "M-001",
+      "feature": "Hero imagery",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Home.tsx",
+        "client/src/index.css"
+      ],
+      "missingWork": "Project-original raster/commissioned hero media is not supplied; CSS atmosphere is present.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-002",
+      "feature": "Rama character art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-003",
+      "feature": "Sita character art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-004",
+      "feature": "Hanuman character art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-005",
+      "feature": "Lakshmana character art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-006",
+      "feature": "Bharata character art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-007",
+      "feature": "Ravana character art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-008",
+      "feature": "Jatayu Shabari Sugriva Vibhishana art",
+      "category": "visual",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Character data exists; rights-cleared art asset is absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-009",
+      "feature": "Seven Kanda visual worlds",
+      "category": "visual",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/components/KandaAtmosphere.tsx",
+        "client/src/index.css"
+      ],
+      "missingWork": "Seven CSS atmosphere identities and original SVG strip are available.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-010",
+      "feature": "Cinematic motion",
+      "category": "motion",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/components/motion/MotionPrimitives.tsx",
+        "client/src/index.css"
+      ],
+      "missingWork": "Reduced-motion-safe CSS motion primitives exist.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-011",
+      "feature": "Rama Setu experience",
+      "category": "story",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx",
+        "client/src/pages/Journey.tsx"
+      ],
+      "missingWork": "Evidence-separated contract exists; dedicated governed data sequence is not complete.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-012",
+      "feature": "Journey map",
+      "category": "story",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Journey.tsx",
+        "client/src/components/Map.tsx"
+      ],
+      "missingWork": "Existing Journey surface is available.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-013",
+      "feature": "Relationship graph",
+      "category": "knowledge",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/KnowledgeGraph.tsx"
+      ],
+      "missingWork": "Provenance graph exists; semantic edges remain zero unless source-proven.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-014",
+      "feature": "Character universe",
+      "category": "knowledge",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Governed character surface exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-015",
+      "feature": "Timeline",
+      "category": "knowledge",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Timeline.tsx"
+      ],
+      "missingWork": "Existing timeline route exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-016",
+      "feature": "Source explorer",
+      "category": "knowledge",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/KnowledgeGraph.tsx"
+      ],
+      "missingWork": "Source IDs and locators are visible.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-017",
+      "feature": "Daily Rama wisdom",
+      "category": "devotion",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx",
+        "client/src/pages/Wisdom.tsx"
+      ],
+      "missingWork": "Deterministic daily canonical record experience exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-018",
+      "feature": "Rama Speaks",
+      "category": "knowledge",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Intelligence.tsx",
+        "client/src/pages/WalkWithRama.tsx"
+      ],
+      "missingWork": "Only records with actual speaker evidence may be promoted; no fabricated quotes.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-019",
+      "feature": "Leadership academy",
+      "category": "learning",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx",
+        "client/src/pages/Guidance.tsx"
+      ],
+      "missingWork": "Modern management interpretation requires separate source/event mapping.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-020",
+      "feature": "Sita Universe",
+      "category": "knowledge",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Dedicated Sita sequence requires a separate governed dataset.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-021",
+      "feature": "Hanuman Universe",
+      "category": "knowledge",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Characters.tsx"
+      ],
+      "missingWork": "Dedicated Hanuman sequence requires tradition-separated governed data.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-022",
+      "feature": "Daily practice",
+      "category": "devotion",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Metadata and safety contract available; rights-sensitive content remains gated.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-023",
+      "feature": "Read aloud",
+      "category": "devotion",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Audio.tsx",
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Existing audio/read-aloud surface and explicit rights boundary exist.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-024",
+      "feature": "Chant follow-along",
+      "category": "devotion",
+      "classification": "BLOCKED_RIGHTS",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Text/audio rights and synchronized materials are not supplied.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-025",
+      "feature": "Lyrics synchronization",
+      "category": "devotion",
+      "classification": "BLOCKED_RIGHTS",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Rights-cleared lyrics and timing data are absent.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-026",
+      "feature": "Favorites and history",
+      "category": "devotion",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Library.tsx"
+      ],
+      "missingWork": "Existing library surface is available.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-027",
+      "feature": "Family Mode",
+      "category": "learning",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Age bands and source-aware activity scaffolding exist.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-028",
+      "feature": "Festival Mode",
+      "category": "devotion",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Tradition metadata is present; regional/editorial review and calendar logic remain.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-029",
+      "feature": "Temples and pilgrimage",
+      "category": "place",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Places.tsx",
+        "client/src/pages/Journey.tsx"
+      ],
+      "missingWork": "Verified modern temple/place dataset and coordinates are not established.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-030",
+      "feature": "Global Ramayana",
+      "category": "tradition",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "client/src/pages/KnowledgeGraph.tsx"
+      ],
+      "missingWork": "Tradition separation and editorial decisions are required before expansion.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-031",
+      "feature": "Shareable source cards",
+      "category": "sharing",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Source-aware copy card preserves record and locator.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-032",
+      "feature": "Explain for children",
+      "category": "ai",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx",
+        "client/src/pages/Intelligence.tsx"
+      ],
+      "missingWork": "Safe scaffolding and local evidence are available.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-033",
+      "feature": "Explain in Tamil",
+      "category": "language",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "client/src/contexts/MultilingualContext.tsx"
+      ],
+      "missingWork": "UI language exists; governed Tamil content requires human review.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-034",
+      "feature": "Character Ask",
+      "category": "ai",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Intelligence.tsx"
+      ],
+      "missingWork": "Must be grounded to character records and source locators.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-035",
+      "feature": "Place Ask",
+      "category": "ai",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Intelligence.tsx"
+      ],
+      "missingWork": "Must be grounded to place records and avoid unsupported coordinates.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-036",
+      "feature": "Journey Ask",
+      "category": "ai",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Intelligence.tsx"
+      ],
+      "missingWork": "Must be grounded to journey evidence.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-037",
+      "feature": "Source comparison",
+      "category": "ai",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/KnowledgeGraph.tsx"
+      ],
+      "missingWork": "Variant/source comparison requires governed crosswalk data.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-038",
+      "feature": "Six-language UI",
+      "category": "language",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/contexts/MultilingualContext.tsx"
+      ],
+      "missingWork": "EN/TA/HI/TE/KN/ML UI routing and dictionaries exist.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-039",
+      "feature": "HI content depth",
+      "category": "language",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "work_escrow_final/LANGUAGE_MATRIX.csv"
+      ],
+      "missingWork": "Content translation state is not equivalent to UI coverage.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-040",
+      "feature": "TE content depth",
+      "category": "language",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "work_escrow_final/LANGUAGE_MATRIX.csv"
+      ],
+      "missingWork": "Content translation state is not equivalent to UI coverage.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-041",
+      "feature": "KN content depth",
+      "category": "language",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "work_escrow_final/LANGUAGE_MATRIX.csv"
+      ],
+      "missingWork": "Content translation state is not equivalent to UI coverage.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-042",
+      "feature": "ML content depth",
+      "category": "language",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "work_escrow_final/LANGUAGE_MATRIX.csv"
+      ],
+      "missingWork": "Content translation state is not equivalent to UI coverage.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-043",
+      "feature": "Transliteration architecture",
+      "category": "language",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "client/src/contexts/MultilingualContext.tsx"
+      ],
+      "missingWork": "Transliteration data and review contract are not complete.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-044",
+      "feature": "Expansion languages BN through TH",
+      "category": "language",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/contexts/MultilingualContext.tsx"
+      ],
+      "missingWork": "Architecture only; no full translations claimed.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-045",
+      "feature": "Offline pack contract",
+      "category": "pwa",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/public/sw.js",
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Version/hash/schema/rollback contract is documented.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-046",
+      "feature": "PWA install and recovery",
+      "category": "pwa",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/public/sw.js"
+      ],
+      "missingWork": "Existing service worker is versioned and recovery-safe.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-047",
+      "feature": "Search",
+      "category": "ai",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Search.tsx"
+      ],
+      "missingWork": "Canonical-local search is available.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-048",
+      "feature": "Ask",
+      "category": "ai",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/AskRamaVerse.tsx"
+      ],
+      "missingWork": "Grounded local fallback is available.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-049",
+      "feature": "Walk with Rama",
+      "category": "devotion",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/WalkWithRama.tsx"
+      ],
+      "missingWork": "Source-grounded reflection experience exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-050",
+      "feature": "Owner Command Center",
+      "category": "operations",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/OwnerCommandCenter.tsx"
+      ],
+      "missingWork": "Private owner dashboard exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-051",
+      "feature": "Knowledge OS",
+      "category": "data",
+      "classification": "COMPLETE",
+      "evidence": [
+        "release_evidence/knowledge_os_20260827/KNOWLEDGE_OS_VALIDATION.json"
+      ],
+      "missingWork": "Normalized governed package exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-052",
+      "feature": "Canonical 550 protection",
+      "category": "governance",
+      "classification": "COMPLETE",
+      "evidence": [
+        "RAMAVERSE_PROJECT_STATE.json"
+      ],
+      "missingWork": "Canonical baseline remains 550.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-053",
+      "feature": "Staging publication guard",
+      "category": "governance",
+      "classification": "COMPLETE",
+      "evidence": [
+        "RAMAVERSE_PROJECT_STATE.json"
+      ],
+      "missingWork": "Staging publication remains zero.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-054",
+      "feature": "Media rights registry",
+      "category": "rights",
+      "classification": "COMPLETE",
+      "evidence": [
+        "release_evidence/visual_assets/RAMAVERSE_MEDIA_RIGHTS_REGISTRY.json"
+      ],
+      "missingWork": "Supplied assets are classified project-original.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-055",
+      "feature": "Audio rights",
+      "category": "rights",
+      "classification": "BLOCKED_RIGHTS",
+      "evidence": [
+        "client/src/pages/Audio.tsx"
+      ],
+      "missingWork": "Production audio rights are not fully evidenced.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-056",
+      "feature": "No fabricated quotations",
+      "category": "safety",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/WalkWithRama.tsx",
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Direct speech is not generated without evidence.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-057",
+      "feature": "No devotional guarantees",
+      "category": "safety",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "No cure/wealth/marriage/supernatural guarantees are made.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-058",
+      "feature": "Reduced motion",
+      "category": "accessibility",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/index.css"
+      ],
+      "missingWork": "Reduced-motion safeguards exist.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-059",
+      "feature": "Keyboard and touch equivalents",
+      "category": "accessibility",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/Kandas.tsx",
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Interactive controls use semantic buttons.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-060",
+      "feature": "Screen-reader semantic fallbacks",
+      "category": "accessibility",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/pages/KnowledgeGraph.tsx",
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Evidence and modes have semantic labels.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-061",
+      "feature": "Responsive phone",
+      "category": "responsive",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/index.css",
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Phone layout validated.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-062",
+      "feature": "Responsive tablet",
+      "category": "responsive",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/index.css"
+      ],
+      "missingWork": "Tablet contract exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-063",
+      "feature": "Responsive desktop",
+      "category": "responsive",
+      "classification": "COMPLETE",
+      "evidence": [
+        "client/src/index.css"
+      ],
+      "missingWork": "Desktop contract exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-064",
+      "feature": "Hero art rights",
+      "category": "rights",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "release_evidence/visual_assets/RAMAVERSE_MEDIA_RIGHTS_REGISTRY.json"
+      ],
+      "missingWork": "No approved raster hero asset.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-065",
+      "feature": "Character art rights",
+      "category": "rights",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "release_evidence/visual_assets/RAMAVERSE_MEDIA_RIGHTS_REGISTRY.json"
+      ],
+      "missingWork": "No approved raster character assets.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-066",
+      "feature": "Place art rights",
+      "category": "rights",
+      "classification": "BLOCKED_EXTERNAL_ASSET",
+      "evidence": [
+        "release_evidence/visual_assets/RAMAVERSE_MEDIA_RIGHTS_REGISTRY.json"
+      ],
+      "missingWork": "No approved raster place assets.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-067",
+      "feature": "Festival calendar logic",
+      "category": "data",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/ExperienceCenter.tsx"
+      ],
+      "missingWork": "Validated regional calendar logic is not supplied.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-068",
+      "feature": "Temple coordinates",
+      "category": "data",
+      "classification": "BLOCKED_SOURCE",
+      "evidence": [
+        "client/src/pages/Places.tsx"
+      ],
+      "missingWork": "Unsupported coordinates are intentionally withheld.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-069",
+      "feature": "Physical Mobile QA",
+      "category": "release",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "work_escrow_final/V1_5_PHYSICAL_DEVICE_QA_MATRIX.md"
+      ],
+      "missingWork": "Read-only evidence exists; device execution is required.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-070",
+      "feature": "Play release",
+      "category": "release",
+      "classification": "BLOCKED_HUMAN_REVIEW",
+      "evidence": [
+        "work_escrow_final/V1_5_PHYSICAL_DEVICE_QA_MATRIX.md"
+      ],
+      "missingWork": "No upload or submission was performed.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-071",
+      "feature": "AI provider neutrality",
+      "category": "ai",
+      "classification": "COMPLETE",
+      "evidence": [
+        "server/_core/llm.ts",
+        "client/src/pages/AskRamaVerse.tsx"
+      ],
+      "missingWork": "Provider-neutral local fallback exists.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-072",
+      "feature": "Privacy boundary",
+      "category": "security",
+      "classification": "COMPLETE",
+      "evidence": [
+        "server/_core/index.ts",
+        "release_evidence/global_hardening_20260827/RELEASE_STATE.json"
+      ],
+      "missingWork": "No external user-content transmission without configuration.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    },
+    {
+      "id": "M-073",
+      "feature": "Security headers",
+      "category": "security",
+      "classification": "COMPLETE",
+      "evidence": [
+        "server/_core/index.ts"
+      ],
+      "missingWork": "Operational headers and index boundaries exist.",
+      "canonicalBaseline": 550,
+      "stagingPublished": 0,
+      "productionDeployment": "NOT_PERFORMED",
+      "mobileMutation": false,
+      "allowedStates": [
+        "COMPLETE",
+        "BLOCKED_SOURCE",
+        "BLOCKED_RIGHTS",
+        "BLOCKED_HUMAN_REVIEW",
+        "BLOCKED_EXTERNAL_ASSET"
+      ]
+    }
+  ],
+  "policy": "No vague PARTIAL states; unresolved items remain explicitly blocked."
+}

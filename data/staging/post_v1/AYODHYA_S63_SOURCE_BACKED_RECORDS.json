@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s63-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 63,
+    "verse_locator": "2.63.1-2.63.63",
+    "source_id": "src-valmiki-ayodhya-s63-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 63, verses 1-63",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Dasaratha recounts to Kausalya the tragic story of his past shabda-vedhi sin—accidentally killing the ascetic hermit boy.",
+    "tamil_draft": "தசரதர் கௌசல்யாவிடம் தான் இளமையில் செய்த சப்தவேதி பாபக் கதையையும், முனிவர்குமாரனின் மரணத்தையும் விளக்கி உரைக்கிறார்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s63-event-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 63,
+    "verse_locator": "2.63.11-2.63.25",
+    "source_id": "src-valmiki-ayodhya-s63-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 63, verses 11-25",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Dasaratha hunting by sound (shabda-vedhi) and accidentally striking the hermit boy drawing water.",
+    "tamil_draft": "தசரதர் சப்தவேதி பாணத்தால் முனிவர்குமாரனை வீழ்த்திய சம்பவம்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

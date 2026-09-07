@@ -1,0 +1,24 @@
+{
+  "filename": "RAMAVERSE-OWNER-COMMAND-CENTER-RC.zip",
+  "integrity": "PASS",
+  "entries": [
+    "client/",
+    "client/src/",
+    "client/src/pages/",
+    "client/src/pages/OwnerCommandCenter.tsx",
+    "client/src/pages/OwnerCommandCenter.test.tsx",
+    "client/src/lib/",
+    "client/src/lib/ownerCommandCenterData.ts",
+    "client/src/App.tsx",
+    "client/src/index.css",
+    "release_evidence/",
+    "release_evidence/owner_command_center_20260827/",
+    "release_evidence/owner_command_center_20260827/OWNER_COMMAND_CENTER_VALIDATION.json",
+    "release_evidence/owner_command_center_20260827/OWNER_COMMAND_CENTER_VISUAL_QA.md",
+    "RAMAVERSE_PROJECT_STATE.json",
+    "SHA256SUMS.txt"
+  ],
+  "entryCount": 15,
+  "bytes": 20155,
+  "sha256": "c4e5c3d5130ea3b0f4f8207f1c85e2865759bd98ed1a08f38fec13079917588f"
+}

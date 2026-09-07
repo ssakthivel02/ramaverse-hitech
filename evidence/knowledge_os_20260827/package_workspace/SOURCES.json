@@ -1,0 +1,128 @@
+[
+  {
+    "id": "SRC-VALMIKI-01",
+    "title": "SRC-VALMIKI-01",
+    "language": "en",
+    "sourceIds": [
+      "SRC-VALMIKI-01"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "3267add295ebcb0240cd3e03b323605096208f818016a1c04cf71b9a5abc0625",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "SRC-VALMIKI-01"
+  },
+  {
+    "id": "VALMIKI_RAMAYANA_ARANYA_KANDA",
+    "title": "VALMIKI_RAMAYANA_ARANYA_KANDA",
+    "language": "en",
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_ARANYA_KANDA"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "6154d14fbed1f1395bdb4cb4fccaadd977e5c050853a134e440388995c7fe2f8",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "VALMIKI_RAMAYANA_ARANYA_KANDA"
+  },
+  {
+    "id": "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+    "title": "VALMIKI_RAMAYANA_AYODHYA_KANDA",
+    "language": "en",
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "2f2b5e9d92cff82b6b6e72486e6aea23d8e1922398b41ec9bb7d5f660ed83997",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+  },
+  {
+    "id": "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+    "title": "VALMIKI_RAMAYANA_KISHKINDHA_KANDA",
+    "language": "en",
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_KISHKINDHA_KANDA"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "dceab7485260f3dcb939e67ffda5ec81e4a77ce993ff15acbf290555223f33e2",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "VALMIKI_RAMAYANA_KISHKINDHA_KANDA"
+  },
+  {
+    "id": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+    "title": "VALMIKI_RAMAYANA_SUNDARA_KANDA",
+    "language": "en",
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_SUNDARA_KANDA"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "465b1d2a3db50ecfa5c1b1633b5dea4f6a7c9d151b59fa2fd2ff495b7f45fb07",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "VALMIKI_RAMAYANA_SUNDARA_KANDA"
+  },
+  {
+    "id": "VALMIKI_RAMAYANA_UTTARA_KANDA",
+    "title": "VALMIKI_RAMAYANA_UTTARA_KANDA",
+    "language": "en",
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_UTTARA_KANDA"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "cf939f2a709e855ead66880ee5ccbf94a61d01109dc72a8ee7c0748aac42b318",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "VALMIKI_RAMAYANA_UTTARA_KANDA"
+  },
+  {
+    "id": "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+    "title": "VALMIKI_RAMAYANA_YUDDHA_KANDA",
+    "language": "en",
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_YUDDHA_KANDA"
+    ],
+    "sourceLocator": "SOURCE_REGISTRY_REQUIRED",
+    "authorityClass": "SOURCE",
+    "tradition": "PRIMARY_TEXT",
+    "confidence": "REVIEW_REQUIRED",
+    "reviewStatus": "REVIEW_REQUIRED",
+    "publicationStatus": "NON_CONTENT_REGISTRY",
+    "contentHash": "831d1abc9a46c4889a916e9b9ea658a7938aa01239df1b339e69836035cb906e",
+    "relatedIds": [],
+    "recordType": "SOURCE",
+    "searchText": "VALMIKI_RAMAYANA_YUDDHA_KANDA"
+  }
+]

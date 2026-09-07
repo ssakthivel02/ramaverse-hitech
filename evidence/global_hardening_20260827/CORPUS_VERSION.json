@@ -1,0 +1,10 @@
+{
+  "activeVersion": "v1.4.0",
+  "canonicalBaseline": 550,
+  "separateApprovedCandidateRecords": 1092,
+  "stagingPublished": 0,
+  "heldLeakage": 0,
+  "variantLeakage": 0,
+  "quarantineLeakage": 0,
+  "sourceEvidenceOnlyLeakage": 0
+}

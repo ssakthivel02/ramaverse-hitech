@@ -1,0 +1,2634 @@
+{
+  "generatedAt": "2026-08-26T15:55:56.067Z",
+  "records": [
+    {
+      "physicalOccurrence": 1,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 1–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 2,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 1–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 3,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 1–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 4,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 19–27"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 5,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 19–27"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 6,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 28–43"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 7,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-dharma-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 40–43"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 8,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 21, verses 44–63"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 9,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s21-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s21-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga21/ayodhyaroman21.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 10,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 11,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 1–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 12,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 1–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 13,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 3–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 14,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 12–20"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 15,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 12–20"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 16,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-dharma-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 8–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 17,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 15–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 18,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 22, verses 25–30"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 19,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s22-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s22-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga22/ayodhyaroman22.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 20,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 21,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 1–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 22,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 4–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 23,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 1–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 24,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 11–20"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 25,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 15–20"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 26,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 15–20"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 27,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 21–40"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 28,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 21–40"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 29,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verses 29–40"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 30,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verse 41"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 31,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-dharma-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 23, verse 41"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 32,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s23-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s23-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga23/ayodhyaitrans23.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 33,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 34,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 35,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 36,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 37,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 10–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 38,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 10–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 39,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 12–13"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 40,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 18–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 41,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 19–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 42,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-dharma-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 23–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 43,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 25–30"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 44,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 25–30"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 45,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 31–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 46,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 24, verses 31–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 47,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s24-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s24-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga24/ayodhyaroman24.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 48,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 49,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 1–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 50,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 2–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 51,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-devotional-context-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 1–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 52,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 7–16"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 53,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-devotional-context-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 7–16"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 54,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 17–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 55,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 26–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 56,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 26–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 57,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 32–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 58,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-verse-section-006",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 39–47"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 59,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 39–45"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 60,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 25, verses 46–47"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 61,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s25-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s25-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga25/ayodhyaitrans25.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 62,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 63,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 1–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 64,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 1–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 65,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 7–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 66,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 8–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 67,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 7–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 68,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 19–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 69,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 19–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 70,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-event-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 19–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 71,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 24–28"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 72,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 24–28"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 73,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 29–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 74,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 26, verses 31–33"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 75,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s26-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s26-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga26/ayodhyaitrans26.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 76,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 77,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 78,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 79,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 80,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 10–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 81,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 10–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 82,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 16–20"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 83,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 21–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 84,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 1–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 85,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "StotraNidhi, Ayodhya Kanda, Sarga 27, verses 1–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 86,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s27-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s27-stotranidhi",
+        "sourceLocator": "https://stotranidhi.com/en/ayodhya-kanda-sarga-27-in-english/"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 87,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 88,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 1–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 89,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 2–6"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 90,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 7–12"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 91,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 13–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 92,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-historical-context-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 13–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 93,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 18–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 94,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 24–26"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 95,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 1–26"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 96,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 28, verses 1–26"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 97,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s28-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s28-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga28/ayodhyaroman28.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 98,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 1–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 99,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 1–5"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 100,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 6–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 101,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 12–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 102,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 19–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 103,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 1–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 104,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 2–5"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 105,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 8–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 106,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 19–21"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 107,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 1–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 108,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verse 7"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 109,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-historical-norm-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 29, verses 16–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 110,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s29-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s29-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga29/ayodhyaroman29.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 111,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 1–47"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 112,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 1–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 113,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 1–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 114,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 11–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 115,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 11–18"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 116,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 19–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 117,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 19–21"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 118,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 1–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 119,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-character-reference-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verse 1"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 120,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 26–32"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 121,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 26–32"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 122,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 30–37"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 123,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 30–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 124,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 33–42"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 125,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 26–47"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 126,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 39–42"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 127,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-verse-section-006",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 30, verses 43–47"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 128,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s30-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s30-stotranidhi",
+        "sourceLocator": "https://stotranidhi.com/en/ayodhya-kanda-sarga-30-in-english/"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 129,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 1–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 130,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 1–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 131,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 3–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 132,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 1–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 133,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 3–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 134,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 9–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 135,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 9–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 136,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 15–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 137,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 18–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 138,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 18–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 139,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-journey-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 23–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 140,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 26–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 141,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-object-reference-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 27–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 142,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 31, verses 32–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 143,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s31-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s31-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga31/ayodhyaroman31.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 144,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 1–45"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 145,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 1–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 146,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 7–10"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 147,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 1–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 148,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 1–11"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 149,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 12–23"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 150,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 12–22"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 151,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 13–22"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 152,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 12–28"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 153,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 24–28"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 154,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 1–28"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 155,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 29–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 156,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 30–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 157,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-character-reference-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 29–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 158,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-event-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 29–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 159,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 34–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 160,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 36–40"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 161,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-dialogue-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 36–42"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 162,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-event-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 36–43"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 163,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-place-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 38–39"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 164,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-verse-section-006",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 32, verses 41–45"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 165,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s32-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s32-stotranidhi",
+        "sourceLocator": "https://stotranidhi.com/en/ayodhya-kanda-sarga-32-in-english/"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 166,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 1–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 167,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 1–2"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 168,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 1–2"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 169,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 3–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 170,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 5–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 171,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 10–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 172,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 10–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 173,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 10–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 174,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 16–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 175,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 16–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 176,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 3–26"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 177,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-journey-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 1–4"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 178,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-place-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 3–4"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 179,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 26–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 180,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verse 31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 181,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-event-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 26–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 182,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 33, verses 28–31"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 183,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s33-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s33-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga33/ayodhyaroman33.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 184,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 1–61"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 185,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 1–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 186,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 6–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 187,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 1–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 188,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 9–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 189,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 10–14"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 190,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 10–13"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 191,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 9–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 192,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 16–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 193,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-event-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 16–21"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 194,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 22–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 195,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-event-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 22–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 196,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 25–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 197,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 25–38"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 198,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-verse-section-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 39–49"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 199,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-dialogue-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 39–59"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 200,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-dharma-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verse 52"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 201,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 25–59"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 202,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-verse-section-006",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 50–61"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 203,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-event-005",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "SanskritDocuments, Ayodhya Kanda, Sarga 34, verses 50–61"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 204,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s34-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s34-sanskritdocuments",
+        "sourceLocator": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga34/ayodhyaroman34.htm"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 205,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 1–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 206,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 1–4"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 207,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 1–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 208,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 1–4"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 209,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 5–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 210,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 5–15"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 211,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 16–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 212,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 16–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 213,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 16–24"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 214,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 25–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 215,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 25–34"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 216,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-relationship-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 1–34"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 217,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verses 1–35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 218,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-event-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 35, verse 35"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 219,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s35-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s35-stotranidhi",
+        "sourceLocator": "https://stotranidhi.com/en/ayodhya-kanda-sarga-35-in-english/"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 220,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 1–33"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 221,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 222,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 223,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-event-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 1–9"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 224,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-verse-section-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 10–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 225,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-dialogue-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 10–16"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 226,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-event-002",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 10–17"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 227,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-verse-section-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 18–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 228,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-dialogue-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 18–30"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 229,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-event-003",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 18–25"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 230,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-character-reference-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 18–30"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 231,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-historical-norm-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 18–29"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 232,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-verse-section-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 26–33"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 233,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-dialogue-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 26–30"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 234,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-theme-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 1–33"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 235,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-event-004",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "Stotra Nidhi, Ayodhya Kanda, Sarga 36, verses 31–33"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 236,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s36-source-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s36-stotranidhi",
+        "sourceLocator": "https://stotranidhi.com/en/ayodhya-kanda-sarga-36-in-english/"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 237,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s37-sarga-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s37-ramayanainfo",
+        "sourceLocator": "Ramayana.info, Ayodhya Kanda, Sarga 37, verses 1–37"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 238,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s37-verse-section-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s37-ramayanainfo",
+        "sourceLocator": "Ramayana.info, Ayodhya Kanda, Sarga 37, verses 1–8"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    },
+    {
+      "physicalOccurrence": 239,
+      "recoveredGovernedId": "stg-postv1-ayodhyakanda-s37-dialogue-001",
+      "evidenceType": "RECOVERED_FROM_PROJECTION",
+      "sourceEvidence": {
+        "sourceId": "src-valmiki-ayodhya-s37-ramayanainfo",
+        "sourceLocator": "Ramayana.info, Ayodhya Kanda, Sarga 37, verses 1–5"
+      },
+      "confidence": "HIGH",
+      "recoveryRationale": "Exact governed-ID or exact raw-record evidence only"
+    }
+  ]
+}

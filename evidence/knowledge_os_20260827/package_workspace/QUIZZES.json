@@ -1,0 +1,6 @@
+{
+  "domain": "QUIZ",
+  "records": [],
+  "status": "MISSING_OR_NOT_PHYSICALLY_GOVERNED",
+  "reason": "Only staging quiz outputs were found and were excluded."
+}

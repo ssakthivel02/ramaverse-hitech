@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-08-27T16:13:21.866Z",
+  "name": "RAMAVERSE-WALK-WITH-RAMA-HITECH-RC",
+  "productionDeployment": false,
+  "mobileModified": false,
+  "canonicalBaseline": 550,
+  "stagingPublished": 0,
+  "sourceFiles": [
+    "client/src/pages/WalkWithRama.tsx",
+    "client/src/pages/WalkWithRama.test.tsx",
+    "client/src/pages/Home.tsx",
+    "client/src/App.tsx",
+    "client/src/index.css",
+    "shared/walkWithRamaTokens.ts",
+    "client/src/lib/knowledgeUniverse.ts",
+    "client/src/contexts/MultilingualContext.tsx",
+    "client/src/components/RamaNavbar.tsx",
+    "client/src/components/RamaFooter.tsx",
+    "client/src/components/motion/MotionPrimitives.tsx",
+    "release_evidence/walk_with_rama_20260827/WALK_WITH_RAMA_VISUAL_QA.md",
+    "RAMAVERSE_PROJECT_STATE.json"
+  ],
+  "exclusions": [
+    "node_modules",
+    "dist",
+    "credentials",
+    "tokens",
+    ".env",
+    "production deployment"
+  ],
+  "safety": {
+    "reflectionLabel": "Source-grounded reflection inspired by Rama’s words and actions in the Ramayana.",
+    "literalSpeakingClaim": false,
+    "guaranteedOutcomeClaims": false,
+    "stagingIdentifiersFiltered": true,
+    "audioDefault": "off"
+  }
+}

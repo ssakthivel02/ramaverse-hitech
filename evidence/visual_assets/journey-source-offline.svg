@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">RamaVerse journey and evidence motifs</title>
+  <desc id="desc">Original line motifs for a journey path, source evidence, and offline recovery state.</desc>
+  <rect width="960" height="240" fill="#070b14"/>
+  <g fill="none" stroke="#d7b45a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 132c54-76 116 76 170 0s116-76 170 0" stroke="#7fb9a2"/>
+    <circle cx="80" cy="132" r="9" fill="#f4d98b"/><circle cx="250" cy="132" r="9" fill="#e77d3a"/><circle cx="420" cy="132" r="9" fill="#4a72c5"/>
+    <path d="M540 72h120v116H540zM562 102h76M562 128h76M562 154h48"/>
+    <path d="M700 72c25 0 45 20 45 45 0 32-45 58-45 58s-45-26-45-58c0-25 20-45 45-45z" stroke="#7db2dd"/><circle cx="700" cy="117" r="14"/>
+    <path d="M820 102a42 42 0 1 1-9 63M820 102v30M820 102h-30" stroke="#eed387"/>
+  </g>
+  <g fill="#d7b45a" font-family="sans-serif" font-size="14" text-anchor="middle" letter-spacing="2">
+    <text x="250" y="215">JOURNEY PATH</text><text x="600" y="215">SOURCE RECORD</text><text x="700" y="232">PLACE CONTEXT</text><text x="840" y="215">OFFLINE READY</text>
+  </g>
+</svg>

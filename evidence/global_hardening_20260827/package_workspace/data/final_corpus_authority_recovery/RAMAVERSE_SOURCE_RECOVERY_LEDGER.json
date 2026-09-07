@@ -1,0 +1,845 @@
+{
+  "generated_at": "2026-08-26T10:08:06.533Z",
+  "cases": [
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s18-event-001",
+      "record_id": "stg-v2-ayodhyakanda-s18-event-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 18,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s18",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 18,
+          "verse_range": "2.18.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 18 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "ec1a68d30f6d545f58fe777524735d9c8288307f1bd2afc616e7587df804a520"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s18-event-002",
+      "record_id": "stg-v2-ayodhyakanda-s18-event-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 18,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s18",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 18,
+          "verse_range": "2.18.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 18 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "4c691f11a4a778fb6303891d2f868642b9ffc1f95b1ceac6862eaf0134820017"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s19-event-001",
+      "record_id": "stg-v2-ayodhyakanda-s19-event-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 19,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s19",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 19,
+          "verse_range": "2.19.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 19 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "fb99f46d251408bac6b8ecdeb7c266d19c2fab303e2e44ab319312cf707b2657"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s19-event-002",
+      "record_id": "stg-v2-ayodhyakanda-s19-event-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 19,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s19",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 19,
+          "verse_range": "2.19.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 19 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "028e4ed2f98f84c7cf18f100e88a5a259b0e0c97da0ade8fed5648e8e354f4d3"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s19-event-003",
+      "record_id": "stg-v2-ayodhyakanda-s19-event-003",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 19,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s19",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 19,
+          "verse_range": "2.19.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 19 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "f9c56ece52214073e159093aad7878c05f6aaff5ec930cdac8310f7a00975ec3"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-event-001",
+      "record_id": "stg-v2-ayodhyakanda-s20-event-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "42f969790df90cf03dedf8cc730f1457e7def25e82ade67787bdfbb32625ef8c"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-event-002",
+      "record_id": "stg-v2-ayodhyakanda-s20-event-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "c092b1c9afbe9daf30a41a4f3a10190c00d49b8f1bba01a3a4a2fdca78bcdb7e"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-event-003",
+      "record_id": "stg-v2-ayodhyakanda-s20-event-003",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "920908d729bae2e45d8d79568d85d6530e62f7da69719f43fb52269cde448fa3"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-event-004",
+      "record_id": "stg-v2-ayodhyakanda-s20-event-004",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "b9796d80edc1240fdcffb4bab3626d76386f24a6669bb4866fdc563904716ed5"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-event-005",
+      "record_id": "stg-v2-ayodhyakanda-s20-event-005",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "323b68df1f6605c5c79ae4c4ce231f7791b550c183932e154b5c4de942a4528d"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-narrative-001",
+      "record_id": "stg-v2-ayodhyakanda-s20-narrative-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "454cf9b9317026d3942f34632ba87bd15da934f777f65777143c0136632ed156"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-narrative-002",
+      "record_id": "stg-v2-ayodhyakanda-s20-narrative-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "49d715607b27bd57e5ade1a90ac8021802597faad46e45cc4ae8b74688aefd3f"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s18-character-001",
+      "record_id": "stg-v2-ayodhyakanda-s18-character-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 18,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s18",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 18,
+          "verse_range": "2.18.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 18 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "8869ded115f8a2b2344d37099064a1b7b17c8530388a52658bb2b4e63d6f4b3d"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s18-character-002",
+      "record_id": "stg-v2-ayodhyakanda-s18-character-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 18,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s18",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 18,
+          "verse_range": "2.18.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 18 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "2be6058a6998222373a566335cb692b291ef1671b04c13f8f1928016b6b05233"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s18-character-003",
+      "record_id": "stg-v2-ayodhyakanda-s18-character-003",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 18,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s18",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 18,
+          "verse_range": "2.18.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 18 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "9b2d55239312bda958278c4aa62715dfc4b0c90e6c9221532b8f92d7cecc9303"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s18-relationship-001",
+      "record_id": "stg-v2-ayodhyakanda-s18-relationship-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 18,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s18",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 18,
+          "verse_range": "2.18.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 18 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "187b7a4c269c2cd1b6647a8bddd9bf5ba3c1b7c16425c684219b6a478d74c087"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s19-character-001",
+      "record_id": "stg-v2-ayodhyakanda-s19-character-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 19,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s19",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 19,
+          "verse_range": "2.19.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 19 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "b457c4c0dc7649ee5872f756b3d834b8170ddf4e599c2175477062266691d9b6"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s19-relationship-001",
+      "record_id": "stg-v2-ayodhyakanda-s19-relationship-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 19,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s19",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 19,
+          "verse_range": "2.19.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 19 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "07e53eac7457a436d37eecfe993ab81c49aa584df6fecef1340c5e2ff52a34b5"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-character-004",
+      "record_id": "stg-v2-ayodhyakanda-s20-character-004",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "684605a0193b30bf757de7f8ecd7467e0b53b6109c8d5a2ac24b688a12be3811"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-character-005",
+      "record_id": "stg-v2-ayodhyakanda-s20-character-005",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "5aef0beebb96189012f42742bcd705799fcd30989e81b5c88394784f2f268000"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-relationship-002",
+      "record_id": "stg-v2-ayodhyakanda-s20-relationship-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "3a2c5972d8aad1b208b224fd7c836000887474fea5f65026a57b3a68f232fe61"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-relationship-003",
+      "record_id": "stg-v2-ayodhyakanda-s20-relationship-003",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "d5018ba7bfa8f79b5f333ff522494f8478e798351dc80e12075deeb3f58e92da"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s19-place-001",
+      "record_id": "stg-v2-ayodhyakanda-s19-place-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 19,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s19",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 19,
+          "verse_range": "2.19.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 19 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "a2990584fcf5aeee56345ec74dc5f31940e5a3b4c42ba555e034ab59704dfb5b"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-place-002",
+      "record_id": "stg-v2-ayodhyakanda-s20-place-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "2e90ab25e2fecf5f1eb7b6ab3241f00b8182d624f5fe4607b2be4c45216c15e4"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-object-001",
+      "record_id": "stg-v2-ayodhyakanda-s20-object-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "14783afe0d714eea78a5db6a9743093e2bcc2f972ef7d238b3eac9276ecde24f"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-source-001",
+      "record_id": "stg-v2-ayodhyakanda-s20-source-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "b04d858f0baa526bfd711a4f0c700d8f3bff0ad752d3db6976fb3a37f8163be3"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-theme-001",
+      "record_id": "stg-v2-ayodhyakanda-s20-theme-001",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "0a64a76d14178fbcde573d5df2bdc462dd1a62fe144363e850ad164e08f26f5b"
+    },
+    {
+      "recovery_id": "REC-stg-v2-ayodhyakanda-s20-theme-002",
+      "record_id": "stg-v2-ayodhyakanda-s20-theme-002",
+      "record_type": "UNKNOWN",
+      "kanda": "Ayodhya Kanda",
+      "sarga": 20,
+      "claimed_locator": null,
+      "claimed_source": [],
+      "missing_evidence": [
+        "source_id",
+        "record-level locator"
+      ],
+      "classification": "PARTIAL_EVIDENCE",
+      "recovered_sources": [
+        {
+          "source_id": "web-sanskritdocuments-ayodhya-kanda-s20",
+          "source_work": "Valmiki Ramayana",
+          "edition_tradition": "Digital transliteration/English gloss; section-level corroboration only",
+          "kanda": "Ayodhya Kanda",
+          "sarga": 20,
+          "verse_range": "2.20.1 onward",
+          "source_locator": "Ayodhya Kanda Sarga 20 — section-level evidence; record-level mapping unavailable",
+          "physical_reference": "SOURCE_RECOVERY_WEB_EVIDENCE_2026-08-26.md",
+          "retrieval_date": "2026-08-26",
+          "confidence": "LOW",
+          "evidence_notes": "Section identity corroborated; local record-specific source ID and exact locator remain missing."
+        }
+      ],
+      "evidence_hash": "f9f8a34c6b6ea6ff88ce06a4372f255c244780c42e912d40df81ecbf41d19799"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s55-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 55,
+    "verse_locator": "2.55.1-2.55.35",
+    "source_id": "src-valmiki-ayodhya-s55-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 55, verses 1-35",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Rama, Sita, and Lakshmana cross the Yamuna river on a raft constructed by themselves and proceed towards Chitrakuta.",
+    "tamil_draft": "இராமன், சீதை மற்றும் இலக்குவனன் தாங்களே உருவாக்கிய தெப்பத்தின் மூலம் யமுனை நதியைத் தாண்டி சித்திரகூடம் நோக்கிச் செல்கின்றனர்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

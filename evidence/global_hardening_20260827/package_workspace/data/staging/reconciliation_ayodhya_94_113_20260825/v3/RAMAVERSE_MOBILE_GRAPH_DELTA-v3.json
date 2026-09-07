@@ -1,0 +1,6 @@
+{
+  "edges": [],
+  "delta": 0,
+  "reason": "All 34 relationships remain ENTITY_HOLD because no governed stable endpoint IDs are physically available.",
+  "held_leakage": 0
+}

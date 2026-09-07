@@ -1,0 +1,6 @@
+{
+  "domain": "TIMELINE_EVENT",
+  "records": [],
+  "status": "MISSING_OR_NOT_PHYSICALLY_GOVERNED",
+  "reason": "No separate non-staging governed timeline dataset was physically available."
+}

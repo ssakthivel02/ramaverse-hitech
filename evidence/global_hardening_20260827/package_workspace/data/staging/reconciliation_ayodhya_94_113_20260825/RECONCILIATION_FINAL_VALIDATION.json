@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "total_physical_input": 184,
+  "accounted": 184,
+  "counts": {
+    "TECHNICAL_BLOCK": 72,
+    "SAFE_NEW_CANONICAL_CANDIDATE": 103,
+    "VARIANT_REVIEW_REQUIRED": 9
+  },
+  "archive_a": {
+    "sha256": "ddc29933f3b29df8112396d7a63d4c54a6c4004f0da49c4c735f401fbe000c18",
+    "expected": "ddc29933f3b29df8112396d7a63d4c54a6c4004f0da49c4c735f401fbe000c18",
+    "integrity": true,
+    "records": 72
+  },
+  "archive_b": {
+    "sha256": "6e751670b1acdf85cc1d7eac233ee0d6953a9504ab82fde06295727559f5c89f",
+    "expected": "6e751670b1acdf85cc1d7eac233ee0d6953a9504ab82fde06295727559f5c89f",
+    "integrity": true,
+    "records": 112
+  },
+  "safe_new": 103,
+  "held": 81,
+  "search_delta": 103,
+  "ask_delta": 70,
+  "reader_delta": 103,
+  "graph_delta": 44,
+  "tamil_drafts": 184,
+  "tamil_human_reviewed": 0,
+  "canonical_modified": 0,
+  "staging_published": 0,
+  "next_exact_source": "Ayodhya Kanda Sarga 114 / 2.114.1 onward",
+  "promotion": {
+    "zip": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE.zip",
+    "sha256": "b152148a1b2d283bee70cf1a756083088c58884c0c9ffb452abdd2cb62f537a7",
+    "entries": 12,
+    "integrity": true,
+    "approved_standalone_relationship_records": 0
+  },
+  "editorial_hold": {
+    "zip": "RAMAVERSE-AYODHYA-94-113-EDITORIAL-HOLD.zip",
+    "sha256": "2c5a80f6443fc4acb31d9d8afed4d49b41c86b12c584eafe717fc97ec016c974",
+    "entries": 11,
+    "integrity": true
+  },
+  "master_wrapper": {
+    "note": "The required physical deliverables are the separately verified promotion and editorial-hold archives; any wrapper archive is supplemental only."
+  }
+}

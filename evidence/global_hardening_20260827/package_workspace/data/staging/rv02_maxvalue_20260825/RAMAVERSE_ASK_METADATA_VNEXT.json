@@ -1,0 +1,724 @@
+{
+  "documents": [
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+      "intents": [
+        "What happened?",
+        "Who?",
+        "Where?",
+        "Why?",
+        "Dharma",
+        "Source lookup"
+      ],
+      "answer_basis": "Use only this source-acquired staging record; do not present it as canonical until reconciliation.",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "publication_state": "UNPUBLISHED_STAGING"
+    }
+  ]
+}

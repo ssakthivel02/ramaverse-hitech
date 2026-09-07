@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s65-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 65,
+    "verse_locator": "2.65.1-2.65.34",
+    "source_id": "src-valmiki-ayodhya-s65-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 65, verses 1-34",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "At dawn, palace attendants discover King Dasaratha's passing; Kausalya, Sumitra, and the queens weep bitterly, plunging Ayodhya into grief.",
+    "tamil_draft": "விடிந்ததும் பணியாளர்கள் தசரதரின் மறைவைக் கண்டு கதறுகின்றனர்; கௌசல்யாவும் சுமத்திரையும் மற்றும் அரசியரும் துயருறுகின்றனர்.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s65-event-001",
+    "record_type": "EVENT",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 65,
+    "verse_locator": "2.65.12-2.65.25",
+    "source_id": "src-valmiki-ayodhya-s65-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 65, verses 12-25",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Discovery of Dasaratha's death at dawn by palace women and subsequent wailing of the queens.",
+    "tamil_draft": "அரண்மனையில் தசரதரின் மறைவு காலையில் கண்டுபிடிக்கப்பட்டு அனைவரும் அழுது புலம்பும் நிகழ்வு.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "archive": "RAMAVERSE-SEVEN-KANDA-CORPUS-ACQUISITION-vNEXT2.zip",
+  "sha256": "6e751670b1acdf85cc1d7eac233ee0d6953a9504ab82fde06295727559f5c89f",
+  "entries": 20,
+  "bytes": 50197,
+  "zip_integrity": true,
+  "required_missing": [],
+  "required_present": true,
+  "member_hash_manifest_present": true
+}

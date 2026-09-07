@@ -1,0 +1,3161 @@
+{
+  "generatedAt": "2026-08-25T23:48:45.393Z",
+  "startingOverlaps": 449,
+  "counts": {
+    "EXACT_SEMANTIC_DUPLICATE": 0,
+    "SAME_RECORD_RICHER_VERSION": 0,
+    "SAFE_FIELD_ENRICHMENT": 184,
+    "SOURCE_VARIANT": 0,
+    "TRANSLATION_VARIANT": 0,
+    "TEXTUAL_VARIANT": 0,
+    "ENTITY_ALIAS": 0,
+    "CROSS_RECORD_COLLISION": 0,
+    "INSUFFICIENT_EVIDENCE": 0,
+    "CONFLICT": 265
+  },
+  "classifications": [
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-dharma-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-dharma-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-dharma-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-dharma-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s18-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s18-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s19-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s19-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s19-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-event-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-event-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-narrative-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-narrative-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-character-reference-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s18-character-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s18-character-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s18-character-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s18-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s19-character-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s19-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-character-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-character-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-relationship-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-relationship-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-journey-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s19-place-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-place-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s21-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s22-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s23-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s24-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-devotional-context-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-devotional-context-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s25-verse-section-006",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s26-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s27-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-historical-context-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s28-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-historical-norm-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s29-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s30-verse-section-006",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-object-reference-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s31-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-object-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-v2-ayodhyakanda-s20-theme-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-dialogue-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-event-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-character-reference-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-place-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-verse-section-006",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-journey-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-place-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s32-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s33-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-dharma-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-dialogue-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-event-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-event-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-verse-section-005",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-verse-section-006",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-relationship-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s34-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s35-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-dialogue-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-dialogue-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-dialogue-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-dialogue-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-event-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-event-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-event-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-event-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-historical-norm-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-sarga-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-theme-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-character-reference-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-verse-section-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-verse-section-002",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-verse-section-003",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-verse-section-004",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "stg-postv1-ayodhyakanda-s36-source-001",
+      "primary_class": "CONFLICT",
+      "auto_resolved": false,
+      "confidence": "LOW",
+      "reason": "Differences are not safely attributable to a single deterministic category."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-SARGA-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DIALOGUE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHARACTER-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-PLACE-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-JOURNEY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DHARMA_LESSON-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-WISDOM-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-TIMELINE_EVENT-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHILDREN_STORY-001",
+      "primary_class": "SAFE_FIELD_ENRICHMENT",
+      "auto_resolved": true,
+      "confidence": "HIGH",
+      "reason": "Same source identity, locator, and semantic text; only optional metadata fields differ."
+    }
+  ]
+}

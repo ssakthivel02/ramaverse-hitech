@@ -1,0 +1,4530 @@
+{
+  "reconciliation_id": "RAMAVERSE-AYODHYA-94-113-20260825",
+  "created_at_utc": "2026-08-25T21:05:14.388Z",
+  "historical_canonical_total": 550,
+  "published_staging": 0,
+  "input_archives": [
+    {
+      "set": "A",
+      "scope": "Ayodhya Sargas 94–101",
+      "records": 72,
+      "sha256": "ddc29933f3b29df8112396d7a63d4c54a6c4004f0da49c4c735f401fbe000c18",
+      "integrity": "PASS",
+      "member_manifest": "physically reopened",
+      "expected_sha256": "ddc29933f3b29df8112396d7a63d4c54a6c4004f0da49c4c735f401fbe000c18"
+    },
+    {
+      "set": "B",
+      "scope": "Ayodhya Sargas 102–113",
+      "records": 112,
+      "sha256": "6e751670b1acdf85cc1d7eac233ee0d6953a9504ab82fde06295727559f5c89f",
+      "integrity": "PASS",
+      "member_manifest": "physically reopened",
+      "expected_sha256": "6e751670b1acdf85cc1d7eac233ee0d6953a9504ab82fde06295727559f5c89f"
+    }
+  ],
+  "total_physical_input": 184,
+  "accounted": 184,
+  "disposition_counts": {
+    "TECHNICAL_BLOCK": 72,
+    "SAFE_NEW_CANONICAL_CANDIDATE": 103,
+    "VARIANT_REVIEW_REQUIRED": 9
+  },
+  "duplicate_ids": [],
+  "source_registry_count": 20,
+  "missing_source_refs": [
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+    "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001"
+  ],
+  "canonical_modified": 0,
+  "staging_published": 0,
+  "decision_rule": "SAFE_NEW_CANONICAL_CANDIDATE means eligible for an isolated promotion candidate only; no canonical record is promoted by this artifact.",
+  "record_decisions": [
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 94,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.94.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 95,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.95.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 96,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.96.1-30",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 97,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.97.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 98,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.98.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 99,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.99.1-42",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 100,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.100.1-76",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 101,
+      "source_ids": [
+        null
+      ],
+      "source_locator": "2.101.1-9",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "TECHNICAL_BLOCK",
+      "blocking_issue": "Required field missing.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": false,
+        "source_resolves": false,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 102,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S102"
+      ],
+      "source_locator": "2.102.1-49",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 103,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S103"
+      ],
+      "source_locator": "2.103.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 104,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S104"
+      ],
+      "source_locator": "2.104.1-27",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 105,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S105"
+      ],
+      "source_locator": "2.105.1-46",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 106,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S106"
+      ],
+      "source_locator": "2.106.1-33,35",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "NUMBERING_VARIANCE_PENDING_CROSSCHECK",
+      "primary_disposition": "VARIANT_REVIEW_REQUIRED",
+      "blocking_issue": "Sarga 106 is covered by the preserved displayed 33→35 numbering-gap variant; hold until independent-edition cross-check.",
+      "recommended_action": "Keep quarantined for editorial/source decision.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 107,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S107"
+      ],
+      "source_locator": "2.107.1-19",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 108,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S108"
+      ],
+      "source_locator": "2.108.1-18",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 109,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S109"
+      ],
+      "source_locator": "2.109.1-39",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 110,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S110"
+      ],
+      "source_locator": "2.110.1-36",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 111,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S111"
+      ],
+      "source_locator": "2.111.1-32",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 112,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S112"
+      ],
+      "source_locator": "2.112.1-31",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-SARGA-001",
+      "record_type": "SARGA",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "record_type": "EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DIALOGUE-001",
+      "record_type": "DIALOGUE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHARACTER-001",
+      "record_type": "CHARACTER",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-PLACE-001",
+      "record_type": "PLACE",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-JOURNEY-001",
+      "record_type": "JOURNEY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DHARMA_LESSON-001",
+      "record_type": "DHARMA_LESSON",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-WISDOM-001",
+      "record_type": "WISDOM",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-TIMELINE_EVENT-001",
+      "record_type": "TIMELINE_EVENT",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHILDREN_STORY-001",
+      "record_type": "CHILDREN_STORY",
+      "kanda": "Ayodhya Kanda",
+      "sarga_number": 113,
+      "source_ids": [
+        "SRC-RV02-STOTRANIDHI-AYODHYA-S113"
+      ],
+      "source_locator": "2.113.1-24",
+      "confidence": 0.9,
+      "tamil_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "variant_state": "PENDING_INDEPENDENT_CROSSCHECK",
+      "primary_disposition": "SAFE_NEW_CANONICAL_CANDIDATE",
+      "blocking_issue": "",
+      "recommended_action": "Eligible for separate promotion-candidate intake; not canonical mutation.",
+      "structural_checks": {
+        "complete": true,
+        "source_resolves": true,
+        "hash_valid": true,
+        "no_template_marker": true,
+        "unpublished": true,
+        "quarantined": true
+      }
+    }
+  ]
+}

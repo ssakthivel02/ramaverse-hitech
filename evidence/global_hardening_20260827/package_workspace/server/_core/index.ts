@@ -1,0 +1,90 @@
+import express from "express";
+import { createServer } from "http";
+import net from "net";
+import { createExpressMiddleware } from "@trpc/server/adapters/express";
+import { appRouter } from "../routers";
+import { createContext } from "./context";
+import { serveStatic, setupVite } from "./vite";
+import { assertActiveCorpus } from "../corpusRuntime";
+
+function isPortAvailable(port: number): Promise<boolean> {
+  return new Promise(resolve => {
+    const server = net.createServer();
+    server.listen(port, () => {
+      server.close(() => resolve(true));
+    });
+    server.on("error", () => resolve(false));
+  });
+}
+
+async function findAvailablePort(startPort: number = 3000): Promise<number> {
+  for (let port = startPort; port < startPort + 20; port++) {
+    if (await isPortAvailable(port)) return port;
+  }
+  throw new Error(`No available port found starting from ${startPort}`);
+}
+
+async function startServer() {
+  const activeCorpus = await assertActiveCorpus();
+  console.log(`[Corpus] Active ${activeCorpus.pointer.activeCorpusVersion} (${activeCorpus.pointer.canonicalCount} records)`);
+  const app = express();
+  const server = createServer(app);
+  app.use(express.json({ limit: "50mb" }));
+  app.use(express.urlencoded({ limit: "50mb", extended: true }));
+
+  // Baseline hardening: no user content is logged or exposed by these surfaces.
+  app.use((req, res, next) => {
+    res.setHeader("X-Content-Type-Options", "nosniff");
+    res.setHeader("X-Frame-Options", "SAMEORIGIN");
+    res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+    res.setHeader("Permissions-Policy", "camera=(), geolocation=(), payment=(), usb=()");
+    res.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https:; frame-ancestors 'self'");
+    if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__")) {
+      res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
+    }
+    next();
+  });
+
+  app.get("/ops/health", async (_req, res) => {
+    try {
+      const active = await assertActiveCorpus();
+      res.json({ ok: true, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, pwaVersion: "ramaverse-cache-v5" });
+    } catch {
+      res.status(503).json({ ok: false, reason: "active_corpus_unavailable" });
+    }
+  });
+
+  app.get("/ops/release-state", async (_req, res) => {
+    try {
+      const active = await assertActiveCorpus();
+      res.json({ deployment: process.env.NODE_ENV || "unknown", corpus: { version: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount }, stagingPublished: 0, pwaVersion: "ramaverse-cache-v5", userQuestionLogging: "disabled" });
+    } catch {
+      res.status(503).json({ ok: false, reason: "release_state_unavailable" });
+    }
+  });
+
+  app.use(
+    "/api/trpc",
+    createExpressMiddleware({
+      router: appRouter,
+      createContext,
+    })
+  );
+
+  if (process.env.NODE_ENV === "development") {
+    await setupVite(app, server);
+  } else {
+    serveStatic(app);
+  }
+
+  const preferredPort = parseInt(process.env.PORT || "3000", 10);
+  const port = await findAvailablePort(preferredPort);
+  if (port !== preferredPort) {
+    console.log(`Port ${preferredPort} is busy, using port ${port} instead`);
+  }
+  server.listen(port, () => {
+    console.log(`Server running on http://localhost:${port}/`);
+  });
+}
+
+startServer().catch(console.error);

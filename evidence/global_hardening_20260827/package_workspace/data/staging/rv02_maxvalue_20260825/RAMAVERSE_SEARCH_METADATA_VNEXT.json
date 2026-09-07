@@ -1,0 +1,2533 @@
+{
+  "documents": [
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+      "canonical_title": "Citrakuta description",
+      "tamil_title": "சித்திரகூட வர்ணனை",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 94"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 94,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "சித்திரகூட வர்ணனை"
+      ],
+      "transliteration": "Citrakuta description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana"
+      ],
+      "source_locator": "2.94.1-27",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+      "canonical_title": "Mandakini description",
+      "tamil_title": "மந்தாகினி வர்ணனை",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 95"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 95,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics",
+        "Mandakini River",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "மந்தாகினி வர்ணனை"
+      ],
+      "transliteration": "Mandakini description",
+      "entity_ids": [
+        "Rama",
+        "Sita",
+        "Lakshmana",
+        "Ascetics"
+      ],
+      "source_locator": "2.95.1-19",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+      "canonical_title": "Lakshmana’s anger",
+      "tamil_title": "இலக்குவனின் கோபம்",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 96"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 96,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இலக்குவனின் கோபம்"
+      ],
+      "transliteration": "Lakshmana’s anger",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Sita"
+      ],
+      "source_locator": "2.96.1-30",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+      "canonical_title": "Praise of Bharata",
+      "tamil_title": "பரதனின் குணப் பாராட்டு",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 97"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 97,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "பரதனின் குணப் பாராட்டு"
+      ],
+      "transliteration": "Praise of Bharata",
+      "entity_ids": [
+        "Rama",
+        "Lakshmana",
+        "Bharata"
+      ],
+      "source_locator": "2.97.1-31",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+      "canonical_title": "Search for Rama",
+      "tamil_title": "இராமனைத் தேடுதல்",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 98"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 98,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita",
+        "Citrakuta",
+        "Rama’s hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனைத் தேடுதல்"
+      ],
+      "transliteration": "Search for Rama",
+      "entity_ids": [
+        "Bharata",
+        "Shatrughna",
+        "Guha",
+        "Rama",
+        "Lakshmana",
+        "Sita"
+      ],
+      "source_locator": "2.98.1-18",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+      "canonical_title": "Meeting with Rama",
+      "tamil_title": "இராமனைச் சந்தித்தல்",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 99"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 99,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra",
+        "Rama’s hermitage",
+        "Citrakuta"
+      ],
+      "tamil_keywords": [
+        "இராமனைச் சந்தித்தல்"
+      ],
+      "transliteration": "Meeting with Rama",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Shatrughna",
+        "Lakshmana",
+        "Sita",
+        "Guha",
+        "Sumantra"
+      ],
+      "source_locator": "2.99.1-42",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+      "canonical_title": "Rama’s questions on kingship",
+      "tamil_title": "இராமனின் அரசியல் கேள்விகள்",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 100"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 100,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "இராமனின் அரசியல் கேள்விகள்"
+      ],
+      "transliteration": "Rama’s questions on kingship",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Vasistha",
+        "Ministers"
+      ],
+      "source_locator": "2.100.1-76",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "sarga",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "SARGA",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "event",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "dialogue",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "DIALOGUE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "character",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "CHARACTER",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "place",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "PLACE",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "journey",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "JOURNEY",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "dharma_lesson",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "DHARMA_LESSON",
+        "dharma"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "wisdom",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "WISDOM",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001",
+      "canonical_title": "Hearing of the father’s death",
+      "tamil_title": "தந்தையின் மறைவை அறிதல்",
+      "aliases": [
+        "timeline_event",
+        "Ayodhya Sarga 101"
+      ],
+      "kanda": "Ayodhya Kanda",
+      "sarga": 101,
+      "topics": [
+        "TIMELINE_EVENT",
+        "narrative"
+      ],
+      "keywords": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna",
+        "Citrakuta hermitage"
+      ],
+      "tamil_keywords": [
+        "தந்தையின் மறைவை அறிதல்"
+      ],
+      "transliteration": "Hearing of the father’s death",
+      "entity_ids": [
+        "Rama",
+        "Bharata",
+        "Dasaratha",
+        "Shatrughna"
+      ],
+      "source_locator": "2.101.1-9",
+      "publication_state": "UNPUBLISHED_STAGING"
+    }
+  ]
+}

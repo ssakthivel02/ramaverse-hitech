@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "batchId": "RV02-PREFREEZE-20260823-AYODHYA-78-93",
+  "records": 64,
+  "ledgerRecords": 64,
+  "parity": true,
+  "sargas": [
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
+  ],
+  "typeCounts": {
+    "SARGA": 16,
+    "EVENT": 16,
+    "DIALOGUE": 16,
+    "DHARMA_LESSON": 16
+  },
+  "sourceCount": 16,
+  "missingFields": [],
+  "duplicateIds": [],
+  "missingSources": [],
+  "badStates": [],
+  "canonicalBaseline": 550,
+  "stagingPublished": 0,
+  "nextExactSource": "Ayodhya Kanda Sarga 94 / 2.94.1 onward",
+  "canonicalMutation": false,
+  "mobileMutation": false,
+  "rootProjectStateOverwritten": false,
+  "note": "Isolated RV-02 branch output; main physical staging master was not overwritten because the root state is conflicting/stale."
+}

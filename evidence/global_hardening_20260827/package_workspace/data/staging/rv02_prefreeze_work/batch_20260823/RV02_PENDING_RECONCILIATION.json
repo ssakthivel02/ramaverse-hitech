@@ -1,0 +1,709 @@
+{
+  "batchId": "RV02-PREFREEZE-20260823-AYODHYA-78-93",
+  "records": [
+    {
+      "recordId": "RV02-STG-AYODHYA-S78",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-78",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-78",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-78",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S79",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-79",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-79",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-79",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S80",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-80",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-80",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-80",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S81",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-81",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-81",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-81",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S82",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-82",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-82",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-82",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S83",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-83",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-83",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-83",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S84",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-84",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-84",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-84",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S85",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-85",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-85",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-85",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S86",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-86",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-86",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-86",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S87",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-87",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-87",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-87",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S88",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-88",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-88",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-88",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S89",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-89",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-89",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-89",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S90",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-90",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-90",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-90",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S91",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-91",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-91",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-91",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S92",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-92",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-92",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-92",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-S93",
+      "type": "SARGA",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-EV-93",
+      "type": "EVENT",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DL-93",
+      "type": "DIALOGUE",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    },
+    {
+      "recordId": "RV02-STG-AYODHYA-DH-93",
+      "type": "DHARMA_LESSON",
+      "action": "REVIEW_BEFORE_RECONCILIATION",
+      "blockingIssues": [
+        "Tamil human review",
+        "independent critical-edition cross-check"
+      ],
+      "publicationState": "UNPUBLISHED_STAGING",
+      "recommendedAction": "Keep quarantined and unpublished."
+    }
+  ]
+}

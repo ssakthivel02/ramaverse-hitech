@@ -1,0 +1,9 @@
+{
+  "queueId": "RV02-TAMIL-REVIEW-20260823",
+  "status": "OPEN",
+  "humanReviewed": 0,
+  "records": 64,
+  "policy": "AI may prepare editorial drafts, but no record is marked HUMAN_REVIEWED without a human decision.",
+  "priority": "Review dialogue and dharma records first; verify terminology, speaker/listener, meaning fidelity, and punctuation.",
+  "batchId": "RV02-PREFREEZE-20260823-AYODHYA-78-93"
+}

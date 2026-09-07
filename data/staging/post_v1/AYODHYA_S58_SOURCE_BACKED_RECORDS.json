@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s58-sarga-001",
+    "record_type": "SARGA",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 58,
+    "verse_locator": "2.58.1-2.58.46",
+    "source_id": "src-valmiki-ayodhya-s58-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 58, verses 1-46",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Sumantra delivers Rama's and Lakshmana's parting messages to Dasaratha and Kausalya. Rama sends reverent and comforting words, while Lakshmana expresses bitter grief and indignation.",
+    "tamil_draft": "சுமந்திரன் தசரதர் மற்றும் கௌசல்யாவிடம் இராமன் மற்றும் இலக்குவனனின் செய்திகளைத் தெரிவிக்கிறான். இராமனின் அடக்கமான செய்தியும், இலக்குவனனின் கடுமையான வார்த்தைகளும் இதில் பதிவாகியுள்ளன.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.99,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  },
+  {
+    "candidate_id": "stg-postv1-ayodhyakanda-s58-dialogue-001",
+    "record_type": "DIALOGUE",
+    "kanda": "Ayodhya Kanda",
+    "sarga": 58,
+    "verse_locator": "2.58.15-2.58.30",
+    "source_id": "src-valmiki-ayodhya-s58-sanskritdocs",
+    "source_locator": "Valmiki Ramayana, Ayodhya Kanda, Sarga 58, verses 15-30",
+    "source_type": "PRIMARY_ACQUISITION_SOURCE",
+    "tradition_classification": "PRIMARY_TEXT",
+    "english_explanation": "Rama's parting message delivered by Sumantra to Dasaratha, Kausalya, and the court.",
+    "tamil_draft": "தசரதருக்கும் கௌசல்யாவுக்கும் சுமந்திரன் மூலமாக இராமன் அனுப்பிய இறுதிச் செய்தி.",
+    "tamil_review_status": "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW",
+    "confidence": 0.98,
+    "merge_state": "awaiting_v1_4_0_reconciliation",
+    "possible_legacy_overlap": false,
+    "reconciliation_classification": "NEW_CANONICAL_CANDIDATE",
+    "publication_policy": "STAGING_QUARANTINE_ONLY"
+  }
+]

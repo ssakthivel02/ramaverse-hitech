@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "variant_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-VAR-001",
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-087-DIALOGUE-001",
+      "issue": "Prior displayed Sarga 87 numbering gap remains an external unresolved variant and is not altered by this batch.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_DECISION",
+      "decision": "NEEDS_EDITOR",
+      "human_approved": false,
+      "canonical_effect": "none"
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-VAR-001",
+      "sarga": 106,
+      "source_locator": "2.106.33,35",
+      "issue": "Displayed source numbering moves from verse 33 to verse 35.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_CROSSCHECK",
+      "action": "Preserve the displayed locator and seek independent edition before promotion.",
+      "decision": "KEEP_AS_VARIANT",
+      "human_approved": false,
+      "canonical_effect": "none"
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-VAR-002",
+      "sarga": 87,
+      "source_locator": "2.87",
+      "issue": "Carry-forward numbering note from prior acquisition.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_CROSSCHECK",
+      "action": "Preserve prior note; no mutation in this batch.",
+      "decision": "KEEP_AS_VARIANT",
+      "human_approved": false,
+      "canonical_effect": "none"
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-VAR-003",
+      "sarga": 106,
+      "source_locator": "2.106.33,35",
+      "issue": "The source page displays a numbering jump from verse 33 to verse 35.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_CROSSCHECK",
+      "action": "Preserve the displayed locator until independent edition review.",
+      "decision": "KEEP_AS_VARIANT",
+      "human_approved": false,
+      "canonical_effect": "none"
+    }
+  ],
+  "canonical_modified": 0
+}

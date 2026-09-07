@@ -1,0 +1,11 @@
+{
+  "variants": [
+    {
+      "variant_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-VAR-001",
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-087-DIALOGUE-001",
+      "issue": "Prior displayed Sarga 87 numbering gap remains an external unresolved variant and is not altered by this batch.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_DECISION"
+    }
+  ]
+}

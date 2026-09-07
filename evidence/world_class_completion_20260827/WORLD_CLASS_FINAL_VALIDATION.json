@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-08-27T17:11:42.529Z",
+  "requirements": {
+    "sourceSpecification": "pasted_content_135",
+    "knownPriorTotal": 49,
+    "knownPriorComplete": 25,
+    "knownPriorPartial": 8,
+    "knownPriorDataMissing": 4,
+    "knownPriorDesignMissing": 4,
+    "knownPriorAssetMissing": 7,
+    "knownPriorWebsiteMissing": 1
+  },
+  "implementedThisRun": [
+    "Experience Center route: daily deterministic record, Family Mode age bands, tradition-separated Festival Mode, devotional rights/safety contract, Rama Setu evidence separation, explicit share-card copier, offline-pack contract surface",
+    "Experience Center visual QA at 1280x720 and 390x844",
+    "Reusable Website/Mobile visual contract in shared/visualUniverse.ts"
+  ],
+  "preserved": [
+    "canonical baseline 550",
+    "active corpus v1.4.0",
+    "staging publication 0",
+    "Mobile source/frozen VC14",
+    "production deployment none"
+  ],
+  "gates": {
+    "tests": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "build": "PASS",
+    "route": "/experience-center PASS",
+    "responsive": "PASS 390x844 and 1280x720",
+    "reducedMotion": "PASS",
+    "accessibility": "PASS",
+    "pwa": "PASS inherited versioned cache contract",
+    "rights": "PASS for supplied project-original SVG/CSS; raster/audio coverage remains REVIEW_REQUIRED",
+    "devotionalSafety": "PASS",
+    "sourceGrounding": "PASS for canonical record used by daily/share surfaces",
+    "fabricatedQuotes": 0,
+    "guaranteedOutcomes": 0,
+    "corpusMutation": 0,
+    "mobileMutation": 0,
+    "stagingLeakage": 0
+  },
+  "decision": "PRODUCTION_CANDIDATE_READY_FOR_OWNER_REVIEW_WITH_MEDIA_AND_MOBILE_QA_GAPS",
+  "notes": [
+    "Festival dates are intentionally not asserted.",
+    "Rama Setu scripture/tradition is kept separate from modern historical/archaeological claims.",
+    "The Experience Center uses canonical local records and does not claim literal AI speech by Rama."
+  ]
+}

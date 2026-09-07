@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-26T05:43:33.480Z",
+  "startingP0": 265,
+  "rootCauseCounts": {
+    "SOURCE_IDENTITY_CONFLICT": 0,
+    "SOURCE_LOCATOR_CONFLICT": 0,
+    "VERSE_NUMBERING_CONFLICT": 0,
+    "SARGA_BOUNDARY_CONFLICT": 206,
+    "ENTITY_IDENTITY_CONFLICT": 0,
+    "DIALOGUE_ATTRIBUTION_CONFLICT": 47,
+    "PLACE_IDENTITY_CONFLICT": 0,
+    "EVENT_IDENTITY_CONFLICT": 0,
+    "TRANSLATION_DIFFERENCE": 0,
+    "TEXTUAL_VARIANT": 0,
+    "TRADITION_DIFFERENCE": 0,
+    "SCHEMA_MAPPING_CONFLICT": 0,
+    "OTHER": 12
+  },
+  "resolutionCounts": {
+    "RESOLVED_CANONICAL_MATCH": 0,
+    "RESOLVED_SAFE_ENRICHMENT": 0,
+    "RESOLVED_ENTITY_ALIAS": 0,
+    "RESOLVED_EDITION_DIFFERENCE": 0,
+    "RESOLVED_NUMBERING_DIFFERENCE": 0,
+    "RESOLVED_DUPLICATE": 0,
+    "VALID_TEXTUAL_VARIANT": 0,
+    "VALID_TRANSLATION_VARIANT": 0,
+    "HUMAN_EDITOR_REQUIRED": 237,
+    "INSUFFICIENT_SOURCE_EVIDENCE": 28,
+    "REJECTED": 0
+  },
+  "autoResolved": 0,
+  "patchesCreated": 0,
+  "patchesApplied": 0,
+  "humanDecisionsRemaining": 265,
+  "canonicalBaseline": 550,
+  "canonicalChanged": 0,
+  "stagingPublished": 0,
+  "mobileModified": false,
+  "status": "CANDIDATE_ONLY_NOT_PRODUCTION"
+}

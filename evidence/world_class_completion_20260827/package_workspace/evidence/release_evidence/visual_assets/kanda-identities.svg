@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">RamaVerse seven Kanda identity motifs</title>
+  <desc id="desc">Seven original circular line motifs representing the seven Kandas through geometry and color.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#f4d98b"/><stop offset="1" stop-color="#d7b45a"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="240" fill="#070b14"/>
+  <g fill="none" stroke="url(#gold)" stroke-width="2" filter="url(#glow)">
+    <circle cx="90" cy="120" r="48"/><path d="M60 120h60M90 90v60M70 100l40 40M110 100l-40 40"/>
+    <circle cx="260" cy="120" r="48"/><ellipse cx="260" cy="120" rx="72" ry="26" transform="rotate(-18 260 120)"/><circle cx="260" cy="120" r="6" fill="#f4d98b"/>
+    <circle cx="430" cy="120" r="48"/><path d="M390 140c22-58 58-58 80 0M400 105h60M412 92h36" stroke="#7fb9a2"/>
+    <circle cx="600" cy="120" r="48"/><path d="M558 130c24-35 60-35 84 0M570 104c20 15 40 15 60 0" stroke="#e77d3a"/><circle cx="600" cy="92" r="5" fill="#e77d3a"/>
+    <circle cx="770" cy="120" r="48"/><path d="M735 142c22-54 48-54 70 0M742 110c18 12 38 12 56 0" stroke="#7db2dd"/><path d="M770 78v84"/>
+    <circle cx="940" cy="120" r="48"/><path d="M900 140l40-64 40 64M916 114h48M920 140h40" stroke="#d25441"/>
+    <circle cx="1110" cy="120" r="48"/><path d="M1068 130c28-28 56-28 84 0M1080 100c20 20 40 20 60 0M1092 148h36" stroke="#eed387"/>
+  </g>
+  <g fill="#d7b45a" font-family="sans-serif" font-size="14" text-anchor="middle" letter-spacing="2">
+    <text x="90" y="205">BALA</text><text x="260" y="205">AYODHYA</text><text x="430" y="205">ARANYA</text><text x="600" y="205">KISHKINDHA</text><text x="770" y="205">SUNDARA</text><text x="940" y="205">YUDDHA</text><text x="1110" y="205">UTTARA</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-08-26T22:30:51.480Z",
+  "entries": [
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_APPROVAL_GROUPS_FINAL.csv",
+      "sha256": "d880423d2b30d16d05a07b746322b51fc4969f74ee75e09a4e3a2f6248315988"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_APPROVAL_GROUPS_FINAL.json",
+      "sha256": "ae0e5532c4c7efa4625233ccc11c282a7ecf985fe99e1be7bf19ff7d54037202"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_GROUP_DECISIONS.csv",
+      "sha256": "bb19f41d63fad1daf5dd0ce54e8686d85d312d8c2c3cc89188bb71af79cadc15"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_OWNER_GROUP_DECISIONS.json",
+      "sha256": "a421a33b30a4425e6d21d2c1046a155ed416bc66d479a6347f17d8c19a236072"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_PROMOTION_SIMULATIONS.json",
+      "sha256": "b570419926b8d72ace0bcc1943183cf8dc105d3c6bbb0558a82c322f98a6ee3b"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_RECORD_TO_GROUP_MAP.json",
+      "sha256": "1230cd671bb6c0ed5dcc6586693bbddb7a838561f72f025c17d6fb6071ad242f"
+    },
+    {
+      "name": "RAMAVERSE_v1_5_TIER_A_B_C.json",
+      "sha256": "a6e889944f8a5e24ced089080bc448a6138072c9c24d4fa6662378077842686c"
+    },
+    {
+      "name": "V1_5_OWNER_APPROVAL_CONSOLIDATED_STRICT_VALIDATION.json",
+      "sha256": "d1c138b3804766bcb8b05ecb985c187bbe272c3e0e19165cd1ebcb633b81d6d1"
+    },
+    {
+      "name": "V1_5_OWNER_APPROVAL_CONSOLIDATED_VALIDATION.json",
+      "sha256": "f087335478798e70c8a2d7033f0ee4bcf0ec72808b00b742fbcec330956d8786"
+    },
+    {
+      "name": "YUDDHA_SARGA_1_FINAL_HOLD.json",
+      "sha256": "ef5fae47daa0d5cd113e8c5e1e2f069263ac7099c3426319bb34bf1e8d105a3a"
+    }
+  ],
+  "canonicalProduction": 550,
+  "stagingPublished": 0,
+  "promotionExecuted": false
+}

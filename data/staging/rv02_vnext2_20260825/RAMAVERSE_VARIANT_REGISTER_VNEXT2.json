@@ -1,0 +1,31 @@
+{
+  "variants": [
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-VAR-001",
+      "sarga": 106,
+      "source_locator": "2.106.33,35",
+      "issue": "Displayed source numbering moves from verse 33 to verse 35.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_CROSSCHECK",
+      "action": "Preserve the displayed locator and seek independent edition before promotion."
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-VAR-002",
+      "sarga": 87,
+      "source_locator": "2.87",
+      "issue": "Carry-forward numbering note from prior acquisition.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_CROSSCHECK",
+      "action": "Preserve prior note; no mutation in this batch."
+    },
+    {
+      "variant_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-VAR-003",
+      "sarga": 106,
+      "source_locator": "2.106.33,35",
+      "issue": "The source page displays a numbering jump from verse 33 to verse 35.",
+      "classification": "NUMBERING_VARIANCE",
+      "status": "PENDING_EDITORIAL_CROSSCHECK",
+      "action": "Preserve the displayed locator until independent edition review."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "project": "RamaVerse Website / Corpus Authority",
+  "generatedAt": "2026-08-26T10:20:05Z",
+  "sourceRoot": "/home/ubuntu/ramaverse",
+  "sourceVersion": "56bb0d6+working-tree-2026-08-25",
+  "authoritativeWebSource": "/home/ubuntu/ramaverse",
+  "historicalCanonicalTotal": 550,
+  "physicalStagingTotal": 981,
+  "stagingPublished": 0,
+  "publicSearchStaging": 0,
+  "publicAskStaging": 0,
+  "mobileModified": false,
+  "productionDeployed": false,
+  "routeCount": 19,
+  "tierALanguages": [
+    "en",
+    "ta",
+    "hi",
+    "te",
+    "kn",
+    "ml"
+  ],
+  "tests": "58/58",
+  "typecheck": "PASS",
+  "lint": "PASS",
+  "build": "PASS",
+  "searchRuntimeCount": 922,
+  "askRuntimeCount": 922,
+  "readerRuntimeCount": 645,
+  "entityConnections": 3500,
+  "sourceFreeze": false,
+  "exactNextSource": "Yuddha Kanda 6.1.2 onward",
+  "continuationConflict": {
+    "attachedSpecification": "Aranya Kanda 3.45.1",
+    "physicalWorkspaceEvidence": "aranya_31_45_work contains a Sarga 45 ledger row spanning 3.45.1–3.45.32; other project-state artifacts retain an older Ayodhya Sarga 66 marker.",
+    "resolution": "Attached Sundara run was executed as a quarantined source-evidence acquisition. Sundara pages 5.11–5.68 were physically fetched and hashed; Yuddha 6.1.1 was recorded only as a source-note boundary. Continue from Yuddha Kanda 6.1.2. Historical ledger duplicate blocker remains preserved and unresolved."
+  },
+  "latestAcquisition": {
+    "run": "Sundara Kanda 5.11.1 through 5.68 plus Yuddha Kanda 6.1.1 source note",
+    "newRecords": 59,
+    "sundaraSourcePages": 58,
+    "yuddhaSourceNotes": 1,
+    "validation": "PASS_WITH_INHERITED_LEDGER_DUPLICATE_BLOCKER",
+    "archive": "release_evidence/sundara_completion_yuddha_20260826/RAMAVERSE-CORPUS-SUNDARA-COMPLETION-YUDDHA-vNEXT.zip",
+    "sha256": "a889cbaef2283a405f1fc8c832588ff3f326f864fed83607e2d474b39562f25a"
+  },
+  "governance": {
+    "canonicalMutation": 0,
+    "stagingPublication": 0,
+    "tamilHumanReviewed": 0,
+    "unreviewedTranslationsRemainDraft": true,
+    "candidateMobilePacksModified": false
+  },
+  "evidence": [
+    "RAMAVERSE_PROJECT_STATE.json",
+    "release_evidence/PHYSICAL_AUTHORITY_SNAPSHOT_2026-08-25.json",
+    "release_evidence/PREMIUM_COMPLETION_VALIDATION.json",
+    "release_evidence/PREMIUM_COMPLETION_VALIDATION.md",
+    "release_evidence/PERFORMANCE_VALIDATION.json",
+    "release_evidence/VISUAL_VERIFICATION_2026-08-25.md",
+    "CONTINUATION.md",
+    "SOURCE_FREEZE_MANIFEST.json",
+    "ROUTE_MATRIX.csv",
+    "LANGUAGE_MATRIX.csv"
+  ]
+}

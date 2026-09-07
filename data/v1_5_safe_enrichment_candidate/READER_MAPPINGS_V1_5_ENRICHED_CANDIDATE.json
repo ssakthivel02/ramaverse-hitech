@@ -1,0 +1,4407 @@
+{
+  "generated_at": "2026-08-26T05:50:00.310Z",
+  "canonical_count": 550,
+  "staging": false,
+  "documents": [
+    {
+      "id": "CANONICAL-REC-001",
+      "canonical_record_id": "CANONICAL-REC-001",
+      "locator": "Kanda-2, Sarga-1, Verse-1",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-002",
+      "canonical_record_id": "CANONICAL-REC-002",
+      "locator": "Kanda-3, Sarga-1, Verse-2",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-003",
+      "canonical_record_id": "CANONICAL-REC-003",
+      "locator": "Kanda-4, Sarga-1, Verse-3",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-004",
+      "canonical_record_id": "CANONICAL-REC-004",
+      "locator": "Kanda-5, Sarga-1, Verse-4",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-005",
+      "canonical_record_id": "CANONICAL-REC-005",
+      "locator": "Kanda-6, Sarga-1, Verse-5",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-006",
+      "canonical_record_id": "CANONICAL-REC-006",
+      "locator": "Kanda-7, Sarga-1, Verse-6",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-007",
+      "canonical_record_id": "CANONICAL-REC-007",
+      "locator": "Kanda-1, Sarga-1, Verse-7",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-008",
+      "canonical_record_id": "CANONICAL-REC-008",
+      "locator": "Kanda-2, Sarga-1, Verse-8",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-009",
+      "canonical_record_id": "CANONICAL-REC-009",
+      "locator": "Kanda-3, Sarga-1, Verse-9",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-010",
+      "canonical_record_id": "CANONICAL-REC-010",
+      "locator": "Kanda-4, Sarga-1, Verse-10",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-011",
+      "canonical_record_id": "CANONICAL-REC-011",
+      "locator": "Kanda-5, Sarga-1, Verse-11",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-012",
+      "canonical_record_id": "CANONICAL-REC-012",
+      "locator": "Kanda-6, Sarga-1, Verse-12",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-013",
+      "canonical_record_id": "CANONICAL-REC-013",
+      "locator": "Kanda-7, Sarga-1, Verse-13",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-014",
+      "canonical_record_id": "CANONICAL-REC-014",
+      "locator": "Kanda-1, Sarga-1, Verse-14",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-015",
+      "canonical_record_id": "CANONICAL-REC-015",
+      "locator": "Kanda-2, Sarga-1, Verse-15",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-016",
+      "canonical_record_id": "CANONICAL-REC-016",
+      "locator": "Kanda-3, Sarga-1, Verse-16",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-017",
+      "canonical_record_id": "CANONICAL-REC-017",
+      "locator": "Kanda-4, Sarga-1, Verse-17",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-018",
+      "canonical_record_id": "CANONICAL-REC-018",
+      "locator": "Kanda-5, Sarga-1, Verse-18",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-019",
+      "canonical_record_id": "CANONICAL-REC-019",
+      "locator": "Kanda-6, Sarga-1, Verse-19",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-020",
+      "canonical_record_id": "CANONICAL-REC-020",
+      "locator": "Kanda-7, Sarga-1, Verse-20",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-021",
+      "canonical_record_id": "CANONICAL-REC-021",
+      "locator": "Kanda-1, Sarga-1, Verse-21",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-022",
+      "canonical_record_id": "CANONICAL-REC-022",
+      "locator": "Kanda-2, Sarga-1, Verse-22",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-023",
+      "canonical_record_id": "CANONICAL-REC-023",
+      "locator": "Kanda-3, Sarga-1, Verse-23",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-024",
+      "canonical_record_id": "CANONICAL-REC-024",
+      "locator": "Kanda-4, Sarga-1, Verse-24",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-025",
+      "canonical_record_id": "CANONICAL-REC-025",
+      "locator": "Kanda-5, Sarga-1, Verse-25",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-026",
+      "canonical_record_id": "CANONICAL-REC-026",
+      "locator": "Kanda-6, Sarga-1, Verse-26",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-027",
+      "canonical_record_id": "CANONICAL-REC-027",
+      "locator": "Kanda-7, Sarga-1, Verse-27",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-028",
+      "canonical_record_id": "CANONICAL-REC-028",
+      "locator": "Kanda-1, Sarga-1, Verse-28",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-029",
+      "canonical_record_id": "CANONICAL-REC-029",
+      "locator": "Kanda-2, Sarga-1, Verse-29",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-030",
+      "canonical_record_id": "CANONICAL-REC-030",
+      "locator": "Kanda-3, Sarga-1, Verse-30",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-031",
+      "canonical_record_id": "CANONICAL-REC-031",
+      "locator": "Kanda-4, Sarga-1, Verse-31",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-032",
+      "canonical_record_id": "CANONICAL-REC-032",
+      "locator": "Kanda-5, Sarga-1, Verse-32",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-033",
+      "canonical_record_id": "CANONICAL-REC-033",
+      "locator": "Kanda-6, Sarga-1, Verse-33",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-034",
+      "canonical_record_id": "CANONICAL-REC-034",
+      "locator": "Kanda-7, Sarga-1, Verse-34",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-035",
+      "canonical_record_id": "CANONICAL-REC-035",
+      "locator": "Kanda-1, Sarga-1, Verse-35",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-036",
+      "canonical_record_id": "CANONICAL-REC-036",
+      "locator": "Kanda-2, Sarga-1, Verse-36",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-037",
+      "canonical_record_id": "CANONICAL-REC-037",
+      "locator": "Kanda-3, Sarga-1, Verse-37",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-038",
+      "canonical_record_id": "CANONICAL-REC-038",
+      "locator": "Kanda-4, Sarga-1, Verse-38",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-039",
+      "canonical_record_id": "CANONICAL-REC-039",
+      "locator": "Kanda-5, Sarga-1, Verse-39",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-040",
+      "canonical_record_id": "CANONICAL-REC-040",
+      "locator": "Kanda-6, Sarga-1, Verse-40",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-041",
+      "canonical_record_id": "CANONICAL-REC-041",
+      "locator": "Kanda-7, Sarga-1, Verse-41",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-042",
+      "canonical_record_id": "CANONICAL-REC-042",
+      "locator": "Kanda-1, Sarga-1, Verse-42",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-043",
+      "canonical_record_id": "CANONICAL-REC-043",
+      "locator": "Kanda-2, Sarga-1, Verse-43",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-044",
+      "canonical_record_id": "CANONICAL-REC-044",
+      "locator": "Kanda-3, Sarga-1, Verse-44",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-045",
+      "canonical_record_id": "CANONICAL-REC-045",
+      "locator": "Kanda-4, Sarga-1, Verse-45",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-046",
+      "canonical_record_id": "CANONICAL-REC-046",
+      "locator": "Kanda-5, Sarga-1, Verse-46",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-047",
+      "canonical_record_id": "CANONICAL-REC-047",
+      "locator": "Kanda-6, Sarga-1, Verse-47",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-048",
+      "canonical_record_id": "CANONICAL-REC-048",
+      "locator": "Kanda-7, Sarga-1, Verse-48",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-049",
+      "canonical_record_id": "CANONICAL-REC-049",
+      "locator": "Kanda-1, Sarga-1, Verse-49",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-050",
+      "canonical_record_id": "CANONICAL-REC-050",
+      "locator": "Kanda-2, Sarga-1, Verse-50",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-051",
+      "canonical_record_id": "CANONICAL-REC-051",
+      "locator": "Kanda-3, Sarga-1, Verse-51",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-052",
+      "canonical_record_id": "CANONICAL-REC-052",
+      "locator": "Kanda-4, Sarga-1, Verse-52",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-053",
+      "canonical_record_id": "CANONICAL-REC-053",
+      "locator": "Kanda-5, Sarga-1, Verse-53",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-054",
+      "canonical_record_id": "CANONICAL-REC-054",
+      "locator": "Kanda-6, Sarga-1, Verse-54",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-055",
+      "canonical_record_id": "CANONICAL-REC-055",
+      "locator": "Kanda-7, Sarga-1, Verse-55",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-056",
+      "canonical_record_id": "CANONICAL-REC-056",
+      "locator": "Kanda-1, Sarga-1, Verse-56",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-057",
+      "canonical_record_id": "CANONICAL-REC-057",
+      "locator": "Kanda-2, Sarga-1, Verse-57",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-058",
+      "canonical_record_id": "CANONICAL-REC-058",
+      "locator": "Kanda-3, Sarga-1, Verse-58",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-059",
+      "canonical_record_id": "CANONICAL-REC-059",
+      "locator": "Kanda-4, Sarga-1, Verse-59",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-060",
+      "canonical_record_id": "CANONICAL-REC-060",
+      "locator": "Kanda-5, Sarga-1, Verse-60",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-061",
+      "canonical_record_id": "CANONICAL-REC-061",
+      "locator": "Kanda-6, Sarga-1, Verse-61",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-062",
+      "canonical_record_id": "CANONICAL-REC-062",
+      "locator": "Kanda-7, Sarga-1, Verse-62",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-063",
+      "canonical_record_id": "CANONICAL-REC-063",
+      "locator": "Kanda-1, Sarga-1, Verse-63",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-064",
+      "canonical_record_id": "CANONICAL-REC-064",
+      "locator": "Kanda-2, Sarga-1, Verse-64",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-065",
+      "canonical_record_id": "CANONICAL-REC-065",
+      "locator": "Kanda-3, Sarga-1, Verse-65",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-066",
+      "canonical_record_id": "CANONICAL-REC-066",
+      "locator": "Kanda-4, Sarga-1, Verse-66",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-067",
+      "canonical_record_id": "CANONICAL-REC-067",
+      "locator": "Kanda-5, Sarga-1, Verse-67",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-068",
+      "canonical_record_id": "CANONICAL-REC-068",
+      "locator": "Kanda-6, Sarga-1, Verse-68",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-069",
+      "canonical_record_id": "CANONICAL-REC-069",
+      "locator": "Kanda-7, Sarga-1, Verse-69",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-070",
+      "canonical_record_id": "CANONICAL-REC-070",
+      "locator": "Kanda-1, Sarga-1, Verse-70",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-071",
+      "canonical_record_id": "CANONICAL-REC-071",
+      "locator": "Kanda-2, Sarga-1, Verse-71",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-072",
+      "canonical_record_id": "CANONICAL-REC-072",
+      "locator": "Kanda-3, Sarga-1, Verse-72",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-073",
+      "canonical_record_id": "CANONICAL-REC-073",
+      "locator": "Kanda-4, Sarga-1, Verse-73",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-074",
+      "canonical_record_id": "CANONICAL-REC-074",
+      "locator": "Kanda-5, Sarga-1, Verse-74",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-075",
+      "canonical_record_id": "CANONICAL-REC-075",
+      "locator": "Kanda-6, Sarga-1, Verse-75",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-076",
+      "canonical_record_id": "CANONICAL-REC-076",
+      "locator": "Kanda-7, Sarga-1, Verse-76",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-077",
+      "canonical_record_id": "CANONICAL-REC-077",
+      "locator": "Kanda-1, Sarga-1, Verse-77",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-078",
+      "canonical_record_id": "CANONICAL-REC-078",
+      "locator": "Kanda-2, Sarga-1, Verse-78",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-079",
+      "canonical_record_id": "CANONICAL-REC-079",
+      "locator": "Kanda-3, Sarga-1, Verse-79",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-080",
+      "canonical_record_id": "CANONICAL-REC-080",
+      "locator": "Kanda-4, Sarga-1, Verse-80",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-081",
+      "canonical_record_id": "CANONICAL-REC-081",
+      "locator": "Kanda-5, Sarga-1, Verse-81",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-082",
+      "canonical_record_id": "CANONICAL-REC-082",
+      "locator": "Kanda-6, Sarga-1, Verse-82",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-083",
+      "canonical_record_id": "CANONICAL-REC-083",
+      "locator": "Kanda-7, Sarga-1, Verse-83",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-084",
+      "canonical_record_id": "CANONICAL-REC-084",
+      "locator": "Kanda-1, Sarga-1, Verse-84",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-085",
+      "canonical_record_id": "CANONICAL-REC-085",
+      "locator": "Kanda-2, Sarga-1, Verse-85",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-086",
+      "canonical_record_id": "CANONICAL-REC-086",
+      "locator": "Kanda-3, Sarga-1, Verse-86",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-087",
+      "canonical_record_id": "CANONICAL-REC-087",
+      "locator": "Kanda-4, Sarga-1, Verse-87",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-088",
+      "canonical_record_id": "CANONICAL-REC-088",
+      "locator": "Kanda-5, Sarga-1, Verse-88",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-089",
+      "canonical_record_id": "CANONICAL-REC-089",
+      "locator": "Kanda-6, Sarga-1, Verse-89",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-090",
+      "canonical_record_id": "CANONICAL-REC-090",
+      "locator": "Kanda-7, Sarga-1, Verse-90",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-091",
+      "canonical_record_id": "CANONICAL-REC-091",
+      "locator": "Kanda-1, Sarga-1, Verse-91",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-092",
+      "canonical_record_id": "CANONICAL-REC-092",
+      "locator": "Kanda-2, Sarga-1, Verse-92",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-093",
+      "canonical_record_id": "CANONICAL-REC-093",
+      "locator": "Kanda-3, Sarga-1, Verse-93",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-094",
+      "canonical_record_id": "CANONICAL-REC-094",
+      "locator": "Kanda-4, Sarga-1, Verse-94",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-095",
+      "canonical_record_id": "CANONICAL-REC-095",
+      "locator": "Kanda-5, Sarga-1, Verse-95",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-096",
+      "canonical_record_id": "CANONICAL-REC-096",
+      "locator": "Kanda-6, Sarga-1, Verse-96",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-097",
+      "canonical_record_id": "CANONICAL-REC-097",
+      "locator": "Kanda-7, Sarga-1, Verse-97",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-098",
+      "canonical_record_id": "CANONICAL-REC-098",
+      "locator": "Kanda-1, Sarga-1, Verse-98",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-099",
+      "canonical_record_id": "CANONICAL-REC-099",
+      "locator": "Kanda-2, Sarga-1, Verse-99",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-100",
+      "canonical_record_id": "CANONICAL-REC-100",
+      "locator": "Kanda-3, Sarga-1, Verse-100",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-101",
+      "canonical_record_id": "CANONICAL-REC-101",
+      "locator": "Kanda-4, Sarga-1, Verse-101",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-102",
+      "canonical_record_id": "CANONICAL-REC-102",
+      "locator": "Kanda-5, Sarga-1, Verse-102",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-103",
+      "canonical_record_id": "CANONICAL-REC-103",
+      "locator": "Kanda-6, Sarga-1, Verse-103",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-104",
+      "canonical_record_id": "CANONICAL-REC-104",
+      "locator": "Kanda-7, Sarga-1, Verse-104",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-105",
+      "canonical_record_id": "CANONICAL-REC-105",
+      "locator": "Kanda-1, Sarga-1, Verse-105",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-106",
+      "canonical_record_id": "CANONICAL-REC-106",
+      "locator": "Kanda-2, Sarga-1, Verse-106",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-107",
+      "canonical_record_id": "CANONICAL-REC-107",
+      "locator": "Kanda-3, Sarga-1, Verse-107",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-108",
+      "canonical_record_id": "CANONICAL-REC-108",
+      "locator": "Kanda-4, Sarga-1, Verse-108",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-109",
+      "canonical_record_id": "CANONICAL-REC-109",
+      "locator": "Kanda-5, Sarga-1, Verse-109",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-110",
+      "canonical_record_id": "CANONICAL-REC-110",
+      "locator": "Kanda-6, Sarga-1, Verse-110",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-111",
+      "canonical_record_id": "CANONICAL-REC-111",
+      "locator": "Kanda-7, Sarga-1, Verse-111",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-112",
+      "canonical_record_id": "CANONICAL-REC-112",
+      "locator": "Kanda-1, Sarga-1, Verse-112",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-113",
+      "canonical_record_id": "CANONICAL-REC-113",
+      "locator": "Kanda-2, Sarga-1, Verse-113",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-114",
+      "canonical_record_id": "CANONICAL-REC-114",
+      "locator": "Kanda-3, Sarga-1, Verse-114",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-115",
+      "canonical_record_id": "CANONICAL-REC-115",
+      "locator": "Kanda-4, Sarga-1, Verse-115",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-116",
+      "canonical_record_id": "CANONICAL-REC-116",
+      "locator": "Kanda-5, Sarga-1, Verse-116",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-117",
+      "canonical_record_id": "CANONICAL-REC-117",
+      "locator": "Kanda-6, Sarga-1, Verse-117",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-118",
+      "canonical_record_id": "CANONICAL-REC-118",
+      "locator": "Kanda-7, Sarga-1, Verse-118",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-119",
+      "canonical_record_id": "CANONICAL-REC-119",
+      "locator": "Kanda-1, Sarga-1, Verse-119",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-120",
+      "canonical_record_id": "CANONICAL-REC-120",
+      "locator": "Kanda-2, Sarga-1, Verse-120",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-121",
+      "canonical_record_id": "CANONICAL-REC-121",
+      "locator": "Kanda-3, Sarga-1, Verse-121",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-122",
+      "canonical_record_id": "CANONICAL-REC-122",
+      "locator": "Kanda-4, Sarga-1, Verse-122",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-123",
+      "canonical_record_id": "CANONICAL-REC-123",
+      "locator": "Kanda-5, Sarga-1, Verse-123",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-124",
+      "canonical_record_id": "CANONICAL-REC-124",
+      "locator": "Kanda-6, Sarga-1, Verse-124",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-125",
+      "canonical_record_id": "CANONICAL-REC-125",
+      "locator": "Kanda-7, Sarga-1, Verse-125",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-126",
+      "canonical_record_id": "CANONICAL-REC-126",
+      "locator": "Kanda-1, Sarga-1, Verse-126",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-127",
+      "canonical_record_id": "CANONICAL-REC-127",
+      "locator": "Kanda-2, Sarga-1, Verse-127",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-128",
+      "canonical_record_id": "CANONICAL-REC-128",
+      "locator": "Kanda-3, Sarga-1, Verse-128",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-129",
+      "canonical_record_id": "CANONICAL-REC-129",
+      "locator": "Kanda-4, Sarga-1, Verse-129",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-130",
+      "canonical_record_id": "CANONICAL-REC-130",
+      "locator": "Kanda-5, Sarga-1, Verse-130",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-131",
+      "canonical_record_id": "CANONICAL-REC-131",
+      "locator": "Kanda-6, Sarga-1, Verse-131",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-132",
+      "canonical_record_id": "CANONICAL-REC-132",
+      "locator": "Kanda-7, Sarga-1, Verse-132",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-133",
+      "canonical_record_id": "CANONICAL-REC-133",
+      "locator": "Kanda-1, Sarga-1, Verse-133",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-134",
+      "canonical_record_id": "CANONICAL-REC-134",
+      "locator": "Kanda-2, Sarga-1, Verse-134",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-135",
+      "canonical_record_id": "CANONICAL-REC-135",
+      "locator": "Kanda-3, Sarga-1, Verse-135",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-136",
+      "canonical_record_id": "CANONICAL-REC-136",
+      "locator": "Kanda-4, Sarga-1, Verse-136",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-137",
+      "canonical_record_id": "CANONICAL-REC-137",
+      "locator": "Kanda-5, Sarga-1, Verse-137",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-138",
+      "canonical_record_id": "CANONICAL-REC-138",
+      "locator": "Kanda-6, Sarga-1, Verse-138",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-139",
+      "canonical_record_id": "CANONICAL-REC-139",
+      "locator": "Kanda-7, Sarga-1, Verse-139",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-140",
+      "canonical_record_id": "CANONICAL-REC-140",
+      "locator": "Kanda-1, Sarga-1, Verse-140",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-141",
+      "canonical_record_id": "CANONICAL-REC-141",
+      "locator": "Kanda-2, Sarga-1, Verse-141",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-142",
+      "canonical_record_id": "CANONICAL-REC-142",
+      "locator": "Kanda-3, Sarga-1, Verse-142",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-143",
+      "canonical_record_id": "CANONICAL-REC-143",
+      "locator": "Kanda-4, Sarga-1, Verse-143",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-144",
+      "canonical_record_id": "CANONICAL-REC-144",
+      "locator": "Kanda-5, Sarga-1, Verse-144",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-145",
+      "canonical_record_id": "CANONICAL-REC-145",
+      "locator": "Kanda-6, Sarga-1, Verse-145",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-146",
+      "canonical_record_id": "CANONICAL-REC-146",
+      "locator": "Kanda-7, Sarga-1, Verse-146",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-147",
+      "canonical_record_id": "CANONICAL-REC-147",
+      "locator": "Kanda-1, Sarga-1, Verse-147",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-148",
+      "canonical_record_id": "CANONICAL-REC-148",
+      "locator": "Kanda-2, Sarga-1, Verse-148",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-149",
+      "canonical_record_id": "CANONICAL-REC-149",
+      "locator": "Kanda-3, Sarga-1, Verse-149",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-150",
+      "canonical_record_id": "CANONICAL-REC-150",
+      "locator": "Kanda-4, Sarga-1, Verse-150",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-151",
+      "canonical_record_id": "CANONICAL-REC-151",
+      "locator": "Kanda-5, Sarga-1, Verse-151",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-152",
+      "canonical_record_id": "CANONICAL-REC-152",
+      "locator": "Kanda-6, Sarga-1, Verse-152",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-153",
+      "canonical_record_id": "CANONICAL-REC-153",
+      "locator": "Kanda-7, Sarga-1, Verse-153",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-154",
+      "canonical_record_id": "CANONICAL-REC-154",
+      "locator": "Kanda-1, Sarga-1, Verse-154",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-155",
+      "canonical_record_id": "CANONICAL-REC-155",
+      "locator": "Kanda-2, Sarga-1, Verse-155",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-156",
+      "canonical_record_id": "CANONICAL-REC-156",
+      "locator": "Kanda-3, Sarga-1, Verse-156",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-157",
+      "canonical_record_id": "CANONICAL-REC-157",
+      "locator": "Kanda-4, Sarga-1, Verse-157",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-158",
+      "canonical_record_id": "CANONICAL-REC-158",
+      "locator": "Kanda-5, Sarga-1, Verse-158",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-159",
+      "canonical_record_id": "CANONICAL-REC-159",
+      "locator": "Kanda-6, Sarga-1, Verse-159",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-160",
+      "canonical_record_id": "CANONICAL-REC-160",
+      "locator": "Kanda-7, Sarga-1, Verse-160",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-161",
+      "canonical_record_id": "CANONICAL-REC-161",
+      "locator": "Kanda-1, Sarga-1, Verse-161",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-162",
+      "canonical_record_id": "CANONICAL-REC-162",
+      "locator": "Kanda-2, Sarga-1, Verse-162",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-163",
+      "canonical_record_id": "CANONICAL-REC-163",
+      "locator": "Kanda-3, Sarga-1, Verse-163",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-164",
+      "canonical_record_id": "CANONICAL-REC-164",
+      "locator": "Kanda-4, Sarga-1, Verse-164",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-165",
+      "canonical_record_id": "CANONICAL-REC-165",
+      "locator": "Kanda-5, Sarga-1, Verse-165",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-166",
+      "canonical_record_id": "CANONICAL-REC-166",
+      "locator": "Kanda-6, Sarga-1, Verse-166",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-167",
+      "canonical_record_id": "CANONICAL-REC-167",
+      "locator": "Kanda-7, Sarga-1, Verse-167",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-168",
+      "canonical_record_id": "CANONICAL-REC-168",
+      "locator": "Kanda-1, Sarga-1, Verse-168",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-169",
+      "canonical_record_id": "CANONICAL-REC-169",
+      "locator": "Kanda-2, Sarga-1, Verse-169",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-170",
+      "canonical_record_id": "CANONICAL-REC-170",
+      "locator": "Kanda-3, Sarga-1, Verse-170",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-171",
+      "canonical_record_id": "CANONICAL-REC-171",
+      "locator": "Kanda-4, Sarga-1, Verse-171",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-172",
+      "canonical_record_id": "CANONICAL-REC-172",
+      "locator": "Kanda-5, Sarga-1, Verse-172",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-173",
+      "canonical_record_id": "CANONICAL-REC-173",
+      "locator": "Kanda-6, Sarga-1, Verse-173",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-174",
+      "canonical_record_id": "CANONICAL-REC-174",
+      "locator": "Kanda-7, Sarga-1, Verse-174",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-175",
+      "canonical_record_id": "CANONICAL-REC-175",
+      "locator": "Kanda-1, Sarga-1, Verse-175",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-176",
+      "canonical_record_id": "CANONICAL-REC-176",
+      "locator": "Kanda-2, Sarga-1, Verse-176",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-177",
+      "canonical_record_id": "CANONICAL-REC-177",
+      "locator": "Kanda-3, Sarga-1, Verse-177",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-178",
+      "canonical_record_id": "CANONICAL-REC-178",
+      "locator": "Kanda-4, Sarga-1, Verse-178",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-179",
+      "canonical_record_id": "CANONICAL-REC-179",
+      "locator": "Kanda-5, Sarga-1, Verse-179",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-180",
+      "canonical_record_id": "CANONICAL-REC-180",
+      "locator": "Kanda-6, Sarga-1, Verse-180",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-181",
+      "canonical_record_id": "CANONICAL-REC-181",
+      "locator": "Kanda-7, Sarga-1, Verse-181",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-182",
+      "canonical_record_id": "CANONICAL-REC-182",
+      "locator": "Kanda-1, Sarga-1, Verse-182",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-183",
+      "canonical_record_id": "CANONICAL-REC-183",
+      "locator": "Kanda-2, Sarga-1, Verse-183",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-184",
+      "canonical_record_id": "CANONICAL-REC-184",
+      "locator": "Kanda-3, Sarga-1, Verse-184",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-185",
+      "canonical_record_id": "CANONICAL-REC-185",
+      "locator": "Kanda-4, Sarga-1, Verse-185",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-186",
+      "canonical_record_id": "CANONICAL-REC-186",
+      "locator": "Kanda-5, Sarga-1, Verse-186",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-187",
+      "canonical_record_id": "CANONICAL-REC-187",
+      "locator": "Kanda-6, Sarga-1, Verse-187",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-188",
+      "canonical_record_id": "CANONICAL-REC-188",
+      "locator": "Kanda-7, Sarga-1, Verse-188",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-189",
+      "canonical_record_id": "CANONICAL-REC-189",
+      "locator": "Kanda-1, Sarga-1, Verse-189",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-190",
+      "canonical_record_id": "CANONICAL-REC-190",
+      "locator": "Kanda-2, Sarga-1, Verse-190",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-191",
+      "canonical_record_id": "CANONICAL-REC-191",
+      "locator": "Kanda-3, Sarga-1, Verse-191",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-192",
+      "canonical_record_id": "CANONICAL-REC-192",
+      "locator": "Kanda-4, Sarga-1, Verse-192",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-193",
+      "canonical_record_id": "CANONICAL-REC-193",
+      "locator": "Kanda-5, Sarga-1, Verse-193",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-194",
+      "canonical_record_id": "CANONICAL-REC-194",
+      "locator": "Kanda-6, Sarga-1, Verse-194",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-195",
+      "canonical_record_id": "CANONICAL-REC-195",
+      "locator": "Kanda-7, Sarga-1, Verse-195",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-196",
+      "canonical_record_id": "CANONICAL-REC-196",
+      "locator": "Kanda-1, Sarga-1, Verse-196",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-197",
+      "canonical_record_id": "CANONICAL-REC-197",
+      "locator": "Kanda-2, Sarga-1, Verse-197",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-198",
+      "canonical_record_id": "CANONICAL-REC-198",
+      "locator": "Kanda-3, Sarga-1, Verse-198",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-199",
+      "canonical_record_id": "CANONICAL-REC-199",
+      "locator": "Kanda-4, Sarga-1, Verse-199",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-200",
+      "canonical_record_id": "CANONICAL-REC-200",
+      "locator": "Kanda-5, Sarga-1, Verse-200",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-201",
+      "canonical_record_id": "CANONICAL-REC-201",
+      "locator": "Kanda-6, Sarga-1, Verse-201",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-202",
+      "canonical_record_id": "CANONICAL-REC-202",
+      "locator": "Kanda-7, Sarga-1, Verse-202",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-203",
+      "canonical_record_id": "CANONICAL-REC-203",
+      "locator": "Kanda-1, Sarga-1, Verse-203",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-204",
+      "canonical_record_id": "CANONICAL-REC-204",
+      "locator": "Kanda-2, Sarga-1, Verse-204",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-205",
+      "canonical_record_id": "CANONICAL-REC-205",
+      "locator": "Kanda-3, Sarga-1, Verse-205",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-206",
+      "canonical_record_id": "CANONICAL-REC-206",
+      "locator": "Kanda-4, Sarga-1, Verse-206",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-207",
+      "canonical_record_id": "CANONICAL-REC-207",
+      "locator": "Kanda-5, Sarga-1, Verse-207",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-208",
+      "canonical_record_id": "CANONICAL-REC-208",
+      "locator": "Kanda-6, Sarga-1, Verse-208",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-209",
+      "canonical_record_id": "CANONICAL-REC-209",
+      "locator": "Kanda-7, Sarga-1, Verse-209",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-210",
+      "canonical_record_id": "CANONICAL-REC-210",
+      "locator": "Kanda-1, Sarga-1, Verse-210",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-211",
+      "canonical_record_id": "CANONICAL-REC-211",
+      "locator": "Kanda-2, Sarga-1, Verse-211",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-212",
+      "canonical_record_id": "CANONICAL-REC-212",
+      "locator": "Kanda-3, Sarga-1, Verse-212",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-213",
+      "canonical_record_id": "CANONICAL-REC-213",
+      "locator": "Kanda-4, Sarga-1, Verse-213",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-214",
+      "canonical_record_id": "CANONICAL-REC-214",
+      "locator": "Kanda-5, Sarga-1, Verse-214",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-215",
+      "canonical_record_id": "CANONICAL-REC-215",
+      "locator": "Kanda-6, Sarga-1, Verse-215",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-216",
+      "canonical_record_id": "CANONICAL-REC-216",
+      "locator": "Kanda-7, Sarga-1, Verse-216",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-217",
+      "canonical_record_id": "CANONICAL-REC-217",
+      "locator": "Kanda-1, Sarga-1, Verse-217",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-218",
+      "canonical_record_id": "CANONICAL-REC-218",
+      "locator": "Kanda-2, Sarga-1, Verse-218",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-219",
+      "canonical_record_id": "CANONICAL-REC-219",
+      "locator": "Kanda-3, Sarga-1, Verse-219",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-220",
+      "canonical_record_id": "CANONICAL-REC-220",
+      "locator": "Kanda-4, Sarga-1, Verse-220",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-221",
+      "canonical_record_id": "CANONICAL-REC-221",
+      "locator": "Kanda-5, Sarga-1, Verse-221",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-222",
+      "canonical_record_id": "CANONICAL-REC-222",
+      "locator": "Kanda-6, Sarga-1, Verse-222",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-223",
+      "canonical_record_id": "CANONICAL-REC-223",
+      "locator": "Kanda-7, Sarga-1, Verse-223",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-224",
+      "canonical_record_id": "CANONICAL-REC-224",
+      "locator": "Kanda-1, Sarga-1, Verse-224",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-225",
+      "canonical_record_id": "CANONICAL-REC-225",
+      "locator": "Kanda-2, Sarga-1, Verse-225",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-226",
+      "canonical_record_id": "CANONICAL-REC-226",
+      "locator": "Kanda-3, Sarga-1, Verse-226",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-227",
+      "canonical_record_id": "CANONICAL-REC-227",
+      "locator": "Kanda-4, Sarga-1, Verse-227",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-228",
+      "canonical_record_id": "CANONICAL-REC-228",
+      "locator": "Kanda-5, Sarga-1, Verse-228",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-229",
+      "canonical_record_id": "CANONICAL-REC-229",
+      "locator": "Kanda-6, Sarga-1, Verse-229",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-230",
+      "canonical_record_id": "CANONICAL-REC-230",
+      "locator": "Kanda-7, Sarga-1, Verse-230",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-231",
+      "canonical_record_id": "CANONICAL-REC-231",
+      "locator": "Kanda-1, Sarga-1, Verse-231",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-232",
+      "canonical_record_id": "CANONICAL-REC-232",
+      "locator": "Kanda-2, Sarga-1, Verse-232",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-233",
+      "canonical_record_id": "CANONICAL-REC-233",
+      "locator": "Kanda-3, Sarga-1, Verse-233",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-234",
+      "canonical_record_id": "CANONICAL-REC-234",
+      "locator": "Kanda-4, Sarga-1, Verse-234",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-235",
+      "canonical_record_id": "CANONICAL-REC-235",
+      "locator": "Kanda-5, Sarga-1, Verse-235",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-236",
+      "canonical_record_id": "CANONICAL-REC-236",
+      "locator": "Kanda-6, Sarga-1, Verse-236",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-237",
+      "canonical_record_id": "CANONICAL-REC-237",
+      "locator": "Kanda-7, Sarga-1, Verse-237",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-238",
+      "canonical_record_id": "CANONICAL-REC-238",
+      "locator": "Kanda-1, Sarga-1, Verse-238",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-239",
+      "canonical_record_id": "CANONICAL-REC-239",
+      "locator": "Kanda-2, Sarga-1, Verse-239",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-240",
+      "canonical_record_id": "CANONICAL-REC-240",
+      "locator": "Kanda-3, Sarga-1, Verse-240",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-241",
+      "canonical_record_id": "CANONICAL-REC-241",
+      "locator": "Kanda-4, Sarga-1, Verse-241",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-242",
+      "canonical_record_id": "CANONICAL-REC-242",
+      "locator": "Kanda-5, Sarga-1, Verse-242",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-243",
+      "canonical_record_id": "CANONICAL-REC-243",
+      "locator": "Kanda-6, Sarga-1, Verse-243",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-244",
+      "canonical_record_id": "CANONICAL-REC-244",
+      "locator": "Kanda-7, Sarga-1, Verse-244",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-245",
+      "canonical_record_id": "CANONICAL-REC-245",
+      "locator": "Kanda-1, Sarga-1, Verse-245",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-246",
+      "canonical_record_id": "CANONICAL-REC-246",
+      "locator": "Kanda-2, Sarga-1, Verse-246",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-247",
+      "canonical_record_id": "CANONICAL-REC-247",
+      "locator": "Kanda-3, Sarga-1, Verse-247",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-248",
+      "canonical_record_id": "CANONICAL-REC-248",
+      "locator": "Kanda-4, Sarga-1, Verse-248",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-249",
+      "canonical_record_id": "CANONICAL-REC-249",
+      "locator": "Kanda-5, Sarga-1, Verse-249",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-250",
+      "canonical_record_id": "CANONICAL-REC-250",
+      "locator": "Kanda-6, Sarga-1, Verse-250",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-251",
+      "canonical_record_id": "CANONICAL-REC-251",
+      "locator": "Kanda-7, Sarga-1, Verse-251",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-252",
+      "canonical_record_id": "CANONICAL-REC-252",
+      "locator": "Kanda-1, Sarga-1, Verse-252",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-253",
+      "canonical_record_id": "CANONICAL-REC-253",
+      "locator": "Kanda-2, Sarga-1, Verse-253",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-254",
+      "canonical_record_id": "CANONICAL-REC-254",
+      "locator": "Kanda-3, Sarga-1, Verse-254",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-255",
+      "canonical_record_id": "CANONICAL-REC-255",
+      "locator": "Kanda-4, Sarga-1, Verse-255",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-256",
+      "canonical_record_id": "CANONICAL-REC-256",
+      "locator": "Kanda-5, Sarga-1, Verse-256",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-257",
+      "canonical_record_id": "CANONICAL-REC-257",
+      "locator": "Kanda-6, Sarga-1, Verse-257",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-258",
+      "canonical_record_id": "CANONICAL-REC-258",
+      "locator": "Kanda-7, Sarga-1, Verse-258",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-259",
+      "canonical_record_id": "CANONICAL-REC-259",
+      "locator": "Kanda-1, Sarga-1, Verse-259",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-260",
+      "canonical_record_id": "CANONICAL-REC-260",
+      "locator": "Kanda-2, Sarga-1, Verse-260",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-261",
+      "canonical_record_id": "CANONICAL-REC-261",
+      "locator": "Kanda-3, Sarga-1, Verse-261",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-262",
+      "canonical_record_id": "CANONICAL-REC-262",
+      "locator": "Kanda-4, Sarga-1, Verse-262",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-263",
+      "canonical_record_id": "CANONICAL-REC-263",
+      "locator": "Kanda-5, Sarga-1, Verse-263",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-264",
+      "canonical_record_id": "CANONICAL-REC-264",
+      "locator": "Kanda-6, Sarga-1, Verse-264",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-265",
+      "canonical_record_id": "CANONICAL-REC-265",
+      "locator": "Kanda-7, Sarga-1, Verse-265",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-266",
+      "canonical_record_id": "CANONICAL-REC-266",
+      "locator": "Kanda-1, Sarga-1, Verse-266",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-267",
+      "canonical_record_id": "CANONICAL-REC-267",
+      "locator": "Kanda-2, Sarga-1, Verse-267",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-268",
+      "canonical_record_id": "CANONICAL-REC-268",
+      "locator": "Kanda-3, Sarga-1, Verse-268",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-269",
+      "canonical_record_id": "CANONICAL-REC-269",
+      "locator": "Kanda-4, Sarga-1, Verse-269",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-270",
+      "canonical_record_id": "CANONICAL-REC-270",
+      "locator": "Kanda-5, Sarga-1, Verse-270",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-271",
+      "canonical_record_id": "CANONICAL-REC-271",
+      "locator": "Kanda-6, Sarga-1, Verse-271",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-272",
+      "canonical_record_id": "CANONICAL-REC-272",
+      "locator": "Kanda-7, Sarga-1, Verse-272",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-273",
+      "canonical_record_id": "CANONICAL-REC-273",
+      "locator": "Kanda-1, Sarga-1, Verse-273",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-274",
+      "canonical_record_id": "CANONICAL-REC-274",
+      "locator": "Kanda-2, Sarga-1, Verse-274",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-275",
+      "canonical_record_id": "CANONICAL-REC-275",
+      "locator": "Kanda-3, Sarga-1, Verse-275",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-276",
+      "canonical_record_id": "CANONICAL-REC-276",
+      "locator": "Kanda-4, Sarga-1, Verse-276",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-277",
+      "canonical_record_id": "CANONICAL-REC-277",
+      "locator": "Kanda-5, Sarga-1, Verse-277",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-278",
+      "canonical_record_id": "CANONICAL-REC-278",
+      "locator": "Kanda-6, Sarga-1, Verse-278",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-279",
+      "canonical_record_id": "CANONICAL-REC-279",
+      "locator": "Kanda-7, Sarga-1, Verse-279",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-280",
+      "canonical_record_id": "CANONICAL-REC-280",
+      "locator": "Kanda-1, Sarga-1, Verse-280",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-281",
+      "canonical_record_id": "CANONICAL-REC-281",
+      "locator": "Kanda-2, Sarga-1, Verse-281",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-282",
+      "canonical_record_id": "CANONICAL-REC-282",
+      "locator": "Kanda-3, Sarga-1, Verse-282",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-283",
+      "canonical_record_id": "CANONICAL-REC-283",
+      "locator": "Kanda-4, Sarga-1, Verse-283",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-284",
+      "canonical_record_id": "CANONICAL-REC-284",
+      "locator": "Kanda-5, Sarga-1, Verse-284",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-285",
+      "canonical_record_id": "CANONICAL-REC-285",
+      "locator": "Kanda-6, Sarga-1, Verse-285",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-286",
+      "canonical_record_id": "CANONICAL-REC-286",
+      "locator": "Kanda-7, Sarga-1, Verse-286",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-287",
+      "canonical_record_id": "CANONICAL-REC-287",
+      "locator": "Kanda-1, Sarga-1, Verse-287",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-288",
+      "canonical_record_id": "CANONICAL-REC-288",
+      "locator": "Kanda-2, Sarga-1, Verse-288",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-289",
+      "canonical_record_id": "CANONICAL-REC-289",
+      "locator": "Kanda-3, Sarga-1, Verse-289",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-290",
+      "canonical_record_id": "CANONICAL-REC-290",
+      "locator": "Kanda-4, Sarga-1, Verse-290",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-291",
+      "canonical_record_id": "CANONICAL-REC-291",
+      "locator": "Kanda-5, Sarga-1, Verse-291",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-292",
+      "canonical_record_id": "CANONICAL-REC-292",
+      "locator": "Kanda-6, Sarga-1, Verse-292",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-293",
+      "canonical_record_id": "CANONICAL-REC-293",
+      "locator": "Kanda-7, Sarga-1, Verse-293",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-294",
+      "canonical_record_id": "CANONICAL-REC-294",
+      "locator": "Kanda-1, Sarga-1, Verse-294",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-295",
+      "canonical_record_id": "CANONICAL-REC-295",
+      "locator": "Kanda-2, Sarga-1, Verse-295",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-296",
+      "canonical_record_id": "CANONICAL-REC-296",
+      "locator": "Kanda-3, Sarga-1, Verse-296",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-297",
+      "canonical_record_id": "CANONICAL-REC-297",
+      "locator": "Kanda-4, Sarga-1, Verse-297",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-298",
+      "canonical_record_id": "CANONICAL-REC-298",
+      "locator": "Kanda-5, Sarga-1, Verse-298",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-299",
+      "canonical_record_id": "CANONICAL-REC-299",
+      "locator": "Kanda-6, Sarga-1, Verse-299",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-300",
+      "canonical_record_id": "CANONICAL-REC-300",
+      "locator": "Kanda-7, Sarga-1, Verse-300",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-301",
+      "canonical_record_id": "CANONICAL-REC-301",
+      "locator": "Kanda-1, Sarga-1, Verse-301",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-302",
+      "canonical_record_id": "CANONICAL-REC-302",
+      "locator": "Kanda-2, Sarga-1, Verse-302",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-303",
+      "canonical_record_id": "CANONICAL-REC-303",
+      "locator": "Kanda-3, Sarga-1, Verse-303",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-304",
+      "canonical_record_id": "CANONICAL-REC-304",
+      "locator": "Kanda-4, Sarga-1, Verse-304",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-305",
+      "canonical_record_id": "CANONICAL-REC-305",
+      "locator": "Kanda-5, Sarga-1, Verse-305",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-306",
+      "canonical_record_id": "CANONICAL-REC-306",
+      "locator": "Kanda-6, Sarga-1, Verse-306",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-307",
+      "canonical_record_id": "CANONICAL-REC-307",
+      "locator": "Kanda-7, Sarga-1, Verse-307",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-308",
+      "canonical_record_id": "CANONICAL-REC-308",
+      "locator": "Kanda-1, Sarga-1, Verse-308",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-309",
+      "canonical_record_id": "CANONICAL-REC-309",
+      "locator": "Kanda-2, Sarga-1, Verse-309",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-310",
+      "canonical_record_id": "CANONICAL-REC-310",
+      "locator": "Kanda-3, Sarga-1, Verse-310",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-311",
+      "canonical_record_id": "CANONICAL-REC-311",
+      "locator": "Kanda-4, Sarga-1, Verse-311",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-312",
+      "canonical_record_id": "CANONICAL-REC-312",
+      "locator": "Kanda-5, Sarga-1, Verse-312",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-313",
+      "canonical_record_id": "CANONICAL-REC-313",
+      "locator": "Kanda-6, Sarga-1, Verse-313",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-314",
+      "canonical_record_id": "CANONICAL-REC-314",
+      "locator": "Kanda-7, Sarga-1, Verse-314",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-315",
+      "canonical_record_id": "CANONICAL-REC-315",
+      "locator": "Kanda-1, Sarga-1, Verse-315",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-316",
+      "canonical_record_id": "CANONICAL-REC-316",
+      "locator": "Kanda-2, Sarga-1, Verse-316",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-317",
+      "canonical_record_id": "CANONICAL-REC-317",
+      "locator": "Kanda-3, Sarga-1, Verse-317",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-318",
+      "canonical_record_id": "CANONICAL-REC-318",
+      "locator": "Kanda-4, Sarga-1, Verse-318",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-319",
+      "canonical_record_id": "CANONICAL-REC-319",
+      "locator": "Kanda-5, Sarga-1, Verse-319",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-320",
+      "canonical_record_id": "CANONICAL-REC-320",
+      "locator": "Kanda-6, Sarga-1, Verse-320",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-321",
+      "canonical_record_id": "CANONICAL-REC-321",
+      "locator": "Kanda-7, Sarga-1, Verse-321",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-322",
+      "canonical_record_id": "CANONICAL-REC-322",
+      "locator": "Kanda-1, Sarga-1, Verse-322",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-323",
+      "canonical_record_id": "CANONICAL-REC-323",
+      "locator": "Kanda-2, Sarga-1, Verse-323",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-324",
+      "canonical_record_id": "CANONICAL-REC-324",
+      "locator": "Kanda-3, Sarga-1, Verse-324",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-325",
+      "canonical_record_id": "CANONICAL-REC-325",
+      "locator": "Kanda-4, Sarga-1, Verse-325",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-326",
+      "canonical_record_id": "CANONICAL-REC-326",
+      "locator": "Kanda-5, Sarga-1, Verse-326",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-327",
+      "canonical_record_id": "CANONICAL-REC-327",
+      "locator": "Kanda-6, Sarga-1, Verse-327",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-328",
+      "canonical_record_id": "CANONICAL-REC-328",
+      "locator": "Kanda-7, Sarga-1, Verse-328",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-329",
+      "canonical_record_id": "CANONICAL-REC-329",
+      "locator": "Kanda-1, Sarga-1, Verse-329",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-330",
+      "canonical_record_id": "CANONICAL-REC-330",
+      "locator": "Kanda-2, Sarga-1, Verse-330",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-331",
+      "canonical_record_id": "CANONICAL-REC-331",
+      "locator": "Kanda-3, Sarga-1, Verse-331",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-332",
+      "canonical_record_id": "CANONICAL-REC-332",
+      "locator": "Kanda-4, Sarga-1, Verse-332",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-333",
+      "canonical_record_id": "CANONICAL-REC-333",
+      "locator": "Kanda-5, Sarga-1, Verse-333",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-334",
+      "canonical_record_id": "CANONICAL-REC-334",
+      "locator": "Kanda-6, Sarga-1, Verse-334",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-335",
+      "canonical_record_id": "CANONICAL-REC-335",
+      "locator": "Kanda-7, Sarga-1, Verse-335",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-336",
+      "canonical_record_id": "CANONICAL-REC-336",
+      "locator": "Kanda-1, Sarga-1, Verse-336",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-337",
+      "canonical_record_id": "CANONICAL-REC-337",
+      "locator": "Kanda-2, Sarga-1, Verse-337",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-338",
+      "canonical_record_id": "CANONICAL-REC-338",
+      "locator": "Kanda-3, Sarga-1, Verse-338",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-339",
+      "canonical_record_id": "CANONICAL-REC-339",
+      "locator": "Kanda-4, Sarga-1, Verse-339",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-340",
+      "canonical_record_id": "CANONICAL-REC-340",
+      "locator": "Kanda-5, Sarga-1, Verse-340",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-341",
+      "canonical_record_id": "CANONICAL-REC-341",
+      "locator": "Kanda-6, Sarga-1, Verse-341",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-342",
+      "canonical_record_id": "CANONICAL-REC-342",
+      "locator": "Kanda-7, Sarga-1, Verse-342",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-343",
+      "canonical_record_id": "CANONICAL-REC-343",
+      "locator": "Kanda-1, Sarga-1, Verse-343",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-344",
+      "canonical_record_id": "CANONICAL-REC-344",
+      "locator": "Kanda-2, Sarga-1, Verse-344",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-345",
+      "canonical_record_id": "CANONICAL-REC-345",
+      "locator": "Kanda-3, Sarga-1, Verse-345",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-346",
+      "canonical_record_id": "CANONICAL-REC-346",
+      "locator": "Kanda-4, Sarga-1, Verse-346",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-347",
+      "canonical_record_id": "CANONICAL-REC-347",
+      "locator": "Kanda-5, Sarga-1, Verse-347",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-348",
+      "canonical_record_id": "CANONICAL-REC-348",
+      "locator": "Kanda-6, Sarga-1, Verse-348",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-349",
+      "canonical_record_id": "CANONICAL-REC-349",
+      "locator": "Kanda-7, Sarga-1, Verse-349",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-350",
+      "canonical_record_id": "CANONICAL-REC-350",
+      "locator": "Kanda-1, Sarga-1, Verse-350",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-351",
+      "canonical_record_id": "CANONICAL-REC-351",
+      "locator": "Kanda-2, Sarga-1, Verse-351",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-352",
+      "canonical_record_id": "CANONICAL-REC-352",
+      "locator": "Kanda-3, Sarga-1, Verse-352",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-353",
+      "canonical_record_id": "CANONICAL-REC-353",
+      "locator": "Kanda-4, Sarga-1, Verse-353",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-354",
+      "canonical_record_id": "CANONICAL-REC-354",
+      "locator": "Kanda-5, Sarga-1, Verse-354",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-355",
+      "canonical_record_id": "CANONICAL-REC-355",
+      "locator": "Kanda-6, Sarga-1, Verse-355",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-356",
+      "canonical_record_id": "CANONICAL-REC-356",
+      "locator": "Kanda-7, Sarga-1, Verse-356",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-357",
+      "canonical_record_id": "CANONICAL-REC-357",
+      "locator": "Kanda-1, Sarga-1, Verse-357",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-358",
+      "canonical_record_id": "CANONICAL-REC-358",
+      "locator": "Kanda-2, Sarga-1, Verse-358",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-359",
+      "canonical_record_id": "CANONICAL-REC-359",
+      "locator": "Kanda-3, Sarga-1, Verse-359",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-360",
+      "canonical_record_id": "CANONICAL-REC-360",
+      "locator": "Kanda-4, Sarga-1, Verse-360",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-361",
+      "canonical_record_id": "CANONICAL-REC-361",
+      "locator": "Kanda-5, Sarga-1, Verse-361",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-362",
+      "canonical_record_id": "CANONICAL-REC-362",
+      "locator": "Kanda-6, Sarga-1, Verse-362",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-363",
+      "canonical_record_id": "CANONICAL-REC-363",
+      "locator": "Kanda-7, Sarga-1, Verse-363",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-364",
+      "canonical_record_id": "CANONICAL-REC-364",
+      "locator": "Kanda-1, Sarga-1, Verse-364",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-365",
+      "canonical_record_id": "CANONICAL-REC-365",
+      "locator": "Kanda-2, Sarga-1, Verse-365",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-366",
+      "canonical_record_id": "CANONICAL-REC-366",
+      "locator": "Kanda-3, Sarga-1, Verse-366",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-367",
+      "canonical_record_id": "CANONICAL-REC-367",
+      "locator": "Kanda-4, Sarga-1, Verse-367",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-368",
+      "canonical_record_id": "CANONICAL-REC-368",
+      "locator": "Kanda-5, Sarga-1, Verse-368",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-369",
+      "canonical_record_id": "CANONICAL-REC-369",
+      "locator": "Kanda-6, Sarga-1, Verse-369",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-370",
+      "canonical_record_id": "CANONICAL-REC-370",
+      "locator": "Kanda-7, Sarga-1, Verse-370",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-371",
+      "canonical_record_id": "CANONICAL-REC-371",
+      "locator": "Kanda-1, Sarga-1, Verse-371",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-372",
+      "canonical_record_id": "CANONICAL-REC-372",
+      "locator": "Kanda-2, Sarga-1, Verse-372",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-373",
+      "canonical_record_id": "CANONICAL-REC-373",
+      "locator": "Kanda-3, Sarga-1, Verse-373",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-374",
+      "canonical_record_id": "CANONICAL-REC-374",
+      "locator": "Kanda-4, Sarga-1, Verse-374",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-375",
+      "canonical_record_id": "CANONICAL-REC-375",
+      "locator": "Kanda-5, Sarga-1, Verse-375",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-376",
+      "canonical_record_id": "CANONICAL-REC-376",
+      "locator": "Kanda-6, Sarga-1, Verse-376",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-377",
+      "canonical_record_id": "CANONICAL-REC-377",
+      "locator": "Kanda-7, Sarga-1, Verse-377",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-378",
+      "canonical_record_id": "CANONICAL-REC-378",
+      "locator": "Kanda-1, Sarga-1, Verse-378",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-379",
+      "canonical_record_id": "CANONICAL-REC-379",
+      "locator": "Kanda-2, Sarga-1, Verse-379",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-380",
+      "canonical_record_id": "CANONICAL-REC-380",
+      "locator": "Kanda-3, Sarga-1, Verse-380",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-381",
+      "canonical_record_id": "CANONICAL-REC-381",
+      "locator": "Kanda-4, Sarga-1, Verse-381",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-382",
+      "canonical_record_id": "CANONICAL-REC-382",
+      "locator": "Kanda-5, Sarga-1, Verse-382",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-383",
+      "canonical_record_id": "CANONICAL-REC-383",
+      "locator": "Kanda-6, Sarga-1, Verse-383",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-384",
+      "canonical_record_id": "CANONICAL-REC-384",
+      "locator": "Kanda-7, Sarga-1, Verse-384",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-385",
+      "canonical_record_id": "CANONICAL-REC-385",
+      "locator": "Kanda-1, Sarga-1, Verse-385",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-386",
+      "canonical_record_id": "CANONICAL-REC-386",
+      "locator": "Kanda-2, Sarga-1, Verse-386",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-387",
+      "canonical_record_id": "CANONICAL-REC-387",
+      "locator": "Kanda-3, Sarga-1, Verse-387",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-388",
+      "canonical_record_id": "CANONICAL-REC-388",
+      "locator": "Kanda-4, Sarga-1, Verse-388",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-389",
+      "canonical_record_id": "CANONICAL-REC-389",
+      "locator": "Kanda-5, Sarga-1, Verse-389",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-390",
+      "canonical_record_id": "CANONICAL-REC-390",
+      "locator": "Kanda-6, Sarga-1, Verse-390",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-391",
+      "canonical_record_id": "CANONICAL-REC-391",
+      "locator": "Kanda-7, Sarga-1, Verse-391",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-392",
+      "canonical_record_id": "CANONICAL-REC-392",
+      "locator": "Kanda-1, Sarga-1, Verse-392",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-393",
+      "canonical_record_id": "CANONICAL-REC-393",
+      "locator": "Kanda-2, Sarga-1, Verse-393",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-394",
+      "canonical_record_id": "CANONICAL-REC-394",
+      "locator": "Kanda-3, Sarga-1, Verse-394",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-395",
+      "canonical_record_id": "CANONICAL-REC-395",
+      "locator": "Kanda-4, Sarga-1, Verse-395",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-396",
+      "canonical_record_id": "CANONICAL-REC-396",
+      "locator": "Kanda-5, Sarga-1, Verse-396",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-397",
+      "canonical_record_id": "CANONICAL-REC-397",
+      "locator": "Kanda-6, Sarga-1, Verse-397",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-398",
+      "canonical_record_id": "CANONICAL-REC-398",
+      "locator": "Kanda-7, Sarga-1, Verse-398",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-399",
+      "canonical_record_id": "CANONICAL-REC-399",
+      "locator": "Kanda-1, Sarga-1, Verse-399",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-400",
+      "canonical_record_id": "CANONICAL-REC-400",
+      "locator": "Kanda-2, Sarga-1, Verse-400",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-401",
+      "canonical_record_id": "CANONICAL-REC-401",
+      "locator": "Kanda-3, Sarga-1, Verse-401",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-402",
+      "canonical_record_id": "CANONICAL-REC-402",
+      "locator": "Kanda-4, Sarga-1, Verse-402",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-403",
+      "canonical_record_id": "CANONICAL-REC-403",
+      "locator": "Kanda-5, Sarga-1, Verse-403",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-404",
+      "canonical_record_id": "CANONICAL-REC-404",
+      "locator": "Kanda-6, Sarga-1, Verse-404",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-405",
+      "canonical_record_id": "CANONICAL-REC-405",
+      "locator": "Kanda-7, Sarga-1, Verse-405",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-406",
+      "canonical_record_id": "CANONICAL-REC-406",
+      "locator": "Kanda-1, Sarga-1, Verse-406",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-407",
+      "canonical_record_id": "CANONICAL-REC-407",
+      "locator": "Kanda-2, Sarga-1, Verse-407",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-408",
+      "canonical_record_id": "CANONICAL-REC-408",
+      "locator": "Kanda-3, Sarga-1, Verse-408",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-409",
+      "canonical_record_id": "CANONICAL-REC-409",
+      "locator": "Kanda-4, Sarga-1, Verse-409",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-410",
+      "canonical_record_id": "CANONICAL-REC-410",
+      "locator": "Kanda-5, Sarga-1, Verse-410",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-411",
+      "canonical_record_id": "CANONICAL-REC-411",
+      "locator": "Kanda-6, Sarga-1, Verse-411",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-412",
+      "canonical_record_id": "CANONICAL-REC-412",
+      "locator": "Kanda-7, Sarga-1, Verse-412",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-413",
+      "canonical_record_id": "CANONICAL-REC-413",
+      "locator": "Kanda-1, Sarga-1, Verse-413",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-414",
+      "canonical_record_id": "CANONICAL-REC-414",
+      "locator": "Kanda-2, Sarga-1, Verse-414",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-415",
+      "canonical_record_id": "CANONICAL-REC-415",
+      "locator": "Kanda-3, Sarga-1, Verse-415",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-416",
+      "canonical_record_id": "CANONICAL-REC-416",
+      "locator": "Kanda-4, Sarga-1, Verse-416",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-417",
+      "canonical_record_id": "CANONICAL-REC-417",
+      "locator": "Kanda-5, Sarga-1, Verse-417",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-418",
+      "canonical_record_id": "CANONICAL-REC-418",
+      "locator": "Kanda-6, Sarga-1, Verse-418",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-419",
+      "canonical_record_id": "CANONICAL-REC-419",
+      "locator": "Kanda-7, Sarga-1, Verse-419",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-420",
+      "canonical_record_id": "CANONICAL-REC-420",
+      "locator": "Kanda-1, Sarga-1, Verse-420",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-421",
+      "canonical_record_id": "CANONICAL-REC-421",
+      "locator": "Kanda-2, Sarga-1, Verse-421",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-422",
+      "canonical_record_id": "CANONICAL-REC-422",
+      "locator": "Kanda-3, Sarga-1, Verse-422",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-423",
+      "canonical_record_id": "CANONICAL-REC-423",
+      "locator": "Kanda-4, Sarga-1, Verse-423",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-424",
+      "canonical_record_id": "CANONICAL-REC-424",
+      "locator": "Kanda-5, Sarga-1, Verse-424",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-425",
+      "canonical_record_id": "CANONICAL-REC-425",
+      "locator": "Kanda-6, Sarga-1, Verse-425",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-426",
+      "canonical_record_id": "CANONICAL-REC-426",
+      "locator": "Kanda-7, Sarga-1, Verse-426",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-427",
+      "canonical_record_id": "CANONICAL-REC-427",
+      "locator": "Kanda-1, Sarga-1, Verse-427",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-428",
+      "canonical_record_id": "CANONICAL-REC-428",
+      "locator": "Kanda-2, Sarga-1, Verse-428",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-429",
+      "canonical_record_id": "CANONICAL-REC-429",
+      "locator": "Kanda-3, Sarga-1, Verse-429",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-430",
+      "canonical_record_id": "CANONICAL-REC-430",
+      "locator": "Kanda-4, Sarga-1, Verse-430",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-431",
+      "canonical_record_id": "CANONICAL-REC-431",
+      "locator": "Kanda-5, Sarga-1, Verse-431",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-432",
+      "canonical_record_id": "CANONICAL-REC-432",
+      "locator": "Kanda-6, Sarga-1, Verse-432",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-433",
+      "canonical_record_id": "CANONICAL-REC-433",
+      "locator": "Kanda-7, Sarga-1, Verse-433",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-434",
+      "canonical_record_id": "CANONICAL-REC-434",
+      "locator": "Kanda-1, Sarga-1, Verse-434",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-435",
+      "canonical_record_id": "CANONICAL-REC-435",
+      "locator": "Kanda-2, Sarga-1, Verse-435",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-436",
+      "canonical_record_id": "CANONICAL-REC-436",
+      "locator": "Kanda-3, Sarga-1, Verse-436",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-437",
+      "canonical_record_id": "CANONICAL-REC-437",
+      "locator": "Kanda-4, Sarga-1, Verse-437",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-438",
+      "canonical_record_id": "CANONICAL-REC-438",
+      "locator": "Kanda-5, Sarga-1, Verse-438",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-439",
+      "canonical_record_id": "CANONICAL-REC-439",
+      "locator": "Kanda-6, Sarga-1, Verse-439",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-440",
+      "canonical_record_id": "CANONICAL-REC-440",
+      "locator": "Kanda-7, Sarga-1, Verse-440",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-441",
+      "canonical_record_id": "CANONICAL-REC-441",
+      "locator": "Kanda-1, Sarga-1, Verse-441",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-442",
+      "canonical_record_id": "CANONICAL-REC-442",
+      "locator": "Kanda-2, Sarga-1, Verse-442",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-443",
+      "canonical_record_id": "CANONICAL-REC-443",
+      "locator": "Kanda-3, Sarga-1, Verse-443",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-444",
+      "canonical_record_id": "CANONICAL-REC-444",
+      "locator": "Kanda-4, Sarga-1, Verse-444",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-445",
+      "canonical_record_id": "CANONICAL-REC-445",
+      "locator": "Kanda-5, Sarga-1, Verse-445",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-446",
+      "canonical_record_id": "CANONICAL-REC-446",
+      "locator": "Kanda-6, Sarga-1, Verse-446",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-447",
+      "canonical_record_id": "CANONICAL-REC-447",
+      "locator": "Kanda-7, Sarga-1, Verse-447",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-448",
+      "canonical_record_id": "CANONICAL-REC-448",
+      "locator": "Kanda-1, Sarga-1, Verse-448",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-449",
+      "canonical_record_id": "CANONICAL-REC-449",
+      "locator": "Kanda-2, Sarga-1, Verse-449",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-450",
+      "canonical_record_id": "CANONICAL-REC-450",
+      "locator": "Kanda-3, Sarga-1, Verse-450",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-451",
+      "canonical_record_id": "CANONICAL-REC-451",
+      "locator": "Kanda-4, Sarga-1, Verse-451",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-452",
+      "canonical_record_id": "CANONICAL-REC-452",
+      "locator": "Kanda-5, Sarga-1, Verse-452",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-453",
+      "canonical_record_id": "CANONICAL-REC-453",
+      "locator": "Kanda-6, Sarga-1, Verse-453",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-454",
+      "canonical_record_id": "CANONICAL-REC-454",
+      "locator": "Kanda-7, Sarga-1, Verse-454",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-455",
+      "canonical_record_id": "CANONICAL-REC-455",
+      "locator": "Kanda-1, Sarga-1, Verse-455",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-456",
+      "canonical_record_id": "CANONICAL-REC-456",
+      "locator": "Kanda-2, Sarga-1, Verse-456",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-457",
+      "canonical_record_id": "CANONICAL-REC-457",
+      "locator": "Kanda-3, Sarga-1, Verse-457",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-458",
+      "canonical_record_id": "CANONICAL-REC-458",
+      "locator": "Kanda-4, Sarga-1, Verse-458",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-459",
+      "canonical_record_id": "CANONICAL-REC-459",
+      "locator": "Kanda-5, Sarga-1, Verse-459",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-460",
+      "canonical_record_id": "CANONICAL-REC-460",
+      "locator": "Kanda-6, Sarga-1, Verse-460",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-461",
+      "canonical_record_id": "CANONICAL-REC-461",
+      "locator": "Kanda-7, Sarga-1, Verse-461",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-462",
+      "canonical_record_id": "CANONICAL-REC-462",
+      "locator": "Kanda-1, Sarga-1, Verse-462",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-463",
+      "canonical_record_id": "CANONICAL-REC-463",
+      "locator": "Kanda-2, Sarga-1, Verse-463",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-464",
+      "canonical_record_id": "CANONICAL-REC-464",
+      "locator": "Kanda-3, Sarga-1, Verse-464",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-465",
+      "canonical_record_id": "CANONICAL-REC-465",
+      "locator": "Kanda-4, Sarga-1, Verse-465",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-466",
+      "canonical_record_id": "CANONICAL-REC-466",
+      "locator": "Kanda-5, Sarga-1, Verse-466",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-467",
+      "canonical_record_id": "CANONICAL-REC-467",
+      "locator": "Kanda-6, Sarga-1, Verse-467",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-468",
+      "canonical_record_id": "CANONICAL-REC-468",
+      "locator": "Kanda-7, Sarga-1, Verse-468",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-469",
+      "canonical_record_id": "CANONICAL-REC-469",
+      "locator": "Kanda-1, Sarga-1, Verse-469",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-470",
+      "canonical_record_id": "CANONICAL-REC-470",
+      "locator": "Kanda-2, Sarga-1, Verse-470",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-471",
+      "canonical_record_id": "CANONICAL-REC-471",
+      "locator": "Kanda-3, Sarga-1, Verse-471",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-472",
+      "canonical_record_id": "CANONICAL-REC-472",
+      "locator": "Kanda-4, Sarga-1, Verse-472",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-473",
+      "canonical_record_id": "CANONICAL-REC-473",
+      "locator": "Kanda-5, Sarga-1, Verse-473",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-474",
+      "canonical_record_id": "CANONICAL-REC-474",
+      "locator": "Kanda-6, Sarga-1, Verse-474",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-475",
+      "canonical_record_id": "CANONICAL-REC-475",
+      "locator": "Kanda-7, Sarga-1, Verse-475",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-476",
+      "canonical_record_id": "CANONICAL-REC-476",
+      "locator": "Kanda-1, Sarga-1, Verse-476",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-477",
+      "canonical_record_id": "CANONICAL-REC-477",
+      "locator": "Kanda-2, Sarga-1, Verse-477",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-478",
+      "canonical_record_id": "CANONICAL-REC-478",
+      "locator": "Kanda-3, Sarga-1, Verse-478",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-479",
+      "canonical_record_id": "CANONICAL-REC-479",
+      "locator": "Kanda-4, Sarga-1, Verse-479",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-480",
+      "canonical_record_id": "CANONICAL-REC-480",
+      "locator": "Kanda-5, Sarga-1, Verse-480",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-481",
+      "canonical_record_id": "CANONICAL-REC-481",
+      "locator": "Kanda-6, Sarga-1, Verse-481",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-482",
+      "canonical_record_id": "CANONICAL-REC-482",
+      "locator": "Kanda-7, Sarga-1, Verse-482",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-483",
+      "canonical_record_id": "CANONICAL-REC-483",
+      "locator": "Kanda-1, Sarga-1, Verse-483",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-484",
+      "canonical_record_id": "CANONICAL-REC-484",
+      "locator": "Kanda-2, Sarga-1, Verse-484",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-485",
+      "canonical_record_id": "CANONICAL-REC-485",
+      "locator": "Kanda-3, Sarga-1, Verse-485",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-486",
+      "canonical_record_id": "CANONICAL-REC-486",
+      "locator": "Kanda-4, Sarga-1, Verse-486",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-487",
+      "canonical_record_id": "CANONICAL-REC-487",
+      "locator": "Kanda-5, Sarga-1, Verse-487",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-488",
+      "canonical_record_id": "CANONICAL-REC-488",
+      "locator": "Kanda-6, Sarga-1, Verse-488",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-489",
+      "canonical_record_id": "CANONICAL-REC-489",
+      "locator": "Kanda-7, Sarga-1, Verse-489",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-490",
+      "canonical_record_id": "CANONICAL-REC-490",
+      "locator": "Kanda-1, Sarga-1, Verse-490",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-491",
+      "canonical_record_id": "CANONICAL-REC-491",
+      "locator": "Kanda-2, Sarga-1, Verse-491",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-492",
+      "canonical_record_id": "CANONICAL-REC-492",
+      "locator": "Kanda-3, Sarga-1, Verse-492",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-493",
+      "canonical_record_id": "CANONICAL-REC-493",
+      "locator": "Kanda-4, Sarga-1, Verse-493",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-494",
+      "canonical_record_id": "CANONICAL-REC-494",
+      "locator": "Kanda-5, Sarga-1, Verse-494",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-495",
+      "canonical_record_id": "CANONICAL-REC-495",
+      "locator": "Kanda-6, Sarga-1, Verse-495",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-496",
+      "canonical_record_id": "CANONICAL-REC-496",
+      "locator": "Kanda-7, Sarga-1, Verse-496",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-497",
+      "canonical_record_id": "CANONICAL-REC-497",
+      "locator": "Kanda-1, Sarga-1, Verse-497",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-498",
+      "canonical_record_id": "CANONICAL-REC-498",
+      "locator": "Kanda-2, Sarga-1, Verse-498",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-499",
+      "canonical_record_id": "CANONICAL-REC-499",
+      "locator": "Kanda-3, Sarga-1, Verse-499",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-500",
+      "canonical_record_id": "CANONICAL-REC-500",
+      "locator": "Kanda-4, Sarga-1, Verse-500",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-501",
+      "canonical_record_id": "CANONICAL-REC-501",
+      "locator": "Kanda-5, Sarga-1, Verse-501",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-502",
+      "canonical_record_id": "CANONICAL-REC-502",
+      "locator": "Kanda-6, Sarga-1, Verse-502",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-503",
+      "canonical_record_id": "CANONICAL-REC-503",
+      "locator": "Kanda-7, Sarga-1, Verse-503",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-504",
+      "canonical_record_id": "CANONICAL-REC-504",
+      "locator": "Kanda-1, Sarga-1, Verse-504",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-505",
+      "canonical_record_id": "CANONICAL-REC-505",
+      "locator": "Kanda-2, Sarga-1, Verse-505",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-506",
+      "canonical_record_id": "CANONICAL-REC-506",
+      "locator": "Kanda-3, Sarga-1, Verse-506",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-507",
+      "canonical_record_id": "CANONICAL-REC-507",
+      "locator": "Kanda-4, Sarga-1, Verse-507",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-508",
+      "canonical_record_id": "CANONICAL-REC-508",
+      "locator": "Kanda-5, Sarga-1, Verse-508",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-509",
+      "canonical_record_id": "CANONICAL-REC-509",
+      "locator": "Kanda-6, Sarga-1, Verse-509",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-510",
+      "canonical_record_id": "CANONICAL-REC-510",
+      "locator": "Kanda-7, Sarga-1, Verse-510",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-511",
+      "canonical_record_id": "CANONICAL-REC-511",
+      "locator": "Kanda-1, Sarga-1, Verse-511",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-512",
+      "canonical_record_id": "CANONICAL-REC-512",
+      "locator": "Kanda-2, Sarga-1, Verse-512",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-513",
+      "canonical_record_id": "CANONICAL-REC-513",
+      "locator": "Kanda-3, Sarga-1, Verse-513",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-514",
+      "canonical_record_id": "CANONICAL-REC-514",
+      "locator": "Kanda-4, Sarga-1, Verse-514",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-515",
+      "canonical_record_id": "CANONICAL-REC-515",
+      "locator": "Kanda-5, Sarga-1, Verse-515",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-516",
+      "canonical_record_id": "CANONICAL-REC-516",
+      "locator": "Kanda-6, Sarga-1, Verse-516",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-517",
+      "canonical_record_id": "CANONICAL-REC-517",
+      "locator": "Kanda-7, Sarga-1, Verse-517",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-518",
+      "canonical_record_id": "CANONICAL-REC-518",
+      "locator": "Kanda-1, Sarga-1, Verse-518",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-519",
+      "canonical_record_id": "CANONICAL-REC-519",
+      "locator": "Kanda-2, Sarga-1, Verse-519",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-520",
+      "canonical_record_id": "CANONICAL-REC-520",
+      "locator": "Kanda-3, Sarga-1, Verse-520",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-521",
+      "canonical_record_id": "CANONICAL-REC-521",
+      "locator": "Kanda-4, Sarga-1, Verse-521",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-522",
+      "canonical_record_id": "CANONICAL-REC-522",
+      "locator": "Kanda-5, Sarga-1, Verse-522",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-523",
+      "canonical_record_id": "CANONICAL-REC-523",
+      "locator": "Kanda-6, Sarga-1, Verse-523",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-524",
+      "canonical_record_id": "CANONICAL-REC-524",
+      "locator": "Kanda-7, Sarga-1, Verse-524",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-525",
+      "canonical_record_id": "CANONICAL-REC-525",
+      "locator": "Kanda-1, Sarga-1, Verse-525",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-526",
+      "canonical_record_id": "CANONICAL-REC-526",
+      "locator": "Kanda-2, Sarga-1, Verse-526",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-527",
+      "canonical_record_id": "CANONICAL-REC-527",
+      "locator": "Kanda-3, Sarga-1, Verse-527",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-528",
+      "canonical_record_id": "CANONICAL-REC-528",
+      "locator": "Kanda-4, Sarga-1, Verse-528",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-529",
+      "canonical_record_id": "CANONICAL-REC-529",
+      "locator": "Kanda-5, Sarga-1, Verse-529",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-530",
+      "canonical_record_id": "CANONICAL-REC-530",
+      "locator": "Kanda-6, Sarga-1, Verse-530",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-531",
+      "canonical_record_id": "CANONICAL-REC-531",
+      "locator": "Kanda-7, Sarga-1, Verse-531",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-532",
+      "canonical_record_id": "CANONICAL-REC-532",
+      "locator": "Kanda-1, Sarga-1, Verse-532",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-533",
+      "canonical_record_id": "CANONICAL-REC-533",
+      "locator": "Kanda-2, Sarga-1, Verse-533",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-534",
+      "canonical_record_id": "CANONICAL-REC-534",
+      "locator": "Kanda-3, Sarga-1, Verse-534",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-535",
+      "canonical_record_id": "CANONICAL-REC-535",
+      "locator": "Kanda-4, Sarga-1, Verse-535",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-536",
+      "canonical_record_id": "CANONICAL-REC-536",
+      "locator": "Kanda-5, Sarga-1, Verse-536",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-537",
+      "canonical_record_id": "CANONICAL-REC-537",
+      "locator": "Kanda-6, Sarga-1, Verse-537",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-538",
+      "canonical_record_id": "CANONICAL-REC-538",
+      "locator": "Kanda-7, Sarga-1, Verse-538",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-539",
+      "canonical_record_id": "CANONICAL-REC-539",
+      "locator": "Kanda-1, Sarga-1, Verse-539",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-540",
+      "canonical_record_id": "CANONICAL-REC-540",
+      "locator": "Kanda-2, Sarga-1, Verse-540",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-541",
+      "canonical_record_id": "CANONICAL-REC-541",
+      "locator": "Kanda-3, Sarga-1, Verse-541",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-542",
+      "canonical_record_id": "CANONICAL-REC-542",
+      "locator": "Kanda-4, Sarga-1, Verse-542",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-543",
+      "canonical_record_id": "CANONICAL-REC-543",
+      "locator": "Kanda-5, Sarga-1, Verse-543",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-544",
+      "canonical_record_id": "CANONICAL-REC-544",
+      "locator": "Kanda-6, Sarga-1, Verse-544",
+      "kanda": "Kanda-6",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-545",
+      "canonical_record_id": "CANONICAL-REC-545",
+      "locator": "Kanda-7, Sarga-1, Verse-545",
+      "kanda": "Kanda-7",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-546",
+      "canonical_record_id": "CANONICAL-REC-546",
+      "locator": "Kanda-1, Sarga-1, Verse-546",
+      "kanda": "Kanda-1",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-547",
+      "canonical_record_id": "CANONICAL-REC-547",
+      "locator": "Kanda-2, Sarga-1, Verse-547",
+      "kanda": "Kanda-2",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-548",
+      "canonical_record_id": "CANONICAL-REC-548",
+      "locator": "Kanda-3, Sarga-1, Verse-548",
+      "kanda": "Kanda-3",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-549",
+      "canonical_record_id": "CANONICAL-REC-549",
+      "locator": "Kanda-4, Sarga-1, Verse-549",
+      "kanda": "Kanda-4",
+      "review_status": "verified",
+      "staging": false
+    },
+    {
+      "id": "CANONICAL-REC-550",
+      "canonical_record_id": "CANONICAL-REC-550",
+      "locator": "Kanda-5, Sarga-1, Verse-550",
+      "kanda": "Kanda-5",
+      "review_status": "verified",
+      "staging": false
+    }
+  ]
+}

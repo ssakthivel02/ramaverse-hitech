@@ -1,0 +1,16 @@
+{
+  "baseCount": 550,
+  "newRecords": 542,
+  "candidateCount": 1092,
+  "recordTypes": {
+    "source_backed_candidate": 542
+  },
+  "kandaSargaDistribution": "preserved from approved ledger",
+  "newSearchEntries": 542,
+  "newAskEntries": 542,
+  "newReaderMappings": 542,
+  "newGraphEdges": 542,
+  "newTimelineMappings": 542,
+  "newCharacterPlaceJourneyLinks": 542,
+  "unexplainedDelta": 0
+}

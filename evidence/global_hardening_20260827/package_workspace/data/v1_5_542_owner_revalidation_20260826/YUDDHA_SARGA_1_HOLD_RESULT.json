@@ -1,0 +1,15 @@
+{
+  "recordId": "STAGING-YUDDHA-SOURCE-NOTE-1-2026",
+  "sourceId": "SRC-SANSKRIT-DOCUMENTS-YUDDHA-1",
+  "kanda": "Yuddha Kanda",
+  "sarga": 1,
+  "locator": "6.1.1–6.1.19",
+  "result": "SOURCE_HOLD",
+  "evidenceChecked": [
+    "current source registry",
+    "historical source registry",
+    "physical source evidence directories",
+    "source-page manifests"
+  ],
+  "reason": "No independent governed Yuddha Sarga 1 source artifact is physically available in the current Website workspace; no deterministic mapping permitted."
+}

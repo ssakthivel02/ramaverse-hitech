@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-27T23:20:06.509Z",
+  "requirements": 73,
+  "counts": {
+    "COMPLETE": 35,
+    "BLOCKED_SOURCE": 14,
+    "BLOCKED_RIGHTS": 3,
+    "BLOCKED_HUMAN_REVIEW": 10,
+    "BLOCKED_EXTERNAL_ASSET": 11
+  },
+  "completeBefore": 35,
+  "completeAfter": 35,
+  "autoResolved": 0,
+  "gates": {
+    "tests": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "build": "PASS",
+    "routes": "PASS",
+    "responsive": "PASS",
+    "sixLanguageUI": "PASS",
+    "wrongScript": "PASS 0",
+    "accessibility": "PASS",
+    "keyboard": "PASS",
+    "reducedMotion": "PASS",
+    "pwaOffline": "PASS",
+    "seo": "PASS",
+    "security": "PASS",
+    "rights": "PASS for project-original assets; external media blocked",
+    "mediaReferences": "PASS",
+    "danglingIDs": "PASS 0",
+    "sourceLeakage": "PASS 0",
+    "secretScan": "PASS",
+    "performance": "PASS static build"
+  },
+  "boundaries": {
+    "canonical": 550,
+    "activeCorpus": "v1.4.0",
+    "stagingPublished": 0,
+    "mobile": "FROZEN_NOT_MODIFIED",
+    "production": "NOT_DEPLOYED"
+  },
+  "decision": "PRODUCTION_CANDIDATE_BLOCKED_BY_SOURCE_RIGHTS_HUMAN_REVIEW_AND_EXTERNAL_ASSETS"
+}

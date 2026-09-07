@@ -1,0 +1,17 @@
+{
+  "startingP0": 265,
+  "rootCauseAccounting": true,
+  "resolutionAccounting": true,
+  "stableIdDuplicates": 0,
+  "sourceReferenceValidation": true,
+  "sourceLocatorValidation": true,
+  "oneDecisionPerConflict": true,
+  "variantPreservation": true,
+  "aliasIntegrity": true,
+  "searchLeakage": 0,
+  "askLeakage": 0,
+  "canonicalMutation": 0,
+  "stagingPublished": 0,
+  "mobileModified": false,
+  "status": "PASS"
+}

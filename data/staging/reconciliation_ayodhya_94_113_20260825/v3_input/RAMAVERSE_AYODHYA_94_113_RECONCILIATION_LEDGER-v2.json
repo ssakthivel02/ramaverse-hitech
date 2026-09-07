@@ -1,0 +1,2807 @@
+{
+  "ledger_id": "RAMAVERSE-AYODHYA-94-113-RECONCILIATION-v2-20260825",
+  "total_input": 184,
+  "accounted": 184,
+  "previous_safe": 103,
+  "newly_resolved_safe": 72,
+  "total_mobile_eligible": 175,
+  "total_held": 9,
+  "canonical_baseline": 550,
+  "resulting_canonical_candidate": 550,
+  "canonical_modified": 0,
+  "staging_published": 0,
+  "records": [
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "874d6d7b416a0abf3a464d2a13391f2941fe47ecd84827e10203a08789693e4e"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "d7140d8e98eab9c5e5f6b31dd2e8c7e901197267c217c31d242926fb9eb3bbc4"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f8ec406fca89bcf7a2d06171e4c13a56c8af0fe9dd103b189fa85814e922cacc"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "479e5c5f12509170b2c5efbb87db028215d0a80b04ea0e6a8abc029e30fcdac6"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e31979f4ea0e06456b8302882edee96bea21092dfe091ea6a85838b05f609e0f"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "d7bf71fbbe907a31b8b4d06ff74f8fd107c3418183997589ab3c6771a0baf806"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "140122b62a4c36eebd1388d8e7635040938b980941b365992ea42a1cc989eb50"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "0cfeaede1e52e4f9c8847a239a45cbd59608f83a6c885c9d1bbd955833474258"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+      "source_locator": "2.94.1-27",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S94",
+        "registry_locator": "2.94.1-27",
+        "record_locator": "2.94.1-27",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a3b3845898ae87ae5077e91e94e2372e53678c80b75cc14cb61ed7349c06047a"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "268f2d0a656de810928af5ebe91e2da83fc7b9ca467f3e7987d2793a52809f6b"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "318147cfabd614ed89673067e63bd2ca3b66eff5fbf91b492fde0847e0252ee4"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f3a5daa792066340ea8e44495e29962bcf7a9d724362c6310c40962d0074da46"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "94d6abb67e4b88d9ac6c0d7d4114bf0561d9425f5a6dbbd6c890e87bf6114b6a"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "5d67a6e3065f6514a6f0565600de667283c8de311449f57dd4620da0b5334363"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a04c0947f25882ea96a1f5f829e9a6ea72f04256195d8422e9cacea8a72b50dd"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "493f2954269a483bf6e02fa06dd1c713ed2c626ad2b3a957255f5e1ae69d2c08"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ad1054c6f4238d3f88282bbdfbcd49aeb32d422757759dca8824cbacf2ff8990"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+      "source_locator": "2.95.1-19",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S95",
+        "registry_locator": "2.95.1-19",
+        "record_locator": "2.95.1-19",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "97a80985d74d36f26bf400eec8b8e31f067b19e1ab0ad851bb8fafa967d5f78a"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b452b2df6e0839922a7668036114a3ef31f4bcb30a9d4966f21f8ecf05149bb6"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "47e46ba461188859dcf9345f91f4861adec8679114a5c5356ed4dd065662c71d"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "fcf6b4187237dbd6e34ee41dbcbd250363d3acaa6af908b9601b7c6c9ba069e5"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4d13fb2096eb277ea8f0f3cf83af4cd725bf37083b96b3e35023328c7c803caa"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "558f1a346361e71933021ee3b7979b4eb5daa0cbb69411f74be5da4393b86b9c"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "85c5bce597fb92bcc2073d0d7a158ac78d67dabc410350132c89de3043ef3bf6"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a617f1e35bf21cb5b5408d57413b3853a5d67f8d12654f2e4db8bb643076ea81"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "17cbc80c9fb8af2bfa41cf884677945c1de838a6dbc9a9f7a1724d360a0c5c89"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+      "source_locator": "2.96.1-30",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S96",
+        "registry_locator": "2.96.1-30",
+        "record_locator": "2.96.1-30",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "cd05d0d36a43f8ae920a1bf40742885b06e46850846ed3456ddf9dc8b3111be4"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8339c2205a7d29f9fd2169408cb54742b5b8c5a7cf1258d0441ea015ca8c061e"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "36ed892718fd1d225ff19c4288156b53207740018631114ef36712ef63fb0d6d"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "5702eca651dac7f155752c44301ac574a78c72bb80bba4580d6d5a240c25be38"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "544f8a27649d0243169893fb33f2f5ed1d01041b79002734e2f5b911d40c84a7"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "60a08218bf48a56c3db9684d530e352b235e885874b473df009b05689e1760d4"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e6571ee7dd0a0c9026e7905efbfadfcaa97d6acd423cb0c56023c85d0e8e86f7"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6fa1075f2ac5bf02b3fd2a70983711c78552046fef33b5674655119caeb6b155"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ed1c859dfab0c0ed216b9471e898f7357cc2e2d7949a9e23c14fdef6eaf9c22d"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+      "source_locator": "2.97.1-31",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S97",
+        "registry_locator": "2.97.1-31",
+        "record_locator": "2.97.1-31",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f4e824c75ceb7220d21a0cf5df68103c308473c2f367cfb14641c21c6f2a7f94"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "05493c49ad57ae9683eddce006dd31faa236c208c2e14cebd83e20e74c4c7939"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8ca581dc6cebda9ce97ca8f31102353d3c89f6ba3358bf920c1119e4f599e17b"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "68cd287cb0c51d03643751148106000d900102c68bbba24c7d179f44183c32de"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "fbbebb014fb9be93d8e7634d6e921d03ec1ed9e706cda100276558ac66578fb9"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "66f70b79316234d3c3dfa732123c831ffa4656a8d811031bada3f7aa50cba9a7"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "51fc72fc4e76d530be4d962493eaf0d05d571679fb724b448f16668a3ff5346f"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b1ccebc21e823dd840242484de585d242f84fc7e3e433b89f7f294a60e5138ec"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "d8808130c58252af91bd41858b9ec21fc37b8ba9c94e98ff4145f2fb81c4fbd8"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+      "source_locator": "2.98.1-18",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S98",
+        "registry_locator": "2.98.1-18",
+        "record_locator": "2.98.1-18",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "edfe6206c627e779abaca444b6a451b37c9dd1c077ff2bde0fb2f3533c8ae836"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "bbaa42e5527685a9e75df7c672fb222be1d261baa6f59c19d63f81b609c543d1"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "c762eab32159d855f5253a1acef84ecd45f2feaead8f8592a944648dafa518b9"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8ac365e439235b83f1594b217cfbd185c1b836df5d39e344958c4df063d0321d"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "1ff42cfca0180d074e839640183dfaddb921c96d40f6db0f3d45be5674092f09"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e13f5f6f327a7d4731d2fc25f78b562e052796573d13a2257871b26ea896b056"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e04efe59dbe7e396d965dcb3024b03627f2c6ae1ddff6adc31e615f328dd4a10"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "471c203f887e0d0526ed4038aa6822c9049849d55eaf2354e17984595e65a8e4"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "130325191fac46aa24a8f28e951486c48ed6f62d54129a87667ebd0be21f1d06"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+      "source_locator": "2.99.1-42",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S99",
+        "registry_locator": "2.99.1-42",
+        "record_locator": "2.99.1-42",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "2c25329c9e49b2a4441d16190ad2f4b03b968620bcf56c02974bd7077e75b88d"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "11a4384a25bbf4c72c63e1b3d7671be8d8efc0bcfd4e274b768874c561f2531a"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "95bc6a0c787101d146961e5acf0ded37c008e00bad63ddfbfd91b6b2802a1d6b"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "86f823987b736484cea92ca7d94340c5792493f3c61142fca4e26903dab0cf3a"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "eb1f799b9a5d325fd49ad6f0fb0c2768583776ffa8f2bf72604725016f14e10f"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "3065344b1331ba445cef6bb2b6298dccbb2cc024ba21825727ac4406001483f5"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b6d9503c08ee24516f04bc745429fffd5f1e8622aaca3d256e268ed85723c54e"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6f5d834d1745204aeed6671643f4f9fb34d1227283fbf9038844fa4e6d4e334b"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "0c51370b229389a7ee2869cd3c2441a528aaa19560347afdab649a19847d3e0c"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+      "source_locator": "2.100.1-76",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S100",
+        "registry_locator": "2.100.1-76",
+        "record_locator": "2.100.1-76",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ed0523ac5f72cff06e392d3c219e86aef297e0f436ad409eae79154c95ccb76b"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6c70c3ca17526c9f211816d9fb1f8f0a9eda4238cab5ffb4c92bb160d153a316"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "d6b21cbae8ee9f38d05c44f368fb64bf34309d3e42873966dde8fb52c973d837"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "0327da136175ee9049b690e018c135dc7079e36dd6a34ace95a5146859a81b99"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6cb40a385312e8d27940f4ab210ef3ede3c137210f408d6436785d09e1fd5044"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "52571b45db2fcdea5fda2d76ea724fca570e6c8d0f1e4e2e6c844162d6034a7b"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6af4836510dfa2bbf4095433ce58e386e50b6f60d0c1241fe82d777be9b39ee7"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4e89fc26d699a09eb264645b3b8cf8854f49ca4fb5cfdbb0cc8a32cf71e6acc6"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a43b54f1f503a970a83e8e581570a3dba7f08af1310720f05beb76f424381673"
+    },
+    {
+      "record_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+      "source_locator": "2.101.1-9",
+      "evidence": {
+        "registry_source_id": "SRC-RV02-STOTRANIDHI-AYODHYA-S101",
+        "registry_locator": "2.101.1-9",
+        "record_locator": "2.101.1-9",
+        "mechanical_mapping": true,
+        "source_record_unchanged": true
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "1b813e675b746f789953f8788786b1e00e512bc6784b271b319b98d7c14ce69a"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f33adf90e24ee4f0e2da039da0f16715e2c7cd907c5d587c39d4c1ea6709e8e8"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "53cb8c4055894eb08037e66628b9be8f7d97976e91ff4ee4d6a2db4e2c9154dc"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "c12698a632799c7312fe7da4576f7456df11e94e144b943cc79255855b4c4ccb"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "9adc567192fbcd901e2a45125f631894cd92a92d384608da4a5a46f211fdd5f6"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4e96b3542abc5caa28569c7da09a5e493f8edbaebfc65dc143764cfb19b85608"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "53df6b92fa0529bba348ae180e1f3265cb2ed9136172953a97488ab0e066b9e4"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "bc101c3fc89e341e33a919278a75a45857769fd221416c69024c3bd103a6f801"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "66ae76793fdd6be4ccdebdeeb8fa0dd396ee4c46cf40760406ca866091df4315"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-102-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.102.1-49",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b68b64d2a6e48ea0987deeaf59cb4987f5d78c72ea88d4d4d287db2f6b564aef"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "79e361bd069d6943ad9be6ea06541d931e7e1528166066cad3f7c89af5bfe2c6"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "c2b0b1e35da818158cf53a6e517ae8a648eeb0eda31591fa2d9640baaf7ee507"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f0b438195f46336f0f20f18b8868b2603f34e61daad80d2cdf768255ad4ceb64"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "86bb7bf5b942280cba22b2890808f098b5dae50bb5aa7cf9bd380abf42397b5c"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "384218d4578ef74781f3ce69a0ac98e0a2dd3bc43a0326bdb411ee31dc056ce8"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e3fc0ad7e80eab1adebd10fb51c175e4ef746358f7cc6735707173c20e847ec7"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8e664cbce8a840a733abb72f68eba021e6e26a0386bc0823850330b4414f05ed"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "1955aa2f925682eec295c53a01c36177542c029deb53c80bb94894fe5c8f1c46"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-103-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.103.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8029a76ba485fcc8b4b74256a3fe4a2ed4bf80df7a10418e87bb4c1f615013ac"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a7793517f05913c0427916fcfaa48707db7cbcdb603f43657944bc7e7ea9315d"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e56b543244fbca04bfb64191580de503079a983be406d28c94413b310815f44e"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b0f5c2cf5d48a819b22ec0ab87e67bb18482585147017996990512893c3ea3de"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6bef89a1a03d588e1d18e4f8af989c659a15287acadfeb5238bba12ae2beac28"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4ef4a33fbaba885d01754c149f0e78db3f86b03e03fcba5802edfd7fb15aecbd"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "df72aa8818dca5672ce4bdfbca236214115ceb38889e1c816deaecd5eb49a6ac"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "79e30936470839c8bf83ac7c82ebb2b84dade7fc410dbe9e1d471133bb35f69f"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f17b7a576d58edfd0d3c6357748bbd01b3afb73214a9c53df75bbbb100c00a25"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-104-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.104.1-27",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "c5a17ee0833eaaf4f7b046932ce3c01897e44b7c57274ea566eb2017a2332f17"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e484f2350ae230d794d458c60fb47787e362e9d19308ea25dcb9132a82c77928"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "d68337f3e96db1c6cdde4c42c778727c13625b5fb8aa5a429c61972538bc6848"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6185b822a62f220a90337fb5ade8691466c58ad675c4474a5c082f1c5a44b9fb"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8474ad93d3ff5b5e5d06cf76751823c704763cebfaa15ca9f38257720e68a844"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "160e29a8c6668d48220c6f61166d20cfbc954f4623582ae722d0bda999c504d8"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ed6cfff13085afa265b8c626757e7fe5d5742a4056b2197c7bfd9415a5efdc0a"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "466dc49172cfd65333c28e390f8d7d0afe37a597c0eb093b2411c92f5fff4aae"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f601a317bb29d6bd3fcc54b9515f6a5dea72f12d0511a8923d263c1154ff796b"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-105-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.105.1-46",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "923eaa59037c43cede5badaf4e819a796c1e2cb1ec35ffa8932537c77dd3359e"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "2d6aa90d743f6ab20746f8f11eb96121ff32611221e2bf8def7ea27dacdff5a8"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "fb87f6930bdfdd9b5aeefe5258e6556ae9579ba870b38812b44a67b392c1efbc"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "423d6cd6ad8171191a2f33259da2ff3a699dc94cb43c9767649fee021e634ddc"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "ebf8905fd9bbc8957cccf0c2db7a013e88ebf714eb1ae10a0fa960eb6950c9b0"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "5372c136acd22f2fd732ce837e3ceee1841a56805721cce685edf1de48a26945"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "28e8eaa3651e66e3329c5acffdfe3aeecb96bd2870d4faf3a2d370eecb2cc77a"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "41b69f63c89b9888f501e6027827310d23ba28a0929a5c4bb5828d83111ea163"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "92fbce06a7fb013d9f26a698d1090d19f45d200f6a41bffe4356e76e99a24e86"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001",
+      "disposition": "KEEP_AS_VARIANT",
+      "source_id": null,
+      "source_locator": "2.106.1-33,35",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "KEEP_AS_VARIANT",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "HOLD",
+      "content_hash": "43d3e17a12f4186192420a35327df0bc40d4b5565796b3f85780c467cac923c2"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "2ac4fbb800fd376befb239ee8e79ff78c3bfb6eb3918878440002cfb9310c87a"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6e24b1fbcef383be742f2314cf7cf6984f35c647308c0546c3e6c6c2a091b403"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ce7169c1d21600c4252fa3834942e39f6bec89a2033c688396caad7b7bb7d781"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "184391735dbe111a8880b4babc96b8fa76d6cf2a022fe0b6fe3d6a4d26a3815b"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "130773e39329b47f7e5e44eb5b4cc8b1b87e262e547ceb75760615f6090d5de4"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "559b0571b6e38bef941a6b0d59ddf58478e328c5e3697bf5d3808e671b19b889"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "68b0d322ed0725565344cc1171cf496cc7d8054138c581b1443222f18dbcdcc1"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "1bbaff4fc0bdd07194889c068e8785f053a044c83cca7e1c6d8097200a1f17ac"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-107-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.107.1-19",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "7fec0b6789c41201bb4ee612143a652e9858accddb7df4db38854c6087bdb403"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "d60f70e834587411b1c1c0d52a5db38562f14aafa4aacd54a085d71880096136"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "90c010569a91c1a4217cb14ab427807aba3237c3071aaef9ed6ece8cbd05ac64"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "24b6a37de246423a3519dbd2acf4acce67c94eb6ef39368cf6789cff94be1b9f"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4158453ba13e08a2b42e33b109f2fbe1b367fe201f3a8faeeb5d505001554750"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "7df9a75dc4ed0a7e259d987d0036260f33e8be4bf057b101578a98df861f8b97"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "6b772bc23346da76061aae29cd1b25b8f3e3d9df4333881822e7c5b7e8b4a97d"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "39aa264bdb1c23f19cb667a05357c7c5b1b46de560ef81216df70393448704c5"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "81350f2a8c9a3b26ed1d78e98a89b5ad7a2be8e3a0f54fd1129ac576f9fdd815"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-108-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.108.1-18",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "34091ca3d2f100d9622bdfc87f87c9d16ec357441cd88598a1a624495de6089d"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4f670be47c119369a78ba8e54b0457c41b5d299fe69c9c944ba9fec8b9033839"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f697ca7bda6550acdfb907ca9b279d6abc23e9745807345d07a670850c03d1df"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "67de12fdaf6125f76b4cd137ca5023af6b1b6cd3b6625e9cdca691b4c44ec823"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "5e4e5ddedc95177a3a5bc49f85e7bfffe7fd88b0d893118213e8ecf6515e3b26"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a1999702568634f26d8a67c96d989225fd402169cb27e0b6385ab9d675f1e7d7"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "872ea66433fbd224784cb57ae5805b3cc621586cc014c5fb5170aa5a8d7e0f70"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ebbf4be4499b8b638623a1bd6e394c54eec7422d0befcfd820825a76700ce8f9"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "3c9e83e0de6df20afff45ff60871dbc613b78933b06d199a2d0ea133a5b39075"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-109-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.109.1-39",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "2a18347725940b60d88af227e9f28389a39461ad7d02b6fb9e64c32e411f5016"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a11475e2bd7bc47a9da831855250c65c4f2b119258ea40c7b36913ffd0b8c3f7"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "05f5c1d7084c0c2512bd11216593da9986c4aa56ccfe200573d5ec198c4c222b"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "56d6c8dd73031d26a565962b8ff49e0aa991fd066e9ac1a074fdd01221c17399"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "0c8cea26431e42d4bf5aee5cce3b0a71a183ac22c545140665286ef8a36c9848"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "946046dc93f22cf1c8101cde6e340b47081cc5fe1b382eed281df6607c3d30b1"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ed28141ef84fb0fc54d8efefc3a783d4700fe8186851e2fa3ac02acc8fff069a"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "9fe7d0ad43c1da9667d7f19b2543db8a9ca189bf8f281bc4d546dcf5813a8516"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b9c9c18ddb09263c823b56fb5c8b5ae9db30a36d26bb688998f3b30e489dca62"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "27353672622e3747a245e96f03c63b47bb0b748e9cefa5a56e9e1d66b2545549"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-110-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.110.1-36",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "12d01f554dcd942737a6ff75aa1e32325f04e06c5560d9a965862d1d1eaa37f0"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f8dec4a10662952ef931f13c1335dcdd8c16eb76f230b90f989616ee164e0c68"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f4c1a8534a7e4838ecac9e9c37c0be77e04b58ff13759f899cfa79982b52a712"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "c7ef1b277ee36e9b96e72eea5bf1cc6216d9e5bb1d622615460a5ccfb4c5fed7"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "e0607c8ab07bec165a823ba9fd121811bc6236be55ade4a3d9890572e4482437"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "91fe073950cde795050e215e6c88fdaa63aba54d2a48a3e2812aecd132e03ddf"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "a3833dc6c301bdd0d10c7752529d71f523d918a96f3f4090578194501277233d"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "75b03574b7d462f3d807a0e6e49d8612b6e28abfb13994aa0af635d6506b240f"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "06c8e6bb920426c2fb218703175c5d553d8ab9e3b694fc954fab3985b7991983"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "0fdba3495a636e1e82bcf9fe1d666ab33d761e2dcd4e8b0bd81b5184162634dd"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-111-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.111.1-32",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "577e45dab13319888f4e78be6b4a4bae96f4e53adbbbbef0bf85a6de2eccde0b"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "afc601cade8d2baef5dae16b27fa231feae4f28dc737d2efd9396733142d3263"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f3f6b52d208a4dc52bc2e965905cf982d6aac3a8387d8fe57cf08181e47ece62"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "3a29d6f43fde68aa13d8d01fe7b69554ff6e2ab2d619d64b38fd3b766c1ccc77"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "050bb4b3b9ebd449949eeb44184ac2c7f7e876abac1d6df1b4aca472d612a9f8"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "4895c6f8abb06b642a8a75ff1d4ac20fb449ed21e6c015f54268cc1713d01b21"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8b9cf4362212bbfd20aaa37f74145b407ee1252a703fad314d2d61b660ef0176"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "13b793307754a2f9f7cad80656ac6269dc0c0f7d911f06d6a7c6997d5a5a2a1f"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "45cc475f6d679f68c8324f6fad30a8e349284737c6dc9af45bac939547797042"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "04f8fe108ef33da2d5896543210ce2b1fe5a791fb425d52320e3aa7b3460b9d7"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-112-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.112.1-31",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "dc54cb5f3808c740429e95e600fcd3541900aaf24b5836bd5aa691316b0f0d5a"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-SARGA-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "b66c76b3f8e537ff7e79d73a894749992d52d59df439b66ca00674adeadfd622"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f6affa1c2ef9b2a90ec8fbaadbda660a3419055755230faaf34b5bcad465e89c"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DIALOGUE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "c094e3d2b97cf49e9514915e477ef67cd334af69116f8d37b51ab65563398acf"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHARACTER-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "8099deb4664822adcac21396d4255b3ff19c0696bbaba36df0a2837eda61b3d3"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-PLACE-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "daca73c7be8e1e2945f0613a6219ac17fb02e32e34ec59515904f4f67928638d"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-JOURNEY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "493e16a776918a3232cda2483cd0068b9929cf2379979635db7bdb4b965b3d50"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-DHARMA_LESSON-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "ca7f92cb44e6b1e579c9db1bcd12b9a935e3855ba898e40d53be938c5f16a661"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-WISDOM-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "12c1e3f902f0e15c7b080dfa4b0bb6682e49a81c9861e47ccb210fe563f05eab"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-TIMELINE_EVENT-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "f99f2e8233e9f0f63af4920a37f0b37ed19d84cd4dd27d08697e4b4eb93155bc"
+    },
+    {
+      "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-113-113-CHILDREN_STORY-001",
+      "disposition": "RESOLVED_SAFE",
+      "source_id": null,
+      "source_locator": "2.113.1-24",
+      "evidence": {
+        "source_reference": null,
+        "source_registry": "Set B physical registry"
+      },
+      "variant_state": "NONE",
+      "tamil_review_state": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "runtime_eligibility": "CANDIDATE_ONLY",
+      "content_hash": "eba900a6306b8ac00e3afeab89f66e87d96ffad226bb316eab7c456c35c371d5"
+    }
+  ]
+}

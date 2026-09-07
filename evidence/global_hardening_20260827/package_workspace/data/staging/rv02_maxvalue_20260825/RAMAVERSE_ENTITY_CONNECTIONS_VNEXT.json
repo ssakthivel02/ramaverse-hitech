@@ -1,0 +1,364 @@
+{
+  "connections": [
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-1",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-SARGA-001",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-2",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-PLACE-001",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-3",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-JOURNEY-001",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-4",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-5",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-094-EVENT-001",
+      "source_locator": "2.94.1-27",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-6",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-SARGA-001",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-7",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-PLACE-001",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-8",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-JOURNEY-001",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-9",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-10",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-095-EVENT-001",
+      "source_locator": "2.95.1-19",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-11",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-SARGA-001",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-12",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-PLACE-001",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-13",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-JOURNEY-001",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-14",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-15",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-096-EVENT-001",
+      "source_locator": "2.96.1-30",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-16",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-SARGA-001",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-17",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-PLACE-001",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-18",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-JOURNEY-001",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-19",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-20",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-097-EVENT-001",
+      "source_locator": "2.97.1-31",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-21",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-SARGA-001",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-22",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-PLACE-001",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-23",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-JOURNEY-001",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-24",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-25",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-098-EVENT-001",
+      "source_locator": "2.98.1-18",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-26",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-SARGA-001",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-27",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-PLACE-001",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-28",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-JOURNEY-001",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-29",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-30",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-099-EVENT-001",
+      "source_locator": "2.99.1-42",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-31",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-SARGA-001",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-32",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-PLACE-001",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-33",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-JOURNEY-001",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-34",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-35",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-100-EVENT-001",
+      "source_locator": "2.100.1-76",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-36",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "relationship_type": "OCCURS_IN",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-SARGA-001",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-37",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "relationship_type": "OCCURS_AT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-PLACE-001",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-38",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "relationship_type": "HAS_JOURNEY_CONTEXT",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-JOURNEY-001",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-39",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DHARMA_LESSON-001",
+      "relationship_type": "DERIVED_FROM",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    },
+    {
+      "connection_id": "RV02-MAXVALUE-20260825-AYODHYA-94-101-EDGE-40",
+      "source_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-DIALOGUE-001",
+      "relationship_type": "CONTEXTUALIZES",
+      "target_entity": "RV02-MAXVALUE-20260825-AYODHYA-94-101-101-EVENT-001",
+      "source_locator": "2.101.1-9",
+      "confidence": 0.88,
+      "provenance_status": "SOURCE_ACQUIRED_STAGING"
+    }
+  ]
+}

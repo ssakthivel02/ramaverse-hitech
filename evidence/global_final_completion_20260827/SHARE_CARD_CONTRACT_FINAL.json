@@ -1,0 +1,19 @@
+{
+  "version": "SHARE-CARD-CONTRACT-v1",
+  "cardTypes": [
+    "RAMA_STATEMENT",
+    "WISDOM",
+    "SARGA",
+    "LIFE_LESSON",
+    "SOURCE_GROUNDED_REFLECTION"
+  ],
+  "required": [
+    "recordId",
+    "title",
+    "source",
+    "locator",
+    "attribution"
+  ],
+  "quotePolicy": "No generated quote; source text and editorial explanation remain distinct.",
+  "attribution": "RamaVerse"
+}

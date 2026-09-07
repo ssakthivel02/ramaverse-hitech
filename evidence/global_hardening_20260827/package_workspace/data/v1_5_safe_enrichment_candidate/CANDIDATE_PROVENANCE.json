@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-08-26T05:50:00.310Z",
+  "source": "v1.4.0 frozen pack search_index",
+  "base_canonical_count": 550,
+  "canonical_candidate_count": 550,
+  "p0_excluded": 265,
+  "staging_leakage": 0,
+  "production_mutation": 0
+}

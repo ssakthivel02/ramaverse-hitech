@@ -1,0 +1,17 @@
+{
+  "project": "RamaVerse Website / Corpus Authority",
+  "snapshotAt": "2026-08-23T00:00:00.000Z",
+  "authoritativeCanonicalTotal": 550,
+  "rv02BatchId": "RV02-PREFREEZE-20260823-AYODHYA-78-93",
+  "rv02BatchRecords": 64,
+  "stagingPublished": 0,
+  "mobileMutation": false,
+  "canonicalMutation": false,
+  "sourceFreeze": "NOT_REACHED",
+  "exactNextPoint": "Ayodhya Kanda Sarga 94 / 2.94.1 onward",
+  "projectStateConflict": {
+    "rootDeclaredRV02": 0,
+    "thisBatchRecords": 64,
+    "resolution": "Preserve both; do not overwrite root state."
+  }
+}

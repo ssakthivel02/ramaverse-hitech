@@ -1,0 +1,78 @@
+{
+  "mappings": [
+    {
+      "entity_name": "Rama",
+      "entity_id": "entity-candidate-001",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Sita",
+      "entity_id": "entity-candidate-002",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Lakshmana",
+      "entity_id": "entity-candidate-003",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Bharata",
+      "entity_id": "entity-candidate-004",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Shatrughna",
+      "entity_id": "entity-candidate-005",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Dasaratha",
+      "entity_id": "entity-candidate-006",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Kausalya",
+      "entity_id": "entity-candidate-007",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Kaikeyi",
+      "entity_id": "entity-candidate-008",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Sumitra",
+      "entity_id": "entity-candidate-009",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Vasistha",
+      "entity_id": "entity-candidate-010",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Guha",
+      "entity_id": "entity-candidate-011",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    },
+    {
+      "entity_name": "Janaka",
+      "entity_id": "entity-candidate-012",
+      "mapping_status": "CANDIDATE_ONLY",
+      "physical_id_source": "No authoritative stable entity-ID registry supplied; do not use for runtime."
+    }
+  ],
+  "approved_mappings": 0,
+  "reason": "Names are physically present in relationship evidence, but no authoritative stable entity-ID registry is available in the supplied inputs; inferred IDs are prohibited."
+}

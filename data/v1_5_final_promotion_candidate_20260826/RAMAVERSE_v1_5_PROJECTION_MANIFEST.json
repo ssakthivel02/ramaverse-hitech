@@ -1,0 +1,50 @@
+{
+  "SEARCH": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "ASK": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "READER": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "GRAPH": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "TIMELINE": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "CHARACTER": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "PLACE": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  },
+  "JOURNEY": {
+    "count": 1092,
+    "sha256": "7157d95f8df9a5c65dd1a32dc0ed76c4c7d975991132e48af14c14504a178dd4",
+    "dangling": 0,
+    "orphan": 0
+  }
+}

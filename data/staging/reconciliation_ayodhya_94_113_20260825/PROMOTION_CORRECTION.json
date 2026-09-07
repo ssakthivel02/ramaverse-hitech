@@ -1,0 +1,8 @@
+{
+  "archive": "RAMAVERSE-AYODHYA-94-113-MOBILE-RUNTIME-PROMOTION-CANDIDATE.zip",
+  "sha256": "b152148a1b2d283bee70cf1a756083088c58884c0c9ffb452abdd2cb62f537a7",
+  "entries": 12,
+  "integrity": true,
+  "approved_standalone_relationship_records": 0,
+  "reason": "All standalone relationship records remain held until entity-ID crosswalk and source-edge review."
+}

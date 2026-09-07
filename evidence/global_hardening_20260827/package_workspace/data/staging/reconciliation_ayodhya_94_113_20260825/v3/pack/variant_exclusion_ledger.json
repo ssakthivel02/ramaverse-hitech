@@ -1,0 +1,65 @@
+[
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-SARGA-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-EVENT-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DIALOGUE-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHARACTER-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-PLACE-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-DHARMA_LESSON-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-WISDOM-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-TIMELINE_EVENT-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  },
+  {
+    "record_id": "RV02-VNEXT2-20260825-AYODHYA-102-109-106-CHILDREN_STORY-001",
+    "source_presentation": "2.106.1-33,35",
+    "alternate_presentation": "Preserved in v2 variant decision evidence; no silent renumbering.",
+    "decision": "VARIANT_HOLD",
+    "runtime_eligibility": "HOLD"
+  }
+]

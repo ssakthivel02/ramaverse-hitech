@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "endpoint": "/ops/health",
+  "noUserQuestionLogging": true,
+  "exposes": [
+    "deployment",
+    "activeCorpusVersion",
+    "canonicalCount",
+    "pwaVersion"
+  ],
+  "excludes": [
+    "user questions",
+    "tokens",
+    "credentials",
+    "staging records"
+  ]
+}
