@@ -3,6 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /reconciliation
 Disallow: /staging
-Disallow: /__manus__/
 
 Sitemap: https://ramaverse.omsaravanabhava.org/sitemap.xml
