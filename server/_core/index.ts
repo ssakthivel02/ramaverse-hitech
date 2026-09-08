@@ -44,6 +44,7 @@ async function startServer() {
   const activeCorpus = await assertActiveCorpus();
   console.log(`[Corpus] Active ${activeCorpus.pointer.activeCorpusVersion} (${activeCorpus.pointer.canonicalCount} records)`);
   const app = express();
+  app.disable("x-powered-by");
   const server = createServer(app);
   app.use(express.json({ limit: "50mb" }));
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
@@ -54,6 +55,9 @@ async function startServer() {
     res.setHeader("X-Frame-Options", "SAMEORIGIN");
     res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
     res.setHeader("Permissions-Policy", "camera=(), geolocation=(), payment=(), usb=()");
+    if (process.env.NODE_ENV === "production") {
+      res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
+    }
     res.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https:; frame-ancestors 'self'");
     if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__") || isOperationalPath(req.path)) {
       res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
