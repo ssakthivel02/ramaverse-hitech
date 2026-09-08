@@ -1,9 +1,28 @@
+import { OAUTH_STATE_COOKIE, encodeOAuthState } from "@shared/const";
+
 /**
- * Public Website mode does not require an identity provider.
- * Keep this adapter so optional account UI can remain provider-neutral.
+ * Public RamaVerse reading does not require identity. Optional account UI can
+ * call this standard OIDC Authorization Code adapter when OIDC is configured.
  */
 export const startLogin = () => {
-  if (typeof window !== "undefined") {
-    window.dispatchEvent(new CustomEvent("ramaverse:auth-optional"));
+  const authorizationUrl = import.meta.env.VITE_OIDC_AUTHORIZATION_URL;
+  const clientId = import.meta.env.VITE_OIDC_CLIENT_ID ?? import.meta.env.VITE_APP_ID;
+  const scopes = import.meta.env.VITE_OIDC_SCOPES ?? "openid profile email";
+
+  if (!authorizationUrl || !clientId) {
+    throw new Error("OIDC login is not configured");
   }
+
+  const redirectUri = `${window.location.origin}/api/oauth/callback`;
+  const nonce = crypto.randomUUID();
+  document.cookie = `${OAUTH_STATE_COOKIE}=${nonce}; Path=/; Max-Age=600; SameSite=Lax; Secure`;
+  const state = encodeOAuthState({ redirectUri, nonce });
+
+  const url = new URL(authorizationUrl);
+  url.searchParams.set("response_type", "code");
+  url.searchParams.set("client_id", clientId);
+  url.searchParams.set("redirect_uri", redirectUri);
+  url.searchParams.set("scope", scopes);
+  url.searchParams.set("state", state);
+  window.location.href = url.toString();
 };
