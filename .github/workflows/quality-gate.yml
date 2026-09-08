@@ -34,9 +34,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          files=(vite.config.ts render.yaml server/_core/index.ts server/_core/llm.ts client/src/pages/SargaReader.tsx)
-          if grep -En -i "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer" "${files[@]}"; then
-            echo "Forbidden Manus/Forge coupling detected in production-critical RamaVerse source."
+          files=(vite.config.ts render.yaml server/_core/index.ts server/_core/llm.ts server/_core/sdk.ts server/_core/oauth.ts client/src/const.ts client/src/pages/SargaReader.tsx)
+          if grep -En -i "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer|WebDevAuthPublicService|/app-auth|OAUTH_SERVER_URL|types/manusTypes" "${files[@]}"; then
+            echo "Forbidden Manus/Forge/WebDev coupling detected in production-critical RamaVerse source."
             exit 1
           fi
 
@@ -56,8 +56,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if grep -REn -i "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer|BUILT_IN_FORGE|/manus-storage/|/__manus__/" dist; then
-            echo "Forbidden Manus/Forge marker found in deployable RamaVerse dist output."
+          if grep -REn -i "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer|BUILT_IN_FORGE|WebDevAuthPublicService|/app-auth|OAUTH_SERVER_URL|types/manusTypes|/manus-storage/|/__manus__/" dist; then
+            echo "Forbidden Manus/Forge/WebDev marker found in deployable RamaVerse dist output."
             exit 1
           fi
 
