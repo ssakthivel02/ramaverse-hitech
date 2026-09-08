@@ -25,6 +25,17 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
   throw new Error(`No available port found starting from ${startPort}`);
 }
 
+function releaseIdentity() {
+  const commit = process.env.RENDER_GIT_COMMIT?.trim() || process.env.GIT_COMMIT?.trim() || "unknown";
+  return {
+    service: "ramaverse",
+    environment: process.env.NODE_ENV || "unknown",
+    repository: process.env.RENDER_GIT_REPO_SLUG?.trim() || "ssakthivel02/ramaverse-hitech",
+    commit,
+    exactCommitKnown: commit !== "unknown",
+  };
+}
+
 async function startServer() {
   const activeCorpus = await assertActiveCorpus();
   console.log(`[Corpus] Active ${activeCorpus.pointer.activeCorpusVersion} (${activeCorpus.pointer.canonicalCount} records)`);
@@ -40,7 +51,7 @@ async function startServer() {
     res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
     res.setHeader("Permissions-Policy", "camera=(), geolocation=(), payment=(), usb=()");
     res.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https:; frame-ancestors 'self'");
-    if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__")) {
+    if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__") || req.path === "/healthz" || req.path === "/readyz" || req.path === "/releasez") {
       res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
     }
     next();
@@ -49,6 +60,8 @@ async function startServer() {
   app.get("/healthz", (_req, res) => {
     res.status(200).json({ status: "alive", service: "ramaverse", environment: process.env.NODE_ENV || "unknown" });
   });
+
+  app.get("/releasez", (_req, res) => res.status(200).json(releaseIdentity()));
 
   app.get("/readyz", async (_req, res) => {
     try {
@@ -85,7 +98,7 @@ async function startServer() {
   app.get("/ops/release-state", async (_req, res) => {
     try {
       const active = await assertActiveCorpus();
-      res.json({ deployment: process.env.NODE_ENV || "unknown", corpus: { version: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount }, stagingPublished: 0, pwaVersion: "ramaverse-cache-v5", userQuestionLogging: "disabled" });
+      res.json({ deployment: process.env.NODE_ENV || "unknown", corpus: { version: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount }, stagingPublished: 0, pwaVersion: "ramaverse-cache-v5", userQuestionLogging: "disabled", release: releaseIdentity() });
     } catch {
       res.status(503).json({ ok: false, reason: "release_state_unavailable" });
     }
