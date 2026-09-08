@@ -60,3 +60,20 @@ jobs:
             echo "Forbidden Manus/Forge marker found in deployable RamaVerse dist output."
             exit 1
           fi
+
+      - name: Built-server health smoke
+        shell: bash
+        run: |
+          set -euo pipefail
+          PORT=3210 NODE_ENV=production node dist/index.js >/tmp/ramaverse-server.log 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent --show-error http://127.0.0.1:3210/healthz >/tmp/ramaverse-health.json; then
+              cat /tmp/ramaverse-health.json
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/ramaverse-server.log
+          exit 1
