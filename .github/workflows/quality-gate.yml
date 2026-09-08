@@ -61,19 +61,34 @@ jobs:
             exit 1
           fi
 
-      - name: Built-server health smoke
+      - name: Built-server behavior smoke
         shell: bash
         run: |
           set -euo pipefail
           PORT=3210 NODE_ENV=production node dist/index.js >/tmp/ramaverse-server.log 2>&1 &
           pid=$!
           trap 'kill "$pid" 2>/dev/null || true' EXIT
+
+          healthy=false
           for attempt in $(seq 1 20); do
             if curl --fail --silent --show-error http://127.0.0.1:3210/healthz >/tmp/ramaverse-health.json; then
-              cat /tmp/ramaverse-health.json
-              exit 0
+              healthy=true
+              break
             fi
             sleep 1
           done
-          cat /tmp/ramaverse-server.log
-          exit 1
+          if [ "$healthy" != true ]; then
+            cat /tmp/ramaverse-server.log
+            exit 1
+          fi
+          cat /tmp/ramaverse-health.json
+
+          curl --fail --silent --show-error http://127.0.0.1:3210/ >/tmp/ramaverse-root.html
+          test -s /tmp/ramaverse-root.html
+
+          ready_status=$(curl --silent --output /tmp/ramaverse-ready.json --write-out '%{http_code}' http://127.0.0.1:3210/readyz)
+          cat /tmp/ramaverse-ready.json
+          if [ "$ready_status" != "503" ]; then
+            echo "Expected /readyz to fail closed with 503 when DATABASE_URL is absent; got $ready_status"
+            exit 1
+          fi
