@@ -7,7 +7,7 @@ permissions:
   contents: read
 
 jobs:
-  migrate-and-verify:
+  schema-setup:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
@@ -41,8 +41,23 @@ jobs:
       - name: Typecheck
         run: pnpm check
 
-      - name: Apply preview schema
+      - name: Apply preview schema only
         run: pnpm db:push
 
-      - name: Verify database-backed canonical surfaces
-        run: pnpm vitest run server/sargas.test.ts server/canonicalSurfaceAudit.test.ts server/grounding.test.ts
+      - name: Verify database connectivity
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import mysql from 'mysql2/promise';
+          const connection = await mysql.createConnection(process.env.DATABASE_URL);
+          const [rows] = await connection.query('SELECT 1 AS ok');
+          await connection.end();
+          if (!Array.isArray(rows) || rows[0]?.ok !== 1) process.exit(1);
+          console.log('RamaVerse preview database connectivity PASS');
+          NODE
+
+      - name: Reader-data boundary notice
+        run: |
+          echo "Schema setup does not assert canonical Reader data is loaded."
+          echo "Run the separate RamaVerse Integration Gate only after an owner-approved lossless Sarga dataset has been loaded into this preview database."
