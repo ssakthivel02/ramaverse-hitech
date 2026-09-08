@@ -2,16 +2,22 @@ import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { InsertUser, users } from "../drizzle/schema";
 import { ENV } from './_core/env';
+import { createVerifiedMysqlPool } from "./_core/mysql";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 
-// Lazily create the drizzle instance so local tooling can run without a DB.
+// Lazily create and verify the pool so local tooling can run without a DB.
+// A configured database is not considered ready until SELECT 1 succeeds.
 export async function getDb() {
   if (!_db && process.env.DATABASE_URL) {
     try {
-      _db = drizzle(process.env.DATABASE_URL);
+      const pool = await createVerifiedMysqlPool(
+        process.env.DATABASE_URL,
+        process.env.DATABASE_EXPECTED_NAME,
+      );
+      _db = drizzle(pool);
     } catch (error) {
-      console.warn("[Database] Failed to connect:", error);
+      console.warn("[Database] Failed verified connection:", error);
       _db = null;
     }
   }
