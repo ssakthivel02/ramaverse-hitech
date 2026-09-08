@@ -36,6 +36,10 @@ function releaseIdentity() {
   };
 }
 
+function isOperationalPath(path: string) {
+  return path === "/healthz" || path === "/readyz" || path === "/releasez" || path.startsWith("/ops/");
+}
+
 async function startServer() {
   const activeCorpus = await assertActiveCorpus();
   console.log(`[Corpus] Active ${activeCorpus.pointer.activeCorpusVersion} (${activeCorpus.pointer.canonicalCount} records)`);
@@ -51,8 +55,12 @@ async function startServer() {
     res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
     res.setHeader("Permissions-Policy", "camera=(), geolocation=(), payment=(), usb=()");
     res.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https:; frame-ancestors 'self'");
-    if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__") || req.path === "/healthz" || req.path === "/readyz" || req.path === "/releasez") {
+    if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__") || isOperationalPath(req.path)) {
       res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
+    }
+    if (isOperationalPath(req.path)) {
+      res.setHeader("Cache-Control", "no-store, max-age=0");
+      res.setHeader("Pragma", "no-cache");
     }
     next();
   });
