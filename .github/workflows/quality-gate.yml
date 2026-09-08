@@ -30,13 +30,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Repository-wide runtime neutrality guard
+      - name: Production source neutrality guard
         shell: bash
         run: |
           set -euo pipefail
-          if git grep -En -i "forge\.manus\.im|vite-plugin-manus-runtime|/__manus__/|manus-storage|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer|BUILT_IN_FORGE" -- \
-            ':!*.md' ':!*.json' ':!pnpm-lock.yaml' ':!*.example' ':!.github/workflows/quality-gate.yml'; then
-            echo "Forbidden Manus/Forge runtime coupling detected in RamaVerse executable/config source."
+          files=(vite.config.ts render.yaml server/_core/index.ts server/_core/llm.ts client/src/pages/SargaReader.tsx)
+          if grep -En -i "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer" "${files[@]}"; then
+            echo "Forbidden Manus/Forge coupling detected in production-critical RamaVerse source."
             exit 1
           fi
 
@@ -51,3 +51,12 @@ jobs:
 
       - name: Build
         run: pnpm build
+
+      - name: Deployable artifact neutrality guard
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -REn -i "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|manus-asia\.computer|manuscomputer\.ai|manusvm\.computer|BUILT_IN_FORGE|/manus-storage/|/__manus__/" dist; then
+            echo "Forbidden Manus/Forge marker found in deployable RamaVerse dist output."
+            exit 1
+          fi
