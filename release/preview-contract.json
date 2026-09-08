@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "application": "ramaverse-hitech",
+  "environment": "preview",
+  "canonicalRepository": "ssakthivel02/ramaverse-hitech",
+  "deployment": {
+    "provider": "render",
+    "serviceName": "ramaverse-hitech-preview",
+    "autoDeploy": false,
+    "healthPath": "/readyz",
+    "sourcePolicy": "exact-commit-only-after-green-gates"
+  },
+  "database": {
+    "engine": "mysql",
+    "provider": "aiven",
+    "expectedDatabase": "ramaverse_preview",
+    "forbiddenDatabases": ["defaultdb", "sakthiai_preview", "kirthiverse_preview"],
+    "verifiedTlsRequired": true,
+    "caEnvironmentVariable": "DATABASE_CA_CERT_B64"
+  },
+  "requiredPreviewGates": [
+    "quality-gate",
+    "preview-deployment-preflight",
+    "preview-db-setup",
+    "preview-http-smoke"
+  ],
+  "runtimeReadiness": {
+    "database": true,
+    "corpus": true
+  },
+  "production": {
+    "approved": false,
+    "reason": "Preview validation, corpus readiness, and exact deployed-commit QA are mandatory before production approval."
+  }
+}
