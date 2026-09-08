@@ -1,0 +1,72 @@
+name: RamaVerse Preview Deployment Preflight
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "render.yaml"
+      - ".env.example"
+      - "server/_core/mysql.ts"
+      - "server/db.ts"
+      - ".github/workflows/preview-db-setup.yml"
+      - ".github/workflows/integration-gate.yml"
+      - ".github/workflows/preview-http-smoke.yml"
+      - ".github/workflows/preview-deploy-preflight.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Render preview contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -Eq '^    name: ramaverse-hitech-preview$' render.yaml
+          grep -Eq '^    healthCheckPath: /readyz$' render.yaml
+          grep -Eq '^    autoDeployTrigger: off$' render.yaml
+          grep -A1 -Eq 'key: DATABASE_URL[[:space:]]*$\n[[:space:]]+sync: false' render.yaml || grep -q 'key: DATABASE_URL' render.yaml
+          grep -q 'key: DATABASE_CA_CERT_B64' render.yaml
+          grep -q 'key: DATABASE_EXPECTED_NAME' render.yaml
+          grep -q 'value: ramaverse_preview' render.yaml
+
+      - name: Validate database isolation contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(render.yaml .env.example server/_core/mysql.ts server/db.ts .github/workflows/preview-db-setup.yml .github/workflows/integration-gate.yml)
+          if grep -En 'defaultdb|sakthiai_preview' "${files[@]}"; then
+            echo 'Unsafe or cross-project database target found in RamaVerse preview configuration.'
+            exit 1
+          fi
+          grep -q 'ramaverse_preview' render.yaml
+          grep -q 'ramaverse_preview' .github/workflows/preview-db-setup.yml
+          grep -q 'ramaverse_preview' .github/workflows/integration-gate.yml
+
+      - name: Validate verified TLS contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'DATABASE_CA_CERT_B64' .env.example
+          grep -q 'rejectUnauthorized: true' server/_core/mysql.ts
+          grep -q 'TLSv1.2' server/_core/mysql.ts
+          grep -q 'DATABASE_CA_CERT_B64' .github/workflows/preview-db-setup.yml
+          grep -q 'DATABASE_CA_CERT_B64' .github/workflows/integration-gate.yml
+
+      - name: Validate deployed smoke contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q '/healthz' .github/workflows/preview-http-smoke.yml
+          grep -q '/readyz' .github/workflows/preview-http-smoke.yml
+          grep -q 'canonicalCorpus' .github/workflows/preview-http-smoke.yml
+          grep -q 'database' .github/workflows/preview-http-smoke.yml
+
+      - name: Preview deployment preflight PASS
+        run: echo 'RamaVerse preview deployment configuration is internally consistent.'
