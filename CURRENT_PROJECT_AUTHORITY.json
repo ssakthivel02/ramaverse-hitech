@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "authority_scope": "current operational and release state",
+  "canonical_repository": true,
+  "current_state_authority": true,
+  "continuation_authority_file": "CONTINUATION_AUTHORITY.json",
+  "active_corpus_pointer": "data/corpus/ACTIVE_CORPUS.json",
+  "historical_state_files": [
+    "PROJECT_STATE.json",
+    "RAMAVERSE_PROJECT_STATE.json"
+  ],
+  "historical_state_policy": "Historical state files are evidence only. Their continuation markers, runtime counts, test counts, deployment state, and exact-next-source fields must not be treated as current authority.",
+  "source_acquisition": {
+    "allowed": false,
+    "reason": "CONTINUATION_AUTHORITY.json remains CONFLICT_REQUIRES_RECONCILIATION and has no verified next source."
+  },
+  "canonical_promotion": {
+    "allowed": false,
+    "reason": "Continuation reconciliation and separate promotion approval are required."
+  },
+  "preview": {
+    "source_ci": "GREEN",
+    "preview_preflight": "GREEN",
+    "preview_release_candidate": "GREEN",
+    "runtime_ready": false,
+    "blocking_requirements": [
+      "Dedicated RamaVerse-owned preview database/runtime must be provisioned and identified explicitly.",
+      "Canonical Reader rows must be loaded and verified independently from schema existence.",
+      "Exact deployed commit must pass preview HTTP and integration QA."
+    ],
+    "shared_database_reuse_allowed": false
+  },
+  "production": {
+    "ready": false,
+    "dns_change_allowed": false,
+    "deployment_change_allowed": false
+  },
+  "agent_rules": [
+    "Fresh-check main, open PRs, open issues, and running workflows before every write task.",
+    "Stop when another agent is modifying the same area.",
+    "Do not import, develop, deploy, or repair legacy RamaVerse repositories or historical website exports.",
+    "Do not fabricate missing Sarga rows or infer corpus presence from schema existence.",
+    "Do not use PROJECT_STATE.json or RAMAVERSE_PROJECT_STATE.json as current continuation authority.",
+    "Do not publish staging or reconciliation records through public Reader, Search, Ask, or offline canonical surfaces."
+  ]
+}
