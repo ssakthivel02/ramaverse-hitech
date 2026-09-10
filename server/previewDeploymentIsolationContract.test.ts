@@ -29,4 +29,24 @@ describe("RamaVerse preview deployment isolation contract", () => {
     expect(plan).toContain("confirm the selected provider plan, cloud/region, cost tier, service name, and repository/branch binding");
     expect(plan).toContain("Do not guess these values");
   });
+
+  it("binds preview schema setup to an explicit dedicated host identity", () => {
+    const workflow = read(".github/workflows/preview-db-setup.yml");
+
+    expect(workflow).toContain("RAMAVERSE_PREVIEW_DATABASE_HOST");
+    expect(workflow).toContain("DATABASE_EXPECTED_HOST");
+    expect(workflow).toContain("actualHost !== expectedHost");
+    expect(workflow).toContain("DATABASE_EXPECTED_SERVICE_MARKER: ramaverse");
+    expect(workflow).toContain("actualHost.includes('hitech-preview-mysql')");
+    expect(workflow).toContain("Known shared cross-project Aiven service is prohibited for RamaVerse preview");
+  });
+
+  it("documents all secrets required by the fail-closed DB setup gate", () => {
+    const plan = read("PREVIEW_DEPLOYMENT_PLAN.md");
+
+    expect(plan).toContain("RAMAVERSE_TEST_DATABASE_URL");
+    expect(plan).toContain("RAMAVERSE_PREVIEW_DATABASE_HOST");
+    expect(plan).toContain("AIVEN_MYSQL_CA_CERT_B64");
+    expect(plan).toContain("known shared `hitech-preview-mysql` service is explicitly rejected");
+  });
 });
