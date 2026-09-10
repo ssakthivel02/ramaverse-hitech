@@ -50,6 +50,7 @@ jobs:
           const release = JSON.parse(fs.readFileSync('/tmp/release.json', 'utf8'));
           const expected = process.env.EXPECTED_COMMIT.toLowerCase();
           if (release.service !== 'ramaverse') throw new Error('Wrong service identity from /releasez.');
+          if (release.exactRepositoryKnown !== true) throw new Error('Deployed RamaVerse repository identity is not available.');
           if (release.repository !== 'ssakthivel02/ramaverse-hitech') throw new Error(`Unexpected repository identity: ${String(release.repository)}`);
           if (release.exactCommitKnown !== true) throw new Error('Deployed RamaVerse commit identity is not available.');
           if (String(release.commit).toLowerCase() !== expected) {

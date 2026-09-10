@@ -66,12 +66,14 @@ jobs:
           set -euo pipefail
           grep -q 'RENDER_GIT_COMMIT' server/_core/index.ts
           grep -q 'RENDER_GIT_REPO_SLUG' server/_core/index.ts
+          grep -q 'exactRepositoryKnown' server/_core/index.ts
           grep -q 'app.get("/releasez"' server/_core/index.ts
           smoke=.github/workflows/preview-http-smoke.yml
           grep -q 'expected_commit' "$smoke"
           grep -q '/releasez' "$smoke"
           grep -q 'ssakthivel02/ramaverse-hitech' "$smoke"
           grep -q 'exactCommitKnown' "$smoke"
+          grep -q 'exactRepositoryKnown' "$smoke"
 
       - name: Validate deployed smoke contract
         shell: bash
