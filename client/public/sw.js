@@ -1,7 +1,13 @@
-const CACHE_NAME = "ramaverse-cache-v5";
+const CACHE_NAME = "ramaverse-cache-v6";
 const CACHE_PREFIX = "ramaverse-cache-";
 const OFFLINE_URL = "/offline-reset.html";
 const SHELL_URLS = ["/", "/index.html", "/manifest.json", "/favicon.svg", "/robots.txt", "/sitemap.xml", OFFLINE_URL];
+
+const OPERATIONAL_PATHS = new Set(["/healthz", "/readyz", "/releasez"]);
+
+function isOperationalPath(pathname) {
+  return OPERATIONAL_PATHS.has(pathname) || pathname.startsWith("/ops/");
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_URLS)));
@@ -26,7 +32,7 @@ self.addEventListener("fetch", (event) => {
   const request = event.request;
   const url = new URL(request.url);
   const isDevelopmentModule = url.pathname.startsWith("/@") || url.pathname.startsWith("/src/") || url.pathname.includes("/node_modules/");
-  const excluded = request.method !== "GET" || url.origin !== self.location.origin || isDevelopmentModule || url.pathname.startsWith("/api/") || url.pathname.includes("reconciliation") || url.pathname.toLowerCase().includes("staging");
+  const excluded = request.method !== "GET" || url.origin !== self.location.origin || isDevelopmentModule || url.pathname.startsWith("/api/") || isOperationalPath(url.pathname) || url.pathname.includes("reconciliation") || url.pathname.toLowerCase().includes("staging");
   if (excluded) {
     event.respondWith(fetch(request));
     return;
