@@ -49,4 +49,14 @@ describe("RamaVerse preview deployment isolation contract", () => {
     expect(plan).toContain("AIVEN_MYSQL_CA_CERT_B64");
     expect(plan).toContain("known shared `hitech-preview-mysql` service is explicitly rejected");
   });
+
+  it("keeps runtime readiness aligned with dedicated-service isolation", () => {
+    const readiness = read("PREVIEW_RUNTIME_READINESS.md");
+
+    expect(readiness).toContain("separately provisioned MySQL service dedicated to RamaVerse preview/test use");
+    expect(readiness).toContain("RAMAVERSE_PREVIEW_DATABASE_HOST");
+    expect(readiness).toContain("dedicated database/schema name or dedicated database user inside a shared cross-project database service is **not sufficient isolation**");
+    expect(readiness).toContain("Do not use any shared cross-project database server/service for RamaVerse preview");
+    expect(readiness).not.toContain("Do not use an ambiguous/shared database service without verified RamaVerse ownership");
+  });
 });
