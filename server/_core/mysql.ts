@@ -2,7 +2,11 @@ import mysql, { type Pool, type PoolOptions } from "mysql2";
 
 export const AIVEN_CA_ENV = "DATABASE_CA_CERT_B64";
 
-export function getMysqlConnectionOptions(connectionString: string, expectedDatabase?: string): PoolOptions {
+export function getMysqlConnectionOptions(
+  connectionString: string,
+  expectedDatabase?: string,
+  requireExpectedDatabase = process.env.NODE_ENV === "production",
+): PoolOptions {
   const url = new URL(connectionString);
   if (url.protocol !== "mysql:") {
     throw new Error("DATABASE_URL must use the mysql:// scheme");
@@ -11,6 +15,9 @@ export function getMysqlConnectionOptions(connectionString: string, expectedData
   const database = decodeURIComponent(url.pathname.replace(/^\//, ""));
   if (!database) {
     throw new Error("DATABASE_URL must include a database name");
+  }
+  if (requireExpectedDatabase && !expectedDatabase) {
+    throw new Error("DATABASE_EXPECTED_NAME is required for production database connections");
   }
   if (expectedDatabase && database !== expectedDatabase) {
     throw new Error(`DATABASE_URL must target ${expectedDatabase}; received ${database}`);
