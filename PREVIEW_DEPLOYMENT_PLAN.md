@@ -22,6 +22,16 @@ Status: PREVIEW-READY SOURCE, DEPLOYMENT NOT STARTED
 - deployed repository identity and commit identity must be provided by the host as described in `PREVIEW_RUNTIME_READINESS.md`
 - `PORT` is supplied by the hosting runtime.
 
+## Required GitHub preview-DB gate secrets
+
+The manually dispatched `RamaVerse Preview DB Setup` workflow must fail closed until all of these are configured for the dedicated RamaVerse preview service:
+
+- `RAMAVERSE_TEST_DATABASE_URL` — full connection URL for the dedicated RamaVerse preview database only.
+- `RAMAVERSE_PREVIEW_DATABASE_HOST` — exact expected hostname of the dedicated RamaVerse Aiven MySQL service. The workflow compares this value byte-for-hostname after lowercasing; a different Aiven host is rejected.
+- `AIVEN_MYSQL_CA_CERT_B64` — trusted Aiven CA certificate encoded as base64 for TLS verification.
+
+The expected host must carry the RamaVerse service identity. The known shared `hitech-preview-mysql` service is explicitly rejected by the setup workflow and must not be configured in these secrets.
+
 ## Database isolation rule
 
 The preview database **service** must be dedicated to RamaVerse and separate from production and from other projects. A shared database server/service containing multiple project databases is not an approved preview dependency, even when `ramaverse_preview` itself has a separate schema/name or user.
@@ -53,5 +63,7 @@ Any previously created cross-project Aiven MySQL service must remain outside the
 ## Provisioning boundary
 
 Provisioning a new managed database or hosted runtime is an external infrastructure decision. Before creation, confirm the selected provider plan, cloud/region, cost tier, service name, and repository/branch binding through the provider's supported workflow. Do not guess these values and do not silently reuse an existing shared service.
+
+After provisioning the dedicated database service, record its exact hostname only in the approved GitHub/provider secret configuration, not in committed credentials. The repository gate will then bind schema setup to that explicit host identity.
 
 Secrets must be entered only through the hosting/provider secret store. Never commit or paste database credentials into the repository.
