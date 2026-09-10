@@ -91,7 +91,7 @@ async function startServer() {
         },
         activeCorpusVersion: active.pointer.activeCorpusVersion,
         canonicalCount: active.pointer.canonicalCount,
-        pwaVersion: "ramaverse-cache-v5",
+        pwaVersion: "ramaverse-cache-v6",
       });
     } catch {
       res.status(503).json({ status: "not_ready", service: "ramaverse", reason: "active_corpus_unavailable" });
@@ -103,7 +103,7 @@ async function startServer() {
       const active = await assertActiveCorpus();
       const db = await getDb();
       const databaseReady = Boolean(db);
-      res.status(databaseReady ? 200 : 503).json({ ok: databaseReady, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "configured" : "unavailable", pwaVersion: "ramaverse-cache-v5" });
+      res.status(databaseReady ? 200 : 503).json({ ok: databaseReady, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "configured" : "unavailable", pwaVersion: "ramaverse-cache-v6" });
     } catch {
       res.status(503).json({ ok: false, reason: "active_corpus_unavailable" });
     }
@@ -112,7 +112,7 @@ async function startServer() {
   app.get("/ops/release-state", async (_req, res) => {
     try {
       const active = await assertActiveCorpus();
-      res.json({ deployment: process.env.NODE_ENV || "unknown", corpus: { version: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount }, stagingPublished: 0, pwaVersion: "ramaverse-cache-v5", userQuestionLogging: "disabled", release: releaseIdentity() });
+      res.json({ deployment: process.env.NODE_ENV || "unknown", corpus: { version: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount }, stagingPublished: 0, pwaVersion: "ramaverse-cache-v6", userQuestionLogging: "disabled", release: releaseIdentity() });
     } catch {
       res.status(503).json({ ok: false, reason: "release_state_unavailable" });
     }
