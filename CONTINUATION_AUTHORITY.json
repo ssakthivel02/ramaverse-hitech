@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "authority": "current-hi-tech-repository",
+  "status": "CONFLICT_REQUIRES_RECONCILIATION",
+  "acquisition_allowed": false,
+  "promotion_allowed": false,
+  "reader_corpus_activation_implied": false,
+  "verified_next_source": null,
+  "conflicting_markers": [
+    {
+      "marker": "Aranya Kanda Sarga 45 / 3.45.1",
+      "source": "continuation completion specification referenced by CONTINUATION.md",
+      "disposition": "candidate only; conflicts with physical acquisition evidence"
+    },
+    {
+      "marker": "Ayodhya Kanda Sarga 66 / 2.66.1",
+      "source": "historical RAMAVERSE_PROJECT_STATE.json exact_next_point",
+      "disposition": "historical marker only; must not be used as current continuation authority"
+    }
+  ],
+  "required_resolution": [
+    "Reconcile physical acquisition ledgers against all continuation markers.",
+    "Identify the first genuinely missing source-backed verse without overwriting historical ledgers.",
+    "Record evidence and update this authority file only after reconciliation.",
+    "Keep all newly acquired material staging-only until formal canonical promotion is separately approved."
+  ],
+  "guardrails": [
+    "Do not fabricate missing Sarga Reader rows.",
+    "Do not infer that database schema existence means Reader corpus data is loaded.",
+    "Do not publish staging or reconciliation records through public Reader, Search, Ask, or offline canonical surfaces.",
+    "Do not change production DNS or production deployment while this continuation conflict remains unresolved."
+  ]
+}
