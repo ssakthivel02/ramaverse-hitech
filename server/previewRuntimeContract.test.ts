@@ -11,6 +11,7 @@ describe("RamaVerse preview runtime documentation contract", () => {
     const envExample = read(".env.example");
 
     expect(readiness).toContain("DATABASE_EXPECTED_NAME=ramaverse_preview");
+    expect(readiness).toContain("RAMAVERSE_PREVIEW_DATABASE_HOST");
     expect(readiness).toContain("schema existence alone does **not** prove Sarga Reader corpus rows are loaded");
     expect(envExample).toContain("DATABASE_EXPECTED_NAME=ramaverse_preview");
   });
@@ -32,6 +33,7 @@ describe("RamaVerse preview runtime documentation contract", () => {
 
     expect(readiness).toContain("Do not fabricate missing Sarga Reader rows.");
     expect(readiness).toContain("Do not treat schema presence as proof that Reader corpus data has been loaded.");
-    expect(readiness).toContain("Do not use an ambiguous/shared database service without verified RamaVerse ownership");
+    expect(readiness).toContain("Do not use any shared cross-project database server/service for RamaVerse preview, even with a separate database name or user.");
+    expect(readiness).not.toContain("Do not use an ambiguous/shared database service without verified RamaVerse ownership");
   });
 });
