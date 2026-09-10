@@ -9,6 +9,14 @@ This repository is the canonical source for the new RamaVerse Hi-Tech website/ru
 - Cloudflare storage is not a canonical source repository.
 - GitHub remains the canonical source and release authority.
 
+## Current authority hierarchy
+
+Before any new work, use `CURRENT_PROJECT_AUTHORITY.json` for the current operational/release state and `CONTINUATION_AUTHORITY.json` for corpus continuation authority.
+
+`PROJECT_STATE.json` and `RAMAVERSE_PROJECT_STATE.json` are retained as historical evidence only. Their old continuation markers, runtime counts, test counts, deployment state, and exact-next-source fields are not current authority and must not be used to start acquisition, promotion, deployment, or release work.
+
+If the authority files prohibit acquisition or promotion, agents must stop rather than infer a continuation point from historical files.
+
 ## Runtime boundary
 
 RamaVerse is not a GitHub Pages-only application. The Sarga Reader and other governed discovery surfaces depend on the Express/tRPC backend and MySQL/Drizzle data access. Static React assets and the Node backend are built together for the first controlled preview.
@@ -27,7 +35,7 @@ The repository also contains an activated canonical corpus governed by `data/cor
 
 See `PREVIEW_DEPLOYMENT_PLAN.md` and `PREVIEW_RUNTIME_READINESS.md`.
 
-The first controlled preview uses a separately provisioned Node runtime and preview MySQL database. `render.yaml` defines the preview web service. Production DNS is not attached until preview QA passes.
+The first controlled preview uses a separately provisioned Node runtime and preview MySQL database. The database/runtime must be dedicated to RamaVerse and explicitly identified; a shared cross-project database service is not an acceptable preview dependency. `render.yaml` defines the preview web service. Production DNS is not attached until preview QA passes.
 
 ## Validation
 
