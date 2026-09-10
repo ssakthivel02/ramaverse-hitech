@@ -27,12 +27,14 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
 
 function releaseIdentity() {
   const commit = process.env.RENDER_GIT_COMMIT?.trim() || process.env.GIT_COMMIT?.trim() || "unknown";
+  const repository = process.env.RENDER_GIT_REPO_SLUG?.trim() || process.env.GIT_REPOSITORY?.trim() || "unknown";
   return {
     service: "ramaverse",
     environment: process.env.NODE_ENV || "unknown",
-    repository: process.env.RENDER_GIT_REPO_SLUG?.trim() || "ssakthivel02/ramaverse-hitech",
+    repository,
     commit,
     exactCommitKnown: commit !== "unknown",
+    exactRepositoryKnown: repository !== "unknown",
   };
 }
 
