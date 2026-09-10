@@ -22,6 +22,17 @@ describe("RamaVerse preview MySQL contract", () => {
     expect(options.ssl).toMatchObject({ rejectUnauthorized: true, minVersion: "TLSv1.2" });
   });
 
+  it("fails closed in production when the expected database identity is not configured", () => {
+    process.env[AIVEN_CA_ENV] = testCa;
+    expect(() =>
+      getMysqlConnectionOptions(
+        "mysql://preview-user:preview-pass@example.aivencloud.com:11349/ramaverse_preview",
+        undefined,
+        true,
+      ),
+    ).toThrow(/DATABASE_EXPECTED_NAME is required/);
+  });
+
   it.each(["defaultdb", "sakthiai_preview", "kirthiverse_preview"])(
     "rejects cross-project or default database %s",
     database => {
