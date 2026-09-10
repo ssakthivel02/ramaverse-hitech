@@ -13,6 +13,8 @@ jobs:
     env:
       DATABASE_URL: ${{ secrets.RAMAVERSE_TEST_DATABASE_URL }}
       DATABASE_EXPECTED_NAME: ramaverse_preview
+      DATABASE_EXPECTED_HOST: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_HOST }}
+      DATABASE_EXPECTED_SERVICE_MARKER: ramaverse
       DATABASE_CA_CERT_B64: ${{ secrets.AIVEN_MYSQL_CA_CERT_B64 }}
     steps:
       - name: Checkout
@@ -26,24 +28,42 @@ jobs:
             echo "RAMAVERSE_TEST_DATABASE_URL is not configured."
             exit 1
           fi
+          if [ -z "${DATABASE_EXPECTED_HOST:-}" ]; then
+            echo "RAMAVERSE_PREVIEW_DATABASE_HOST is not configured."
+            exit 1
+          fi
           if [ -z "${DATABASE_CA_CERT_B64:-}" ]; then
             echo "AIVEN_MYSQL_CA_CERT_B64 is not configured."
             exit 1
           fi
 
-      - name: Validate isolated Aiven MySQL target
+      - name: Validate dedicated Aiven MySQL target identity
         shell: bash
         run: |
           set -euo pipefail
           node --input-type=module <<'NODE'
           const url = new URL(process.env.DATABASE_URL);
+          const actualHost = url.hostname.toLowerCase();
+          const expectedHost = process.env.DATABASE_EXPECTED_HOST.trim().toLowerCase();
+          const serviceMarker = process.env.DATABASE_EXPECTED_SERVICE_MARKER.trim().toLowerCase();
+
           if (url.protocol !== 'mysql:') throw new Error('RamaVerse preview DATABASE_URL must use mysql://.');
-          if (!url.hostname.endsWith('.aivencloud.com')) throw new Error('RamaVerse preview must target the approved Aiven MySQL host.');
+          if (!actualHost.endsWith('.aivencloud.com')) throw new Error('RamaVerse preview must target the approved Aiven MySQL host.');
+          if (actualHost !== expectedHost) {
+            throw new Error(`RamaVerse preview host identity mismatch. Expected ${expectedHost}, received ${actualHost}.`);
+          }
+          if (!actualHost.includes(serviceMarker)) {
+            throw new Error(`RamaVerse preview host must carry the dedicated ${serviceMarker} service identity marker.`);
+          }
+          if (actualHost.includes('hitech-preview-mysql')) {
+            throw new Error('Known shared cross-project Aiven service is prohibited for RamaVerse preview.');
+          }
+
           const database = decodeURIComponent(url.pathname.replace(/^\//, ''));
           if (database !== process.env.DATABASE_EXPECTED_NAME) {
             throw new Error(`RamaVerse preview must target ${process.env.DATABASE_EXPECTED_NAME}, received ${database || '<none>'}.`);
           }
-          console.log('RamaVerse isolated Aiven MySQL target guard PASS');
+          console.log('RamaVerse dedicated Aiven MySQL target identity guard PASS');
           NODE
 
       - name: Setup Node
