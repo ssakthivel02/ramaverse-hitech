@@ -26,7 +26,8 @@ describe("global discovery and operations hardening", () => {
 
   it("uses a versioned PWA cache and preserves a reset path", () => {
     const sw = read("client/public/sw.js");
-    expect(sw).toContain('ramaverse-cache-v5');
+    expect(sw).toMatch(/ramaverse-cache-v\d+/);
+    expect(sw).toContain('CACHE_PREFIX');
     expect(sw).toContain('CLEAR_CACHE');
     expect(sw).toContain('GET_CACHE_VERSION');
     expect(sw).toContain('/offline-reset.html');
