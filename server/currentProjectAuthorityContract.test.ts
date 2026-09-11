@@ -13,6 +13,7 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.current_state_authority).toBe(true);
     expect(authority.continuation_authority_file).toBe("CONTINUATION_AUTHORITY.json");
     expect(authority.preview_infrastructure_status_file).toBe("PREVIEW_INFRASTRUCTURE_STATUS.json");
+    expect(authority.preview_database_compatibility_file).toBe("PREVIEW_DATABASE_COMPATIBILITY.json");
     expect(authority.historical_state_files).toEqual(
       expect.arrayContaining(["PROJECT_STATE.json", "RAMAVERSE_PROJECT_STATE.json"]),
     );
@@ -20,7 +21,8 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.canonical_promotion.allowed).toBe(false);
     expect(authority.preview.shared_database_reuse_allowed).toBe(false);
     expect(authority.preview.runtime_ready).toBe(false);
-    expect(authority.preview.infrastructure_status).toBe("BLOCKED_EXTERNAL_PROVIDER_LIMIT");
+    expect(authority.preview.provider_selection_approved).toBe(false);
+    expect(authority.preview.infrastructure_status).toBe("AWAITING_DEDICATED_PROVIDER_SELECTION_AND_LIVE_VALIDATION");
     expect(authority.production.ready).toBe(false);
   });
 
@@ -33,19 +35,23 @@ describe("RamaVerse current project authority contract", () => {
     expect(continuation.verified_next_source).toBeNull();
   });
 
-  it("records the external provider limit without weakening preview isolation", () => {
+  it("records the Aiven free-tier limit while allowing only validated dedicated alternatives", () => {
     const infrastructure = JSON.parse(read("PREVIEW_INFRASTRUCTURE_STATUS.json"));
 
-    expect(infrastructure.status).toBe("BLOCKED_EXTERNAL_PROVIDER_LIMIT");
-    expect(infrastructure.requested_service.service_name).toBe("ramaverse-preview-mysql");
-    expect(infrastructure.requested_service.plan).toBe("free-1-1gb");
-    expect(infrastructure.requested_service.cloud).toBe("do-blr");
-    expect(infrastructure.provider_result.created).toBe(false);
+    expect(infrastructure.status).toBe("AWAITING_DEDICATED_PROVIDER_SELECTION_AND_LIVE_VALIDATION");
+    expect(infrastructure.aiven_attempt.requested_service.service_name).toBe("ramaverse-preview-mysql");
+    expect(infrastructure.aiven_attempt.requested_service.plan).toBe("free-1-1gb");
+    expect(infrastructure.aiven_attempt.requested_service.cloud).toBe("do-blr");
+    expect(infrastructure.aiven_attempt.created).toBe(false);
     expect(infrastructure.existing_shared_service.service_name).toBe("hitech-preview-mysql");
     expect(infrastructure.existing_shared_service.allowed_for_ramaverse_preview_runtime).toBe(false);
+    expect(infrastructure.provider_portability.runtime_and_schema_setup_provider_neutral).toBe(true);
+    expect(infrastructure.provider_portability.candidate_provider_approved).toBe(false);
+    expect(infrastructure.provider_portability.live_provider_validation_complete).toBe(false);
     expect(infrastructure.prohibited_shortcuts).toEqual(
       expect.arrayContaining([
         expect.stringContaining("Do not silently reuse hitech-preview-mysql"),
+        expect.stringContaining("Do not label a statically compatible provider as approved"),
         expect.stringContaining("Do not create a paid service without explicit owner approval"),
       ]),
     );
