@@ -1,11 +1,14 @@
 import mysql, { type Pool, type PoolOptions } from "mysql2";
 
-export const AIVEN_CA_ENV = "DATABASE_CA_CERT_B64";
+export const DATABASE_CA_ENV = "DATABASE_CA_CERT_B64";
+/** @deprecated Use DATABASE_CA_ENV. Kept as a compatibility alias for existing imports/tests. */
+export const AIVEN_CA_ENV = DATABASE_CA_ENV;
 
 export function getMysqlConnectionOptions(
   connectionString: string,
   expectedDatabase?: string,
   requireExpectedDatabase = process.env.NODE_ENV === "production",
+  requireTls = process.env.NODE_ENV === "production",
 ): PoolOptions {
   const url = new URL(connectionString);
   if (url.protocol !== "mysql:") {
@@ -23,10 +26,10 @@ export function getMysqlConnectionOptions(
     throw new Error(`DATABASE_URL must target ${expectedDatabase}; received ${database}`);
   }
 
-  const caB64 = process.env[AIVEN_CA_ENV]?.trim();
+  const caB64 = process.env[DATABASE_CA_ENV]?.trim();
   const isAiven = url.hostname.endsWith(".aivencloud.com");
   if (isAiven && !caB64) {
-    throw new Error(`${AIVEN_CA_ENV} is required for verified TLS to Aiven MySQL`);
+    throw new Error(`${DATABASE_CA_ENV} is required for verified TLS to Aiven MySQL`);
   }
 
   const ssl = caB64
@@ -35,7 +38,12 @@ export function getMysqlConnectionOptions(
         rejectUnauthorized: true,
         minVersion: "TLSv1.2" as const,
       }
-    : undefined;
+    : requireTls
+      ? {
+          rejectUnauthorized: true,
+          minVersion: "TLSv1.2" as const,
+        }
+      : undefined;
 
   return {
     host: url.hostname,
