@@ -12,6 +12,7 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.repository).toBe("ssakthivel02/ramaverse-hitech");
     expect(authority.current_state_authority).toBe(true);
     expect(authority.continuation_authority_file).toBe("CONTINUATION_AUTHORITY.json");
+    expect(authority.repository_governance_file).toBe("REPOSITORY_GOVERNANCE.md");
     expect(authority.preview_infrastructure_status_file).toBe("PREVIEW_INFRASTRUCTURE_STATUS.json");
     expect(authority.preview_database_compatibility_file).toBe("PREVIEW_DATABASE_COMPATIBILITY.json");
     expect(authority.provider_candidate_selection_runbook).toBe("PROVIDER_CANDIDATE_SELECTION_RUNBOOK.md");
@@ -42,6 +43,8 @@ describe("RamaVerse current project authority contract", () => {
     );
     expect(authority.agent_rules).toEqual(
       expect.arrayContaining([
+        expect.stringContaining("REPOSITORY_GOVERNANCE.md"),
+        expect.stringContaining("Do not claim main is branch-protected"),
         expect.stringContaining("generic proceed, continue or next-task instructions"),
         expect.stringContaining("Do not reuse a provider-candidate selection artifact"),
         expect.stringContaining("Do not treat PROVIDER_CANDIDATE_SELECTION_APPROVED as provider runtime approval"),
@@ -51,6 +54,29 @@ describe("RamaVerse current project authority contract", () => {
     );
     expect(authority.preview.infrastructure_status).toBe("AWAITING_DEDICATED_PROVIDER_SELECTION_AND_LIVE_VALIDATION");
     expect(authority.production.ready).toBe(false);
+  });
+
+  it("binds repository-native controls without pretending GitHub enforcement is active", () => {
+    const authority = JSON.parse(read("CURRENT_PROJECT_AUTHORITY.json"));
+    const governance = read("REPOSITORY_GOVERNANCE.md");
+    const codeowners = read(".github/CODEOWNERS");
+    const prTemplate = read(".github/pull_request_template.md");
+
+    expect(authority.github_repository_controls.codeowners_file).toBe(".github/CODEOWNERS");
+    expect(authority.github_repository_controls.pull_request_template_file).toBe(".github/pull_request_template.md");
+    expect(authority.github_repository_controls.main_branch_protected).toBe(false);
+    expect(authority.github_repository_controls.active_repository_ruleset).toBe(false);
+    expect(authority.github_repository_controls.manual_admin_blocker_issue).toBe(40);
+    expect(authority.github_repository_controls.status).toBe(
+      "REPOSITORY_NATIVE_CONTROLS_PRESENT_GITHUB_ENFORCEMENT_PENDING",
+    );
+    expect(authority.github_repository_controls.policy).toContain("do not technically protect main");
+    expect(governance).toContain("Repository files cannot themselves enable GitHub branch protection");
+    expect(governance).toContain("Do not misrepresent these repository files as branch protection");
+    expect(codeowners).toContain("@ssakthivel02");
+    expect(prTemplate).toContain("## Collision check");
+    expect(prTemplate).toContain("Base SHA: `REPLACE_WITH_EXACT_SHA`");
+    expect(prTemplate).toContain("Exact-head CI is green before merge");
   });
 
   it("keeps continuation fail-closed while reconciliation is unresolved", () => {
