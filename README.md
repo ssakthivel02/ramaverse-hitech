@@ -35,7 +35,13 @@ The repository also contains an activated canonical corpus governed by `data/cor
 
 See `PREVIEW_DEPLOYMENT_PLAN.md` and `PREVIEW_RUNTIME_READINESS.md`.
 
-The first controlled preview uses a separately provisioned Node runtime and preview MySQL database. The database/runtime must be dedicated to RamaVerse and explicitly identified; a shared cross-project database service is not an acceptable preview dependency. `render.yaml` defines the preview web service. Production DNS is not attached until preview QA passes.
+The first controlled preview uses a separately provisioned Node runtime and preview MySQL/MySQL-compatible database service dedicated to RamaVerse. A shared cross-project database service is not an acceptable preview dependency. `render.yaml` defines the preview web-service contract, but no provider-specific executor is currently enabled. Production DNS remains detached until the complete preview evidence chain passes and a separate production decision is made.
+
+The current preview release chain is fail-closed:
+
+`PROVIDER_CANDIDATE_SELECTION_APPROVED` → read-only provider preflight → controlled schema setup → canonical Reader-data verification → `LIVE_INTEGRATION_PASS` → `PREVIEW_ROLLBACK_READY` → `PREVIEW_DEPLOYMENT_AUTHORIZED` → `PREVIEW_DEPLOYMENT_HANDOFF_READY` → `PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED` → reviewed provider-specific preview executor → deployed HTTP smoke → `PREVIEW_ACCEPTANCE_PASS`.
+
+Generic instructions such as “proceed” or “continue” do not select a provider, enable an executor, authorize deployment, or authorize production.
 
 ## Validation
 
@@ -51,8 +57,8 @@ pnpm build
 
 It then scans the deployable artifact, boots the built production server, verifies `/healthz` and `/`, and verifies `/readyz` fails closed when required preview dependencies are absent.
 
-A separate preview DB workflow creates/verifies schema and connectivity. The separate integration gate is used only after an owner-approved lossless Sarga dataset is loaded. A deployed-preview HTTP workflow verifies HTTPS, live/readiness endpoints, root serving, baseline security headers, and absence of legacy runtime markers.
+Separate workflows enforce provider selection evidence, read-only provider validation, schema setup evidence, canonical database integration, rollback readiness, deployment authorization, sanitized deployment handoff, executor admission, deployed-preview HTTP smoke, and explicit preview acceptance. Each stage binds to the exact commit/provider evidence required by the previous stage.
 
 ## Release rule
 
-Do not claim production-ready until the exact deployed commit passes database/corpus integration, route/API smoke tests, responsive/accessibility/link/asset checks, security validation, custom-domain HTTPS checks, and production smoke/E2E gates.
+Do not claim production-ready from source CI, schema creation, live integration, preview deployment authorization, executor admission, deployed smoke, or preview acceptance alone. Production remains a separate NO-GO decision until the exact deployed commit passes all required database/corpus, route/API, responsive/accessibility/link/asset, security, custom-domain HTTPS, and production smoke/E2E gates and the owner explicitly authorizes production changes.
