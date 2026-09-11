@@ -9,6 +9,9 @@ on:
       - "server/_core/mysql.ts"
       - "server/_core/index.ts"
       - "server/db.ts"
+      - "CURRENT_PROJECT_AUTHORITY.json"
+      - "PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json"
+      - "PREVIEW_DEPLOYMENT_EXECUTOR_ADMISSION_RUNBOOK.md"
       - ".github/workflows/provider-candidate-selection.yml"
       - ".github/workflows/provider-readonly-preflight.yml"
       - ".github/workflows/preview-db-setup.yml"
@@ -16,6 +19,7 @@ on:
       - ".github/workflows/preview-http-smoke.yml"
       - ".github/workflows/preview-deployment-authorization.yml"
       - ".github/workflows/preview-deployment-handoff.yml"
+      - ".github/workflows/preview-deployment-executor-admission.yml"
       - ".github/workflows/preview-deploy-preflight.yml"
 
 permissions:
@@ -150,6 +154,37 @@ jobs:
           grep -q 'production_dns_change_allowed: false' "$handoff"
           grep -q 'production_deployment_change_allowed: false' "$handoff"
           test -f PREVIEW_DEPLOYMENT_HANDOFF_RUNBOOK.md
+
+      - name: Validate preview executor admission contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          admission=.github/workflows/preview-deployment-executor-admission.yml
+          registry=PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json
+          test -f "$admission"
+          test -f "$registry"
+          test -f PREVIEW_DEPLOYMENT_EXECUTOR_ADMISSION_RUNBOOK.md
+          grep -q 'RamaVerse Preview Deployment Handoff' "$admission"
+          grep -q 'PREVIEW_DEPLOYMENT_HANDOFF_READY' "$admission"
+          grep -q 'PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED' "$admission"
+          grep -q 'execution_performed: false' "$admission"
+          grep -q 'production_ready: false' "$admission"
+          grep -q 'production_dns_change_allowed: false' "$admission"
+          grep -q 'production_deployment_change_allowed: false' "$admission"
+          jq -e '
+            .default_policy == "DENY" and
+            .production_execution_allowed == false and
+            (.executors | length) > 0 and
+            all(.executors[];
+              if .enabled == true then
+                (.reviewed == true and .executor_status == "REVIEWED_AND_ENABLED" and (.workflow | type == "string" and length > 0))
+              else
+                true
+              end
+            )
+          ' "$registry" >/dev/null
+          grep -q 'deployment_executor_admission_control' CURRENT_PROJECT_AUTHORITY.json
+          grep -q 'PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED_REQUIRED_BEFORE_PROVIDER_SPECIFIC_PREVIEW_DEPLOYMENT_EXECUTION' CURRENT_PROJECT_AUTHORITY.json
 
       - name: Preview deployment preflight PASS
         run: echo 'RamaVerse preview deployment configuration is internally consistent and exact-commit verifiable.'
