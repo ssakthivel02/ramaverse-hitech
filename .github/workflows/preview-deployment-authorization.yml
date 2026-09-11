@@ -51,7 +51,7 @@ jobs:
           test "$OWNER_PREVIEW_DEPLOYMENT_APPROVAL" = "true" || { echo "Explicit owner preview deployment approval is required."; exit 1; }
 
       - name: Verify exact commit exists
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
@@ -61,24 +61,16 @@ jobs:
           set -euo pipefail
           git cat-file -e "${DEPLOYMENT_COMMIT}^{commit}"
           gh api "/repos/${GITHUB_REPOSITORY}/actions/runs?head_sha=${DEPLOYMENT_COMMIT}&status=completed&per_page=100" > /tmp/commit-runs.json
-          jq -e '.workflow_runs | any(.name == "RamaVerse Quality Gate" and .head_sha == env.DEPLOYMENT_COMMIT and .conclusion == "success")' /tmp/commit-runs.json >/dev/null || {
-            echo "Deployment commit has no successful RamaVerse Quality Gate evidence."; exit 1;
-          }
-          jq -e '.workflow_runs | any(.name == "RamaVerse Preview Deployment Preflight" and .head_sha == env.DEPLOYMENT_COMMIT and .conclusion == "success")' /tmp/commit-runs.json >/dev/null || {
-            echo "Deployment commit has no successful Preview Deployment Preflight evidence."; exit 1;
-          }
-          jq -e '.workflow_runs | any(.name == "RamaVerse Preview Release Candidate" and .head_sha == env.DEPLOYMENT_COMMIT and .conclusion == "success")' /tmp/commit-runs.json >/dev/null || {
-            echo "Deployment commit has no successful Preview Release Candidate evidence."; exit 1;
-          }
+          jq -e '.workflow_runs | any(.name == "RamaVerse Quality Gate" and .head_sha == env.DEPLOYMENT_COMMIT and .conclusion == "success")' /tmp/commit-runs.json >/dev/null || { echo "Deployment commit has no successful RamaVerse Quality Gate evidence."; exit 1; }
+          jq -e '.workflow_runs | any(.name == "RamaVerse Preview Deployment Preflight" and .head_sha == env.DEPLOYMENT_COMMIT and .conclusion == "success")' /tmp/commit-runs.json >/dev/null || { echo "Deployment commit has no successful Preview Deployment Preflight evidence."; exit 1; }
+          jq -e '.workflow_runs | any(.name == "RamaVerse Preview Release Candidate" and .head_sha == env.DEPLOYMENT_COMMIT and .conclusion == "success")' /tmp/commit-runs.json >/dev/null || { echo "Deployment commit has no successful Preview Release Candidate evidence."; exit 1; }
 
       - name: Verify Integration Gate run and evidence
         shell: bash
         run: |
           set -euo pipefail
           gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${INTEGRATION_GATE_RUN_ID}" > /tmp/integration-run.json
-          jq -e '.name == "RamaVerse Integration Gate" and .conclusion == "success" and .head_sha == env.DEPLOYMENT_COMMIT' /tmp/integration-run.json >/dev/null || {
-            echo "Integration Gate run does not match the exact deployment commit or is not successful."; exit 1;
-          }
+          jq -e '.name == "RamaVerse Integration Gate" and .conclusion == "success" and .head_sha == env.DEPLOYMENT_COMMIT' /tmp/integration-run.json >/dev/null || { echo "Integration Gate run does not match the exact deployment commit or is not successful."; exit 1; }
           gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${INTEGRATION_GATE_RUN_ID}/artifacts?per_page=100" > /tmp/integration-artifacts.json
           artifact_id="$(jq -r '.artifacts[] | select(.expired == false and (.name | startswith("live-integration-evidence-"))) | .id' /tmp/integration-artifacts.json | head -n1)"
           test -n "$artifact_id" || { echo "LIVE_INTEGRATION_PASS artifact not found."; exit 1; }
@@ -87,24 +79,14 @@ jobs:
           unzip -q /tmp/integration.zip -d /tmp/integration-evidence
           evidence="$(find /tmp/integration-evidence -type f -name '*.json' | head -n1)"
           test -n "$evidence"
-          jq -e --arg commit "${DEPLOYMENT_COMMIT,,}" --arg provider "$PROVIDER_CANDIDATE" '
-            .result == "LIVE_INTEGRATION_PASS" and
-            (.commit | ascii_downcase) == $commit and
-            .provider_candidate == $provider and
-            .canonical_reader_data_confirmed == true and
-            .canonical_database_tests_passed == true
-          ' "$evidence" >/dev/null || {
-            echo "Integration evidence does not match commit/provider or canonical-data requirements."; exit 1;
-          }
+          jq -e --arg commit "${DEPLOYMENT_COMMIT,,}" --arg provider "$PROVIDER_CANDIDATE" '.result == "LIVE_INTEGRATION_PASS" and (.commit | ascii_downcase) == $commit and .provider_candidate == $provider and .canonical_reader_data_confirmed == true and .canonical_database_tests_passed == true' "$evidence" >/dev/null || { echo "Integration evidence does not match commit/provider or canonical-data requirements."; exit 1; }
 
       - name: Verify rollback readiness run and evidence
         shell: bash
         run: |
           set -euo pipefail
           gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${ROLLBACK_READINESS_RUN_ID}" > /tmp/rollback-run.json
-          jq -e '.name == "RamaVerse Preview Rollback Readiness" and .conclusion == "success"' /tmp/rollback-run.json >/dev/null || {
-            echo "Rollback readiness run is not a successful RamaVerse Preview Rollback Readiness run."; exit 1;
-          }
+          jq -e '.name == "RamaVerse Preview Rollback Readiness" and .conclusion == "success"' /tmp/rollback-run.json >/dev/null || { echo "Rollback readiness run is not a successful RamaVerse Preview Rollback Readiness run."; exit 1; }
           gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${ROLLBACK_READINESS_RUN_ID}/artifacts?per_page=100" > /tmp/rollback-artifacts.json
           artifact_id="$(jq -r '.artifacts[] | select(.expired == false and (.name | startswith("preview-rollback-readiness-"))) | .id' /tmp/rollback-artifacts.json | head -n1)"
           test -n "$artifact_id" || { echo "PREVIEW_ROLLBACK_READY artifact not found."; exit 1; }
@@ -113,52 +95,18 @@ jobs:
           unzip -q /tmp/rollback.zip -d /tmp/rollback-evidence
           evidence="$(find /tmp/rollback-evidence -type f -name '*.json' | head -n1)"
           test -n "$evidence"
-          jq -e --arg commit "${DEPLOYMENT_COMMIT,,}" --arg provider "$PROVIDER_CANDIDATE" '
-            .result == "PREVIEW_ROLLBACK_READY" and
-            (.current_deployed_commit | ascii_downcase) == $commit and
-            .provider_candidate == $provider and
-            .owner_rollback_approval == true and
-            .execution_performed == false and
-            .preview_scope_only == true
-          ' "$evidence" >/dev/null || {
-            echo "Rollback readiness evidence does not protect this exact deployment commit/provider."; exit 1;
-          }
+          jq -e --arg commit "${DEPLOYMENT_COMMIT,,}" --arg provider "$PROVIDER_CANDIDATE" '.result == "PREVIEW_ROLLBACK_READY" and (.current_deployed_commit | ascii_downcase) == $commit and .provider_candidate == $provider and .owner_rollback_approval == true and .execution_performed == false and .preview_scope_only == true' "$evidence" >/dev/null || { echo "Rollback readiness evidence does not protect this exact deployment commit/provider."; exit 1; }
 
       - name: Create preview deployment authorization evidence
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p deployment-authorization-evidence
-          jq -n \
-            --arg repository "$GITHUB_REPOSITORY" \
-            --arg commit "${DEPLOYMENT_COMMIT,,}" \
-            --arg provider_candidate "$PROVIDER_CANDIDATE" \
-            --arg integration_gate_run_id "$INTEGRATION_GATE_RUN_ID" \
-            --arg rollback_readiness_run_id "$ROLLBACK_READINESS_RUN_ID" \
-            --arg workflow_run_id "$GITHUB_RUN_ID" \
-            '{
-              schema_version: 1,
-              result: "PREVIEW_DEPLOYMENT_AUTHORIZED",
-              repository: $repository,
-              commit: $commit,
-              provider_candidate: $provider_candidate,
-              integration_gate_run_id: $integration_gate_run_id,
-              rollback_readiness_run_id: $rollback_readiness_run_id,
-              owner_preview_deployment_approval: true,
-              exact_release_evidence_passed: true,
-              live_integration_evidence_passed: true,
-              rollback_readiness_evidence_passed: true,
-              preview_scope_only: true,
-              execution_performed: false,
-              production_ready: false,
-              production_dns_change_allowed: false,
-              production_deployment_change_allowed: false,
-              workflow_run_id: $workflow_run_id
-            }' > deployment-authorization-evidence/preview-deployment-authorization.json
+          jq -n --arg repository "$GITHUB_REPOSITORY" --arg commit "${DEPLOYMENT_COMMIT,,}" --arg provider_candidate "$PROVIDER_CANDIDATE" --arg integration_gate_run_id "$INTEGRATION_GATE_RUN_ID" --arg rollback_readiness_run_id "$ROLLBACK_READINESS_RUN_ID" --arg workflow_run_id "$GITHUB_RUN_ID" '{schema_version: 1, result: "PREVIEW_DEPLOYMENT_AUTHORIZED", repository: $repository, commit: $commit, provider_candidate: $provider_candidate, integration_gate_run_id: $integration_gate_run_id, rollback_readiness_run_id: $rollback_readiness_run_id, owner_preview_deployment_approval: true, exact_release_evidence_passed: true, live_integration_evidence_passed: true, rollback_readiness_evidence_passed: true, preview_scope_only: true, execution_performed: false, production_ready: false, production_dns_change_allowed: false, production_deployment_change_allowed: false, workflow_run_id: $workflow_run_id}' > deployment-authorization-evidence/preview-deployment-authorization.json
           jq -e '.result == "PREVIEW_DEPLOYMENT_AUTHORIZED" and .execution_performed == false and .preview_scope_only == true and .production_ready == false and .production_dns_change_allowed == false and .production_deployment_change_allowed == false' deployment-authorization-evidence/preview-deployment-authorization.json >/dev/null
 
       - name: Upload preview deployment authorization evidence
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: preview-deployment-authorization-${{ inputs.deployment_commit }}
           path: deployment-authorization-evidence/preview-deployment-authorization.json
