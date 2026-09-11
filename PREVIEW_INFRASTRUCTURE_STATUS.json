@@ -1,17 +1,18 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "project": "RamaVerse HI-TECH",
-  "status": "BLOCKED_EXTERNAL_PROVIDER_LIMIT",
+  "status": "AWAITING_DEDICATED_PROVIDER_SELECTION_AND_LIVE_VALIDATION",
   "checked_at_utc": "2026-09-11T09:03:00Z",
-  "provider": "Aiven",
-  "requested_service": {
-    "service_name": "ramaverse-preview-mysql",
-    "service_type": "mysql",
-    "plan": "free-1-1gb",
-    "cloud": "do-blr",
-    "approved_by_owner": true
-  },
-  "provider_result": {
+  "compatibility_file": "PREVIEW_DATABASE_COMPATIBILITY.json",
+  "aiven_attempt": {
+    "provider": "Aiven",
+    "requested_service": {
+      "service_name": "ramaverse-preview-mysql",
+      "service_type": "mysql",
+      "plan": "free-1-1gb",
+      "cloud": "do-blr",
+      "approved_by_owner": true
+    },
     "created": false,
     "reason": "Aiven permits only one free MySQL service for the current account/organization, and that allocation is already consumed."
   },
@@ -23,15 +24,23 @@
     "allowed_for_ramaverse_preview_runtime": false,
     "reason": "Current RamaVerse preview isolation policy prohibits shared cross-project database services."
   },
+  "provider_portability": {
+    "runtime_and_schema_setup_provider_neutral": true,
+    "candidate_provider_approved": false,
+    "live_provider_validation_complete": false,
+    "reason": "The repository can now validate a separately provisioned MySQL/MySQL-compatible service with exact host identity and verified TLS, but an alternative provider has not yet passed live schema/integration QA."
+  },
   "next_valid_paths": [
-    "Provision a separately owned RamaVerse MySQL service on an owner-approved paid plan/cloud.",
-    "Adopt a separately approved provider or hosting design that preserves equivalent service-level isolation.",
+    "Select and provision a separately owned RamaVerse MySQL/MySQL-compatible service on an owner-approved provider/plan/region.",
+    "Run the provider-neutral Preview DB Setup gate against that dedicated service.",
+    "Load and independently verify canonical Reader rows only through the approved lossless corpus process.",
+    "Run the integration and exact deployed-commit QA gates before production consideration.",
     "Change the isolation policy only through an explicit architecture decision with owner approval and corresponding code/test updates."
   ],
   "prohibited_shortcuts": [
     "Do not silently reuse hitech-preview-mysql for RamaVerse preview runtime.",
-    "Do not claim preview runtime readiness while this blocker remains unresolved.",
-    "Do not create a paid service without explicit owner approval of the paid plan and cloud.",
+    "Do not label a statically compatible provider as approved before live schema/integration validation.",
+    "Do not create a paid service without explicit owner approval of the paid plan and cloud/region.",
     "Do not fabricate database or Reader readiness evidence."
   ]
 }
