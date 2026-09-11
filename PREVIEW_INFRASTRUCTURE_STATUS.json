@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "status": "BLOCKED_EXTERNAL_PROVIDER_LIMIT",
+  "checked_at_utc": "2026-09-11T09:03:00Z",
+  "provider": "Aiven",
+  "requested_service": {
+    "service_name": "ramaverse-preview-mysql",
+    "service_type": "mysql",
+    "plan": "free-1-1gb",
+    "cloud": "do-blr",
+    "approved_by_owner": true
+  },
+  "provider_result": {
+    "created": false,
+    "reason": "Aiven permits only one free MySQL service for the current account/organization, and that allocation is already consumed."
+  },
+  "existing_shared_service": {
+    "service_name": "hitech-preview-mysql",
+    "plan": "free-1-1gb",
+    "cloud": "do-blr",
+    "contains_ramaverse_preview_database": true,
+    "allowed_for_ramaverse_preview_runtime": false,
+    "reason": "Current RamaVerse preview isolation policy prohibits shared cross-project database services."
+  },
+  "next_valid_paths": [
+    "Provision a separately owned RamaVerse MySQL service on an owner-approved paid plan/cloud.",
+    "Adopt a separately approved provider or hosting design that preserves equivalent service-level isolation.",
+    "Change the isolation policy only through an explicit architecture decision with owner approval and corresponding code/test updates."
+  ],
+  "prohibited_shortcuts": [
+    "Do not silently reuse hitech-preview-mysql for RamaVerse preview runtime.",
+    "Do not claim preview runtime readiness while this blocker remains unresolved.",
+    "Do not create a paid service without explicit owner approval of the paid plan and cloud.",
+    "Do not fabricate database or Reader readiness evidence."
+  ]
+}
