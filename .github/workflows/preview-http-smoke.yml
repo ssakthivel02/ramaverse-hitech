@@ -33,11 +33,10 @@ jobs:
       PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
       INTEGRATION_RUN_ID: ${{ inputs.integration_run_id }}
       EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+      PREVIEW_URL: ${{ inputs.preview_url }}
     steps:
       - name: Validate preview inputs
         shell: bash
-        env:
-          PREVIEW_URL: ${{ inputs.preview_url }}
         run: |
           set -euo pipefail
           case "$PREVIEW_URL" in https://*) ;; *) echo "preview_url must use HTTPS"; exit 1 ;; esac
@@ -65,8 +64,6 @@ jobs:
 
       - name: Verify exact deployed release identity
         shell: bash
-        env:
-          PREVIEW_URL: ${{ inputs.preview_url }}
         run: |
           set -euo pipefail
           base="${PREVIEW_URL%/}"
@@ -84,8 +81,6 @@ jobs:
 
       - name: Verify live, ready and root surfaces
         shell: bash
-        env:
-          PREVIEW_URL: ${{ inputs.preview_url }}
         run: |
           set -euo pipefail
           base="${PREVIEW_URL%/}"
@@ -108,8 +103,6 @@ jobs:
 
       - name: Verify response security and operational cache headers
         shell: bash
-        env:
-          PREVIEW_URL: ${{ inputs.preview_url }}
         run: |
           set -euo pipefail
           base="${PREVIEW_URL%/}"
@@ -129,3 +122,26 @@ jobs:
             grep -Eqi '^strict-transport-security:[[:space:]]*max-age=31536000; includeSubDomains' "$headers"
             ! grep -Eqi '^x-powered-by:' "$headers"
           done
+
+      - name: Create deployed preview smoke evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p smoke-evidence
+          normalized_url="${PREVIEW_URL%/}"
+          jq -n \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg commit "${EXPECTED_COMMIT}" \
+            --arg provider "${PROVIDER_CANDIDATE}" \
+            --arg preview_url "${normalized_url}" \
+            --arg integration_run_id "${INTEGRATION_RUN_ID}" \
+            '{repository:$repository,commit:$commit,provider_candidate:$provider,preview_url:$preview_url,integration_run_id:$integration_run_id,release_identity_verified:true,readiness_verified:true,security_headers_verified:true,result:"DEPLOYED_PREVIEW_SMOKE_PASS"}' \
+            > smoke-evidence/deployed-preview-smoke-evidence.json
+
+      - name: Upload deployed preview smoke evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployed-preview-smoke-${{ inputs.expected_commit }}
+          path: smoke-evidence/deployed-preview-smoke-evidence.json
+          if-no-files-found: error
+          retention-days: 30
