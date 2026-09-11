@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "default_policy": "DENY",
+  "executors": [
+    {
+      "provider_candidate": "TiDB Cloud Starter",
+      "executor_status": "NOT_IMPLEMENTED_NOT_APPROVED",
+      "workflow": null,
+      "reviewed": false,
+      "enabled": false
+    },
+    {
+      "provider_candidate": "Other dedicated MySQL-compatible provider",
+      "executor_status": "NOT_IMPLEMENTED_NOT_APPROVED",
+      "workflow": null,
+      "reviewed": false,
+      "enabled": false
+    }
+  ],
+  "production_execution_allowed": false
+}
