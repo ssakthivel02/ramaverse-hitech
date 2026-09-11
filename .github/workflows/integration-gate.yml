@@ -84,7 +84,7 @@ jobs:
           const database = decodeURIComponent(url.pathname.replace(/^\//, ''));
           if (database !== process.env.DATABASE_EXPECTED_NAME) throw new Error('Unexpected RamaVerse database identity.');
           const caB64 = process.env.DATABASE_CA_CERT_B64?.trim();
-          if (actualHost.endsWith('.aivencloud.com') && !caB64) throw new Error('Aiven integration requires provider CA.');
+          if (actualHost.endsWith('.aivencloud.com') && !caB64) throw new Error('Aiven integration requires the trusted provider CA certificate.');
           NODE
 
       - name: Setup Node
