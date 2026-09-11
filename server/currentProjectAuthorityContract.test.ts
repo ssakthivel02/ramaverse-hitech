@@ -15,6 +15,10 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.preview_infrastructure_status_file).toBe("PREVIEW_INFRASTRUCTURE_STATUS.json");
     expect(authority.preview_database_compatibility_file).toBe("PREVIEW_DATABASE_COMPATIBILITY.json");
     expect(authority.provider_candidate_selection_runbook).toBe("PROVIDER_CANDIDATE_SELECTION_RUNBOOK.md");
+    expect(authority.preview_deployment_executor_registry_file).toBe("PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json");
+    expect(authority.preview_deployment_executor_admission_runbook).toBe(
+      "PREVIEW_DEPLOYMENT_EXECUTOR_ADMISSION_RUNBOOK.md",
+    );
     expect(authority.historical_state_files).toEqual(
       expect.arrayContaining(["PROJECT_STATE.json", "RAMAVERSE_PROJECT_STATE.json"]),
     );
@@ -26,14 +30,23 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.preview.provider_candidate_selection_control).toBe(
       "PROVIDER_CANDIDATE_SELECTION_APPROVED_REQUIRED_BEFORE_LIVE_PROVIDER_PREFLIGHT",
     );
+    expect(authority.preview.deployment_executor_admission_control).toBe(
+      "PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED_REQUIRED_BEFORE_PROVIDER_SPECIFIC_PREVIEW_DEPLOYMENT_EXECUTION",
+    );
     expect(authority.preview.blocking_requirements).toEqual(
-      expect.arrayContaining([expect.stringContaining("PROVIDER_CANDIDATE_SELECTION_APPROVED")]),
+      expect.arrayContaining([
+        expect.stringContaining("PROVIDER_CANDIDATE_SELECTION_APPROVED"),
+        expect.stringContaining("PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED"),
+        expect.stringContaining("registry defaults to DENY"),
+      ]),
     );
     expect(authority.agent_rules).toEqual(
       expect.arrayContaining([
         expect.stringContaining("generic proceed, continue or next-task instructions"),
         expect.stringContaining("Do not reuse a provider-candidate selection artifact"),
         expect.stringContaining("Do not treat PROVIDER_CANDIDATE_SELECTION_APPROVED as provider runtime approval"),
+        expect.stringContaining("PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED"),
+        expect.stringContaining("Do not bypass PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json default DENY"),
       ]),
     );
     expect(authority.preview.infrastructure_status).toBe("AWAITING_DEDICATED_PROVIDER_SELECTION_AND_LIVE_VALIDATION");
