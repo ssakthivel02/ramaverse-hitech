@@ -1,0 +1,13 @@
+name: RamaVerse CodeQL Configuration
+
+disable-default-queries: false
+
+paths:
+  - client
+  - server
+  - shared
+
+paths-ignore:
+  - client/public
+  - dist
+  - node_modules
