@@ -60,7 +60,7 @@ describe("RamaVerse preview MySQL contract", () => {
   it("uses the system trust store for non-Aiven providers when production TLS is required", () => {
     delete process.env[DATABASE_CA_ENV];
     const options = getMysqlConnectionOptions(
-      "mysql://preview-user:preview-pass:mysql.example.net:3306/ramaverse_preview",
+      "mysql://preview-user:preview-pass@mysql.example.net:3306/ramaverse_preview",
       "ramaverse_preview",
       true,
       true,
@@ -73,7 +73,7 @@ describe("RamaVerse preview MySQL contract", () => {
   it("supports a custom CA for any MySQL provider", () => {
     process.env[DATABASE_CA_ENV] = testCa;
     const options = getMysqlConnectionOptions(
-      "mysql://preview-user:preview-pass:mysql.example.net:3306/ramaverse_preview",
+      "mysql://preview-user:preview-pass@mysql.example.net:3306/ramaverse_preview",
       "ramaverse_preview",
       true,
       true,
@@ -89,7 +89,7 @@ describe("RamaVerse preview MySQL contract", () => {
   it("does not force TLS for local/non-production tooling unless requested", () => {
     delete process.env[DATABASE_CA_ENV];
     const options = getMysqlConnectionOptions(
-      "mysql://preview-user:preview-pass:localhost:3306/ramaverse_preview",
+      "mysql://preview-user:preview-pass@localhost:3306/ramaverse_preview",
       "ramaverse_preview",
       false,
       false,
