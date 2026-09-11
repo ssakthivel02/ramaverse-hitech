@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "evidence_date": "2026-09-11",
+  "purpose": "Reconcile the existing post-v1 Ayodhya Kanda Sarga 21 and Sarga 22 source-backed staging artifacts against the checkpointed physical staging provenance chain without promoting a continuation point.",
+  "classification": "PARTIAL_EVIDENCE_FAIL_CLOSED",
+  "observations": {
+    "sarga_21": {
+      "artifact": "data/staging/post_v1/AYODHYA_S21_SOURCE_BACKED_RECORDS.json",
+      "declared_record_count": 10,
+      "source_id": "src-valmiki-ayodhya-s21-sanskritdocuments",
+      "source_locator": "SanskritDocuments, Valmiki Ramayana, Ayodhya Kanda, Sarga 21, verses 2.21.1–2.21.63",
+      "publication_policy": "STAGING_QUARANTINE_ONLY",
+      "physical_source_registry_member": false,
+      "checkpoint_manifest_member": false
+    },
+    "sarga_22": {
+      "artifact": "data/staging/post_v1/AYODHYA_S22_SOURCE_BACKED_RECORDS.json",
+      "declared_record_count": 10,
+      "source_id": "src-valmiki-ayodhya-s22-sanskritdocuments",
+      "source_locator": "SanskritDocuments, Valmiki Ramayana, Ayodhya Kanda, Sarga 22, verses 2.22.1–2.22.30",
+      "publication_policy": "STAGING_QUARANTINE_ONLY",
+      "physical_source_registry_member": false,
+      "checkpoint_manifest_member": false
+    }
+  },
+  "ingestion_provenance": {
+    "first_observed_canonical_repository_commit": "50b78232a7d13abd5bfe8666373181c54b7390c6",
+    "commit_message": "MANUS_ALL_WEBSITES_LATEST_EXPORT_2026-08-27.zip",
+    "classification": "bulk_manus_export_import",
+    "finding": "Both post-v1 Sarga 21 and Sarga 22 artifacts entered the canonical HI-TECH repository in the same bulk Manus export import. Their presence proves that structured staging records exist, but does not by itself bind them to the earlier physical checkpoint provenance chain."
+  },
+  "checkpoint_comparison": {
+    "mutable_physical_dataset_record_count": 12,
+    "mutable_physical_dataset_coverage": "Ayodhya Kanda Sargas 18–19",
+    "verified_checkpoint_record_count": 28,
+    "verified_checkpoint_coverage": "Ayodhya Kanda Sargas 18–20",
+    "checkpoint_source_registry_highest_direct_sarga": 20,
+    "post_v1_sarga_21_record_count": 10,
+    "post_v1_sarga_22_record_count": 10,
+    "claimed_uncheckpointed_narrative_record_count": 61,
+    "claimed_uncheckpointed_narrative_coverage": "Ayodhya Kanda Sargas 18–22"
+  },
+  "findings": [
+    "Sarga 21 and Sarga 22 are not merely narrative claims: structured post-v1 staging artifacts physically exist in the canonical repository.",
+    "The post-v1 Sarga 21 and Sarga 22 artifacts are not members of the verified physical CHECKPOINT_MANIFEST.json.",
+    "The checkpointed physical SOURCE_REGISTRY_STAGING.csv contains direct SanskritDocuments source registrations through Sarga 20 only; it does not register the Sarga 21 or Sarga 22 source IDs used by the post-v1 artifacts.",
+    "The Sarga 21 and Sarga 22 artifacts arrived through the bulk Manus export import rather than through the verified physical checkpoint sequence.",
+    "Therefore the existence of the post-v1 records closes the question of whether structured Sarga 21/22 files exist, but does not close the provenance gap between the verified 28-record checkpoint and the uncheckpointed later imported state.",
+    "No evidence in this reconciliation authorizes Sarga 23 acquisition or canonical promotion."
+  ],
+  "missing_for_full_reconciliation": [
+    "A versioned source-registry entry for src-valmiki-ayodhya-s21-sanskritdocuments tied to the same provenance chain as the verified physical checkpoint.",
+    "A versioned source-registry entry for src-valmiki-ayodhya-s22-sanskritdocuments tied to the same provenance chain as the verified physical checkpoint.",
+    "Checkpoint or equivalent immutable hash evidence binding the exact Sarga 21 and Sarga 22 record artifacts to their source-registry state.",
+    "A reconciled ledger explaining the transition from the verified 28-record state through the post-v1 Sarga 21/22 artifacts to any later claimed aggregate count.",
+    "Independent validation that candidate IDs, source locators, review states, merge states, rights status and source metadata are complete and internally consistent before any new checkpoint is created."
+  ],
+  "authority_decision": {
+    "outcome": "OUTCOME_B_PARTIAL_EVIDENCE",
+    "verified_next_source": null,
+    "acquisition_allowed": false,
+    "promotion_allowed": false,
+    "reader_corpus_activation_implied": false,
+    "sarga_23_usable_as_continuation_authority": false,
+    "reason": "Structured Sarga 21/22 artifacts exist, but they are not yet provenance-bound to the verified physical checkpoint/source-registry chain."
+  },
+  "safety_boundary": [
+    "Do not synthesize missing provenance or source-registry entries.",
+    "Do not overwrite the historical 28-record checkpoint.",
+    "Do not acquire Sarga 23 from this evidence.",
+    "Do not publish these staging records through Reader, Search, Ask, offline canonical corpus or production APIs.",
+    "Do not modify legacy/reference repositories while searching for missing provenance.",
+    "Keep continuation authority fail-closed until independently verifiable provenance is reconstructed or conclusively dispositioned."
+  ]
+}

@@ -11,6 +11,7 @@ type ContinuationAuthority = {
   verified_next_source: string | null;
   staging_checkpoint_drift_evidence_file: string;
   physical_staging_count_drift_evidence_file: string;
+  sarga_21_22_provenance_reconciliation_evidence_file: string;
   conflicting_markers: Array<{ marker: string; disposition: string }>;
 };
 
@@ -53,6 +54,53 @@ type PhysicalStagingDataset = {
   records: Array<unknown>;
 };
 
+type PostV1StagingBatch = {
+  source_id: string;
+  source_locator: string;
+  rights_status: string;
+  recordCount: number;
+  records: Array<{
+    candidate_id: string;
+    sarga: number;
+    verse_locator: string;
+    source_id: string;
+    source_locator: string;
+    source_type: string;
+    merge_state: string;
+    publication_policy: string;
+  }>;
+};
+
+type Sarga2122ProvenanceEvidence = {
+  classification: string;
+  observations: {
+    sarga_21: {
+      declared_record_count: number;
+      source_id: string;
+      physical_source_registry_member: boolean;
+      checkpoint_manifest_member: boolean;
+    };
+    sarga_22: {
+      declared_record_count: number;
+      source_id: string;
+      physical_source_registry_member: boolean;
+      checkpoint_manifest_member: boolean;
+    };
+  };
+  ingestion_provenance: {
+    first_observed_canonical_repository_commit: string;
+    classification: string;
+  };
+  authority_decision: {
+    outcome: string;
+    verified_next_source: string | null;
+    acquisition_allowed: boolean;
+    promotion_allowed: boolean;
+    reader_corpus_activation_implied: boolean;
+    sarga_23_usable_as_continuation_authority: boolean;
+  };
+};
+
 const root = process.cwd();
 const readText = (path: string) => readFileSync(resolve(root, path), "utf8");
 
@@ -62,12 +110,21 @@ describe("RamaVerse continuation authority guard", () => {
   const physicalCountDrift = JSON.parse(
     readText("PHYSICAL_STAGING_COUNT_DRIFT_EVIDENCE.json"),
   ) as PhysicalCountDriftEvidence;
+  const sarga2122Evidence = JSON.parse(
+    readText("SARGA_21_22_PROVENANCE_RECONCILIATION_EVIDENCE.json"),
+  ) as Sarga2122ProvenanceEvidence;
   const physicalStaging = JSON.parse(
     readText("data/staging/physical/ramaverse_canonical_staging_v2.json"),
   ) as PhysicalStagingDataset;
+  const sarga21 = JSON.parse(
+    readText("data/staging/post_v1/AYODHYA_S21_SOURCE_BACKED_RECORDS.json"),
+  ) as PostV1StagingBatch;
+  const sarga22 = JSON.parse(
+    readText("data/staging/post_v1/AYODHYA_S22_SOURCE_BACKED_RECORDS.json"),
+  ) as PostV1StagingBatch;
   const checkpoint = JSON.parse(
     readText("data/staging/physical/CHECKPOINT_MANIFEST.json"),
-  ) as { verified_staging_records: number };
+  ) as { verified_staging_records: number; files: Array<{ name: string }> };
   const continuationNarrative = readText(
     "data/staging/physical/RAMAVERSE_STAGING_V2_CONTINUATION.md",
   );
@@ -94,7 +151,7 @@ describe("RamaVerse continuation authority guard", () => {
     expect(markers).toContain("Uttara Kanda Chapter 95");
     expect(
       authority.conflicting_markers.every(({ disposition }) =>
-        /candidate|historical|conflict|staging|unverified|unrecovered|uncheckpointed|not canonical|not continuation authority/i.test(
+        /candidate|historical|conflict|staging|unverified|unrecovered|uncheckpointed|not canonical|not continuation authority|unusable/i.test(
           disposition,
         ),
       ),
@@ -160,5 +217,62 @@ describe("RamaVerse continuation authority guard", () => {
     expect(sourceRegistry).toContain("ayodhya-s20");
     expect(sourceRegistry).not.toContain("ayodhya-s21");
     expect(sourceRegistry).not.toContain("ayodhya-s22");
+  });
+
+  it("recognizes real post-v1 Sarga 21 and Sarga 22 staging artifacts without promoting them", () => {
+    expect(sarga21.recordCount).toBe(10);
+    expect(sarga21.records).toHaveLength(10);
+    expect(sarga21.source_id).toBe("src-valmiki-ayodhya-s21-sanskritdocuments");
+    expect(sarga22.recordCount).toBe(10);
+    expect(sarga22.records).toHaveLength(10);
+    expect(sarga22.source_id).toBe("src-valmiki-ayodhya-s22-sanskritdocuments");
+
+    for (const [batch, expectedSarga] of [
+      [sarga21, 21],
+      [sarga22, 22],
+    ] as const) {
+      expect(batch.source_locator).toContain(`Sarga ${expectedSarga}`);
+      expect(batch.rights_status.length).toBeGreaterThan(0);
+      expect(new Set(batch.records.map(({ candidate_id }) => candidate_id)).size).toBe(
+        batch.records.length,
+      );
+      for (const record of batch.records) {
+        expect(record.candidate_id.length).toBeGreaterThan(0);
+        expect(record.sarga).toBe(expectedSarga);
+        expect(record.verse_locator.length).toBeGreaterThan(0);
+        expect(record.source_id).toBe(batch.source_id);
+        expect(record.source_locator.length).toBeGreaterThan(0);
+        expect(record.source_type.length).toBeGreaterThan(0);
+        expect(record.merge_state.length).toBeGreaterThan(0);
+        expect(record.publication_policy).toBe("STAGING_QUARANTINE_ONLY");
+      }
+    }
+  });
+
+  it("binds Sarga 21/22 existence to partial provenance evidence and keeps Sarga 23 blocked", () => {
+    expect(authority.sarga_21_22_provenance_reconciliation_evidence_file).toBe(
+      "SARGA_21_22_PROVENANCE_RECONCILIATION_EVIDENCE.json",
+    );
+    expect(sarga2122Evidence.classification).toBe("PARTIAL_EVIDENCE_FAIL_CLOSED");
+    expect(sarga2122Evidence.observations.sarga_21.declared_record_count).toBe(10);
+    expect(sarga2122Evidence.observations.sarga_22.declared_record_count).toBe(10);
+    expect(sarga2122Evidence.observations.sarga_21.physical_source_registry_member).toBe(false);
+    expect(sarga2122Evidence.observations.sarga_22.physical_source_registry_member).toBe(false);
+    expect(sarga2122Evidence.observations.sarga_21.checkpoint_manifest_member).toBe(false);
+    expect(sarga2122Evidence.observations.sarga_22.checkpoint_manifest_member).toBe(false);
+    expect(sarga2122Evidence.ingestion_provenance.first_observed_canonical_repository_commit).toBe(
+      "50b78232a7d13abd5bfe8666373181c54b7390c6",
+    );
+    expect(sarga2122Evidence.ingestion_provenance.classification).toBe("bulk_manus_export_import");
+    expect(sarga2122Evidence.authority_decision.outcome).toBe("OUTCOME_B_PARTIAL_EVIDENCE");
+    expect(sarga2122Evidence.authority_decision.verified_next_source).toBeNull();
+    expect(sarga2122Evidence.authority_decision.acquisition_allowed).toBe(false);
+    expect(sarga2122Evidence.authority_decision.promotion_allowed).toBe(false);
+    expect(sarga2122Evidence.authority_decision.reader_corpus_activation_implied).toBe(false);
+    expect(sarga2122Evidence.authority_decision.sarga_23_usable_as_continuation_authority).toBe(false);
+
+    const checkpointFiles = checkpoint.files.map(({ name }) => name);
+    expect(checkpointFiles).not.toContain("AYODHYA_S21_SOURCE_BACKED_RECORDS.json");
+    expect(checkpointFiles).not.toContain("AYODHYA_S22_SOURCE_BACKED_RECORDS.json");
   });
 });
