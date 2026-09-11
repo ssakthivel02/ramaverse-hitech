@@ -22,6 +22,9 @@ type EvidenceManifest = {
     verified_staging_branch_records: number;
     verified_staging_latest_completed_source: string;
     verified_staging_next_source: string;
+    uncheckpointed_narrative_claimed_records: number;
+    uncheckpointed_narrative_claimed_coverage: string;
+    uncheckpointed_narrative_claimed_next_source: string;
     missing_artifact_claimed_records: number;
     missing_artifact_claimed_next_source: string;
     missing_artifact_present: boolean;
@@ -96,6 +99,9 @@ describe("RamaVerse continuation reconciliation evidence", () => {
     "data/staging/physical/STAGING_BRANCH_RECONCILIATION_REPORT.md",
   );
   const continuityBlocker = readText("data/staging/physical/SOURCE_CONTINUITY_BLOCKER.md");
+  const uncheckpointedNarrative = readText(
+    "data/staging/physical/RAMAVERSE_STAGING_V2_CONTINUATION.md",
+  );
 
   it("binds the fail-closed continuation authority to the complete evidence manifest", () => {
     expect(authority.repository).toBe("ssakthivel02/ramaverse-hitech");
@@ -119,12 +125,13 @@ describe("RamaVerse continuation reconciliation evidence", () => {
       "Aranya Kanda Sarga 45 / 3.45.1",
       "Ayodhya Kanda Sarga 66 / 2.66.1",
       "Ayodhya Kanda Sarga 21",
+      "Ayodhya Kanda Sarga 23",
       "Uttara Kanda Chapter 95",
     ]);
   });
 
   it("pins the decision to every underlying reconciliation evidence blob", () => {
-    expect(evidence.source_artifacts).toHaveLength(5);
+    expect(evidence.source_artifacts).toHaveLength(6);
 
     for (const artifact of evidence.source_artifacts) {
       expect(artifact.role.length).toBeGreaterThan(0);
@@ -183,6 +190,16 @@ describe("RamaVerse continuation reconciliation evidence", () => {
     expect(authority.verified_next_source).toBeNull();
   });
 
+  it("captures the uncheckpointed Sarga 23 narrative without promoting it to authority", () => {
+    const facts = evidence.observed_facts;
+    expect(facts.uncheckpointed_narrative_claimed_records).toBe(61);
+    expect(facts.uncheckpointed_narrative_claimed_coverage).toBe("Ayodhya Kanda Sargas 18–22");
+    expect(facts.uncheckpointed_narrative_claimed_next_source).toBe("Ayodhya Kanda Sarga 23");
+    expect(uncheckpointedNarrative).toContain("61 staging records");
+    expect(uncheckpointedNarrative).toContain("Ayodhya Kanda, Sarga 23");
+    expect(authority.verified_next_source).toBeNull();
+  });
+
   it("captures the Uttara 95 claim as missing-artifact evidence only", () => {
     const facts = evidence.observed_facts;
     const claim = physicalState.branches.find(
@@ -199,7 +216,7 @@ describe("RamaVerse continuation reconciliation evidence", () => {
     expect(
       authority.conflicting_markers.find(({ marker }) => marker === "Uttara Kanda Chapter 95")
         ?.disposition,
-    ).toMatch(/unverified|absent/i);
+    ).toMatch(/unverified|absent|unrecovered/i);
   });
 
   it("preserves fail-closed staging and production state", () => {
