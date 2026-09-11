@@ -1,11 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "project": "RamaVerse HI-TECH",
   "repository": "ssakthivel02/ramaverse-hitech",
   "authority_scope": "current operational and release state",
   "canonical_repository": true,
   "current_state_authority": true,
   "continuation_authority_file": "CONTINUATION_AUTHORITY.json",
+  "repository_governance_file": "REPOSITORY_GOVERNANCE.md",
   "preview_infrastructure_status_file": "PREVIEW_INFRASTRUCTURE_STATUS.json",
   "preview_database_compatibility_file": "PREVIEW_DATABASE_COMPATIBILITY.json",
   "provider_candidate_selection_runbook": "PROVIDER_CANDIDATE_SELECTION_RUNBOOK.md",
@@ -15,6 +16,15 @@
   "preview_deployment_executor_registry_file": "PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json",
   "preview_deployment_executor_admission_runbook": "PREVIEW_DEPLOYMENT_EXECUTOR_ADMISSION_RUNBOOK.md",
   "active_corpus_pointer": "data/corpus/ACTIVE_CORPUS.json",
+  "github_repository_controls": {
+    "codeowners_file": ".github/CODEOWNERS",
+    "pull_request_template_file": ".github/pull_request_template.md",
+    "main_branch_protected": false,
+    "active_repository_ruleset": false,
+    "manual_admin_blocker_issue": 40,
+    "status": "REPOSITORY_NATIVE_CONTROLS_PRESENT_GITHUB_ENFORCEMENT_PENDING",
+    "policy": "CODEOWNERS, pull-request templates, documentation and tests improve repository discipline but do not technically protect main. Do not claim GitHub branch/ruleset enforcement until a fresh GitHub settings check proves it."
+  },
   "historical_state_files": [
     "PROJECT_STATE.json",
     "RAMAVERSE_PROJECT_STATE.json"
@@ -65,6 +75,8 @@
   "agent_rules": [
     "Fresh-check main, open PRs, open issues, and running workflows before every write task.",
     "Stop when another agent is modifying the same area.",
+    "Follow REPOSITORY_GOVERNANCE.md for the required fresh-check, collision-check, branch, Draft PR, exact-head CI, merge and exact-main verification sequence.",
+    "Do not claim main is branch-protected or covered by a repository ruleset unless a fresh GitHub settings check proves enforcement is active; repository files alone are not branch protection.",
     "Do not import, develop, deploy, or repair legacy RamaVerse repositories or historical website exports.",
     "Do not fabricate missing Sarga rows or infer corpus presence from schema existence.",
     "Do not use PROJECT_STATE.json or RAMAVERSE_PROJECT_STATE.json as current continuation authority.",
