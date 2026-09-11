@@ -1,0 +1,156 @@
+name: RamaVerse Provider Read-Only Preflight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  readonly-provider-preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DATABASE_URL: ${{ secrets.RAMAVERSE_TEST_DATABASE_URL }}
+      DATABASE_EXPECTED_NAME: ramaverse_preview
+      DATABASE_EXPECTED_HOST: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_HOST }}
+      DATABASE_CA_CERT_B64: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_CA_CERT_B64 }}
+    steps:
+      - name: Checkout exact repository state
+        uses: actions/checkout@v4
+
+      - name: Require dedicated preview database identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${DATABASE_URL:-}" ]; then
+            echo "RAMAVERSE_TEST_DATABASE_URL is not configured."
+            exit 1
+          fi
+          if [ -z "${DATABASE_EXPECTED_HOST:-}" ]; then
+            echo "RAMAVERSE_PREVIEW_DATABASE_HOST is not configured."
+            exit 1
+          fi
+
+          node --input-type=module <<'NODE'
+          const url = new URL(process.env.DATABASE_URL);
+          const actualHost = url.hostname.toLowerCase();
+          const expectedHost = process.env.DATABASE_EXPECTED_HOST.trim().toLowerCase();
+          const database = decodeURIComponent(url.pathname.replace(/^\//, ''));
+
+          if (url.protocol !== 'mysql:') {
+            throw new Error('RamaVerse preview DATABASE_URL must use mysql://.');
+          }
+          if (actualHost !== expectedHost) {
+            throw new Error(`RamaVerse preview host identity mismatch. Expected ${expectedHost}, received ${actualHost}.`);
+          }
+          if (actualHost.includes('hitech-preview-mysql')) {
+            throw new Error('Known shared cross-project database service is prohibited for RamaVerse preview.');
+          }
+          if (database !== process.env.DATABASE_EXPECTED_NAME) {
+            throw new Error(`RamaVerse preview must target ${process.env.DATABASE_EXPECTED_NAME}; received ${database || '<none>'}.`);
+          }
+
+          console.log('RamaVerse dedicated database identity guard PASS');
+          NODE
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Enable pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.4.1 --activate
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Read-only verified-TLS provider probe
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import mysql from 'mysql2/promise';
+
+          const url = new URL(process.env.DATABASE_URL);
+          const caB64 = process.env.DATABASE_CA_CERT_B64?.trim();
+          const ssl = {
+            rejectUnauthorized: true,
+            minVersion: 'TLSv1.2',
+            ...(caB64 ? { ca: Buffer.from(caB64, 'base64').toString('utf8') } : {}),
+          };
+
+          const connection = await mysql.createConnection({
+            host: url.hostname,
+            port: url.port ? Number(url.port) : 3306,
+            user: decodeURIComponent(url.username),
+            password: decodeURIComponent(url.password),
+            database: decodeURIComponent(url.pathname.replace(/^\//, '')),
+            ssl,
+          });
+
+          try {
+            const [identityRows] = await connection.query(
+              'SELECT DATABASE() AS db, VERSION() AS server_version, @@version_comment AS version_comment'
+            );
+            const [sslRows] = await connection.query("SHOW STATUS LIKE 'Ssl%'");
+
+            const identity = Array.isArray(identityRows) ? identityRows[0] : undefined;
+            if (!identity || identity.db !== process.env.DATABASE_EXPECTED_NAME) {
+              throw new Error('Database identity changed after verified-TLS connection.');
+            }
+
+            const sslStatus = new Map(
+              (Array.isArray(sslRows) ? sslRows : []).map(row => [row.Variable_name, row.Value])
+            );
+            const cipher = sslStatus.get('Ssl_cipher');
+            const tlsVersion = sslStatus.get('Ssl_version');
+            if (!cipher) throw new Error('TLS verification failed: no negotiated SSL cipher reported.');
+            if (!tlsVersion) throw new Error('TLS verification failed: no negotiated TLS version reported.');
+
+            const evidence = {
+              schema_version: 1,
+              repository: process.env.GITHUB_REPOSITORY,
+              commit: process.env.GITHUB_SHA,
+              database: identity.db,
+              server_version: String(identity.server_version ?? ''),
+              version_comment: String(identity.version_comment ?? ''),
+              ssl_cipher: String(cipher),
+              tls_version: String(tlsVersion),
+              mutation_performed: false,
+              result: 'READ_ONLY_PROVIDER_PREFLIGHT_PASS',
+            };
+
+            fs.writeFileSync('provider-readonly-preflight-evidence.json', `${JSON.stringify(evidence, null, 2)}\n`);
+
+            const summary = [
+              '## RamaVerse provider read-only preflight',
+              '',
+              `- Result: ${evidence.result}`,
+              `- Repository: ${evidence.repository}`,
+              `- Commit: ${evidence.commit}`,
+              `- Database: ${evidence.database}`,
+              `- Server version: ${evidence.server_version}`,
+              `- Version comment: ${evidence.version_comment}`,
+              `- TLS version: ${evidence.tls_version}`,
+              `- SSL cipher: ${evidence.ssl_cipher}`,
+              '- Mutation performed: false',
+              '',
+              'This preflight proves connection identity and TLS only. It does not approve the provider, apply schema, load Reader data, or authorize preview deployment.',
+            ].join('\n');
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${summary}\n`);
+          } finally {
+            await connection.end();
+          }
+          NODE
+
+      - name: Upload non-secret preflight evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: provider-readonly-preflight-${{ github.sha }}
+          path: provider-readonly-preflight-evidence.json
+          if-no-files-found: error
+          retention-days: 30

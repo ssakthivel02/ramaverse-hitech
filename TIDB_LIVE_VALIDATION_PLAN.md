@@ -19,12 +19,15 @@ TiDB Cloud documentation states that TiDB is highly compatible with the MySQL pr
 
 TiDB Cloud Starter uses certificates issued by Let's Encrypt for TLS. Clients that use the system root store can validate the connection without a private CA bundle.
 
+TiDB documentation states that `SHOW STATUS LIKE "Ssl%"` exposes connection TLS details including cipher and TLS version. The RamaVerse read-only preflight uses that provider-documented mechanism before any schema mutation.
+
 TiDB Cloud documentation also states that an organization can create up to five free Starter instances by default, with a free quota for each of the first five.
 
 Authoritative references:
 
 - https://docs.pingcap.com/tidbcloud/mysql-compatibility/
 - https://docs.pingcap.com/tidbcloud/secure-connections-to-serverless-clusters/
+- https://docs.pingcap.com/tidb/stable/enable-tls-between-clients-and-servers/
 - https://docs.pingcap.com/tidbcloud/serverless-limitations/
 - https://docs.pingcap.com/tidbcloud/tidb-cloud-quickstart/
 
@@ -68,9 +71,27 @@ Configure repository secrets used by the existing provider-neutral workflows:
 
 For TiDB Cloud Starter, system-root TLS is expected to be sufficient because Starter certificates are issued by Let's Encrypt. If live evidence shows otherwise, fail closed rather than disabling certificate verification.
 
-### Gate 4 — schema setup
+### Gate 4 — read-only provider preflight
 
-Run **RamaVerse Preview DB Setup**.
+Before applying any schema, run **RamaVerse Provider Read-Only Preflight**.
+
+This gate must remain non-destructive. It may inspect only connection/server state and must not execute `db:push`, DDL, or DML.
+
+Required evidence:
+
+- exact hostname matches `RAMAVERSE_PREVIEW_DATABASE_HOST`;
+- logical database is exactly `ramaverse_preview`;
+- known shared `hitech-preview-mysql` host is rejected;
+- certificate validation remains enabled with TLS 1.2 or later;
+- `SELECT DATABASE(), VERSION(), @@version_comment` succeeds;
+- `SHOW STATUS LIKE 'Ssl%'` reports a negotiated `Ssl_cipher` and `Ssl_version`;
+- generated evidence records the exact repository commit and `mutation_performed: false`.
+
+A successful read-only preflight proves only live identity/TLS/server compatibility evidence. It does **not** approve the provider or authorize schema/data changes.
+
+### Gate 5 — schema setup
+
+Only after Gate 4 passes on the same dedicated instance, run **RamaVerse Preview DB Setup**.
 
 Required evidence:
 
@@ -83,7 +104,7 @@ Required evidence:
 
 A schema-only success is **not** a provider approval.
 
-### Gate 5 — canonical Reader data load
+### Gate 6 — canonical Reader data load
 
 Load only owner-approved, lossless, source-identified RamaVerse Reader data.
 
@@ -96,7 +117,7 @@ Minimum currently expected canonical behavior for the integration gate:
 
 Do not use this gate to invent adjacent Sargas or reconcile the known continuation conflict.
 
-### Gate 6 — live integration gate
+### Gate 7 — live integration gate
 
 Run **RamaVerse Integration Gate** against the same dedicated instance.
 
@@ -112,9 +133,9 @@ It must prove:
 
 Any failure leaves TiDB status as **not approved**.
 
-### Gate 7 — preview runtime configuration
+### Gate 8 — preview runtime configuration
 
-Only after Gates 1–6 pass, configure the preview runtime using the same exact host/database identity and TLS posture.
+Only after Gates 1–7 pass, configure the preview runtime using the same exact host/database identity and TLS posture.
 
 Required variables include:
 
@@ -125,7 +146,7 @@ Required variables include:
 
 Do not configure production DNS.
 
-### Gate 8 — deployed preview exact-commit QA
+### Gate 9 — deployed preview exact-commit QA
 
 Deploy only to the non-production preview environment and run the existing HTTP/release verification gates.
 
@@ -138,7 +159,7 @@ Required evidence includes:
 - Reader surfaces reflect only approved canonical database state;
 - no production DNS/routing change.
 
-### Gate 9 — provider approval decision
+### Gate 10 — provider approval decision
 
 TiDB Cloud Starter can move from candidate to approved only when all previous gates have evidence on the same dedicated instance.
 
@@ -147,6 +168,7 @@ Approval must never be inferred from:
 - provider marketing claims;
 - static SQL compatibility alone;
 - successful account creation;
+- successful read-only connectivity alone;
 - successful schema creation alone;
 - successful TCP/TLS connection alone.
 
@@ -157,6 +179,7 @@ Use one of these states when validation is incomplete or fails:
 - `OWNER_PROVIDER_APPROVAL_REQUIRED`
 - `DEDICATED_INSTANCE_REQUIRED`
 - `EXACT_HOST_IDENTITY_FAILED`
+- `READ_ONLY_PROVIDER_PREFLIGHT_FAILED`
 - `TLS_VERIFICATION_FAILED`
 - `SCHEMA_PUSH_FAILED`
 - `CANONICAL_READER_DATA_UNVERIFIED`
