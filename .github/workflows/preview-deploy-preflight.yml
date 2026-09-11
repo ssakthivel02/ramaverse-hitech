@@ -12,6 +12,7 @@ on:
       - ".github/workflows/preview-db-setup.yml"
       - ".github/workflows/integration-gate.yml"
       - ".github/workflows/preview-http-smoke.yml"
+      - ".github/workflows/preview-deployment-authorization.yml"
       - ".github/workflows/preview-deploy-preflight.yml"
 
 permissions:
@@ -83,6 +84,26 @@ jobs:
           grep -q '/readyz' .github/workflows/preview-http-smoke.yml
           grep -q 'canonicalCorpus' .github/workflows/preview-http-smoke.yml
           grep -q 'database' .github/workflows/preview-http-smoke.yml
+
+      - name: Validate preview deployment authorization contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          auth=.github/workflows/preview-deployment-authorization.yml
+          test -f "$auth"
+          grep -q 'owner_preview_deployment_approval' "$auth"
+          grep -q 'RamaVerse Integration Gate' "$auth"
+          grep -q 'LIVE_INTEGRATION_PASS' "$auth"
+          grep -q 'RamaVerse Preview Rollback Readiness' "$auth"
+          grep -q 'PREVIEW_ROLLBACK_READY' "$auth"
+          grep -q 'RamaVerse Quality Gate' "$auth"
+          grep -q 'RamaVerse Preview Deployment Preflight' "$auth"
+          grep -q 'RamaVerse Preview Release Candidate' "$auth"
+          grep -q 'PREVIEW_DEPLOYMENT_AUTHORIZED' "$auth"
+          grep -q 'execution_performed: false' "$auth"
+          grep -q 'production_ready: false' "$auth"
+          grep -q 'production_dns_change_allowed: false' "$auth"
+          grep -q 'production_deployment_change_allowed: false' "$auth"
 
       - name: Preview deployment preflight PASS
         run: echo 'RamaVerse preview deployment configuration is internally consistent and exact-commit verifiable.'
