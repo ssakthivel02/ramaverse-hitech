@@ -1,0 +1,96 @@
+name: RamaVerse Preview Deployment Executor Admission
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_handoff_run_id:
+        description: "Successful RamaVerse Preview Deployment Handoff run ID"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  admission:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      HANDOFF_RUN_ID: ${{ inputs.deployment_handoff_run_id }}
+    steps:
+      - name: Validate request
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$HANDOFF_RUN_ID" =~ ^[0-9]+$ ]] || { echo "deployment_handoff_run_id must be numeric"; exit 1; }
+
+      - name: Checkout executor policy
+        uses: actions/checkout@v4
+
+      - name: Verify successful handoff evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${HANDOFF_RUN_ID}" > /tmp/handoff-run.json
+          jq -e '.name == "RamaVerse Preview Deployment Handoff" and .conclusion == "success"' /tmp/handoff-run.json >/dev/null
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${HANDOFF_RUN_ID}/artifacts?per_page=100" > /tmp/handoff-artifacts.json
+          artifact_id="$(jq -r '.artifacts[] | select(.expired == false and (.name | startswith("preview-deployment-handoff-"))) | .id' /tmp/handoff-artifacts.json | head -n1)"
+          test -n "$artifact_id"
+          gh api -H 'Accept: application/vnd.github+json' "/repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}/zip" > /tmp/handoff.zip
+          mkdir -p /tmp/handoff
+          unzip -q /tmp/handoff.zip -d /tmp/handoff
+          evidence="$(find /tmp/handoff -type f -name '*.json' | head -n1)"
+          jq -e '.result == "PREVIEW_DEPLOYMENT_HANDOFF_READY" and .preview_scope_only == true and .contains_secret_values == false and .deployment_performed == false and .database_mutation_performed == false and .production_ready == false' "$evidence" >/dev/null
+          cp "$evidence" /tmp/handoff.json
+
+      - name: Enforce exact commit and provider executor registry
+        shell: bash
+        run: |
+          set -euo pipefail
+          provider="$(jq -r '.provider_candidate' /tmp/handoff.json)"
+          commit="$(jq -r '.commit' /tmp/handoff.json)"
+          test "$commit" = "$GITHUB_SHA" || { echo "Handoff commit $commit does not match executor-admission commit $GITHUB_SHA"; exit 1; }
+          jq -e --arg provider "$provider" '
+            .default_policy == "DENY" and
+            .production_execution_allowed == false and
+            any(.executors[];
+              .provider_candidate == $provider and
+              .reviewed == true and
+              .enabled == true and
+              (.workflow | type == "string") and
+              (.workflow | length > 0) and
+              .executor_status == "REVIEWED_AND_ENABLED"
+            )
+          ' PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json >/dev/null || {
+            echo "No reviewed and enabled provider-specific preview executor exists for: $provider"
+            exit 1
+          }
+
+      - name: Emit admission evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          provider="$(jq -r '.provider_candidate' /tmp/handoff.json)"
+          jq -n --arg repository "$GITHUB_REPOSITORY" --arg commit "$GITHUB_SHA" --arg provider_candidate "$provider" --arg handoff_run_id "$HANDOFF_RUN_ID" '{
+            schema_version: 1,
+            result: "PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED",
+            repository: $repository,
+            commit: $commit,
+            provider_candidate: $provider_candidate,
+            deployment_handoff_run_id: $handoff_run_id,
+            preview_scope_only: true,
+            execution_performed: false,
+            production_ready: false,
+            production_dns_change_allowed: false,
+            production_deployment_change_allowed: false
+          }' > preview-deployment-executor-admission.json
+
+      - name: Upload admission evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-deployment-executor-admission-${{ github.sha }}
+          path: preview-deployment-executor-admission.json
+          if-no-files-found: error
+          retention-days: 30
