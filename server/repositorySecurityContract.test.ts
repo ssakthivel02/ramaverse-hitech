@@ -10,7 +10,7 @@ describe("RamaVerse repository security contract", () => {
     const policy = read("SECURITY.md");
 
     expect(policy).toContain("Do not disclose exploit details");
-    expect(policy).toContain("Do not include reproduction details, secrets, payloads, or sensitive logs");
+    expect(policy).toContain("do not include reproduction details, secrets, payloads, or sensitive logs");
     expect(policy).toContain("Never commit real credentials");
     expect(policy).toContain("Dependabot pull requests are proposals only");
     expect(policy).toContain("Generic instructions such as “proceed” or “continue” do not authorize");
