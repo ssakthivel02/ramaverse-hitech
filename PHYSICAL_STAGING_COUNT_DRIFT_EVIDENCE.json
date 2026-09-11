@@ -13,9 +13,10 @@
         "Ayodhya Kanda Sarga 18",
         "Ayodhya Kanda Sarga 19"
       ],
-      "observed_source_registry_ids": [
-        "src-valmiki-ayodhya-s18-gretl-20260815",
-        "src-valmiki-ayodhya-s19-gretl-20260815"
+      "observed_source_ids": [
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7"
       ],
       "continuation_authority": false
     },
@@ -38,7 +39,7 @@
   ],
   "findings": [
     "The mutable physical staging JSON presently contains 12 records, not the 28 records represented by the verified checkpoint and not the 61 records claimed by the continuation narrative.",
-    "The mutable physical staging JSON presently contains source IDs for Sargas 18 and 19 only; it does not physically substantiate Sarga 21 or Sarga 22 continuation records.",
+    "The mutable physical staging JSON presently defines direct Sarga 18 and Sarga 19 SanskritDocuments sources plus a GRETIL cross-check covering locators 2.018-2.019; it does not physically substantiate Sarga 20, 21, or 22 records.",
     "The verified checkpoint remains evidence of a distinct 28-record state through Sarga 20, but its branch-specific Sarga 21 marker is not sufficient to establish canonical continuation authority.",
     "The 61-record/Sarga-23 narrative remains uncheckpointed and is contradicted by the currently imported mutable staging dataset.",
     "No currently inspected physical artifact establishes a source-backed canonical continuation point beyond the reconciled checkpoint boundary."
