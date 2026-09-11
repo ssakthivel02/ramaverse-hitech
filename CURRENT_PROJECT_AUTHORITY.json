@@ -12,6 +12,8 @@
   "preview_rollback_runbook": "PREVIEW_ROLLBACK_RUNBOOK.md",
   "preview_deployment_authorization_runbook": "PREVIEW_DEPLOYMENT_AUTHORIZATION_RUNBOOK.md",
   "preview_deployment_handoff_runbook": "PREVIEW_DEPLOYMENT_HANDOFF_RUNBOOK.md",
+  "preview_deployment_executor_registry_file": "PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json",
+  "preview_deployment_executor_admission_runbook": "PREVIEW_DEPLOYMENT_EXECUTOR_ADMISSION_RUNBOOK.md",
   "active_corpus_pointer": "data/corpus/ACTIVE_CORPUS.json",
   "historical_state_files": [
     "PROJECT_STATE.json",
@@ -38,6 +40,7 @@
     "rollback_execution_implemented": false,
     "deployment_authorization_control": "PREVIEW_DEPLOYMENT_AUTHORIZED_REQUIRED_BEFORE_ANY_LIVE_PREVIEW_DEPLOYMENT",
     "deployment_handoff_control": "PREVIEW_DEPLOYMENT_HANDOFF_READY_REQUIRED_BEFORE_PROVIDER_SPECIFIC_PREVIEW_DEPLOYMENT_EXECUTION",
+    "deployment_executor_admission_control": "PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED_REQUIRED_BEFORE_PROVIDER_SPECIFIC_PREVIEW_DEPLOYMENT_EXECUTION",
     "deployment_execution_implemented": false,
     "blocking_requirements": [
       "Before any live provider preflight, the exact provider candidate must have independent PROVIDER_CANDIDATE_SELECTION_APPROVED evidence from an explicit owner decision. Generic proceed/continue instructions are not provider-candidate approval.",
@@ -49,7 +52,8 @@
       "A successful deployed preview smoke run must be followed by explicit owner preview acceptance backed by PREVIEW_ACCEPTANCE_PASS evidence; preview acceptance does not authorize production.",
       "Before the first live preview deployment, at least one previously green exact commit must be demonstrably eligible as a source rollback target through RamaVerse Preview Rollback Readiness; actual provider-specific rollback execution remains separately undefined until a provider is selected.",
       "Before any live preview deployment execution, the exact commit/provider must have matching PREVIEW_DEPLOYMENT_AUTHORIZED evidence backed by successful exact-commit release checks, LIVE_INTEGRATION_PASS, PREVIEW_ROLLBACK_READY and explicit owner preview deployment approval. Authorization itself performs no deployment.",
-      "A provider-specific preview deploy executor must consume PREVIEW_DEPLOYMENT_HANDOFF_READY evidence for the exact authorized commit/provider. The handoff contains only sanitized runtime-contract metadata and secret names; it performs no provider, database, deployment or production mutation."
+      "A provider-specific preview deploy executor must consume PREVIEW_DEPLOYMENT_HANDOFF_READY evidence for the exact authorized commit/provider. The handoff contains only sanitized runtime-contract metadata and secret names; it performs no provider, database, deployment or production mutation.",
+      "Before any provider-specific preview executor can run, the exact commit/provider must also have PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED evidence produced from the sanitized handoff and PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json. The registry defaults to DENY and an executor must be separately reviewed, enabled and mapped to a concrete workflow before admission can pass."
     ],
     "shared_database_reuse_allowed": false
   },
@@ -70,11 +74,13 @@
     "Do not interpret generic proceed, continue or next-task instructions as provider-candidate approval; explicit PROVIDER_CANDIDATE_SELECTION_APPROVED evidence is required before live provider preflight.",
     "Do not reuse a provider-candidate selection artifact for a different provider candidate.",
     "Do not treat PROVIDER_CANDIDATE_SELECTION_APPROVED as provider runtime approval, paid-plan approval, provisioning approval, deployment authorization or production authorization.",
-    "Do not treat preview acceptance, preview rollback readiness, preview deployment authorization or preview deployment handoff as production authorization.",
+    "Do not treat preview acceptance, preview rollback readiness, preview deployment authorization, preview deployment handoff or preview executor admission as production authorization.",
     "Do not treat PREVIEW_ROLLBACK_READY as proof that provider-specific rollback execution or database rollback is safe.",
-    "Do not execute a live preview deployment unless matching PREVIEW_DEPLOYMENT_AUTHORIZED and PREVIEW_DEPLOYMENT_HANDOFF_READY evidence exists for the exact commit/provider and the selected provider-specific deployment implementation has separately been reviewed.",
+    "Do not execute a live preview deployment unless matching PREVIEW_DEPLOYMENT_AUTHORIZED, PREVIEW_DEPLOYMENT_HANDOFF_READY and PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED evidence exists for the exact commit/provider and the selected provider-specific deployment implementation has separately been reviewed and enabled.",
     "Do not treat PREVIEW_DEPLOYMENT_AUTHORIZED as evidence that deployment has occurred; its execution_performed field must remain false.",
     "Do not treat PREVIEW_DEPLOYMENT_HANDOFF_READY as evidence that provider configuration, secret injection, database mutation or deployment has occurred.",
+    "Do not treat PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED as evidence that deployment has occurred; executor admission itself performs no execution.",
+    "Do not bypass PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json default DENY or enable an executor from generic proceed/continue instructions.",
     "Do not place credential values or connection strings containing credentials into the deployment handoff artifact; secret names only are allowed.",
     "Do not create paid infrastructure without explicit owner approval of the paid plan and cloud/region."
   ]
