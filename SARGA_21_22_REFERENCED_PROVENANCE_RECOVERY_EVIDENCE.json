@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "evidence_date": "2026-09-11",
+  "purpose": "Disposition the missing referenced provenance artifacts for the imported Ayodhya Kanda Sarga 21 and Sarga 22 staging records using currently accessible GitHub evidence, without inventing or reconstructing unavailable source-registry/checkpoint state.",
+  "classification": "UNRECOVERED_REFERENCED_PROVENANCE_FAIL_CLOSED",
+  "scope": {
+    "canonical_repository": "ssakthivel02/ramaverse-hitech",
+    "canonical_main_at_investigation_start": "1e874397f5e69f3c0fa8c15abda1891f98cc24d4",
+    "read_only_reference_repositories_checked": [
+      "ssakthivel02/ramaverse",
+      "ssakthivel02/sitarama-legacy"
+    ],
+    "legacy_mutation_performed": false
+  },
+  "imported_workspace_metadata": {
+    "artifact": "RAMAVERSE_PROJECT_STATE.json",
+    "source_root_claim": "/home/ubuntu/ramaverse",
+    "imported_source_version_claim": "56bb0d6+working-tree-2026-08-25",
+    "staging_files_include_sarga_21": true,
+    "staging_files_include_sarga_22": true,
+    "metadata_claims_missing_files": [],
+    "referenced_stable_id_registries": [
+      "POST_V1_STAGING_PHYSICAL_AUDIT.json",
+      "RAMAVERSE_STAGING_MASTER_LEDGER_V9.json",
+      "RAMAVERSE_STAGING_MASTER_LEDGER_V10.json",
+      "POST_V1_SEMANTIC_DUPLICATE_AUDIT_V10.json",
+      "RAMAVERSE_STAGING_MASTER_LEDGER_VNEXT.json",
+      "RAMAVERSE_STAGING_MASTER_LEDGER_V2.json",
+      "TEXTUAL_VARIANCE_LEDGER.json",
+      "RAMAVERSE_STAGING_MASTER_LEDGER_V3.json",
+      "TEXTUAL_VARIANCE_LEDGER_V2.json"
+    ],
+    "referenced_later_task_outputs": [
+      "RAMAVERSE_STAGING_MASTER_LEDGER_V12.json",
+      "EXACT_PHYSICAL_CONTINUATION_V12.json",
+      "SOURCE_LEDGER_V12.json"
+    ],
+    "interpretation": "These names prove that the imported workspace metadata referenced or expected provenance/ledger artifacts. The metadata reference alone does not prove that the corresponding files were imported into, committed to, or remain recoverable from GitHub."
+  },
+  "recovery_checks": [
+    {
+      "source": "canonical exact-main recursive Git tree",
+      "result": "REFERENCED_PROVENANCE_FILENAMES_NOT_FOUND",
+      "qualification": "The current canonical Git tree contains the imported project-state metadata and Sarga 21/22 staging payloads, but the named stable-ID registries and checked later ledger output are not present."
+    },
+    {
+      "source": "canonical Git path history",
+      "paths_checked": [
+        "POST_V1_STAGING_PHYSICAL_AUDIT.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_V9.json",
+        "RAMAVERSE_STAGING_MASTER_LEDGER_V12.json"
+      ],
+      "result": "NO_COMMITS_RETURNED_FOR_CHECKED_PATHS",
+      "qualification": "This establishes no recoverable root-path history for the checked names; it does not prove that similarly named files never existed outside GitHub or under an inaccessible workspace path."
+    },
+    {
+      "source": "bulk Manus import commit 50b78232a7d13abd5bfe8666373181c54b7390c6",
+      "result": "METADATA_REFERENCES_FOUND_BUT_REFERENCED_REGISTRY_FILES_NOT_ADDED_AS_MATCHING_FILENAMES",
+      "qualification": "The import commit added RAMAVERSE_PROJECT_STATE.json and the post-v1 Sarga 21/22 staging files. Its project-state metadata names stable-ID registries, but inspection of the import diff did not identify matching added files for the checked registry names."
+    },
+    {
+      "source": "ssakthivel02/ramaverse current main recursive Git tree",
+      "mode": "READ_ONLY",
+      "result": "CHECKED_REFERENCED_PROVENANCE_FILENAMES_NOT_FOUND"
+    },
+    {
+      "source": "ssakthivel02/sitarama-legacy current main recursive Git tree",
+      "mode": "READ_ONLY",
+      "result": "CHECKED_REFERENCED_PROVENANCE_FILENAMES_NOT_FOUND"
+    },
+    {
+      "source": "ssakthivel02/ramaverse commit lookup for imported sourceVersion prefix 56bb0d6",
+      "mode": "READ_ONLY",
+      "result": "NO_COMMIT_FOUND_FOR_SHA_PREFIX",
+      "qualification": "The imported sourceVersion refers to a workspace state that is not recoverable as that commit in the currently accessible legacy repository."
+    }
+  ],
+  "findings": [
+    "The real post-v1 Sarga 21 and Sarga 22 staging payloads remain available in the canonical HI-TECH repository and were already classified as partial evidence.",
+    "RAMAVERSE_PROJECT_STATE.json references stable-ID registries and later ledger outputs that would be relevant to proving the provenance transition, but the checked referenced artifacts are not recoverable from the currently accessible GitHub trees/history.",
+    "The imported workspace metadata claim missing_files=[] cannot be treated as a GitHub checkpoint guarantee because the referenced artifacts are not present in the imported canonical Git tree.",
+    "The sourceVersion claim 56bb0d6+working-tree-2026-08-25 is workspace provenance metadata, not a currently resolvable commit in the accessible ssakthivel02/ramaverse repository.",
+    "No recovered evidence binds the imported Sarga 21/22 payloads to the verified 28-record physical checkpoint source registry or to an immutable replacement checkpoint.",
+    "Therefore the missing provenance is dispositioned as unrecovered across currently accessible GitHub sources, not as proven never to have existed."
+  ],
+  "disposition": {
+    "status": "UNRECOVERED_ACROSS_CURRENTLY_ACCESSIBLE_GITHUB_SOURCES",
+    "full_provenance_recovered": false,
+    "new_checkpoint_authorized": false,
+    "verified_next_source": null,
+    "acquisition_allowed": false,
+    "promotion_allowed": false,
+    "sarga_23_usable_as_continuation_authority": false,
+    "external_or_offline_artifact_can_reopen_investigation": true
+  },
+  "reopen_conditions": [
+    "A genuine copy of one or more referenced source registries, master ledgers, physical audit files, source ledgers or immutable checkpoint artifacts is supplied from the original workspace/export.",
+    "The supplied artifact has independently verifiable provenance and can be correlated to the exact Sarga 21/22 staging payloads using source IDs, candidate IDs, hashes, timestamps or equivalent immutable evidence.",
+    "Any recovered source URLs, rights states, review states and ledger transitions can be independently validated before a new versioned checkpoint is proposed."
+  ],
+  "safety_boundary": [
+    "Do not recreate missing ledgers from narrative metadata and present them as historical originals.",
+    "Do not synthesize source-registry rows merely because the Sarga 21/22 payloads contain source IDs.",
+    "Do not overwrite or amend the historical 28-record checkpoint.",
+    "Do not acquire Sarga 23 based on this disposition.",
+    "Do not publish Sarga 21/22 staging payloads through Reader, Search, Ask, offline canonical corpus or production APIs.",
+    "Do not modify legacy/reference repositories during provenance recovery."
+  ]
+}
