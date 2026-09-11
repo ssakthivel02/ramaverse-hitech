@@ -33,11 +33,22 @@ Authoritative references:
 
 ## Required live-validation sequence
 
-### Gate 1 — owner/provider approval
+### Gate 1 — explicit provider-candidate selection evidence
 
-Before provisioning, obtain explicit owner approval for **TiDB Cloud Starter** as the RamaVerse preview database candidate. Generic permission to continue repository work is not provider approval.
+Before provisioning, obtain explicit owner approval for **TiDB Cloud Starter** as the RamaVerse preview database candidate by running **RamaVerse Provider Candidate Selection**.
 
-Expected state before approval:
+The workflow must record:
+
+- the exact provider candidate;
+- explicit owner provider-candidate approval;
+- a non-empty selection reason;
+- `result: PROVIDER_CANDIDATE_SELECTION_APPROVED`;
+- `selection_scope: live_preview_candidate_validation_only`;
+- all provisioning, connection, mutation, deployment and production-authorization fields as `false`.
+
+Generic permission to continue repository work is not provider-candidate approval. `PROVIDER_CANDIDATE_SELECTION_APPROVED` permits controlled live candidate validation only; it does not approve TiDB for preview runtime, a paid plan, provisioning, deployment, or production.
+
+Expected project authority remains:
 
 - `provider_selection_approved`: `false`
 - TiDB candidate status remains `STATIC_COMPATIBILITY_REVIEWED_LIVE_VALIDATION_REQUIRED`.
@@ -75,19 +86,31 @@ For TiDB Cloud Starter, system-root TLS is expected to be sufficient because Sta
 
 Before applying any schema, run **RamaVerse Provider Read-Only Preflight**.
 
-The workflow dispatcher must:
+The workflow dispatcher must provide:
 
-- select the exact provider candidate being validated;
-- explicitly confirm that the owner approved that provider candidate for live validation.
+- the exact provider candidate being validated;
+- the numeric GitHub Actions run ID of the successful Gate 1 `RamaVerse Provider Candidate Selection` run.
 
-The workflow fails closed if this confirmation is false or missing. This confirmation authorizes **candidate validation only**; it does not approve the provider for preview runtime or production.
+Before reading database secrets or attempting connectivity, the workflow independently verifies that the referenced selection run:
+
+- is the `RamaVerse Provider Candidate Selection` workflow;
+- completed successfully;
+- produced a non-expired `PROVIDER_CANDIDATE_SELECTION_APPROVED` artifact;
+- belongs to `ssakthivel02/ramaverse-hitech`;
+- records the same exact provider candidate;
+- records explicit owner approval and `selection_scope: live_preview_candidate_validation_only`;
+- records no provisioning, database connection/mutation, provider mutation or deployment;
+- keeps all production authorization fields false.
+
+The selection evidence is intentionally candidate/repository-bound rather than commit-bound so an unchanged owner decision can survive later source commits. It must never be reused for a different provider candidate.
 
 This gate must remain non-destructive. It may inspect only connection/server state and must not execute `db:push`, DDL, or DML.
 
-Required evidence:
+Required live evidence:
 
+- provider-selection run ID and successful upstream evidence verification are recorded;
 - selected provider candidate is recorded;
-- owner candidate-approval confirmation is recorded as `true`;
+- owner candidate approval is carried forward from verified upstream evidence as `true`;
 - exact hostname matches `RAMAVERSE_PREVIEW_DATABASE_HOST`;
 - logical database is exactly `ramaverse_preview`;
 - known shared `hitech-preview-mysql` host is rejected;
@@ -96,7 +119,7 @@ Required evidence:
 - `SHOW STATUS LIKE 'Ssl%'` reports a negotiated `Ssl_cipher` and `Ssl_version`;
 - generated evidence records the exact repository commit and `mutation_performed: false`.
 
-A successful read-only preflight proves only that an explicitly approved candidate was intentionally selected plus live identity/TLS/server compatibility evidence. It does **not** approve the provider or authorize schema/data changes.
+A successful read-only preflight proves only that an independently selected candidate passed live identity/TLS/server compatibility checks. It does **not** approve the provider or authorize schema/data changes.
 
 ### Gate 5 — schema setup
 
@@ -115,7 +138,7 @@ Before `pnpm db:push`, the workflow verifies that the referenced preflight:
 - ran against the exact same repository commit;
 - produced the expected evidence artifact for that commit;
 - records the same provider candidate;
-- records owner candidate approval as `true`;
+- records upstream provider-selection evidence as passed and owner candidate approval as `true`;
 - records `mutation_performed: false` and `READ_ONLY_PROVIDER_PREFLIGHT_PASS`.
 
 Any mismatch fails closed before schema mutation.
@@ -218,6 +241,7 @@ Approval must never be inferred from:
 
 - provider marketing claims;
 - static SQL compatibility alone;
+- successful candidate-selection evidence alone;
 - successful account creation;
 - successful read-only connectivity alone;
 - successful schema creation alone;
@@ -231,6 +255,8 @@ Production remains a separate future decision and requires explicit owner author
 Use one of these states when validation is incomplete or fails:
 
 - `OWNER_PROVIDER_APPROVAL_REQUIRED`
+- `PROVIDER_CANDIDATE_SELECTION_EVIDENCE_REQUIRED`
+- `PROVIDER_CANDIDATE_SELECTION_EVIDENCE_MISMATCH`
 - `DEDICATED_INSTANCE_REQUIRED`
 - `EXACT_HOST_IDENTITY_FAILED`
 - `READ_ONLY_PROVIDER_PREFLIGHT_FAILED`
