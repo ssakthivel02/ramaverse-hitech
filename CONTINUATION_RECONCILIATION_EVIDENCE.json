@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "project": "RamaVerse HI-TECH",
   "repository": "ssakthivel02/ramaverse-hitech",
   "decision": "BLOCKED_NO_VERIFIED_NEXT_SOURCE",
@@ -32,6 +32,11 @@
       "path": "data/staging/physical/SOURCE_CONTINUITY_BLOCKER.md",
       "git_blob_sha": "98d65663a3b29b063296ca6970eea27e7744d63f",
       "role": "missing-authoritative-package continuity blocker"
+    },
+    {
+      "path": "data/staging/physical/RAMAVERSE_STAGING_V2_CONTINUATION.md",
+      "git_blob_sha": "a83ef50c6b79ee52f3bf14cc76bdfebeb5864a56",
+      "role": "uncheckpointed imported continuation narrative that conflicts with the verified 28-record checkpoint"
     }
   ],
   "observed_facts": {
@@ -46,6 +51,9 @@
     "verified_staging_branch_records": 28,
     "verified_staging_latest_completed_source": "Ayodhya Kanda Sarga 20 (2.20.1–55)",
     "verified_staging_next_source": "Ayodhya Kanda Sarga 21",
+    "uncheckpointed_narrative_claimed_records": 61,
+    "uncheckpointed_narrative_claimed_coverage": "Ayodhya Kanda Sargas 18–22",
+    "uncheckpointed_narrative_claimed_next_source": "Ayodhya Kanda Sarga 23",
     "missing_artifact_claimed_records": 50,
     "missing_artifact_claimed_next_source": "Uttara Kanda Chapter 95",
     "missing_artifact_present": false
@@ -54,7 +62,8 @@
     "Aranya Kanda Sarga 45 / 3.45.1",
     "Ayodhya Kanda Sarga 66 / 2.66.1",
     "Ayodhya Kanda Sarga 21",
+    "Ayodhya Kanda Sarga 23",
     "Uttara Kanda Chapter 95"
   ],
-  "conclusion": "Repository evidence establishes a verified staging-branch continuation at Ayodhya Kanda Sarga 21 and separately records an unverified missing-artifact claim for Uttara Kanda Chapter 95, in addition to the existing Aranya 45 and historical Ayodhya 66 markers. None is sufficient to establish the canonical next source. The continuation gate therefore remains fail-closed until the complete evidence set is reconciled and the first genuinely missing source-backed verse is deliberately established."
+  "conclusion": "Repository evidence contains a verified 28-record staging checkpoint through Ayodhya Sarga 20 with branch-specific next source Sarga 21, plus an uncheckpointed imported narrative claiming 61 records through Sarga 22 and next source Sarga 23. These conflict with each other and with the existing Aranya 45 and historical Ayodhya 66 markers; the Uttara 95 claim is separately unrecovered and unverified. None is sufficient to establish the canonical next source. The continuation gate therefore remains fail-closed until checkpoint drift is reconciled and the first genuinely missing source-backed verse is deliberately established."
 }
