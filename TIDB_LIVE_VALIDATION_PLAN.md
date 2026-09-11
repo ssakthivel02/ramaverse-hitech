@@ -102,7 +102,25 @@ A successful read-only preflight proves only that an explicitly approved candida
 
 Only after Gate 4 passes on the same dedicated instance, run **RamaVerse Preview DB Setup**.
 
-Required evidence:
+The schema workflow must be dispatched with:
+
+- the same exact provider candidate name used by Gate 4;
+- the numeric GitHub Actions run ID of the successful Gate 4 preflight;
+- explicit confirmation authorizing schema-only mutation.
+
+Before `pnpm db:push`, the workflow verifies that the referenced preflight:
+
+- is the `RamaVerse Provider Read-Only Preflight` workflow;
+- completed successfully through `workflow_dispatch`;
+- ran against the exact same repository commit;
+- produced the expected evidence artifact for that commit;
+- records the same provider candidate;
+- records owner candidate approval as `true`;
+- records `mutation_performed: false` and `READ_ONLY_PROVIDER_PREFLIGHT_PASS`.
+
+Any mismatch fails closed before schema mutation.
+
+Required evidence after the dependency gate passes:
 
 - exact hostname matches `RAMAVERSE_PREVIEW_DATABASE_HOST`;
 - logical database is exactly `ramaverse_preview`;
@@ -189,6 +207,8 @@ Use one of these states when validation is incomplete or fails:
 - `DEDICATED_INSTANCE_REQUIRED`
 - `EXACT_HOST_IDENTITY_FAILED`
 - `READ_ONLY_PROVIDER_PREFLIGHT_FAILED`
+- `PREFLIGHT_EVIDENCE_MISMATCH`
+- `SCHEMA_MUTATION_APPROVAL_REQUIRED`
 - `TLS_VERIFICATION_FAILED`
 - `SCHEMA_PUSH_FAILED`
 - `CANONICAL_READER_DATA_UNVERIFIED`
