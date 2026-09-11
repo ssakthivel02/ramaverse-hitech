@@ -11,7 +11,7 @@ This runbook exists to validate a dedicated TiDB Cloud Starter instance without 
 - Do not reuse `hitech-preview-mysql`.
 - Do not mark TiDB approved merely because an instance was created or the schema exists.
 - Do not fabricate or infer missing Sarga rows.
-- Production DNS and production deployment remain out of scope until all preview gates pass.
+- Production DNS and production deployment remain out of scope until all preview gates pass and separate production approval is explicitly granted.
 
 ## Official evidence reviewed
 
@@ -158,7 +158,7 @@ It must prove:
 - grounding behavior;
 - absence of fabricated/non-approved Reader rows.
 
-Any failure leaves TiDB status as **not approved**.
+The gate emits `LIVE_INTEGRATION_PASS` evidence only after the canonical DB tests pass. Any failure leaves TiDB status as **not approved**.
 
 ### Gate 8 — preview runtime configuration
 
@@ -175,7 +175,9 @@ Do not configure production DNS.
 
 ### Gate 9 — deployed preview exact-commit QA
 
-Deploy only to the non-production preview environment and run the existing HTTP/release verification gates.
+Deploy only to the non-production preview environment and run **RamaVerse Preview HTTP Smoke**.
+
+The smoke workflow must consume the successful Gate 7 integration evidence for the same exact repository commit and provider before it sends HTTP requests to the preview.
 
 Required evidence includes:
 
@@ -184,11 +186,33 @@ Required evidence includes:
 - `/readyz` live and not service-worker cached;
 - `/releasez` returns the exact expected repository and commit;
 - Reader surfaces reflect only approved canonical database state;
+- response security/operational cache headers pass;
+- the smoke workflow emits `DEPLOYED_PREVIEW_SMOKE_PASS` evidence;
 - no production DNS/routing change.
 
-### Gate 10 — provider approval decision
+### Gate 10 — explicit preview acceptance
 
-TiDB Cloud Starter can move from candidate to approved only when all previous gates have evidence on the same dedicated instance.
+After Gate 9 passes, run **RamaVerse Preview Acceptance Gate**.
+
+The acceptance workflow must:
+
+- reference the exact successful `RamaVerse Preview HTTP Smoke` run ID;
+- verify that run is for the same exact commit and provider candidate;
+- download and verify the matching `DEPLOYED_PREVIEW_SMOKE_PASS` artifact;
+- require explicit owner acceptance of the validated preview;
+- emit `PREVIEW_ACCEPTANCE_PASS` evidence.
+
+Preview acceptance is deliberately **preview-stage only**. Its evidence must keep:
+
+- `production_ready: false`
+- `production_dns_change_allowed: false`
+- `production_deployment_change_allowed: false`
+
+A successful Gate 10 must never be interpreted as production authorization.
+
+### Gate 11 — provider approval decision
+
+TiDB Cloud Starter can move from candidate to approved for RamaVerse preview use only when Gates 1–10 all have matching evidence on the same dedicated instance and exact deployed commit.
 
 Approval must never be inferred from:
 
@@ -197,7 +221,10 @@ Approval must never be inferred from:
 - successful account creation;
 - successful read-only connectivity alone;
 - successful schema creation alone;
-- successful TCP/TLS connection alone.
+- successful TCP/TLS connection alone;
+- successful deployed smoke without explicit owner preview acceptance.
+
+Production remains a separate future decision and requires explicit owner authorization outside this preview-provider approval chain.
 
 ## Fail-closed result states
 
@@ -214,5 +241,8 @@ Use one of these states when validation is incomplete or fails:
 - `CANONICAL_READER_DATA_UNVERIFIED`
 - `INTEGRATION_GATE_FAILED`
 - `DEPLOYED_COMMIT_QA_FAILED`
+- `PREVIEW_OWNER_ACCEPTANCE_REQUIRED`
+- `PREVIEW_ACCEPTANCE_EVIDENCE_MISMATCH`
 
 Only a fully evidenced run may justify a future status change to provider approved.
+That statement now means provider approved for RamaVerse **preview use only** after the complete preview evidence chain. Production authorization remains separately blocked until explicitly approved.
