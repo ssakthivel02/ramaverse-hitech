@@ -9,11 +9,6 @@
   "evidence_scope": "read-only continuation reconciliation evidence; no acquisition, promotion, staging publication, runtime activation, deployment, or production mutation",
   "source_artifacts": [
     {
-      "path": "CONTINUATION_AUTHORITY.json",
-      "git_blob_sha": "fcfd56d6b724e09196f6bba443f2cbad7a1ab361",
-      "role": "current continuation authority"
-    },
-    {
       "path": "data/reconciliation_vnext/CORPUS_RECONCILIATION_SUMMARY.md",
       "git_blob_sha": "872060ec1d4022ca32b7b829c03c3520f5108148",
       "role": "physical-ledger reconciliation summary"
