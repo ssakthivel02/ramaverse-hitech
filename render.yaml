@@ -16,6 +16,8 @@ services:
         sync: false
       - key: DATABASE_EXPECTED_NAME
         value: ramaverse_preview
+      - key: RAMAVERSE_PREVIEW_DATABASE_HOST
+        sync: false
       - key: DATABASE_CA_CERT_B64
         sync: false
       - key: JWT_SECRET
