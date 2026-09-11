@@ -57,7 +57,8 @@ type PhysicalContinuationState = {
     status: string;
     latest_completed_source: string | null;
     next_exact_source: string;
-    record_count: number;
+    record_count?: number;
+    claimed_record_count?: number;
     continuation_source_file: string;
     action_required?: string;
   }>;
@@ -190,7 +191,7 @@ describe("RamaVerse continuation reconciliation evidence", () => {
 
     expect(claim).toBeDefined();
     expect(claim?.status).toBe("unverified_missing_artifact");
-    expect(claim?.record_count).toBe(facts.missing_artifact_claimed_records);
+    expect(claim?.claimed_record_count).toBe(facts.missing_artifact_claimed_records);
     expect(claim?.next_exact_source).toBe(facts.missing_artifact_claimed_next_source);
     expect(facts.missing_artifact_present).toBe(false);
     expect(stagingReport).toContain("Not present in the accessible workspace");
