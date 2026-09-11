@@ -13,6 +13,7 @@ on:
       - ".github/workflows/integration-gate.yml"
       - ".github/workflows/preview-http-smoke.yml"
       - ".github/workflows/preview-deployment-authorization.yml"
+      - ".github/workflows/preview-deployment-handoff.yml"
       - ".github/workflows/preview-deploy-preflight.yml"
 
 permissions:
@@ -104,6 +105,25 @@ jobs:
           grep -q 'production_ready: false' "$auth"
           grep -q 'production_dns_change_allowed: false' "$auth"
           grep -q 'production_deployment_change_allowed: false' "$auth"
+
+      - name: Validate preview deployment handoff contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          handoff=.github/workflows/preview-deployment-handoff.yml
+          test -f "$handoff"
+          grep -q 'RamaVerse Preview Deployment Authorization' "$handoff"
+          grep -q 'PREVIEW_DEPLOYMENT_AUTHORIZED' "$handoff"
+          grep -q 'PREVIEW_DEPLOYMENT_HANDOFF_READY' "$handoff"
+          grep -q 'contains_secret_values: false' "$handoff"
+          grep -q 'provider_mutation_performed: false' "$handoff"
+          grep -q 'deployment_performed: false' "$handoff"
+          grep -q 'database_mutation_performed: false' "$handoff"
+          grep -q 'auto_deploy_enabled: false' "$handoff"
+          grep -q 'production_ready: false' "$handoff"
+          grep -q 'production_dns_change_allowed: false' "$handoff"
+          grep -q 'production_deployment_change_allowed: false' "$handoff"
+          test -f PREVIEW_DEPLOYMENT_HANDOFF_RUNBOOK.md
 
       - name: Preview deployment preflight PASS
         run: echo 'RamaVerse preview deployment configuration is internally consistent and exact-commit verifiable.'
