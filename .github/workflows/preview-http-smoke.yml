@@ -11,36 +11,62 @@ on:
         description: "Exact Git commit SHA expected to be running on the preview"
         required: true
         type: string
+      provider_candidate:
+        description: "Exact provider candidate validated by the live Integration Gate"
+        required: true
+        type: string
+      integration_run_id:
+        description: "Successful RamaVerse Integration Gate run ID for this exact commit/provider"
+        required: true
+        type: string
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   smoke:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
+      INTEGRATION_RUN_ID: ${{ inputs.integration_run_id }}
+      EXPECTED_COMMIT: ${{ inputs.expected_commit }}
     steps:
       - name: Validate preview inputs
         shell: bash
         env:
           PREVIEW_URL: ${{ inputs.preview_url }}
-          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
         run: |
           set -euo pipefail
-          case "$PREVIEW_URL" in
-            https://*) ;;
-            *) echo "preview_url must use HTTPS"; exit 1 ;;
-          esac
-          if ! [[ "$EXPECTED_COMMIT" =~ ^[0-9a-fA-F]{40}$ ]]; then
-            echo "expected_commit must be a full 40-character Git SHA"
+          case "$PREVIEW_URL" in https://*) ;; *) echo "preview_url must use HTTPS"; exit 1 ;; esac
+          [[ "$EXPECTED_COMMIT" =~ ^[0-9a-fA-F]{40}$ ]] || { echo "expected_commit must be a full 40-character Git SHA"; exit 1; }
+          test -n "${PROVIDER_CANDIDATE:-}"
+          [[ "${INTEGRATION_RUN_ID:-}" =~ ^[0-9]+$ ]] || { echo "integration_run_id must be numeric"; exit 1; }
+
+      - name: Verify matching live integration evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          run_json="$(gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${INTEGRATION_RUN_ID}")"
+          echo "${run_json}" | jq -e --arg sha "${EXPECTED_COMMIT}" '.name == "RamaVerse Integration Gate" and .path == ".github/workflows/integration-gate.yml" and .event == "workflow_dispatch" and .head_sha == $sha and .status == "completed" and .conclusion == "success"' >/dev/null || {
+            echo "Integration run is not a successful RamaVerse Integration Gate for expected_commit."
             exit 1
-          fi
+          }
+          rm -rf integration-evidence && mkdir -p integration-evidence
+          gh run download "${INTEGRATION_RUN_ID}" --repo "${GITHUB_REPOSITORY}" --name "live-integration-${EXPECTED_COMMIT}" --dir integration-evidence
+          evidence_file="integration-evidence/live-integration-evidence.json"
+          test -f "${evidence_file}"
+          jq -e --arg repository "${GITHUB_REPOSITORY}" --arg sha "${EXPECTED_COMMIT}" --arg provider "${PROVIDER_CANDIDATE}" '.repository == $repository and .commit == $sha and .provider_candidate == $provider and .database_name == "ramaverse_preview" and .canonical_reader_data_confirmed == true and .canonical_database_tests_passed == true and .result == "LIVE_INTEGRATION_PASS"' "${evidence_file}" >/dev/null || {
+            echo "Live integration evidence does not match repository/commit/provider or canonical DB test state."
+            exit 1
+          }
 
       - name: Verify exact deployed release identity
         shell: bash
         env:
           PREVIEW_URL: ${{ inputs.preview_url }}
-          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
         run: |
           set -euo pipefail
           base="${PREVIEW_URL%/}"
@@ -50,13 +76,10 @@ jobs:
           const release = JSON.parse(fs.readFileSync('/tmp/release.json', 'utf8'));
           const expected = process.env.EXPECTED_COMMIT.toLowerCase();
           if (release.service !== 'ramaverse') throw new Error('Wrong service identity from /releasez.');
-          if (release.exactRepositoryKnown !== true) throw new Error('Deployed RamaVerse repository identity is not available.');
-          if (release.repository !== 'ssakthivel02/ramaverse-hitech') throw new Error(`Unexpected repository identity: ${String(release.repository)}`);
-          if (release.exactCommitKnown !== true) throw new Error('Deployed RamaVerse commit identity is not available.');
-          if (String(release.commit).toLowerCase() !== expected) {
-            throw new Error(`Deployed commit ${String(release.commit)} does not match expected commit ${expected}.`);
-          }
-          console.log(`RamaVerse exact deployed commit PASS: ${expected}`);
+          if (release.exactRepositoryKnown !== true) throw new Error('Repository identity unavailable.');
+          if (release.repository !== 'ssakthivel02/ramaverse-hitech') throw new Error('Unexpected repository identity.');
+          if (release.exactCommitKnown !== true) throw new Error('Commit identity unavailable.');
+          if (String(release.commit).toLowerCase() !== expected) throw new Error('Deployed commit mismatch.');
           NODE
 
       - name: Verify live, ready and root surfaces
@@ -70,36 +93,18 @@ jobs:
           curl --fail --silent --show-error --max-time 20 "$base/readyz" | tee /tmp/ready.json
           curl --fail --silent --show-error --max-time 20 "$base/" -o /tmp/root.html
           test -s /tmp/root.html
-
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           const health = JSON.parse(fs.readFileSync('/tmp/health.json', 'utf8'));
           const ready = JSON.parse(fs.readFileSync('/tmp/ready.json', 'utf8'));
-          if (health.status !== 'alive' || health.service !== 'ramaverse') {
-            throw new Error('RamaVerse /healthz payload is invalid.');
-          }
-          if (ready.status !== 'ready' || ready.service !== 'ramaverse') {
-            throw new Error('RamaVerse /readyz did not report ready.');
-          }
-          if (ready.dependencies?.canonicalCorpus !== 'available') {
-            throw new Error('RamaVerse canonical corpus is not available.');
-          }
-          if (ready.dependencies?.database !== 'configured') {
-            throw new Error('RamaVerse preview database is not configured.');
-          }
-          if (!Number.isInteger(ready.canonicalCount) || ready.canonicalCount <= 0) {
-            throw new Error('RamaVerse canonical corpus count is invalid.');
-          }
-          if (typeof ready.activeCorpusVersion !== 'string' || !ready.activeCorpusVersion) {
-            throw new Error('RamaVerse active corpus version is missing.');
-          }
-          console.log('RamaVerse dependency readiness payload PASS');
+          if (health.status !== 'alive' || health.service !== 'ramaverse') throw new Error('Invalid /healthz.');
+          if (ready.status !== 'ready' || ready.service !== 'ramaverse') throw new Error('/readyz not ready.');
+          if (ready.dependencies?.canonicalCorpus !== 'available') throw new Error('Canonical corpus unavailable.');
+          if (ready.dependencies?.database !== 'configured') throw new Error('Database not configured.');
+          if (!Number.isInteger(ready.canonicalCount) || ready.canonicalCount <= 0) throw new Error('Invalid canonical count.');
+          if (typeof ready.activeCorpusVersion !== 'string' || !ready.activeCorpusVersion) throw new Error('Missing corpus version.');
           NODE
-
-          if grep -Eqi "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|WebDevAuthPublicService|/__manus__/" /tmp/root.html; then
-            echo "Legacy runtime marker found in deployed root HTML"
-            exit 1
-          fi
+          if grep -Eqi "forge\.manus\.im|vite-plugin-manus-runtime|manuspre\.computer|manus\.computer|WebDevAuthPublicService|/__manus__/" /tmp/root.html; then exit 1; fi
 
       - name: Verify response security and operational cache headers
         shell: bash
@@ -109,27 +114,18 @@ jobs:
           set -euo pipefail
           base="${PREVIEW_URL%/}"
           curl --fail --silent --show-error --head --max-time 20 "$base/" -o /tmp/root-headers.txt
-          cat /tmp/root-headers.txt
           grep -Eqi '^x-content-type-options:[[:space:]]*nosniff' /tmp/root-headers.txt
           grep -Eqi '^x-frame-options:[[:space:]]*SAMEORIGIN' /tmp/root-headers.txt
           grep -Eqi '^referrer-policy:[[:space:]]*strict-origin-when-cross-origin' /tmp/root-headers.txt
           grep -Eqi '^strict-transport-security:[[:space:]]*max-age=31536000; includeSubDomains' /tmp/root-headers.txt
-          if grep -Eqi '^x-powered-by:' /tmp/root-headers.txt; then
-            echo "RamaVerse must not expose X-Powered-By"
-            exit 1
-          fi
-
+          ! grep -Eqi '^x-powered-by:' /tmp/root-headers.txt
           for path in healthz readyz releasez ops/health ops/release-state; do
             safe_name="${path//\//-}"
             headers="/tmp/${safe_name}-headers.txt"
             curl --fail --silent --show-error --head --max-time 20 "$base/$path" -o "$headers"
-            cat "$headers"
             grep -Eqi '^x-robots-tag:[[:space:]]*noindex, nofollow, noarchive' "$headers"
             grep -Eqi '^cache-control:[[:space:]]*no-store, max-age=0' "$headers"
             grep -Eqi '^pragma:[[:space:]]*no-cache' "$headers"
             grep -Eqi '^strict-transport-security:[[:space:]]*max-age=31536000; includeSubDomains' "$headers"
-            if grep -Eqi '^x-powered-by:' "$headers"; then
-              echo "RamaVerse operational endpoint must not expose X-Powered-By"
-              exit 1
-            fi
+            ! grep -Eqi '^x-powered-by:' "$headers"
           done
