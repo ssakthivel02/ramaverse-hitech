@@ -49,7 +49,7 @@ type PhysicalCountDriftEvidence = {
 };
 
 type PhysicalStagingDataset = {
-  records: Array<{ source_registry_id: string }>;
+  records: Array<{ source_id: string }>;
 };
 
 const root = process.cwd();
@@ -134,7 +134,7 @@ describe("RamaVerse continuation authority guard", () => {
       "PHYSICAL_STAGING_COUNT_DRIFT_EVIDENCE.json",
     );
     expect(physicalStaging.records).toHaveLength(12);
-    expect(new Set(physicalStaging.records.map(({ source_registry_id }) => source_registry_id))).toEqual(
+    expect(new Set(physicalStaging.records.map(({ source_id }) => source_id))).toEqual(
       new Set([
         "src-valmiki-ayodhya-s18-gretl-20260815",
         "src-valmiki-ayodhya-s19-gretl-20260815",
