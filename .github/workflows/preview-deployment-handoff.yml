@@ -1,0 +1,175 @@
+name: RamaVerse Preview Deployment Handoff
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_authorization_run_id:
+        description: "Successful RamaVerse Preview Deployment Authorization run ID"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  build-handoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      AUTHORIZATION_RUN_ID: ${{ inputs.deployment_authorization_run_id }}
+    steps:
+      - name: Validate request
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$AUTHORIZATION_RUN_ID" =~ ^[0-9]+$ ]] || { echo "deployment_authorization_run_id must be numeric"; exit 1; }
+
+      - name: Checkout repository contract
+        uses: actions/checkout@v4
+
+      - name: Verify deployment authorization run
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${AUTHORIZATION_RUN_ID}" > /tmp/auth-run.json
+          jq -e '.name == "RamaVerse Preview Deployment Authorization" and .conclusion == "success"' /tmp/auth-run.json >/dev/null || {
+            echo "Authorization run is not a successful RamaVerse Preview Deployment Authorization run."; exit 1;
+          }
+
+      - name: Download and validate authorization evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${AUTHORIZATION_RUN_ID}/artifacts?per_page=100" > /tmp/auth-artifacts.json
+          artifact_id="$(jq -r '.artifacts[] | select(.expired == false and (.name | startswith("preview-deployment-authorization-"))) | .id' /tmp/auth-artifacts.json | head -n1)"
+          test -n "$artifact_id" || { echo "PREVIEW_DEPLOYMENT_AUTHORIZED artifact not found."; exit 1; }
+          gh api -H 'Accept: application/vnd.github+json' "/repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}/zip" > /tmp/auth.zip
+          mkdir -p /tmp/auth-evidence
+          unzip -q /tmp/auth.zip -d /tmp/auth-evidence
+          evidence="$(find /tmp/auth-evidence -type f -name '*.json' | head -n1)"
+          test -n "$evidence"
+          jq -e '
+            .result == "PREVIEW_DEPLOYMENT_AUTHORIZED" and
+            .owner_preview_deployment_approval == true and
+            .exact_release_evidence_passed == true and
+            .live_integration_evidence_passed == true and
+            .rollback_readiness_evidence_passed == true and
+            .preview_scope_only == true and
+            .execution_performed == false and
+            .production_ready == false and
+            .production_dns_change_allowed == false and
+            .production_deployment_change_allowed == false
+          ' "$evidence" >/dev/null || {
+            echo "Authorization evidence does not satisfy the fail-closed preview contract."; exit 1;
+          }
+          cp "$evidence" /tmp/authorization.json
+
+      - name: Validate repository deployment contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -Eq '^    name: ramaverse-hitech-preview$' render.yaml
+          grep -Eq '^    autoDeployTrigger: off$' render.yaml
+          grep -Eq '^    healthCheckPath: /readyz$' render.yaml
+          grep -q 'value: ramaverse_preview' render.yaml
+          grep -q 'key: DATABASE_URL' render.yaml
+          grep -q 'key: DATABASE_CA_CERT_B64' render.yaml
+          grep -q 'key: JWT_SECRET' render.yaml
+          grep -q 'key: OIDC_CLIENT_SECRET' render.yaml
+
+      - name: Create sanitized deployment handoff
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p preview-deployment-handoff
+          commit="$(jq -r '.commit' /tmp/authorization.json)"
+          provider="$(jq -r '.provider_candidate' /tmp/authorization.json)"
+          integration_run="$(jq -r '.integration_gate_run_id' /tmp/authorization.json)"
+          rollback_run="$(jq -r '.rollback_readiness_run_id' /tmp/authorization.json)"
+
+          jq -n \
+            --arg repository "$GITHUB_REPOSITORY" \
+            --arg commit "$commit" \
+            --arg provider_candidate "$provider" \
+            --arg authorization_run_id "$AUTHORIZATION_RUN_ID" \
+            --arg integration_gate_run_id "$integration_run" \
+            --arg rollback_readiness_run_id "$rollback_run" \
+            --arg workflow_run_id "$GITHUB_RUN_ID" \
+            '{
+              schema_version: 1,
+              result: "PREVIEW_DEPLOYMENT_HANDOFF_READY",
+              repository: $repository,
+              commit: $commit,
+              provider_candidate: $provider_candidate,
+              authorization_run_id: $authorization_run_id,
+              integration_gate_run_id: $integration_gate_run_id,
+              rollback_readiness_run_id: $rollback_readiness_run_id,
+              runtime_contract: {
+                service_name: "ramaverse-hitech-preview",
+                expected_database_name: "ramaverse_preview",
+                health_check_path: "/readyz",
+                release_identity_path: "/releasez",
+                auto_deploy_enabled: false,
+                required_secret_names: [
+                  "DATABASE_URL",
+                  "RAMAVERSE_PREVIEW_DATABASE_HOST",
+                  "DATABASE_CA_CERT_B64",
+                  "JWT_SECRET",
+                  "VITE_OIDC_AUTHORIZATION_URL",
+                  "VITE_OIDC_CLIENT_ID",
+                  "OIDC_AUTHORIZATION_URL",
+                  "OIDC_TOKEN_URL",
+                  "OIDC_USERINFO_URL",
+                  "OIDC_CLIENT_ID",
+                  "OIDC_CLIENT_SECRET"
+                ],
+                required_non_secret_values: {
+                  NODE_ENV: "production",
+                  VITE_APP_ID: "ramaverse",
+                  DATABASE_EXPECTED_NAME: "ramaverse_preview",
+                  VITE_OIDC_SCOPES: "openid profile email",
+                  OIDC_SCOPES: "openid profile email",
+                  OIDC_PROVIDER_NAME: "google"
+                }
+              },
+              preview_scope_only: true,
+              contains_secret_values: false,
+              provider_mutation_performed: false,
+              deployment_performed: false,
+              database_mutation_performed: false,
+              production_ready: false,
+              production_dns_change_allowed: false,
+              production_deployment_change_allowed: false,
+              workflow_run_id: $workflow_run_id
+            }' > preview-deployment-handoff/preview-deployment-handoff.json
+
+          jq -e '
+            .result == "PREVIEW_DEPLOYMENT_HANDOFF_READY" and
+            .preview_scope_only == true and
+            .contains_secret_values == false and
+            .provider_mutation_performed == false and
+            .deployment_performed == false and
+            .database_mutation_performed == false and
+            .production_ready == false and
+            .runtime_contract.auto_deploy_enabled == false
+          ' preview-deployment-handoff/preview-deployment-handoff.json >/dev/null
+
+      - name: Scan handoff for secret-value leakage
+        shell: bash
+        run: |
+          set -euo pipefail
+          file=preview-deployment-handoff/preview-deployment-handoff.json
+          if grep -Eqi '(mysql://[^"[:space:]]+:[^"[:space:]]+@|BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|ghp_[A-Za-z0-9]+|github_pat_[A-Za-z0-9_]+|sk-[A-Za-z0-9]{16,})' "$file"; then
+            echo "Potential secret value detected in deployment handoff artifact."
+            exit 1
+          fi
+
+      - name: Upload sanitized deployment handoff
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-deployment-handoff-${{ github.run_id }}
+          path: preview-deployment-handoff/preview-deployment-handoff.json
+          if-no-files-found: error
+          retention-days: 30
