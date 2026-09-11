@@ -42,12 +42,14 @@ describe("RamaVerse portable MySQL schema contract", () => {
     }
   });
 
-  it("records TiDB only as a static candidate, never as already approved", () => {
+  it("records TiDB as reviewed but still live-validation-required, never approved", () => {
     const compatibility = JSON.parse(read("PREVIEW_DATABASE_COMPATIBILITY.json"));
     const tidb = compatibility.candidates.find((candidate: { provider: string }) => candidate.provider === "TiDB Cloud Starter");
 
     expect(tidb).toBeDefined();
-    expect(tidb.status).toBe("STATIC_COMPATIBILITY_CANDIDATE");
-    expect(tidb.reason).toContain("Live schema push");
+    expect(tidb.status).toBe("STATIC_COMPATIBILITY_REVIEWED_LIVE_VALIDATION_REQUIRED");
+    expect(tidb.approval).toBe(false);
+    expect(tidb.reason).toContain("Live provisioning");
+    expect(tidb.live_validation_runbook).toBe("TIDB_LIVE_VALIDATION_PLAN.md");
   });
 });
