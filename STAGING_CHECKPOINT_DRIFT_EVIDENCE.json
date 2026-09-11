@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "decision": "BLOCKED_CHECKPOINT_DRIFT_REQUIRES_RECONCILIATION",
+  "verified_next_source": null,
+  "acquisition_allowed": false,
+  "promotion_allowed": false,
+  "checkpointed_verified_state": {
+    "checkpoint_id": "ramaverse-staging-checkpoint-20260814t161302z",
+    "verified_staging_records": 28,
+    "verified_source_coverage": "Ayodhya Kanda Sargas 18–20",
+    "branch_next_source": "Ayodhya Kanda Sarga 21",
+    "checkpoint_manifest_git_blob_sha": "097c61e838078fa8512cb890a90b603cdcd51f9c",
+    "continuation_state_git_blob_sha": "2c31d017ab32a5f2388df4d83d76510e3236537d",
+    "staging_master_ledger_git_blob_sha": "e0a08780e01ee877eecc839cbe0c35fb8974f936",
+    "reconciliation_report_git_blob_sha": "84d0eb85dc93d8320b1597a4e4ae9929d93eb234",
+    "source_registry_git_blob_sha": "29e51c931a75963f7f752bce4d8f694137e0ac7c"
+  },
+  "uncheckpointed_imported_claim": {
+    "artifact": "data/staging/physical/RAMAVERSE_STAGING_V2_CONTINUATION.md",
+    "git_blob_sha": "a83ef50c6b79ee52f3bf14cc76bdfebeb5864a56",
+    "claimed_staging_records": 61,
+    "claimed_source_coverage": "Ayodhya Kanda Sargas 18–22",
+    "claimed_next_source": "Ayodhya Kanda Sarga 23",
+    "checkpoint_manifest_member": false,
+    "usable_as_continuation_authority": false
+  },
+  "observed_drift": [
+    "The checkpoint manifest verifies 28 staging records, while an uncheckpointed continuation narrative claims 61 records.",
+    "The checkpointed continuation state and master ledger point to Ayodhya Kanda Sarga 21, while the uncheckpointed continuation narrative points to Ayodhya Kanda Sarga 23.",
+    "The checkpointed source registry contains source entries only through Ayodhya Kanda Sarga 20, so the Sarga 21–22 narrative claim is not part of the verified checkpoint evidence set.",
+    "All of these artifacts arrived in the imported repository history and must be reconciled by evidence, not by choosing the numerically latest marker."
+  ],
+  "required_resolution": [
+    "Determine whether source-backed Sarga 21 and Sarga 22 staging records actually exist in a coherent ledger and source registry that can be independently validated.",
+    "If they exist, create a new reconciled checkpoint that supersedes the 28-record checkpoint without overwriting it.",
+    "If they do not exist as coherent source-backed records, classify the 61-record continuation narrative as stale or unsupported.",
+    "Do not set verified_next_source until the reconciled checkpoint is complete and the first genuinely missing source-backed verse is established."
+  ],
+  "conclusion": "The current repository does not support promoting Ayodhya Kanda Sarga 21 or Sarga 23 to canonical continuation authority. The verified checkpoint and uncheckpointed continuation narrative conflict and must be reconciled first."
+}
