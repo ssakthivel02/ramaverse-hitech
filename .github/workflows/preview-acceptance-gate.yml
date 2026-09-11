@@ -1,0 +1,117 @@
+name: RamaVerse Preview Acceptance Gate
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_commit:
+        description: "Exact Git commit already validated by deployed preview smoke"
+        required: true
+        type: string
+      provider_candidate:
+        description: "Exact database provider candidate validated through the preview chain"
+        required: true
+        type: string
+      preview_smoke_run_id:
+        description: "Successful RamaVerse Preview HTTP Smoke run ID for this exact commit/provider"
+        required: true
+        type: string
+      confirm_owner_preview_acceptance:
+        description: "Owner explicitly accepts this validated deployed preview for preview-stage use only; this does not authorize production"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  accept-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+      PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
+      PREVIEW_SMOKE_RUN_ID: ${{ inputs.preview_smoke_run_id }}
+      OWNER_PREVIEW_ACCEPTED: ${{ inputs.confirm_owner_preview_acceptance }}
+    steps:
+      - name: Require explicit preview-only owner acceptance
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "${EXPECTED_COMMIT:-}" =~ ^[0-9a-fA-F]{40}$ ]] || { echo "expected_commit must be a full 40-character Git SHA"; exit 1; }
+          test -n "${PROVIDER_CANDIDATE:-}"
+          [[ "${PREVIEW_SMOKE_RUN_ID:-}" =~ ^[0-9]+$ ]] || { echo "preview_smoke_run_id must be numeric"; exit 1; }
+          if [ "${OWNER_PREVIEW_ACCEPTED}" != "true" ]; then
+            echo "Explicit owner acceptance of the validated preview is required."
+            exit 1
+          fi
+
+      - name: Verify matching deployed preview smoke evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          run_json="$(gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${PREVIEW_SMOKE_RUN_ID}")"
+          echo "${run_json}" | jq -e --arg sha "${EXPECTED_COMMIT}" '.name == "RamaVerse Preview HTTP Smoke" and .path == ".github/workflows/preview-http-smoke.yml" and .event == "workflow_dispatch" and .head_sha == $sha and .status == "completed" and .conclusion == "success"' >/dev/null || {
+            echo "Preview smoke run is not a successful RamaVerse Preview HTTP Smoke for expected_commit."
+            exit 1
+          }
+
+          rm -rf smoke-evidence && mkdir -p smoke-evidence
+          gh run download "${PREVIEW_SMOKE_RUN_ID}" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --name "deployed-preview-smoke-${EXPECTED_COMMIT}" \
+            --dir smoke-evidence
+
+          evidence_file="smoke-evidence/deployed-preview-smoke-evidence.json"
+          test -f "${evidence_file}"
+          jq -e \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg sha "${EXPECTED_COMMIT}" \
+            --arg provider "${PROVIDER_CANDIDATE}" \
+            '.repository == $repository and
+             .commit == $sha and
+             .provider_candidate == $provider and
+             (.preview_url | type == "string" and startswith("https://")) and
+             .release_identity_verified == true and
+             .readiness_verified == true and
+             .security_headers_verified == true and
+             .result == "DEPLOYED_PREVIEW_SMOKE_PASS"' \
+            "${evidence_file}" >/dev/null || {
+              echo "Deployed preview smoke evidence does not match this repository/commit/provider or expected validation state."
+              exit 1
+            }
+
+          cp "${evidence_file}" /tmp/deployed-preview-smoke-evidence.json
+
+      - name: Create preview acceptance evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p acceptance-evidence
+          preview_url="$(jq -r '.preview_url' /tmp/deployed-preview-smoke-evidence.json)"
+          integration_run_id="$(jq -r '.integration_run_id' /tmp/deployed-preview-smoke-evidence.json)"
+          jq -n \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg commit "${EXPECTED_COMMIT}" \
+            --arg provider "${PROVIDER_CANDIDATE}" \
+            --arg preview_url "${preview_url}" \
+            --arg preview_smoke_run_id "${PREVIEW_SMOKE_RUN_ID}" \
+            --arg integration_run_id "${integration_run_id}" \
+            '{repository:$repository,commit:$commit,provider_candidate:$provider,preview_url:$preview_url,integration_run_id:$integration_run_id,preview_smoke_run_id:$preview_smoke_run_id,owner_preview_accepted:true,preview_stage_accepted:true,production_ready:false,production_dns_change_allowed:false,production_deployment_change_allowed:false,result:"PREVIEW_ACCEPTANCE_PASS"}' \
+            > acceptance-evidence/preview-acceptance-evidence.json
+
+      - name: Enforce production remains blocked
+        shell: bash
+        run: |
+          set -euo pipefail
+          jq -e '.owner_preview_accepted == true and .preview_stage_accepted == true and .production_ready == false and .production_dns_change_allowed == false and .production_deployment_change_allowed == false and .result == "PREVIEW_ACCEPTANCE_PASS"' acceptance-evidence/preview-acceptance-evidence.json >/dev/null
+
+      - name: Upload preview acceptance evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-acceptance-${{ inputs.expected_commit }}
+          path: acceptance-evidence/preview-acceptance-evidence.json
+          if-no-files-found: error
+          retention-days: 30
