@@ -12,12 +12,15 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.repository).toBe("ssakthivel02/ramaverse-hitech");
     expect(authority.current_state_authority).toBe(true);
     expect(authority.continuation_authority_file).toBe("CONTINUATION_AUTHORITY.json");
+    expect(authority.preview_infrastructure_status_file).toBe("PREVIEW_INFRASTRUCTURE_STATUS.json");
     expect(authority.historical_state_files).toEqual(
       expect.arrayContaining(["PROJECT_STATE.json", "RAMAVERSE_PROJECT_STATE.json"]),
     );
     expect(authority.source_acquisition.allowed).toBe(false);
     expect(authority.canonical_promotion.allowed).toBe(false);
     expect(authority.preview.shared_database_reuse_allowed).toBe(false);
+    expect(authority.preview.runtime_ready).toBe(false);
+    expect(authority.preview.infrastructure_status).toBe("BLOCKED_EXTERNAL_PROVIDER_LIMIT");
     expect(authority.production.ready).toBe(false);
   });
 
@@ -28,6 +31,24 @@ describe("RamaVerse current project authority contract", () => {
     expect(continuation.acquisition_allowed).toBe(false);
     expect(continuation.promotion_allowed).toBe(false);
     expect(continuation.verified_next_source).toBeNull();
+  });
+
+  it("records the external provider limit without weakening preview isolation", () => {
+    const infrastructure = JSON.parse(read("PREVIEW_INFRASTRUCTURE_STATUS.json"));
+
+    expect(infrastructure.status).toBe("BLOCKED_EXTERNAL_PROVIDER_LIMIT");
+    expect(infrastructure.requested_service.service_name).toBe("ramaverse-preview-mysql");
+    expect(infrastructure.requested_service.plan).toBe("free-1-1gb");
+    expect(infrastructure.requested_service.cloud).toBe("do-blr");
+    expect(infrastructure.provider_result.created).toBe(false);
+    expect(infrastructure.existing_shared_service.service_name).toBe("hitech-preview-mysql");
+    expect(infrastructure.existing_shared_service.allowed_for_ramaverse_preview_runtime).toBe(false);
+    expect(infrastructure.prohibited_shortcuts).toEqual(
+      expect.arrayContaining([
+        expect.stringContaining("Do not silently reuse hitech-preview-mysql"),
+        expect.stringContaining("Do not create a paid service without explicit owner approval"),
+      ]),
+    );
   });
 
   it("documents that legacy project-state files cannot start current work", () => {
