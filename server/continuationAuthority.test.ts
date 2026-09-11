@@ -29,13 +29,15 @@ describe("RamaVerse continuation authority guard", () => {
     expect(authority.verified_next_source).toBeNull();
   });
 
-  it("retains both known conflicting markers as non-authoritative evidence", () => {
+  it("retains every known continuation marker as explicitly non-authoritative evidence", () => {
     const markers = authority.conflicting_markers.map(({ marker }) => marker);
     expect(markers).toContain("Aranya Kanda Sarga 45 / 3.45.1");
     expect(markers).toContain("Ayodhya Kanda Sarga 66 / 2.66.1");
+    expect(markers).toContain("Ayodhya Kanda Sarga 21");
+    expect(markers).toContain("Uttara Kanda Chapter 95");
     expect(
       authority.conflicting_markers.every(({ disposition }) =>
-        /candidate|historical|conflict/i.test(disposition),
+        /candidate|historical|conflict|staging|unverified|absent|not canonical/i.test(disposition),
       ),
     ).toBe(true);
   });
