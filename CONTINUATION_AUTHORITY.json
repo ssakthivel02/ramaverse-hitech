@@ -8,6 +8,7 @@
   "promotion_allowed": false,
   "reader_corpus_activation_implied": false,
   "verified_next_source": null,
+  "reconciliation_evidence_file": "CONTINUATION_RECONCILIATION_EVIDENCE.json",
   "conflicting_markers": [
     {
       "marker": "Aranya Kanda Sarga 45 / 3.45.1",
