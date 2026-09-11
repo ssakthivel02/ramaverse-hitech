@@ -61,76 +61,30 @@ jobs:
         run: |
           set -euo pipefail
           run_json="$(gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${SCHEMA_SETUP_RUN_ID}")"
-          echo "${run_json}" | jq -e \
-            --arg sha "${GITHUB_SHA}" \
-            '.name == "RamaVerse Preview DB Setup" and
-             .path == ".github/workflows/preview-db-setup.yml" and
-             .event == "workflow_dispatch" and
-             .head_sha == $sha and
-             .status == "completed" and
-             .conclusion == "success"' >/dev/null || {
-              echo "Schema setup run is not a successful RamaVerse Preview DB Setup for this exact commit."
-              exit 1
-            }
-
-          rm -rf schema-evidence
-          mkdir -p schema-evidence
-          gh run download "${SCHEMA_SETUP_RUN_ID}" \
-            --repo "${GITHUB_REPOSITORY}" \
-            --name "preview-schema-setup-${GITHUB_SHA}" \
-            --dir schema-evidence
-
+          echo "${run_json}" | jq -e --arg sha "${GITHUB_SHA}" '.name == "RamaVerse Preview DB Setup" and .path == ".github/workflows/preview-db-setup.yml" and .event == "workflow_dispatch" and .head_sha == $sha and .status == "completed" and .conclusion == "success"' >/dev/null || exit 1
+          rm -rf schema-evidence && mkdir -p schema-evidence
+          gh run download "${SCHEMA_SETUP_RUN_ID}" --repo "${GITHUB_REPOSITORY}" --name "preview-schema-setup-${GITHUB_SHA}" --dir schema-evidence
           evidence_file="schema-evidence/preview-schema-setup-evidence.json"
-          if [ ! -f "${evidence_file}" ]; then
-            echo "Expected schema setup evidence artifact is missing."
-            exit 1
-          fi
-
-          jq -e \
-            --arg repository "${GITHUB_REPOSITORY}" \
-            --arg sha "${GITHUB_SHA}" \
-            --arg provider "${PROVIDER_CANDIDATE}" \
-            --arg host "${DATABASE_EXPECTED_HOST}" \
-            '.repository == $repository and
-             .commit == $sha and
-             .provider_candidate == $provider and
-             .database_host == ($host | ascii_downcase) and
-             .database_name == "ramaverse_preview" and
-             .schema_mutation_approved == true and
-             .schema_push_performed == true and
-             .reader_data_verified == false and
-             .result == "PREVIEW_SCHEMA_SETUP_PASS"' \
-            "${evidence_file}" >/dev/null || {
-              echo "Schema setup evidence does not match this repository/commit/provider/host or expected schema-only state."
-              exit 1
-            }
-
-          echo "RamaVerse matching schema setup evidence PASS"
+          test -f "${evidence_file}"
+          jq -e --arg repository "${GITHUB_REPOSITORY}" --arg sha "${GITHUB_SHA}" --arg provider "${PROVIDER_CANDIDATE}" --arg host "${DATABASE_EXPECTED_HOST}" '.repository == $repository and .commit == $sha and .provider_candidate == $provider and .database_host == ($host | ascii_downcase) and .database_name == "ramaverse_preview" and .schema_mutation_approved == true and .schema_push_performed == true and .reader_data_verified == false and .result == "PREVIEW_SCHEMA_SETUP_PASS"' "${evidence_file}" >/dev/null
 
       - name: Require isolated verified preview database
         shell: bash
         run: |
           set -euo pipefail
-          if [ -z "${DATABASE_URL:-}" ]; then
-            echo "RAMAVERSE_TEST_DATABASE_URL is not configured."
-            exit 1
-          fi
-          if [ -z "${DATABASE_EXPECTED_HOST:-}" ]; then
-            echo "RAMAVERSE_PREVIEW_DATABASE_HOST is not configured."
-            exit 1
-          fi
+          test -n "${DATABASE_URL:-}"
+          test -n "${DATABASE_EXPECTED_HOST:-}"
           node --input-type=module <<'NODE'
           const url = new URL(process.env.DATABASE_URL);
-          if (url.protocol !== 'mysql:') throw new Error('RamaVerse integration DATABASE_URL must use mysql://.');
           const actualHost = url.hostname.toLowerCase();
           const expectedHost = process.env.DATABASE_EXPECTED_HOST.trim().toLowerCase();
-          if (actualHost !== expectedHost) throw new Error(`RamaVerse integration host identity mismatch. Expected ${expectedHost}, received ${actualHost}.`);
-          if (actualHost.includes('hitech-preview-mysql')) throw new Error('Known shared cross-project database service is prohibited for RamaVerse preview integration.');
+          if (url.protocol !== 'mysql:') throw new Error('RamaVerse integration DATABASE_URL must use mysql://.');
+          if (actualHost !== expectedHost) throw new Error('RamaVerse integration host identity mismatch.');
+          if (actualHost.includes('hitech-preview-mysql')) throw new Error('Known shared cross-project database service is prohibited.');
           const database = decodeURIComponent(url.pathname.replace(/^\//, ''));
-          if (database !== process.env.DATABASE_EXPECTED_NAME) throw new Error(`RamaVerse integration must target ${process.env.DATABASE_EXPECTED_NAME}; received ${database || '<none>'}.`);
+          if (database !== process.env.DATABASE_EXPECTED_NAME) throw new Error('Unexpected RamaVerse database identity.');
           const caB64 = process.env.DATABASE_CA_CERT_B64?.trim();
-          if (actualHost.endsWith('.aivencloud.com') && !caB64) throw new Error('Aiven integration requires the trusted provider CA certificate.');
-          console.log('RamaVerse provider-neutral integration database identity guard PASS');
+          if (actualHost.endsWith('.aivencloud.com') && !caB64) throw new Error('Aiven integration requires provider CA.');
           NODE
 
       - name: Setup Node
@@ -158,19 +112,34 @@ jobs:
           const url = new URL(process.env.DATABASE_URL);
           const caB64 = process.env.DATABASE_CA_CERT_B64?.trim();
           const ssl = { rejectUnauthorized: true, minVersion: 'TLSv1.2', ...(caB64 ? { ca: Buffer.from(caB64, 'base64').toString('utf8') } : {}) };
-          const connection = await mysql.createConnection({
-            host: url.hostname,
-            port: url.port ? Number(url.port) : 3306,
-            user: decodeURIComponent(url.username),
-            password: decodeURIComponent(url.password),
-            database: decodeURIComponent(url.pathname.replace(/^\//, '')),
-            ssl,
-          });
+          const connection = await mysql.createConnection({ host: url.hostname, port: url.port ? Number(url.port) : 3306, user: decodeURIComponent(url.username), password: decodeURIComponent(url.password), database: decodeURIComponent(url.pathname.replace(/^\//, '')), ssl });
           const [rows] = await connection.query('SELECT DATABASE() AS db, 1 AS ok');
           await connection.end();
           if (!Array.isArray(rows) || rows[0]?.ok !== 1 || rows[0]?.db !== process.env.DATABASE_EXPECTED_NAME) process.exit(1);
-          console.log('RamaVerse integration database verified-TLS connectivity PASS');
           NODE
 
       - name: Canonical database tests
         run: pnpm vitest run server/sargas.test.ts server/canonicalSurfaceAudit.test.ts server/grounding.test.ts
+
+      - name: Create live integration evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p integration-evidence
+          host="$(node --input-type=module -e "console.log(new URL(process.env.DATABASE_URL).hostname.toLowerCase())")"
+          jq -n \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg commit "${GITHUB_SHA}" \
+            --arg provider "${PROVIDER_CANDIDATE}" \
+            --arg database_host "${host}" \
+            --arg schema_setup_run_id "${SCHEMA_SETUP_RUN_ID}" \
+            '{repository:$repository,commit:$commit,provider_candidate:$provider,database_host:$database_host,database_name:"ramaverse_preview",schema_setup_run_id:$schema_setup_run_id,canonical_reader_data_confirmed:true,canonical_database_tests_passed:true,result:"LIVE_INTEGRATION_PASS"}' \
+            > integration-evidence/live-integration-evidence.json
+
+      - name: Upload live integration evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-integration-${{ github.sha }}
+          path: integration-evidence/live-integration-evidence.json
+          if-no-files-found: error
+          retention-days: 30
