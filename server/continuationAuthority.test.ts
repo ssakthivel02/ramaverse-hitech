@@ -10,6 +10,7 @@ type ContinuationAuthority = {
   reader_corpus_activation_implied: boolean;
   verified_next_source: string | null;
   staging_checkpoint_drift_evidence_file: string;
+  physical_staging_count_drift_evidence_file: string;
   conflicting_markers: Array<{ marker: string; disposition: string }>;
 };
 
@@ -32,12 +33,38 @@ type DriftEvidence = {
   };
 };
 
+type PhysicalCountDriftEvidence = {
+  observed_states: Array<{
+    artifact: string;
+    observed_record_count?: number;
+    verified_record_count?: number;
+    claimed_record_count?: number;
+    continuation_authority: boolean;
+  }>;
+  authority_decision: {
+    verified_next_source: string | null;
+    acquisition_enabled: boolean;
+    promotion_enabled: boolean;
+  };
+};
+
+type PhysicalStagingDataset = {
+  sources: Array<{ source_id: string }>;
+  records: Array<unknown>;
+};
+
 const root = process.cwd();
 const readText = (path: string) => readFileSync(resolve(root, path), "utf8");
 
 describe("RamaVerse continuation authority guard", () => {
   const authority = JSON.parse(readText("CONTINUATION_AUTHORITY.json")) as ContinuationAuthority;
   const drift = JSON.parse(readText("STAGING_CHECKPOINT_DRIFT_EVIDENCE.json")) as DriftEvidence;
+  const physicalCountDrift = JSON.parse(
+    readText("PHYSICAL_STAGING_COUNT_DRIFT_EVIDENCE.json"),
+  ) as PhysicalCountDriftEvidence;
+  const physicalStaging = JSON.parse(
+    readText("data/staging/physical/ramaverse_canonical_staging_v2.json"),
+  ) as PhysicalStagingDataset;
   const checkpoint = JSON.parse(
     readText("data/staging/physical/CHECKPOINT_MANIFEST.json"),
   ) as { verified_staging_records: number };
@@ -101,6 +128,32 @@ describe("RamaVerse continuation authority guard", () => {
     expect(drift.uncheckpointed_imported_claim.claimed_next_source).toBe("Ayodhya Kanda Sarga 23");
     expect(drift.uncheckpointed_imported_claim.checkpoint_manifest_member).toBe(false);
     expect(drift.uncheckpointed_imported_claim.usable_as_continuation_authority).toBe(false);
+  });
+
+  it("records the physical 12/28/61 staging divergence and fails closed", () => {
+    expect(authority.physical_staging_count_drift_evidence_file).toBe(
+      "PHYSICAL_STAGING_COUNT_DRIFT_EVIDENCE.json",
+    );
+    expect(physicalStaging.records).toHaveLength(12);
+    expect(new Set(physicalStaging.sources.map(({ source_id }) => source_id))).toEqual(
+      new Set([
+        "src-valmiki-ayodhya-s18-sanskritdocuments",
+        "src-valmiki-ayodhya-s19-sanskritdocuments",
+        "src-gretil-ramayana-kandas-1-7",
+      ]),
+    );
+
+    const counts = physicalCountDrift.observed_states.map(
+      ({ observed_record_count, verified_record_count, claimed_record_count }) =>
+        observed_record_count ?? verified_record_count ?? claimed_record_count,
+    );
+    expect(counts).toEqual([12, 28, 61]);
+    expect(physicalCountDrift.observed_states.every(({ continuation_authority }) => !continuation_authority)).toBe(
+      true,
+    );
+    expect(physicalCountDrift.authority_decision.verified_next_source).toBeNull();
+    expect(physicalCountDrift.authority_decision.acquisition_enabled).toBe(false);
+    expect(physicalCountDrift.authority_decision.promotion_enabled).toBe(false);
   });
 
   it("shows that the checkpointed source registry stops at Sarga 20", () => {
