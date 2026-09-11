@@ -59,4 +59,12 @@ describe("RamaVerse preview deployment isolation contract", () => {
     expect(readiness).toContain("Do not use any shared cross-project database server/service for RamaVerse preview");
     expect(readiness).not.toContain("Do not use an ambiguous/shared database service without verified RamaVerse ownership");
   });
+
+  it("declares the exact preview host variable in the Render blueprint", () => {
+    const render = read("render.yaml");
+
+    expect(render).toContain("- key: RAMAVERSE_PREVIEW_DATABASE_HOST");
+    expect(render).toMatch(/- key: RAMAVERSE_PREVIEW_DATABASE_HOST\n\s+sync: false/);
+    expect(render).toContain("- key: DATABASE_EXPECTED_NAME\n        value: ramaverse_preview");
+  });
 });
