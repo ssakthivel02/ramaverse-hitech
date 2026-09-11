@@ -75,10 +75,19 @@ For TiDB Cloud Starter, system-root TLS is expected to be sufficient because Sta
 
 Before applying any schema, run **RamaVerse Provider Read-Only Preflight**.
 
+The workflow dispatcher must:
+
+- select the exact provider candidate being validated;
+- explicitly confirm that the owner approved that provider candidate for live validation.
+
+The workflow fails closed if this confirmation is false or missing. This confirmation authorizes **candidate validation only**; it does not approve the provider for preview runtime or production.
+
 This gate must remain non-destructive. It may inspect only connection/server state and must not execute `db:push`, DDL, or DML.
 
 Required evidence:
 
+- selected provider candidate is recorded;
+- owner candidate-approval confirmation is recorded as `true`;
 - exact hostname matches `RAMAVERSE_PREVIEW_DATABASE_HOST`;
 - logical database is exactly `ramaverse_preview`;
 - known shared `hitech-preview-mysql` host is rejected;
@@ -87,7 +96,7 @@ Required evidence:
 - `SHOW STATUS LIKE 'Ssl%'` reports a negotiated `Ssl_cipher` and `Ssl_version`;
 - generated evidence records the exact repository commit and `mutation_performed: false`.
 
-A successful read-only preflight proves only live identity/TLS/server compatibility evidence. It does **not** approve the provider or authorize schema/data changes.
+A successful read-only preflight proves only that an explicitly approved candidate was intentionally selected plus live identity/TLS/server compatibility evidence. It does **not** approve the provider or authorize schema/data changes.
 
 ### Gate 5 — schema setup
 
