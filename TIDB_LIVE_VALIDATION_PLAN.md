@@ -244,4 +244,5 @@ Use one of these states when validation is incomplete or fails:
 - `PREVIEW_OWNER_ACCEPTANCE_REQUIRED`
 - `PREVIEW_ACCEPTANCE_EVIDENCE_MISMATCH`
 
-Only a fully evidenced preview chain may justify a future provider-approved-for-preview status. Production authorization remains separately blocked until explicitly approved.
+Only a fully evidenced run may justify a future status change to provider approved.
+That statement now means provider approved for RamaVerse **preview use only** after the complete preview evidence chain. Production authorization remains separately blocked until explicitly approved.
