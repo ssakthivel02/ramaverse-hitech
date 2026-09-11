@@ -60,7 +60,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           run_json="$(gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${PREFLIGHT_RUN_ID}")"
           echo "${run_json}" | jq -e \
             --arg sha "${GITHUB_SHA}" \
@@ -125,19 +124,11 @@ jobs:
           const url = new URL(process.env.DATABASE_URL);
           const actualHost = url.hostname.toLowerCase();
           const expectedHost = process.env.DATABASE_EXPECTED_HOST.trim().toLowerCase();
-
           if (url.protocol !== 'mysql:') throw new Error('RamaVerse preview DATABASE_URL must use mysql://.');
-          if (actualHost !== expectedHost) {
-            throw new Error(`RamaVerse preview host identity mismatch. Expected ${expectedHost}, received ${actualHost}.`);
-          }
-          if (actualHost.includes('hitech-preview-mysql')) {
-            throw new Error('Known shared cross-project Aiven service is prohibited for RamaVerse preview.');
-          }
-
+          if (actualHost !== expectedHost) throw new Error(`RamaVerse preview host identity mismatch. Expected ${expectedHost}, received ${actualHost}.`);
+          if (actualHost.includes('hitech-preview-mysql')) throw new Error('Known shared cross-project Aiven service is prohibited for RamaVerse preview.');
           const database = decodeURIComponent(url.pathname.replace(/^\//, ''));
-          if (database !== process.env.DATABASE_EXPECTED_NAME) {
-            throw new Error(`RamaVerse preview must target ${process.env.DATABASE_EXPECTED_NAME}, received ${database || '<none>'}.`);
-          }
+          if (database !== process.env.DATABASE_EXPECTED_NAME) throw new Error(`RamaVerse preview must target ${process.env.DATABASE_EXPECTED_NAME}, received ${database || '<none>'}.`);
           console.log('RamaVerse dedicated MySQL target identity guard PASS');
           NODE
 
@@ -169,19 +160,10 @@ jobs:
           const url = new URL(process.env.DATABASE_URL);
           const caB64 = process.env.DATABASE_CA_CERT_B64?.trim();
           const isAiven = url.hostname.endsWith('.aivencloud.com');
-          if (isAiven && !caB64) {
-            throw new Error('DATABASE_CA_CERT_B64 is required for verified TLS to Aiven MySQL.');
-          }
+          if (isAiven && !caB64) throw new Error('DATABASE_CA_CERT_B64 is required for verified TLS to Aiven MySQL.');
           const ssl = caB64
-            ? {
-                ca: Buffer.from(caB64, 'base64').toString('utf8'),
-                rejectUnauthorized: true,
-                minVersion: 'TLSv1.2',
-              }
-            : {
-                rejectUnauthorized: true,
-                minVersion: 'TLSv1.2',
-              };
+            ? { ca: Buffer.from(caB64, 'base64').toString('utf8'), rejectUnauthorized: true, minVersion: 'TLSv1.2' }
+            : { rejectUnauthorized: true, minVersion: 'TLSv1.2' };
           const connection = await mysql.createConnection({
             host: url.hostname,
             port: url.port ? Number(url.port) : 3306,
@@ -195,6 +177,36 @@ jobs:
           if (!Array.isArray(rows) || rows[0]?.ok !== 1) process.exit(1);
           console.log('RamaVerse preview verified-TLS database connectivity PASS');
           NODE
+
+      - name: Create schema setup evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const url = new URL(process.env.DATABASE_URL);
+          const evidence = {
+            repository: process.env.GITHUB_REPOSITORY,
+            commit: process.env.GITHUB_SHA,
+            provider_candidate: process.env.PROVIDER_CANDIDATE,
+            preflight_run_id: Number(process.env.PREFLIGHT_RUN_ID),
+            database_host: url.hostname.toLowerCase(),
+            database_name: decodeURIComponent(url.pathname.replace(/^\//, '')),
+            schema_mutation_approved: process.env.SCHEMA_MUTATION_APPROVED === 'true',
+            schema_push_performed: true,
+            reader_data_verified: false,
+            result: 'PREVIEW_SCHEMA_SETUP_PASS',
+          };
+          fs.writeFileSync('preview-schema-setup-evidence.json', JSON.stringify(evidence, null, 2));
+          NODE
+
+      - name: Upload schema setup evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-schema-setup-${{ github.sha }}
+          path: preview-schema-setup-evidence.json
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Reader-data boundary notice
         run: |
