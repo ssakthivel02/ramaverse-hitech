@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "evaluated_at": "2026-09-11",
+  "dialect": "mysql",
+  "status": "PORTABLE_SOURCE_CANDIDATE_LIVE_VALIDATION_REQUIRED",
+  "provider_selection_approved": false,
+  "portable_schema_baseline": {
+    "allowed_current_constructs": [
+      "AUTO_INCREMENT integer primary keys",
+      "varchar/text columns",
+      "JSON columns",
+      "timestamp defaults and ON UPDATE timestamps",
+      "ENUM columns",
+      "unique constraints",
+      "ALTER TABLE ADD COLUMN"
+    ],
+    "prohibited_until_explicit_provider_validation": [
+      "stored procedures or stored functions",
+      "triggers",
+      "scheduled events",
+      "user-defined functions",
+      "FULLTEXT indexes or syntax",
+      "SPATIAL/GEOMETRY types or indexes",
+      "XA statements",
+      "provider-specific table/storage-engine directives"
+    ]
+  },
+  "candidates": [
+    {
+      "provider": "Aiven",
+      "service": "dedicated MySQL",
+      "status": "BLOCKED_EXTERNAL_PROVIDER_LIMIT",
+      "reason": "The currently approved free-tier attempt was rejected because the account already uses its single free MySQL service allocation. Shared cross-project reuse remains prohibited."
+    },
+    {
+      "provider": "TiDB Cloud Starter",
+      "service": "dedicated MySQL-protocol-compatible instance",
+      "status": "STATIC_COMPATIBILITY_CANDIDATE",
+      "reason": "Current RamaVerse schema and migrations do not use the known unsupported MySQL feature families guarded by the portability test. Live schema push, TLS connectivity, Drizzle behavior, and integration QA are still required before approval."
+    }
+  ],
+  "approval_gate": {
+    "requires_owner_provider_choice": true,
+    "requires_dedicated_instance": true,
+    "requires_exact_host_identity": true,
+    "requires_verified_tls": true,
+    "requires_schema_push_success": true,
+    "requires_canonical_reader_data_verification": true,
+    "requires_integration_gate": true,
+    "requires_exact_deployed_commit_qa": true
+  },
+  "notes": [
+    "Static compatibility is not provider approval.",
+    "Do not create or configure an external provider account/service without owner approval through that provider's supported workflow.",
+    "Do not relax the dedicated-service isolation rule to bypass provider quotas."
+  ]
+}
