@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project": "RamaVerse HI-TECH",
+  "repository": "ssakthivel02/ramaverse-hitech",
+  "decision": "BLOCKED_NO_VERIFIED_NEXT_SOURCE",
+  "acquisition_allowed": false,
+  "promotion_allowed": false,
+  "verified_next_source": null,
+  "evidence_scope": "read-only continuation reconciliation evidence; no acquisition, promotion, staging publication, runtime activation, deployment, or production mutation",
+  "source_artifacts": [
+    {
+      "path": "data/reconciliation_vnext/CORPUS_RECONCILIATION_SUMMARY.md",
+      "git_blob_sha": "872060ec1d4022ca32b7b829c03c3520f5108148",
+      "role": "physical-ledger reconciliation summary"
+    },
+    {
+      "path": "data/p0_conflict_resolution_vnext/RAMAVERSE_P0_CANDIDATE_LEDGER.json",
+      "git_blob_sha": "562779ed7e9f3d7b8e9125e1ae855c27db17359d",
+      "role": "P0 unresolved-conflict candidate ledger"
+    }
+  ],
+  "observed_facts": {
+    "historical_canonical_baseline": 550,
+    "physical_record_occurrences_inspected": 14944,
+    "unique_physical_records": 600,
+    "safe_new": 0,
+    "safe_enrichments": 0,
+    "p0_human_editor_required": 237,
+    "p0_insufficient_source_evidence": 28,
+    "p0_human_decisions_remaining": 265
+  },
+  "conflicting_markers": [
+    "Aranya Kanda Sarga 45 / 3.45.1",
+    "Ayodhya Kanda Sarga 66 / 2.66.1"
+  ],
+  "conclusion": "Repository evidence does not establish either conflicting marker as the verified next source. The continuation gate therefore remains fail-closed until new source-backed reconciliation evidence identifies the first genuinely missing verse and the authority is deliberately updated."
+}
