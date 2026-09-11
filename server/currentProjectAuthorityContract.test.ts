@@ -74,8 +74,9 @@ describe("RamaVerse current project authority contract", () => {
     expect(governance).toContain("Repository files cannot themselves enable GitHub branch protection");
     expect(governance).toContain("Do not misrepresent these repository files as branch protection");
     expect(codeowners).toContain("@ssakthivel02");
-    expect(prTemplate).toContain("Exact base SHA");
-    expect(prTemplate).toContain("collision");
+    expect(prTemplate).toContain("## Collision check");
+    expect(prTemplate).toContain("Base SHA: `REPLACE_WITH_EXACT_SHA`");
+    expect(prTemplate).toContain("Exact-head CI is green before merge");
   });
 
   it("keeps continuation fail-closed while reconciliation is unresolved", () => {
