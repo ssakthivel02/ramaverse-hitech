@@ -13,6 +13,7 @@ Status: PREVIEW-READY SOURCE, DEPLOYMENT NOT STARTED
 - Start command: `pnpm start`
 - Health check: `/readyz`
 - Production DNS: not attached during preview qualification.
+- Provider-specific preview deployment execution is disabled until the executor registry separately records a reviewed and enabled executor for the exact provider.
 
 ## Required preview runtime values
 
@@ -26,13 +27,13 @@ Status: PREVIEW-READY SOURCE, DEPLOYMENT NOT STARTED
 
 ## Required GitHub preview-DB gate secrets
 
-The manually dispatched `RamaVerse Preview DB Setup` workflow must fail closed until these are configured for the owner-approved dedicated RamaVerse preview service:
+The manually dispatched RamaVerse database workflows must fail closed until the owner-approved dedicated RamaVerse preview service is configured with the required secret values:
 
 - `RAMAVERSE_TEST_DATABASE_URL` — full connection URL for the dedicated RamaVerse preview database only.
-- `RAMAVERSE_PREVIEW_DATABASE_HOST` — exact expected hostname of the dedicated RamaVerse database service. The workflow lowercases and compares the URL hostname exactly; a different host is rejected.
+- `RAMAVERSE_PREVIEW_DATABASE_HOST` — exact expected hostname of the dedicated RamaVerse database service. Workflows lowercase and compare the URL hostname exactly; a different host is rejected.
 - `RAMAVERSE_PREVIEW_DATABASE_CA_CERT_B64` — optional trusted provider CA certificate encoded as base64. Configure it only where the provider requires a private/custom CA. Aiven targets continue to require a CA; public-CA providers use the system trust store.
 
-The known shared `hitech-preview-mysql` service is explicitly rejected by the setup workflow and must not be configured in these secrets. Exact host equality proves the workflow is targeting the owner-approved endpoint; provider account/service ownership must also be established during provisioning and recorded outside committed credentials.
+The known shared `hitech-preview-mysql` service is explicitly rejected and must not be configured in these secrets. Exact host equality proves the workflow is targeting the owner-approved endpoint; provider account/service ownership must also be established during provisioning and recorded outside committed credentials.
 
 ## Database isolation rule
 
@@ -42,22 +43,36 @@ Never point `RAMAVERSE_TEST_DATABASE_URL`, `DATABASE_URL`, or the preview runtim
 
 Schema existence is not proof that Reader content is present. Canonical Reader rows must be loaded through an owner-approved, lossless process and verified independently before `/readyz`, integration QA, or deployed-preview qualification can be treated as passing.
 
-## Qualification gate
+## Controlled preview qualification chain
 
-Preview can advance only when all are true:
+Preview may advance only through the following evidence chain, in order:
 
-1. GitHub quality gate is green on the exact deployed commit.
-2. Dedicated RamaVerse preview database service identity is verified.
-3. Selected MySQL-compatible provider passes the repository schema/runtime compatibility gates and verified-TLS connectivity.
-4. Dedicated database integration gate passes against the RamaVerse preview/test database.
-5. Canonical Reader rows are verified as loaded; schema-only success is insufficient.
-6. `/healthz` returns process alive.
-7. `/readyz` confirms active corpus and Reader database readiness.
-8. Sarga Reader retrieves verified source-located content from the preview database.
-9. Canonical/staging separation tests remain green.
-10. Desktop/mobile route, link, asset, console, network and accessibility smoke tests pass.
-11. Exact deployed repository/commit identity is verified.
-12. Only after these checks may custom DNS/HTTPS promotion be considered.
+1. Exact-commit GitHub Quality Gate, Preview Deployment Preflight, and Preview Release Candidate are green.
+2. The owner explicitly selects the provider candidate through `PROVIDER_CANDIDATE_SELECTION_APPROVED`; generic proceed/continue instructions do not count.
+3. A dedicated RamaVerse preview database service is provisioned and its exact identity is verified.
+4. The read-only provider preflight verifies exact provider/database identity and verified TLS without mutation.
+5. Controlled schema setup runs only after successful matching preflight evidence and emits schema-setup evidence.
+6. Owner-approved canonical Reader rows are loaded and independently verified; schema-only success remains insufficient.
+7. The exact commit/provider passes the Integration Gate and emits `LIVE_INTEGRATION_PASS`.
+8. A previously green exact commit is verified as a source rollback target through `PREVIEW_ROLLBACK_READY`; this does not imply database rollback safety.
+9. Explicit owner preview-deployment approval plus exact release/integration/rollback evidence produces `PREVIEW_DEPLOYMENT_AUTHORIZED`; authorization performs no deployment.
+10. The sanitized deployment handoff emits `PREVIEW_DEPLOYMENT_HANDOFF_READY` and contains secret names only, never secret values.
+11. `PREVIEW_DEPLOYMENT_EXECUTOR_REGISTRY.json` must contain a separately reviewed, enabled provider-specific executor mapped to a concrete workflow; otherwise the default policy is DENY.
+12. Matching handoff/registry evidence must produce `PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED`; admission performs no deployment.
+13. Only the reviewed provider-specific preview executor may perform preview deployment for that exact commit/provider.
+14. Deployed preview HTTP smoke verifies `/healthz`, `/readyz`, `/releasez`, root serving, canonical corpus/database readiness, security/cache headers, legacy-runtime absence, and exact deployed commit identity.
+15. The owner explicitly accepts the validated preview through `PREVIEW_ACCEPTANCE_PASS`.
+16. Preview acceptance still does **not** authorize production DNS or production deployment. Production remains a separate explicit decision and NO-GO until its own gates pass.
+
+## Additional qualification expectations
+
+Throughout the chain:
+
+- Sarga Reader must retrieve verified source-located content from the preview database.
+- Canonical/staging separation tests must remain green.
+- Desktop/mobile route, link, asset, console, network and accessibility smoke tests must pass before production consideration.
+- Exact deployed repository/commit identity must remain verifiable.
+- No stage may infer that a prior evidence artifact proves a later stage occurred.
 
 ## Existing shared Aiven service
 
