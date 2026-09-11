@@ -11,6 +11,9 @@ const protectedWorkflows = [
   ".github/workflows/integration-gate.yml",
   ".github/workflows/preview-db-setup.yml",
   ".github/workflows/provider-readonly-preflight.yml",
+  ".github/workflows/preview-deployment-authorization.yml",
+  ".github/workflows/preview-deployment-handoff.yml",
+  ".github/workflows/preview-deployment-executor-admission.yml",
 ];
 
 const immutableActionRef = /^\s*uses:\s+actions\/[A-Za-z0-9_.-]+@[0-9a-f]{40}(?:\s+#.*)?$/;
