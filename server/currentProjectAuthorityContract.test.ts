@@ -84,6 +84,28 @@ describe("RamaVerse current project authority contract", () => {
     );
   });
 
+  it("keeps human release documentation aligned with the canonical evidence chain", () => {
+    const readme = read("README.md");
+    const plan = read("PREVIEW_DEPLOYMENT_PLAN.md");
+
+    for (const marker of [
+      "PROVIDER_CANDIDATE_SELECTION_APPROVED",
+      "LIVE_INTEGRATION_PASS",
+      "PREVIEW_ROLLBACK_READY",
+      "PREVIEW_DEPLOYMENT_AUTHORIZED",
+      "PREVIEW_DEPLOYMENT_HANDOFF_READY",
+      "PREVIEW_DEPLOYMENT_EXECUTOR_ADMITTED",
+      "PREVIEW_ACCEPTANCE_PASS",
+    ]) {
+      expect(readme).toContain(marker);
+      expect(plan).toContain(marker);
+    }
+
+    expect(readme).toContain("Generic instructions such as “proceed” or “continue” do not select a provider");
+    expect(plan).toContain("default policy is DENY");
+    expect(plan).toContain("Production remains a separate explicit decision and NO-GO");
+  });
+
   it("documents that legacy project-state files cannot start current work", () => {
     const readme = read("README.md");
 
