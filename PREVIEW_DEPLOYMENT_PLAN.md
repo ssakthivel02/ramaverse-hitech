@@ -41,7 +41,7 @@ The preview database **service** must be dedicated to RamaVerse and separate fro
 
 Never point `RAMAVERSE_TEST_DATABASE_URL`, `DATABASE_URL`, or the preview runtime at a production database or at an ambiguous cross-project database service.
 
-Schema existence is not proof that Reader content is present. Canonical Reader rows must be loaded through an owner-approved, lossless process and verified independently before `/readyz`, integration QA, or deployed-preview qualification can be treated as passing.
+Schema existence is not proof that Reader content is present. Canonical Reader rows are verified as loaded; schema-only success is insufficient. Reader rows must be loaded through an owner-approved, lossless process and verified independently before `/readyz`, integration QA, or deployed-preview qualification can be treated as passing.
 
 ## Controlled preview qualification chain
 
