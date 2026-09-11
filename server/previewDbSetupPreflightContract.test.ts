@@ -27,11 +27,12 @@ describe("RamaVerse preview DB setup preflight dependency", () => {
     expect(workflow).toContain('.owner_provider_candidate_approved == true');
     expect(workflow).toContain('.mutation_performed == false');
     expect(workflow).toContain('.result == "READ_ONLY_PROVIDER_PREFLIGHT_PASS"');
+    expect(workflow).toContain("run: pnpm db:push");
 
     const verificationIndex = workflow.indexOf("Verify matching read-only preflight evidence");
-    const mutationIndex = workflow.indexOf("pnpm db:push");
+    const mutationStepIndex = workflow.indexOf("Apply preview schema only");
     expect(verificationIndex).toBeGreaterThan(-1);
-    expect(mutationIndex).toBeGreaterThan(verificationIndex);
+    expect(mutationStepIndex).toBeGreaterThan(verificationIndex);
   });
 
   it("keeps database identity and verified TLS protections in place", () => {
