@@ -1,0 +1,13 @@
+# RamaVerse HI-TECH canonical repository ownership.
+# GitHub only enforces Code Owner review when branch/ruleset settings require it.
+
+* @ssakthivel02
+
+# Explicitly call out the highest-risk governance and corpus surfaces.
+/.github/ @ssakthivel02
+/CURRENT_PROJECT_AUTHORITY.json @ssakthivel02
+/CONTINUATION_AUTHORITY.json @ssakthivel02
+/data/corpus/ @ssakthivel02
+/data/staging/ @ssakthivel02
+/server/ @ssakthivel02
+/client/ @ssakthivel02
