@@ -13,6 +13,7 @@
   "staging_checkpoint_drift_evidence_file": "STAGING_CHECKPOINT_DRIFT_EVIDENCE.json",
   "physical_staging_count_drift_evidence_file": "PHYSICAL_STAGING_COUNT_DRIFT_EVIDENCE.json",
   "sarga_21_22_provenance_reconciliation_evidence_file": "SARGA_21_22_PROVENANCE_RECONCILIATION_EVIDENCE.json",
+  "sarga_21_22_referenced_provenance_recovery_evidence_file": "SARGA_21_22_REFERENCED_PROVENANCE_RECOVERY_EVIDENCE.json",
   "conflicting_markers": [
     {
       "marker": "Aranya Kanda Sarga 45 / 3.45.1",
@@ -27,12 +28,12 @@
     {
       "marker": "Ayodhya Kanda Sarga 21",
       "source": "checkpointed data/staging/physical/CONTINUATION_STATE.json plus imported data/staging/post_v1/AYODHYA_S21_SOURCE_BACKED_RECORDS.json",
-      "disposition": "structured Sarga 21 staging records exist, but the imported post-v1 artifact is not bound to the verified physical checkpoint/source-registry chain; not canonical acquisition authority while provenance drift remains unresolved"
+      "disposition": "structured Sarga 21 staging records exist, but the imported post-v1 artifact is not bound to the verified physical checkpoint/source-registry chain; referenced registry/ledger provenance is unrecovered across currently accessible GitHub sources and this is not canonical acquisition authority"
     },
     {
       "marker": "Ayodhya Kanda Sarga 23",
       "source": "uncheckpointed data/staging/physical/RAMAVERSE_STAGING_V2_CONTINUATION.md",
-      "disposition": "uncheckpointed imported narrative claim; structured post-v1 Sarga 21 and Sarga 22 artifacts exist, but they arrived through a bulk Manus import and are not checkpoint/source-registry bound, so Sarga 23 remains unusable as continuation authority"
+      "disposition": "uncheckpointed imported narrative claim; structured post-v1 Sarga 21 and Sarga 22 artifacts exist, but their referenced registry/ledger provenance is unrecovered across currently accessible GitHub sources, so Sarga 23 remains unusable as continuation authority"
     },
     {
       "marker": "Uttara Kanda Chapter 95",
@@ -44,10 +45,11 @@
     "Reconcile physical acquisition ledgers against all continuation markers, including checkpointed, uncheckpointed imported, historical, candidate, and missing-artifact claims.",
     "Treat the continuation-state-2026-08-14.json GitHub recovery attempt as dispositioned UNRECOVERED unless a genuine external/offline copy is later supplied; do not use its Uttara Kanda Chapter 95 claim as authority.",
     "Reconcile the currently imported 12-record mutable staging dataset against the 28-record checkpoint and the uncheckpointed 61-record continuation narrative.",
-    "Treat the existing post-v1 Sarga 21 and Sarga 22 files as real staging artifacts but not as checkpointed continuation authority until their source registry, immutable hashes, ledger transition and provenance chain are independently reconstructed or dispositioned.",
-    "Reconstruct or recover versioned source-registry evidence for src-valmiki-ayodhya-s21-sanskritdocuments and src-valmiki-ayodhya-s22-sanskritdocuments before creating any replacement checkpoint.",
-    "Identify the first genuinely missing source-backed verse without overwriting historical ledgers or earlier checkpoints.",
-    "Record evidence and update this authority file only after reconciliation.",
+    "Treat the existing post-v1 Sarga 21 and Sarga 22 files as real staging artifacts but not as checkpointed continuation authority.",
+    "Treat the Sarga 21/22 source-registry, master-ledger and physical-audit references as UNRECOVERED_ACROSS_CURRENTLY_ACCESSIBLE_GITHUB_SOURCES unless genuine external/offline originals are later supplied and independently validated.",
+    "Do not recreate missing historical ledgers or source registries from project-state narrative metadata or from the imported Sarga payload fields.",
+    "If genuine external/offline provenance artifacts are later supplied, correlate them to the exact Sarga 21/22 payloads using source IDs, candidate IDs, hashes, timestamps or equivalent immutable evidence before considering any new versioned checkpoint.",
+    "Identify the first genuinely missing source-backed verse only after continuation authority is independently established without overwriting historical ledgers or earlier checkpoints.",
     "Keep all newly acquired material staging-only until formal canonical promotion is separately approved."
   ],
   "guardrails": [
@@ -57,6 +59,8 @@
     "Do not treat a branch-specific checkpoint marker as canonical continuation authority while checkpoint drift remains unresolved.",
     "Do not treat an uncheckpointed imported continuation narrative as verified merely because it claims a larger record count or later Sarga.",
     "Do not infer continuity or source provenance merely from the existence of imported post-v1 Sarga 21 or Sarga 22 records.",
+    "Do not infer that RAMAVERSE_PROJECT_STATE.json missing_files=[] proves its referenced ledger and registry artifacts were committed to or are recoverable from GitHub.",
+    "Do not synthesize source-registry rows or historical ledgers from imported payload metadata.",
     "Do not infer missing Sarga 20–22 records from the 12/28/61 record-count progression.",
     "Do not treat an absent or unrecovered claimed continuation-state artifact as evidence that its claimed next source is valid.",
     "Do not modify legacy/reference repositories while performing provenance searches.",
