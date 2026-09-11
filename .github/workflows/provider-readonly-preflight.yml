@@ -2,6 +2,19 @@ name: RamaVerse Provider Read-Only Preflight
 
 on:
   workflow_dispatch:
+    inputs:
+      provider_candidate:
+        description: "Owner-approved dedicated preview provider candidate"
+        required: true
+        type: choice
+        options:
+          - TiDB Cloud Starter
+          - Other dedicated MySQL-compatible provider
+      owner_provider_candidate_approved:
+        description: "Confirm the owner explicitly approved this provider candidate for live validation"
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -15,9 +28,25 @@ jobs:
       DATABASE_EXPECTED_NAME: ramaverse_preview
       DATABASE_EXPECTED_HOST: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_HOST }}
       DATABASE_CA_CERT_B64: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_CA_CERT_B64 }}
+      PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
+      OWNER_PROVIDER_CANDIDATE_APPROVED: ${{ inputs.owner_provider_candidate_approved }}
     steps:
       - name: Checkout exact repository state
         uses: actions/checkout@v4
+
+      - name: Require explicit owner/provider candidate approval
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${OWNER_PROVIDER_CANDIDATE_APPROVED:-false}" != "true" ]; then
+            echo "Explicit owner approval for this provider candidate is required before live validation."
+            exit 1
+          fi
+          if [ -z "${PROVIDER_CANDIDATE:-}" ]; then
+            echo "A provider candidate must be selected explicitly."
+            exit 1
+          fi
+          echo "Owner/provider candidate approval gate PASS for ${PROVIDER_CANDIDATE}."
 
       - name: Require dedicated preview database identity
         shell: bash
@@ -112,9 +141,11 @@ jobs:
             if (!tlsVersion) throw new Error('TLS verification failed: no negotiated TLS version reported.');
 
             const evidence = {
-              schema_version: 1,
+              schema_version: 2,
               repository: process.env.GITHUB_REPOSITORY,
               commit: process.env.GITHUB_SHA,
+              provider_candidate: process.env.PROVIDER_CANDIDATE,
+              owner_provider_candidate_approved: process.env.OWNER_PROVIDER_CANDIDATE_APPROVED === 'true',
               database: identity.db,
               server_version: String(identity.server_version ?? ''),
               version_comment: String(identity.version_comment ?? ''),
@@ -130,6 +161,8 @@ jobs:
               '## RamaVerse provider read-only preflight',
               '',
               `- Result: ${evidence.result}`,
+              `- Provider candidate: ${evidence.provider_candidate}`,
+              `- Owner candidate approval confirmed: ${evidence.owner_provider_candidate_approved}`,
               `- Repository: ${evidence.repository}`,
               `- Commit: ${evidence.commit}`,
               `- Database: ${evidence.database}`,
@@ -139,7 +172,7 @@ jobs:
               `- SSL cipher: ${evidence.ssl_cipher}`,
               '- Mutation performed: false',
               '',
-              'This preflight proves connection identity and TLS only. It does not approve the provider, apply schema, load Reader data, or authorize preview deployment.',
+              'This preflight proves an approved candidate was intentionally selected plus connection identity/TLS only. It does not approve the provider for preview runtime, apply schema, load Reader data, or authorize preview deployment.',
             ].join('\n');
             fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${summary}\n`);
           } finally {
