@@ -2,9 +2,24 @@ name: RamaVerse Preview DB Setup
 
 on:
   workflow_dispatch:
+    inputs:
+      provider_candidate:
+        description: "Exact provider candidate name used by the successful read-only preflight"
+        required: true
+        type: string
+      preflight_run_id:
+        description: "Successful RamaVerse Provider Read-Only Preflight workflow run ID for this exact commit/provider"
+        required: true
+        type: string
+      confirm_schema_mutation:
+        description: "I explicitly authorize schema-only mutation (pnpm db:push) after the matching preflight evidence is verified"
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   schema-setup:
@@ -16,9 +31,78 @@ jobs:
       DATABASE_EXPECTED_HOST: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_HOST }}
       DATABASE_CA_CERT_B64: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_CA_CERT_B64 }}
       DATABASE_REQUIRE_TLS: "true"
+      PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
+      PREFLIGHT_RUN_ID: ${{ inputs.preflight_run_id }}
+      SCHEMA_MUTATION_APPROVED: ${{ inputs.confirm_schema_mutation }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Require explicit schema mutation approval
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${SCHEMA_MUTATION_APPROVED}" != "true" ]; then
+            echo "Explicit schema-only mutation approval is required before db:push."
+            exit 1
+          fi
+          if [ -z "${PROVIDER_CANDIDATE:-}" ]; then
+            echo "provider_candidate is required."
+            exit 1
+          fi
+          if ! [[ "${PREFLIGHT_RUN_ID:-}" =~ ^[0-9]+$ ]]; then
+            echo "preflight_run_id must be a numeric GitHub Actions run ID."
+            exit 1
+          fi
+
+      - name: Verify matching read-only preflight evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          run_json="$(gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${PREFLIGHT_RUN_ID}")"
+          echo "${run_json}" | jq -e \
+            --arg sha "${GITHUB_SHA}" \
+            '.name == "RamaVerse Provider Read-Only Preflight" and
+             .path == ".github/workflows/provider-readonly-preflight.yml" and
+             .event == "workflow_dispatch" and
+             .head_sha == $sha and
+             .status == "completed" and
+             .conclusion == "success"' >/dev/null || {
+              echo "Preflight run is not a successful RamaVerse read-only preflight for this exact commit."
+              exit 1
+            }
+
+          rm -rf preflight-evidence
+          mkdir -p preflight-evidence
+          gh run download "${PREFLIGHT_RUN_ID}" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --name "provider-readonly-preflight-${GITHUB_SHA}" \
+            --dir preflight-evidence
+
+          evidence_file="preflight-evidence/provider-readonly-preflight-evidence.json"
+          if [ ! -f "${evidence_file}" ]; then
+            echo "Expected read-only preflight evidence artifact is missing."
+            exit 1
+          fi
+
+          jq -e \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg sha "${GITHUB_SHA}" \
+            --arg provider "${PROVIDER_CANDIDATE}" \
+            '.repository == $repository and
+             .commit == $sha and
+             .provider_candidate == $provider and
+             .owner_provider_candidate_approved == true and
+             .mutation_performed == false and
+             .result == "READ_ONLY_PROVIDER_PREFLIGHT_PASS"' \
+            "${evidence_file}" >/dev/null || {
+              echo "Preflight evidence does not match this repository/commit/provider or is not fail-closed read-only evidence."
+              exit 1
+            }
+
+          echo "RamaVerse matching read-only provider preflight evidence PASS"
 
       - name: Require preview database identity secrets
         shell: bash
