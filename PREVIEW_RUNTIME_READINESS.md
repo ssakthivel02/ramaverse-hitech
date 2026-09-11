@@ -11,7 +11,7 @@ This contract defines the minimum runtime configuration required before a RamaVe
 - `DATABASE_URL` — database URL for a separately provisioned MySQL service dedicated to RamaVerse preview/test use and containing the canonical Reader data required by the validated Sarga routes
 - `DATABASE_EXPECTED_NAME=ramaverse_preview` — mandatory in production so the runtime fails closed instead of accepting an unintended logical database
 - `RAMAVERSE_PREVIEW_DATABASE_HOST` — exact hostname of the separately provisioned RamaVerse-only preview MySQL service; host identity must match the database URL exactly
-- `DATABASE_CA_CERT_B64` — required when the preview MySQL provider requires a private/custom CA; certificate verification must remain enabled
+- `DATABASE_CA_CERT_B64` — provide this when the preview MySQL provider requires a private/custom CA. Production MySQL connections always use verified TLS; providers with publicly trusted certificates use the system trust store, while private/custom CA providers use this explicit certificate. `rejectUnauthorized` must remain enabled.
 - `JWT_SECRET` where authentication/session features are enabled
 - provider-neutral AI variables only where optional intelligence features are enabled
 
@@ -45,7 +45,7 @@ A dedicated database/schema name or dedicated database user inside a shared cros
 
 The opt-in `RamaVerse Integration Gate` uses `RAMAVERSE_TEST_DATABASE_URL` and must never point to production. It validates the database-backed Sarga registry, canonical discovery surfaces and grounded retrieval behavior separately from portable source CI.
 
-Before running it against any external database, verify that the target is on a separately provisioned database service dedicated to RamaVerse preview/test use, that the database URL hostname exactly matches `RAMAVERSE_PREVIEW_DATABASE_HOST`, and that the logical database identity matches `ramaverse_preview`. Do not repurpose, power on, or reuse a generic/shared cross-project service merely because its engine is compatible.
+Before running it against any external database, verify that the target is on a separately provisioned database service dedicated to RamaVerse preview/test use, that the database URL hostname exactly matches `RAMAVERSE_PREVIEW_DATABASE_HOST`, that the logical database identity matches `ramaverse_preview`, and that TLS certificate verification succeeds. Do not repurpose, power on, or reuse a generic/shared cross-project service merely because its engine is compatible.
 
 ## Preview QA after readiness
 
@@ -57,6 +57,7 @@ Run Sarga Reader direct-route refresh, source panel and provenance disclosure, p
 - Do not use GitHub Pages as the only runtime for this full-stack application.
 - Do not point preview tests at production data.
 - Do not use any shared cross-project database server/service for RamaVerse preview, even with a separate database name or user.
+- Do not disable MySQL TLS certificate verification or use an unverified TLS fallback.
 - Do not treat schema presence as proof that Reader corpus data has been loaded.
 - Do not publish staging/reconciliation data through public routes.
 - Do not fabricate missing Sarga Reader rows.
