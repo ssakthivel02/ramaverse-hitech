@@ -6,9 +6,9 @@ Status: PREVIEW-READY SOURCE, DEPLOYMENT NOT STARTED
 
 - Canonical source: GitHub `ssakthivel02/ramaverse-hitech` only.
 - Preview web runtime: separately provisioned Render Web Service (Node.js / Express) dedicated to RamaVerse preview.
-- Preview database service: separately provisioned Aiven MySQL service dedicated to RamaVerse preview.
+- Preview database service: separately provisioned MySQL or MySQL-compatible managed service dedicated to RamaVerse preview and validated against the repository compatibility gates.
 - Preview database name inside that service: `ramaverse_preview` with a dedicated RamaVerse preview user.
-- A database schema/name alone is not sufficient isolation. Do not place RamaVerse preview inside a MySQL service that also hosts KirthiVerse, SakthiAI, or any other project database.
+- A database schema/name alone is not sufficient isolation. Do not place RamaVerse preview inside a database service that also hosts KirthiVerse, SakthiAI, or any other project database.
 - Build command: `pnpm install --frozen-lockfile && pnpm build`
 - Start command: `pnpm start`
 - Health check: `/readyz`
@@ -17,20 +17,22 @@ Status: PREVIEW-READY SOURCE, DEPLOYMENT NOT STARTED
 ## Required preview runtime values
 
 - `NODE_ENV=production`
-- `DATABASE_URL=mysql://<ramaverse-preview-user>:<password>@<host>:<port>/ramaverse_preview?ssl-mode=REQUIRED`
+- `DATABASE_URL=mysql://<ramaverse-preview-user>:<password>@<host>:<port>/ramaverse_preview`
 - `DATABASE_EXPECTED_NAME=ramaverse_preview`
+- `RAMAVERSE_PREVIEW_DATABASE_HOST=<exact dedicated service hostname>`
+- `DATABASE_CA_CERT_B64` only when the selected provider requires a private/custom CA. Publicly trusted certificates use the system trust store; TLS verification must never be disabled.
 - deployed repository identity and commit identity must be provided by the host as described in `PREVIEW_RUNTIME_READINESS.md`
 - `PORT` is supplied by the hosting runtime.
 
 ## Required GitHub preview-DB gate secrets
 
-The manually dispatched `RamaVerse Preview DB Setup` workflow must fail closed until all of these are configured for the dedicated RamaVerse preview service:
+The manually dispatched `RamaVerse Preview DB Setup` workflow must fail closed until these are configured for the owner-approved dedicated RamaVerse preview service:
 
 - `RAMAVERSE_TEST_DATABASE_URL` — full connection URL for the dedicated RamaVerse preview database only.
-- `RAMAVERSE_PREVIEW_DATABASE_HOST` — exact expected hostname of the dedicated RamaVerse Aiven MySQL service. The workflow compares this value byte-for-hostname after lowercasing; a different Aiven host is rejected.
-- `AIVEN_MYSQL_CA_CERT_B64` — trusted Aiven CA certificate encoded as base64 for TLS verification.
+- `RAMAVERSE_PREVIEW_DATABASE_HOST` — exact expected hostname of the dedicated RamaVerse database service. The workflow lowercases and compares the URL hostname exactly; a different host is rejected.
+- `RAMAVERSE_PREVIEW_DATABASE_CA_CERT_B64` — optional trusted provider CA certificate encoded as base64. Configure it only where the provider requires a private/custom CA. Aiven targets continue to require a CA; public-CA providers use the system trust store.
 
-The expected host must carry the RamaVerse service identity. The known shared `hitech-preview-mysql` service is explicitly rejected by the setup workflow and must not be configured in these secrets.
+The known shared `hitech-preview-mysql` service is explicitly rejected by the setup workflow and must not be configured in these secrets. Exact host equality proves the workflow is targeting the owner-approved endpoint; provider account/service ownership must also be established during provisioning and recorded outside committed credentials.
 
 ## Database isolation rule
 
@@ -46,15 +48,16 @@ Preview can advance only when all are true:
 
 1. GitHub quality gate is green on the exact deployed commit.
 2. Dedicated RamaVerse preview database service identity is verified.
-3. Dedicated database integration gate passes against the RamaVerse preview/test database.
-4. Canonical Reader rows are verified as loaded; schema-only success is insufficient.
-5. `/healthz` returns process alive.
-6. `/readyz` confirms active corpus and Reader database readiness.
-7. Sarga Reader retrieves verified source-located content from the preview database.
-8. Canonical/staging separation tests remain green.
-9. Desktop/mobile route, link, asset, console, network and accessibility smoke tests pass.
-10. Exact deployed repository/commit identity is verified.
-11. Only after these checks may custom DNS/HTTPS promotion be considered.
+3. Selected MySQL-compatible provider passes the repository schema/runtime compatibility gates and verified-TLS connectivity.
+4. Dedicated database integration gate passes against the RamaVerse preview/test database.
+5. Canonical Reader rows are verified as loaded; schema-only success is insufficient.
+6. `/healthz` returns process alive.
+7. `/readyz` confirms active corpus and Reader database readiness.
+8. Sarga Reader retrieves verified source-located content from the preview database.
+9. Canonical/staging separation tests remain green.
+10. Desktop/mobile route, link, asset, console, network and accessibility smoke tests pass.
+11. Exact deployed repository/commit identity is verified.
+12. Only after these checks may custom DNS/HTTPS promotion be considered.
 
 ## Existing shared Aiven service
 
