@@ -9,6 +9,8 @@ on:
       - "server/_core/mysql.ts"
       - "server/_core/index.ts"
       - "server/db.ts"
+      - ".github/workflows/provider-candidate-selection.yml"
+      - ".github/workflows/provider-readonly-preflight.yml"
       - ".github/workflows/preview-db-setup.yml"
       - ".github/workflows/integration-gate.yml"
       - ".github/workflows/preview-http-smoke.yml"
@@ -51,6 +53,30 @@ jobs:
           grep -q 'ramaverse_preview' render.yaml
           grep -q 'ramaverse_preview' .github/workflows/preview-db-setup.yml
           grep -q 'ramaverse_preview' .github/workflows/integration-gate.yml
+
+      - name: Validate provider candidate selection chain
+        shell: bash
+        run: |
+          set -euo pipefail
+          selection=.github/workflows/provider-candidate-selection.yml
+          preflight=.github/workflows/provider-readonly-preflight.yml
+          test -f "$selection"
+          test -f "$preflight"
+          grep -q 'owner_provider_candidate_approval' "$selection"
+          grep -q 'PROVIDER_CANDIDATE_SELECTION_APPROVED' "$selection"
+          grep -q 'selection_scope: "live_preview_candidate_validation_only"' "$selection"
+          grep -q 'provisioning_performed: false' "$selection"
+          grep -q 'database_connection_performed: false' "$selection"
+          grep -q 'provider_mutation_performed: false' "$selection"
+          grep -q 'deployment_performed: false' "$selection"
+          grep -q 'production_ready: false' "$selection"
+          grep -q 'provider_selection_run_id' "$preflight"
+          grep -q 'RamaVerse Provider Candidate Selection' "$preflight"
+          grep -q 'PROVIDER_CANDIDATE_SELECTION_APPROVED' "$preflight"
+          grep -q 'provider_selection_evidence_passed: true' "$preflight"
+          grep -q 'READ_ONLY_PROVIDER_PREFLIGHT_PASS' "$preflight"
+          grep -q 'mutation_performed: false' "$preflight"
+          test -f PROVIDER_CANDIDATE_SELECTION_RUNBOOK.md
 
       - name: Validate verified TLS contract
         shell: bash
