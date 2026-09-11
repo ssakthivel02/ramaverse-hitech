@@ -4,49 +4,78 @@ on:
   workflow_dispatch:
     inputs:
       provider_candidate:
-        description: "Owner-approved dedicated preview provider candidate"
+        description: "Exact dedicated preview provider candidate"
         required: true
-        type: choice
-        options:
-          - TiDB Cloud Starter
-          - Other dedicated MySQL-compatible provider
-      owner_provider_candidate_approved:
-        description: "Confirm the owner explicitly approved this provider candidate for live validation"
+        type: string
+      provider_selection_run_id:
+        description: "Successful RamaVerse Provider Candidate Selection run ID for this exact candidate"
         required: true
-        default: false
-        type: boolean
+        type: string
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   readonly-provider-preflight:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
+      GH_TOKEN: ${{ github.token }}
       DATABASE_URL: ${{ secrets.RAMAVERSE_TEST_DATABASE_URL }}
       DATABASE_EXPECTED_NAME: ramaverse_preview
       DATABASE_EXPECTED_HOST: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_HOST }}
       DATABASE_CA_CERT_B64: ${{ secrets.RAMAVERSE_PREVIEW_DATABASE_CA_CERT_B64 }}
       PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
-      OWNER_PROVIDER_CANDIDATE_APPROVED: ${{ inputs.owner_provider_candidate_approved }}
+      PROVIDER_SELECTION_RUN_ID: ${{ inputs.provider_selection_run_id }}
     steps:
-      - name: Checkout exact repository state
-        uses: actions/checkout@v4
-
-      - name: Require explicit owner/provider candidate approval
+      - name: Validate provider selection request
         shell: bash
         run: |
           set -euo pipefail
-          if [ "${OWNER_PROVIDER_CANDIDATE_APPROVED:-false}" != "true" ]; then
-            echo "Explicit owner approval for this provider candidate is required before live validation."
-            exit 1
-          fi
-          if [ -z "${PROVIDER_CANDIDATE:-}" ]; then
-            echo "A provider candidate must be selected explicitly."
-            exit 1
-          fi
-          echo "Owner/provider candidate approval gate PASS for ${PROVIDER_CANDIDATE}."
+          test -n "${PROVIDER_CANDIDATE:-}" || { echo "A provider candidate must be selected explicitly."; exit 1; }
+          [[ "$PROVIDER_SELECTION_RUN_ID" =~ ^[0-9]+$ ]] || { echo "provider_selection_run_id must be numeric."; exit 1; }
+
+      - name: Verify provider candidate selection run and evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${PROVIDER_SELECTION_RUN_ID}" > /tmp/provider-selection-run.json
+          jq -e '.name == "RamaVerse Provider Candidate Selection" and .conclusion == "success"' /tmp/provider-selection-run.json >/dev/null || {
+            echo "Provider selection run is not a successful RamaVerse Provider Candidate Selection run."; exit 1;
+          }
+
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${PROVIDER_SELECTION_RUN_ID}/artifacts?per_page=100" > /tmp/provider-selection-artifacts.json
+          artifact_id="$(jq -r '.artifacts[] | select(.expired == false and (.name | startswith("provider-candidate-selection-evidence-"))) | .id' /tmp/provider-selection-artifacts.json | head -n1)"
+          test -n "$artifact_id" || { echo "PROVIDER_CANDIDATE_SELECTION_APPROVED artifact not found or expired."; exit 1; }
+
+          gh api -H 'Accept: application/vnd.github+json' "/repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}/zip" > /tmp/provider-selection.zip
+          mkdir -p /tmp/provider-selection-evidence
+          unzip -q /tmp/provider-selection.zip -d /tmp/provider-selection-evidence
+          evidence="$(find /tmp/provider-selection-evidence -type f -name '*.json' | head -n1)"
+          test -n "$evidence" || { echo "Provider selection evidence JSON not found."; exit 1; }
+
+          jq -e --arg repository "$GITHUB_REPOSITORY" --arg provider "$PROVIDER_CANDIDATE" '
+            .result == "PROVIDER_CANDIDATE_SELECTION_APPROVED" and
+            .repository == $repository and
+            .provider_candidate == $provider and
+            .owner_provider_candidate_approval == true and
+            .selection_scope == "live_preview_candidate_validation_only" and
+            .provisioning_performed == false and
+            .database_connection_performed == false and
+            .database_mutation_performed == false and
+            .provider_mutation_performed == false and
+            .deployment_performed == false and
+            .production_ready == false and
+            .production_dns_change_allowed == false and
+            .production_deployment_change_allowed == false
+          ' "$evidence" >/dev/null || {
+            echo "Provider selection evidence does not match this repository/candidate or violates the validation-only boundary."; exit 1;
+          }
+          echo "Provider candidate selection evidence PASS for ${PROVIDER_CANDIDATE}."
+
+      - name: Checkout exact repository state
+        uses: actions/checkout@v4
 
       - name: Require dedicated preview database identity
         shell: bash
@@ -141,11 +170,13 @@ jobs:
             if (!tlsVersion) throw new Error('TLS verification failed: no negotiated TLS version reported.');
 
             const evidence = {
-              schema_version: 2,
+              schema_version: 3,
               repository: process.env.GITHUB_REPOSITORY,
               commit: process.env.GITHUB_SHA,
               provider_candidate: process.env.PROVIDER_CANDIDATE,
-              owner_provider_candidate_approved: process.env.OWNER_PROVIDER_CANDIDATE_APPROVED === 'true',
+              provider_selection_run_id: process.env.PROVIDER_SELECTION_RUN_ID,
+              provider_selection_evidence_passed: true,
+              owner_provider_candidate_approved: true,
               database: identity.db,
               server_version: String(identity.server_version ?? ''),
               version_comment: String(identity.version_comment ?? ''),
@@ -162,7 +193,9 @@ jobs:
               '',
               `- Result: ${evidence.result}`,
               `- Provider candidate: ${evidence.provider_candidate}`,
-              `- Owner candidate approval confirmed: ${evidence.owner_provider_candidate_approved}`,
+              `- Provider selection run: ${evidence.provider_selection_run_id}`,
+              `- Provider selection evidence passed: ${evidence.provider_selection_evidence_passed}`,
+              `- Owner candidate approval confirmed from upstream evidence: ${evidence.owner_provider_candidate_approved}`,
               `- Repository: ${evidence.repository}`,
               `- Commit: ${evidence.commit}`,
               `- Database: ${evidence.database}`,
@@ -172,7 +205,7 @@ jobs:
               `- SSL cipher: ${evidence.ssl_cipher}`,
               '- Mutation performed: false',
               '',
-              'This preflight proves an approved candidate was intentionally selected plus connection identity/TLS only. It does not approve the provider for preview runtime, apply schema, load Reader data, or authorize preview deployment.',
+              'This preflight proves an explicitly selected candidate plus connection identity/TLS only. It does not approve the provider for preview runtime, apply schema, load Reader data, or authorize preview deployment.',
             ].join('\n');
             fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${summary}\n`);
           } finally {
