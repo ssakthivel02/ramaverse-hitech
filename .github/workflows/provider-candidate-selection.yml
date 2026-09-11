@@ -1,0 +1,77 @@
+name: RamaVerse Provider Candidate Selection
+
+on:
+  workflow_dispatch:
+    inputs:
+      provider_candidate:
+        description: "Exact dedicated preview provider candidate approved for live validation"
+        required: true
+        type: string
+      owner_provider_candidate_approval:
+        description: "Owner explicitly approves this provider candidate for live preview validation only"
+        required: true
+        type: boolean
+      selection_reason:
+        description: "Reason for selecting this provider candidate for live validation"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  record-provider-candidate-selection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PROVIDER_CANDIDATE: ${{ inputs.provider_candidate }}
+      OWNER_PROVIDER_CANDIDATE_APPROVAL: ${{ inputs.owner_provider_candidate_approval }}
+      SELECTION_REASON: ${{ inputs.selection_reason }}
+    steps:
+      - name: Validate explicit candidate selection
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "${PROVIDER_CANDIDATE:-}" || { echo "provider_candidate is required."; exit 1; }
+          test "$OWNER_PROVIDER_CANDIDATE_APPROVAL" = "true" || { echo "Explicit owner provider-candidate approval is required."; exit 1; }
+          test -n "${SELECTION_REASON:-}" || { echo "selection_reason is required."; exit 1; }
+
+      - name: Create provider candidate selection evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p provider-candidate-selection-evidence
+          jq -n \
+            --arg repository "$GITHUB_REPOSITORY" \
+            --arg commit "${GITHUB_SHA,,}" \
+            --arg provider_candidate "$PROVIDER_CANDIDATE" \
+            --arg selection_reason "$SELECTION_REASON" \
+            --arg workflow_run_id "$GITHUB_RUN_ID" \
+            '{
+              schema_version: 1,
+              result: "PROVIDER_CANDIDATE_SELECTION_APPROVED",
+              repository: $repository,
+              commit: $commit,
+              provider_candidate: $provider_candidate,
+              selection_reason: $selection_reason,
+              owner_provider_candidate_approval: true,
+              selection_scope: "live_preview_candidate_validation_only",
+              provisioning_performed: false,
+              database_connection_performed: false,
+              database_mutation_performed: false,
+              provider_mutation_performed: false,
+              deployment_performed: false,
+              production_ready: false,
+              production_dns_change_allowed: false,
+              production_deployment_change_allowed: false,
+              workflow_run_id: $workflow_run_id
+            }' > provider-candidate-selection-evidence/provider-candidate-selection.json
+          jq -e '.result == "PROVIDER_CANDIDATE_SELECTION_APPROVED" and .owner_provider_candidate_approval == true and .selection_scope == "live_preview_candidate_validation_only" and .provisioning_performed == false and .database_connection_performed == false and .database_mutation_performed == false and .provider_mutation_performed == false and .deployment_performed == false and .production_ready == false and .production_dns_change_allowed == false and .production_deployment_change_allowed == false' provider-candidate-selection-evidence/provider-candidate-selection.json >/dev/null
+
+      - name: Upload provider candidate selection evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: provider-candidate-selection-evidence-${{ github.run_id }}
+          path: provider-candidate-selection-evidence/provider-candidate-selection.json
+          if-no-files-found: error
+          retention-days: 30
