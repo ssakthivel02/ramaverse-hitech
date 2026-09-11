@@ -71,7 +71,7 @@ Throughout the chain:
 - Sarga Reader must retrieve verified source-located content from the preview database.
 - Canonical/staging separation tests must remain green.
 - Desktop/mobile route, link, asset, console, network and accessibility smoke tests must pass before production consideration.
-- Exact deployed repository/commit identity must remain verifiable.
+- Exact deployed repository/commit identity is verified.
 - No stage may infer that a prior evidence artifact proves a later stage occurred.
 
 ## Existing shared Aiven service
