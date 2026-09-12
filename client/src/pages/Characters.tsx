@@ -19,7 +19,7 @@ export default function Characters() {
   const [relationshipFrom, setRelationshipFrom] = useState("none");
   const [relationshipTo, setRelationshipTo] = useState("none");
 
-  const { data: charactersList, isLoading } = trpc.ramaverse.getCharacters.useQuery({
+  const { data: charactersList, isLoading, error } = trpc.ramaverse.getCharacters.useQuery({
     search: search.trim() ? search : undefined,
     category: category !== "All" ? category : undefined,
   });
@@ -91,7 +91,7 @@ export default function Characters() {
           </div>
         </section>}
 
-        <section className="rv-glass mb-10 rounded-2xl p-5" aria-labelledby="relationship-fallback-title">
+        {!error && <section className="rv-glass mb-10 rounded-2xl p-5" aria-labelledby="relationship-fallback-title">
           <p className="text-xs uppercase tracking-[0.16em] text-[#d4af37]">{t("relationshipDiscovery")}</p>
           <h2 id="relationship-fallback-title" className="mt-1 font-serif text-xl text-[#f3e9d2]">{t("relationshipNavigator")}</h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[#f3e9d2]/70">{t("relationshipAwaitingSelection")}</p>
@@ -110,9 +110,11 @@ export default function Characters() {
             <Button variant="outline" disabled={relationshipFrom === "none" || relationshipTo === "none"} onClick={() => setSelectedId(Number(relationshipTo))} className="border-[#d4af37]/35 text-[#d4af37]">{t("inspectGap")}</Button>
           </div>
           <p className="mt-3 text-xs text-[#f3e9d2]/65" aria-live="polite">{relationshipFrom !== "none" && relationshipTo !== "none" ? t("noRelationshipEdge") : t("chooseProfile")}</p>
-        </section>
+        </section>}
 
-        {isLoading ? (
+        {error ? (
+          <div role="alert" className="text-center py-20 text-rose-200">{t("unexpectedError")}</div>
+        ) : isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("loadingCharacters")}</div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
