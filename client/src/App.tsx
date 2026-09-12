@@ -1,12 +1,13 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { lazy, Suspense, useEffect } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Route, Switch, useLocation } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { LibraryProvider } from "./contexts/LibraryContext";
 import { MultilingualProvider, stripLocalePrefix, useTranslation } from "./contexts/MultilingualContext";
 import { focusMainContent } from "./lib/accessibility";
+import { getDocumentTitle, getRouteAccessibilityMeta } from "./lib/routeAccessibility";
 const Home = lazy(() => import("./pages/Home"));
 const Kandas = lazy(() => import("./pages/Kandas"));
 const Wisdom = lazy(() => import("./pages/Wisdom"));
@@ -35,6 +36,8 @@ function Router() {
   const [location] = useLocation();
   const { language, setLanguage } = useTranslation();
   const normalized = stripLocalePrefix(location);
+  const previousPath = useRef<string | null>(null);
+  const [routeAnnouncement, setRouteAnnouncement] = useState("");
 
   // A locale in the URL is authoritative for the interface; legacy unprefixed
   // routes remain valid and continue using the persisted interface locale.
@@ -42,35 +45,59 @@ function Router() {
     if (normalized.language && normalized.language !== language) setLanguage(normalized.language);
   }, [language, normalized.language, setLanguage]);
 
+  useEffect(() => {
+    document.title = getDocumentTitle(normalized.path);
+
+    if (previousPath.current === null) {
+      previousPath.current = normalized.path;
+      return;
+    }
+
+    if (previousPath.current === normalized.path) return;
+    previousPath.current = normalized.path;
+    setRouteAnnouncement(getRouteAccessibilityMeta(normalized.path).announcement);
+
+    const frame = window.requestAnimationFrame(() => {
+      focusMainContent();
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [normalized.path]);
+
   return (
-    <Suspense fallback={<main className="min-h-screen bg-[#0b101b] px-6 py-24 text-center text-sm text-[#d4af37]">Preparing RamaVerse…</main>}>
-      <Switch location={normalized.path}>
-      <Route path={"/"} component={Home} />
-      <Route path={"/kandas"} component={Kandas} />
-      <Route path={"/wisdom"} component={Wisdom} />
-      <Route path={"/characters"} component={Characters} />
-      <Route path={"/places"} component={Places} />
-      <Route path={"/guidance"} component={Guidance} />
-      <Route path={"/stories"} component={Stories} />
-      <Route path={"/quizzes"} component={Quizzes} />
-      <Route path={"/audio"} component={Audio} />
-      <Route path={"/search"} component={SearchPage} />
-      <Route path={"/ask"} component={AskRamaVerse} />
-      <Route path={"/intelligence"} component={Intelligence} />
-      <Route path={"/library"} component={Library} />
-      <Route path={"/journey"} component={Journey} />
-      <Route path={"/timeline"} component={Timeline} />
-      <Route path={"/knowledge"} component={KnowledgeGraph} />
-      <Route path={"/rama-life"} component={RamaLife} />
-      <Route path={"/walk-with-rama"} component={WalkWithRama} />
-      <Route path={"/owner-command-center"} component={OwnerCommandCenter} />
-      <Route path={"/experience-center"} component={ExperienceCenter} />
-      <Route path={"/sargas/:recordKey"} component={SargaReader} />
-      <Route path={"/reconciliation"} component={ReconciliationWorkbench} />
-      <Route path={"/404"} component={NotFound} />
-      <Route component={NotFound} />
-      </Switch>
-    </Suspense>
+    <>
+      <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">
+        {routeAnnouncement}
+      </p>
+      <Suspense fallback={<main className="min-h-screen bg-[#0b101b] px-6 py-24 text-center text-sm text-[#d4af37]">Preparing RamaVerse…</main>}>
+        <Switch location={normalized.path}>
+        <Route path={"/"} component={Home} />
+        <Route path={"/kandas"} component={Kandas} />
+        <Route path={"/wisdom"} component={Wisdom} />
+        <Route path={"/characters"} component={Characters} />
+        <Route path={"/places"} component={Places} />
+        <Route path={"/guidance"} component={Guidance} />
+        <Route path={"/stories"} component={Stories} />
+        <Route path={"/quizzes"} component={Quizzes} />
+        <Route path={"/audio"} component={Audio} />
+        <Route path={"/search"} component={SearchPage} />
+        <Route path={"/ask"} component={AskRamaVerse} />
+        <Route path={"/intelligence"} component={Intelligence} />
+        <Route path={"/library"} component={Library} />
+        <Route path={"/journey"} component={Journey} />
+        <Route path={"/timeline"} component={Timeline} />
+        <Route path={"/knowledge"} component={KnowledgeGraph} />
+        <Route path={"/rama-life"} component={RamaLife} />
+        <Route path={"/walk-with-rama"} component={WalkWithRama} />
+        <Route path={"/owner-command-center"} component={OwnerCommandCenter} />
+        <Route path={"/experience-center"} component={ExperienceCenter} />
+        <Route path={"/sargas/:recordKey"} component={SargaReader} />
+        <Route path={"/reconciliation"} component={ReconciliationWorkbench} />
+        <Route path={"/404"} component={NotFound} />
+        <Route component={NotFound} />
+        </Switch>
+      </Suspense>
+    </>
   );
 }
 
