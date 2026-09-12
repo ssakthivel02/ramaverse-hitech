@@ -24,15 +24,23 @@ export default function ExperienceCenter() {
   const { t } = useTranslation();
   const [mode, setMode] = useState<Mode>("daily");
   const [age, setAge] = useState<(typeof ageBands)[number]>("8–10");
-  const [copied, setCopied] = useState(false);
+  const [copyStatus, setCopyStatus] = useState<"idle" | "success" | "error">("idle");
   const record = useMemo(() => APPROVED_UNIVERSE_RECORDS[dayIndex(APPROVED_UNIVERSE_RECORDS.length)], []);
   const shareText = `${record.titleEn} — ${record.locator}. Source-grounded RamaVerse discovery. Record ${record.id}.`;
 
   async function copyShareCard() {
-    if (!navigator.clipboard) return;
-    await navigator.clipboard.writeText(shareText);
-    setCopied(true);
-    window.setTimeout(() => setCopied(false), 1600);
+    setCopyStatus("idle");
+    if (!navigator.clipboard) {
+      setCopyStatus("error");
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(shareText);
+      setCopyStatus("success");
+      window.setTimeout(() => setCopyStatus("idle"), 1600);
+    } catch {
+      setCopyStatus("error");
+    }
   }
 
   return (
@@ -63,7 +71,7 @@ export default function ExperienceCenter() {
 
         {mode === "setu" && <section aria-labelledby="setu-heading" className="grid gap-5 lg:grid-cols-[1.1fr_.9fr]"><div className="rv-glass-card rounded-3xl p-6 sm:p-8"><div className="flex items-center gap-3 text-[#6ea4c5]"><Waves className="h-5 w-5" /><span className="text-xs font-bold uppercase tracking-[0.18em]">Rama Setu evidence sequence</span></div><h2 id="setu-heading" className="mt-4 font-serif text-3xl font-bold text-white">A source-aware journey across distinct layers.</h2><div className="mt-6 grid gap-3 sm:grid-cols-2">{["Textual narrative", "Characters", "Planning", "Journey", "Construction narrative", "Leadership / teamwork interpretation", "Source evidence", "Tradition notes"].map((item) => <div key={item} className="rounded-2xl border border-white/10 bg-[#0d1725]/80 p-4 text-sm text-[#f4ead4]/80"><span className="mr-2 text-[#d7b45a]">✦</span>{item}</div>)}</div></div><div className="rv-glass-card rounded-3xl p-6 sm:p-8"><h3 className="font-serif text-2xl font-bold text-white">What is not claimed</h3><p className="mt-3 text-sm leading-7 text-[#f4ead4]/75">Scripture and tradition are kept separate from modern historical or archaeological claims. No coordinates, dates, engineering claims, or scientific conclusions are asserted without dedicated governed evidence.</p><Link href="/journey"><Button variant="outline" className="mt-6 border-[#6ea4c5]/50 text-[#fff7e7]">Open Journey Atlas</Button></Link></div></section>}
 
-        <section aria-labelledby="share-heading" className="mt-8 rounded-3xl border border-[#d7b45a]/20 bg-[#101b2b]/80 p-6 sm:p-8"><div className="flex flex-wrap items-start justify-between gap-5"><div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[#d7b45a]">Shareable evidence card</p><h2 id="share-heading" className="mt-2 font-serif text-2xl font-bold text-white">Share the source, not an invented quote.</h2><p className="mt-2 max-w-2xl text-sm text-[#f4ead4]/70">The card keeps the record ID, locator, and RamaVerse attribution. It does not turn paraphrase into direct speech.</p></div><Button onClick={copyShareCard} className="bg-[#d7b45a] text-[#0b101a]">{copied ? <Check className="mr-2 h-4 w-4" /> : <Copy className="mr-2 h-4 w-4" />}{copied ? "Copied" : "Copy evidence card"}</Button></div><div className="mt-6 rounded-2xl border border-white/10 bg-[#0a111d] p-5 text-sm text-[#f4ead4]/80">{shareText}<span className="mt-3 block text-xs text-[#d7b45a]">RamaVerse · source-grounded discovery · verify the linked record</span></div></section>
+        <section aria-labelledby="share-heading" className="mt-8 rounded-3xl border border-[#d7b45a]/20 bg-[#101b2b]/80 p-6 sm:p-8"><div className="flex flex-wrap items-start justify-between gap-5"><div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[#d7b45a]">Shareable evidence card</p><h2 id="share-heading" className="mt-2 font-serif text-2xl font-bold text-white">Share the source, not an invented quote.</h2><p className="mt-2 max-w-2xl text-sm text-[#f4ead4]/70">The card keeps the record ID, locator, and RamaVerse attribution. It does not turn paraphrase into direct speech.</p></div><div className="flex flex-col items-end gap-2"><Button onClick={copyShareCard} className="bg-[#d7b45a] text-[#0b101a]">{copyStatus === "success" ? <Check className="mr-2 h-4 w-4" /> : <Copy className="mr-2 h-4 w-4" />}{copyStatus === "success" ? "Copied" : "Copy evidence card"}</Button><p role="status" aria-live="polite" className="min-h-5 max-w-xs text-right text-xs text-[#f4ead4]/70">{copyStatus === "success" ? "Evidence card copied." : copyStatus === "error" ? "Copy failed. Select the evidence text and copy it manually." : ""}</p></div></div><div className="mt-6 rounded-2xl border border-white/10 bg-[#0a111d] p-5 text-sm text-[#f4ead4]/80">{shareText}<span className="mt-3 block text-xs text-[#d7b45a]">RamaVerse · source-grounded discovery · verify the linked record</span></div></section>
 
         <section aria-label="Offline pack status" className="mt-8 flex flex-col gap-4 rounded-2xl border border-[#7fb9a2]/20 bg-[#10221e]/55 p-5 text-sm text-[#d8f1e3]/80 sm:flex-row sm:items-center sm:justify-between"><div className="flex items-start gap-3"><Download className="mt-0.5 h-5 w-5 text-[#7fb9a2]" /><div><strong className="text-[#d8f1e3]">Offline pack contract:</strong> manifest, hash, schema, language, content version, activation, rollback, and corrupt-pack rejection are defined. No pack is downloaded silently.</div></div><Badge variant="outline" className="w-fit border-[#7fb9a2]/40 text-[#bce8d0]">CONTRACT READY</Badge></section>
       </main>
