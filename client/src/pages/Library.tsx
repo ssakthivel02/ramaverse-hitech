@@ -1,17 +1,19 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { RamaNavbar } from "@/components/RamaNavbar";
 import { RamaFooter } from "@/components/RamaFooter";
 import { useLibrary } from "@/contexts/LibraryContext";
-import { Bookmark, BookOpen, Download, Trash2, Edit3, Plus, Sparkles } from "lucide-react";
+import { Bookmark, BookOpen, Download, Trash2, Edit3, Plus, Sparkles, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 export default function Library() {
-  const { bookmarks, removeBookmark, journalNotes, addJournalNote, deleteJournalNote, exportData, clearAllData } = useLibrary();
+  const { bookmarks, removeBookmark, journalNotes, addJournalNote, deleteJournalNote, exportData, importData, clearAllData } = useLibrary();
   const [activeTab, setActiveTab] = useState<'bookmarks' | 'journal'>('bookmarks');
   const [noteTitle, setNoteTitle] = useState("");
   const [noteContent, setNoteContent] = useState("");
+  const [restoreStatus, setRestoreStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const restoreInputRef = useRef<HTMLInputElement>(null);
 
   const handleAddNote = (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,6 +21,20 @@ export default function Library() {
     addJournalNote(noteTitle, noteContent);
     setNoteTitle("");
     setNoteContent("");
+  };
+
+  const handleRestoreBackup = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    try {
+      const restored = importData(await file.text());
+      setRestoreStatus(restored ? 'success' : 'error');
+    } catch {
+      setRestoreStatus('error');
+    } finally {
+      e.target.value = "";
+    }
   };
 
   return (
@@ -58,15 +74,34 @@ export default function Library() {
             </Button>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex flex-wrap justify-end gap-2">
             <Button variant="outline" onClick={exportData} className="text-xs border-[#d4af37]/30 text-[#d4af37] hover:bg-[#d4af37]/10">
               <Download className="w-3.5 h-3.5 mr-2" /> Export Backup
+            </Button>
+            <input
+              ref={restoreInputRef}
+              type="file"
+              accept="application/json,.json"
+              onChange={handleRestoreBackup}
+              className="hidden"
+              aria-label="Choose RamaVerse backup file"
+            />
+            <Button variant="outline" onClick={() => restoreInputRef.current?.click()} className="text-xs border-[#d4af37]/30 text-[#d4af37] hover:bg-[#d4af37]/10">
+              <Upload className="w-3.5 h-3.5 mr-2" /> Restore Backup
             </Button>
             <Button variant="outline" onClick={() => { if(confirm("Are you sure you want to clear all local library data?")) clearAllData(); }} className="text-xs border-red-500/30 text-red-400 hover:bg-red-500/10">
               <Trash2 className="w-3.5 h-3.5 mr-2" /> Clear All
             </Button>
           </div>
         </div>
+
+        {restoreStatus !== 'idle' && (
+          <p role={restoreStatus === 'error' ? 'alert' : 'status'} aria-live="polite" className={`mb-8 text-center text-xs ${restoreStatus === 'error' ? 'text-red-300' : 'text-emerald-300'}`}>
+            {restoreStatus === 'success'
+              ? 'Backup restored to this browser.'
+              : 'Backup could not be restored. Choose a RamaVerse JSON backup file.'}
+          </p>
+        )}
 
         {activeTab === 'bookmarks' ? (
           bookmarks.length === 0 ? (
