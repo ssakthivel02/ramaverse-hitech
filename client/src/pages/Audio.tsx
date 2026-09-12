@@ -11,14 +11,22 @@ export default function Audio() {
   const [search, setSearch] = useState("");
   const [activeSpeechId, setActiveSpeechId] = useState<number | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [speechError, setSpeechError] = useState<string | null>(null);
 
   const { data: audioList, isLoading, error } = trpc.ramaverse.getAudioScripts.useQuery({
     search: search.trim() ? search : undefined,
   });
 
+  const resetSpeechState = () => {
+    setIsPlaying(false);
+    setActiveSpeechId(null);
+  };
+
   const handlePlaySpeech = (id: number, text: string) => {
+    setSpeechError(null);
+
     if (!('speechSynthesis' in window)) {
-      alert("Speech synthesis is not supported in this browser.");
+      setSpeechError("Speech synthesis is not supported in this browser.");
       return;
     }
 
@@ -37,9 +45,10 @@ export default function Audio() {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = 0.95;
-    utterance.onend = () => {
-      setIsPlaying(false);
-      setActiveSpeechId(null);
+    utterance.onend = resetSpeechState;
+    utterance.onerror = () => {
+      resetSpeechState();
+      setSpeechError("Narration could not be played. Please try again or use another browser voice.");
     };
     window.speechSynthesis.speak(utterance);
     setActiveSpeechId(id);
@@ -50,8 +59,7 @@ export default function Audio() {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
-    setIsPlaying(false);
-    setActiveSpeechId(null);
+    resetSpeechState();
   };
 
   return (
@@ -90,6 +98,12 @@ export default function Audio() {
             Audio narration scripts use synthesized browser speech. Traditional devotion and chanting practices are observed respectfully without supernatural or medical outcome guarantees.
           </p>
         </div>
+
+        {speechError && (
+          <div role="alert" className="mb-8 rounded-xl border border-rose-400/30 bg-rose-500/10 px-4 py-3 text-sm text-rose-200">
+            {speechError}
+          </div>
+        )}
 
         {isLoading ? (
           <div className="py-20 text-center text-[#d4af37]">Loading sacred audio transcripts...</div>
