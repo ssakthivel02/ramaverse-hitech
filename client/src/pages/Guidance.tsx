@@ -14,7 +14,7 @@ export default function Guidance() {
   const [search, setSearch] = useState("");
   const [theme, setTheme] = useState("All");
 
-  const { data: guidanceList, isLoading } = trpc.ramaverse.getGuidance.useQuery({
+  const { data: guidanceList, isLoading, error } = trpc.ramaverse.getGuidance.useQuery({
     search: search.trim() ? search : undefined,
     theme: theme !== "All" ? theme : undefined,
   });
@@ -75,6 +75,8 @@ export default function Guidance() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+        ) : error ? (
+          <div role="alert" className="text-center py-20 text-red-200">{t("unexpectedError")}</div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {guidanceList?.map((g) => (
