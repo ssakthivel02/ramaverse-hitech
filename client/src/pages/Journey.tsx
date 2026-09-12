@@ -7,7 +7,7 @@ import { useTranslation } from "@/contexts/MultilingualContext";
 
 export default function Journey() {
   const { t } = useTranslation();
-  const { data: places, isLoading } = trpc.ramaverse.getPlaces.useQuery();
+  const { data: places, isLoading, error } = trpc.ramaverse.getPlaces.useQuery();
   const [selectedPlace, setSelectedPlace] = useState<number>(0);
 
   const activePlace = places?.[selectedPlace] || places?.[0];
@@ -32,6 +32,8 @@ export default function Journey() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+        ) : error ? (
+          <div role="alert" className="text-center py-20 text-red-300">{t("unexpectedError")}</div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Timeline Milestones list */}
