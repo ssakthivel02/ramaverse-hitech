@@ -10,8 +10,8 @@ describe("Search status accessibility contract", () => {
     expect(source).toContain('role="status" aria-live="polite" aria-atomic="true" className="py-20 text-center text-sm text-[#f3e9d2]/60"');
   });
 
-  it("announces a match count only when matches exist and loading has finished", () => {
-    expect(source).toContain("activeQuery && !isLoading && filtered.length > 0");
+  it("announces a match count only when matches exist, loading has finished, and the query succeeded", () => {
+    expect(source).toContain("activeQuery && !isLoading && !hasError && filtered.length > 0");
     expect(source).toContain('role="status" aria-live="polite" aria-atomic="true" className="mt-2 text-center text-xs text-[#d4af37]"');
   });
 
