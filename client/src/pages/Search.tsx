@@ -39,7 +39,7 @@ export default function SearchPage() {
   const records: SearchRecord[] = (modernSearch.data as { results?: SearchRecord[] } | undefined)?.results ?? normalizeLegacy(legacySearch.data as LegacySearch | undefined);
   const filtered = useMemo(() => records.filter((record) => (entityType === "all" ? true : entityType === "characters" ? record.type === "character" : record.type === entityType) && (reviewState === "all" || record.reviewStatus === reviewState)), [entityType, records, reviewState]);
 
-  useEffect(() => setSelectedIndex(0), [activeQuery, entityType]);
+  useEffect(() => setSelectedIndex(0), [activeQuery, entityType, reviewState]);
   const submit = (event: React.FormEvent) => { event.preventDefault(); setActiveQuery(query.trim()); };
   const onKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (!filtered.length) return;
