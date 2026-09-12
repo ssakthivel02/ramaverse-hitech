@@ -49,16 +49,16 @@ export default function Home() {
               <h1 id="hero-title" className="rv-hero-title gold-gradient-text">{t("heroTitle")}</h1>
               <p className="rv-hero-subtitle">{t("heroSubtitle")}</p>
               <div className="rv-hero-actions">
-                <Link href={localizedPath(language, "/kandas")}>
-                  <Button className="h-12 rounded-full bg-[#d7b45a] px-6 font-semibold text-[#070b14] shadow-[0_0_2rem_rgba(215,180,90,.18)] transition-transform hover:bg-[#f4d98b] active:scale-[.98]">
+                <Button asChild className="h-12 rounded-full bg-[#d7b45a] px-6 font-semibold text-[#070b14] shadow-[0_0_2rem_rgba(215,180,90,.18)] transition-transform hover:bg-[#f4d98b] active:scale-[.98]">
+                  <Link href={localizedPath(language, "/kandas")}>
                     {t("exploreKandas")} <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-                  </Button>
-                </Link>
-                <Link href={localizedPath(language, "/search")}>
-                  <Button variant="outline" className="h-12 rounded-full border-[#d7b45a]/40 bg-transparent px-6 text-[#f3e9d2] transition-colors hover:bg-[#d7b45a]/10 active:scale-[.98]">
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" className="h-12 rounded-full border-[#d7b45a]/40 bg-transparent px-6 text-[#f3e9d2] transition-colors hover:bg-[#d7b45a]/10 active:scale-[.98]">
+                  <Link href={localizedPath(language, "/search")}>
                     <Search className="mr-2 h-4 w-4 text-[#d7b45a]" aria-hidden="true" /> {t("guidedSearch")}
-                  </Button>
-                </Link>
+                  </Link>
+                </Button>
                 <Link href={localizedPath(language, "/walk-with-rama")} className="inline-flex h-12 items-center rounded-full border border-[#6ea4c5]/35 bg-[#6ea4c5]/[0.06] px-5 text-sm font-semibold text-[#d9edf5] transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f4d98b]">
                   <Compass className="mr-2 h-4 w-4 text-[#9bc9dd]" aria-hidden="true" /> Walk with Rama
                 </Link>
