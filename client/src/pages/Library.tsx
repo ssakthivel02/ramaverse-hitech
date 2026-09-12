@@ -35,7 +35,7 @@ export default function Library() {
             Library & Journal
           </h1>
           <p className="text-[#f3e9d2]/70 max-w-2xl mx-auto text-base">
-            Your private device-local bookmarks, favorites, and spiritual reflections. Stored securely on your device only.
+            Your device-local bookmarks, favorites, and spiritual reflections. Stored in this browser's local storage and not encrypted by RamaVerse.
           </p>
         </div>
 
