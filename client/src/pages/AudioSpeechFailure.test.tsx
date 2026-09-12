@@ -8,7 +8,7 @@ describe("Audio speech failure contract", () => {
   it("resets playback state and surfaces accessible feedback when speech synthesis fails", () => {
     expect(source).toContain("utterance.onerror = () => {");
     expect(source).toContain("resetSpeechState();");
-    expect(source).toContain("setSpeechError(\"Narration could not be played.");
+    expect(source).toContain("Narration could not be played. Please try again or use another browser voice.");
     expect(source).toContain('role="alert"');
     expect(source).toContain("Speech synthesis is not supported in this browser.");
   });
