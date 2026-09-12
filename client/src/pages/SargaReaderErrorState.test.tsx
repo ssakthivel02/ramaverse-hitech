@@ -1,7 +1,8 @@
 import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 
-const source = readFileSync(new URL("./SargaReader.tsx", import.meta.url), "utf8");
+const source = readFileSync(resolve(process.cwd(), "client/src/pages/SargaReader.tsx"), "utf8");
 
 describe("Sarga reader failure state", () => {
   it("distinguishes query failures from genuinely unavailable records", () => {
