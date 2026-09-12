@@ -12,7 +12,7 @@ export default function Audio() {
   const [activeSpeechId, setActiveSpeechId] = useState<number | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const { data: audioList, isLoading } = trpc.ramaverse.getAudioScripts.useQuery({
+  const { data: audioList, isLoading, error } = trpc.ramaverse.getAudioScripts.useQuery({
     search: search.trim() ? search : undefined,
   });
 
@@ -93,6 +93,8 @@ export default function Audio() {
 
         {isLoading ? (
           <div className="py-20 text-center text-[#d4af37]">Loading sacred audio transcripts...</div>
+        ) : error ? (
+          <div role="alert" className="py-20 text-center text-rose-200">Audio scripts could not be loaded. Please try again.</div>
         ) : audioList && audioList.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {audioList.map((a) => {
