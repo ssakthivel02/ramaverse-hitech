@@ -21,4 +21,13 @@ describe("Experience Center contract", () => {
     expect(source).toContain("Read source record");
     expect(source).toContain("Copy evidence card");
   });
+  it("surfaces clipboard success and failure instead of failing silently", () => {
+    expect(source).toContain("if (!navigator.clipboard)");
+    expect(source).toContain("try {");
+    expect(source).toContain("catch {");
+    expect(source).toContain('role="status"');
+    expect(source).toContain('aria-live="polite"');
+    expect(source).toContain("Evidence card copied.");
+    expect(source).toContain("Copy failed. Select the evidence text and copy it manually.");
+  });
 });
