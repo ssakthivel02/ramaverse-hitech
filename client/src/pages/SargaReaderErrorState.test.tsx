@@ -8,12 +8,13 @@ describe("Sarga reader failure state", () => {
   it("distinguishes query failures from genuinely unavailable records", () => {
     expect(source).toContain("const { data, isLoading, error } = trpc.ramaverse.getSargaDetail.useQuery");
 
-    const errorState = source.indexOf("if (error) return");
-    const unavailableState = source.indexOf("if (!sarga) return");
+    const renderStates = source.slice(source.indexOf("if (isLoading) return"));
+    const errorState = renderStates.indexOf("if (error) return");
+    const unavailableState = renderStates.indexOf("if (!sarga) return");
 
     expect(errorState).toBeGreaterThan(-1);
     expect(unavailableState).toBeGreaterThan(errorState);
-    expect(source).toContain('role="alert"');
-    expect(source).toContain('t("unexpectedError")');
+    expect(renderStates).toContain('role="alert"');
+    expect(renderStates).toContain('t("unexpectedError")');
   });
 });
