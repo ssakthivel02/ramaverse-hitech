@@ -36,7 +36,6 @@ export function RamaNavbar() {
     { href: "/journey", label: t("navJourney"), icon: Compass },
     { href: "/wisdom", label: t("navWisdom"), icon: Sparkles },
     { href: "/ask", label: t("navAsk"), icon: MessageSquare },
-    { href: "/intelligence", label: t("navAsk"), icon: Sparkles },
     { href: "/library", label: t("navLibrary"), icon: Bookmark },
     { href: "/search", label: t("navSearch"), icon: Search },
   ];
