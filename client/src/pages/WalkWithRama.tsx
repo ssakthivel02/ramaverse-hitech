@@ -33,7 +33,6 @@ function pickEvidence(query: string) {
 export default function WalkWithRama() {
   const { language } = useTranslation();
   const [selectedId, setSelectedId] = useState("courage");
-  const [audioOn, setAudioOn] = useState(false);
   const selected = situations.find(item => item.id === selectedId) ?? situations[0];
   const evidence = useMemo(() => pickEvidence(selected.search), [selected.search]);
 
@@ -54,7 +53,7 @@ export default function WalkWithRama() {
               <p className="mt-5 max-w-xl border-l border-[#d7b45a]/45 pl-4 text-sm leading-7 text-[#d7b45a]">This is a source-grounded reflection inspired by Rama&apos;s words and actions in the Ramayana—not a claim that Rama is literally speaking through this experience.</p>
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <a href="#situations" className="inline-flex h-11 items-center rounded-full bg-[#d7b45a] px-5 text-sm font-semibold text-[#070b14] transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f4d98b]">Begin with a situation <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" /></a>
-                <button type="button" className="inline-flex h-11 items-center gap-2 rounded-full border border-[#d7b45a]/35 px-5 text-sm text-[#f3e9d2]/80 transition-colors hover:bg-[#d7b45a]/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f4d98b]" aria-pressed={audioOn} onClick={() => setAudioOn(value => !value)}><span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#d7b45a]/15"><Waves className="h-3.5 w-3.5 text-[#d7b45a]" aria-hidden="true" /></span>{audioOn ? "Sound on" : "Sound off by default"}</button>
+                <span className="inline-flex h-11 items-center gap-2 rounded-full border border-[#d7b45a]/25 px-5 text-sm text-[#f3e9d2]/60"><span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#d7b45a]/10"><Waves className="h-3.5 w-3.5 text-[#d7b45a]/70" aria-hidden="true" /></span>Quiet experience · no audio playback</span>
               </div>
             </FadeReveal>
             <FadeReveal className="relative z-10" delay={140}>
