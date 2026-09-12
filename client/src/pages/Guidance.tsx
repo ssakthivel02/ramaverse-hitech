@@ -77,6 +77,10 @@ export default function Guidance() {
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
         ) : error ? (
           <div role="alert" className="text-center py-20 text-red-200">{t("unexpectedError")}</div>
+        ) : guidanceList?.length === 0 ? (
+          <div role="status" aria-live="polite" className="text-center py-20 text-[#f3e9d2]/70">
+            No guidance records match your current search and filters.
+          </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {guidanceList?.map((g) => (
