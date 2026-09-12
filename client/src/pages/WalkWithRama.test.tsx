@@ -23,4 +23,11 @@ describe("Walk with Rama experience contract", () => {
     expect(source).toContain('aria-live="polite"');
     expect(fs.readFileSync(path.resolve(import.meta.dirname, "../index.css"), "utf8")).toContain("prefers-reduced-motion: reduce");
   });
+
+  it("does not advertise audio playback that the experience does not implement", () => {
+    expect(source).toContain("Quiet experience · no audio playback");
+    expect(source).not.toContain("Sound on");
+    expect(source).not.toContain("Sound off by default");
+    expect(source).not.toContain("audioOn");
+  });
 });
