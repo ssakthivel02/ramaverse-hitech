@@ -41,13 +41,11 @@ export default function Journey() {
             {/* Timeline Milestones list */}
             <div className="space-y-3 max-h-[600px] overflow-y-auto pr-2">
               {places?.map((p, idx) => (
-                <div
+                <button
+                  type="button"
                   key={p.id}
-                  role="button"
-                  tabIndex={0}
                   onClick={() => setSelectedPlace(idx)}
-                  onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setSelectedPlace(idx); } }}
-                  className={`temple-card rounded-xl p-4 cursor-pointer transition-all border flex items-center justify-between ${selectedPlace === idx ? 'border-[#d4af37] bg-[#162032]' : 'border-[#d4af37]/20 hover:border-[#d4af37]/50'}`}
+                  className={`temple-card w-full rounded-xl p-4 text-left cursor-pointer transition-all border flex items-center justify-between ${selectedPlace === idx ? 'border-[#d4af37] bg-[#162032]' : 'border-[#d4af37]/20 hover:border-[#d4af37]/50'}`}
                 >
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/30 flex items-center justify-center text-[#d4af37] font-bold text-xs">
@@ -59,7 +57,7 @@ export default function Journey() {
                     </div>
                   </div>
                   <ArrowRight className="w-4 h-4 text-[#d4af37]" />
-                </div>
+                </button>
               ))}
             </div>
 
