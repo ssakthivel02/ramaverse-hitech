@@ -38,7 +38,7 @@ describe("Guidance boundary error state", () => {
   it("does not present fallback boundary claims when the boundary API fails", () => {
     render(<Guidance />);
 
-    expect(screen.getByRole("alert")).toBeInTheDocument();
-    expect(screen.queryByRole("region", { name: /Guidance and devotional boundary/i })).not.toBeInTheDocument();
+    expect(screen.getByRole("alert")).toBeTruthy();
+    expect(screen.queryByRole("region", { name: /Guidance and devotional boundary/i })).toBeNull();
   });
 });
