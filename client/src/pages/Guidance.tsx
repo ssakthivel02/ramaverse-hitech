@@ -18,7 +18,7 @@ export default function Guidance() {
     search: search.trim() ? search : undefined,
     theme: theme !== "All" ? theme : undefined,
   });
-  const { data: boundary } = trpc.ramaverse.getGuidanceDevotionBoundary.useQuery();
+  const { data: boundary, error: boundaryError } = trpc.ramaverse.getGuidanceDevotionBoundary.useQuery();
 
   const themes = ["All", "Leadership & Duty", "Patience in Adversity", "Devotion & Surrender", "Family Harmony"];
 
@@ -40,13 +40,18 @@ export default function Guidance() {
           </p>
         </div>
 
-        <section aria-label={t("guidanceBoundaryAria")} className="mb-8 rounded-2xl border border-[#d4af37]/25 bg-[#162032]/65 p-5 text-sm leading-relaxed text-[#f3e9d2]/80">
-          <div className="flex flex-wrap items-center gap-3"><TraditionClassificationBadge classification="EDITORIAL_APPLICATION" /><h2 className="font-serif text-lg font-bold text-[#f3e9d2]">{t("guidanceBoundary")}</h2></div>
-          <p className="mt-3">{boundary?.guidance.evidenceRule ?? "These entries are editorial life applications linked to their stated Kanda and character references."} {boundary?.devotion.evidenceRule ?? "Traditional devotional practices require a named tradition source, an explicit purpose statement, and a no-outcome-guarantee disclaimer."}</p>
-          <p className="mt-2 text-xs text-[#d4af37]">{formatTranslation(t("publishedLayer"), { n: boundary?.devotion.recordCount ?? 0 })}</p>
-        </section>
+        {boundaryError ? (
+          <div role="alert" className="mb-8 rounded-2xl border border-red-300/25 bg-red-300/5 p-5 text-sm leading-relaxed text-red-100">
+            {t("unexpectedError")}
+          </div>
+        ) : (
+          <section aria-label={t("guidanceBoundaryAria")} className="mb-8 rounded-2xl border border-[#d4af37]/25 bg-[#162032]/65 p-5 text-sm leading-relaxed text-[#f3e9d2]/80">
+            <div className="flex flex-wrap items-center gap-3"><TraditionClassificationBadge classification="EDITORIAL_APPLICATION" /><h2 className="font-serif text-lg font-bold text-[#f3e9d2]">{t("guidanceBoundary")}</h2></div>
+            <p className="mt-3">{boundary?.guidance.evidenceRule ?? "These entries are editorial life applications linked to their stated Kanda and character references."} {boundary?.devotion.evidenceRule ?? "Traditional devotional practices require a named tradition source, an explicit purpose statement, and a no-outcome-guarantee disclaimer."}</p>
+            <p className="mt-2 text-xs text-[#d4af37]">{formatTranslation(t("publishedLayer"), { n: boundary?.devotion.recordCount ?? 0 })}</p>
+          </section>
+        )}
 
-        {/* Search & Filter Bar */}
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-between mb-12">
           <div className="relative w-full sm:w-96">
             <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-[#d4af37]" />
@@ -95,13 +100,13 @@ export default function Guidance() {
                   <h3 className="font-serif text-lg font-bold text-[#f3e9d2] mb-3">{g.title}</h3>
                   <p className="text-xs text-[#f3e9d2]/80 leading-relaxed mb-4">{g.advice}</p>
                 </div>
-                  <div className="border-t border-white/10 pt-4 mt-2 flex items-center justify-between text-[11px] text-[#f3e9d2]/60">
-                    <span>{t("kanda")} : {g.kandaReference}</span>
-                    <span className="text-[#d4af37] font-medium">{g.characterReference}</span>
-                    <ReviewStatusBadge reviewStatus={g.reviewStatus} />
-                  </div>
-                  <div className="mt-3"><TraditionClassificationBadge classification="EDITORIAL_APPLICATION" /></div>
+                <div className="border-t border-white/10 pt-4 mt-2 flex items-center justify-between text-[11px] text-[#f3e9d2]/60">
+                  <span>{t("kanda")} : {g.kandaReference}</span>
+                  <span className="text-[#d4af37] font-medium">{g.characterReference}</span>
+                  <ReviewStatusBadge reviewStatus={g.reviewStatus} />
                 </div>
+                <div className="mt-3"><TraditionClassificationBadge classification="EDITORIAL_APPLICATION" /></div>
+              </div>
             ))}
           </div>
         )}
