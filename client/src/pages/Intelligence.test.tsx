@@ -1,6 +1,6 @@
 import React from "react";
-import { describe, expect, it, vi } from "vitest";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 
 vi.mock("@/components/RamaNavbar", () => ({ RamaNavbar: () => null }));
 vi.mock("@/components/RamaFooter", () => ({ RamaFooter: () => null }));
@@ -62,6 +62,10 @@ vi.mock("@/lib/trpc", () => ({
 }));
 
 import Intelligence from "./Intelligence";
+
+afterEach(() => {
+  cleanup();
+});
 
 describe("Intelligence workbench", () => {
   it("shows grounded evidence and provenance fields", () => {
