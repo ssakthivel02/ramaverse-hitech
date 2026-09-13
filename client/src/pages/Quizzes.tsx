@@ -11,7 +11,7 @@ export default function Quizzes() {
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, number>>({});
   const [showResults, setShowResults] = useState<Record<number, boolean>>({});
 
-  const { data: quizzesList, isLoading } = trpc.ramaverse.getQuizzes.useQuery({
+  const { data: quizzesList, isLoading, error } = trpc.ramaverse.getQuizzes.useQuery({
     difficulty: difficulty !== "All" ? difficulty : undefined,
   });
 
@@ -57,6 +57,10 @@ export default function Quizzes() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">Loading 100 quizzes...</div>
+        ) : error ? (
+          <div role="alert" className="text-center py-20 text-red-300">
+            Unable to load quizzes. Please try again.
+          </div>
         ) : hasNoMatches ? (
           <div role="status" aria-live="polite" className="text-center py-20 text-sm text-[#f3e9d2]/60">
             No quizzes match the selected difficulty.
