@@ -14,7 +14,7 @@ export default function Places() {
   const [search, setSearch] = useState("");
   const [selectedPlaceId, setSelectedPlaceId] = useState<number | null>(null);
 
-  const { data: placesList, isLoading } = trpc.ramaverse.getPlaces.useQuery({
+  const { data: placesList, isLoading, error } = trpc.ramaverse.getPlaces.useQuery({
     search: search.trim() ? search : undefined,
   });
   const selectedPlace = placesList?.find((place) => place.id === selectedPlaceId);
@@ -55,6 +55,8 @@ export default function Places() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+        ) : error ? (
+          <div role="alert" className="text-center py-20 text-red-200">{t("unexpectedError")}</div>
         ) : placesList?.length === 0 ? (
           <div role="status" aria-live="polite" className="text-center py-20 text-[#f3e9d2]/70">
             No sacred places match your current search.
