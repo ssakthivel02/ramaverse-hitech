@@ -19,7 +19,7 @@ type SourceReadinessRecord = {
 
 export default function Kandas() {
   const { language, t } = useTranslation();
-  const { data: kandas, isLoading } = trpc.ramaverse.getKandas.useQuery();
+  const { data: kandas, isLoading, error } = trpc.ramaverse.getKandas.useQuery();
   const { data: sargas } = trpc.ramaverse.getSargas.useQuery();
   const { data: sourceReview } = trpc.ramaverse.getSourceReviewPreview.useQuery();
   const { data: sourceReadiness } = trpc.ramaverse.getSourceReadinessPreview.useQuery();
@@ -66,6 +66,8 @@ export default function Kandas() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("loadingKandas")}</div>
+        ) : error ? (
+          <div role="alert" className="text-center py-20 text-sm text-rose-200">{t("unexpectedError")}</div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Kandas List */}
