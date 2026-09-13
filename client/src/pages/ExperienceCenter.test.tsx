@@ -4,6 +4,8 @@ import path from "node:path";
 
 describe("Experience Center contract", () => {
   const source = fs.readFileSync(path.resolve(process.cwd(), "client/src/pages/ExperienceCenter.tsx"), "utf8");
+  const appSource = fs.readFileSync(path.resolve(process.cwd(), "client/src/App.tsx"), "utf8");
+
   it("keeps the experience source-grounded and avoids outcome guarantees", () => {
     expect(source).toContain("source-aware");
     expect(source).toContain("no promised outcome");
@@ -14,6 +16,10 @@ describe("Experience Center contract", () => {
     expect(source).toContain('aria-label="Experience modes"');
     expect(source).toContain("aria-pressed={mode === item}");
     expect(source).toContain("aria-pressed={age === band}");
+  });
+  it("uses the single app-shell main-content skip target", () => {
+    expect(appSource).toContain('id="main-content"');
+    expect(source).not.toContain('id="main-content"');
   });
   it("retains evidence identity and source-reader navigation", () => {
     expect(source).toContain("Record ID");
