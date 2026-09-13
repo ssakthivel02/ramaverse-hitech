@@ -116,6 +116,10 @@ export default function Characters() {
           <div role="alert" className="text-center py-20 text-rose-200">{t("unexpectedError")}</div>
         ) : isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("loadingCharacters")}</div>
+        ) : charactersList?.length === 0 ? (
+          <div role="status" aria-live="polite" className="text-center py-20 text-[#f3e9d2]/70">
+            No character records match your current search and filters.
+          </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {charactersList?.map((c) => (
