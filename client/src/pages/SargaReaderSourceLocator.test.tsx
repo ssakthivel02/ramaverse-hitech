@@ -50,7 +50,7 @@ describe("Sarga reader source locator availability", () => {
     render(<SargaReader />);
 
     expect(screen.getByRole("button", { name: /sourcePanel/i })).toBeDefined();
-    expect(screen.getByText(/notAcquired/i)).toBeDefined();
+    expect(screen.getByText(/notAcquired\s*·\s*directLocator/i)).toBeDefined();
     expect(screen.queryByRole("link", { name: /openSourceLocator/i })).toBeNull();
   });
 });
