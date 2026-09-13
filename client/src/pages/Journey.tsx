@@ -34,6 +34,8 @@ export default function Journey() {
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
         ) : error ? (
           <div role="alert" className="text-center py-20 text-red-300">{t("unexpectedError")}</div>
+        ) : (places?.length ?? 0) === 0 ? (
+          <div role="status" aria-live="polite" className="text-center py-20 text-[#f3e9d2]/60">{t("noRecords")}</div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Timeline Milestones list */}
