@@ -46,7 +46,7 @@ export default function ExperienceCenter() {
   return (
     <div className="min-h-screen bg-[#080d17] text-[#f4ead4]">
       <RamaNavbar />
-      <main id="main-content" className="mx-auto max-w-7xl px-4 pb-20 pt-12 sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-7xl px-4 pb-20 pt-12 sm:px-6 lg:px-8">
         <section className="rv-experience-hero mb-8 overflow-hidden rounded-[2rem] border border-[#d7b45a]/25 px-6 py-10 sm:px-10">
           <div className="relative z-10 max-w-3xl">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#d7b45a]/30 bg-[#d7b45a]/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#f4d98b]"><Sparkles className="h-3.5 w-3.5" />RamaVerse Experience Studio</div>
