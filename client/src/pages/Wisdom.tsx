@@ -19,6 +19,7 @@ export default function Wisdom() {
   });
 
   const categories = ["All", "Dharma", "Leadership", "Devotion"];
+  const hasNoMatches = !isLoading && wisdomList?.length === 0 && (Boolean(search.trim()) || category !== "All");
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0b101b] text-[#f3e9d2]">
@@ -67,6 +68,10 @@ export default function Wisdom() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+        ) : hasNoMatches ? (
+          <div role="status" aria-live="polite" className="py-20 text-center text-sm text-[#f3e9d2]/60">
+            No wisdom records match your current search and filters.
+          </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {wisdomList?.map((w) => (
