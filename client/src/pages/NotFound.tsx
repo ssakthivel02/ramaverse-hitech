@@ -1,13 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { localizedPath, useTranslation } from "@/contexts/MultilingualContext";
 import { AlertCircle, Home } from "lucide-react";
 import { useLocation } from "wouter";
 
 export default function NotFound() {
+  const { language } = useTranslation();
   const [, setLocation] = useLocation();
 
   const handleGoHome = () => {
-    setLocation("/");
+    setLocation(localizedPath(language, "/"));
   };
 
   return (
