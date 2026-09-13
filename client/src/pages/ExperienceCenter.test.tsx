@@ -27,6 +27,17 @@ describe("Experience Center contract", () => {
     expect(source).toContain("Read source record");
     expect(source).toContain("Copy evidence card");
   });
+  it("preserves the selected interface language across internal navigation", () => {
+    expect(source).toContain('localizedPath(language, "/walk-with-rama")');
+    expect(source).toContain('localizedPath(language, "/search")');
+    expect(source).toContain('localizedPath(language, "/library")');
+    expect(source).toContain('localizedPath(language, "/journey")');
+    expect(source).toContain('localizedPath(language, `/sargas/${encodeURIComponent(record.id)}`)');
+    expect(source).not.toContain('href="/walk-with-rama"');
+    expect(source).not.toContain('href="/search"');
+    expect(source).not.toContain('href="/library"');
+    expect(source).not.toContain('href="/journey"');
+  });
   it("surfaces clipboard success and failure instead of failing silently", () => {
     expect(source).toContain("if (!navigator.clipboard)");
     expect(source).toContain("try {");
