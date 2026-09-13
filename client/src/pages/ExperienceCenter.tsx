@@ -21,7 +21,7 @@ function dayIndex(length: number) {
 }
 
 export default function ExperienceCenter() {
-  const { t, language } = useTranslation();
+  const { language } = useTranslation();
   const [mode, setMode] = useState<Mode>("daily");
   const [age, setAge] = useState<(typeof ageBands)[number]>("8–10");
   const [copyStatus, setCopyStatus] = useState<"idle" | "success" | "error">("idle");
