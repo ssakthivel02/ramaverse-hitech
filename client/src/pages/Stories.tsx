@@ -12,6 +12,7 @@ export default function Stories() {
   const { data: storiesList, isLoading } = trpc.ramaverse.getStories.useQuery({
     search: search.trim() ? search : undefined,
   });
+  const hasNoMatches = !isLoading && Boolean(search.trim()) && storiesList?.length === 0;
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0b101b] text-[#f3e9d2]">
@@ -47,6 +48,10 @@ export default function Stories() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">Loading 30 kids stories...</div>
+        ) : hasNoMatches ? (
+          <div role="status" aria-live="polite" className="text-center py-20 text-sm text-[#f3e9d2]/60">
+            No kids stories match your current search.
+          </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {storiesList?.map((s) => (
