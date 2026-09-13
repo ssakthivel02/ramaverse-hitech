@@ -9,7 +9,7 @@ import { ReviewStatusBadge } from "@/components/ReviewStatusBadge";
 export default function Stories() {
   const [search, setSearch] = useState("");
 
-  const { data: storiesList, isLoading } = trpc.ramaverse.getStories.useQuery({
+  const { data: storiesList, isLoading, error } = trpc.ramaverse.getStories.useQuery({
     search: search.trim() ? search : undefined,
   });
   const hasNoMatches = !isLoading && Boolean(search.trim()) && storiesList?.length === 0;
@@ -48,6 +48,8 @@ export default function Stories() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">Loading 30 kids stories...</div>
+        ) : error ? (
+          <div role="alert" className="text-center py-20 text-red-300">Unable to load kids stories right now.</div>
         ) : hasNoMatches ? (
           <div role="status" aria-live="polite" className="text-center py-20 text-sm text-[#f3e9d2]/60">
             No kids stories match your current search.
