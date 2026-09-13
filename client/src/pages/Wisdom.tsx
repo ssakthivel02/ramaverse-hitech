@@ -13,13 +13,13 @@ export default function Wisdom() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
 
-  const { data: wisdomList, isLoading } = trpc.ramaverse.getWisdom.useQuery({
+  const { data: wisdomList, isLoading, error } = trpc.ramaverse.getWisdom.useQuery({
     search: search.trim() ? search : undefined,
     category: category !== "All" ? category : undefined,
   });
 
   const categories = ["All", "Dharma", "Leadership", "Devotion"];
-  const hasNoMatches = !isLoading && wisdomList?.length === 0 && (Boolean(search.trim()) || category !== "All");
+  const hasNoMatches = !isLoading && !error && wisdomList?.length === 0 && (Boolean(search.trim()) || category !== "All");
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0b101b] text-[#f3e9d2]">
@@ -68,6 +68,8 @@ export default function Wisdom() {
 
         {isLoading ? (
           <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+        ) : error ? (
+          <div role="alert" className="py-20 text-center text-sm text-rose-200">{t("unexpectedError")}</div>
         ) : hasNoMatches ? (
           <div role="status" aria-live="polite" className="py-20 text-center text-sm text-[#f3e9d2]/60">
             No wisdom records match your current search and filters.
