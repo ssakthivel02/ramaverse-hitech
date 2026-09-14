@@ -31,7 +31,7 @@ export default function Journey() {
         </div>
 
         {isLoading ? (
-          <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+          <div role="status" aria-live="polite" aria-atomic="true" className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
         ) : error ? (
           <div role="alert" className="text-center py-20 text-red-300">{t("unexpectedError")}</div>
         ) : (places?.length ?? 0) === 0 ? (
