@@ -92,7 +92,7 @@ export default function Library() {
               <Upload className="w-3.5 h-3.5 mr-2" /> Restore Backup
             </Button>
             <Button variant="outline" onClick={() => { if(confirm("Are you sure you want to clear all local library data?")) clearAllData(); }} className="text-xs border-red-500/30 text-red-400 hover:bg-red-500/10">
-              <Trash2 className="w-3.5 h-3.5 mr-1" /> Clear All
+              <Trash2 className="w-3.5 h-3.5 mr-2" /> Clear All
             </Button>
           </div>
         </div>
