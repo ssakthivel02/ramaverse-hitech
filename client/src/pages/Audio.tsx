@@ -166,7 +166,7 @@ export default function Audio() {
             })}
           </div>
         ) : (
-          <div className="py-20 text-center text-[#f3e9d2]/60">No audio scripts matching your search were found.</div>
+          <div role="status" aria-live="polite" aria-atomic="true" className="py-20 text-center text-[#f3e9d2]/60">No audio scripts matching your search were found.</div>
         )}
       </main>
       <RamaFooter />
