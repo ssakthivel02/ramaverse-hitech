@@ -97,7 +97,16 @@ export function RamaNavbar() {
             <LanguageSelector />
             {/* Mobile menu button */}
             <div className="flex lg:hidden">
-              <Button data-testid="mobile-nav-toggle" aria-label={mobileMenuOpen ? t("closeMenu") : t("openMenu")} variant="ghost" size="icon" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="text-[#d4af37]">
+              <Button
+                data-testid="mobile-nav-toggle"
+                aria-label={mobileMenuOpen ? t("closeMenu") : t("openMenu")}
+                aria-expanded={mobileMenuOpen}
+                aria-controls="ramaverse-mobile-menu"
+                variant="ghost"
+                size="icon"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="text-[#d4af37]"
+              >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </Button>
             </div>
@@ -107,7 +116,7 @@ export function RamaNavbar() {
 
       {/* Mobile dropdown */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#162032] border-b border-[#d4af37]/30 px-4 pt-2 pb-6 space-y-2 max-h-[80vh] overflow-y-auto">
+        <div id="ramaverse-mobile-menu" className="lg:hidden bg-[#162032] border-b border-[#d4af37]/30 px-4 pt-2 pb-6 space-y-2 max-h-[80vh] overflow-y-auto">
           <div className="py-3 px-2 border-b border-white/10 mb-2"><LanguageSelector mobile /></div>
           <p className="text-[10px] uppercase tracking-widest text-[#d4af37] px-4 py-2 font-bold opacity-60">{t("navPrimary")}</p>
           {mainLinks.map((item) => (
