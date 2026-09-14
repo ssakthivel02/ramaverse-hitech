@@ -143,8 +143,9 @@ export default function Library() {
               </h3>
               <form onSubmit={handleAddNote} className="space-y-4">
                 <div>
-                  <label className="block text-xs text-[#f3e9d2]/70 mb-1">Title</label>
+                  <label htmlFor="library-note-title" className="block text-xs text-[#f3e9d2]/70 mb-1">Title</label>
                   <Input
+                    id="library-note-title"
                     type="text"
                     placeholder="e.g., Reflections on Surrender"
                     value={noteTitle}
@@ -153,8 +154,9 @@ export default function Library() {
                   />
                 </div>
                 <div>
-                  <label className="block text-xs text-[#f3e9d2]/70 mb-1">Spiritual Note</label>
+                  <label htmlFor="library-note-content" className="block text-xs text-[#f3e9d2]/70 mb-1">Spiritual Note</label>
                   <Textarea
+                    id="library-note-content"
                     placeholder="Write your reflection here..."
                     rows={5}
                     value={noteContent}
