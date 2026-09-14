@@ -48,7 +48,7 @@ export default function Stories() {
         </div>
 
         {isLoading ? (
-          <div className="text-center py-20 text-[#d4af37]">Loading 30 kids stories...</div>
+          <div role="status" aria-live="polite" aria-atomic="true" className="text-center py-20 text-[#d4af37]">Loading 30 kids stories...</div>
         ) : error ? (
           <div role="alert" className="text-center py-20 text-red-300">Unable to load kids stories right now.</div>
         ) : hasNoMatches ? (
