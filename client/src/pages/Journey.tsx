@@ -45,6 +45,7 @@ export default function Journey() {
                   type="button"
                   key={p.id}
                   onClick={() => setSelectedPlace(idx)}
+                  aria-pressed={selectedPlace === idx}
                   className={`temple-card w-full rounded-xl p-4 text-left cursor-pointer transition-all border flex items-center justify-between ${selectedPlace === idx ? 'border-[#d4af37] bg-[#162032]' : 'border-[#d4af37]/20 hover:border-[#d4af37]/50'}`}
                 >
                   <div className="flex items-center gap-3">
