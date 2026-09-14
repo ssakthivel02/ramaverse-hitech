@@ -107,7 +107,7 @@ export default function Audio() {
         )}
 
         {isLoading ? (
-          <div className="py-20 text-center text-[#d4af37]">Loading sacred audio transcripts...</div>
+          <div role="status" aria-live="polite" aria-atomic="true" className="py-20 text-center text-[#d4af37]">Loading sacred audio transcripts...</div>
         ) : error ? (
           <div role="alert" className="py-20 text-center text-rose-200">Audio scripts could not be loaded. Please try again.</div>
         ) : audioList && audioList.length > 0 ? (
