@@ -81,6 +81,7 @@ export default function Audio() {
           <div className="relative w-full md:w-96">
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#d4af37]/60" />
             <Input
+              aria-label="Search narration scripts"
               placeholder="Search narration scripts..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
