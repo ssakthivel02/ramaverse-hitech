@@ -68,7 +68,7 @@ export default function Wisdom() {
         </div>
 
         {isLoading ? (
-          <div className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
+          <div role="status" aria-live="polite" aria-atomic="true" className="text-center py-20 text-[#d4af37]">{t("searching")}</div>
         ) : error ? (
           <div role="alert" className="py-20 text-center text-sm text-rose-200">{t("unexpectedError")}</div>
         ) : hasNoMatches ? (
