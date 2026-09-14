@@ -120,14 +120,14 @@ export function RamaNavbar() {
           <div className="py-3 px-2 border-b border-white/10 mb-2"><LanguageSelector mobile /></div>
           <p className="text-[10px] uppercase tracking-widest text-[#d4af37] px-4 py-2 font-bold opacity-60">{t("navPrimary")}</p>
           {mainLinks.map((item) => (
-            <Link key={item.href} href={localizedPath(language, item.href)} onClick={() => setMobileMenuOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all no-underline ${currentPath === item.href ? 'bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40' : 'text-[#f3e9d2]/80 hover:text-[#f3e9d2]'}`}>
+            <Link key={item.href} aria-current={currentPath === item.href ? 'page' : undefined} href={localizedPath(language, item.href)} onClick={() => setMobileMenuOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all no-underline ${currentPath === item.href ? 'bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40' : 'text-[#f3e9d2]/80 hover:text-[#f3e9d2]'}`}>
               <item.icon className="w-4 h-4 text-[#d4af37]" />
               {item.label}
             </Link>
           ))}
           <p className="text-[10px] uppercase tracking-widest text-[#d4af37] px-4 py-2 font-bold opacity-60 mt-4">{t("navExploreSection")}</p>
           {exploreLinks.map((item) => (
-            <Link key={item.href} href={localizedPath(language, item.href)} onClick={() => setMobileMenuOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all no-underline ${currentPath === item.href ? 'bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40' : 'text-[#f3e9d2]/80 hover:text-[#f3e9d2]'}`}>
+            <Link key={item.href} aria-current={currentPath === item.href ? 'page' : undefined} href={localizedPath(language, item.href)} onClick={() => setMobileMenuOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all no-underline ${currentPath === item.href ? 'bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40' : 'text-[#f3e9d2]/80 hover:text-[#f3e9d2]'}`}>
               <item.icon className="w-4 h-4 text-[#d4af37]" />
               {item.label}
             </Link>
