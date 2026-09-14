@@ -46,6 +46,7 @@ export default function Quizzes() {
           {difficulties.map((diff) => (
             <Button
               key={diff}
+              aria-pressed={difficulty === diff}
               variant={difficulty === diff ? "default" : "outline"}
               onClick={() => setDifficulty(diff)}
               className={`text-xs ${difficulty === diff ? 'bg-[#d4af37] text-[#0b101b] font-bold' : 'border-[#d4af37]/30 text-[#f3e9d2] hover:bg-[#d4af37]/10'}`}
