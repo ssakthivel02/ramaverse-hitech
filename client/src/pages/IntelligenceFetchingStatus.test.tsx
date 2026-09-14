@@ -1,8 +1,7 @@
 import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 
-const source = readFileSync(fileURLToPath(new URL("./Intelligence.tsx", import.meta.url)), "utf8");
+const source = readFileSync("client/src/pages/Intelligence.tsx", "utf8");
 
 describe("Intelligence fetching status", () => {
   it("announces the canonical-index fetch as a polite atomic status", () => {
