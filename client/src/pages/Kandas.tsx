@@ -65,7 +65,7 @@ export default function Kandas() {
         </div>
 
         {isLoading ? (
-          <div className="text-center py-20 text-[#d4af37]">{t("loadingKandas")}</div>
+          <div role="status" aria-live="polite" aria-atomic="true" className="text-center py-20 text-[#d4af37]">{t("loadingKandas")}</div>
         ) : error ? (
           <div role="alert" className="text-center py-20 text-sm text-rose-200">{t("unexpectedError")}</div>
         ) : (
