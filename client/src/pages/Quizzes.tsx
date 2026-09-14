@@ -16,7 +16,7 @@ export default function Quizzes() {
   });
 
   const difficulties = ["All", "Easy", "Medium", "Hard"];
-  const hasNoMatches = !isLoading && difficulty !== "All" && quizzesList?.length === 0;
+  const hasNoMatches = !isLoading && quizzesList?.length === 0;
 
   const handleSelectOption = (quizId: number, optionIndex: number) => {
     setSelectedAnswers(prev => ({ ...prev, [quizId]: optionIndex }));
@@ -64,7 +64,7 @@ export default function Quizzes() {
           </div>
         ) : hasNoMatches ? (
           <div role="status" aria-live="polite" className="text-center py-20 text-sm text-[#f3e9d2]/60">
-            No quizzes match the selected difficulty.
+            {difficulty === "All" ? "No quizzes are available yet." : "No quizzes match the selected difficulty."}
           </div>
         ) : (
           <div className="space-y-8">
