@@ -60,6 +60,7 @@ export default function Library() {
           <div className="flex gap-2">
             <Button
               variant={activeTab === 'bookmarks' ? 'default' : 'outline'}
+              aria-pressed={activeTab === 'bookmarks'}
               onClick={() => setActiveTab('bookmarks')}
               className={`text-xs ${activeTab === 'bookmarks' ? 'bg-[#d4af37] text-[#0b101b] font-bold' : 'border-[#d4af37]/30 text-[#f3e9d2]'}`}
             >
@@ -67,6 +68,7 @@ export default function Library() {
             </Button>
             <Button
               variant={activeTab === 'journal' ? 'default' : 'outline'}
+              aria-pressed={activeTab === 'journal'}
               onClick={() => setActiveTab('journal')}
               className={`text-xs ${activeTab === 'journal' ? 'bg-[#d4af37] text-[#0b101b] font-bold' : 'border-[#d4af37]/30 text-[#f3e9d2]'}`}
             >
