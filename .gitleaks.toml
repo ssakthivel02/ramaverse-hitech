@@ -1,0 +1,11 @@
+title = "RamaVerse Gitleaks configuration"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Known-safe accessibility design token name"
+regexTarget = "secret"
+regexes = [
+  '''^primary-ivory$''',
+]
