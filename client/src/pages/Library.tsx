@@ -60,6 +60,7 @@ export default function Library() {
           <div className="flex gap-2">
             <Button
               variant={activeTab === 'bookmarks' ? 'default' : 'outline'}
+              aria-pressed={activeTab === 'bookmarks'}
               onClick={() => setActiveTab('bookmarks')}
               className={`text-xs ${activeTab === 'bookmarks' ? 'bg-[#d4af37] text-[#0b101b] font-bold' : 'border-[#d4af37]/30 text-[#f3e9d2]'}`}
             >
@@ -67,6 +68,7 @@ export default function Library() {
             </Button>
             <Button
               variant={activeTab === 'journal' ? 'default' : 'outline'}
+              aria-pressed={activeTab === 'journal'}
               onClick={() => setActiveTab('journal')}
               className={`text-xs ${activeTab === 'journal' ? 'bg-[#d4af37] text-[#0b101b] font-bold' : 'border-[#d4af37]/30 text-[#f3e9d2]'}`}
             >
@@ -90,7 +92,7 @@ export default function Library() {
               <Upload className="w-3.5 h-3.5 mr-2" /> Restore Backup
             </Button>
             <Button variant="outline" onClick={() => { if(confirm("Are you sure you want to clear all local library data?")) clearAllData(); }} className="text-xs border-red-500/30 text-red-400 hover:bg-red-500/10">
-              <Trash2 className="w-3.5 h-3.5 mr-2" /> Clear All
+              <Trash2 className="w-3.5 h-3.5 mr-1" /> Clear All
             </Button>
           </div>
         </div>
