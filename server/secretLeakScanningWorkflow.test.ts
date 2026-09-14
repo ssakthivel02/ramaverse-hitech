@@ -5,9 +5,11 @@ import { describe, expect, it } from 'vitest';
 const root = process.cwd();
 const workflowPath = path.join(root, '.github/workflows/secret-leak-scan.yml');
 const policyPath = path.join(root, 'SECRET_LEAK_SCANNING.md');
+const configPath = path.join(root, '.gitleaks.toml');
 
 const workflow = fs.readFileSync(workflowPath, 'utf8');
 const policy = fs.readFileSync(policyPath, 'utf8');
+const config = fs.readFileSync(configPath, 'utf8');
 
 describe('secret leak scanning security contract', () => {
   it('runs on pull requests, main pushes, schedule, and manual dispatch', () => {
@@ -27,6 +29,15 @@ describe('secret leak scanning security contract', () => {
   it('keeps workflow permissions read-only', () => {
     expect(workflow).toMatch(/permissions:\s*\n\s+contents:\s+read/);
     expect(workflow).not.toMatch(/contents:\s+write/);
+  });
+
+  it('keeps the default detector set and narrowly allowlists only the known-safe design token', () => {
+    expect(config).toContain('useDefault = true');
+    expect(config).toContain('regexTarget = "secret"');
+    expect(config).toContain("'''^primary-ivory$'''");
+    expect(config).not.toContain('disabledRules');
+    expect(config).not.toContain('paths =');
+    expect(config).not.toContain('commits =');
   });
 
   it('documents fail-closed handling and native-scanning boundary', () => {
