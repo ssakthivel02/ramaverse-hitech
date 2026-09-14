@@ -69,7 +69,7 @@ function Router() {
       <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">
         {routeAnnouncement}
       </p>
-      <Suspense fallback={<main className="min-h-screen bg-[#0b101b] px-6 py-24 text-center text-sm text-[#d4af37]">Preparing RamaVerse…</main>}>
+      <Suspense fallback={<main role="status" aria-live="polite" aria-atomic="true" className="min-h-screen bg-[#0b101b] px-6 py-24 text-center text-sm text-[#d4af37]">Preparing RamaVerse…</main>}>
         <Switch location={normalized.path}>
         <Route path={"/"} component={Home} />
         <Route path={"/kandas"} component={Kandas} />
