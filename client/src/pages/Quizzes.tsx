@@ -116,7 +116,7 @@ export default function Quizzes() {
                   </div>
 
                   {isAnswered && (
-                    <div className={`p-4 rounded-xl border text-xs space-y-2 ${isCorrect ? 'bg-green-950/30 border-green-500/30 text-green-200' : 'bg-amber-950/30 border-amber-500/30 text-amber-200'}`}>
+                    <div role="status" aria-live="polite" aria-atomic="true" className={`p-4 rounded-xl border text-xs space-y-2 ${isCorrect ? 'bg-green-950/30 border-green-500/30 text-green-200' : 'bg-amber-950/30 border-amber-500/30 text-amber-200'}`}>
                       <p className="font-semibold">{isCorrect ? "Correct! Excellent understanding." : "Incorrect. Review the correct option above."}</p>
                       <p className="text-[#f3e9d2]/80">{q.explanation}</p>
                     </div>
