@@ -107,7 +107,7 @@ export default function Library() {
 
         {activeTab === 'bookmarks' ? (
           bookmarks.length === 0 ? (
-            <div className="text-center py-24 temple-card rounded-2xl border border-[#d4af37]/20">
+            <div role="status" aria-live="polite" className="text-center py-24 temple-card rounded-2xl border border-[#d4af37]/20">
               <Bookmark className="w-12 h-12 text-[#d4af37]/40 mx-auto mb-4" />
               <h3 className="font-serif text-xl font-bold text-[#f3e9d2] mb-2">No Bookmarks Saved Yet</h3>
               <p className="text-xs text-[#f3e9d2]/60 max-w-md mx-auto">
@@ -175,7 +175,7 @@ export default function Library() {
             {/* Notes List */}
             <div className="lg:col-span-2 space-y-4">
               {journalNotes.length === 0 ? (
-                <div className="text-center py-24 temple-card rounded-2xl border border-[#d4af37]/20">
+                <div role="status" aria-live="polite" className="text-center py-24 temple-card rounded-2xl border border-[#d4af37]/20">
                   <BookOpen className="w-12 h-12 text-[#d4af37]/40 mx-auto mb-4" />
                   <h3 className="font-serif text-xl font-bold text-[#f3e9d2] mb-2">No Spiritual Reflections Yet</h3>
                   <p className="text-xs text-[#f3e9d2]/60 max-w-md mx-auto">
