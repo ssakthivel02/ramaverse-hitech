@@ -59,7 +59,7 @@ export default function SargaReader() {
 
   if (error) return <div className="rv-shell min-h-screen bg-[#070b14] text-[#f3e9d2]"><RamaNavbar /><main role="alert" className="mx-auto max-w-4xl px-6 py-24"><h1 className="font-serif text-3xl text-[#d4af37]">{t("unexpectedError")}</h1><Link href={localizedPath(language, "/kandas")} className="mt-6 inline-block text-[#d4af37]">{t("returnKandas")}</Link></main><RamaFooter /></div>;
 
-  if (!sarga) return <div className="rv-shell min-h-screen bg-[#070b14] text-[#f3e9d2]"><RamaNavbar /><main className="mx-auto max-w-4xl px-6 py-24"><h1 className="font-serif text-3xl text-[#d4af37]">{t("sargaUnavailable")}</h1><p className="mt-3 text-[#f3e9d2]/70">{t("sourceRecordOnly")}</p><Link href={localizedPath(language, "/kandas")} className="mt-6 inline-block text-[#d4af37]">{t("returnKandas")}</Link></main><RamaFooter /></div>;
+  if (!sarga) return <div className="rv-shell min-h-screen bg-[#070b14] text-[#f3e9d2]"><RamaNavbar /><main role="status" aria-live="polite" aria-atomic="true" className="mx-auto max-w-4xl px-6 py-24"><h1 className="font-serif text-3xl text-[#d4af37]">{t("sargaUnavailable")}</h1><p className="mt-3 text-[#f3e9d2]/70">{t("sourceRecordOnly")}</p><Link href={localizedPath(language, "/kandas")} className="mt-6 inline-block text-[#d4af37]">{t("returnKandas")}</Link></main><RamaFooter /></div>;
 
   return (
     <div className="rv-shell min-h-screen bg-[#070b14] text-[#f3e9d2]">
