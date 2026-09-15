@@ -196,7 +196,7 @@ export default function Library() {
                       </Button>
                     </div>
                   </div>
-                ))}
+                ))
               )}
             </div>
           </div>
