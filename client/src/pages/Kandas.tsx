@@ -68,6 +68,8 @@ export default function Kandas() {
           <div role="status" aria-live="polite" aria-atomic="true" className="text-center py-20 text-[#d4af37]">{t("loadingKandas")}</div>
         ) : error ? (
           <div role="alert" className="text-center py-20 text-sm text-rose-200">{t("unexpectedError")}</div>
+        ) : kandas?.length === 0 ? (
+          <div role="status" aria-live="polite" aria-atomic="true" className="text-center py-20 text-sm text-[#f3e9d2]/70">{t("noRecords")}</div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Kandas List */}
