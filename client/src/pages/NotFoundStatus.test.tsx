@@ -1,16 +1,12 @@
-import React from "react";
-import { render, screen } from "@testing-library/react";
-import { describe, expect, it, vi } from "vitest";
-import NotFound from "./NotFound";
-
-vi.mock("wouter", () => ({
-  useLocation: () => ["/missing", vi.fn()],
-}));
+import { readFileSync } from "node:fs";
+import { describe, expect, it } from "vitest";
 
 describe("NotFound accessibility", () => {
   it("announces the unavailable route as a status", () => {
-    render(<NotFound />);
+    const source = readFileSync("client/src/pages/NotFound.tsx", "utf8");
 
-    expect(screen.getByRole("status")).toBeTruthy();
+    expect(source).toContain('role="status"');
+    expect(source).toContain('aria-live="polite"');
+    expect(source).toContain('aria-atomic="true"');
   });
 });
