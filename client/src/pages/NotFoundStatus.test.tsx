@@ -1,16 +1,15 @@
 import { render, screen } from "@testing-library/react";
-import { MemoryRouter } from "wouter/memory-location";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import NotFound from "./NotFound";
+
+vi.mock("wouter", () => ({
+  useLocation: () => ["/missing", vi.fn()],
+}));
 
 describe("NotFound accessibility", () => {
   it("announces the unavailable route as a status", () => {
-    render(
-      <MemoryRouter>
-        <NotFound />
-      </MemoryRouter>,
-    );
+    render(<NotFound />);
 
-    expect(screen.getByRole("status")).toBeInTheDocument();
+    expect(screen.getByRole("status")).toBeTruthy();
   });
 });
