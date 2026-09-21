@@ -57,6 +57,7 @@ export default function Guidance() {
             <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-[#d4af37]" />
             <Input
               type="text"
+              aria-label={t("searchInput")}
               placeholder={t("searchInput")}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
