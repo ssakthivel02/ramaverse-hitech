@@ -67,7 +67,7 @@ export default function RamaLife() {
   const isContentPriorityLanguage = activeLanguage.contentStatus === "full_content_priority";
   const [activeAge, setActiveAge] = useState<AgeLayer>("adult");
   const [depthMode, setDepthMode] = useState<DepthMode>("standard");
-  const { data: characters } = trpc.ramaverse.getCharacters.useQuery();
+  const { data: characters, isLoading: charactersLoading, error: charactersError } = trpc.ramaverse.getCharacters.useQuery();
   const featuredNames = new Set(["Sri Rama", "Sita Devi", "Lakshmana", "Hanuman"]);
   const featuredCharacters = characters?.filter((character) => featuredNames.has(character.name)) ?? [];
   const currentAgeMeta = AGE_LAYERS.find((item) => item.code === activeAge) || AGE_LAYERS[4];
@@ -208,7 +208,13 @@ export default function RamaLife() {
                       <span className="mt-1 block text-[10px] text-[#f3e9d2]/55">Relationship evidence is withheld pending source-level review.</span>
                     </Link>
                   ))}
-                  {!featuredCharacters.length && <p className="text-xs text-[#f3e9d2]/55">Character discovery is unavailable until the existing corpus is loaded.</p>}
+                  {charactersLoading ? (
+                    <p role="status" aria-live="polite" aria-atomic="true" className="text-xs text-[#f3e9d2]/55">Loading character discovery…</p>
+                  ) : charactersError ? (
+                    <p role="alert" className="text-xs text-rose-200">Character discovery could not be loaded.</p>
+                  ) : !featuredCharacters.length ? (
+                    <p role="status" aria-live="polite" className="text-xs text-[#f3e9d2]/55">No featured characters are available in the current corpus.</p>
+                  ) : null}
                 </div>
               </div>
             </aside>
