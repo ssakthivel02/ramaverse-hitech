@@ -14,7 +14,7 @@ vi.mock("@/lib/trpc", () => ({
   trpc: { ramaverse: {
     getKandas: { useQuery: () => ({ isLoading: false, data: [{ id: 1, kandaNumber: 1, name: "Bala Kanda", sanskritName: "Bala", summary: "Verified summary.", keyEvents: ["Milestone"] }] }) },
     getSargas: { useQuery: () => ({ data: [] }) },
-    getCharacters: { useQuery: () => ({ data: [] }) },
+    getCharacters: { useQuery: () => ({ data: [], isLoading: false, error: null }) },
   } },
 }));
 
@@ -36,6 +36,6 @@ describe("Rama Life canonical-language safeguards and milestone layers", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "Scholar" }));
     expect(screen.getAllByText(/Source boundary:/i).length).toBeGreaterThan(0);
-    expect(screen.getAllByText(/VERIFIED CANONICAL/i).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/VERIFIED CANONICAL/i).length).toBeGreaterThan(0);\n    expect(screen.getByRole("status", { name: "" }).textContent).toMatch(/No featured characters are available in the current corpus/i);
   });
 });
