@@ -16,7 +16,7 @@ function Table({ rows, headers = ["Area", "Status", "Evidence"] }: { rows: reado
 export default function OwnerCommandCenter() {
   const [filter, setFilter] = useState("all");
   const auth = useAuth();
-  if (auth.loading) return <main className="min-h-screen bg-[#070b14] px-6 py-32 text-center text-[#d7b45a]">Preparing owner view…</main>;
+  if (auth.loading) return <main role="status" aria-live="polite" aria-atomic="true" className="min-h-screen bg-[#070b14] px-6 py-32 text-center text-[#d7b45a]">Preparing owner view…</main>;
   if (!auth.user || auth.user.role !== "admin") return <main className="min-h-screen bg-[#070b14] px-6 py-32 text-center text-[#f3e9d2]"><LockKeyhole className="mx-auto mb-5 h-8 w-8 text-[#d7b45a]" aria-hidden="true" /><h1 className="font-serif text-3xl">Owner access required</h1><p className="mx-auto mt-3 max-w-md text-sm text-[#f3e9d2]/60">This local command center is restricted to the authenticated RamaVerse owner/admin account. No action was performed.</p></main>;
   const filteredParity = filter === "all" ? parity : parity.filter(row => row[1] === filter || row[2] === filter);
   const blockerRows = finalBlockers.map(blocker => [blocker.requirementId, blocker.feature, blocker.currentStatus, blocker.exactMissingDataset, blocker.ownerActionRequired ? blocker.exactMissingDataset : "No owner action recorded"] as const);
