@@ -36,6 +36,7 @@ describe("Rama Life canonical-language safeguards and milestone layers", () => {
 
     fireEvent.click(screen.getByRole("button", { name: "Scholar" }));
     expect(screen.getAllByText(/Source boundary:/i).length).toBeGreaterThan(0);
-    expect(screen.getAllByText(/VERIFIED CANONICAL/i).length).toBeGreaterThan(0);\n    expect(screen.getByRole("status", { name: "" }).textContent).toMatch(/No featured characters are available in the current corpus/i);
+    expect(screen.getAllByText(/VERIFIED CANONICAL/i).length).toBeGreaterThan(0);
+    expect(screen.getByText(/No featured characters are available in the current corpus/i).getAttribute("role")).toBe("status");
   });
 });
