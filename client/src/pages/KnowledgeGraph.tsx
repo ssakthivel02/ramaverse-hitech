@@ -54,7 +54,7 @@ export default function KnowledgeGraph() {
             <div className="flex items-center justify-between"><h2 className="font-serif text-2xl font-bold text-[#d4af37] flex items-center gap-2"><Link2 className="w-5 h-5" aria-hidden="true" /> {t("currentCanonical")}</h2><span className="text-xs text-[#f3e9d2]/55">{results.length} shown</span></div>
             <div className="space-y-3" aria-live="polite">
               {results.map((record) => <article key={record.id} className="temple-card rounded-xl border border-[#d4af37]/20 p-4"><div className="flex flex-wrap items-start justify-between gap-2"><div><h3 className="font-semibold text-[#f3e9d2]">{record.titleEn}</h3>{record.titleTa && <p className="mt-1 text-sm text-[#f3e9d2]/70">{record.titleTa}</p>}</div><span className="rounded-full bg-[#d4af37]/10 px-2 py-1 text-[10px] uppercase tracking-wider text-[#d4af37]">{record.type}</span></div><div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-[#f3e9d2]/55"><span>{record.id}</span><span>{record.locator || "Source locator pending"}</span><span>{record.sourceIds.join(", ") || "Source ID pending"}</span></div></article>)}
-              {!results.length && <div className="rounded-xl border border-dashed border-[#d4af37]/30 p-8 text-center text-sm text-[#f3e9d2]/60">No approved record matches this search.</div>}
+              {!results.length && <div role="status" aria-live="polite" aria-atomic="true" className="rounded-xl border border-dashed border-[#d4af37]/30 p-8 text-center text-sm text-[#f3e9d2]/60">No approved record matches this search.</div>}
             </div>
           </div>
         </section>
