@@ -7,8 +7,6 @@ useDefault = true
 description = "Known-safe accessibility design token name"
 regexTarget = "secret"
 regexes = [
-  '''^primary-ivory]
-'',
-  '''^ayodhya-gold]
-'',
+  '''^primary-ivory$''',
+  '''^ayodhya-gold$''',
 ]
