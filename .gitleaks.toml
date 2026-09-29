@@ -4,9 +4,10 @@ title = "RamaVerse Gitleaks configuration"
 useDefault = true
 
 [allowlist]
-description = "Known-safe accessibility design token name"
+description = "Known-safe accessibility design token names and exact ivory design value"
 regexTarget = "secret"
 regexes = [
   '''^primary-ivory$''',
   '''^ayodhya-gold$''',
+  '''^#f3e9d2$''',
 ]

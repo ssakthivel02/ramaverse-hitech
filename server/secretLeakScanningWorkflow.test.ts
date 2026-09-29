@@ -31,10 +31,13 @@ describe('secret leak scanning security contract', () => {
     expect(workflow).not.toMatch(/contents:\s+write/);
   });
 
-  it('keeps the default detector set and narrowly allowlists only the known-safe design token', () => {
+  it('keeps the default detector set and narrowly allowlists only proven-safe design values', () => {
     expect(config).toContain('useDefault = true');
     expect(config).toContain('regexTarget = "secret"');
     expect(config).toContain("'''^primary-ivory$'''");
+    expect(config).toContain("'''^ayodhya-gold$'''");
+    expect(config).toContain("'''^#f3e9d2$'''");
+    expect(config).not.toContain("'''^#[0-9a-fA-F]");
     expect(config).not.toContain('disabledRules');
     expect(config).not.toContain('paths =');
     expect(config).not.toContain('commits =');
