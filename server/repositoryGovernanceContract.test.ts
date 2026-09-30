@@ -48,15 +48,15 @@ describe("RamaVerse repository governance contract", () => {
     }
   });
 
-  it("documents the GitHub admin boundary without falsely claiming protection", () => {
-    expect(governance).toContain("GitHub reported `main` as unprotected");
-    expect(governance).toContain("the repository had no rulesets");
-    expect(governance).toContain("Repository files cannot themselves enable GitHub branch protection or repository rulesets");
-    expect(governance).toContain("Do not misrepresent these repository files as branch protection");
+  it("records live GitHub enforcement without confusing repository files with protection", () => {
+    expect(governance).toContain("ruleset `Protect main` (ruleset ID `23981067`) is active");
+    expect(governance).toContain("requires status check `validate`");
+    expect(governance).toContain("no bypass actors");
+    expect(governance).toContain("supersedes the 2026-09-11 audit state");
+    expect(governance).toContain("Repository files such as CODEOWNERS and this document do not themselves provide branch protection");
     expect(governance).toContain("Require changes to enter through a pull request rather than direct pushes");
-    expect(governance).toContain("Require the RamaVerse Quality Gate to pass before merge");
     expect(governance).toContain("Require Code Owner review");
-    expect(governance).toContain("Block force-pushes and branch deletion for `main`");
+    expect(governance).toContain("Block force-pushes/non-fast-forward updates and branch deletion for `main`");
   });
 
   it("preserves the canonical write sequence and authority boundaries", () => {
