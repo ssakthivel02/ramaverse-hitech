@@ -30,8 +30,8 @@ jobs:
       - name: Install repository dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install pinned browser-test tooling without changing the lockfile
-        run: pnpm add --ignore-workspace-root-check --no-save @playwright/test@1.55.0 @axe-core/playwright@4.10.2
+      - name: Install pinned browser-test tooling
+        run: pnpm install --ignore-workspace-root-check --no-lockfile @playwright/test@1.55.0 @axe-core/playwright@4.10.2
 
       - name: Install Chromium
         run: pnpm exec playwright install --with-deps chromium
