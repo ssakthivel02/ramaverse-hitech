@@ -1,7 +1,7 @@
 import AxeBuilder from "@axe-core/playwright";
-import { expect, test } from "@playwright/test";
+import { expect, test, type Page } from "@playwright/test";
 
-async function expectNoSeriousAccessibilityViolations(page: Parameters<typeof AxeBuilder>[0]["page"]) {
+async function expectNoSeriousAccessibilityViolations(page: Page) {
   const results = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
   const blocking = results.violations.filter(({ impact }) => impact === "serious" || impact === "critical");
   expect(blocking, JSON.stringify(blocking, null, 2)).toEqual([]);
