@@ -12,15 +12,11 @@ function captureClientDiagnostics(page: Page) {
   page.on("pageerror", error => console.error(`[browser:pageerror] ${error.stack ?? error.message}`));
   page.on("requestfailed", request => console.error(`[browser:requestfailed] ${request.method()} ${request.url()} ${request.failure()?.errorText ?? "unknown"}`));
   page.on("response", response => {
-    if (response.status() >= 400) {
-      console.error(`[browser:http] ${response.status()} ${response.request().method()} ${response.url()}`);
-    }
+    if (response.status() >= 400) console.error(`[browser:http] ${response.status()} ${response.request().method()} ${response.url()}`);
   });
 }
 
-test.beforeEach(async ({ page }) => {
-  captureClientDiagnostics(page);
-});
+test.beforeEach(async ({ page }) => captureClientDiagnostics(page));
 
 test("home renders the public knowledge shell and passes serious accessibility checks", async ({ page }) => {
   await page.goto("/");
@@ -33,6 +29,7 @@ test("home renders the public knowledge shell and passes serious accessibility c
 test("localized public route renders and retains keyboard skip navigation", async ({ page }) => {
   await page.goto("/ta/");
   await expect(page.locator("#hero-title")).toBeVisible();
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://ramaverse.omsaravanabhava.org/ta/");
   await page.keyboard.press("Tab");
   const skipLink = page.locator("a.skip-link");
   await expect(skipLink).toBeFocused();
@@ -40,9 +37,24 @@ test("localized public route renders and retains keyboard skip navigation", asyn
   await expect(page.locator("#main-content")).toBeFocused();
 });
 
+test("distinct public routes expose route-specific canonical metadata", async ({ page }) => {
+  await page.goto("/quizzes");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://ramaverse.omsaravanabhava.org/quizzes");
+  await expect(page.locator('meta[property="og:url"]')).toHaveAttribute("content", "https://ramaverse.omsaravanabhava.org/quizzes");
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "index,follow");
+  await expect(page.locator('link[rel="alternate"][hreflang="ta"]')).toHaveAttribute("href", "https://ramaverse.omsaravanabhava.org/ta/quizzes");
+});
+
+test("operational surfaces fail closed for crawler indexability", async ({ page }) => {
+  await page.goto("/owner-command-center");
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex,nofollow");
+  await expect(page.locator('link[rel="alternate"][hreflang]')).toHaveCount(0);
+});
+
 test("unknown route fails safely into the application not-found surface", async ({ page }) => {
   await page.goto("/this-route-does-not-exist");
   await expect(page.locator("body")).toBeVisible();
   await expect(page.locator("#main-content")).toBeVisible();
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex,nofollow");
   await expectNoSeriousAccessibilityViolations(page);
 });
