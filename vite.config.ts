@@ -25,10 +25,9 @@ export default defineConfig({
       output: {
         manualChunks(id) {
           if (!id.includes("node_modules")) return undefined;
-          if (/[\\/]react(?:-dom)?[\\/]|[\\/]scheduler[\\/]/.test(id)) return "react-vendor";
           if (id.includes("@trpc") || id.includes("@tanstack")) return "data-vendor";
           if (id.includes("lucide-react")) return "icons-vendor";
-          return "vendor";
+          return undefined;
         },
       },
     },
