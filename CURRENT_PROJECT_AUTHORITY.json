@@ -19,11 +19,21 @@
   "github_repository_controls": {
     "codeowners_file": ".github/CODEOWNERS",
     "pull_request_template_file": ".github/pull_request_template.md",
-    "main_branch_protected": false,
-    "active_repository_ruleset": false,
-    "manual_admin_blocker_issue": 40,
-    "status": "REPOSITORY_NATIVE_CONTROLS_PRESENT_GITHUB_ENFORCEMENT_PENDING",
-    "policy": "CODEOWNERS, pull-request templates, documentation and tests improve repository discipline but do not technically protect main. Do not claim GitHub branch/ruleset enforcement until a fresh GitHub settings check proves it."
+    "main_branch_protected": true,
+    "active_repository_ruleset": true,
+    "active_ruleset_name": "Protect main",
+    "active_ruleset_id": 23981067,
+    "required_status_check": "validate",
+    "code_owner_review_required": true,
+    "review_thread_resolution_required": true,
+    "stale_reviews_dismissed_on_push": true,
+    "branch_deletion_blocked": true,
+    "non_fast_forward_blocked": true,
+    "bypass_actor_count": 0,
+    "general_approving_review_count": 0,
+    "verified_at": "2026-09-30",
+    "status": "GITHUB_RULESET_ENFORCEMENT_ACTIVE",
+    "policy": "GitHub ruleset Protect main is the live enforcement authority. Repository files do not themselves provide branch protection. Fresh-check GitHub settings before relying on this state because an administrator may change rules independently of repository commits."
   },
   "historical_state_files": [
     "PROJECT_STATE.json",
@@ -73,10 +83,10 @@
     "deployment_change_allowed": false
   },
   "agent_rules": [
-    "Fresh-check main, open PRs, open issues, and running workflows before every write task.",
+    "Fresh-check main, open PRs, open issues, running workflows, and live GitHub ruleset enforcement before every write task where repository protection state matters.",
     "Stop when another agent is modifying the same area.",
     "Follow REPOSITORY_GOVERNANCE.md for the required fresh-check, collision-check, branch, Draft PR, exact-head CI, merge and exact-main verification sequence.",
-    "Do not claim main is branch-protected or covered by a repository ruleset unless a fresh GitHub settings check proves enforcement is active; repository files alone are not branch protection.",
+    "Do not infer GitHub protection from repository files alone; fresh-check the live ruleset before relying on enforcement state.",
     "Do not import, develop, deploy, or repair legacy RamaVerse repositories or historical website exports.",
     "Do not fabricate missing Sarga rows or infer corpus presence from schema existence.",
     "Do not use PROJECT_STATE.json or RAMAVERSE_PROJECT_STATE.json as current continuation authority.",

@@ -6,24 +6,25 @@ This document defines the repository-level collaboration controls expected for `
 
 This repository is the only active RamaVerse HI-TECH source of truth. OLD/LEGACY RamaVerse repositories, exports, and historical website files are read-only reference only and must not be developed, repaired, redesigned, deployed, or used as current authority.
 
-## Verified GitHub settings gap
+## Verified GitHub enforcement state
 
-During the 2026-09-11 governance audit, GitHub reported `main` as unprotected and the repository had no rulesets. Repository files cannot themselves enable GitHub branch protection or repository rulesets. Until an administrator enables those settings, CODEOWNERS and the pull-request template improve review discipline but do not technically prevent a direct push to `main`.
+A fresh GitHub settings check on 2026-09-30 confirmed repository ruleset `Protect main` (ruleset ID `23981067`) is active and targets the default branch. The live ruleset requires pull-request changes, dismisses stale reviews on push, requires Code Owner review and review-thread resolution, blocks branch deletion and non-fast-forward updates, and requires status check `validate`. GitHub reports no bypass actors and `current_user_can_bypass` as `never`.
 
-Do not misrepresent these repository files as branch protection.
+This supersedes the 2026-09-11 audit state in which `main` was unprotected and the repository had no rulesets. Repository files such as CODEOWNERS and this document do not themselves provide branch protection; the live GitHub ruleset is the enforcement authority and must be fresh-checked before relying on it.
 
-## Required target settings for `main`
+## Enforced controls for `main`
 
-When GitHub administration is available, configure branch protection or a repository ruleset for `main` with the following minimum controls:
+The current `Protect main` ruleset provides these controls:
 
 1. Require changes to enter through a pull request rather than direct pushes.
-2. Require the RamaVerse Quality Gate to pass before merge.
+2. Require status check `validate` before merge.
 3. Require Code Owner review for protected/high-risk files.
 4. Dismiss stale approvals when the head commit changes.
 5. Require all review conversations to be resolved before merge.
-6. Block force-pushes and branch deletion for `main`.
-7. Do not create broad bypass permissions. Any break-glass bypass must remain an intentional owner action and must not be inferred from a generic “proceed” or “continue” instruction.
-8. Preserve the repository's merge-commit workflow; do not enable a linear-history rule unless the project deliberately changes merge strategy.
+6. Block force-pushes/non-fast-forward updates and branch deletion for `main`.
+7. Keep bypass actors empty; no generic “proceed” or “continue” instruction grants a bypass.
+
+The ruleset currently allows merge, squash, and rebase merge methods and requires zero general approving reviews. Do not silently reinterpret those settings as a different review policy. Any future settings change must be verified from GitHub before repository authority files are updated.
 
 ## Required operating sequence
 
@@ -38,6 +39,7 @@ Before a write:
 - check queued/running Actions;
 - check whether another branch/agent is already modifying the same area;
 - inspect the existing implementation before creating a replacement;
+- fresh-check the live GitHub ruleset when enforcement state matters;
 - stop rather than duplicate overlapping work.
 
 ## High-risk authority boundaries
@@ -58,7 +60,7 @@ Those actions require their separately defined evidence/approval gates.
 
 ## CODEOWNERS scope
 
-`.github/CODEOWNERS` assigns the repository owner to the complete repository and explicitly calls out governance, corpus/staging, server, and client surfaces. Code Owner review only becomes an enforceable merge requirement when GitHub branch/ruleset settings require it.
+`.github/CODEOWNERS` assigns the repository owner to the complete repository and explicitly calls out governance, corpus/staging, server, and client surfaces. Code Owner review is currently enforced by the active `Protect main` ruleset. That statement remains conditional on a fresh GitHub settings check because repository files cannot guarantee that an administrator has not subsequently changed the ruleset.
 
 ## Pull-request contract
 
