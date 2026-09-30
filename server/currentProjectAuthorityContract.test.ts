@@ -78,9 +78,9 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.github_repository_controls.general_approving_review_count).toBe(0);
     expect(authority.github_repository_controls.status).toBe("GITHUB_RULESET_ENFORCEMENT_ACTIVE");
     expect(authority.github_repository_controls.policy).toContain("Repository files do not themselves provide branch protection");
-    expect(governance).toContain("Live GitHub enforcement");
+    expect(governance).toContain("Verified GitHub enforcement state");
     expect(governance).toContain("ruleset ID `23981067`");
-    expect(governance).toContain("required `validate` status check");
+    expect(governance).toContain("requires status check `validate`");
     expect(codeowners).toContain("@ssakthivel02");
     expect(prTemplate).toContain("## Collision check");
     expect(prTemplate).toContain("Base SHA: `REPLACE_WITH_EXACT_SHA`");
