@@ -7,6 +7,21 @@ async function expectNoSeriousAccessibilityViolations(page: Page) {
   expect(blocking, JSON.stringify(blocking, null, 2)).toEqual([]);
 }
 
+function captureClientDiagnostics(page: Page) {
+  page.on("console", message => console.log(`[browser:${message.type()}] ${message.text()}`));
+  page.on("pageerror", error => console.error(`[browser:pageerror] ${error.stack ?? error.message}`));
+  page.on("requestfailed", request => console.error(`[browser:requestfailed] ${request.method()} ${request.url()} ${request.failure()?.errorText ?? "unknown"}`));
+  page.on("response", response => {
+    if (response.status() >= 400) {
+      console.error(`[browser:http] ${response.status()} ${response.request().method()} ${response.url()}`);
+    }
+  });
+}
+
+test.beforeEach(async ({ page }) => {
+  captureClientDiagnostics(page);
+});
+
 test("home renders the public knowledge shell and passes serious accessibility checks", async ({ page }) => {
   await page.goto("/");
   await expect(page.locator("#hero-title")).toBeVisible();
