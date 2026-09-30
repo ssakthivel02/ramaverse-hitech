@@ -44,7 +44,7 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.agent_rules).toEqual(
       expect.arrayContaining([
         expect.stringContaining("REPOSITORY_GOVERNANCE.md"),
-        expect.stringContaining("Do not claim main is branch-protected"),
+        expect.stringContaining("live GitHub ruleset enforcement"),
         expect.stringContaining("generic proceed, continue or next-task instructions"),
         expect.stringContaining("Do not reuse a provider-candidate selection artifact"),
         expect.stringContaining("Do not treat PROVIDER_CANDIDATE_SELECTION_APPROVED as provider runtime approval"),
@@ -56,7 +56,7 @@ describe("RamaVerse current project authority contract", () => {
     expect(authority.production.ready).toBe(false);
   });
 
-  it("binds repository-native controls without pretending GitHub enforcement is active", () => {
+  it("binds repository-native controls to the freshly verified live GitHub ruleset", () => {
     const authority = JSON.parse(read("CURRENT_PROJECT_AUTHORITY.json"));
     const governance = read("REPOSITORY_GOVERNANCE.md");
     const codeowners = read(".github/CODEOWNERS");
@@ -64,15 +64,23 @@ describe("RamaVerse current project authority contract", () => {
 
     expect(authority.github_repository_controls.codeowners_file).toBe(".github/CODEOWNERS");
     expect(authority.github_repository_controls.pull_request_template_file).toBe(".github/pull_request_template.md");
-    expect(authority.github_repository_controls.main_branch_protected).toBe(false);
-    expect(authority.github_repository_controls.active_repository_ruleset).toBe(false);
-    expect(authority.github_repository_controls.manual_admin_blocker_issue).toBe(40);
-    expect(authority.github_repository_controls.status).toBe(
-      "REPOSITORY_NATIVE_CONTROLS_PRESENT_GITHUB_ENFORCEMENT_PENDING",
-    );
-    expect(authority.github_repository_controls.policy).toContain("do not technically protect main");
-    expect(governance).toContain("Repository files cannot themselves enable GitHub branch protection");
-    expect(governance).toContain("Do not misrepresent these repository files as branch protection");
+    expect(authority.github_repository_controls.main_branch_protected).toBe(true);
+    expect(authority.github_repository_controls.active_repository_ruleset).toBe(true);
+    expect(authority.github_repository_controls.active_ruleset_name).toBe("Protect main");
+    expect(authority.github_repository_controls.active_ruleset_id).toBe(23981067);
+    expect(authority.github_repository_controls.required_status_check).toBe("validate");
+    expect(authority.github_repository_controls.code_owner_review_required).toBe(true);
+    expect(authority.github_repository_controls.review_thread_resolution_required).toBe(true);
+    expect(authority.github_repository_controls.stale_reviews_dismissed_on_push).toBe(true);
+    expect(authority.github_repository_controls.branch_deletion_blocked).toBe(true);
+    expect(authority.github_repository_controls.non_fast_forward_blocked).toBe(true);
+    expect(authority.github_repository_controls.bypass_actor_count).toBe(0);
+    expect(authority.github_repository_controls.general_approving_review_count).toBe(0);
+    expect(authority.github_repository_controls.status).toBe("GITHUB_RULESET_ENFORCEMENT_ACTIVE");
+    expect(authority.github_repository_controls.policy).toContain("Repository files do not themselves provide branch protection");
+    expect(governance).toContain("Live GitHub enforcement");
+    expect(governance).toContain("ruleset ID `23981067`");
+    expect(governance).toContain("required `validate` status check");
     expect(codeowners).toContain("@ssakthivel02");
     expect(prTemplate).toContain("## Collision check");
     expect(prTemplate).toContain("Base SHA: `REPLACE_WITH_EXACT_SHA`");
