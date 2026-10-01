@@ -21,7 +21,7 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("message", (event) => {
   if (event.data?.type === "CLEAR_CACHE") {
-    event.waitUntil(caches.keys().then((names) => Promise.all(names.map((name) => caches.delete(name)))));
+    event.waitUntil(caches.keys().then((names) => Promise.all(names.filter((name) => name.startsWith(CACHE_PREFIX)).map((name) => caches.delete(name)))));
   }
   if (event.data?.type === "GET_CACHE_VERSION") {
     event.ports?.[0]?.postMessage({ cacheName: CACHE_NAME });
