@@ -11,9 +11,11 @@
   <url><loc>https://ramaverse.omsaravanabhava.org/journey</loc><priority>0.7</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/timeline</loc><priority>0.7</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/knowledge</loc><priority>0.7</priority></url>
+  <url><loc>https://ramaverse.omsaravanabhava.org/walk-with-rama</loc><priority>0.7</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/wisdom</loc><priority>0.6</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/guidance</loc><priority>0.6</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/stories</loc><priority>0.6</priority></url>
+  <url><loc>https://ramaverse.omsaravanabhava.org/quizzes</loc><priority>0.6</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/audio</loc><priority>0.5</priority></url>
   <url><loc>https://ramaverse.omsaravanabhava.org/library</loc><priority>0.4</priority></url>
 </urlset>
