@@ -27,13 +27,21 @@ export function isIndexablePublicRoute(path: string): path is (typeof INDEXABLE_
   return INDEXABLE_PUBLIC_ROUTES.includes(path as (typeof INDEXABLE_PUBLIC_ROUTES)[number]);
 }
 
+export function isIndexableLocale(locale?: string | null): locale is (typeof INDEXABLE_LOCALES)[number] | undefined | null {
+  return !locale || INDEXABLE_LOCALES.includes(locale as (typeof INDEXABLE_LOCALES)[number]);
+}
+
+export function isIndexablePublicLocation(path: string, locale?: string | null) {
+  return isIndexablePublicRoute(path) && isIndexableLocale(locale);
+}
+
 export function absolutePublicUrl(path: string, locale?: string | null) {
   const suffix = path === "/" ? "/" : path;
   return locale ? `${SITE_ORIGIN}/${locale}${suffix}` : `${SITE_ORIGIN}${suffix}`;
 }
 
 export function syncSeoMetadata(path: string, locale?: string | null) {
-  const indexable = isIndexablePublicRoute(path);
+  const indexable = isIndexablePublicLocation(path, locale);
   const canonical = indexable ? absolutePublicUrl(path, locale) : absolutePublicUrl("/");
 
   let canonicalLink = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
@@ -55,6 +63,7 @@ export function syncSeoMetadata(path: string, locale?: string | null) {
   let ogUrl = document.querySelector<HTMLMetaElement>('meta[property="og:url"]');
   if (!ogUrl) {
     ogUrl = document.createElement("meta");
+    ogUrl.name = "og:url";
     ogUrl.setAttribute("property", "og:url");
     document.head.appendChild(ogUrl);
   }
