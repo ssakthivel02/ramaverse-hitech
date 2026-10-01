@@ -45,6 +45,13 @@ test("distinct public routes expose route-specific canonical metadata", async ({
   await expect(page.locator('link[rel="alternate"][hreflang="ta"]')).toHaveAttribute("href", "https://ramaverse.omsaravanabhava.org/ta/quizzes");
 });
 
+test("non-governed locale prefixes fail closed for crawler indexability", async ({ page }) => {
+  await page.goto("/fr/quizzes");
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex,nofollow");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://ramaverse.omsaravanabhava.org/");
+  await expect(page.locator('link[rel="alternate"][hreflang]')).toHaveCount(0);
+});
+
 test("operational surfaces fail closed for crawler indexability", async ({ page }) => {
   await page.goto("/owner-command-center");
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex,nofollow");

@@ -1,5 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { absolutePublicUrl, INDEXABLE_LOCALES, INDEXABLE_PUBLIC_ROUTES, isIndexablePublicRoute } from "./seo";
+import {
+  absolutePublicUrl,
+  INDEXABLE_LOCALES,
+  INDEXABLE_PUBLIC_ROUTES,
+  isIndexableLocale,
+  isIndexablePublicLocation,
+  isIndexablePublicRoute,
+} from "./seo";
 
 describe("SEO public route contract", () => {
   it("includes intended public discovery surfaces", () => {
@@ -15,6 +22,16 @@ describe("SEO public route contract", () => {
 
   it("limits crawler language alternates to the governed SEO set", () => {
     expect(INDEXABLE_LOCALES).toEqual(["en", "ta", "hi", "te", "kn", "ml"]);
+    expect(isIndexableLocale("ta")).toBe(true);
+    expect(isIndexableLocale("fr")).toBe(false);
+    expect(isIndexableLocale("zh-CN")).toBe(false);
+  });
+
+  it("fails closed when a public route uses a non-governed locale prefix", () => {
+    expect(isIndexablePublicLocation("/quizzes")).toBe(true);
+    expect(isIndexablePublicLocation("/quizzes", "ta")).toBe(true);
+    expect(isIndexablePublicLocation("/quizzes", "fr")).toBe(false);
+    expect(isIndexablePublicLocation("/quizzes", "mr")).toBe(false);
   });
 
   it("builds deterministic canonical URLs", () => {
