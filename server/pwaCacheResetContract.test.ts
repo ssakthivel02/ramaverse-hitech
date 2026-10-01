@@ -42,11 +42,15 @@ async function resetThroughWorker(names: string[]) {
 async function resetThroughPage(names: string[]) {
   const store = cacheStore(names);
   const html = read("client/public/offline-reset.html");
-  const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
-  expect(script).toBeTruthy();
+  // Extract the known inline script from this trusted repository fixture.
+  const scriptStart = html.indexOf("<script>");
+  const scriptEnd = html.indexOf("</script>", scriptStart);
+  expect(scriptStart).toBeGreaterThanOrEqual(0);
+  expect(scriptEnd).toBeGreaterThan(scriptStart);
+  const script = html.slice(scriptStart + "<script>".length, scriptEnd);
   let click: (() => Promise<void>) | undefined;
   const status = { textContent: "" };
-  vm.runInNewContext(script!, {
+  vm.runInNewContext(script, {
     caches: store.caches,
     window: { caches: store.caches },
     navigator: {},
