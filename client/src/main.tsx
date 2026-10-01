@@ -3,6 +3,7 @@ import { httpBatchLink } from "@trpc/client";
 import { createRoot } from "react-dom/client";
 import superjson from "superjson";
 import App from "./App";
+import { registerServiceWorkerForCurrentEnvironment } from "./lib/serviceWorkerRegistration";
 import { trpc } from "./lib/trpc";
 import "./index.css";
 
@@ -37,3 +38,5 @@ createRoot(document.getElementById("root")!).render(
     </QueryClientProvider>
   </trpc.Provider>
 );
+
+void registerServiceWorkerForCurrentEnvironment();
