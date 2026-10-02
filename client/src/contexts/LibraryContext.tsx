@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
+import { isLibraryBackup } from "../lib/libraryBackup";
 
 export type BookmarkItem = {
   id: string;
@@ -72,7 +73,7 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
   const importData = (jsonStr: string) => {
     try {
       const parsed = JSON.parse(jsonStr);
-      if (parsed && Array.isArray(parsed.bookmarks) && Array.isArray(parsed.journalNotes)) {
+      if (isLibraryBackup(parsed)) {
         setBookmarks(parsed.bookmarks);
         setJournalNotes(parsed.journalNotes);
         if (Array.isArray(parsed.readingProgress)) setReadingProgress(parsed.readingProgress);
