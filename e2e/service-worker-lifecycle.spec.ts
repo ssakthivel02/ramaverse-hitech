@@ -36,8 +36,10 @@ test("a controlled online visit reloads its cached home offline without HTTP cac
     const assets = [...document.querySelectorAll<HTMLScriptElement>("script[src]")].map(script => script.src)
       .concat([...document.querySelectorAll<HTMLLinkElement>('link[rel="stylesheet"]')].map(link => link.href))
       .filter(url => new URL(url).origin === location.origin && new URL(url).pathname.startsWith("/assets/"));
-    return assets.length > 0 && (await Promise.all(assets.map(url => caches.match(url)))).every(Boolean);
-  })).toBe(true);
+    if (!assets.length) return ["NO_APP_ASSETS"];
+    const cached = await Promise.all(assets.map(url => caches.match(url)));
+    return assets.filter((_url, index) => !cached[index]);
+  })).toEqual([]);
   const cdp = await context.newCDPSession(page);
   await cdp.send("Network.clearBrowserCache");
   await cdp.detach();
