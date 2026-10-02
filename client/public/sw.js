@@ -38,19 +38,19 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  const network = fetch(request);
+  // Clone before returning the response body and keep the worker alive through the write.
+  event.waitUntil(network.then((response) => {
+    if (!response.ok) return;
+    const copy = response.clone();
+    return caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+  }).catch(() => undefined));
+
   if (request.mode === "navigate") {
-    event.respondWith(fetch(request).then((response) => {
-      if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
-      return response;
-    }).catch(() => caches.match(request).then((cached) => cached || caches.match("/").then((shell) => shell || caches.match(OFFLINE_URL)))));
+    event.respondWith(network.catch(() => caches.match(request).then((cached) => cached || caches.match("/").then((shell) => shell || caches.match(OFFLINE_URL)))));
     return;
   }
 
-  event.respondWith(caches.match(request).then((cached) => {
-    const network = fetch(request).then((response) => {
-      if (response.ok) caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
-      return response;
-    }).catch(() => undefined);
-    return cached || network;
-  }));
+  const refresh = network.catch(() => undefined);
+  event.respondWith(caches.match(request).then((cached) => cached || refresh));
 });

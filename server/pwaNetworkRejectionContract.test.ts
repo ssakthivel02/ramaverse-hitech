@@ -37,6 +37,7 @@ let responsePromise;
 handlers.get("fetch")({
   request: { url: "https://ramaverse.test" + pathname, method: "GET", mode: "cors" },
   respondWith: promise => { responsePromise = promise; },
+  waitUntil: promise => { void promise; },
 });
 let response;
 let responseError;
