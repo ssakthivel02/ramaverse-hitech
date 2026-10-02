@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { isLibraryBackup } from "../lib/libraryBackup";
+import { isBookmark, isJournalNote, isLibraryBackup, isReadingProgress } from "../lib/libraryBackup";
 
 export type BookmarkItem = {
   id: string;
@@ -31,19 +31,27 @@ interface LibraryContextType {
 
 const LibraryContext = createContext<LibraryContextType | undefined>(undefined);
 
-function loadLocal<T>(key: string, fallback: T): T {
+function loadLocal<T>(key: string, validate: (value: unknown) => value is T): { value: T[]; unreadable: boolean } {
   try {
     const saved = localStorage.getItem(key);
-    return saved ? JSON.parse(saved) : fallback;
-  } catch {
-    return fallback;
-  }
+    if (saved === null) return { value: [], unreadable: false };
+    const parsed: unknown = JSON.parse(saved);
+    if (Array.isArray(parsed) && parsed.every(validate)) return { value: parsed, unreadable: false };
+  } catch { /* Preserve unreadable storage until an explicit restore or clear. */ }
+  return { value: [], unreadable: true };
 }
 
 export function LibraryProvider({ children }: { children: React.ReactNode }) {
-  const [bookmarks, setBookmarks] = useState<BookmarkItem[]>(() => loadLocal("ramaverse_bookmarks", []));
-  const [journalNotes, setJournalNotes] = useState<JournalNote[]>(() => loadLocal("ramaverse_journal", []));
-  const [readingProgress, setReadingProgress] = useState<ReadingProgress[]>(() => loadLocal("ramaverse_sarga_progress", []));
+  const [loaded] = useState(() => ({
+    ramaverse_bookmarks: loadLocal("ramaverse_bookmarks", isBookmark),
+    ramaverse_journal: loadLocal("ramaverse_journal", isJournalNote),
+    ramaverse_sarga_progress: loadLocal("ramaverse_sarga_progress", isReadingProgress),
+  }));
+  const [bookmarks, setBookmarks] = useState<BookmarkItem[]>(loaded.ramaverse_bookmarks.value);
+  const [journalNotes, setJournalNotes] = useState<JournalNote[]>(loaded.ramaverse_journal.value);
+  const [readingProgress, setReadingProgress] = useState<ReadingProgress[]>(loaded.ramaverse_sarga_progress.value);
+  const [unreadableKeys, setUnreadableKeys] = useState(() =>
+    Object.entries(loaded).filter(([, collection]) => collection.unreadable).map(([key]) => key));
 
   const [storageFailed, setStorageFailed] = useState(false);
 
@@ -55,10 +63,11 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     ];
     let failed = false;
     for (const [key, value] of records) {
+      if (unreadableKeys.includes(key)) continue;
       try { localStorage.setItem(key, JSON.stringify(value)); } catch { failed = true; }
     }
     setStorageFailed(failed);
-  }, [bookmarks, journalNotes, readingProgress]);
+  }, [bookmarks, journalNotes, readingProgress, unreadableKeys]);
 
   const isBookmarked = (itemId: number | string, type: string) => bookmarks.some(bookmark => bookmark.itemId === itemId && bookmark.type === type);
   const addBookmark = (item: Omit<BookmarkItem, "id" | "timestamp">) => {
@@ -89,6 +98,8 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
         setBookmarks(parsed.bookmarks);
         setJournalNotes(parsed.journalNotes);
         if (Array.isArray(parsed.readingProgress)) setReadingProgress(parsed.readingProgress);
+        setUnreadableKeys(previous => previous.filter(key =>
+          key === "ramaverse_sarga_progress" && parsed.readingProgress === undefined));
         return true;
       }
     } catch (error) {
@@ -98,6 +109,7 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
   };
 
   const clearAllData = () => {
+    setUnreadableKeys([]);
     setBookmarks([]);
     setJournalNotes([]);
     setReadingProgress([]);
@@ -107,6 +119,7 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
   };
 
   return <LibraryContext.Provider value={{ bookmarks, addBookmark, removeBookmark, isBookmarked, journalNotes, addJournalNote, deleteJournalNote, exportData, importData, clearAllData, readingProgress, storageFailed, markSargaRead, markSargaUnread }}>
+    {unreadableKeys.length > 0 && <p role="alert" className="m-0 border-b border-amber-400/30 bg-amber-950 px-4 py-3 text-center text-sm text-amber-100">Some saved library data could not be read and has been left unchanged. Changes to affected collections will not be saved until you restore a valid backup or clear the library. Export a backup of this session before leaving.</p>}
     {storageFailed && <p role="alert" className="m-0 border-b border-amber-400/30 bg-amber-950 px-4 py-3 text-center text-sm text-amber-100">Browser storage could not save your library changes. Changes may not survive a reload. Export a backup before leaving.</p>}
     {children}
   </LibraryContext.Provider>;

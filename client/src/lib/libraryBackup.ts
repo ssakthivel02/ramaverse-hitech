@@ -12,20 +12,20 @@ const isRecord = (value: unknown): value is Record<string, unknown> =>
 const isFiniteNumber = (value: unknown): value is number =>
   typeof value === "number" && Number.isFinite(value);
 
-function isBookmark(value: unknown): value is BookmarkItem {
+export function isBookmark(value: unknown): value is BookmarkItem {
   return isRecord(value) && typeof value.id === "string"
     && typeof value.type === "string" && bookmarkTypes.has(value.type)
     && (typeof value.itemId === "string" || isFiniteNumber(value.itemId))
     && typeof value.title === "string" && isFiniteNumber(value.timestamp);
 }
 
-function isJournalNote(value: unknown): value is JournalNote {
+export function isJournalNote(value: unknown): value is JournalNote {
   return isRecord(value) && typeof value.id === "string"
     && typeof value.title === "string" && typeof value.content === "string"
     && isFiniteNumber(value.timestamp);
 }
 
-function isReadingProgress(value: unknown): value is ReadingProgress {
+export function isReadingProgress(value: unknown): value is ReadingProgress {
   return isRecord(value) && typeof value.recordKey === "string" && isFiniteNumber(value.updatedAt);
 }
 
