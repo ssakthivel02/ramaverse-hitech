@@ -1,5 +1,8 @@
 import { defineConfig, devices } from "@playwright/test";
 
+// Playwright 1.55 requires this opt-in for offline mode to reach Chromium worker requests.
+process.env.PW_EXPERIMENTAL_SERVICE_WORKER_NETWORK_EVENTS = "1";
+
 export default defineConfig({
   testDir: "./e2e",
   fullyParallel: false,
