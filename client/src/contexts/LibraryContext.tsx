@@ -71,8 +71,16 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
 
   const isBookmarked = (itemId: number | string, type: string) => bookmarks.some(bookmark => bookmark.itemId === itemId && bookmark.type === type);
   const addBookmark = (item: Omit<BookmarkItem, "id" | "timestamp">) => {
-    if (isBookmarked(item.itemId, item.type)) return;
-    setBookmarks(previous => [{ ...item, id: `${item.type}_${item.itemId}_${Date.now()}`, timestamp: Date.now() }, ...previous]);
+    const timestamp = Date.now();
+    setBookmarks(previous => {
+      if (previous.some(bookmark => bookmark.itemId === item.itemId && bookmark.type === item.type)) return previous;
+      const baseId = `${item.type}_${item.itemId}_${timestamp}`;
+      let id = baseId;
+      let suffix = 0;
+      const existingIds = new Set(previous.map(bookmark => bookmark.id));
+      while (existingIds.has(id)) id = `${baseId}_${++suffix}`;
+      return [{ ...item, id, timestamp }, ...previous];
+    });
   };
   const removeBookmark = (itemId: number | string, type: string) => setBookmarks(previous => previous.filter(bookmark => !(bookmark.itemId === itemId && bookmark.type === type)));
   const addJournalNote = (title: string, content: string) => {
