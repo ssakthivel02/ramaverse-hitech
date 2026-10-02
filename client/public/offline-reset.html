@@ -12,6 +12,7 @@
       h1 { color:#f4d98b; font-family: Georgia, serif; font-weight:500; letter-spacing:.04em; }
       p { color:#f3e9d2bb; line-height:1.7; }
       button { border:0; border-radius:999px; padding:.8rem 1.2rem; background:#d7b45a; color:#070b14; font-weight:700; cursor:pointer; }
+      button:disabled { opacity:.65; cursor:wait; }
       button:focus-visible { outline:2px solid #f4d98b; outline-offset:3px; }
     </style>
   </head>
@@ -26,11 +27,21 @@
     <script>
       const CACHE_PREFIX = "ramaverse-cache-";
       const status = document.getElementById("status");
-      document.getElementById("reset").addEventListener("click", async () => {
-        if (navigator.serviceWorker?.controller) navigator.serviceWorker.controller.postMessage({ type: "CLEAR_CACHE" });
-        if (window.caches) for (const key of await caches.keys()) if (key.startsWith(CACHE_PREFIX)) await caches.delete(key);
-        status.textContent = "Offline shell reset. Returning home…";
-        setTimeout(() => location.href = "/", 500);
+      const resetButton = document.getElementById("reset");
+      resetButton.addEventListener("click", async () => {
+        if (resetButton.disabled) return;
+        resetButton.disabled = true;
+        status.textContent = "Resetting offline shell…";
+        try {
+          if (!window.caches) throw new Error("Cache Storage unavailable");
+          if (navigator.serviceWorker?.controller) navigator.serviceWorker.controller.postMessage({ type: "CLEAR_CACHE" });
+          for (const key of await caches.keys()) if (key.startsWith(CACHE_PREFIX)) await caches.delete(key);
+          status.textContent = "Offline shell reset. Returning home…";
+          setTimeout(() => location.href = "/", 500);
+        } catch {
+          status.textContent = "Offline shell could not be reset. Please try again.";
+          resetButton.disabled = false;
+        }
       });
     </script>
   </body>
