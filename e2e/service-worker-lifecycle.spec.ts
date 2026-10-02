@@ -91,3 +91,55 @@ test("offline operational and API requests cannot return deliberately seeded cac
     await context.setOffline(false);
   }
 });
+
+test("a foreign manifest cache entry cannot replace the network response on an active-cache miss", async ({ page }) => {
+  await openControlledHome(page);
+  const foreignName = "other-app-cache-read-probe";
+  const ownedName = await page.evaluate(async foreignName => {
+    const name = (await caches.keys()).find(name => name.startsWith("ramaverse-cache-"));
+    if (!name) throw new Error("Active cache missing");
+    await (await caches.open(name)).delete("/manifest.json");
+    await (await caches.open(foreignName)).put("/manifest.json", new Response("FOREIGN_MANIFEST"));
+    return name;
+  }, foreignName);
+  const manifest = await page.evaluate(async () => (await fetch("/manifest.json")).text());
+  expect(JSON.parse(manifest).name).toBe("RamaVerse — Sacred Ramayana Platform");
+  await expect.poll(() => page.evaluate(async ownedName =>
+    (await caches.match("/manifest.json", { cacheName: ownedName }))?.text(), ownedName
+  )).toBe(manifest);
+  expect(await page.evaluate(async foreignName =>
+    (await caches.match("/manifest.json", { cacheName: foreignName }))?.text(), foreignName
+  )).toBe("FOREIGN_MANIFEST");
+});
+
+test("offline recovery ignores conflicting requested, home and recovery pages in a foreign cache", async ({ page, context }) => {
+  await openControlledHome(page);
+  const foreignName = "other-app-cache-read-probe";
+  const probePath = "/offline-cache-read-isolation-probe";
+  const foreignHTML = "<!doctype html><html><body><h1>FOREIGN_CACHE_SHELL</h1></body></html>";
+  await page.evaluate(async ({ foreignName, probePath, foreignHTML }) => {
+    for (const name of (await caches.keys()).filter(name => name.startsWith("ramaverse-cache-"))) {
+      const cache = await caches.open(name);
+      await cache.delete("/");
+      await cache.delete("/index.html");
+      await cache.delete(probePath);
+    }
+    const cache = await caches.open(foreignName);
+    for (const path of [probePath, "/", "/offline-reset.html"]) {
+      await cache.put(path, new Response(foreignHTML, { headers: { "Content-Type": "text/html" } }));
+    }
+  }, { foreignName, probePath, foreignHTML });
+  await context.setOffline(true);
+  try {
+    await page.goto(probePath);
+    await expect(page.getByRole("heading", { name: "Return to the RamaVerse" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "FOREIGN_CACHE_SHELL" })).toHaveCount(0);
+    const preserved = await page.evaluate(async ({ foreignName, probePath }) =>
+      Promise.all([probePath, "/", "/offline-reset.html"].map(async path =>
+        (await caches.match(path, { cacheName: foreignName }))?.text()
+      )), { foreignName, probePath });
+    expect(preserved).toEqual([foreignHTML, foreignHTML, foreignHTML]);
+  } finally {
+    await context.setOffline(false);
+  }
+});
