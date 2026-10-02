@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
+import { uniqueJournalNoteIds } from "../lib/journalIdentity";
 import { isBookmark, isJournalNote, isLibraryBackup, isReadingProgress } from "../lib/libraryBackup";
 
 export type BookmarkItem = {
@@ -48,7 +49,7 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     ramaverse_sarga_progress: loadLocal("ramaverse_sarga_progress", isReadingProgress),
   }));
   const [bookmarks, setBookmarks] = useState<BookmarkItem[]>(loaded.ramaverse_bookmarks.value);
-  const [journalNotes, setJournalNotes] = useState<JournalNote[]>(loaded.ramaverse_journal.value);
+  const [journalNotes, setJournalNotes] = useState<JournalNote[]>(() => uniqueJournalNoteIds(loaded.ramaverse_journal.value));
   const [readingProgress, setReadingProgress] = useState<ReadingProgress[]>(loaded.ramaverse_sarga_progress.value);
   const [unreadableKeys, setUnreadableKeys] = useState(() =>
     Object.entries(loaded).filter(([, collection]) => collection.unreadable).map(([key]) => key));
@@ -114,7 +115,7 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
       const parsed = JSON.parse(jsonStr);
       if (isLibraryBackup(parsed)) {
         setBookmarks(parsed.bookmarks);
-        setJournalNotes(parsed.journalNotes);
+        setJournalNotes(uniqueJournalNoteIds(parsed.journalNotes));
         if (Array.isArray(parsed.readingProgress)) setReadingProgress(parsed.readingProgress);
         setUnreadableKeys(previous => previous.filter(key =>
           key === "ramaverse_sarga_progress" && parsed.readingProgress === undefined));
