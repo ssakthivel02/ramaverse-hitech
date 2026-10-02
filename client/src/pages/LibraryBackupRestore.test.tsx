@@ -10,9 +10,10 @@ describe("Library backup restore contract", () => {
     expect(source).toContain('accept="application/json,.json"');
     expect(source).toContain("Restore Backup");
     expect(source).toContain("await file.text()");
-    expect(source).toContain("importData(await file.text())");
+    expect(source).toContain("importData(json)");
+    expect(source).toContain("if (request !== restoreRequestRef.current) return;");
     expect(source).toContain("Backup restored to this browser.");
     expect(source).toContain("Backup could not be restored.");
-    expect(source).toContain('e.target.value = ""');
+    expect(source).toContain('input.value = ""');
   });
 });
