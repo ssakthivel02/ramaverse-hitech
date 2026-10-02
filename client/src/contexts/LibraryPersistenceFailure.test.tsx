@@ -47,9 +47,9 @@ describe("Library persistence failures", () => {
     const user = userEvent.setup();
     render(<LibraryProvider><Probe /></LibraryProvider>);
     await screen.findByText(warning);
-    await user.click(screen.getByRole("button", { name: "Bookmark", exact: true }));
+    await user.click(screen.getByRole("button", { name: "Bookmark" }));
     await user.click(screen.getByRole("button", { name: "Write note" }));
-    await user.click(screen.getByRole("button", { name: "Read", exact: true }));
+    await user.click(screen.getByRole("button", { name: "Read" }));
     expect(memory().bookmarks).toHaveLength(2);
     expect(memory().journalNotes).toHaveLength(2);
     expect(memory().readingProgress).toHaveLength(2);
@@ -64,7 +64,7 @@ describe("Library persistence failures", () => {
     await user.click(screen.getByRole("button", { name: "Write note" }));
     expect(stored()).toEqual(Object.values(initial));
     storage.allowWrites();
-    await user.click(screen.getByRole("button", { name: "Read", exact: true }));
+    await user.click(screen.getByRole("button", { name: "Read" }));
     await waitFor(() => expect(screen.queryByRole("alert")).toBeNull());
     expect(stored()).toEqual(Object.values(memory()));
   });
@@ -78,7 +78,7 @@ describe("Library persistence failures", () => {
     });
     const user = userEvent.setup();
     render(<LibraryProvider><Probe /></LibraryProvider>);
-    await user.click(screen.getByRole("button", { name: "Clear", exact: true }));
+    await user.click(screen.getByRole("button", { name: "Clear" }));
     expect(memory()).toEqual({ bookmarks: [], journalNotes: [], readingProgress: [] });
     expect(stored()).toEqual(Object.values(initial));
     expect(screen.getByRole("alert").textContent).toBe(warning);
@@ -88,7 +88,7 @@ describe("Library persistence failures", () => {
     seedAndBlockWrites();
     const user = userEvent.setup();
     render(<LibraryProvider><Probe /></LibraryProvider>);
-    await user.click(screen.getByRole("button", { name: "Restore", exact: true }));
+    await user.click(screen.getByRole("button", { name: "Restore" }));
     expect(screen.getByTestId("accepted").textContent).toBe("true");
     expect(memory()).toEqual({ bookmarks: [], journalNotes: [], readingProgress: [] });
     expect(stored()).toEqual(Object.values(initial));
