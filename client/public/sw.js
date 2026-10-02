@@ -47,10 +47,10 @@ self.addEventListener("fetch", (event) => {
   }).catch(() => undefined));
 
   if (request.mode === "navigate") {
-    event.respondWith(network.catch(() => caches.match(request).then((cached) => cached || caches.match("/").then((shell) => shell || caches.match(OFFLINE_URL)))));
+    event.respondWith(network.catch(() => caches.match(request, { cacheName: CACHE_NAME }).then((cached) => cached || caches.match("/", { cacheName: CACHE_NAME }).then((shell) => shell || caches.match(OFFLINE_URL, { cacheName: CACHE_NAME })))));
     return;
   }
 
   const refresh = network.catch(() => undefined);
-  event.respondWith(caches.match(request).then((cached) => cached || refresh));
+  event.respondWith(caches.match(request, { cacheName: CACHE_NAME }).then((cached) => cached || refresh));
 });
