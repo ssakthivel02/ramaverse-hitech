@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { RamaNavbar } from "@/components/RamaNavbar";
 import { RamaFooter } from "@/components/RamaFooter";
 import { useLibrary } from "@/contexts/LibraryContext";
@@ -12,8 +12,11 @@ export default function Library() {
   const [activeTab, setActiveTab] = useState<'bookmarks' | 'journal'>('bookmarks');
   const [noteTitle, setNoteTitle] = useState("");
   const [noteContent, setNoteContent] = useState("");
-  const [restoreStatus, setRestoreStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [restoreStatus, setRestoreStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const restoreInputRef = useRef<HTMLInputElement>(null);
+  const restoreRequestRef = useRef(0);
+
+  useEffect(() => () => { restoreRequestRef.current += 1; }, []);
 
   const handleAddNote = (e: React.FormEvent) => {
     e.preventDefault();
@@ -27,13 +30,18 @@ export default function Library() {
     const file = e.target.files?.[0];
     if (!file) return;
 
+    const input = e.target;
+    const request = ++restoreRequestRef.current;
+    setRestoreStatus('loading');
     try {
-      const restored = importData(await file.text());
+      const json = await file.text();
+      if (request !== restoreRequestRef.current) return;
+      const restored = importData(json);
       setRestoreStatus(restored ? 'success' : 'error');
     } catch {
-      setRestoreStatus('error');
+      if (request === restoreRequestRef.current) setRestoreStatus('error');
     } finally {
-      e.target.value = "";
+      if (request === restoreRequestRef.current) input.value = "";
     }
   };
 
@@ -91,7 +99,7 @@ export default function Library() {
             <Button variant="outline" onClick={() => restoreInputRef.current?.click()} className="text-xs border-[#d4af37]/30 text-[#d4af37] hover:bg-[#d4af37]/10">
               <Upload className="w-3.5 h-3.5 mr-2" /> Restore Backup
             </Button>
-            <Button variant="outline" onClick={() => { if(confirm("Are you sure you want to clear all local library data?")) clearAllData(); }} className="text-xs border-red-500/30 text-red-400 hover:bg-red-500/10">
+            <Button variant="outline" onClick={() => { if(confirm("Are you sure you want to clear all local library data?")) { restoreRequestRef.current += 1; setRestoreStatus('idle'); clearAllData(); } }} className="text-xs border-red-500/30 text-red-400 hover:bg-red-500/10">
               <Trash2 className="w-3.5 h-3.5 mr-2" /> Clear All
             </Button>
           </div>
@@ -99,7 +107,9 @@ export default function Library() {
 
         {restoreStatus !== 'idle' && (
           <p role={restoreStatus === 'error' ? 'alert' : 'status'} aria-live="polite" className={`mb-8 text-center text-xs ${restoreStatus === 'error' ? 'text-red-300' : 'text-emerald-300'}`}>
-            {restoreStatus === 'success'
+            {restoreStatus === 'loading'
+              ? 'Reading backup file…'
+              : restoreStatus === 'success'
               ? storageFailed
                 ? 'Backup loaded for this session. Browser storage could not save it; export a backup before leaving.'
                 : 'Backup restored to this browser.'
