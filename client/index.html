@@ -37,13 +37,6 @@
 
   <body class="bg-[#0b101b] text-[#f3e9d2] font-sans antialiased selection:bg-[#d4af37] selection:text-[#0b101b]">
     <div id="root"></div>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW reg failed', err));
-        });
-      }
-    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 
