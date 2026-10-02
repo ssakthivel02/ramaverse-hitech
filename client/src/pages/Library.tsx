@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 export default function Library() {
-  const { bookmarks, removeBookmark, journalNotes, addJournalNote, deleteJournalNote, exportData, importData, clearAllData } = useLibrary();
+  const { bookmarks, removeBookmark, journalNotes, addJournalNote, deleteJournalNote, exportData, importData, clearAllData, storageFailed } = useLibrary();
   const [activeTab, setActiveTab] = useState<'bookmarks' | 'journal'>('bookmarks');
   const [noteTitle, setNoteTitle] = useState("");
   const [noteContent, setNoteContent] = useState("");
@@ -100,7 +100,9 @@ export default function Library() {
         {restoreStatus !== 'idle' && (
           <p role={restoreStatus === 'error' ? 'alert' : 'status'} aria-live="polite" className={`mb-8 text-center text-xs ${restoreStatus === 'error' ? 'text-red-300' : 'text-emerald-300'}`}>
             {restoreStatus === 'success'
-              ? 'Backup restored to this browser.'
+              ? storageFailed
+                ? 'Backup loaded for this session. Browser storage could not save it; export a backup before leaving.'
+                : 'Backup restored to this browser.'
               : 'Backup could not be restored. Choose a RamaVerse JSON backup file.'}
           </p>
         )}

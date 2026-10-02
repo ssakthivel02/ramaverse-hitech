@@ -24,6 +24,7 @@ interface LibraryContextType {
   importData: (jsonStr: string) => boolean;
   clearAllData: () => void;
   readingProgress: ReadingProgress[];
+  storageFailed: boolean;
   markSargaRead: (recordKey: string) => void;
   markSargaUnread: (recordKey: string) => void;
 }
@@ -44,9 +45,20 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
   const [journalNotes, setJournalNotes] = useState<JournalNote[]>(() => loadLocal("ramaverse_journal", []));
   const [readingProgress, setReadingProgress] = useState<ReadingProgress[]>(() => loadLocal("ramaverse_sarga_progress", []));
 
-  useEffect(() => { localStorage.setItem("ramaverse_bookmarks", JSON.stringify(bookmarks)); }, [bookmarks]);
-  useEffect(() => { localStorage.setItem("ramaverse_journal", JSON.stringify(journalNotes)); }, [journalNotes]);
-  useEffect(() => { localStorage.setItem("ramaverse_sarga_progress", JSON.stringify(readingProgress)); }, [readingProgress]);
+  const [storageFailed, setStorageFailed] = useState(false);
+
+  useEffect(() => {
+    const records: [string, unknown][] = [
+      ["ramaverse_bookmarks", bookmarks],
+      ["ramaverse_journal", journalNotes],
+      ["ramaverse_sarga_progress", readingProgress],
+    ];
+    let failed = false;
+    for (const [key, value] of records) {
+      try { localStorage.setItem(key, JSON.stringify(value)); } catch { failed = true; }
+    }
+    setStorageFailed(failed);
+  }, [bookmarks, journalNotes, readingProgress]);
 
   const isBookmarked = (itemId: number | string, type: string) => bookmarks.some(bookmark => bookmark.itemId === itemId && bookmark.type === type);
   const addBookmark = (item: Omit<BookmarkItem, "id" | "timestamp">) => {
@@ -89,12 +101,15 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     setBookmarks([]);
     setJournalNotes([]);
     setReadingProgress([]);
-    localStorage.removeItem("ramaverse_bookmarks");
-    localStorage.removeItem("ramaverse_journal");
-    localStorage.removeItem("ramaverse_sarga_progress");
+    for (const key of ["ramaverse_bookmarks", "ramaverse_journal", "ramaverse_sarga_progress"]) {
+      try { localStorage.removeItem(key); } catch { setStorageFailed(true); }
+    }
   };
 
-  return <LibraryContext.Provider value={{ bookmarks, addBookmark, removeBookmark, isBookmarked, journalNotes, addJournalNote, deleteJournalNote, exportData, importData, clearAllData, readingProgress, markSargaRead, markSargaUnread }}>{children}</LibraryContext.Provider>;
+  return <LibraryContext.Provider value={{ bookmarks, addBookmark, removeBookmark, isBookmarked, journalNotes, addJournalNote, deleteJournalNote, exportData, importData, clearAllData, readingProgress, storageFailed, markSargaRead, markSargaUnread }}>
+    {storageFailed && <p role="alert" className="m-0 border-b border-amber-400/30 bg-amber-950 px-4 py-3 text-center text-sm text-amber-100">Browser storage could not save your library changes. Changes may not survive a reload. Export a backup before leaving.</p>}
+    {children}
+  </LibraryContext.Provider>;
 }
 
 export function useLibrary() {
