@@ -466,10 +466,10 @@ export function MultilingualProvider({ children }: { children: React.ReactNode }
   };
 
   useEffect(() => {
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === "ar" || language === "ur" ? "rtl" : "ltr";
     try {
       localStorage.setItem("ramaverse_lang", language);
-      document.documentElement.lang = language;
-      document.documentElement.dir = language === "ar" || language === "ur" ? "rtl" : "ltr";
     } catch (e) {
       console.error("Failed to save language", e);
     }
