@@ -75,4 +75,56 @@ test.describe("standalone recovery without a service worker", () => {
     await resetAndVerify(page);
     expect(await page.evaluate(() => navigator.serviceWorker.controller)).toBeNull();
   });
+
+  for (const failurePoint of ["keys", "delete"] as const) {
+    test(`rejected cache ${failurePoint} shows a retryable error without losing private data`, async ({ page }) => {
+      const pageErrors: string[] = [];
+      page.on("pageerror", error => pageErrors.push(error.message));
+      await page.goto("/offline-reset.html");
+      await expect(page.getByRole("heading", { name: "Return to the RamaVerse" })).toBeVisible();
+      await seedResetFixtures(page);
+      // Fail one real window Cache Storage operation; worker blocking isolates the page handler.
+      await page.evaluate(({ failurePoint, obsoleteCache }) => {
+        let failOnce = true;
+        if (failurePoint === "keys") {
+          const original = caches.keys.bind(caches);
+          caches.keys = async () => {
+            if (failOnce) { failOnce = false; throw new Error("Injected cache enumeration failure"); }
+            return original();
+          };
+        } else {
+          const original = caches.delete.bind(caches);
+          caches.delete = async name => {
+            if (name === obsoleteCache && failOnce) { failOnce = false; throw new Error("Injected cache deletion failure"); }
+            return original(name);
+          };
+        }
+      }, { failurePoint, obsoleteCache });
+
+      const button = page.getByRole("button", { name: "Reset offline shell" });
+      await button.click();
+      await expect(page.getByRole("status")).toHaveText("Offline shell could not be reset. Please try again.");
+      await expect(button).toBeEnabled();
+      await expect(page).toHaveURL("/offline-reset.html");
+      const afterFailure = await page.evaluate(async ({ foreignCaches, probePath, privateLibrary }) => {
+        const names = await caches.keys();
+        const foreignBodies = [];
+        for (const name of foreignCaches) {
+          const response = names.includes(name) ? await (await caches.open(name)).match(probePath) : undefined;
+          foreignBodies.push(response ? await response.text() : null);
+        }
+        return {
+          names, foreignBodies,
+          library: Object.fromEntries(Object.keys(privateLibrary).map(key => [key, localStorage.getItem(key)])),
+        };
+      }, { foreignCaches, probePath, privateLibrary });
+      expect(afterFailure.names).toContain(obsoleteCache);
+      expect(afterFailure.foreignBodies).toEqual(foreignCaches);
+      expect(afterFailure.library).toEqual(privateLibrary);
+      expect(pageErrors).toEqual([]);
+
+      await resetAndVerify(page);
+      expect(pageErrors).toEqual([]);
+    });
+  }
 });
