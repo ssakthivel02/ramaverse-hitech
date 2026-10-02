@@ -75,7 +75,17 @@ export function LibraryProvider({ children }: { children: React.ReactNode }) {
     setBookmarks(previous => [{ ...item, id: `${item.type}_${item.itemId}_${Date.now()}`, timestamp: Date.now() }, ...previous]);
   };
   const removeBookmark = (itemId: number | string, type: string) => setBookmarks(previous => previous.filter(bookmark => !(bookmark.itemId === itemId && bookmark.type === type)));
-  const addJournalNote = (title: string, content: string) => setJournalNotes(previous => [{ id: `note_${Date.now()}`, title: title || "Spiritual Reflection", content, timestamp: Date.now() }, ...previous]);
+  const addJournalNote = (title: string, content: string) => {
+    const timestamp = Date.now();
+    setJournalNotes(previous => {
+      const baseId = `note_${timestamp}`;
+      let id = baseId;
+      let suffix = 0;
+      const existingIds = new Set(previous.map(note => note.id));
+      while (existingIds.has(id)) id = `${baseId}_${++suffix}`;
+      return [{ id, title: title || "Spiritual Reflection", content, timestamp }, ...previous];
+    });
+  };
   const deleteJournalNote = (id: string) => setJournalNotes(previous => previous.filter(note => note.id !== id));
   const markSargaRead = (recordKey: string) => setReadingProgress(previous => [{ recordKey, updatedAt: Date.now() }, ...previous.filter(item => item.recordKey !== recordKey)]);
   const markSargaUnread = (recordKey: string) => setReadingProgress(previous => previous.filter(item => item.recordKey !== recordKey));
