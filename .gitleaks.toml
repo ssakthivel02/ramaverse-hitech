@@ -9,5 +9,6 @@ regexTarget = "secret"
 regexes = [
   '''^primary-ivory$''',
   '''^ayodhya-gold$''',
+  '''^muted-ivory-65$''',
   '''^#f3e9d2$''',
 ]
