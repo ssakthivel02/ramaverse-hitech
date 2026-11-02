@@ -95,7 +95,7 @@ jobs:
           if (health.status !== 'alive' || health.service !== 'ramaverse') throw new Error('Invalid /healthz.');
           if (ready.status !== 'ready' || ready.service !== 'ramaverse') throw new Error('/readyz not ready.');
           if (ready.dependencies?.canonicalCorpus !== 'available') throw new Error('Canonical corpus unavailable.');
-          if (ready.dependencies?.database !== 'configured') throw new Error('Database not configured.');
+          if (ready.dependencies?.database !== 'reader_probe_passed') throw new Error('Reader database probe did not pass.');
           if (!Number.isInteger(ready.canonicalCount) || ready.canonicalCount <= 0) throw new Error('Invalid canonical count.');
           if (typeof ready.activeCorpusVersion !== 'string' || !ready.activeCorpusVersion) throw new Error('Missing corpus version.');
           NODE
