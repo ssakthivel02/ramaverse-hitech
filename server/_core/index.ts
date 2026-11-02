@@ -6,7 +6,7 @@ import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { assertActiveCorpus } from "../corpusRuntime";
-import { getDb } from "../db";
+import { probeReaderReadiness } from "../readerReadiness";
 
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise(resolve => {
@@ -79,15 +79,14 @@ async function startServer() {
 
   app.get("/readyz", async (_req, res) => {
     try {
-      const [active, db] = await Promise.all([assertActiveCorpus(), getDb()]);
-      const databaseReady = Boolean(db);
+      const [active, databaseReady] = await Promise.all([assertActiveCorpus(), probeReaderReadiness()]);
       const ready = databaseReady;
       res.status(ready ? 200 : 503).json({
         status: ready ? "ready" : "not_ready",
         service: "ramaverse",
         dependencies: {
           canonicalCorpus: "available",
-          database: databaseReady ? "configured" : "unavailable",
+          database: databaseReady ? "reader_probe_passed" : "unavailable",
         },
         activeCorpusVersion: active.pointer.activeCorpusVersion,
         canonicalCount: active.pointer.canonicalCount,
@@ -101,9 +100,8 @@ async function startServer() {
   app.get("/ops/health", async (_req, res) => {
     try {
       const active = await assertActiveCorpus();
-      const db = await getDb();
-      const databaseReady = Boolean(db);
-      res.status(databaseReady ? 200 : 503).json({ ok: databaseReady, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "configured" : "unavailable", pwaVersion: "ramaverse-cache-v6" });
+      const databaseReady = await probeReaderReadiness();
+      res.status(databaseReady ? 200 : 503).json({ ok: databaseReady, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "reader_probe_passed" : "unavailable", pwaVersion: "ramaverse-cache-v6" });
     } catch {
       res.status(503).json({ ok: false, reason: "active_corpus_unavailable" });
     }
