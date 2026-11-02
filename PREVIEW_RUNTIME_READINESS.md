@@ -34,7 +34,7 @@ A dedicated database/schema name or dedicated database user inside a shared cros
 ## Runtime gates
 
 - `/healthz` = process liveness only.
-- `/readyz` = preview readiness gate. It requires both the active canonical corpus and Reader database configuration.
+- `/readyz` = preview readiness gate. It requires both the active canonical corpus and a passing bounded Reader database probe (`database: reader_probe_passed`); this is a minimum signal, not proof of full corpus parity.
 - `/releasez` = deployed source identity; exact commit and repository identity must both be known for deployed-commit verification.
 - `/ops/health` = operational health with corpus version/count and database status.
 - `/ops/release-state` = release/corpus state without exposing secrets or user content.
