@@ -7,6 +7,7 @@ import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { assertActiveCorpus } from "../corpusRuntime";
 import { probeReaderReadiness } from "../readerReadiness";
+import { CONTENT_SECURITY_POLICY_REPORT_ONLY } from "./csp";
 
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise(resolve => {
@@ -60,7 +61,7 @@ async function startServer() {
     if (process.env.NODE_ENV === "production") {
       res.setHeader("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
     }
-    res.setHeader("Content-Security-Policy-Report-Only", "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' https:; frame-ancestors 'self'");
+    res.setHeader("Content-Security-Policy-Report-Only", CONTENT_SECURITY_POLICY_REPORT_ONLY);
     if (req.path.startsWith("/api/") || req.path.startsWith("/reconciliation") || req.path.toLowerCase().includes("staging") || req.path.startsWith("/__manus__") || isOperationalPath(req.path)) {
       res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
     }
