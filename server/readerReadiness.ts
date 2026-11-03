@@ -1,9 +1,9 @@
-import { inArray } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import { sargas } from "../drizzle/schema";
 import { getDb } from "./db";
 
-/** Review statuses supported by the existing canonical Sarga contract. */
-export const READER_READY_REVIEW_STATUSES = ["source_verified", "human_reviewed"] as const;
+/** The current canonical Sarga Reader contract requires explicit source verification. */
+export const READER_READY_REVIEW_STATUS = "source_verified" as const;
 
 /**
  * A bounded, read-only Reader probe. This is a minimum readiness signal,
@@ -17,7 +17,7 @@ export async function probeReaderReadiness(): Promise<boolean> {
       recordKey: sargas.recordKey,
       sourceId: sargas.sourceId,
       sourceLocator: sargas.sourceLocator,
-    }).from(sargas).where(inArray(sargas.reviewStatus, [...READER_READY_REVIEW_STATUSES])).limit(1);
+    }).from(sargas).where(eq(sargas.reviewStatus, READER_READY_REVIEW_STATUS)).limit(1);
     return rows.some(row =>
       Boolean(row.recordKey?.trim() && row.sourceId?.trim() && row.sourceLocator?.trim())
     );

@@ -4,7 +4,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 const mocks = vi.hoisted(() => ({ getDb: vi.fn() }));
 vi.mock("./db", () => ({ getDb: mocks.getDb }));
 
-import { probeReaderReadiness, READER_READY_REVIEW_STATUSES } from "./readerReadiness";
+import { probeReaderReadiness, READER_READY_REVIEW_STATUS } from "./readerReadiness";
 
 function dbReturning(rows: unknown[]) {
   const limit = vi.fn().mockResolvedValue(rows);
@@ -43,14 +43,15 @@ describe("bounded Reader readiness proof", () => {
     await expect(probeReaderReadiness()).resolves.toBe(true);
     expect(db.select).toHaveBeenCalledOnce();
   });
-  it("filters on canonical contract review statuses", async () => {
+  it("filters only on source_verified and excludes unverified placeholder review statuses", async () => {
     const db = dbReturning([{ recordKey: "VR-IITK-BALA-001", sourceId: "SR-06", sourceLocator: "Bala 1" }]);
     mocks.getDb.mockResolvedValue(db);
     await probeReaderReadiness();
     const rendered = new MySqlDialect().sqlToQuery(db.where.mock.calls[0][0]);
-    expect(READER_READY_REVIEW_STATUSES).toContain("source_verified");
-    expect(rendered.sql).toContain("`reviewStatus` in");
-    expect(rendered.params).toEqual(expect.arrayContaining(["source_verified", "human_reviewed"]));
+    expect(READER_READY_REVIEW_STATUS).toBe("source_verified");
+    expect(rendered.sql).toContain("`reviewStatus` = ?");
+    expect(rendered.params).toEqual(["source_verified"]);
+    expect(rendered.params).not.toContain("human_reviewed");
     expect(rendered.params).not.toContain("needs_source_review");
   });
 });
