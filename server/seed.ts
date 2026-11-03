@@ -1,7 +1,24 @@
 import { getDb } from "./db";
 import { kandas, sargas, wisdomRecords, characters, places, guidanceRecords, kidsStories, quizzes, audioScripts } from "../drizzle/schema";
 
+/**
+ * The built-in seed writes hard-coded development placeholder rows (several marked
+ * "human_reviewed"). It must never populate a preview or production database, because
+ * that would let a schema-only database pass Reader readiness with non-canonical data.
+ * It runs only when explicitly opted in, outside production, and without a pinned
+ * database identity (DATABASE_EXPECTED_NAME), which preview/integration targets always set.
+ */
+export function isDevSeedEnabled(env: NodeJS.ProcessEnv = process.env): boolean {
+  if (env.NODE_ENV === "production") return false;
+  if (env.DATABASE_EXPECTED_NAME?.trim()) return false;
+  return env.RAMAVERSE_ENABLE_DEV_SEED === "true";
+}
+
 export async function seedDatabase() {
+  if (!isDevSeedEnabled()) {
+    console.log("[Seed] Development seed disabled; canonical Reader data must come from the approved load process.");
+    return;
+  }
   const db = await getDb();
   if (!db) {
     console.log("[Seed] Database connection not available; skipping seed.");
