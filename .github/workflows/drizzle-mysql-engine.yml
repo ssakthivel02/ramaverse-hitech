@@ -50,5 +50,11 @@ jobs:
           corepack prepare pnpm@10.4.1 --activate
       - name: Frozen dependency installation
         run: pnpm install --frozen-lockfile
-      - name: Drizzle 0.45.4 isolated engine smoke
+      - name: Apply existing 0000–0003 migrations to disposable MySQL
+        env:
+          DATABASE_URL: ${{ env.RAMAVERSE_EPHEMERAL_MYSQL_URL }}
+          DATABASE_EXPECTED_NAME: ramaverse_ci
+          NODE_ENV: test
+        run: pnpm exec drizzle-kit migrate
+      - name: Drizzle 0.45.4 isolated engine smoke against migrated schema
         run: pnpm exec vitest run server/drizzleOrmMysqlCompat.live.test.ts
