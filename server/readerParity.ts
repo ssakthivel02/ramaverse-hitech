@@ -47,7 +47,7 @@ export type ParityReport = {
 };
 
 /** Identifier shapes used by staging, source-review and candidate artifacts. They are never canonical Reader keys. */
-const NON_CANONICAL_KEY = /^(stg-|staging-|src-review-|src-readiness-|candidate-)/i;
+export const NON_CANONICAL_KEY = /^(stg-|staging-|src-review-|src-readiness-|candidate-)/i;
 const COMPARED_FIELDS = ["kandaNumber", "editionId", "sourceId", "sourceLocator", "traditionId"] as const;
 const PROVENANCE_FIELDS = ["editionId", "sourceId", "sourceLocator", "traditionId"] as const;
 
