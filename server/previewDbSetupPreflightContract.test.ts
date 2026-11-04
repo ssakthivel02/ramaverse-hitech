@@ -42,4 +42,21 @@ describe("RamaVerse preview DB setup preflight dependency", () => {
     expect(workflow).toContain("rejectUnauthorized: true");
     expect(workflow).toContain("minVersion: 'TLSv1.2'");
   });
+
+  it("performs verified-TLS read-only connectivity before any migration command", () => {
+    const identityIndex = workflow.indexOf("Validate dedicated MySQL target identity");
+    const inventoryIndex = workflow.indexOf("Verify repository-baseline migration fingerprints");
+    const tlsIndex = workflow.indexOf("Verify database identity and trusted TLS before migration (read-only)");
+    const migrationIndex = workflow.indexOf("Apply reviewed committed preview migrations only");
+
+    expect(identityIndex).toBeGreaterThan(-1);
+    expect(inventoryIndex).toBeGreaterThan(identityIndex);
+    expect(tlsIndex).toBeGreaterThan(inventoryIndex);
+    expect(migrationIndex).toBeGreaterThan(tlsIndex);
+    expect(workflow).toContain("SHOW SESSION STATUS LIKE 'Ssl_cipher'");
+    expect(workflow).toContain("Verified TLS cipher is required before any RamaVerse schema mutation.");
+    expect(workflow).toContain("await mysql.createConnection");
+    expect(workflow).toContain("await connection.query('SELECT 1 AS ok')");
+    expect(workflow.match(/run: pnpm exec drizzle-kit migrate/g)).toHaveLength(1);
+  });
 });
