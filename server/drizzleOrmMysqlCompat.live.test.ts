@@ -43,7 +43,24 @@ describe("Drizzle MySQL compatibility against an isolated engine", () => {
           .limit(1).toSQL();
         expect(compiled.sql).toContain("`reviewStatus` = ?");
         expect(compiled.params).toContain("source_verified");
-        // This fixture is structural only; it does not imply any canonical data.
+        // Read the actual table installed by the committed migrations, without inserting content.
+        const liveRows = await db.select({
+          recordKey: sargas.recordKey,
+          reviewStatus: sargas.reviewStatus,
+          sourceId: sargas.sourceId,
+          sourceLocator: sargas.sourceLocator,
+        }).from(sargas).where(eq(sargas.reviewStatus, "source_verified")).limit(1);
+        expect(liveRows).toEqual([]);
+
+        const [schemaRows] = await pool.promise().query(
+          "SELECT COLUMN_NAME AS name FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = ? AND TABLE_NAME = ?",
+          [dbName, "sargas"],
+        );
+        const columnNames = (schemaRows as Array<{ name: string }>).map(row => row.name);
+        expect(columnNames).toEqual(expect.arrayContaining([
+          "recordKey", "reviewStatus", "editionId", "sourceId", "sourceLocator", "traditionId",
+        ]));
+        // The Reader table is empty on purpose: this is schema compatibility, not canonical parity.
       } finally {
         await pool.promise().end();
       }
