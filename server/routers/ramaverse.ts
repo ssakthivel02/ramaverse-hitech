@@ -1,4 +1,4 @@
-import { publicProcedure, router } from "../_core/trpc";
+import { adminProcedure, publicProcedure, router } from "../_core/trpc";
 import { getDb } from "../db";
 import { kandas, wisdomRecords, characters, places, guidanceRecords, kidsStories, quizzes, audioScripts, sargas, dialogues, dharmaLessons, devotionalPractices, temples, traditionMappings } from "../../drizzle/schema";
 import { sql, eq, or, like } from "drizzle-orm";
@@ -68,7 +68,7 @@ export const ramaverseRouter = router({
     };
   }),
 
-  getReconciliationPreview: publicProcedure.query(() => {
+  getReconciliationPreview: adminProcedure.query(() => {
     const evidencePath = path.resolve(process.cwd(), "RECONCILIATION_DRY_RUN.json");
     try {
       const report = JSON.parse(fs.readFileSync(evidencePath, "utf8"));
@@ -79,7 +79,7 @@ export const ramaverseRouter = router({
     }
   }),
 
-  getSourceReviewPreview: publicProcedure.query(() => {
+  getSourceReviewPreview: adminProcedure.query(() => {
     const evidencePath = path.resolve(process.cwd(), "data", "source-reviews", "ayodhya-sarga-21.json");
     try {
       const record = JSON.parse(fs.readFileSync(evidencePath, "utf8"));
@@ -90,7 +90,7 @@ export const ramaverseRouter = router({
     }
   }),
 
-  getSourceReadinessPreview: publicProcedure.query(() => {
+  getSourceReadinessPreview: adminProcedure.query(() => {
     const evidencePath = path.resolve(process.cwd(), "data", "source-reviews", "ayodhya-sarga-25-26.json");
     try {
       const report = JSON.parse(fs.readFileSync(evidencePath, "utf8"));
@@ -102,7 +102,7 @@ export const ramaverseRouter = router({
     }
   }),
 
-  getStagingLedgerPreview: publicProcedure.query(() => {
+  getStagingLedgerPreview: adminProcedure.query(() => {
     const ledgerPath = path.resolve(process.cwd(), "RAMAVERSE_STAGING_MASTER_LEDGER.json");
     try {
       const ledger = JSON.parse(fs.readFileSync(ledgerPath, "utf8"));
