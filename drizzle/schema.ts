@@ -119,7 +119,8 @@ export const audioScripts = mysqlTable("audio_scripts", {
   scriptNumber: int("scriptNumber").notNull().unique(),
   title: varchar("title", { length: 255 }).notNull(),
   durationMinutes: int("durationMinutes").notNull(),
-  transcript: text("transcript").notNull(),
+  // Transitional nullable column: populated only after an approved source-backed backfill.
+  transcript: text("transcript"),
   scriptContent: text("scriptContent"),
   narratorRole: varchar("narratorRole", { length: 128 }),
   musicalMood: varchar("musicalMood", { length: 128 }),
@@ -139,8 +140,9 @@ export const dialogues = mysqlTable("dialogues", {
   deeperExplanation: text("deeperExplanation").notNull(),
   dharmaPrinciple: varchar("dharmaPrinciple", { length: 128 }).notNull(),
   sourceLocator: varchar("sourceLocator", { length: 255 }).notNull(),
-  traditionStatus: varchar("traditionStatus", { length: 64 }).notNull().default("VERIFIED_CANONICAL"),
-  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("human_reviewed"),
+  // Never confer canonical/tradition approval merely because a row was inserted.
+  traditionStatus: varchar("traditionStatus", { length: 64 }).notNull(),
+  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("needs_source_review"),
 });
 
 export const dharmaLessons = mysqlTable("dharma_lessons", {
@@ -152,7 +154,7 @@ export const dharmaLessons = mysqlTable("dharma_lessons", {
   traditionalInterpretation: text("traditionalInterpretation").notNull(),
   editorialLifeApplication: text("editorialLifeApplication").notNull(),
   sourceLocator: varchar("sourceLocator", { length: 255 }).notNull(),
-  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("human_reviewed"),
+  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("needs_source_review"),
 });
 
 export const devotionalPractices = mysqlTable("devotional_practices", {
@@ -163,7 +165,7 @@ export const devotionalPractices = mysqlTable("devotional_practices", {
   traditionalPurpose: text("traditionalPurpose").notNull(),
   disclaimer: text("disclaimer").notNull().default("Traditional practice and observance. No outcome or remedy is guaranteed."),
   traditionCategory: varchar("traditionCategory", { length: 64 }).notNull().default("TRADITIONAL"),
-  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("human_reviewed"),
+  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("needs_source_review"),
 });
 
 export const temples = mysqlTable("temples", {
@@ -175,7 +177,7 @@ export const temples = mysqlTable("temples", {
   historicalSignificance: text("historicalSignificance").notNull(),
   pilgrimageAssociation: text("pilgrimageAssociation").notNull(),
   officialChannelsOnly: text("officialChannelsOnly").notNull(),
-  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("human_reviewed"),
+  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("needs_source_review"),
 });
 
 export const traditionMappings = mysqlTable("tradition_mappings", {
@@ -187,5 +189,5 @@ export const traditionMappings = mysqlTable("tradition_mappings", {
   tulsiTreatment: text("tulsiTreatment").notNull(),
   adhyatmaTreatment: text("adhyatmaTreatment").notNull(),
   regionalVariant: text("regionalVariant").notNull(),
-  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("human_reviewed"),
+  reviewStatus: varchar("reviewStatus", { length: 64 }).notNull().default("needs_source_review"),
 });

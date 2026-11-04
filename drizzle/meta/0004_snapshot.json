@@ -39,7 +39,7 @@
           "name": "transcript",
           "type": "text",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
           "autoincrement": false
         },
         "scriptContent": {
@@ -255,7 +255,7 @@
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false,
-          "default": "'human_reviewed'"
+          "default": "'needs_source_review'"
         }
       },
       "indexes": {},
@@ -343,7 +343,7 @@
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false,
-          "default": "'human_reviewed'"
+          "default": "'needs_source_review'"
         }
       },
       "indexes": {},
@@ -451,8 +451,7 @@
           "type": "varchar(64)",
           "primaryKey": false,
           "notNull": true,
-          "autoincrement": false,
-          "default": "'VERIFIED_CANONICAL'"
+          "autoincrement": false
         },
         "reviewStatus": {
           "name": "reviewStatus",
@@ -460,7 +459,7 @@
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false,
-          "default": "'human_reviewed'"
+          "default": "'needs_source_review'"
         }
       },
       "indexes": {},
@@ -1079,7 +1078,7 @@
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false,
-          "default": "'human_reviewed'"
+          "default": "'needs_source_review'"
         }
       },
       "indexes": {},
@@ -1167,7 +1166,7 @@
           "primaryKey": false,
           "notNull": true,
           "autoincrement": false,
-          "default": "'human_reviewed'"
+          "default": "'needs_source_review'"
         }
       },
       "indexes": {},

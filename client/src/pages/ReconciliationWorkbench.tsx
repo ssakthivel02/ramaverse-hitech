@@ -11,12 +11,37 @@ const checks = [
   { label: "Editorial gates", detail: "Tamil-review and reconciliation states are surfaced as blockers. No workbench action can publish a candidate." },
 ];
 
+export function ReconciliationAccessNotice({ restricted }: { restricted: boolean }) {
+  return (
+    <section role="status" aria-label="Editorial preview access status" className="mx-auto max-w-3xl rounded-2xl border border-amber-300/30 bg-[#101a2a] p-8 text-[#f3e9d2]">
+      <LockKeyhole className="h-7 w-7 text-amber-200" aria-hidden="true" />
+      <h1 className="mt-4 font-serif text-2xl">{restricted ? "Editorial access restricted" : "Editorial preview unavailable"}</h1>
+      <p className="mt-3 text-sm leading-6 text-[#f3e9d2]/75">
+        {restricted
+          ? "Reconciliation and source-review records are private. An approved owner sign-in is required; this deployment does not provide an authenticated editor session."
+          : "The editorial evidence cannot be loaded. No staging or unpublished records are shown."}
+      </p>
+      <p className="mt-3 text-sm text-amber-100">Canonical publication remains disabled until source and editorial approvals are verified.</p>
+    </section>
+  );
+}
+
 export default function ReconciliationWorkbench() {
-  const { data: preview, isLoading } = trpc.ramaverse.getReconciliationPreview.useQuery();
-  const { data: sourceReview } = trpc.ramaverse.getSourceReviewPreview.useQuery();
+  const { data: preview, isLoading, error: previewError } = trpc.ramaverse.getReconciliationPreview.useQuery();
+  const { data: sourceReview, error: sourceReviewError } = trpc.ramaverse.getSourceReviewPreview.useQuery();
   const [decisionFilter, setDecisionFilter] = React.useState("ALL");
   const candidateEvidence = (preview?.candidateEvidence ?? []) as Array<{ candidateId: string; recordType: string; kanda: string; sargaReference: string; sourceLocator: string; sourceIds: string[]; tradition: string; confidence: string; possibleCanonicalMatch: string; possibleLegacyOverlap: boolean; tamilReview: boolean; sourceReview: boolean; decisionState: string }>;
   const visibleCandidates = candidateEvidence.filter((candidate) => decisionFilter === "ALL" || candidate.decisionState === decisionFilter);
+  const accessDenied = [previewError?.data?.code, sourceReviewError?.data?.code].some(code => code === "FORBIDDEN" || code === "UNAUTHORIZED");
+  if (previewError || sourceReviewError) {
+    return (
+      <div className="min-h-screen bg-[#0b101b]">
+        <RamaNavbar />
+        <main className="px-4 py-12"><ReconciliationAccessNotice restricted={accessDenied} /></main>
+        <RamaFooter />
+      </div>
+    );
+  }
   return (
     <div className="min-h-screen bg-[#0b101b] text-[#f3e9d2]">
       <RamaNavbar />

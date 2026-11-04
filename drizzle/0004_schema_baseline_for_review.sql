@@ -6,7 +6,7 @@ CREATE TABLE `devotional_practices` (
 	`traditionalPurpose` text NOT NULL,
 	`disclaimer` text NOT NULL DEFAULT ('Traditional practice and observance. No outcome or remedy is guaranteed.'),
 	`traditionCategory` varchar(64) NOT NULL DEFAULT 'TRADITIONAL',
-	`reviewStatus` varchar(64) NOT NULL DEFAULT 'human_reviewed',
+	`reviewStatus` varchar(64) NOT NULL DEFAULT 'needs_source_review',
 	CONSTRAINT `devotional_practices_id` PRIMARY KEY(`id`),
 	CONSTRAINT `devotional_practices_practiceKey_unique` UNIQUE(`practiceKey`)
 );
@@ -20,7 +20,7 @@ CREATE TABLE `dharma_lessons` (
 	`traditionalInterpretation` text NOT NULL,
 	`editorialLifeApplication` text NOT NULL,
 	`sourceLocator` varchar(255) NOT NULL,
-	`reviewStatus` varchar(64) NOT NULL DEFAULT 'human_reviewed',
+	`reviewStatus` varchar(64) NOT NULL DEFAULT 'needs_source_review',
 	CONSTRAINT `dharma_lessons_id` PRIMARY KEY(`id`),
 	CONSTRAINT `dharma_lessons_lessonKey_unique` UNIQUE(`lessonKey`)
 );
@@ -37,8 +37,8 @@ CREATE TABLE `dialogues` (
 	`deeperExplanation` text NOT NULL,
 	`dharmaPrinciple` varchar(128) NOT NULL,
 	`sourceLocator` varchar(255) NOT NULL,
-	`traditionStatus` varchar(64) NOT NULL DEFAULT 'VERIFIED_CANONICAL',
-	`reviewStatus` varchar(64) NOT NULL DEFAULT 'human_reviewed',
+	`traditionStatus` varchar(64) NOT NULL,
+	`reviewStatus` varchar(64) NOT NULL DEFAULT 'needs_source_review',
 	CONSTRAINT `dialogues_id` PRIMARY KEY(`id`),
 	CONSTRAINT `dialogues_dialogueKey_unique` UNIQUE(`dialogueKey`)
 );
@@ -52,7 +52,7 @@ CREATE TABLE `temples` (
 	`historicalSignificance` text NOT NULL,
 	`pilgrimageAssociation` text NOT NULL,
 	`officialChannelsOnly` text NOT NULL,
-	`reviewStatus` varchar(64) NOT NULL DEFAULT 'human_reviewed',
+	`reviewStatus` varchar(64) NOT NULL DEFAULT 'needs_source_review',
 	CONSTRAINT `temples_id` PRIMARY KEY(`id`),
 	CONSTRAINT `temples_templeKey_unique` UNIQUE(`templeKey`)
 );
@@ -66,12 +66,12 @@ CREATE TABLE `tradition_mappings` (
 	`tulsiTreatment` text NOT NULL,
 	`adhyatmaTreatment` text NOT NULL,
 	`regionalVariant` text NOT NULL,
-	`reviewStatus` varchar(64) NOT NULL DEFAULT 'human_reviewed',
+	`reviewStatus` varchar(64) NOT NULL DEFAULT 'needs_source_review',
 	CONSTRAINT `tradition_mappings_id` PRIMARY KEY(`id`),
 	CONSTRAINT `tradition_mappings_mappingKey_unique` UNIQUE(`mappingKey`)
 );
 --> statement-breakpoint
 ALTER TABLE `audio_scripts` MODIFY COLUMN `narratorRole` varchar(128);--> statement-breakpoint
 ALTER TABLE `audio_scripts` MODIFY COLUMN `scriptContent` text;--> statement-breakpoint
-ALTER TABLE `audio_scripts` ADD `transcript` text NOT NULL;--> statement-breakpoint
+ALTER TABLE `audio_scripts` ADD `transcript` text;--> statement-breakpoint
 ALTER TABLE `audio_scripts` ADD `ageGroup` varchar(32) DEFAULT 'All Ages';

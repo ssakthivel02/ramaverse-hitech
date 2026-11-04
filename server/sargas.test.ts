@@ -4,9 +4,9 @@ import { describe, expect, it } from "vitest";
 import { appRouter } from "./routers";
 import type { TrpcContext } from "./_core/context";
 
-function createTestContext(): TrpcContext {
+function createTestContext(isAdmin = false): TrpcContext {
   return {
-    user: undefined,
+    user: isAdmin ? ({ role: "admin" } as TrpcContext["user"]) : undefined,
     req: { protocol: "https", headers: {} } as TrpcContext["req"],
     res: { clearCookie: () => {} } as TrpcContext["res"],
   };
@@ -54,7 +54,7 @@ describe("RamaVerse edition-aware Sarga registry", () => {
   });
 
   it.skipIf(!hasReconciliationEvidence)("exposes a dry-run-only reconciliation state with no staging publication path", async () => {
-    const caller = appRouter.createCaller(createTestContext());
+    const caller = appRouter.createCaller(createTestContext(true));
     const preview = await caller.ramaverse.getReconciliationPreview();
 
     expect(preview).toMatchObject({ dryRunOnly: true, historicalCanonicalBaseline: 550, stagingObserved: 28, verifiedAttachedRecords: 28, unavailableClaimedRecords: 50, claimedStagingTotal: 78, stagingPublished: 0, publicationAvailable: false });
@@ -62,7 +62,7 @@ describe("RamaVerse edition-aware Sarga registry", () => {
   });
 
   it("exposes Sargas 25–26 only as quarantined source-readiness evidence", async () => {
-    const caller = appRouter.createCaller(createTestContext());
+    const caller = appRouter.createCaller(createTestContext(true));
     const preview = await caller.ramaverse.getSourceReadinessPreview();
 
     expect(preview.evidenceAvailable).toBe(true);
