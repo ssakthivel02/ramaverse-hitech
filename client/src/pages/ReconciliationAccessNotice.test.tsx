@@ -1,7 +1,9 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { cleanup, render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it } from "vitest";
 import { ReconciliationAccessNotice } from "./ReconciliationWorkbench";
+
+afterEach(() => cleanup());
 
 describe("restricted reconciliation evidence display", () => {
   it("explains owner restriction without exposing unpublished staging records", () => {
