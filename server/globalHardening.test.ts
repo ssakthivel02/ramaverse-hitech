@@ -40,4 +40,12 @@ describe("global discovery and operations hardening", () => {
     expect(server).toContain('userQuestionLogging: "disabled"');
     expect(server).toContain('Content-Security-Policy-Report-Only');
   });
+
+  it("limits request bodies far below the former 50mb default", () => {
+    const server = read("server/_core/index.ts");
+    expect(server).toContain('const API_BODY_LIMIT = "256kb"');
+    expect(server).toContain("express.json({ limit: API_BODY_LIMIT })");
+    expect(server).toContain("express.urlencoded({ limit: API_BODY_LIMIT, extended: true })");
+    expect(server).not.toContain("50mb");
+  });
 });
