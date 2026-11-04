@@ -82,6 +82,14 @@ describe("Intelligence workbench", () => {
     expect(screen.getByText(/staging excluded/i)).toBeDefined();
   });
 
+  it("keeps an accessible name on the submit button when its visual label is hidden on small screens", () => {
+    render(<Intelligence />);
+    const form = screen.getByRole("textbox", { name: /grounded question/i }).closest("form")!;
+    const submit = form.querySelector('button[type="submit"]')!;
+    expect(submit.getAttribute("aria-label")).toBe("Explore");
+    expect(screen.getByRole("button", { name: "Explore" })).toBe(submit);
+  });
+
   it("surfaces an explicit status when an offline question has no cached answer", () => {
     Object.defineProperty(window.navigator, "onLine", { configurable: true, value: false });
     window.localStorage.clear();
