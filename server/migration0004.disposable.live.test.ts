@@ -4,7 +4,10 @@ import mysql from "mysql2/promise";
 import { describe, expect, it } from "vitest";
 
 const root = process.cwd();
-const migrationFile = (tag: string) => readFileSync(path.join(root, "drizzle", tag + ".sql"), "utf8");
+const migrationFile = (tag: string) => readFileSync(
+  path.join(root, tag === "0004_schema_baseline_for_review" ? "migration-proposals" : "drizzle", tag + ".sql"),
+  "utf8",
+);
 const statements = (text: string) => text.split("--> statement-breakpoint").map(value => value.trim()).filter(Boolean);
 const tags = ["0000_fluffy_skin", "0001_easy_morgan_stark", "0002_blue_sue_storm", "0003_tranquil_aqueduct", "0004_schema_baseline_for_review"];
 
@@ -63,8 +66,14 @@ describe("0004 staged migration source safety", () => {
     expect(file).not.toContain("ADD `transcript` text NOT NULL");
     expect(file).not.toMatch(/UPDATE\s+`?audio_scripts`?/i);
   });
+  it("keeps the unapproved proposal outside the executable journal and source migration folder", () => {
+    const journal = JSON.parse(readFileSync(path.join(root, "drizzle/meta/_journal.json"), "utf8"));
+    expect(journal.entries.map((entry: { tag: string }) => entry.tag)).not.toContain("0004_schema_baseline_for_review");
+    const active = readFileSync(path.join(root, "drizzle/migration-repository-baseline.json"), "utf8");
+    expect(active).not.toContain("0004_schema_baseline_for_review");
+  });
   it("matches the interim Drizzle snapshot for nullability and approval fields", () => {
-    const snapshot = JSON.parse(readFileSync(path.join(root,"drizzle/meta/0004_snapshot.json"),"utf8"));
+    const snapshot = JSON.parse(readFileSync(path.join(root,"migration-proposals/0004_snapshot.json"),"utf8"));
     expect(snapshot.tables.audio_scripts.columns.transcript.notNull).toBe(false);
     expect(snapshot.tables.dialogues.columns.traditionStatus.default).toBeUndefined();
     for (const name of ["dialogues","devotional_practices","dharma_lessons","temples","tradition_mappings"]) {

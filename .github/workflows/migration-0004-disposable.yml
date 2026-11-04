@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - drizzle/**
+      - migration-proposals/**
       - server/migration0004.disposable.live.test.ts
       - .github/workflows/migration-0004-disposable.yml
   workflow_dispatch:

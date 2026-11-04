@@ -29,13 +29,6 @@
       "when": 1786656499896,
       "tag": "0003_tranquil_aqueduct",
       "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "5",
-      "when": 1793721272402,
-      "tag": "0004_schema_baseline_for_review",
-      "breakpoints": true
     }
   ]
 }
