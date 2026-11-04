@@ -14,6 +14,18 @@ function dbReturning(rows: unknown[]) {
   return { select, where };
 }
 
+const validRow = {
+  recordKey: "VR-IITK-BALA-001",
+  kandaNumber: 1,
+  sargaIdentifier: "VR-IITK-BALA-001",
+  editionId: "synthetic-edition-for-test",
+  sourceId: "synthetic-source-for-test",
+  sourceLocator: "Bala 1",
+  traditionId: "synthetic-tradition-for-test",
+  editorialDescriptor: "Synthetic descriptor for test",
+  summary: "Synthetic summary for test",
+};
+
 describe("bounded Reader readiness proof", () => {
   beforeEach(() => vi.resetAllMocks());
 
@@ -33,18 +45,45 @@ describe("bounded Reader readiness proof", () => {
   });
 
   it("rejects a row missing its source locator", async () => {
-    mocks.getDb.mockResolvedValue(dbReturning([{ recordKey: "x", sourceId: "source", sourceLocator: "" }]));
+    mocks.getDb.mockResolvedValue(dbReturning([{ ...validRow, sourceLocator: "" }]));
     await expect(probeReaderReadiness()).resolves.toBe(false);
   });
 
   it("accepts a bounded source-located reviewed Reader row", async () => {
-    const db = dbReturning([{ recordKey: "canonical", sourceId: "source", sourceLocator: "Bala 1" }]);
+    const db = dbReturning([validRow]);
     mocks.getDb.mockResolvedValue(db);
     await expect(probeReaderReadiness()).resolves.toBe(true);
     expect(db.select).toHaveBeenCalledOnce();
   });
+  it.each([
+    ["missing edition", { editionId: "" }],
+    ["missing tradition", { traditionId: " " }],
+    ["missing summary", { summary: "" }],
+    ["missing descriptor", { editorialDescriptor: "" }],
+    ["missing Sarga ID", { sargaIdentifier: "" }],
+    ["invalid Kanda number", { kandaNumber: 8 }],
+    ["staging record key", { recordKey: "STAGING-BALA-001" }],
+    ["candidate Sarga identifier", { sargaIdentifier: "candidate-bala-001" }],
+    ["staging source ID", { sourceId: "SRC-REVIEW-SOURCE-001" }],
+  ])("fails closed for %s", async (_reason, patch) => {
+    mocks.getDb.mockResolvedValue(dbReturning([{ ...validRow, ...patch }]));
+    await expect(probeReaderReadiness()).resolves.toBe(false);
+  });
+
+  it("selects bounded provenance and editorial fields without writing", async () => {
+    const db = dbReturning([validRow]);
+    mocks.getDb.mockResolvedValue(db);
+    expect(await probeReaderReadiness()).toBe(true);
+    expect(db.select.mock.calls[0][0]).toHaveProperty("editionId");
+    expect(db.select.mock.calls[0][0]).toHaveProperty("traditionId");
+    expect(db.select.mock.calls[0][0]).toHaveProperty("summary");
+    expect(db.select.mock.calls[0][0]).toHaveProperty("editorialDescriptor");
+    expect(db.select.mock.calls[0][0]).not.toHaveProperty("reviewStatus");
+    expect(db.where).toHaveBeenCalledOnce();
+  });
+
   it("filters only on source_verified and excludes unverified placeholder review statuses", async () => {
-    const db = dbReturning([{ recordKey: "VR-IITK-BALA-001", sourceId: "SR-06", sourceLocator: "Bala 1" }]);
+    const db = dbReturning([validRow]);
     mocks.getDb.mockResolvedValue(db);
     await probeReaderReadiness();
     const rendered = new MySqlDialect().sqlToQuery(db.where.mock.calls[0][0]);
