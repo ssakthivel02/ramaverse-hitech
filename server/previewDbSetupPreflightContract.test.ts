@@ -13,11 +13,11 @@ describe("RamaVerse preview DB setup preflight dependency", () => {
     expect(workflow).toContain("provider_candidate:");
     expect(workflow).toContain("preflight_run_id:");
     expect(workflow).toContain("confirm_schema_mutation:");
-    expect(workflow).toContain("Explicit schema-only mutation approval is required before db:push.");
+    expect(workflow).toContain("Explicit approval is required before applying committed schema migrations.");
     expect(workflow).toContain("actions: read");
   });
 
-  it("validates the exact successful read-only preflight run and artifact before db:push", () => {
+  it("validates the exact successful read-only preflight run and artifact before committed migration execution", () => {
     expect(workflow).toContain('RamaVerse Provider Read-Only Preflight');
     expect(workflow).toContain('.github/workflows/provider-readonly-preflight.yml');
     expect(workflow).toContain('.head_sha == $sha');
@@ -27,10 +27,10 @@ describe("RamaVerse preview DB setup preflight dependency", () => {
     expect(workflow).toContain('.owner_provider_candidate_approved == true');
     expect(workflow).toContain('.mutation_performed == false');
     expect(workflow).toContain('.result == "READ_ONLY_PROVIDER_PREFLIGHT_PASS"');
-    expect(workflow).toContain("run: pnpm db:push");
+    expect(workflow).toContain("run: pnpm exec drizzle-kit migrate");
 
     const verificationIndex = workflow.indexOf("Verify matching read-only preflight evidence");
-    const mutationStepIndex = workflow.indexOf("Apply preview schema only");
+    const mutationStepIndex = workflow.indexOf("Apply reviewed committed preview migrations only");
     expect(verificationIndex).toBeGreaterThan(-1);
     expect(mutationStepIndex).toBeGreaterThan(verificationIndex);
   });

@@ -12,7 +12,7 @@ on:
         required: true
         type: string
       confirm_schema_mutation:
-        description: "I explicitly authorize schema-only mutation (pnpm db:push) after the matching preflight evidence is verified"
+        description: "I explicitly authorize applying reviewed, committed migrations after the matching preflight evidence is verified"
         required: true
         type: boolean
         default: false
@@ -44,7 +44,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ "${SCHEMA_MUTATION_APPROVED}" != "true" ]; then
-            echo "Explicit schema-only mutation approval is required before db:push."
+            echo "Explicit approval is required before applying committed schema migrations."
             exit 1
           fi
           if [ -z "${PROVIDER_CANDIDATE:-}" ]; then
@@ -148,8 +148,8 @@ jobs:
       - name: Typecheck
         run: pnpm check
 
-      - name: Apply preview schema only
-        run: pnpm db:push
+      - name: Apply reviewed committed preview migrations only
+        run: pnpm exec drizzle-kit migrate
 
       - name: Verify database connectivity over trusted TLS
         shell: bash

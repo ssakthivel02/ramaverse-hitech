@@ -43,7 +43,7 @@ export default function Quizzes() {
         </div>
 
         {/* Difficulty Filter */}
-        <div className="flex justify-center gap-2 mb-12">
+        <div className="flex flex-wrap justify-center gap-2 mb-12">
           {difficulties.map((diff) => (
             <Button
               key={diff}

@@ -1,4 +1,4 @@
-import { publicProcedure, router } from "../_core/trpc";
+import { adminProcedure, expensivePublicProcedure, publicProcedure, router } from "../_core/trpc";
 import { getDb } from "../db";
 import { kandas, wisdomRecords, characters, places, guidanceRecords, kidsStories, quizzes, audioScripts, sargas, dialogues, dharmaLessons, devotionalPractices, temples, traditionMappings } from "../../drizzle/schema";
 import { sql, eq, or, like } from "drizzle-orm";
@@ -68,7 +68,7 @@ export const ramaverseRouter = router({
     };
   }),
 
-  getReconciliationPreview: publicProcedure.query(() => {
+  getReconciliationPreview: adminProcedure.query(() => {
     const evidencePath = path.resolve(process.cwd(), "RECONCILIATION_DRY_RUN.json");
     try {
       const report = JSON.parse(fs.readFileSync(evidencePath, "utf8"));
@@ -79,7 +79,7 @@ export const ramaverseRouter = router({
     }
   }),
 
-  getSourceReviewPreview: publicProcedure.query(() => {
+  getSourceReviewPreview: adminProcedure.query(() => {
     const evidencePath = path.resolve(process.cwd(), "data", "source-reviews", "ayodhya-sarga-21.json");
     try {
       const record = JSON.parse(fs.readFileSync(evidencePath, "utf8"));
@@ -90,7 +90,7 @@ export const ramaverseRouter = router({
     }
   }),
 
-  getSourceReadinessPreview: publicProcedure.query(() => {
+  getSourceReadinessPreview: adminProcedure.query(() => {
     const evidencePath = path.resolve(process.cwd(), "data", "source-reviews", "ayodhya-sarga-25-26.json");
     try {
       const report = JSON.parse(fs.readFileSync(evidencePath, "utf8"));
@@ -102,7 +102,7 @@ export const ramaverseRouter = router({
     }
   }),
 
-  getStagingLedgerPreview: publicProcedure.query(() => {
+  getStagingLedgerPreview: adminProcedure.query(() => {
     const ledgerPath = path.resolve(process.cwd(), "RAMAVERSE_STAGING_MASTER_LEDGER.json");
     try {
       const ledger = JSON.parse(fs.readFileSync(ledgerPath, "utf8"));
@@ -280,7 +280,7 @@ export const ramaverseRouter = router({
     return await db.select().from(traditionMappings);
   }),
 
-  askGrounded: publicProcedure.input(z.object({ query: z.string(), persona: z.string(), requestId: z.number().int().nonnegative().optional() })).query(async ({ input }) => {
+  askGrounded: expensivePublicProcedure.input(z.object({ query: z.string(), persona: z.string(), requestId: z.number().int().nonnegative().optional() })).query(async ({ input }) => {
     const db = await getDb();
     if (!db || !input.query.trim()) {
       return {
@@ -357,7 +357,7 @@ export const ramaverseRouter = router({
     };
   }),
 
-  globalSearch: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input }) => {
+  globalSearch: expensivePublicProcedure.input(z.object({ query: z.string() })).query(async ({ input }) => {
     const db = await getDb();
     if (!db || !input.query.trim()) return { wisdom: [], characters: [], places: [], guidance: [], stories: [], quizzes: [], audio: [], sargas: [] };
     const q = input.query.toLowerCase();
@@ -383,7 +383,7 @@ export const ramaverseRouter = router({
     };
   }),
 
-  guidedSearch: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input }) => {
+  guidedSearch: expensivePublicProcedure.input(z.object({ query: z.string() })).query(async ({ input }) => {
     const db = await getDb();
     if (!db || !input.query.trim()) return { wisdom: [], characters: [], places: [], guidance: [], stories: [], quizzes: [], audio: [], sargas: [] };
     const q = input.query.toLowerCase();
@@ -409,11 +409,11 @@ export const ramaverseRouter = router({
     };
   }),
 
-  intelligenceSearch: publicProcedure.input(z.object({ query: z.string(), locale: z.enum(["en", "ta", "hi", "te", "kn", "ml"]).optional(), kandaNumber: z.number().int().positive().optional(), limit: z.number().int().min(1).max(20).optional() })).query(async ({ input }) => ({
+  intelligenceSearch: expensivePublicProcedure.input(z.object({ query: z.string(), locale: z.enum(["en", "ta", "hi", "te", "kn", "ml"]).optional(), kandaNumber: z.number().int().positive().optional(), limit: z.number().int().min(1).max(20).optional() })).query(async ({ input }) => ({
     results: await searchCanonicalIntelligence(input),
     provenance: CANONICAL_PROVENANCE,
     provider: getConfiguredProviderName() ?? "local-deterministic",
   })),
 
-  intelligenceAsk: publicProcedure.input(z.object({ query: z.string(), locale: z.enum(["en", "ta", "hi", "te", "kn", "ml"]).optional(), kandaNumber: z.number().int().positive().optional(), limit: z.number().int().min(1).max(12).optional() })).query(async ({ input }) => answerCanonicalQuestion(input)),
+  intelligenceAsk: expensivePublicProcedure.input(z.object({ query: z.string(), locale: z.enum(["en", "ta", "hi", "te", "kn", "ml"]).optional(), kandaNumber: z.number().int().positive().optional(), limit: z.number().int().min(1).max(12).optional() })).query(async ({ input }) => answerCanonicalQuestion(input)),
 });
