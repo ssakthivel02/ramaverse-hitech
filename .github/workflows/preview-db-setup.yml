@@ -148,6 +148,9 @@ jobs:
       - name: Typecheck
         run: pnpm check
 
+      - name: Verify repository-baseline migration fingerprints (read-only)
+        run: pnpm exec tsx server/migrationInventory.ts
+
       - name: Apply reviewed committed preview migrations only
         run: pnpm exec drizzle-kit migrate
 
