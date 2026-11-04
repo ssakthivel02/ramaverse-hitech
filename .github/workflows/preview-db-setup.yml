@@ -151,10 +151,7 @@ jobs:
       - name: Verify repository-baseline migration fingerprints (read-only)
         run: pnpm exec tsx server/migrationInventory.ts
 
-      - name: Apply reviewed committed preview migrations only
-        run: pnpm exec drizzle-kit migrate
-
-      - name: Verify database connectivity over trusted TLS
+      - name: Verify database identity and trusted TLS before migration (read-only)
         shell: bash
         run: |
           set -euo pipefail
@@ -176,10 +173,17 @@ jobs:
             ssl,
           });
           const [rows] = await connection.query('SELECT 1 AS ok');
+          const [tlsRows] = await connection.query("SHOW SESSION STATUS LIKE 'Ssl_cipher'");
           await connection.end();
           if (!Array.isArray(rows) || rows[0]?.ok !== 1) process.exit(1);
+          if (!Array.isArray(tlsRows) || !tlsRows[0]?.Value) {
+            throw new Error('Verified TLS cipher is required before any RamaVerse schema mutation.');
+          }
           console.log('RamaVerse preview verified-TLS database connectivity PASS');
           NODE
+
+      - name: Apply reviewed committed preview migrations only
+        run: pnpm exec drizzle-kit migrate
 
       - name: Create schema setup evidence
         shell: bash
