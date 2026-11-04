@@ -9,6 +9,8 @@ import { assertActiveCorpus } from "../corpusRuntime";
 import { probeReaderReadiness } from "../readerReadiness";
 import { CONTENT_SECURITY_POLICY_REPORT_ONLY } from "./csp";
 
+const API_BODY_LIMIT = "256kb";
+
 function isPortAvailable(port: number): Promise<boolean> {
   return new Promise(resolve => {
     const server = net.createServer();
@@ -49,8 +51,9 @@ async function startServer() {
   const app = express();
   app.disable("x-powered-by");
   const server = createServer(app);
-  app.use(express.json({ limit: "50mb" }));
-  app.use(express.urlencoded({ limit: "50mb", extended: true }));
+  // The API only takes small inputs (tRPC queries and logout); refuse oversized bodies before they are buffered.
+  app.use(express.json({ limit: API_BODY_LIMIT }));
+  app.use(express.urlencoded({ limit: API_BODY_LIMIT, extended: true }));
 
   // Baseline hardening: no user content is logged or exposed by these surfaces.
   app.use((req, res, next) => {
