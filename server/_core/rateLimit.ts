@@ -36,9 +36,9 @@ export function createFixedWindowLimiter(options: {
     }
     if (!entry) {
       if (buckets.size >= maxEntries) {
-        for (const [itemKey, item] of buckets) {
+        buckets.forEach((item, itemKey) => {
           if (time >= item.resetAt) buckets.delete(itemKey);
-        }
+        });
       }
       // Never evict a live key to make space for a flood of new keys.
       if (buckets.size >= maxEntries) {
