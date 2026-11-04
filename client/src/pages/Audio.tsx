@@ -6,6 +6,7 @@ import { Headphones, Search, Clock, Music, Play, Pause, Square, Volume2, ShieldA
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ReviewStatusBadge } from "@/components/ReviewStatusBadge";
+import { selectAudioNarrationText } from "@/lib/audioNarration";
 
 export default function Audio() {
   const [search, setSearch] = useState("");
@@ -114,7 +115,7 @@ export default function Audio() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {audioList.map((a) => {
               const isThisPlaying = activeSpeechId === a.scriptNumber && isPlaying;
-              const displayText = a.scriptContent || a.transcript;
+              const displayText = selectAudioNarrationText(a);
               return (
                 <div key={a.id} className="temple-card rounded-2xl p-6 border border-[#d4af37]/20 flex flex-col justify-between hover:border-[#d4af37]/50 transition-all">
                   <div>
@@ -128,7 +129,7 @@ export default function Audio() {
                     <p className="text-xs text-[#d4af37] font-medium mb-3">Narrator: {a.narratorRole || "Sutradhar"}</p>
                     <div className="mb-3"><ReviewStatusBadge reviewStatus={a.reviewStatus} /></div>
                     <div className="bg-[#0b101b]/80 border border-[#d4af37]/20 rounded-xl p-4 text-xs font-mono text-[#f3e9d2]/80 whitespace-pre-line mb-4 max-h-40 overflow-y-auto">
-                      {displayText}
+                      {displayText || "Narration text is unavailable pending review."}
                     </div>
                   </div>
 
@@ -145,6 +146,7 @@ export default function Audio() {
                     <div className="flex gap-2">
                       <Button
                         onClick={() => handlePlaySpeech(a.scriptNumber, displayText)}
+                        disabled={!displayText}
                         className="flex-1 text-xs bg-[#d4af37] text-[#0b101b] font-bold hover:bg-[#d4af37]/90"
                       >
                         {isThisPlaying ? <Pause className="w-3.5 h-3.5 mr-1.5" /> : <Play className="w-3.5 h-3.5 mr-1.5" />}
