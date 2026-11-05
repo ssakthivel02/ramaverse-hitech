@@ -1,0 +1,60 @@
+name: RamaVerse Drizzle MySQL Engine Compatibility
+
+on:
+  pull_request:
+    paths:
+      - package.json
+      - pnpm-lock.yaml
+      - server/drizzleOrmMysqlCompat.live.test.ts
+      - .github/workflows/drizzle-mysql-engine.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  disposable-mysql:
+    name: mysql-${{ matrix.version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    strategy:
+      fail-fast: false
+      matrix:
+        version: ["8.0", "8.4"]
+    services:
+      mysql:
+        image: mysql:${{ matrix.version }}
+        env:
+          MYSQL_ROOT_PASSWORD: ci-only-not-a-real-secret
+          MYSQL_DATABASE: ramaverse_ci
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -pci-only-not-a-real-secret"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=12
+    env:
+      RAMAVERSE_EPHEMERAL_MYSQL_SMOKE: "true"
+      RAMAVERSE_EPHEMERAL_MYSQL_URL: "mysql://root:ci-only-not-a-real-secret@127.0.0.1:3306/ramaverse_ci"
+    steps:
+      - name: Checkout exact PR head
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+      - name: Enable pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.4.1 --activate
+      - name: Frozen dependency installation
+        run: pnpm install --frozen-lockfile
+      - name: Apply existing 0000–0003 migrations to disposable MySQL
+        env:
+          DATABASE_URL: ${{ env.RAMAVERSE_EPHEMERAL_MYSQL_URL }}
+          DATABASE_EXPECTED_NAME: ramaverse_ci
+          NODE_ENV: test
+        run: pnpm exec drizzle-kit migrate
+      - name: Drizzle 0.45.4 isolated engine smoke against migrated schema
+        run: pnpm exec vitest run server/drizzleOrmMysqlCompat.live.test.ts
