@@ -229,7 +229,8 @@ export const ramaverseRouter = router({
     if (!db) return { ...CANONICAL_PROVENANCE, narrativeEvents: [], dialogues: [] };
     const sargaRows = await db.select().from(sargas);
     const dialogueRows = await db.select().from(dialogues);
-    const scopedSargas = input?.kandaNumber ? sargaRows.filter((record) => record.kandaNumber === input.kandaNumber) : sargaRows;
+    const publicSargas = sargaRows.filter(isPublicReaderSarga);
+    const scopedSargas = input?.kandaNumber ? publicSargas.filter((record) => record.kandaNumber === input.kandaNumber) : publicSargas;
     return {
       ...CANONICAL_PROVENANCE,
       narrativeEvents: scopedSargas.slice(0, input?.limit ?? 24).map(toCanonicalNarrativeEvent),
