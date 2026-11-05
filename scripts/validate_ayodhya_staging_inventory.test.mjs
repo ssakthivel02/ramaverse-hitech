@@ -7,12 +7,12 @@ const early = (s, count = 1) => ({
   file: file(s),
   payload: {
     recordCount: count,
-    records: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY", merge_state: "awaiting_v1_4_0_reconciliation", tamil_review_status: "NEEDS_TAMIL_REVIEW" }]
+    records: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY", merge_state: "awaiting_v1_4_0_reconciliation", tamil_review_status: "NEEDS_TAMIL_REVIEW", possible_legacy_overlap: true }]
   }
 });
 const middle = s => ({
   file: file(s),
-  payload: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY", merge_state: "awaiting_v1_4_0_reconciliation", tamil_review_status: "NEEDS_TAMIL_REVIEW" }]
+  payload: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY", merge_state: "awaiting_v1_4_0_reconciliation", tamil_review_status: "NEEDS_TAMIL_REVIEW", possible_legacy_overlap: true }]
 });
 const late = s => ({
   file: file(s),
@@ -96,4 +96,21 @@ test("requires actual human-review-pending state for early family", () => {
   const result = inspect([batch]);
   assert.equal(result.valid, false);
   assert.ok(result.findings.some(x => x.code === "PUBLICATION_GUARD_MISSING"));
+});
+
+test("requires explicit boolean legacy-overlap disposition for early-family records", () => {
+  const a = early(21), b = middle(53);
+  delete a.payload.records[0].possible_legacy_overlap;
+  b.payload[0].possible_legacy_overlap = "false";
+  const result = inspect([a, b]);
+  assert.equal(result.valid, false);
+  assert.equal(result.findings.filter(x => x.code === "MISSING_LEGACY_OVERLAP_DISPOSITION").length, 2);
+});
+
+test("accepts explicit false as unresolved overlap classification without auto-promoting", () => {
+  const a = middle(55);
+  a.payload[0].possible_legacy_overlap = false;
+  const result = inspect([a]);
+  assert.equal(result.valid, true);
+  assert.equal(result.quarantinedRecords, 1);
 });
