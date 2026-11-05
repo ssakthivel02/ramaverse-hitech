@@ -77,6 +77,20 @@ describe("database Sarga public visibility fence", () => {
     },
   );
 
+  it("excludes staging and unapproved Sargas from derived public canonical-learning events", async () => {
+    const result = await caller().getSourceGovernedCanonicalLearning({ kandaNumber: 1, limit: 60 });
+    expect(result.narrativeEvents).toHaveLength(1);
+    expect(result.narrativeEvents[0].eventId).toBe(`canonical-sarga-context:${verified.recordKey}`);
+    const publicEvents = JSON.stringify(result.narrativeEvents);
+    expect(publicEvents).not.toContain("STG-");
+    expect(publicEvents).not.toContain("SRC-REVIEW-");
+    expect(publicEvents).not.toContain("needs_source_review");
+    expect(publicEvents).not.toContain("human_reviewed");
+
+    const wrongKanda = await caller().getSourceGovernedCanonicalLearning({ kandaNumber: 2 });
+    expect(wrongKanda.narrativeEvents).toEqual([]);
+  });
+
   it("does not treat the confidence field alone as publication approval", () => {
     expect(isPublicReaderSarga({
       ...verified, reviewStatus: "human_reviewed", confidence: "source_verified",
