@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { CANONICAL_PROVENANCE, toCanonicalDialogueEvidence, toCanonicalNarrativeEvent } from "../sourceGovernedCanonical";
+import { isPublicReaderSarga } from "../publicReaderVisibility";
 import { answerCanonicalQuestion, searchCanonicalIntelligence, getConfiguredProviderName } from "../intelligence";
 
 export const ramaverseRouter = router({
@@ -50,15 +51,15 @@ export const ramaverseRouter = router({
   getSargas: publicProcedure.input(z.object({ kandaNumber: z.number().optional() }).optional()).query(async ({ input }) => {
     const db = await getDb();
     if (!db) return [];
-    const records = await db.select().from(sargas);
-    return input?.kandaNumber ? records.filter((record) => record.kandaNumber === input.kandaNumber) : records;
+    const visible = (await db.select().from(sargas)).filter(isPublicReaderSarga);
+    return input?.kandaNumber ? visible.filter((record) => record.kandaNumber === input.kandaNumber) : visible;
   }),
 
   getSargaDetail: publicProcedure.input(z.object({ recordKey: z.string().min(1) })).query(async ({ input }) => {
     const db = await getDb();
     if (!db) return { current: null, previous: null, next: null };
     const records = await db.select().from(sargas);
-    const ordered = records.slice().sort((a, b) => a.kandaNumber - b.kandaNumber || a.sargaIdentifier.localeCompare(b.sargaIdentifier));
+    const ordered = records.filter(isPublicReaderSarga).sort((a, b) => a.kandaNumber - b.kandaNumber || a.sargaIdentifier.localeCompare(b.sargaIdentifier));
     const index = ordered.findIndex((record) => record.recordKey === input.recordKey);
     if (index < 0) return { current: null, previous: null, next: null };
     return {
@@ -379,7 +380,7 @@ export const ramaverseRouter = router({
       stories: s.filter((x: { title: string; content: string }) => x.title.toLowerCase().includes(q) || x.content.toLowerCase().includes(q)).slice(0, 10),
       quizzes: qz.filter(x => x.question.toLowerCase().includes(q) || x.explanation.toLowerCase().includes(q)).slice(0, 10),
       audio: a.filter((x: { title: string; scriptContent: string | null }) => x.title.toLowerCase().includes(q) || (x.scriptContent && x.scriptContent.toLowerCase().includes(q))).slice(0, 10),
-      sargas: sr.filter(x => x.sargaIdentifier.toLowerCase().includes(q) || x.editorialDescriptor.toLowerCase().includes(q) || x.summary.toLowerCase().includes(q)).slice(0, 10),
+      sargas: sr.filter(isPublicReaderSarga).filter(x => x.sargaIdentifier.toLowerCase().includes(q) || x.editorialDescriptor.toLowerCase().includes(q) || x.summary.toLowerCase().includes(q)).slice(0, 10),
     };
   }),
 
@@ -405,7 +406,7 @@ export const ramaverseRouter = router({
       stories: s.filter((x: { title: string; content: string }) => x.title.toLowerCase().includes(q) || x.content.toLowerCase().includes(q)).slice(0, 10),
       quizzes: qz.filter(x => x.question.toLowerCase().includes(q) || x.explanation.toLowerCase().includes(q)).slice(0, 10),
       audio: a.filter((x: { title: string; scriptContent: string | null }) => x.title.toLowerCase().includes(q) || (x.scriptContent && x.scriptContent.toLowerCase().includes(q))).slice(0, 10),
-      sargas: sr.filter(x => x.sargaIdentifier.toLowerCase().includes(q) || x.editorialDescriptor.toLowerCase().includes(q) || x.summary.toLowerCase().includes(q)).slice(0, 10),
+      sargas: sr.filter(isPublicReaderSarga).filter(x => x.sargaIdentifier.toLowerCase().includes(q) || x.editorialDescriptor.toLowerCase().includes(q) || x.summary.toLowerCase().includes(q)).slice(0, 10),
     };
   }),
 
