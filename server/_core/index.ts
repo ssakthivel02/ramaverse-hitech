@@ -7,6 +7,7 @@ import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { assertActiveCorpus } from "../corpusRuntime";
 import { probeReaderReadiness } from "../readerReadiness";
+import { canReportReaderReady, loadReaderActivationDeclaration } from "../readerActivationGate";
 import { CONTENT_SECURITY_POLICY_REPORT_ONLY } from "./csp";
 
 const API_BODY_LIMIT = "256kb";
@@ -84,13 +85,15 @@ async function startServer() {
   app.get("/readyz", async (_req, res) => {
     try {
       const [active, databaseReady] = await Promise.all([assertActiveCorpus(), probeReaderReadiness()]);
-      const ready = databaseReady;
+      const authority = loadReaderActivationDeclaration();
+      const ready = canReportReaderReady(databaseReady, authority);
       res.status(ready ? 200 : 503).json({
         status: ready ? "ready" : "not_ready",
         service: "ramaverse",
         dependencies: {
           canonicalCorpus: "available",
           database: databaseReady ? "reader_probe_passed" : "unavailable",
+          readerAuthority: authority.permitted ? "declared" : "blocked",
         },
         activeCorpusVersion: active.pointer.activeCorpusVersion,
         canonicalCount: active.pointer.canonicalCount,
@@ -105,7 +108,9 @@ async function startServer() {
     try {
       const active = await assertActiveCorpus();
       const databaseReady = await probeReaderReadiness();
-      res.status(databaseReady ? 200 : 503).json({ ok: databaseReady, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "reader_probe_passed" : "unavailable", pwaVersion: "ramaverse-cache-v6" });
+      const authority = loadReaderActivationDeclaration();
+      const ready = canReportReaderReady(databaseReady, authority);
+      res.status(ready ? 200 : 503).json({ ok: ready, deployment: process.env.NODE_ENV || "unknown", activeCorpusVersion: active.pointer.activeCorpusVersion, canonicalCount: active.pointer.canonicalCount, database: databaseReady ? "reader_probe_passed" : "unavailable", readerAuthority: authority.permitted ? "declared" : "blocked", pwaVersion: "ramaverse-cache-v6" });
     } catch {
       res.status(503).json({ ok: false, reason: "active_corpus_unavailable" });
     }
