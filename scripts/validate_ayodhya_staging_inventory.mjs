@@ -72,7 +72,9 @@ export function inspectBatches(batches, { enforceCompleteRange = true } = {}) {
       if (recordSarga !== sarga) error(file, "SARGA_MISMATCH", `${id ?? i}: record=${recordSarga}; file=${sarga}`);
       const quarantine = family === "66-95"
         ? record.publicationState === "UNPUBLISHED_STAGING" && record.mergeState === "QUARANTINED_UNRECONCILED" && record.reviewState === "MACHINE_DRAFT_NEEDS_REVIEW"
-        : record.publication_policy === "STAGING_QUARANTINE_ONLY";
+        : record.publication_policy === "STAGING_QUARANTINE_ONLY"
+          && record.merge_state === "awaiting_v1_4_0_reconciliation"
+          && ["NEEDS_TAMIL_REVIEW", "EDITORIAL_DRAFT_READY_FOR_HUMAN_REVIEW"].includes(record.tamil_review_status);
       if (!quarantine) error(file, "PUBLICATION_GUARD_MISSING", String(id ?? i));
       else quarantinedRecords++;
     }
