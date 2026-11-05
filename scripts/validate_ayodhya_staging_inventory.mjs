@@ -8,7 +8,7 @@ import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-const FILE = /^AYODHYA_S(\\d+)_SOURCE_BACKED_RECORDS\\.json$/;
+const FILE = /^AYODHYA_S(\d+)_SOURCE_BACKED_RECORDS\.json$/;
 const fromScript = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 export function inspectBatches(batches, { enforceCompleteRange = true } = {}) {
