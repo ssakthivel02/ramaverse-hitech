@@ -7,12 +7,12 @@ const early = (s, count = 1) => ({
   file: file(s),
   payload: {
     recordCount: count,
-    records: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY" }]
+    records: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY", merge_state: "awaiting_v1_4_0_reconciliation", tamil_review_status: "NEEDS_TAMIL_REVIEW" }]
   }
 });
 const middle = s => ({
   file: file(s),
-  payload: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY" }]
+  payload: [{ candidate_id: `stg-postv1-ayodhyakanda-s${s}-sarga-001`, source_id: `src-s${s}`, sarga: s, publication_policy: "STAGING_QUARANTINE_ONLY", merge_state: "awaiting_v1_4_0_reconciliation", tamil_review_status: "NEEDS_TAMIL_REVIEW" }]
 });
 const late = s => ({
   file: file(s),
@@ -80,4 +80,20 @@ test("checks the later family recordsCount and quarantine status", () => {
   const codes = inspect([a]).findings.map(x => x.code);
   assert.ok(codes.includes("COUNT_MISMATCH"));
   assert.ok(codes.includes("PUBLICATION_GUARD_MISSING"));
+});
+
+test("blocks early-family promotion even when publication_policy still says quarantine", () => {
+  const batch = early(21);
+  batch.payload.records[0].merge_state = "promoted";
+  const result = inspect([batch]);
+  assert.equal(result.valid, false);
+  assert.ok(result.findings.some(x => x.code === "PUBLICATION_GUARD_MISSING"));
+});
+
+test("requires actual human-review-pending state for early family", () => {
+  const batch = middle(53);
+  batch.payload[0].tamil_review_status = "HUMAN_APPROVED";
+  const result = inspect([batch]);
+  assert.equal(result.valid, false);
+  assert.ok(result.findings.some(x => x.code === "PUBLICATION_GUARD_MISSING"));
 });
