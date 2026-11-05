@@ -49,6 +49,9 @@ jobs:
       - name: Tests
         run: pnpm test
 
+      - name: Read-only staging inventory validator tests
+        run: node --test scripts/validate_ayodhya_staging_inventory.test.mjs
+
       - name: Build
         run: pnpm build
 
