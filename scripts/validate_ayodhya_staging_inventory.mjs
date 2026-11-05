@@ -68,6 +68,9 @@ export function inspectBatches(batches, { enforceCompleteRange = true } = {}) {
         ? Array.isArray(source) && source.length > 0 && source.every(s => typeof s === "string" && s.trim())
         : typeof source === "string" && source.trim();
       if (!validSource) error(file, "MISSING_SOURCE_REFERENCE", String(id ?? i));
+      if (family !== "66-95" && typeof record.possible_legacy_overlap !== "boolean") {
+        error(file, "MISSING_LEGACY_OVERLAP_DISPOSITION", String(id ?? i));
+      }
       const recordSarga = record.sarga;
       if (recordSarga !== sarga) error(file, "SARGA_MISMATCH", `${id ?? i}: record=${recordSarga}; file=${sarga}`);
       const quarantine = family === "66-95"
