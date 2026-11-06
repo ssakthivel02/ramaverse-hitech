@@ -1,0 +1,185 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      78,
+      79
+    ],
+    "records_reviewed": 6,
+    "previously_adjudicated": 24,
+    "total_adjudicated": 30,
+    "associated_records_outstanding": 60
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-78",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S78_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "709ad47b9aba4fbcdb910d4f138f9399b990088c",
+      "cited_locator": "2.78.2",
+      "short_original_english_paraphrase": "Shatrughna describes Rama's exile as a grievous injustice while speaking to Bharata.",
+      "classification": "SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "The cited verse is Shatrughna's statement about Rama, not a self-standing narrative event. Original record provides no actors or context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga78/ayodhyaroman78.htm",
+        "verse_locator": "2.78.2",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "edition_verified": false,
+        "rights_to_reproduce_text_verified": false
+      },
+      "review": {
+        "verse_topic_compared_against_online_witness": true,
+        "human_english_review": false,
+        "human_tamil_review": false,
+        "source_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-78",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S78_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "709ad47b9aba4fbcdb910d4f138f9399b990088c",
+      "cited_locator": "2.78.6",
+      "short_original_english_paraphrase": "Narration describes Manthara in royal clothing and jewelry, scented with sandalwood.",
+      "classification": "NARRATION_NOT_DIALOGUE",
+      "editorial_rationale": "No speech, conversation or instruction appears in the cited verse; dialogue attribution at this locator is unsupported.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga78/ayodhyaroman78.htm",
+        "verse_locator": "2.78.6",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "edition_verified": false,
+        "rights_to_reproduce_text_verified": false
+      },
+      "review": {
+        "verse_topic_compared_against_online_witness": true,
+        "human_english_review": false,
+        "human_tamil_review": false,
+        "source_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-78",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S78_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "709ad47b9aba4fbcdb910d4f138f9399b990088c",
+      "cited_locator": "2.78.12",
+      "short_original_english_paraphrase": "Shatrughna seizes Manthara forcefully and she cries out in the palace.",
+      "classification": "NO_EXPLICIT_DHARMA_TEACHING",
+      "editorial_rationale": "The verse depicts violence and distress. It does not expressly state a general ethical teaching; any analysis needs separate contextual interpretation.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga78/ayodhyaroman78.htm",
+        "verse_locator": "2.78.12",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "edition_verified": false,
+        "rights_to_reproduce_text_verified": false
+      },
+      "review": {
+        "verse_topic_compared_against_online_witness": true,
+        "human_english_review": false,
+        "human_tamil_review": false,
+        "source_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-79",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S79_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3f7544073a5627d85e25318b5bc5d4abf0387255",
+      "cited_locator": "2.79.2",
+      "short_original_english_paraphrase": "The royal ministers say that Dasharatha has died after sending Rama and Lakshmana to the forest.",
+      "classification": "SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "The original category may be usable as a reported event, but the verse itself is direct speech of ministers, not narrative event description.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga79/ayodhyaroman79.htm",
+        "verse_locator": "2.79.2",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "edition_verified": false,
+        "rights_to_reproduce_text_verified": false
+      },
+      "review": {
+        "verse_topic_compared_against_online_witness": true,
+        "human_english_review": false,
+        "human_tamil_review": false,
+        "source_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-79",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S79_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3f7544073a5627d85e25318b5bc5d4abf0387255",
+      "cited_locator": "2.79.6",
+      "short_original_english_paraphrase": "Narration says Bharata circles the ceremonial objects and prepares to reply to the assembled people.",
+      "classification": "SPEECH_INTRODUCTION_NOT_DIALOGUE_AT_LOCATOR",
+      "editorial_rationale": "Verse narrates Bharata's action and introduces his reply; the direct answer starts at 2.79.7.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga79/ayodhyaroman79.htm",
+        "verse_locator": "2.79.6",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "edition_verified": false,
+        "rights_to_reproduce_text_verified": false
+      },
+      "review": {
+        "verse_topic_compared_against_online_witness": true,
+        "human_english_review": false,
+        "human_tamil_review": false,
+        "source_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-79",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S79_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3f7544073a5627d85e25318b5bc5d4abf0387255",
+      "cited_locator": "2.79.12",
+      "short_original_english_paraphrase": "Bharata states he will not fulfill Kaikeyi's ambition, will live in the forest, and will recognize Rama as king.",
+      "classification": "CHARACTER_MORAL_STANCE_NOT_UNIVERSAL_INJUNCTION",
+      "editorial_rationale": "Bharata expresses a personal commitment. A derived lesson about rightful succession must be explicitly attributed and independently reviewed.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga79/ayodhyaroman79.htm",
+        "verse_locator": "2.79.12",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "edition_verified": false,
+        "rights_to_reproduce_text_verified": false
+      },
+      "review": {
+        "verse_topic_compared_against_online_witness": true,
+        "human_english_review": false,
+        "human_tamil_review": false,
+        "source_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "editorial_signoff": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "Only six entries reviewed; remaining 60 associated records are not individually adjudicated.",
+    "Genre and narrative-role assessment does not make all referenced events false; direct speech and narrative action require precise categorization.",
+    "Digital source access does not establish an approved edition, source-ID registry match, or redistribution rights.",
+    "No Sanskrit canonical text or lengthy third-party translation is copied; new paraphrases are provisional and not Reader-ready.",
+    "All original records remain untouched, quarantined and unapproved."
+  ]
+}
