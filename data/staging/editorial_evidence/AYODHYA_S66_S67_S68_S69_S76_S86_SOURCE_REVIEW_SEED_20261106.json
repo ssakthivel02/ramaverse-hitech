@@ -56,8 +56,14 @@
         "english_editor_approved": false,
         "tamil_editor_approved": false,
         "promotion_decision": "HOLD",
-        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
-        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
+        "witness_retrieval_status": "SEARCH_INDEXED_EXCERPT",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Indexed chapter introduction/verses establish Kausalya's mourning and preserved body; full page retrieval failed. Additional 14–15 locators not independently rechecked.",
+        "verified_online_locators": [
+          "2.66.1–3"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaitrans66.htm",
+        "full_edition_comparison": "NOT_DONE"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -87,8 +93,14 @@
         "english_editor_approved": false,
         "tamil_editor_approved": false,
         "promotion_decision": "HOLD",
-        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
-        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
+        "witness_retrieval_status": "SEARCH_INDEXED_EXCERPT",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Indexed chapter verse excerpts independently establish discourse on rulerless territory; full page fetch failed, and verse 38 remains unchecked.",
+        "verified_online_locators": [
+          "2.67.10–16"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga67/ayodhyaroman67.htm",
+        "full_edition_comparison": "NOT_DONE"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -117,8 +129,14 @@
         "english_editor_approved": false,
         "tamil_editor_approved": false,
         "promotion_decision": "HOLD",
-        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
-        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
+        "witness_retrieval_status": "FULL_PAGE_READ",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Readable chapter page directly supports Vasistha sending messengers to Bharata and Shatrughna.",
+        "verified_online_locators": [
+          "2.68.1–3"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga68/ayodhyaroman68.htm",
+        "full_edition_comparison": "NOT_DONE"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -147,8 +165,14 @@
         "english_editor_approved": false,
         "tamil_editor_approved": false,
         "promotion_decision": "HOLD",
-        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
-        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
+        "witness_retrieval_status": "SEARCH_INDEXED_EXCERPT",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Indexed chapter introduction and first three verses support Bharata's dream; direct full-page fetch failed.",
+        "verified_online_locators": [
+          "2.69.1–3"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaroman69.htm",
+        "full_edition_comparison": "NOT_DONE"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -178,8 +202,15 @@
         "english_editor_approved": false,
         "tamil_editor_approved": false,
         "promotion_decision": "HOLD",
-        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
-        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
+        "witness_retrieval_status": "FULL_PAGE_READ",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Readable verse-level chapter directly supports Bharata arranging Dasharatha's last rites and Vasistha's counsel.",
+        "verified_online_locators": [
+          "2.76.1–5",
+          "2.76.10–12"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga76/ayodhyaroman76.htm",
+        "full_edition_comparison": "NOT_DONE"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -208,8 +239,14 @@
         "english_editor_approved": false,
         "tamil_editor_approved": false,
         "promotion_decision": "HOLD",
-        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
-        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
+        "witness_retrieval_status": "FULL_PAGE_READ",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Readable verse-level chapter directly supports Guha recounting his conversation with Lakshmana.",
+        "verified_online_locators": [
+          "2.86.1–3"
+        ],
+        "verified_witness_url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga86/ayodhyaitrans86.htm",
+        "full_edition_comparison": "NOT_DONE"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     }
@@ -219,7 +256,8 @@
     "Digital online witness may differ by recension or verse numbering; any per-verse editorial decision requires edition-based review.",
     "These proposed paraphrases are review hypotheses, not accepted corrections or license-cleared publication text.",
     "Do not replace, amend, merge, or expose the original staging corpus on the basis of this packet.",
-    "Source URLs are references for reviewer retrieval; successful live retrieval was not established for all six source pages, and should not be inferred from link presence."
+    "Source accessibility was verified unevenly on 2026-11-06: S68/S76/S86 rendered readable chapter pages; S66/S67/S69 relied on searchable indexed chapter excerpts after full-page retrieval failed. The method and exact locators are stored per entry.",
+    "TOPIC_SUPPORTED means only chapter-level episode alignment with sampled witness text; it is not full-verse collation, edition approval, source-ID registry reconciliation, Tamil review, or permission to publish."
   ],
   "next_action": "Independent editor verifies each cited verse against an approved edition, adjudicates content and rights, commissions Tamil review, and creates a separately versioned candidate only after approval."
 }
