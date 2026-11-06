@@ -53,10 +53,11 @@
       },
       "review": {
         "semantic_match": "FLAGGED_MISMATCH",
-        "source_link_reachable_at_review": true,
         "english_editor_approved": false,
         "tamil_editor_approved": false,
-        "promotion_decision": "HOLD"
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
+        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -83,10 +84,11 @@
       },
       "review": {
         "semantic_match": "FLAGGED_MISMATCH",
-        "source_link_reachable_at_review": true,
         "english_editor_approved": false,
         "tamil_editor_approved": false,
-        "promotion_decision": "HOLD"
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
+        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -112,10 +114,11 @@
       },
       "review": {
         "semantic_match": "FLAGGED_MISMATCH",
-        "source_link_reachable_at_review": true,
         "english_editor_approved": false,
         "tamil_editor_approved": false,
-        "promotion_decision": "HOLD"
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
+        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -141,10 +144,11 @@
       },
       "review": {
         "semantic_match": "FLAGGED_MISMATCH",
-        "source_link_reachable_at_review": true,
         "english_editor_approved": false,
         "tamil_editor_approved": false,
-        "promotion_decision": "HOLD"
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
+        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -171,10 +175,11 @@
       },
       "review": {
         "semantic_match": "FLAGGED_MISMATCH",
-        "source_link_reachable_at_review": true,
         "english_editor_approved": false,
         "tamil_editor_approved": false,
-        "promotion_decision": "HOLD"
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
+        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     },
@@ -200,10 +205,11 @@
       },
       "review": {
         "semantic_match": "FLAGGED_MISMATCH",
-        "source_link_reachable_at_review": true,
         "english_editor_approved": false,
         "tamil_editor_approved": false,
-        "promotion_decision": "HOLD"
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "NOT_UNIFORMLY_VERIFIED",
+        "witness_textual_verification": "INDEPENDENT_EDITOR_REQUIRED"
       },
       "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
     }
@@ -212,7 +218,8 @@
     "Six sampled SARGA records only: remaining 24 SARGA summary records and all 90 related event/dialogue/dharma records not individually checked in this evidence packet.",
     "Digital online witness may differ by recension or verse numbering; any per-verse editorial decision requires edition-based review.",
     "These proposed paraphrases are review hypotheses, not accepted corrections or license-cleared publication text.",
-    "Do not replace, amend, merge, or expose the original staging corpus on the basis of this packet."
+    "Do not replace, amend, merge, or expose the original staging corpus on the basis of this packet.",
+    "Source URLs are references for reviewer retrieval; successful live retrieval was not established for all six source pages, and should not be inferred from link presence."
   ],
   "next_action": "Independent editor verifies each cited verse against an approved edition, adjudicates content and rights, commissions Tamil review, and creates a separately versioned candidate only after approval."
 }
