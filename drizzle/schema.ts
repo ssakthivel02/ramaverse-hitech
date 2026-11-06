@@ -119,7 +119,8 @@ export const audioScripts = mysqlTable("audio_scripts", {
   scriptNumber: int("scriptNumber").notNull().unique(),
   title: varchar("title", { length: 255 }).notNull(),
   durationMinutes: int("durationMinutes").notNull(),
-  transcript: text("transcript").notNull(),
+  // Transitional nullable column: populated only after an approved source-backed backfill.
+  transcript: text("transcript"),
   scriptContent: text("scriptContent"),
   narratorRole: varchar("narratorRole", { length: 128 }),
   musicalMood: varchar("musicalMood", { length: 128 }),
