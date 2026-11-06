@@ -1,0 +1,155 @@
+{
+  "schema_version": "editorial_source_review_seed_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NON_CANONICAL_EDITORIAL_EVIDENCE_ONLY",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sample_sargas": [
+      77,
+      78,
+      79,
+      80
+    ],
+    "summary_records": 4,
+    "associated_unchecked_records": 12
+  },
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "historical_files_mutated": false,
+    "editorial_approval": "PENDING",
+    "tamil_review": "PENDING",
+    "rights_clearance": "UNVERIFIED",
+    "source_registry_mapping": "UNRESOLVED",
+    "edition_comparison": "NOT_DONE"
+  },
+  "entries": [
+    {
+      "review_id": "ayodhya-s77-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S77_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "7b361561bd9c109b398ac7a31245cf784ee7d4b7",
+      "original_record_id": "RV-STG-AYODHYA-S77",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "review_only_provisional_english_paraphrase": "Following Dasharatha's death, Bharata performs the mourning rites and donations. At the cremation site he and Shatrughna are overwhelmed by grief; Vasistha and Sumantra console them.",
+      "source_witness": {
+        "title": "Valmiki Ramayana — Ayodhya Kanda",
+        "sarga": 77,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga77/ayodhyaroman77.htm",
+        "verified_verse_locators": [
+          "2.77.1–2",
+          "2.77.4–8"
+        ],
+        "retrieval_method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPT",
+        "source_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "full_chapter_collation": false,
+        "original_source_id_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s78-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S78_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "709ad47b9aba4fbcdb910d4f138f9399b990088c",
+      "original_record_id": "RV-STG-AYODHYA-S78",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "review_only_provisional_english_paraphrase": "Angered by Rama's exile, Shatrughna confronts Manthara and drags her; Bharata intervenes to stop further violence, mindful of how Rama would judge such an act.",
+      "source_witness": {
+        "title": "Valmiki Ramayana — Ayodhya Kanda",
+        "sarga": 78,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga78/ayodhyaroman78.htm",
+        "verified_verse_locators": [
+          "2.78.5–9",
+          "2.78.16–17",
+          "2.78.21–24"
+        ],
+        "retrieval_method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPT",
+        "source_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "full_chapter_collation": false,
+        "original_source_id_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s79-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S79_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "3f7544073a5627d85e25318b5bc5d4abf0387255",
+      "original_record_id": "RV-STG-AYODHYA-S79",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "review_only_provisional_english_paraphrase": "Ayodhya's ministers ask Bharata to become king. He refuses to supplant Rama and calls for preparations to travel to the forest and bring Rama back.",
+      "source_witness": {
+        "title": "Valmiki Ramayana — Ayodhya Kanda",
+        "sarga": 79,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga79/ayodhyaroman79.htm",
+        "verified_verse_locators": [
+          "2.79.1–3"
+        ],
+        "retrieval_method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPT",
+        "source_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "full_chapter_collation": false,
+        "original_source_id_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s80-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S80_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "6132e716efb917774773bcf8c6b11c5abd613fbe",
+      "original_record_id": "RV-STG-AYODHYA-S80",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "review_only_provisional_english_paraphrase": "Skilled workers, surveyors and engineers set out to prepare a road toward the Ganga, clearing obstacles and establishing facilities for Bharata's expedition.",
+      "source_witness": {
+        "title": "Valmiki Ramayana — Ayodhya Kanda",
+        "sarga": 80,
+        "url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga80/ayodhyaroman80.htm",
+        "verified_verse_locators": [
+          "2.80.1–3"
+        ],
+        "retrieval_method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPT",
+        "source_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "full_chapter_collation": false,
+        "original_source_id_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "limitations": [
+    "Only SARGA-level summaries for four chapters reviewed; the twelve associated event/dialogue/dharma records are not substantively verified.",
+    "Verse excerpts and chapter introductions establish episode-level mismatch but do not constitute full verse-by-verse editorial validation.",
+    "The reviewed digital rendering and online translations do not establish critical edition identity, literary rights, or independent human editorial approval.",
+    "These short new English paraphrases are provisional review hypotheses, not replacement publication material. All existing staging files remain authoritative historical evidence in quarantine."
+  ]
+}
