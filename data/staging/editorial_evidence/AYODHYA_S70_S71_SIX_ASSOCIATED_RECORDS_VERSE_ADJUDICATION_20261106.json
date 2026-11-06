@@ -1,0 +1,186 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      70,
+      71
+    ],
+    "records_reviewed": 6,
+    "prior_adjudicated": 18,
+    "total_adjudicated": 24,
+    "associated_records_outstanding": 66
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-70",
+      "original_file": "data/staging/post_v1/AYODHYA_S70_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "1a620547a6a99e3e951ea9ce551b712c4d823a6d",
+      "record_type": "EVENT",
+      "cited_locator": "2.70.1",
+      "short_original_english_paraphrase": "The messengers arrive at Rajagriha while Bharata is recounting his dream.",
+      "classification": "EVENT_PRESENT_BOILERPLATE",
+      "editorial_rationale": "Real narrative event but the record gives no people or location.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga70/ayodhyaroman70.htm",
+        "verse_locator": "2.70.1",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "content_compared_with_cited_online_verse": true,
+        "english_human_editor_approved": false,
+        "tamil_human_editor_approved": false,
+        "source_id_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-70",
+      "original_file": "data/staging/post_v1/AYODHYA_S70_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "1a620547a6a99e3e951ea9ce551b712c4d823a6d",
+      "record_type": "DIALOGUE",
+      "cited_locator": "2.70.5",
+      "short_original_english_paraphrase": "The messengers, speaking to Bharata, continue instructions about gifts intended for his relatives.",
+      "classification": "DIRECT_SPEECH_PRESENT_CONTEXT_OMITTED",
+      "editorial_rationale": "Speech is present as part of a message, but it is not a generic counsel exchange; name its speakers and purpose.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga70/ayodhyaroman70.htm",
+        "verse_locator": "2.70.5",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "content_compared_with_cited_online_verse": true,
+        "english_human_editor_approved": false,
+        "tamil_human_editor_approved": false,
+        "source_id_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-70",
+      "original_file": "data/staging/post_v1/AYODHYA_S70_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "1a620547a6a99e3e951ea9ce551b712c4d823a6d",
+      "record_type": "DHARMA_LESSON",
+      "cited_locator": "2.70.10",
+      "short_original_english_paraphrase": "Bharata asks whether his mother Kaikeyi is well and what she has said.",
+      "classification": "NO_EXPLICIT_DHARMA_TEACHING",
+      "editorial_rationale": "The passage is a familial inquiry with character description, not an explicit ethical principle; do not elevate it automatically to doctrine.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga70/ayodhyaroman70.htm",
+        "verse_locator": "2.70.10",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "content_compared_with_cited_online_verse": true,
+        "english_human_editor_approved": false,
+        "tamil_human_editor_approved": false,
+        "source_id_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-71",
+      "original_file": "data/staging/post_v1/AYODHYA_S71_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6fd318013a4656207e12ff18a779719a8995fbf5",
+      "record_type": "EVENT",
+      "cited_locator": "2.71.1",
+      "short_original_english_paraphrase": "Bharata leaves Rajagriha and continues eastward, travelling near the Sudama River.",
+      "classification": "EVENT_PRESENT_BOILERPLATE",
+      "editorial_rationale": "Journey event present but its geography and actor are omitted from the generic imported summary.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga71/ayodhyaroman71.htm",
+        "verse_locator": "2.71.1",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "content_compared_with_cited_online_verse": true,
+        "english_human_editor_approved": false,
+        "tamil_human_editor_approved": false,
+        "source_id_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-71",
+      "original_file": "data/staging/post_v1/AYODHYA_S71_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6fd318013a4656207e12ff18a779719a8995fbf5",
+      "record_type": "DIALOGUE",
+      "cited_locator": "2.71.5",
+      "short_original_english_paraphrase": "Bharata's route proceeds via a river confluence and the Bharunda forest.",
+      "classification": "NARRATION_NOT_DIRECT_SPEECH",
+      "editorial_rationale": "This verse is third-person travel narration, not dialogue or counsel.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga71/ayodhyaroman71.htm",
+        "verse_locator": "2.71.5",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "content_compared_with_cited_online_verse": true,
+        "english_human_editor_approved": false,
+        "tamil_human_editor_approved": false,
+        "source_id_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-71",
+      "original_file": "data/staging/post_v1/AYODHYA_S71_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6fd318013a4656207e12ff18a779719a8995fbf5",
+      "record_type": "DHARMA_LESSON",
+      "cited_locator": "2.71.10",
+      "short_original_english_paraphrase": "Bharata crosses the Ganga and another river with his party, then reaches Dharmavardhana.",
+      "classification": "NO_EXPLICIT_DHARMA_TEACHING",
+      "editorial_rationale": "A place name containing 'dharma' does not establish a general duty lesson; verse is geographic itinerary narration.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga71/ayodhyaroman71.htm",
+        "verse_locator": "2.71.10",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "content_compared_with_cited_online_verse": true,
+        "english_human_editor_approved": false,
+        "tamil_human_editor_approved": false,
+        "source_id_registry_mapping_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "original_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "source_edition_and_rights_verified": false,
+    "source_registry_binding_verified": false,
+    "english_editorial_signoff": false,
+    "tamil_editorial_signoff": false
+  },
+  "limitations": [
+    "These six verse-level evaluations concern S70/S71 only. Other 66 records lack individual verse adjudication.",
+    "The digital source witness is not proven to be the approved critical edition, nor does URL availability establish rights.",
+    "Generic EVENT and DIALOGUE labels may describe real actions or speech; a failed generic label is not always a false event.",
+    "Dharma classifications require separately justified interpretive context; a geographic name such as Dharmavardhana does not certify a moral teaching.",
+    "No Sanskrit verses or copyrighted translated passages copied. These original paraphrases remain provisional review hypotheses and not approved reader content."
+  ]
+}
