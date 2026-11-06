@@ -1,0 +1,198 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      69,
+      72
+    ],
+    "records_reviewed": 6,
+    "previously_reviewed_records_in_pr": 6,
+    "total_reviewed_after_this_packet": 12,
+    "associated_records_outstanding": 78
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-69",
+      "original_file": "data/staging/post_v1/AYODHYA_S69_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6ae41426eecb0a27011f37ce7aa73a31abf0965b",
+      "record_type": "EVENT",
+      "cited_locator": "2.69.1",
+      "brief_new_english_verse_paraphrase": "Bharata experiences an ominous dream on the night the messengers arrive in Girivraja.",
+      "classification": "EVENT_PRESENT_GENERIC_DESCRIPTION",
+      "editorial_rationale": "Event is a specific ominous dream of Bharata; original summary is empty narrative boilerplate.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaitrans69.htm",
+        "verse_locator": "2.69.1",
+        "method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPTS",
+        "online_rendition_not_verified_critical_edition": true,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_accessible_text": true,
+        "approved_source_edition": false,
+        "source_id_reconciled": false,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "publish_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-69",
+      "original_file": "data/staging/post_v1/AYODHYA_S69_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6ae41426eecb0a27011f37ce7aa73a31abf0965b",
+      "record_type": "DIALOGUE",
+      "cited_locator": "2.69.5",
+      "brief_new_english_verse_paraphrase": "Bharata remains troubled despite his companions' friendly talk, dramatic diversions and jokes.",
+      "classification": "NARRATIVE_NOT_SPEECH_AT_CITED_VERSE",
+      "editorial_rationale": "Verse describes his mood and companions' efforts in narrative voice. Direct conversation begins with a companion's question at 2.69.6, not at cited 2.69.5.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaitrans69.htm",
+        "verse_locator": "2.69.5",
+        "method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPTS",
+        "online_rendition_not_verified_critical_edition": true,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_accessible_text": true,
+        "approved_source_edition": false,
+        "source_id_reconciled": false,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "publish_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-69",
+      "original_file": "data/staging/post_v1/AYODHYA_S69_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6ae41426eecb0a27011f37ce7aa73a31abf0965b",
+      "record_type": "DHARMA_LESSON",
+      "cited_locator": "2.69.10",
+      "brief_new_english_verse_paraphrase": "Bharata's dream continues with disturbing images involving Dasharatha and oil.",
+      "classification": "NO_EXPLICIT_DHARMA_LESSON_AT_CITED_VERSE",
+      "editorial_rationale": "This is a description of a fearful dream, not a source-stated general duty teaching; interpreting omens as predictions also needs safeguards.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaitrans69.htm",
+        "verse_locator": "2.69.10",
+        "method": "PUBLIC_SEARCH_INDEXED_VERSE_EXCERPTS",
+        "online_rendition_not_verified_critical_edition": true,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_accessible_text": true,
+        "approved_source_edition": false,
+        "source_id_reconciled": false,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "publish_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-72",
+      "original_file": "data/staging/post_v1/AYODHYA_S72_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "5e9451bb5df7a9aefcf10a276989dce99bf552d4",
+      "record_type": "EVENT",
+      "cited_locator": "2.72.1",
+      "brief_new_english_verse_paraphrase": "Unable to find his father at the palace, Bharata goes to Kaikeyi's apartment.",
+      "classification": "EVENT_PRESENT_GENERIC_DESCRIPTION",
+      "editorial_rationale": "A definite event and actors are present, but the original record is generic narrative boilerplate.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga72/ayodhyaroman72.htm",
+        "verse_locator": "2.72.1",
+        "method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "online_rendition_not_verified_critical_edition": true,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_accessible_text": true,
+        "approved_source_edition": false,
+        "source_id_reconciled": false,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "publish_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-72",
+      "original_file": "data/staging/post_v1/AYODHYA_S72_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "5e9451bb5df7a9aefcf10a276989dce99bf552d4",
+      "record_type": "DIALOGUE",
+      "cited_locator": "2.72.5",
+      "brief_new_english_verse_paraphrase": "Kaikeyi asks her returning son whether his journey has been tiring.",
+      "classification": "DIRECT_SPEECH_PRESENT_BUT_UNSPECIFIC",
+      "editorial_rationale": "This is an actual question, not a doctrinal dialogue or unspecified counsel; record needs speaker, addressee and topic.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga72/ayodhyaroman72.htm",
+        "verse_locator": "2.72.5",
+        "method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "online_rendition_not_verified_critical_edition": true,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_accessible_text": true,
+        "approved_source_edition": false,
+        "source_id_reconciled": false,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "publish_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-72",
+      "original_file": "data/staging/post_v1/AYODHYA_S72_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "5e9451bb5df7a9aefcf10a276989dce99bf552d4",
+      "record_type": "DHARMA_LESSON",
+      "cited_locator": "2.72.10",
+      "brief_new_english_verse_paraphrase": "Bharata says the royal messengers hastened his return and asks his mother to answer his questions.",
+      "classification": "REQUEST_NOT_EXPLICIT_DHARMA_LESSON",
+      "editorial_rationale": "An exchange containing a request for information, not an explicit duty-related injunction; moral interpretation cannot be automatically attributed to the verse.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga72/ayodhyaroman72.htm",
+        "verse_locator": "2.72.10",
+        "method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "online_rendition_not_verified_critical_edition": true,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_accessible_text": true,
+        "approved_source_edition": false,
+        "source_id_reconciled": false,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "publish_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "classification_summary": {
+    "event_present_but_boilerplate": 2,
+    "dialogue_mislocated_or_needing_context": 2,
+    "dharma_not_explicit_at_locator": 2
+  },
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "original_files_mutated": false,
+    "source_registry_binding": "PENDING",
+    "edition_and_rights_clearance": "PENDING",
+    "english_editorial_signoff": "PENDING",
+    "tamil_editorial_signoff": "PENDING",
+    "production_allowed": false
+  },
+  "limitations": [
+    "Six record labels checked in S69 and S72 only; 78 other associated records still require verse-level adjudication.",
+    "S69 uses indexed verse excerpts, not a freshly retrieved full chapter page; S72 uses a readable full page.",
+    "The record's verse may describe a real event or speech while its generic classification is still inadequate; do not infer blanket falsehood.",
+    "No Sanskrit canon or copyrighted third-party translation reproduced; new paraphrases are provisional editorial hypotheses.",
+    "No publication, rights grant, critical-edition certification, source-ID resolution, or merge permission is implied."
+  ]
+}
