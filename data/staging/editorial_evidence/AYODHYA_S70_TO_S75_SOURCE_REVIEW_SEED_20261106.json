@@ -1,0 +1,217 @@
+{
+  "schema_version": "editorial_source_review_seed_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NON_CANONICAL_EDITORIAL_EVIDENCE_ONLY",
+  "scope": {
+    "kanda": "Ayodhya",
+    "sample_sargas": [
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "subset_of_unapproved_s66_to_s95": true
+  },
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "rights_verified": false,
+    "review_status": "HUMAN_REVIEW_REQUIRED",
+    "historical_files_mutated": false,
+    "canonical_authority_unchanged": true
+  },
+  "entries": [
+    {
+      "review_id": "ayodhya-s70-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S70_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S70",
+      "original_field": "englishExplanation",
+      "imported_summary_pattern": "GENERIC_S66_TO_S75_FOREST_JOURNEY_TEMPLATE",
+      "finding": "IMPORTED_SUMMARY_DOES_NOT_DESCRIBE_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_english_editorial_paraphrase": "Bharata receives the urgent summons from Ayodhya at the Kekaya court and departs with Shatrughna after bidding farewell to his relatives.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 70,
+        "verified_online_locators": [
+          "2.70.1–3",
+          "2.70.24–29"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga70/ayodhyaroman70.htm",
+        "source_type": "ONLINE_DIGITAL_RENDITION",
+        "retrieval_status": "FULL_PAGE_READ",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_registry_ids_reconciled": false,
+        "verse_by_verse_collation_completed": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s71-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S71_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S71",
+      "original_field": "englishExplanation",
+      "imported_summary_pattern": "GENERIC_S66_TO_S75_FOREST_JOURNEY_TEMPLATE",
+      "finding": "IMPORTED_SUMMARY_DOES_NOT_DESCRIBE_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_english_editorial_paraphrase": "Bharata crosses rivers and settlements on his return journey, reaches Ayodhya, and is troubled by its desolate atmosphere.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 71,
+        "verified_online_locators": [
+          "2.71.1–4"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga71/ayodhyaroman71.htm",
+        "source_type": "ONLINE_DIGITAL_RENDITION",
+        "retrieval_status": "FULL_PAGE_READ",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_registry_ids_reconciled": false,
+        "verse_by_verse_collation_completed": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s72-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S72_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S72",
+      "original_field": "englishExplanation",
+      "imported_summary_pattern": "GENERIC_S66_TO_S75_FOREST_JOURNEY_TEMPLATE",
+      "finding": "IMPORTED_SUMMARY_DOES_NOT_DESCRIBE_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_english_editorial_paraphrase": "After failing to find his father, Bharata meets Kaikeyi, who tells him of Dasharatha's death and Rama's exile and urges him to assume the throne.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 72,
+        "verified_online_locators": [
+          "2.72.1–4"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga72/ayodhyaroman72.htm",
+        "source_type": "ONLINE_DIGITAL_RENDITION",
+        "retrieval_status": "FULL_PAGE_READ",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_registry_ids_reconciled": false,
+        "verse_by_verse_collation_completed": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s73-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S73_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S73",
+      "original_field": "englishExplanation",
+      "imported_summary_pattern": "GENERIC_S66_TO_S75_FOREST_JOURNEY_TEMPLATE",
+      "finding": "IMPORTED_SUMMARY_DOES_NOT_DESCRIBE_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_english_editorial_paraphrase": "Horrified by his father's death and Rama's exile, Bharata reproaches Kaikeyi and rejects the value of the kingdom obtained at such cost.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 73,
+        "verified_online_locators": [
+          "2.73.1–5"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga73/ayodhyaroman73.htm",
+        "source_type": "ONLINE_DIGITAL_RENDITION",
+        "retrieval_status": "FULL_PAGE_READ",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_registry_ids_reconciled": false,
+        "verse_by_verse_collation_completed": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s74-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S74_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S74",
+      "original_field": "englishExplanation",
+      "imported_summary_pattern": "GENERIC_S66_TO_S75_FOREST_JOURNEY_TEMPLATE",
+      "finding": "IMPORTED_SUMMARY_DOES_NOT_DESCRIBE_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_english_editorial_paraphrase": "Bharata continues his condemnation of Kaikeyi and declares his resolve to restore Rama to Ayodhya and its throne.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 74,
+        "verified_online_locators": [
+          "2.74.1–5"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga74/ayodhyaroman74.htm",
+        "source_type": "ONLINE_DIGITAL_RENDITION",
+        "retrieval_status": "FULL_PAGE_READ",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_registry_ids_reconciled": false,
+        "verse_by_verse_collation_completed": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s75-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S75_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S75",
+      "original_field": "englishExplanation",
+      "imported_summary_pattern": "GENERIC_S66_TO_S75_FOREST_JOURNEY_TEMPLATE",
+      "finding": "IMPORTED_SUMMARY_DOES_NOT_DESCRIBE_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_english_editorial_paraphrase": "Bharata asserts that he did not seek the throne or know of Rama's exile, and Kausalya eventually accepts his innocence.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 75,
+        "verified_online_locators": [
+          "2.75.1–4"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga75/ayodhyaroman75.htm",
+        "source_type": "ONLINE_DIGITAL_RENDITION",
+        "retrieval_status": "FULL_PAGE_READ",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_registry_ids_reconciled": false,
+        "verse_by_verse_collation_completed": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "limitations": [
+    "Only six SARGA-level summary records (S70–75) are addressed. The other 18 records (events/dialogues/dharma) in these six four-record files have not been individually reviewed.",
+    "Verse locators are examples confirming chapter subjects, not complete chapter-text collation. Original Sanskrit, translations or lengthy quotations are not copied.",
+    "Source pages are digital renditions, not independent proof of critical-edition identity or redistribution rights.",
+    "English paraphrases are provisional hypotheses; neither a canonical correction nor authorization to publish.",
+    "Do not modify archived source data or merge these records into Reader/Search/Ask."
+  ]
+}
