@@ -1,0 +1,194 @@
+{
+  "schema_version": "editorial_source_review_seed_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NON_CANONICAL_EDITORIAL_EVIDENCE_ONLY",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sample_sargas": [
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "reviewed_sarga_summary_records": 5,
+    "associated_event_dialogue_dharma_records_unchecked": 15
+  },
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "source_registry_mapping_authorized": false,
+    "corpus_acquisition_authorized": false,
+    "rights_clearance": "UNVERIFIED",
+    "human_english_review": "PENDING",
+    "human_tamil_review": "PENDING",
+    "critical_edition_comparison": "NOT_COMPLETED",
+    "historical_files_mutated": false
+  },
+  "entries": [
+    {
+      "review_id": "ayodhya-s81-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S81_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "3437cdbcb40b0dbcc9a1f2c9401c430147fbdd04",
+      "original_record_id": "RV-STG-AYODHYA-S81",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "provisional_original_english_paraphrase": "Bharata is distressed by ceremonial praise and music after Dasharatha's death and rejects being treated as king; Vasistha summons him and Shatrughna to the assembly.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 81,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga81/ayodhyaroman81.htm",
+        "checked_verse_locators": [
+          "2.81.1–4",
+          "2.81.14"
+        ],
+        "retrieval_method": "PUBLIC_WEB_FULL_CHAPTER_PAGE",
+        "witness_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "source_id_mapping_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "semantic_topic_supported_by_online_witness": true,
+        "full_chapter_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s82-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S82_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "e5445d29eaafa98e4b24829d150d26e52677d583",
+      "original_record_id": "RV-STG-AYODHYA-S82",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "provisional_original_english_paraphrase": "At the assembly, Bharata rejects a coronation that would displace Rama, insists Rama is the rightful elder heir, and asks Sumantra to prepare a journey to bring Rama home.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 82,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga82/ayodhyaroman82.htm",
+        "checked_verse_locators": [
+          "2.82.4–5",
+          "2.82.11–15",
+          "2.82.19–24"
+        ],
+        "retrieval_method": "PUBLIC_WEB_FULL_CHAPTER_PAGE",
+        "witness_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "source_id_mapping_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "semantic_topic_supported_by_online_witness": true,
+        "full_chapter_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s83-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S83_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "3d5e9c140646fcc93d0d404491b9a42a21942c7f",
+      "original_record_id": "RV-STG-AYODHYA-S83",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "provisional_original_english_paraphrase": "Bharata departs Ayodhya with priests, ministers, citizens and a large retinue to find Rama, reaching the Ganga near Shringaverapura where Guha lives.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 83,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga83/ayodhyaroman83.htm",
+        "checked_verse_locators": [
+          "2.83.1–5",
+          "2.83.18–20"
+        ],
+        "retrieval_method": "PUBLIC_WEB_FULL_CHAPTER_PAGE",
+        "witness_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "source_id_mapping_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "semantic_topic_supported_by_online_witness": true,
+        "full_chapter_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s84-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S84_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "d6b36ffbf85427c11518952cced773b0e5f42b8c",
+      "original_record_id": "RV-STG-AYODHYA-S84",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "provisional_original_english_paraphrase": "Seeing Bharata's army by the Ganga, Guha worries that Rama may be threatened, prepares his people to guard the river, and then approaches Bharata to offer hospitality.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 84,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga84/ayodhyaroman84.htm",
+        "checked_verse_locators": [
+          "2.84.1–6",
+          "2.84.14–15"
+        ],
+        "retrieval_method": "PUBLIC_WEB_FULL_CHAPTER_PAGE",
+        "witness_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "source_id_mapping_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "semantic_topic_supported_by_online_witness": true,
+        "full_chapter_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s85-source-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S85_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "89989fb13a87f8e4bbc4505cde009d2520db4148",
+      "original_record_id": "RV-STG-AYODHYA-S85",
+      "original_field": "englishExplanation",
+      "finding": "GENERIC_FOREST_HERMITAGE_TEMPLATE_MISALIGNED_WITH_CHAPTER",
+      "provisional_original_english_paraphrase": "Bharata thanks Guha for his hospitality and asks the route to Bharadvaja's hermitage; Guha offers guidance and Bharata explains that he seeks Rama's return.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 85,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga85/ayodhyaitrans85.htm",
+        "checked_verse_locators": [
+          "2.85.1–4"
+        ],
+        "retrieval_method": "PUBLIC_WEB_FULL_CHAPTER_PAGE",
+        "witness_type": "DIGITAL_TEXT_RENDITION_NOT_CRITICAL_EDITION",
+        "source_id_mapping_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "semantic_topic_supported_by_online_witness": true,
+        "full_chapter_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "limitations": [
+    "Only five SARGA summaries reviewed, not their fifteen associated event/dialogue/dharma records.",
+    "Short original editorial paraphrases are draft review hypotheses, not accepted canonical replacement text.",
+    "Chapter pages were readable via public web retrieval, but this does not certify a critical edition, recension, commercial rights, or complete verse-level matching.",
+    "All original post-v1 source data remain quarantined and unchanged. No automated or human promotion approval is implied.",
+    "No new acquisition cursor, database write or reader/search exposure is authorized."
+  ]
+}
