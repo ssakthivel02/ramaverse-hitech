@@ -1,0 +1,185 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-09",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      84,
+      85
+    ],
+    "records_reviewed": 6,
+    "previously_adjudicated": 42,
+    "total_adjudicated": 48,
+    "associated_records_outstanding": 42
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-84",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S84_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "d6b36ffbf85427c11518952cced773b0e5f42b8c",
+      "cited_locator": "2.84.2",
+      "provisional_original_english_paraphrase": "Guha, seeing Bharata's enormous army near the Ganga, says its extent is hard to comprehend.",
+      "classification": "DIRECT_SPEECH_REPORTED_AS_GENERIC_EVENT",
+      "editorial_rationale": "Verse is Guha's spoken reaction rather than independent narrative action; label requires a reported-speech context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga84/ayodhyaitrans84.htm",
+        "verse_locator": "2.84.2",
+        "retrieval_method": "SEARCH_RESULT_WITH_VERSE_TEXT_FOR_S84;FULL_READABLE_PAGE_FOR_S85",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_digital_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "approved_source_id_binding": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-84",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S84_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "d6b36ffbf85427c11518952cced773b0e5f42b8c",
+      "cited_locator": "2.84.6",
+      "provisional_original_english_paraphrase": "Guha describes Rama as his lord and friend and orders his people to guard the bank of the Ganga for Rama's protection.",
+      "classification": "DIRECT_SPEECH_INSTRUCTION_CONTEXT_MISSING",
+      "editorial_rationale": "A clear spoken instruction exists, but the generic description omits speaker, audience, motivation and protective context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga84/ayodhyaitrans84.htm",
+        "verse_locator": "2.84.6",
+        "retrieval_method": "SEARCH_RESULT_WITH_VERSE_TEXT_FOR_S84;FULL_READABLE_PAGE_FOR_S85",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_digital_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "approved_source_id_binding": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-84",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S84_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "d6b36ffbf85427c11518952cced773b0e5f42b8c",
+      "cited_locator": "2.84.12",
+      "provisional_original_english_paraphrase": "Sumantra introduces Guha to Bharata as a respected forest guide and long-standing friend of Rama.",
+      "classification": "DESCRIPTION_NOT_EXPLICIT_DHARMA_TEACHING",
+      "editorial_rationale": "This is Sumantra's contextual description of Guha's identity and knowledge, not a general-purpose duty injunction.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga84/ayodhyaitrans84.htm",
+        "verse_locator": "2.84.12",
+        "retrieval_method": "SEARCH_RESULT_WITH_VERSE_TEXT_FOR_S84;FULL_READABLE_PAGE_FOR_S85",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_digital_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "approved_source_id_binding": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-85",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S85_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "89989fb13a87f8e4bbc4505cde009d2520db4148",
+      "cited_locator": "2.85.2",
+      "provisional_original_english_paraphrase": "Bharata praises Guha's willingness to offer hospitality to his large army.",
+      "classification": "DIRECT_SPEECH_REPORTED_AS_GENERIC_EVENT",
+      "editorial_rationale": "Verse contains Bharata's direct acknowledgment rather than a standalone external event.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga85/ayodhyaitrans85.htm",
+        "verse_locator": "2.85.2",
+        "retrieval_method": "SEARCH_RESULT_WITH_VERSE_TEXT_FOR_S84;FULL_READABLE_PAGE_FOR_S85",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_digital_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "approved_source_id_binding": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-85",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S85_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "89989fb13a87f8e4bbc4505cde009d2520db4148",
+      "cited_locator": "2.85.6",
+      "provisional_original_english_paraphrase": "Guha tells Bharata that armed ferrymen and Guha himself will accompany him as guides.",
+      "classification": "DIRECT_SPEECH_CONTEXT_MISSING",
+      "editorial_rationale": "Direct speech is present but it specifies logistical guidance, not a broad counsel exchange.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga85/ayodhyaitrans85.htm",
+        "verse_locator": "2.85.6",
+        "retrieval_method": "SEARCH_RESULT_WITH_VERSE_TEXT_FOR_S84;FULL_READABLE_PAGE_FOR_S85",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_digital_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "approved_source_id_binding": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-85",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S85_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "89989fb13a87f8e4bbc4505cde009d2520db4148",
+      "cited_locator": "2.85.12",
+      "provisional_original_english_paraphrase": "Guha praises Bharata's willingness to relinquish a kingdom that came to him without effort.",
+      "classification": "ETHICAL_APPRAISAL_IN_CHARACTER_SPEECH",
+      "editorial_rationale": "This offers a plausible virtue-related interpretation (renunciation), but it is praise by Guha within the narrative, not independently certified universal doctrine.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga85/ayodhyaitrans85.htm",
+        "verse_locator": "2.85.12",
+        "retrieval_method": "SEARCH_RESULT_WITH_VERSE_TEXT_FOR_S84;FULL_READABLE_PAGE_FOR_S85",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_supported_by_digital_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "approved_source_id_binding": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "source_edition_and_rights_verified": false,
+    "independent_human_editorial_approval": false,
+    "production_release_allowed": false
+  },
+  "limitations": [
+    "Six records only; remaining 42 associated records still require independent verse-level adjudication.",
+    "S84 used an indexed result containing the full chapter text, rather than a successful direct full-page fetch in this turn. S85 exact verse content was directly retrievable.",
+    "The digital witness cannot establish the edition agreed for publication, independent Tamil/editorial correctness or third-party rights.",
+    "Character speech expressing ethical approval does not become a universal dharma lesson without attribution and editorial interpretation.",
+    "No original staging, source registry, canonical content, reader, CI configuration or production resource was changed."
+  ]
+}

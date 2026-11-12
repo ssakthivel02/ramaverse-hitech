@@ -1,0 +1,203 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      68,
+      76
+    ],
+    "records_reviewed": 6,
+    "associated_records_outstanding": 84
+  },
+  "witness_method": "Read source rendering of the two full chapters and compare specified verse against original record's type, English paraphrase and locator; no independent critical-edition collation performed.",
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-68",
+      "original_file": "data/staging/post_v1/AYODHYA_S68_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "ce6ef200d766ba575a14e2215c0e48186c879ff1",
+      "record_type": "EVENT",
+      "cited_locator": "2.68.1",
+      "verse_reading": "Vasistha responds to the assembled ministers and Brahmins.",
+      "classification": "EVENT_PRESENT_BUT_UNSPECIFIC",
+      "editorial_rationale": "Generic record omits who speaks and the reason for the council's response.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga68/ayodhyaroman68.htm",
+        "verse_locator": "2.68.1",
+        "scope": "SPECIFIC_VERSE",
+        "type": "PUBLIC_DIGITAL_RENDITION_NOT_APPROVED_EDITION",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "source_and_verse_meaning_checked": true,
+        "record_type_certified": false,
+        "human_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_id_resolved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-68",
+      "original_file": "data/staging/post_v1/AYODHYA_S68_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "ce6ef200d766ba575a14e2215c0e48186c879ff1",
+      "record_type": "DIALOGUE",
+      "cited_locator": "2.68.5",
+      "verse_reading": "Vasistha addresses several named messengers and instructs them to listen to his directions.",
+      "classification": "DIRECT_SPEECH_PRESENT_BUT_ROLE_GENERIC",
+      "editorial_rationale": "An instruction to messengers is present; the original calls it generic counsel and dialogue without interlocutors or context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga68/ayodhyaroman68.htm",
+        "verse_locator": "2.68.5",
+        "scope": "SPECIFIC_VERSE",
+        "type": "PUBLIC_DIGITAL_RENDITION_NOT_APPROVED_EDITION",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "source_and_verse_meaning_checked": true,
+        "record_type_certified": false,
+        "human_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_id_resolved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-68",
+      "original_file": "data/staging/post_v1/AYODHYA_S68_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "ce6ef200d766ba575a14e2215c0e48186c879ff1",
+      "record_type": "DHARMA_LESSON",
+      "cited_locator": "2.68.10",
+      "verse_reading": "Messengers receive travel supplies, mount horses, and return to their homes before departure.",
+      "classification": "NO_EXPLICIT_DHARMA_INSTRUCTION_IN_CITED_VERSE",
+      "editorial_rationale": "A logistical action is described, not an explicit ethical injunction; any ethical lesson would require a separately reasoned interpretive layer.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga68/ayodhyaroman68.htm",
+        "verse_locator": "2.68.10",
+        "scope": "SPECIFIC_VERSE",
+        "type": "PUBLIC_DIGITAL_RENDITION_NOT_APPROVED_EDITION",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "source_and_verse_meaning_checked": true,
+        "record_type_certified": false,
+        "human_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_id_resolved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-76",
+      "original_file": "data/staging/post_v1/AYODHYA_S76_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b4f301ac996c9ab20e9c81d3be4c38a6e1b89382",
+      "record_type": "EVENT",
+      "cited_locator": "2.76.2",
+      "verse_reading": "Vasistha instructs Bharata to undertake Dasharatha's funeral rites rather than remain in grief.",
+      "classification": "EVENT_PRESENT_BUT_UNSPECIFIC",
+      "editorial_rationale": "A concrete instruction is presented; the original has only a generic reference to the narrative sequence.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga76/ayodhyaroman76.htm",
+        "verse_locator": "2.76.2",
+        "scope": "SPECIFIC_VERSE",
+        "type": "PUBLIC_DIGITAL_RENDITION_NOT_APPROVED_EDITION",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "source_and_verse_meaning_checked": true,
+        "record_type_certified": false,
+        "human_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_id_resolved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-76",
+      "original_file": "data/staging/post_v1/AYODHYA_S76_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b4f301ac996c9ab20e9c81d3be4c38a6e1b89382",
+      "record_type": "DIALOGUE",
+      "cited_locator": "2.76.6",
+      "verse_reading": "Bharata addresses his deceased father in lament, questioning why Rama and Lakshmana were sent into exile.",
+      "classification": "DIRECT_SPEECH_PRESENT_NOT_COUNSEL_EXCHANGE",
+      "editorial_rationale": "This is a lament addressed to the deceased, not a mutual dialogue or sage's counsel.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga76/ayodhyaroman76.htm",
+        "verse_locator": "2.76.6",
+        "scope": "SPECIFIC_VERSE",
+        "type": "PUBLIC_DIGITAL_RENDITION_NOT_APPROVED_EDITION",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "source_and_verse_meaning_checked": true,
+        "record_type_certified": false,
+        "human_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_id_resolved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-76",
+      "original_file": "data/staging/post_v1/AYODHYA_S76_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b4f301ac996c9ab20e9c81d3be4c38a6e1b89382",
+      "record_type": "DHARMA_LESSON",
+      "cited_locator": "2.76.12",
+      "verse_reading": "Bharata agrees to Vasistha's direction and promptly summons the officiating priests.",
+      "classification": "DERIVED_DUTY_THEME_POSSIBLE_NOT_EXPLICIT_RULE",
+      "editorial_rationale": "The verse narrates an act of obedience and preparation. A general dharma lesson is an editorial inference, not a direct imperative given to readers.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga76/ayodhyaroman76.htm",
+        "verse_locator": "2.76.12",
+        "scope": "SPECIFIC_VERSE",
+        "type": "PUBLIC_DIGITAL_RENDITION_NOT_APPROVED_EDITION",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "source_and_verse_meaning_checked": true,
+        "record_type_certified": false,
+        "human_editor_approved": false,
+        "tamil_editor_approved": false,
+        "source_id_resolved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "summary": {
+    "event_generic_but_event_present": 2,
+    "speech_present_genre_or_context_missing": 2,
+    "dharma_lesson_not_explicit": 2
+  },
+  "governance": {
+    "canonical_record_edits": 0,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "continuation_authority_unchanged": true,
+    "source_registry_binding": "PENDING",
+    "english_editorial_signoff": "PENDING",
+    "tamil_editorial_signoff": "PENDING",
+    "edition_and_rights_clearance": "PENDING"
+  },
+  "limitations": [
+    "Two sargas, six records only. No conclusion is drawn about the remaining 84 associated records.",
+    "No blanket falsity judgment: a generic label may refer to a real event or speech without faithfully describing it.",
+    "Dharma interpretation is an editorial layer requiring explicit non-guarantee framing and named reviewer approval.",
+    "Do not reuse original numerical confidence values as evidence of semantic correctness.",
+    "No imported record, canonical text, app reader or active source authority was altered."
+  ]
+}

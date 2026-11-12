@@ -1,0 +1,156 @@
+{
+  "schema_version": "editorial_source_review_seed_v1",
+  "project": "RamaVerse HI-TECH",
+  "evidence_date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NON_CANONICAL_EDITORIAL_EVIDENCE_ONLY",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sample_sargas": [
+      87,
+      88,
+      89,
+      90
+    ],
+    "reviewed_sarga_summary_records": 4,
+    "associated_records_not_individually_checked": 12
+  },
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "corpus_acquisition_authorized": false,
+    "source_registry_binding": "UNRESOLVED",
+    "rights_and_edition_review": "PENDING",
+    "independent_english_editorial_review": "PENDING",
+    "independent_tamil_editorial_review": "PENDING"
+  },
+  "entries": [
+    {
+      "review_id": "ayodhya-s87-topic-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S87_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "70ecfd0b36461c0fdade754fca94a412b3c06b36",
+      "original_record_id": "RV-STG-AYODHYA-S87",
+      "original_field": "englishExplanation",
+      "finding": "IMPORTED_TEMPLATED_SUMMARY_LACKS_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_original_english_paraphrase": "Hearing Guha describe Rama's hardships, Bharata faints in distress. Guha recounts how Rama and Sita rested on grass while Lakshmana kept watch through the night.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 87,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga87/ayodhyaroman87.htm",
+        "checked_verse_locators": [
+          "2.87.1–5"
+        ],
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "source_type": "ONLINE_DIGITAL_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "episode_supported_by_online_witness": true,
+        "full_verse_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s88-topic-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S88_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "7983649faba9c1fd35bd020eb535c195f63d38b4",
+      "original_record_id": "RV-STG-AYODHYA-S88",
+      "original_field": "englishExplanation",
+      "finding": "IMPORTED_TEMPLATED_SUMMARY_LACKS_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_original_english_paraphrase": "Bharata visits the place beneath an Ingudi tree where Rama slept on the ground, laments his brother's hardship, and vows to share a similarly austere life.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 88,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga88/ayodhyaroman88.htm",
+        "checked_verse_locators": [
+          "2.88.1–4"
+        ],
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "source_type": "ONLINE_DIGITAL_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "episode_supported_by_online_witness": true,
+        "full_verse_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s89-topic-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S89_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "fd85ff3f2a6569c3d94ecf781ff248363bf6f389",
+      "original_record_id": "RV-STG-AYODHYA-S89",
+      "original_field": "englishExplanation",
+      "finding": "IMPORTED_TEMPLATED_SUMMARY_LACKS_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_original_english_paraphrase": "At the Ganga, Bharata asks Guha to ferry the large party across the river. They proceed toward Prayaga, where Bharata approaches Bharadvaja's hermitage.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 89,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga89/ayodhyaroman89.htm",
+        "checked_verse_locators": [
+          "2.89.1–7"
+        ],
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "source_type": "ONLINE_DIGITAL_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "episode_supported_by_online_witness": true,
+        "full_verse_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s90-topic-review-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S90_SOURCE_BACKED_RECORDS.json",
+      "original_file_git_blob_sha1": "964f4ca9f1ae40d83f82d4660cb467580e73e73f",
+      "original_record_id": "RV-STG-AYODHYA-S90",
+      "original_field": "englishExplanation",
+      "finding": "IMPORTED_TEMPLATED_SUMMARY_LACKS_CHAPTER_SPECIFIC_EPISODE",
+      "provisional_original_english_paraphrase": "Bharata leaves his forces behind to approach sage Bharadvaja with Vasistha. The sage questions his intentions toward Rama, and Bharata explains that he seeks Rama's return.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 90,
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga90/ayodhyaroman90.htm",
+        "checked_verse_locators": [
+          "2.90.1–5"
+        ],
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_PAGE",
+        "source_type": "ONLINE_DIGITAL_RENDITION_NOT_CRITICAL_EDITION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "episode_supported_by_online_witness": true,
+        "full_verse_collation_completed": false,
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "limitations": [
+    "Four SARGA summary records are reviewed for episode-level correspondence; associated event, dialogue and dharma records remain unchecked.",
+    "Short independent English paraphrases are review hypotheses, not canonical replacement text.",
+    "This online rendition is not evidence of critical-edition identity, permission to reproduce a third-party translation, or complete verse-by-verse validation.",
+    "No migration, publication, merge, source-registry backfill, acquisition continuation or historical corpus rewrite is authorized."
+  ]
+}

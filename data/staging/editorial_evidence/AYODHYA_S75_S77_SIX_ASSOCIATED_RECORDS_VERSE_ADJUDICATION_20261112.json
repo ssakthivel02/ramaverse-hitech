@@ -1,0 +1,179 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      75,
+      77
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 84,
+    "total_adjudicated": 90,
+    "remaining": 0
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-75",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S75_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "4b6e4a7fb91adb90f079cd98b7ad3b30886b8d32",
+      "cited_locator": "2.75.1",
+      "original_brief_english_paraphrase_for_review": "Bharata regains awareness after a long period and sees his mother in tears; the verse continues syntactically into his reproach in 2.75.2.",
+      "classification": "NARRATIVE_ACTION_REQUIRES_NEXT_VERSE",
+      "editorial_rationale": "The single verse supplies a concrete action and participant but is grammatically continued in 2.75.2; avoid converting it into a standalone event or attributing all actions to verse 1 alone.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga75/ayodhyaroman75.htm",
+        "verse_locator": "2.75.1",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-75",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S75_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "4b6e4a7fb91adb90f079cd98b7ad3b30886b8d32",
+      "cited_locator": "2.75.5",
+      "original_brief_english_paraphrase_for_review": "Kausalya recognises Bharata's cries and speaks to Sumitra.",
+      "classification": "SPEECH_INTRODUCTION_NOT_QUOTED_DIALOGUE",
+      "editorial_rationale": "Verse 5 announces Kausalya's response; its actual spoken words follow in 2.75.6, so a self-contained quotation at 2.75.5 would be mislocated.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga75/ayodhyaroman75.htm",
+        "verse_locator": "2.75.5",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-75",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S75_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "4b6e4a7fb91adb90f079cd98b7ad3b30886b8d32",
+      "cited_locator": "2.75.10",
+      "original_brief_english_paraphrase_for_review": "The verse introduces grieving Kausalya's reproach to Bharata; her words follow in 2.75.11.",
+      "classification": "SPEECH_FRAME_NOT_EXPLICIT_DHARMA_LESSON",
+      "editorial_rationale": "This verse is a speech frame, not a universal norm or an independent ethical teaching; the following accusation is context-bound and should not be assigned to this locator.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga75/ayodhyaroman75.htm",
+        "verse_locator": "2.75.10",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-77",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S77_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7b361561bd9c109b398ac7a31245cf784ee7d4b7",
+      "cited_locator": "2.77.2",
+      "original_brief_english_paraphrase_for_review": "Bharata gives valuables, money, food and costly garments to Brahmins during the post-funeral rites.",
+      "classification": "NARRATED_FUNERAL_GIFTS_NOT_GENERIC_EVENT",
+      "editorial_rationale": "A specific narrated ritual gift-giving action; preserve Bharata as actor and the funeral context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga77/ayodhyaroman77.htm",
+        "verse_locator": "2.77.2",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-77",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S77_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7b361561bd9c109b398ac7a31245cf784ee7d4b7",
+      "cited_locator": "2.77.6",
+      "original_brief_english_paraphrase_for_review": "Bharata laments to his deceased father that, with Rama gone to the forest, he has been left entirely alone.",
+      "classification": "MONOLOGUE_TO_DECEASED_FATHER_NOT_TWO_WAY_EXCHANGE",
+      "editorial_rationale": "A grief-stricken address to Dasharatha at the funeral pyre, not an interactive counselling dialogue.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga77/ayodhyaroman77.htm",
+        "verse_locator": "2.77.6",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-77",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S77_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7b361561bd9c109b398ac7a31245cf784ee7d4b7",
+      "cited_locator": "2.77.12",
+      "original_brief_english_paraphrase_for_review": "Shatrughna, remembering his father's virtues, continues lamenting in distress.",
+      "classification": "NARRATIVE_LAMENT_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "The verse depicts Shatrughna's grief and memory; admiration of virtues is not a prescriptive ethical teaching at this locator.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga77/ayodhyaroman77.htm",
+        "verse_locator": "2.77.12",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "independent_editorial_review": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "All 90 associated record IDs now have provisional verse evidence but none is independently approved for publication.",
+    "2.75.1 spans a syntactic continuation into 2.75.2; 2.75.10 is a frame introducing verse 11.",
+    "2.77.6 is a lament addressed to deceased Dasharatha, not a two-person conversational exchange.",
+    "Critical edition, copyright permissions and registry mappings remain unresolved.",
+    "No historical source, canonical data, registry or release authority was changed."
+  ]
+}

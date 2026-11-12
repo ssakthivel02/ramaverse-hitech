@@ -1,0 +1,179 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      88,
+      89
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 54,
+    "total_adjudicated": 60,
+    "remaining": 30
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-88",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S88_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7983649faba9c1fd35bd020eb535c195f63d38b4",
+      "cited_locator": "2.88.3",
+      "original_brief_english_paraphrase_for_review": "Bharata laments that Rama, born in an illustrious royal family, has to sleep on bare earth.",
+      "classification": "SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "Bharata's lament to his mothers, begun in 2.88.2, is direct speech, not an independently narrated event.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga88/ayodhyaroman88.htm",
+        "verse_locator": "2.88.3",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-88",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S88_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7983649faba9c1fd35bd020eb535c195f63d38b4",
+      "cited_locator": "2.88.7",
+      "original_brief_english_paraphrase_for_review": "Bharata continues describing the palace surroundings formerly enjoyed by Rama.",
+      "classification": "EXTENDED_MONOLOGUE_FRAGMENT_NOT_STANDALONE_EXCHANGE",
+      "editorial_rationale": "This verse forms part of a multi-verse descriptive sentence (2.88.5–9) within Bharata's speech; the isolated locator does not constitute a complete counsel exchange.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga88/ayodhyaroman88.htm",
+        "verse_locator": "2.88.7",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-88",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S88_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7983649faba9c1fd35bd020eb535c195f63d38b4",
+      "cited_locator": "2.88.15",
+      "original_brief_english_paraphrase_for_review": "Bharata points to silk threads caught on the grass and infers that Sita's upper garment became entangled there.",
+      "classification": "OBSERVATION_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "Verse concerns physical traces on Rama's resting place, reported within Bharata's lament; no general duty instruction is stated.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga88/ayodhyaroman88.htm",
+        "verse_locator": "2.88.15",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-89",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S89_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fd85ff3f2a6569c3d94ecf781ff248363bf6f389",
+      "cited_locator": "2.89.3",
+      "original_brief_english_paraphrase_for_review": "Shatrughna says he has been awake thinking about Rama.",
+      "classification": "SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "The locator reports Shatrughna's response to Bharata, not an independently narrated crossing event.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga89/ayodhyaroman89.htm",
+        "verse_locator": "2.89.3",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-89",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S89_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fd85ff3f2a6569c3d94ecf781ff248363bf6f389",
+      "cited_locator": "2.89.7",
+      "original_brief_english_paraphrase_for_review": "Bharata acknowledges Guha's hospitality and asks that his men ferry the party across the Ganga.",
+      "classification": "DIRECT_SPEECH_PRESENT_CONTEXT_REQUIRED",
+      "editorial_rationale": "The request is genuine speech by Bharata to Guha; it must not be generically described as unspecified counsel.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga89/ayodhyaroman89.htm",
+        "verse_locator": "2.89.7",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-89",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S89_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fd85ff3f2a6569c3d94ecf781ff248363bf6f389",
+      "cited_locator": "2.89.15",
+      "original_brief_english_paraphrase_for_review": "Narration depicts commotion as the departing party packs belongings, approaches the crossing and dismantles or burns temporary shelters.",
+      "classification": "NARRATIVE_MOVEMENT_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "The verse is descriptive narration, not an injunction or universal ethical teaching; a translator's subsequent cultural explanation must not be misattributed to Valmiki's verse.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga89/ayodhyaroman89.htm",
+        "verse_locator": "2.89.15",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "independent_editorial_review": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "Six verse-specific hypotheses, not canonical corrections; remaining 30 associated records still need adjudication.",
+    "2.88.7 is a fragment of a multi-verse phrase (2.88.5–9), rather than an independently complete utterance.",
+    "2.89.15 is narration; extra interpretive commentary in the online witness is not part of the Sanskrit verse.",
+    "Verse numbers are witness-specific and require edition reconciliation.",
+    "No original Sanskrit or third-party translated passages are reproduced."
+  ]
+}

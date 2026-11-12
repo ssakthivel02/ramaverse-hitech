@@ -1,0 +1,179 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      90,
+      91
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 60,
+    "total_adjudicated": 66,
+    "remaining": 24
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-90",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S90_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "964f4ca9f1ae40d83f82d4660cb467580e73e73f",
+      "cited_locator": "2.90.3",
+      "original_brief_english_paraphrase_for_review": "Bharata leaves his ministers within sight of Bharadvaja and goes onward with Vasistha.",
+      "classification": "NARRATIVE_EVENT_PRESENT_GENERIC_DESCRIPTION",
+      "editorial_rationale": "The verse narrates the concrete movement of Bharata and Vasistha; the generic event template omits the individuals and context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga90/ayodhyaroman90.htm",
+        "verse_locator": "2.90.3",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-90",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S90_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "964f4ca9f1ae40d83f82d4660cb467580e73e73f",
+      "cited_locator": "2.90.7",
+      "original_brief_english_paraphrase_for_review": "Bharadvaja enquires after the welfare of Ayodhya and its institutions, but does not mention Dasharatha because he knows of the king's death.",
+      "classification": "NARRATIVE_SUMMARY_NOT_DIRECT_DIALOGUE_AT_LOCATOR",
+      "editorial_rationale": "The narrator reports the enquiries and the omission; no quoted spoken exchange appears at this exact verse.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga90/ayodhyaroman90.htm",
+        "verse_locator": "2.90.7",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-90",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S90_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "964f4ca9f1ae40d83f82d4660cb467580e73e73f",
+      "cited_locator": "2.90.15",
+      "original_brief_english_paraphrase_for_review": "Bharata rejects Bharadvaja's suspicion that he might harm Rama.",
+      "classification": "PERSONAL_DENIAL_NOT_EXPLICIT_GENERAL_DHARMA_RULE",
+      "editorial_rationale": "This is Bharata's first-person reply, a moral stance in context but not an articulated general rule of duty; nearby verses provide further explanation.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga90/ayodhyaroman90.htm",
+        "verse_locator": "2.90.15",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-91",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S91_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "a4319423bd72314f70a4d1379938a57dac8177b9",
+      "cited_locator": "2.91.3",
+      "original_brief_english_paraphrase_for_review": "Bharadvaja smiles and tells Bharata that he is pleased with whatever is offered.",
+      "classification": "SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "The verse is a direct statement by Bharadvaja to Bharata, introduced by narration; it should not be flattened into an unspecified narrative event.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga91/ayodhyaroman91.htm",
+        "verse_locator": "2.91.3",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-91",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S91_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "a4319423bd72314f70a4d1379938a57dac8177b9",
+      "cited_locator": "2.91.7",
+      "original_brief_english_paraphrase_for_review": "Bharata says that rulers and princes should carefully avoid disturbing ascetics in their places of residence.",
+      "classification": "DIRECT_SPEECH_CONTAINS_EXPLICIT_DUTY_GUIDANCE",
+      "editorial_rationale": "A genuine normative claim in Bharata's speech; attribution to Bharata is essential. This duty statement should not be confused with an unqualified narrator's assertion.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga91/ayodhyaroman91.htm",
+        "verse_locator": "2.91.7",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-91",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S91_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "a4319423bd72314f70a4d1379938a57dac8177b9",
+      "cited_locator": "2.91.15",
+      "original_brief_english_paraphrase_for_review": "During Bharadvaja's invocation for hospitality, he requests rivers of different beverages, including cool sweet water.",
+      "classification": "RITUAL_INVOCATION_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "The verse is part of Bharadvaja's extraordinary hospitality invocation; its image is not itself a direct universal moral teaching.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga91/ayodhyaroman91.htm",
+        "verse_locator": "2.91.15",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "independent_editorial_review": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "Six witness-specific provisional editorial classifications; remaining 24 associated records not independently adjudicated.",
+    "Verse 2.91.7 articulates a duty statement, but it is attributed to Bharata within direct speech.",
+    "Verse 2.91.15 belongs to an extraordinary hospitality invocation, not a generic dharma lesson.",
+    "Online witness is not a verified critical edition or redistribution licence.",
+    "No historical source, registry, production code or canonical records modified."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      82,
+      83
+    ],
+    "records_reviewed": 6,
+    "previously_adjudicated": 36,
+    "total_adjudicated": 42,
+    "associated_records_outstanding": 48
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-82",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S82_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "e5445d29eaafa98e4b24829d150d26e52677d583",
+      "cited_locator": "2.82.2",
+      "brief_new_english_paraphrase": "Members of the assembly take their designated seats, making the hall resplendent.",
+      "classification": "COURT_SETTING_NARRATION_GENERIC_EVENT",
+      "editorial_rationale": "Narrates the assembly setting but the generic record omits location and social context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga82/ayodhyaroman82.htm",
+        "verse_locator": "2.82.2",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER_WITH_VERSE_TRANSLITERATION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_verified_in_online_witness": true,
+        "source_registry_binding_verified": false,
+        "independent_english_review": false,
+        "independent_tamil_review": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-82",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S82_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "e5445d29eaafa98e4b24829d150d26e52677d583",
+      "cited_locator": "2.82.6",
+      "brief_new_english_paraphrase": "Vasistha says Rama upheld his father's command, referring to truthfulness and righteous conduct.",
+      "classification": "DIRECT_SPEECH_WITH_CONTEXT_OMITTED",
+      "editorial_rationale": "This is direct speech in Vasistha's address to Bharata; dialogue category is broad and lacks speaker and addressee.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga82/ayodhyaroman82.htm",
+        "verse_locator": "2.82.6",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER_WITH_VERSE_TRANSLITERATION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_verified_in_online_witness": true,
+        "source_registry_binding_verified": false,
+        "independent_english_review": false,
+        "independent_tamil_review": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-82",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S82_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "e5445d29eaafa98e4b24829d150d26e52677d583",
+      "cited_locator": "2.82.12",
+      "brief_new_english_paraphrase": "Bharata rejects usurping Rama's crown and asks that the law and justice of the matter be explained.",
+      "classification": "CHARACTER_ETHICAL_APPEAL_POTENTIALLY_DERIVABLE",
+      "editorial_rationale": "The cited verse explicitly discusses justice and rightful rule. A carefully attributed lesson may be derived after human review; do not classify it as an independently approved universal rule.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga82/ayodhyaroman82.htm",
+        "verse_locator": "2.82.12",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER_WITH_VERSE_TRANSLITERATION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_verified_in_online_witness": true,
+        "source_registry_binding_verified": false,
+        "independent_english_review": false,
+        "independent_tamil_review": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-83",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S83_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3d5e9c140646fcc93d0d404491b9a42a21942c7f",
+      "cited_locator": "2.83.2",
+      "brief_new_english_paraphrase": "Ministers and priests travel ahead of Bharata in horse-drawn chariots.",
+      "classification": "NARRATIVE_EVENT_PRESENT_BUT_GENERIC",
+      "editorial_rationale": "The verse is a specific part of Bharata's expedition and has no substantive match beyond generic event boilerplate.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga83/ayodhyaroman83.htm",
+        "verse_locator": "2.83.2",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER_WITH_VERSE_TRANSLITERATION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_verified_in_online_witness": true,
+        "source_registry_binding_verified": false,
+        "independent_english_review": false,
+        "independent_tamil_review": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-83",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S83_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3d5e9c140646fcc93d0d404491b9a42a21942c7f",
+      "cited_locator": "2.83.6",
+      "brief_new_english_paraphrase": "Kaikeyi, Sumitra and Kausalya accompany the expedition in a chariot, hoping Rama will return.",
+      "classification": "NARRATION_NOT_DIALOGUE",
+      "editorial_rationale": "Verse describes the royal mothers' travel and emotion; neither direct speech nor counsel is recorded.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga83/ayodhyaroman83.htm",
+        "verse_locator": "2.83.6",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER_WITH_VERSE_TRANSLITERATION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_verified_in_online_witness": true,
+        "source_registry_binding_verified": false,
+        "independent_english_review": false,
+        "independent_tamil_review": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-83",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S83_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3d5e9c140646fcc93d0d404491b9a42a21942c7f",
+      "cited_locator": "2.83.12",
+      "brief_new_english_paraphrase": "The verse begins an inventory of artisans and craftspeople accompanying the expedition.",
+      "classification": "OCCUPATIONAL_LIST_NOT_EXPLICIT_DHARMA",
+      "editorial_rationale": "An enumeration of professions is not a source-stated duty instruction; broader significance would require an explicitly marked editorial interpretation.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga83/ayodhyaroman83.htm",
+        "verse_locator": "2.83.12",
+        "retrieval_method": "READABLE_PUBLIC_FULL_CHAPTER_WITH_VERSE_TRANSLITERATION",
+        "edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "verse_topic_verified_in_online_witness": true,
+        "source_registry_binding_verified": false,
+        "independent_english_review": false,
+        "independent_tamil_review": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "source_edition_and_rights_verified": false,
+    "source_registry_reconciled": false,
+    "human_english_editor_approved": false,
+    "human_tamil_editor_approved": false
+  },
+  "limitations": [
+    "Only six individual records are examined; the other 48 associated records still lack verse-level adjudication.",
+    "Ethical appeal at 2.82.12 is not the same as an approved universal moral lesson. Attribution and context remain required.",
+    "Verbal address at 2.82.6 is not an exchange of views, even though an existing record calls it dialogue.",
+    "Neither historical source files nor canon nor production systems were changed.",
+    "Digital witness is not proven to match the chosen authoritative edition; publication rights and independent review remain outstanding."
+  ]
+}

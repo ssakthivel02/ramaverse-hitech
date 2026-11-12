@@ -1,0 +1,185 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      80,
+      81
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 30,
+    "total_adjudicated": 36,
+    "associated_records_outstanding": 54
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-80",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S80_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6132e716efb917774773bcf8c6b11c5abd613fbe",
+      "cited_locator": "2.80.2",
+      "provisional_original_english_paraphrase": "The verse continues a list of engineers, tool specialists, laborers and other workers sent ahead to prepare the route.",
+      "classification": "DESCRIPTIVE_WORKER_LIST_NOT_STANDALONE_EVENT",
+      "editorial_rationale": "This is a portion of a multi-verse enumeration (2.80.1–3); source-specific naming requires contextual verse range rather than a purported single event.",
+      "witness": {
+        "url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga80/ayodhyaroman80.htm",
+        "locator": "2.80.2",
+        "retrieval_method": "SEARCH_INDEXED_VERSE_EXCERPTS_AND_INDEPENDENT_CHAPTER_SUMMARY",
+        "critical_edition_verified": false,
+        "rights_verified": false
+      },
+      "review": {
+        "source_topic_checked_against_accessible_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-80",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S80_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6132e716efb917774773bcf8c6b11c5abd613fbe",
+      "cited_locator": "2.80.6",
+      "provisional_original_english_paraphrase": "Workers clear creepers, shrubs, stumps, stones and trees to form the road.",
+      "classification": "NARRATION_NOT_DIRECT_SPEECH",
+      "editorial_rationale": "No conversation or counsel in cited verse, only road-building actions.",
+      "witness": {
+        "url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga80/ayodhyaroman80.htm",
+        "locator": "2.80.6",
+        "retrieval_method": "SEARCH_INDEXED_VERSE_EXCERPTS_AND_INDEPENDENT_CHAPTER_SUMMARY",
+        "critical_edition_verified": false,
+        "rights_verified": false
+      },
+      "review": {
+        "source_topic_checked_against_accessible_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-80",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S80_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6132e716efb917774773bcf8c6b11c5abd613fbe",
+      "cited_locator": "2.80.12",
+      "provisional_original_english_paraphrase": "In areas lacking water, workers dig wells and provide surrounding platforms.",
+      "classification": "PRACTICAL_PUBLIC_WORK_NOT_EXPLICIT_MORAL_RULE",
+      "editorial_rationale": "Provision of water may be interpreted as care for travelers, but the verse records engineering activity, not an explicit universal dharma lesson.",
+      "witness": {
+        "url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga80/ayodhyaroman80.htm",
+        "locator": "2.80.12",
+        "retrieval_method": "SEARCH_INDEXED_VERSE_EXCERPTS_AND_INDEPENDENT_CHAPTER_SUMMARY",
+        "critical_edition_verified": false,
+        "rights_verified": false
+      },
+      "review": {
+        "source_topic_checked_against_accessible_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-81",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S81_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3437cdbcb40b0dbcc9a1f2c9401c430147fbdd04",
+      "cited_locator": "2.81.2",
+      "provisional_original_english_paraphrase": "Drums, conches and other instruments sound as ceremonial praise of Bharata begins.",
+      "classification": "NARRATIVE_EVENT_PRESENT_BUT_UNSPECIFIC",
+      "editorial_rationale": "A concrete ceremonial action occurs; the imported summary does not describe participants or effect on Bharata's grief.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga81/ayodhyaroman81.htm",
+        "locator": "2.81.2",
+        "retrieval_method": "READABLE_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "rights_verified": false
+      },
+      "review": {
+        "source_topic_checked_against_accessible_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-81",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S81_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3437cdbcb40b0dbcc9a1f2c9401c430147fbdd04",
+      "cited_locator": "2.81.6",
+      "provisional_original_english_paraphrase": "Bharata describes the kingdom after the loss of Dasharatha as like a rudderless boat.",
+      "classification": "SPEECH_PRESENT_SPEAKER_AND_CONTEXT_OMITTED",
+      "editorial_rationale": "A direct statement from Bharata to Shatrughna within his lament; not an unqualified general discourse.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga81/ayodhyaroman81.htm",
+        "locator": "2.81.6",
+        "retrieval_method": "READABLE_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "rights_verified": false
+      },
+      "review": {
+        "source_topic_checked_against_accessible_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-81",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S81_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3437cdbcb40b0dbcc9a1f2c9401c430147fbdd04",
+      "cited_locator": "2.81.12",
+      "provisional_original_english_paraphrase": "Vasistha orders messengers to summon ministers and other people for an urgent matter.",
+      "classification": "COMMAND_PRESENT_NOT_GENERAL_DHARMA_TEACHING",
+      "editorial_rationale": "The verse mentions urgent duty in a particular administrative context, not a standalone general moral injunction.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga81/ayodhyaroman81.htm",
+        "locator": "2.81.12",
+        "retrieval_method": "READABLE_FULL_CHAPTER",
+        "critical_edition_verified": false,
+        "rights_verified": false
+      },
+      "review": {
+        "source_topic_checked_against_accessible_witness": true,
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "critical_edition_and_rights_approved": false,
+    "independent_editorial_signoff": false,
+    "production_authorized": false
+  },
+  "limitations": [
+    "Only 6 records reviewed; 54 other associated records lack individual verse adjudication.",
+    "S80 source evidence includes indexed verse excerpts with chapter-summary corroboration because direct full-page retrieval was unreliable; S81 verse rendering was directly readable.",
+    "S80.2 is part of a compound multi-verse list, so standalone verse semantics may be incomplete.",
+    "Genuine speech or duty-related words do not automatically authorize dialogue or moral-teaching labels for educational publishing.",
+    "This file holds review hypotheses only; neither original data nor canonical edition, source registry, Reader or release state is changed."
+  ]
+}

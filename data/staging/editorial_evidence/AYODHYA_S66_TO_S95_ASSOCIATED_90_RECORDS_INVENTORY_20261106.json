@@ -1,0 +1,578 @@
+{
+  "schema_version": "noncanonical_associated_records_inventory_v1",
+  "project": "RamaVerse HI-TECH",
+  "observed_date_utc": "2026-11-06",
+  "reference_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "READ_ONLY_PHYSICAL_PATTERN_INVENTORY_NOT_CONTENT_CERTIFICATION",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": "66–95",
+    "sarga_count": 30,
+    "source_files": 30,
+    "associated_records": 90,
+    "record_categories": {
+      "EVENT": 30,
+      "DIALOGUE": 30,
+      "DHARMA_LESSON": 30
+    },
+    "sarga_summaries_excluded": 30
+  },
+  "verified_patterns": {
+    "english_template_count": 3,
+    "tamil_template_count": 3,
+    "templates": [
+      {
+        "record_type": "EVENT",
+        "id_pattern": "RV-STG-AYODHYA-EV-{sarga}",
+        "english_template": "Narrative event sequence in Ayodhya Kanda Sarga {sarga}.",
+        "tamil_template": "நிகழ்வு குறிப்பு: சர்க்கம் {sarga}.",
+        "identical_reported_confidence_per_type": 0.97,
+        "observed_count": 30
+      },
+      {
+        "record_type": "DIALOGUE",
+        "id_pattern": "RV-STG-AYODHYA-DL-{sarga}",
+        "english_template": "Counsel and dialogue recorded in Ayodhya Kanda Sarga {sarga}.",
+        "tamil_template": "உரையாடல் குறிப்பு: சர்க்கம் {sarga}.",
+        "identical_reported_confidence_per_type": 0.96,
+        "observed_count": 30
+      },
+      {
+        "record_type": "DHARMA_LESSON",
+        "id_pattern": "RV-STG-AYODHYA-DH-{sarga}",
+        "english_template": "Dharma and duty instruction exemplified in Sarga {sarga}.",
+        "tamil_template": "தர்ம பாடம்: சர்க்கம் {sarga}.",
+        "identical_reported_confidence_per_type": 0.95,
+        "observed_count": 30
+      }
+    ],
+    "sourceIds": [
+      "VALMIKI_RAMAYANA_AYODHYA_KANDA"
+    ],
+    "source_id_to_edition_registry": "UNRESOLVED_IN_PREVIOUS_REVIEW",
+    "shared_flags": {
+      "reviewState": "MACHINE_DRAFT_NEEDS_REVIEW",
+      "mergeState": "QUARANTINED_UNRECONCILED",
+      "publicationState": "UNPUBLISHED_STAGING"
+    },
+    "locator_offsets_by_decade": {
+      "66-75": [
+        1,
+        5,
+        10
+      ],
+      "76-85": [
+        2,
+        6,
+        12
+      ],
+      "86-95": [
+        3,
+        7,
+        15
+      ]
+    },
+    "confidence_warning": "Fixed per-category 0.97/0.96/0.95 numbers do not substantiate source-level certainty; retain original metrics for provenance without presenting them as independently calibrated confidence."
+  },
+  "per_sarga": [
+    {
+      "sarga": 66,
+      "original_file": "data/staging/post_v1/AYODHYA_S66_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "21346fc8411f425fba37763dbbac866fd89c5884",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-66",
+        "RV-STG-AYODHYA-DL-66",
+        "RV-STG-AYODHYA-DH-66"
+      ],
+      "verse_locators": [
+        "2.66.1",
+        "2.66.5",
+        "2.66.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 67,
+      "original_file": "data/staging/post_v1/AYODHYA_S67_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "64c5d55f4205b866023c7bd5cf9ca84bb7e80640",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-67",
+        "RV-STG-AYODHYA-DL-67",
+        "RV-STG-AYODHYA-DH-67"
+      ],
+      "verse_locators": [
+        "2.67.1",
+        "2.67.5",
+        "2.67.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 68,
+      "original_file": "data/staging/post_v1/AYODHYA_S68_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "ce6ef200d766ba575a14e2215c0e48186c879ff1",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-68",
+        "RV-STG-AYODHYA-DL-68",
+        "RV-STG-AYODHYA-DH-68"
+      ],
+      "verse_locators": [
+        "2.68.1",
+        "2.68.5",
+        "2.68.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 69,
+      "original_file": "data/staging/post_v1/AYODHYA_S69_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6ae41426eecb0a27011f37ce7aa73a31abf0965b",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-69",
+        "RV-STG-AYODHYA-DL-69",
+        "RV-STG-AYODHYA-DH-69"
+      ],
+      "verse_locators": [
+        "2.69.1",
+        "2.69.5",
+        "2.69.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 70,
+      "original_file": "data/staging/post_v1/AYODHYA_S70_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "1a620547a6a99e3e951ea9ce551b712c4d823a6d",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-70",
+        "RV-STG-AYODHYA-DL-70",
+        "RV-STG-AYODHYA-DH-70"
+      ],
+      "verse_locators": [
+        "2.70.1",
+        "2.70.5",
+        "2.70.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 71,
+      "original_file": "data/staging/post_v1/AYODHYA_S71_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6fd318013a4656207e12ff18a779719a8995fbf5",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-71",
+        "RV-STG-AYODHYA-DL-71",
+        "RV-STG-AYODHYA-DH-71"
+      ],
+      "verse_locators": [
+        "2.71.1",
+        "2.71.5",
+        "2.71.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 72,
+      "original_file": "data/staging/post_v1/AYODHYA_S72_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "5e9451bb5df7a9aefcf10a276989dce99bf552d4",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-72",
+        "RV-STG-AYODHYA-DL-72",
+        "RV-STG-AYODHYA-DH-72"
+      ],
+      "verse_locators": [
+        "2.72.1",
+        "2.72.5",
+        "2.72.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 73,
+      "original_file": "data/staging/post_v1/AYODHYA_S73_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fb3d9a3e865f3fb1b8836260bb7dcc2ec6708e06",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-73",
+        "RV-STG-AYODHYA-DL-73",
+        "RV-STG-AYODHYA-DH-73"
+      ],
+      "verse_locators": [
+        "2.73.1",
+        "2.73.5",
+        "2.73.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 74,
+      "original_file": "data/staging/post_v1/AYODHYA_S74_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "dfb5f41483717eccab4de0ab91b0272768914908",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-74",
+        "RV-STG-AYODHYA-DL-74",
+        "RV-STG-AYODHYA-DH-74"
+      ],
+      "verse_locators": [
+        "2.74.1",
+        "2.74.5",
+        "2.74.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 75,
+      "original_file": "data/staging/post_v1/AYODHYA_S75_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "4b6e4a7fb91adb90f079cd98b7ad3b30886b8d32",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-75",
+        "RV-STG-AYODHYA-DL-75",
+        "RV-STG-AYODHYA-DH-75"
+      ],
+      "verse_locators": [
+        "2.75.1",
+        "2.75.5",
+        "2.75.10"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 76,
+      "original_file": "data/staging/post_v1/AYODHYA_S76_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b4f301ac996c9ab20e9c81d3be4c38a6e1b89382",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-76",
+        "RV-STG-AYODHYA-DL-76",
+        "RV-STG-AYODHYA-DH-76"
+      ],
+      "verse_locators": [
+        "2.76.2",
+        "2.76.6",
+        "2.76.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 77,
+      "original_file": "data/staging/post_v1/AYODHYA_S77_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7b361561bd9c109b398ac7a31245cf784ee7d4b7",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-77",
+        "RV-STG-AYODHYA-DL-77",
+        "RV-STG-AYODHYA-DH-77"
+      ],
+      "verse_locators": [
+        "2.77.2",
+        "2.77.6",
+        "2.77.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 78,
+      "original_file": "data/staging/post_v1/AYODHYA_S78_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "709ad47b9aba4fbcdb910d4f138f9399b990088c",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-78",
+        "RV-STG-AYODHYA-DL-78",
+        "RV-STG-AYODHYA-DH-78"
+      ],
+      "verse_locators": [
+        "2.78.2",
+        "2.78.6",
+        "2.78.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 79,
+      "original_file": "data/staging/post_v1/AYODHYA_S79_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3f7544073a5627d85e25318b5bc5d4abf0387255",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-79",
+        "RV-STG-AYODHYA-DL-79",
+        "RV-STG-AYODHYA-DH-79"
+      ],
+      "verse_locators": [
+        "2.79.2",
+        "2.79.6",
+        "2.79.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 80,
+      "original_file": "data/staging/post_v1/AYODHYA_S80_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "6132e716efb917774773bcf8c6b11c5abd613fbe",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-80",
+        "RV-STG-AYODHYA-DL-80",
+        "RV-STG-AYODHYA-DH-80"
+      ],
+      "verse_locators": [
+        "2.80.2",
+        "2.80.6",
+        "2.80.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 81,
+      "original_file": "data/staging/post_v1/AYODHYA_S81_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3437cdbcb40b0dbcc9a1f2c9401c430147fbdd04",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-81",
+        "RV-STG-AYODHYA-DL-81",
+        "RV-STG-AYODHYA-DH-81"
+      ],
+      "verse_locators": [
+        "2.81.2",
+        "2.81.6",
+        "2.81.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 82,
+      "original_file": "data/staging/post_v1/AYODHYA_S82_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "e5445d29eaafa98e4b24829d150d26e52677d583",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-82",
+        "RV-STG-AYODHYA-DL-82",
+        "RV-STG-AYODHYA-DH-82"
+      ],
+      "verse_locators": [
+        "2.82.2",
+        "2.82.6",
+        "2.82.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 83,
+      "original_file": "data/staging/post_v1/AYODHYA_S83_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "3d5e9c140646fcc93d0d404491b9a42a21942c7f",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-83",
+        "RV-STG-AYODHYA-DL-83",
+        "RV-STG-AYODHYA-DH-83"
+      ],
+      "verse_locators": [
+        "2.83.2",
+        "2.83.6",
+        "2.83.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 84,
+      "original_file": "data/staging/post_v1/AYODHYA_S84_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "d6b36ffbf85427c11518952cced773b0e5f42b8c",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-84",
+        "RV-STG-AYODHYA-DL-84",
+        "RV-STG-AYODHYA-DH-84"
+      ],
+      "verse_locators": [
+        "2.84.2",
+        "2.84.6",
+        "2.84.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 85,
+      "original_file": "data/staging/post_v1/AYODHYA_S85_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "89989fb13a87f8e4bbc4505cde009d2520db4148",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-85",
+        "RV-STG-AYODHYA-DL-85",
+        "RV-STG-AYODHYA-DH-85"
+      ],
+      "verse_locators": [
+        "2.85.2",
+        "2.85.6",
+        "2.85.12"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 86,
+      "original_file": "data/staging/post_v1/AYODHYA_S86_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "befa2848411e8c2159817baa3137309e6680120b",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-86",
+        "RV-STG-AYODHYA-DL-86",
+        "RV-STG-AYODHYA-DH-86"
+      ],
+      "verse_locators": [
+        "2.86.3",
+        "2.86.7",
+        "2.86.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 87,
+      "original_file": "data/staging/post_v1/AYODHYA_S87_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "70ecfd0b36461c0fdade754fca94a412b3c06b36",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-87",
+        "RV-STG-AYODHYA-DL-87",
+        "RV-STG-AYODHYA-DH-87"
+      ],
+      "verse_locators": [
+        "2.87.3",
+        "2.87.7",
+        "2.87.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 88,
+      "original_file": "data/staging/post_v1/AYODHYA_S88_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "7983649faba9c1fd35bd020eb535c195f63d38b4",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-88",
+        "RV-STG-AYODHYA-DL-88",
+        "RV-STG-AYODHYA-DH-88"
+      ],
+      "verse_locators": [
+        "2.88.3",
+        "2.88.7",
+        "2.88.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 89,
+      "original_file": "data/staging/post_v1/AYODHYA_S89_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fd85ff3f2a6569c3d94ecf781ff248363bf6f389",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-89",
+        "RV-STG-AYODHYA-DL-89",
+        "RV-STG-AYODHYA-DH-89"
+      ],
+      "verse_locators": [
+        "2.89.3",
+        "2.89.7",
+        "2.89.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 90,
+      "original_file": "data/staging/post_v1/AYODHYA_S90_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "964f4ca9f1ae40d83f82d4660cb467580e73e73f",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-90",
+        "RV-STG-AYODHYA-DL-90",
+        "RV-STG-AYODHYA-DH-90"
+      ],
+      "verse_locators": [
+        "2.90.3",
+        "2.90.7",
+        "2.90.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 91,
+      "original_file": "data/staging/post_v1/AYODHYA_S91_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "a4319423bd72314f70a4d1379938a57dac8177b9",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-91",
+        "RV-STG-AYODHYA-DL-91",
+        "RV-STG-AYODHYA-DH-91"
+      ],
+      "verse_locators": [
+        "2.91.3",
+        "2.91.7",
+        "2.91.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 92,
+      "original_file": "data/staging/post_v1/AYODHYA_S92_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "1d4a21f7c7e42b48fb4e65b6f633590ae90809d3",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-92",
+        "RV-STG-AYODHYA-DL-92",
+        "RV-STG-AYODHYA-DH-92"
+      ],
+      "verse_locators": [
+        "2.92.3",
+        "2.92.7",
+        "2.92.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 93,
+      "original_file": "data/staging/post_v1/AYODHYA_S93_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "8e843fcf722a74f7641f9e8b44af1befd73ab8c9",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-93",
+        "RV-STG-AYODHYA-DL-93",
+        "RV-STG-AYODHYA-DH-93"
+      ],
+      "verse_locators": [
+        "2.93.3",
+        "2.93.7",
+        "2.93.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 94,
+      "original_file": "data/staging/post_v1/AYODHYA_S94_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b595562a939e3ac2e384e0cd3825211c9d7e8c6b",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-94",
+        "RV-STG-AYODHYA-DL-94",
+        "RV-STG-AYODHYA-DH-94"
+      ],
+      "verse_locators": [
+        "2.94.3",
+        "2.94.7",
+        "2.94.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    },
+    {
+      "sarga": 95,
+      "original_file": "data/staging/post_v1/AYODHYA_S95_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "8ef79e780411957866417460999dd67dfab53664",
+      "record_ids": [
+        "RV-STG-AYODHYA-EV-95",
+        "RV-STG-AYODHYA-DL-95",
+        "RV-STG-AYODHYA-DH-95"
+      ],
+      "verse_locators": [
+        "2.95.3",
+        "2.95.7",
+        "2.95.15"
+      ],
+      "review_decision": "HOLD_FOR_CHAPTER_AND_VERSE_SPECIFIC_EDITORIAL_REVIEW"
+    }
+  ],
+  "required_review": [
+    "Verify each of 90 record types really applies to the cited verse in a defined source edition; do not assume dialogue or dharma at chosen numeric offsets.",
+    "Replace generic episode/dharma descriptions only in separately versioned review candidates with valid source citations and editorial provenance.",
+    "Reconcile exact source IDs with source registry and recorded edition and rights before use.",
+    "Request independent English and Tamil editorial sign-off; never auto-promote from a physical-pattern inventory."
+  ],
+  "limitations": [
+    "This is an exhaustive structural/text-template comparison of all 90 associated records, not verse-by-verse textual adjudication.",
+    "No individual event/dialogue/dharma assertion is certified accurate or demonstrably false solely from template repetition.",
+    "Original content, historical records, registry, check-point and continuation authority have not been modified."
+  ],
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "read_only_source_files": true,
+    "human_editorial_approval": "PENDING",
+    "source_edition_and_rights_review": "PENDING",
+    "production_release_allowed": false
+  }
+}

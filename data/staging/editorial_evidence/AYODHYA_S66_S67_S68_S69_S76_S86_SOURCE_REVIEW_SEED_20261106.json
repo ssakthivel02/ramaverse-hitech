@@ -1,0 +1,263 @@
+{
+  "schema_version": "editorial_source_review_seed_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NON_CANONICAL_EDITORIAL_EVIDENCE_ONLY",
+  "scope": {
+    "kanda": "Ayodhya",
+    "sample_sargas": [
+      66,
+      67,
+      68,
+      69,
+      76,
+      86
+    ],
+    "physical_sarga66_to95_records_held": 120,
+    "full_sample_verified": false
+  },
+  "rights": "Only new, short independent English paraphrases are stored. No Sanskrit verse or third-party translation reproduced. Edition authority and redistribution rights remain unverified.",
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "acquisition_cursor_changed": false,
+    "source_id_mapping_authorized": false,
+    "human_english_review": "PENDING",
+    "human_tamil_review": "PENDING",
+    "cross_edition_reconciliation": "PENDING",
+    "merge_state": "AWAITING_INDEPENDENT_EDITORIAL_REVIEW",
+    "historical_files_mutated": false
+  },
+  "entries": [
+    {
+      "review_id": "ayodhya-s66-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S66_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S66",
+      "original_record_field": "englishExplanation",
+      "finding": "IMPORTED_SUMMARY_MISALIGNED_WITH_CHAPTER",
+      "imported_summary_problem": "Imported narrative describes Rama, Lakshmana and Sita continuing their forest journey, not the chapter's court and mourning events.",
+      "source_backed_episode_paraphrase_provisional": "Kausalya mourns Dasharatha; attendants and ministers arrange preservation of the king's body.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 66,
+        "verse_locators": [
+          "2.66.1–3",
+          "2.66.14–15"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaroman66.htm",
+        "type": "DIGITAL_TEXT_RENDERING_NOT_CRITICAL_EDITION",
+        "independent_edition_comparison": "NOT_COMPLETED",
+        "rights_verified": false
+      },
+      "review": {
+        "semantic_match": "FLAGGED_MISMATCH",
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "SEARCH_INDEXED_EXCERPT",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Indexed chapter introduction/verses establish Kausalya's mourning and preserved body; full page retrieval failed. Additional 14–15 locators not independently rechecked.",
+        "verified_online_locators": [
+          "2.66.1–3"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaitrans66.htm",
+        "full_edition_comparison": "NOT_DONE"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s67-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S67_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S67",
+      "original_record_field": "englishExplanation",
+      "finding": "IMPORTED_SUMMARY_MISALIGNED_WITH_CHAPTER",
+      "imported_summary_problem": "Imported narrative repeats forest travel, civic grief and river crossings; it misses the kingless-state council.",
+      "source_backed_episode_paraphrase_provisional": "After the night of mourning, ministers and learned advisers consult Vasistha about the danger of a kingdom without a ruler.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 67,
+        "verse_locators": [
+          "2.67.1–4",
+          "2.67.38"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga67/ayodhyaroman67.htm",
+        "type": "DIGITAL_TEXT_RENDERING_NOT_CRITICAL_EDITION",
+        "independent_edition_comparison": "NOT_COMPLETED",
+        "rights_verified": false
+      },
+      "review": {
+        "semantic_match": "FLAGGED_MISMATCH",
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "SEARCH_INDEXED_EXCERPT",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Indexed chapter verse excerpts independently establish discourse on rulerless territory; full page fetch failed, and verse 38 remains unchecked.",
+        "verified_online_locators": [
+          "2.67.10–16"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga67/ayodhyaroman67.htm",
+        "full_edition_comparison": "NOT_DONE"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s68-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S68_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S68",
+      "original_record_field": "englishExplanation",
+      "finding": "IMPORTED_SUMMARY_MISALIGNED_WITH_CHAPTER",
+      "imported_summary_problem": "Imported narrative repeats Rama's forest journey although this chapter concerns messengers sent to Bharata.",
+      "source_backed_episode_paraphrase_provisional": "Vasistha directs messengers to recall Bharata and Shatrughna from their maternal relatives; the messengers travel toward Girivraja.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 68,
+        "verse_locators": [
+          "2.68.1–3"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga68/ayodhyaroman68.htm",
+        "type": "DIGITAL_TEXT_RENDERING_NOT_CRITICAL_EDITION",
+        "independent_edition_comparison": "NOT_COMPLETED",
+        "rights_verified": false
+      },
+      "review": {
+        "semantic_match": "FLAGGED_MISMATCH",
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "FULL_PAGE_READ",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Readable chapter page directly supports Vasistha sending messengers to Bharata and Shatrughna.",
+        "verified_online_locators": [
+          "2.68.1–3"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga68/ayodhyaroman68.htm",
+        "full_edition_comparison": "NOT_DONE"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s69-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S69_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S69",
+      "original_record_field": "englishExplanation",
+      "finding": "IMPORTED_SUMMARY_MISALIGNED_WITH_CHAPTER",
+      "imported_summary_problem": "Imported narrative repeats the journey of Rama, Lakshmana and Sita rather than Bharata's troubling dream.",
+      "source_backed_episode_paraphrase_provisional": "While messengers reach Girivraja, Bharata recounts an ominous dream to companions who attempt to console him.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 69,
+        "verse_locators": [
+          "2.69.1–3"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaroman69.htm",
+        "type": "DIGITAL_TEXT_RENDERING_NOT_CRITICAL_EDITION",
+        "independent_edition_comparison": "NOT_COMPLETED",
+        "rights_verified": false
+      },
+      "review": {
+        "semantic_match": "FLAGGED_MISMATCH",
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "SEARCH_INDEXED_EXCERPT",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Indexed chapter introduction and first three verses support Bharata's dream; direct full-page fetch failed.",
+        "verified_online_locators": [
+          "2.69.1–3"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaroman69.htm",
+        "full_edition_comparison": "NOT_DONE"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s76-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S76_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S76",
+      "original_record_field": "englishExplanation",
+      "finding": "IMPORTED_SUMMARY_MISALIGNED_WITH_CHAPTER",
+      "imported_summary_problem": "Imported narrative references sacred-forest encounters and hermitages rather than the royal funeral.",
+      "source_backed_episode_paraphrase_provisional": "Vasistha urges Bharata to complete Dasharatha's funeral rites; Bharata arranges the ceremonies and the king's body is brought out from preservation.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 76,
+        "verse_locators": [
+          "2.76.1–4",
+          "2.76.10–12"
+        ],
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga76/ayodhyaroman76.htm",
+        "type": "DIGITAL_TEXT_RENDERING_NOT_CRITICAL_EDITION",
+        "independent_edition_comparison": "NOT_COMPLETED",
+        "rights_verified": false
+      },
+      "review": {
+        "semantic_match": "FLAGGED_MISMATCH",
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "FULL_PAGE_READ",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Readable verse-level chapter directly supports Bharata arranging Dasharatha's last rites and Vasistha's counsel.",
+        "verified_online_locators": [
+          "2.76.1–5",
+          "2.76.10–12"
+        ],
+        "verified_witness_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga76/ayodhyaroman76.htm",
+        "full_edition_comparison": "NOT_DONE"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "review_id": "ayodhya-s86-content-integrity-20261106",
+      "original_file": "data/staging/post_v1/AYODHYA_S86_SOURCE_BACKED_RECORDS.json",
+      "original_record_id": "RV-STG-AYODHYA-S86",
+      "original_record_field": "englishExplanation",
+      "finding": "IMPORTED_SUMMARY_MISALIGNED_WITH_CHAPTER",
+      "imported_summary_problem": "Imported narrative gives generic Chitrakoot stay, sages and Bharata's approach, missing Guha's particular report.",
+      "source_backed_episode_paraphrase_provisional": "Guha recounts to Bharata the earlier night near Shringaverapura, including Lakshmana's watchful protection of Rama.",
+      "witness": {
+        "work": "Valmiki Ramayana",
+        "kanda": "Ayodhya Kanda",
+        "sarga": 86,
+        "verse_locators": [
+          "2.86.1–3"
+        ],
+        "url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga86/ayodhyaitrans86.htm",
+        "type": "DIGITAL_TEXT_RENDERING_NOT_CRITICAL_EDITION",
+        "independent_edition_comparison": "NOT_COMPLETED",
+        "rights_verified": false
+      },
+      "review": {
+        "semantic_match": "FLAGGED_MISMATCH",
+        "english_editor_approved": false,
+        "tamil_editor_approved": false,
+        "promotion_decision": "HOLD",
+        "witness_retrieval_status": "FULL_PAGE_READ",
+        "witness_textual_verification": "TOPIC_SUPPORTED_EDITORIAL_APPROVAL_PENDING",
+        "verification_method_note": "Readable verse-level chapter directly supports Guha recounting his conversation with Lakshmana.",
+        "verified_online_locators": [
+          "2.86.1–3"
+        ],
+        "verified_witness_url": "https://www.sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga86/ayodhyaitrans86.htm",
+        "full_edition_comparison": "NOT_DONE"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "limitations": [
+    "Six sampled SARGA records only: remaining 24 SARGA summary records and all 90 related event/dialogue/dharma records not individually checked in this evidence packet.",
+    "Digital online witness may differ by recension or verse numbering; any per-verse editorial decision requires edition-based review.",
+    "These proposed paraphrases are review hypotheses, not accepted corrections or license-cleared publication text.",
+    "Do not replace, amend, merge, or expose the original staging corpus on the basis of this packet.",
+    "Source accessibility was verified unevenly on 2026-11-06: S68/S76/S86 rendered readable chapter pages; S66/S67/S69 relied on searchable indexed chapter excerpts after full-page retrieval failed. The method and exact locators are stored per entry.",
+    "TOPIC_SUPPORTED means only chapter-level episode alignment with sampled witness text; it is not full-verse collation, edition approval, source-ID registry reconciliation, Tamil review, or permission to publish."
+  ],
+  "next_action": "Independent editor verifies each cited verse against an approved edition, adjudicates content and rights, commissions Tamil review, and creates a separately versioned candidate only after approval."
+}

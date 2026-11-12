@@ -1,0 +1,186 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-06",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      73,
+      74
+    ],
+    "records_reviewed": 6,
+    "previously_adjudicated_records": 12,
+    "total_adjudicated_after_batch": 18,
+    "associated_records_outstanding": 72
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-73",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S73_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fb3d9a3e865f3fb1b8836260bb7dcc2ec6708e06",
+      "cited_locator": "2.73.1",
+      "provisional_english_verse_paraphrase": "Bharata, after hearing that his father has died and his brothers have been exiled, speaks in grief.",
+      "classification": "NARRATED_EVENT_PRESENT_GENERIC_DESCRIPTION",
+      "editorial_rationale": "The verse provides a concrete speaker and trigger; generic event boilerplate is not a useful episode record.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga73/ayodhyaroman73.htm",
+        "reading_type": "PUBLIC_DIGITAL_FULL_CHAPTER",
+        "verse_locator": "2.73.1",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "topic_compared_against_witness": true,
+        "approved_source_registry_binding": false,
+        "human_english_signoff": false,
+        "human_tamil_signoff": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-73",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S73_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fb3d9a3e865f3fb1b8836260bb7dcc2ec6708e06",
+      "cited_locator": "2.73.5",
+      "provisional_english_verse_paraphrase": "Bharata directly accuses Kaikeyi of bringing ruin and grief upon the family.",
+      "classification": "DIRECT_SPEECH_PRESENT_NOT_INTERLOCUTOR_EXCHANGE",
+      "editorial_rationale": "Bharata's continued rebuke is direct speech, not evidence of a two-party dialogue or counsel.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga73/ayodhyaroman73.htm",
+        "reading_type": "PUBLIC_DIGITAL_FULL_CHAPTER",
+        "verse_locator": "2.73.5",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "topic_compared_against_witness": true,
+        "approved_source_registry_binding": false,
+        "human_english_signoff": false,
+        "human_tamil_signoff": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-73",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S73_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "fb3d9a3e865f3fb1b8836260bb7dcc2ec6708e06",
+      "cited_locator": "2.73.10",
+      "provisional_english_verse_paraphrase": "Bharata says Kausalya treated Kaikeyi as a sister while acting in accordance with dharma.",
+      "classification": "DHARMA_CONCEPT_MENTIONED_NO_EXPLICIT_TEACHING",
+      "editorial_rationale": "A moral example in a character's speech is present; an independently framed lesson requires human interpretation.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga73/ayodhyaroman73.htm",
+        "reading_type": "PUBLIC_DIGITAL_FULL_CHAPTER",
+        "verse_locator": "2.73.10",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "topic_compared_against_witness": true,
+        "approved_source_registry_binding": false,
+        "human_english_signoff": false,
+        "human_tamil_signoff": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-74",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S74_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "dfb5f41483717eccab4de0ab91b0272768914908",
+      "cited_locator": "2.74.1",
+      "provisional_english_verse_paraphrase": "Bharata, still intensely angry, resumes his reproaches of Kaikeyi.",
+      "classification": "NARRATED_EVENT_PRESENT_GENERIC_DESCRIPTION",
+      "editorial_rationale": "Narration identifies the speaker, emotion and action absent from the generic imported summary.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga74/ayodhyaroman74.htm",
+        "reading_type": "PUBLIC_DIGITAL_FULL_CHAPTER",
+        "verse_locator": "2.74.1",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "topic_compared_against_witness": true,
+        "approved_source_registry_binding": false,
+        "human_english_signoff": false,
+        "human_tamil_signoff": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-74",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S74_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "dfb5f41483717eccab4de0ab91b0272768914908",
+      "cited_locator": "2.74.5",
+      "provisional_english_verse_paraphrase": "Bharata reproaches Kaikeyi for her actions and says she has brought distress upon him.",
+      "classification": "DIRECT_SPEECH_PRESENT_NOT_INTERLOCUTOR_EXCHANGE",
+      "editorial_rationale": "A single speaker's accusation, not an exchange of advice between speakers.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga74/ayodhyaroman74.htm",
+        "reading_type": "PUBLIC_DIGITAL_FULL_CHAPTER",
+        "verse_locator": "2.74.5",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "topic_compared_against_witness": true,
+        "approved_source_registry_binding": false,
+        "human_english_signoff": false,
+        "human_tamil_signoff": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-74",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S74_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "dfb5f41483717eccab4de0ab91b0272768914908",
+      "cited_locator": "2.74.10",
+      "provisional_english_verse_paraphrase": "Bharata condemns Kaikeyi by contrasting Rama's truthfulness and righteousness with her conduct.",
+      "classification": "DHARMA_CONCEPT_MENTIONED_NO_EXPLICIT_TEACHING",
+      "editorial_rationale": "The passage contains a value judgment in Bharata's rebuke; a generalized educational lesson is interpretive rather than explicit.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga74/ayodhyaroman74.htm",
+        "reading_type": "PUBLIC_DIGITAL_FULL_CHAPTER",
+        "verse_locator": "2.74.10",
+        "critical_edition_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "topic_compared_against_witness": true,
+        "approved_source_registry_binding": false,
+        "human_english_signoff": false,
+        "human_tamil_signoff": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "historical_files_mutated": false,
+    "rights_and_edition_approved": false,
+    "editorial_english_approved": false,
+    "editorial_tamil_approved": false,
+    "source_registry_reconciled": false
+  },
+  "limitations": [
+    "Only six verse references were examined; not a chapter-by-chapter approval of 72 other associated records.",
+    "A monologue is speech but not a dialogue exchange; distinguish text genres from source-grounded educational classifications.",
+    "A speech referring to dharma is not automatically an explicit general teaching; add interpretive and non-guarantee framing if later approved.",
+    "Source rendering does not establish rights or a critical edition; do not promote into canonical or Reader data.",
+    "No copyrighted verse text or third-party translation reproduced; paraphrases are brief and provisional."
+  ]
+}
