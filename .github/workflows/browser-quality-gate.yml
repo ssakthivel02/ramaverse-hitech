@@ -11,7 +11,9 @@ permissions:
 
 jobs:
   browser-validate:
-    runs-on: ubuntu-latest
+    # Playwright 1.55.0 Chromium dependencies are not supported on Ubuntu 26.04.
+    # Keep browser-validation runner on a supported image until tooling is upgraded.
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - name: Checkout
