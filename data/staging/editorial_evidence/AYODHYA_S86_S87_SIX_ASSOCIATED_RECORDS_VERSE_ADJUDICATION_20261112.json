@@ -1,0 +1,179 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      86,
+      87
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 48,
+    "total_adjudicated": 54,
+    "remaining": 36
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-86",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S86_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "befa2848411e8c2159817baa3137309e6680120b",
+      "cited_locator": "2.86.3",
+      "original_brief_english_paraphrase_for_review": "Guha offers Lakshmana a prepared, comfortable bed and urges him to rest.",
+      "classification": "SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "The verse is Guha's spoken offer, not an independently narrated event; label omits speaker and addressee.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga86/ayodhyaroman86.htm",
+        "verse_locator": "2.86.3",
+        "retrieval_method": "INDEXED_PUBLIC_VERSE_EXCERPTS_CORROBORATED_BY_IITK_VERSE_INDEX",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-86",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S86_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "befa2848411e8c2159817baa3137309e6680120b",
+      "cited_locator": "2.86.7",
+      "original_brief_english_paraphrase_for_review": "Guha pledges to guard his friend Rama and Sita with bow in hand, supported by his relatives.",
+      "classification": "DIRECT_SPEECH_PRESENT_CONTEXT_OMITTED",
+      "editorial_rationale": "A genuine undertaking in Guha's speech; not an interchangeable counsel dialogue.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga86/ayodhyaroman86.htm",
+        "verse_locator": "2.86.7",
+        "retrieval_method": "INDEXED_PUBLIC_VERSE_EXCERPTS_CORROBORATED_BY_IITK_VERSE_INDEX",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-86",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S86_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "befa2848411e8c2159817baa3137309e6680120b",
+      "cited_locator": "2.86.15",
+      "original_brief_english_paraphrase_for_review": "Lakshmana fears that Dasharatha, Kausalya and Sumitra may not endure the night after Rama's exile.",
+      "classification": "PERSONAL_FEARS_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "This conveys Lakshmana's anxiety, not a general instruction in duty.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga86/ayodhyaroman86.htm",
+        "verse_locator": "2.86.15",
+        "retrieval_method": "INDEXED_PUBLIC_VERSE_EXCERPTS_CORROBORATED_BY_IITK_VERSE_INDEX",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-87",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S87_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "70ecfd0b36461c0fdade754fca94a412b3c06b36",
+      "cited_locator": "2.87.3",
+      "original_brief_english_paraphrase_for_review": "Bharata, overcome by grief after Guha's account, falls to the ground.",
+      "classification": "NARRATIVE_EVENT_PRESENT_GENERIC_DESCRIPTION",
+      "editorial_rationale": "A specific collapse is narrated; original event label lacks subject and action.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga87/ayodhyaroman87.htm",
+        "verse_locator": "2.87.3",
+        "retrieval_method": "FULL_PUBLIC_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-87",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S87_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "70ecfd0b36461c0fdade754fca94a412b3c06b36",
+      "cited_locator": "2.87.7",
+      "original_brief_english_paraphrase_for_review": "The grieving queens surround fallen Bharata; Kausalya bends and embraces him.",
+      "classification": "NARRATION_NOT_DIALOGUE_AT_LOCATOR",
+      "editorial_rationale": "Verse is narration and contains no spoken exchange; Kausalya's subsequent words occur later.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga87/ayodhyaroman87.htm",
+        "verse_locator": "2.87.7",
+        "retrieval_method": "FULL_PUBLIC_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-87",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S87_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "70ecfd0b36461c0fdade754fca94a412b3c06b36",
+      "cited_locator": "2.87.15",
+      "original_brief_english_paraphrase_for_review": "Guha tells Bharata he had offered Rama various foods and fruits.",
+      "classification": "REPORTED_HOSPITALITY_NOT_EXPLICIT_DHARMA_LESSON",
+      "editorial_rationale": "Guha recalls hospitality. The ethics of giving, Rama's refusal and a stated principle arise in following verses 16–17, not this locator.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga87/ayodhyaroman87.htm",
+        "verse_locator": "2.87.15",
+        "retrieval_method": "FULL_PUBLIC_CHAPTER_READ",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "independent_editorial_review": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "Six verse-specific labels only; the remaining 36 associated records lack individual adjudication.",
+    "S86 was supported by public indexed verse excerpts and an independent verse index; S87 was read as a complete publicly accessible chapter.",
+    "A character's fear or hospitality is not automatically a general moral rule; any ethical explanation is an editorial interpretation.",
+    "Verse numbering is witness-specific and requires edition reconciliation. No original staging/canonical data is changed.",
+    "Short original paraphrases, not copied original Sanskrit or third-party translation, are recorded as unpublished hypotheses."
+  ]
+}
