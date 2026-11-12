@@ -1,0 +1,179 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      66,
+      67
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 78,
+    "total_adjudicated": 84,
+    "remaining": 6
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-66",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S66_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "21346fc8411f425fba37763dbbac866fd89c5884",
+      "cited_locator": "2.66.1",
+      "original_brief_english_paraphrase_for_review": "The deceased Dasharatha is compared with an extinguished fire, a waterless ocean and a dimmed sun.",
+      "classification": "NARRATIVE_SIMILE_NOT_STANDALONE_EVENT",
+      "editorial_rationale": "This verse depicts Dasharatha after his death through similes and forms a sentence with verse 2.66.2; the generic event label obscures the narrative subject.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaroman66.htm",
+        "verse_locator": "2.66.1",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-66",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S66_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "21346fc8411f425fba37763dbbac866fd89c5884",
+      "cited_locator": "2.66.5",
+      "original_brief_english_paraphrase_for_review": "Kausalya reproaches Kaikeyi, asking who would wish to live after leaving a husband she regards as worthy of reverence.",
+      "classification": "DIRECT_SPEECH_REPROACH_NOT_GENERIC_COUNSEL",
+      "editorial_rationale": "The question is spoken by Kausalya to Kaikeyi within grieving reproach; the claim invokes marital duty in Kausalya's voice, not a neutral narrator's endorsement.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaroman66.htm",
+        "verse_locator": "2.66.5",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-66",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S66_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "21346fc8411f425fba37763dbbac866fd89c5884",
+      "cited_locator": "2.66.10",
+      "original_brief_english_paraphrase_for_review": "Kausalya fears Sita will seek shelter with Rama when frightened by the nighttime cries of forest animals and birds.",
+      "classification": "PREDICTED_FEAR_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "The future-oriented statement is Kausalya's anxiety about Sita, not a prescriptive ethical instruction.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaroman66.htm",
+        "verse_locator": "2.66.10",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-67",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S67_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "64c5d55f4205b866023c7bd5cf9ca84bb7e80640",
+      "cited_locator": "2.67.1",
+      "original_brief_english_paraphrase_for_review": "A night of widespread weeping and anguish slowly passes in Ayodhya.",
+      "classification": "NARRATIVE_SCENE_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "A specific narrative transition is described, not an interchangeable event template.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga67/ayodhyaroman67.htm",
+        "verse_locator": "2.67.1",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-67",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S67_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "64c5d55f4205b866023c7bd5cf9ca84bb7e80640",
+      "cited_locator": "2.67.5",
+      "original_brief_english_paraphrase_for_review": "The elders addressing Vasistha say the night following Dasharatha's death passed painfully, seeming a hundred years long.",
+      "classification": "COLLECTIVE_DIRECT_SPEECH_CONTEXT_REQUIRED",
+      "editorial_rationale": "The speech belongs to the assembled Brahmins and ministers (introduced in 2.67.3–4), rather than unidentified speakers offering general counsel.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga67/ayodhyaroman67.htm",
+        "verse_locator": "2.67.5",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-67",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S67_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "64c5d55f4205b866023c7bd5cf9ca84bb7e80640",
+      "cited_locator": "2.67.10",
+      "original_brief_english_paraphrase_for_review": "The assembled elders claim that a rulerless country suffers social disorder, including farming inactivity and disrupted household authority.",
+      "classification": "CONTEXT_BOUND_SOCIAL_CLAIM_NOT_UNIVERSAL_DHARMA_RULE",
+      "editorial_rationale": "The verse is part of the elders' argument for establishing a ruler; family-authority assertions are attributed historical social assumptions, not contemporary normative guidance.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga67/ayodhyaroman67.htm",
+        "verse_locator": "2.67.10",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "independent_editorial_review": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "Six provisional verse-level classifications only; six associated records remain unreviewed.",
+    "2.66.1 is syntactically linked with 2.66.2; do not treat as a free-standing event.",
+    "The household-order assertion in 2.67.10 is contextually attributed to the assembled elders and is not presented as contemporary universal ethics.",
+    "Digital textual witness is not verified as a critical edition or redistribution licence.",
+    "No historical or canonical source, database, registry or production code is changed."
+  ]
+}
