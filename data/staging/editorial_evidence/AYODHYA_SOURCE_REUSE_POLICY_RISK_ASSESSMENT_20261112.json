@@ -50,5 +50,25 @@
     "Web policy observed 2026-11-12; no direct publisher correspondence or contract was reviewed.",
     "Further source-specific licensing and legal interpretation may alter the risk assessment.",
     "No source text, translation, digital edition or images are copied into this report."
-  ]
+  ],
+  "witness_inventory": {
+    "source_file": "data/staging/editorial_evidence/AYODHYA_S66_TO_S95_INDEPENDENT_EDITORIAL_REVIEW_QUEUE_20261112.json",
+    "source_commit": "ccaf5bdf0a3502f6ca3dff0dcbdd411371d0a79e",
+    "method": "Read-only extraction of witness_url and publication_decision from all 90 review queue entries; hostnames treated literally (www and bare domain retained separately)",
+    "review_records": 90,
+    "unique_witness_urls": 30,
+    "covered_sargas": "66–95 inclusive",
+    "records_per_sarga": 3,
+    "witness_record_hosts": {
+      "sanskritdocuments.org": 87,
+      "www.sanskritdocuments.org": 3
+    },
+    "unique_witness_hosts": {
+      "sanskritdocuments.org": 29,
+      "www.sanskritdocuments.org": 1
+    },
+    "all_record_publication_decisions_hold": true,
+    "publisher_scope": "Every entry links to the Sanskrit Documents domain (including www alias); this is one website-level source-policy review cluster, not proof of one identical edition, license or file producer.",
+    "limitations": "HTTP links are cited editorial witnesses only; no bulk reuse authorization, edition binding or original text comparison is established by this host inventory."
+  }
 }
