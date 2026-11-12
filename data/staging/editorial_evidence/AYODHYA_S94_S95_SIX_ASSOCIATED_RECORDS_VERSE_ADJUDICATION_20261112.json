@@ -1,0 +1,179 @@
+{
+  "schema_version": "associated_verse_adjudication_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "base_commit": "a36c439f3487f373b24918b6717168a78288c788",
+  "classification": "NONCANONICAL_VERSE_LEVEL_EDITORIAL_EVIDENCE",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": [
+      94,
+      95
+    ],
+    "records_reviewed": 6,
+    "previous_adjudicated": 72,
+    "total_adjudicated": 78,
+    "remaining": 12
+  },
+  "entries": [
+    {
+      "record_id": "RV-STG-AYODHYA-EV-94",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S94_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b595562a939e3ac2e384e0cd3825211c9d7e8c6b",
+      "cited_locator": "2.94.3",
+      "original_brief_english_paraphrase_for_review": "Rama tells Sita that the beauty of Chitrakuta keeps his mind from distress over the loss of his kingdom and separation from friends.",
+      "classification": "DIRECT_SPEECH_PRESENT_GENERIC_EVENT_LABEL",
+      "editorial_rationale": "Rama's first-person statement begins the detailed mountain description; it is not a separately narrated event.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga94/ayodhyaroman94.htm",
+        "verse_locator": "2.94.3",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-94",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S94_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b595562a939e3ac2e384e0cd3825211c9d7e8c6b",
+      "cited_locator": "2.94.7",
+      "original_brief_english_paraphrase_for_review": "Rama describes the mountain as inhabited by many birds and unthreatening wild animals.",
+      "classification": "DESCRIPTIVE_DIRECT_SPEECH_NOT_COUNSEL_EXCHANGE",
+      "editorial_rationale": "Part of Rama's speech to Sita about Chitrakuta, not an exchange of advice between speakers; preserve address and descriptive context.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga94/ayodhyaroman94.htm",
+        "verse_locator": "2.94.7",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-94",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S94_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "b595562a939e3ac2e384e0cd3825211c9d7e8c6b",
+      "cited_locator": "2.94.15",
+      "original_brief_english_paraphrase_for_review": "Rama says that if he spends many years there with Sita and Lakshmana, grief will not overcome him.",
+      "classification": "PERSONAL_CONDITIONAL_SENTIMENT_NOT_EXPLICIT_DHARMA_RULE",
+      "editorial_rationale": "Personal conditional expression concerning family company and grief, not a general prescriptive duty. Sarga 94 verse 17 later mentions filial duty explicitly; do not import that material into 15.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga94/ayodhyaroman94.htm",
+        "verse_locator": "2.94.15",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-EV-95",
+      "record_type": "EVENT",
+      "original_file": "data/staging/post_v1/AYODHYA_S95_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "8ef79e780411957866417460999dd67dfab53664",
+      "cited_locator": "2.95.3",
+      "original_brief_english_paraphrase_for_review": "Rama calls on Sita to look at Mandakini's colourful sandbanks, birds and flowers.",
+      "classification": "DIRECT_SPEECH_WITH_IMPERATIVE_NOT_NARRATED_EVENT",
+      "editorial_rationale": "The verse is Rama's scenic invitation to Sita rather than an independently narrated event.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga95/ayodhyaroman95.htm",
+        "verse_locator": "2.95.3",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DL-95",
+      "record_type": "DIALOGUE",
+      "original_file": "data/staging/post_v1/AYODHYA_S95_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "8ef79e780411957866417460999dd67dfab53664",
+      "cited_locator": "2.95.7",
+      "original_brief_english_paraphrase_for_review": "Rama tells Sita that ascetics observing strict vows worship the sun with raised arms.",
+      "classification": "DESCRIPTIVE_DIRECT_SPEECH_NOT_COUNSEL_EXCHANGE",
+      "editorial_rationale": "This is descriptive speech about ascetic practice, not a multi-party discussion or general counsel; distinguish what the sages do from a prescription to readers.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga95/ayodhyaroman95.htm",
+        "verse_locator": "2.95.7",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    },
+    {
+      "record_id": "RV-STG-AYODHYA-DH-95",
+      "record_type": "DHARMA_LESSON",
+      "original_file": "data/staging/post_v1/AYODHYA_S95_SOURCE_BACKED_RECORDS.json",
+      "original_git_blob_sha1": "8ef79e780411957866417460999dd67dfab53664",
+      "cited_locator": "2.95.15",
+      "original_brief_english_paraphrase_for_review": "Rama asks Sita to regard forest animals as townspeople, Chitrakuta as Ayodhya and Mandakini as Sarayu.",
+      "classification": "FIGURATIVE_ENCOURAGEMENT_NOT_EXPLICIT_GENERAL_DHARMA_RULE",
+      "editorial_rationale": "Rama's imaginative reassurance and injunction to Sita to adapt to forest surroundings, not a universal doctrinal lesson.",
+      "witness": {
+        "url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga95/ayodhyaroman95.htm",
+        "verse_locator": "2.95.15",
+        "retrieval_method": "PUBLIC_FULL_CHAPTER_READ_SANSKRIT_AND_ENGLISH_COMPARED",
+        "edition_identity_verified": false,
+        "redistribution_rights_verified": false
+      },
+      "review": {
+        "human_english_editor_approved": false,
+        "human_tamil_editor_approved": false,
+        "source_registry_binding_verified": false,
+        "publication_decision": "HOLD"
+      },
+      "publication_state": "UNPUBLISHED_EVIDENCE_ONLY"
+    }
+  ],
+  "governance": {
+    "historical_files_mutated": false,
+    "publication_allowed": false,
+    "promotion_allowed": false,
+    "independent_editorial_review": "PENDING",
+    "source_edition_and_rights": "PENDING",
+    "production_release_authorized": false
+  },
+  "limitations": [
+    "Six provisional verse-specific reviews; 12 associated records are not adjudicated.",
+    "Nature description and Rama's direct speech are distinct from standalone narrated events and universal dharma injunctions.",
+    "The online witness does not establish a verified critical-edition identity or redistribution licence.",
+    "Verse numbering is edition-specific; all source registry and independent Tamil/English approvals remain pending.",
+    "No historical, canonical, registry or production source was changed."
+  ]
+}
