@@ -241,5 +241,86 @@
     "independent_editorial_approval": "PENDING",
     "publication_allowed": false,
     "canonical_promotion_allowed": false
+  },
+  "sampled_passage_concordance_69_84_85": {
+    "assessed_utc": "2026-11-12",
+    "classification": "SAMPLED_VERSE_TEXT_CONCORDANCE_RESEARCH_ONLY",
+    "source_A": "https://www.valmikiramayan.net/utf8/ayodhya/",
+    "source_B": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vAlmIki-rAmAyaNa-southern-2.htm",
+    "method": "Direct side-by-side comparison of original-site ITRANS transliterated Sanskrit and GRETIL diacritic Sanskrit; selected verse openings, verse contents and narrative context were compared without copying complete text into this evidence file.",
+    "concordance": [
+      {
+        "original_locator": "2.69.1",
+        "gretil_locator": "RamS_2,63.1",
+        "short_description": "Bharata's ominous dream on the night messengers entered the city",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.69.5",
+        "gretil_locator": "RamS_2,63.5",
+        "short_description": "Bharata is not cheered by his friends' entertainment",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.69.10",
+        "gretil_locator": "RamS_2,63.10",
+        "short_description": "Dream narration continues; no explicit universal moral rule",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.84.2",
+        "gretil_locator": "RamS_2,78.2",
+        "short_description": "Guha describes an immense army",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.84.6",
+        "gretil_locator": "RamS_2,78.5",
+        "short_description": "Guha tells his people to defend Rama's interests by the Ganga",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.84.12",
+        "gretil_locator": "RamS_2,78.11",
+        "short_description": "Sumantra describes Guha as Rama's friend",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.85.2",
+        "gretil_locator": "RamS_2,79.2",
+        "short_description": "Bharata acknowledges Guha's offer of hospitality",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.85.6",
+        "gretil_locator": "RamS_2,79.6",
+        "short_description": "Guha offers guides and his own accompaniment",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      },
+      {
+        "original_locator": "2.85.12",
+        "gretil_locator": "RamS_2,79.12",
+        "short_description": "Guha praises Bharata's willingness to relinquish the kingdom",
+        "decision": "SAMPLED_PASSAGE_MATCH; NOT EDITION_EQUIVALENCE"
+      }
+    ],
+    "chapter_map": {
+      "69": 63,
+      "84": 78,
+      "85": 79
+    },
+    "verse_number_warning": "Original-site Ayodhya 84.3–84.5 and Southern 78.3–78.4 differ in verse segmentation/text. Therefore original 84.6 aligns with Southern 78.5, and original 84.12 with Southern 78.11. A constant chapter offset or copied verse index is UNSAFE.",
+    "supersedes_previous_unresolved_state_only_for_these_samples": true,
+    "limitations": [
+      "Nine sample correspondences do not establish full chapter equivalence or shared textual recension.",
+      "Even aligned passages can have orthographic, lexical, sandhi and interpretive differences; all 90 records remain separately unreviewed by independent editors.",
+      "No permissions for reproducing GRETIL or valmikiramayan.net original digital texts, English translations or Tamil translations have been established.",
+      "The source registry must not be rewritten and no canonical record may be promoted on this evidence alone."
+    ],
+    "rights_status": "UNVERIFIED",
+    "edition_binding": "UNVERIFIED",
+    "english_tamil_signoff": "PENDING",
+    "publication_allowed": false,
+    "canonical_promotion_allowed": false
   }
 }
