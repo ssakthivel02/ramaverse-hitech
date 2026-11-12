@@ -1,0 +1,54 @@
+{
+  "schema_version": "source_reuse_policy_risk_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "classification": "RESEARCH_ONLY_NONCANONICAL_RELEASE_GOVERNANCE_EVIDENCE",
+  "base_editorial_pr": 204,
+  "source_editorial_head": "dd234d85f048c488c18747b7fc9754be2d0af48c",
+  "scope": "Ayodhya Kanda Sargas 66–95, 90 linked verse-adjudication records",
+  "source_policy_evidence": [
+    {
+      "url": "https://www.sanskritdocuments.org/faq/",
+      "type": "PUBLISHER_FAQ",
+      "finding": "Publisher describes restrictions on copying volunteer-prepared content for promotion of a separate website and directs requesters to contact the publisher for intended use; personal study and research are distinguished from copying/reposting.",
+      "license_grant_to_ramaverse_established": false
+    },
+    {
+      "url": "https://www.sanskritdocuments.org/",
+      "type": "PUBLISHER_HOME_POLICY_NOTICE",
+      "finding": "Site states volunteer-prepared files are intended for personal study/research and must not be copied or reposted for website promotion or commercial use without permission.",
+      "license_grant_to_ramaverse_established": false
+    },
+    {
+      "url": "https://sanskritdocuments.org/mirrors/ramayana/valmiki/ramayana.htm",
+      "type": "DISTINCT_RAMAYANA_RENDERING_INFORMATION",
+      "finding": "A separate Ramayana e-text index describes a Devanagari encoding originating from a published critical-edition encoding and separately links a Southern Recension and translations; this does not establish that RamaVerse's cited sarga witnesses use the same edition or may be redistributed.",
+      "license_grant_to_ramaverse_established": false
+    }
+  ],
+  "risk_assessment": {
+    "finding": "No documented licence or explicit permission for RamaVerse to redistribute the cited digitised source transcription or third-party translated text.",
+    "state": "REUSE_NOT_AUTHORIZED_BY_AVAILABLE_EVIDENCE",
+    "scope_limit": "Publisher policy is not a determination of copyright subsistence in underlying ancient verses, and particular archived/mirrored pages may have additional terms. Verify individual provenance and permissions before copying any text.",
+    "editorial_reference_and_linking": "Evidence citations and independently written short review notes may be retained only subject to applicable legal/contractual assessment; do not treat a link as a reuse licence.",
+    "edition_mapping": "UNVERIFIED",
+    "translation_rights": "UNVERIFIED",
+    "source_registry_binding": "UNVERIFIED"
+  },
+  "mandatory_release_conditions": [
+    "Identify the actual edition/recension and source chain for each online witness; avoid equating the separate Baroda critical edition and Southern Recension.",
+    "Obtain explicit documented permission for any proposed reuse of Sanskrit Documents' prepared files or use a separately verified licensed/public-domain edition after provenance review.",
+    "Independently author and approve English and Tamil translations; do not reproduce third-party translations without rights.",
+    "Bind source identifiers, verse numbering, licences, publisher permissions and reviewer sign-offs in the versioned registry under its controlled workflow.",
+    "Keep all 90 noncanonical records on HOLD; do not publish, promote, merge or deploy as a result of this report."
+  ],
+  "release_gate": "NO_GO",
+  "original_historical_files_mutated": false,
+  "publication_allowed": false,
+  "independent_legal_review_completed": false,
+  "limitations": [
+    "Web policy observed 2026-11-12; no direct publisher correspondence or contract was reviewed.",
+    "Further source-specific licensing and legal interpretation may alter the risk assessment.",
+    "No source text, translation, digital edition or images are copied into this report."
+  ]
+}
