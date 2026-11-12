@@ -128,5 +128,57 @@
     "rights_state": "UNVERIFIED",
     "editorial_approval_state": "PENDING",
     "publication_allowed": false
+  },
+  "original_site_variant_locator_check": {
+    "date": "2026-11-12",
+    "scope": "Read-only cross-check of the 3 ITRANS-named witness sargas against original valmikiramayan.net UTF-8 pages; these URLs are original-site alternatives, not a demonstrated mirror-byte match or edition proof",
+    "sources": [
+      {
+        "chapter": 69,
+        "url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga69/ayodhyaitrans69.htm",
+        "page_chapter_heading_verified": true,
+        "locators_in_review_queue": [
+          "2.69.1",
+          "2.69.5",
+          "2.69.10"
+        ],
+        "independent_editorial_adjudication": "NOT_PERFORMED"
+      },
+      {
+        "chapter": 84,
+        "url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga84/ayodhyaitrans84.htm",
+        "page_chapter_heading_verified": true,
+        "locators_in_review_queue": [
+          "2.84.2",
+          "2.84.6",
+          "2.84.12"
+        ],
+        "locator_presence_checked": true,
+        "independent_editorial_adjudication": "NOT_PERFORMED"
+      },
+      {
+        "chapter": 85,
+        "url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga85/ayodhyaitrans85.htm",
+        "page_chapter_heading_verified": true,
+        "locators_in_review_queue": [
+          "2.85.2",
+          "2.85.6",
+          "2.85.12"
+        ],
+        "locator_presence_checked": true,
+        "independent_editorial_adjudication": "NOT_PERFORMED"
+      }
+    ],
+    "outstanding": [
+      "Verify original site-to-mirror transcription identity; mirror pages for Sargas 84/85 were inaccessible",
+      "Bind verse locators to a documented Sanskrit edition/recension",
+      "Verify attribution and rights of original-site digital transcription, glosses and translation",
+      "Obtain independent English/Tamil editorial sign-offs"
+    ],
+    "publication_allowed": false,
+    "canonical_promotion_allowed": false,
+    "rights_status": "UNVERIFIED",
+    "edition_status": "UNVERIFIED",
+    "approval_status": "PENDING"
   }
 }
