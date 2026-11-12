@@ -1,0 +1,91 @@
+{
+  "schema_version": "noncanonical_editorial_governance_audit_v1",
+  "project": "RamaVerse HI-TECH",
+  "date_utc": "2026-11-12",
+  "audited_pr": 204,
+  "audited_head_commit": "26357b6ceff6d3839d9901798dc5265fb56e886b",
+  "scope": {
+    "kanda": "Ayodhya Kanda",
+    "sargas": "66–95",
+    "adjudication_files": 15,
+    "expected_records": 90,
+    "actual_records": 90,
+    "unique_record_ids": 90,
+    "duplicate_record_ids": 0,
+    "missing_record_ids": 0,
+    "publication_decision_hold": 90,
+    "publication_state_unpublished_evidence_only": 90
+  },
+  "source_format_reconciliation": {
+    "editorial_review_decision_field_alternates": [
+      "review.publication_decision",
+      "review.publish_decision"
+    ],
+    "normalized_decision": "HOLD",
+    "english_editor_approval": {
+      "explicit_false": 60,
+      "field_absent": 30,
+      "explicit_true": 0
+    },
+    "tamil_editor_approval": {
+      "explicit_false": 60,
+      "field_absent": 30,
+      "explicit_true": 0
+    },
+    "edition_identity_check": {
+      "explicit_false": 48,
+      "field_absent": 42,
+      "explicit_true": 0
+    },
+    "redistribution_rights_check": {
+      "explicit_false": 78,
+      "field_absent": 12,
+      "explicit_true": 0
+    },
+    "registry_binding_check": {
+      "explicit_false": 60,
+      "field_absent": 30,
+      "explicit_true": 0
+    }
+  },
+  "ci_observed_on_audited_commit": {
+    "quality_gate": "SUCCESS",
+    "secret_leak_scan": "SUCCESS",
+    "browser_quality_gate": "FAILURE",
+    "browser_failure_step": "Install Chromium",
+    "browser_failure_diagnostic": "Playwright 1.55.0 does not support chromium on ubuntu26.04-x64",
+    "browser_workflow_run_id": 43185215945,
+    "classification": "RUNNER_BROWSER_INSTALL_COMPATIBILITY_NOT_TEST_ASSERTION_FAILURE",
+    "ci_remediation_owned_by_this_audit": false
+  },
+  "release_gates": {
+    "unique_evidence_coverage": "PASS",
+    "independent_english_editorial_approval": "BLOCKED",
+    "independent_tamil_editorial_approval": "BLOCKED",
+    "approved_source_edition_identity": "BLOCKED",
+    "redistribution_rights": "BLOCKED",
+    "canonical_source_registry_binding": "BLOCKED",
+    "browser_ci": "BLOCKED",
+    "production_release": "NO_GO"
+  },
+  "next_actions": [
+    "Do not repeat the completed 90-record verse review unless a specific evidence defect is found.",
+    "Assign independent English and Tamil editorial review; do not infer approvals from missing fields.",
+    "Reconcile source edition, exact verse-number mapping, permitted use and registry identity before any promotion.",
+    "Have CI workflow owner remediate Ubuntu runner / Playwright 1.55.0 Chromium incompatibility on its own workstream, avoiding parallel edits.",
+    "Recheck exact-head CI, independent approvals and rights before considering release; keep PR #204 draft."
+  ],
+  "safety": {
+    "noncanonical_evidence_only": true,
+    "publication_allowed": false,
+    "merge_allowed": false,
+    "deployment_allowed": false,
+    "original_historical_records_mutated": false,
+    "database_mutated": false
+  },
+  "limitations": [
+    "Audit summarizes metadata present in 15 adjudication files at a fixed commit; it does not independently establish edition authenticity, licence grants or human editorial approval.",
+    "Absence of a verification field is classified as unknown/not demonstrated, not an affirmative failure and never as approval.",
+    "Audited CI status belongs to the pre-audit commit; adding this report creates a new commit that requires its own exact-head checks."
+  ]
+}
