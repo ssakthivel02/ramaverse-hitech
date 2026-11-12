@@ -428,5 +428,36 @@
     "english_tamil_editor_approval": "PENDING",
     "publication_allowed": false,
     "canonical_promotion_allowed": false
+  },
+  "sarga84_detailed_variant_review": {
+    "assessed_utc": "2026-11-12",
+    "classification": "READ_ONLY_SAMPLE_TEXT_VARIANT_NOT_RELEASE_APPROVAL",
+    "original_site": "https://www.valmikiramayan.net/utf8/ayodhya/sarga84/ayodhyaitrans84.htm",
+    "gretil": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vAlmIki-rAmAyaNa-southern-2.htm",
+    "original_span": "2.84.3–2.84.5",
+    "gretil_span": "RamS_2,78.3–78.4",
+    "verified_variations": [
+      {
+        "original_locator": "2.84.3",
+        "observation": "Original site's opening includes Guha's explicit suspicion of Bharata's ill intent; no corresponding phrase appears in the GRETIL 78.3–78.4 span.",
+        "impact": "Do not erase speaker suspicion when deriving character intent or translate it as a source-shared premise."
+      },
+      {
+        "original_locator": "2.84.5",
+        "observation": "Original site's verse includes a further clause about desiring the prosperous kingdom absent from GRETIL's shortened 78.4 ending.",
+        "impact": "Do not transfer the economic/political motivation as an identical assertion across editions."
+      }
+    ],
+    "interpretation": "These are observed differences between two digital witnesses; manuscript/recension attribution and omission/addition direction have NOT been determined.",
+    "prior_mapping_scope_warning": "The preceding 15 straightforward alignment pairs are passage-level samples, not a comprehensive philological word-for-word identity certification.",
+    "editorial_requirements": [
+      "Independent Sanskrit philological review of 84.3–84.5 / 78.3–78.4 with an identified printed edition",
+      "Separate English/Tamil reviewer decisions on whether narrative suspicion and political motive may be stated in derived lessons",
+      "Keep all records HOLD until source rights, edition provenance, registry evidence and human approvals are established"
+    ],
+    "publication_allowed": false,
+    "canonical_promotion_allowed": false,
+    "rights_status": "UNVERIFIED",
+    "editorial_signoff": "PENDING"
   }
 }
