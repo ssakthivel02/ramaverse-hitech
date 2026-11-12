@@ -200,5 +200,46 @@
     "recorded_decision": "REFERENCE_CANDIDATE_ONLY; MAINTAIN_HOLD",
     "publication_allowed": false,
     "canonical_promotion_allowed": false
+  },
+  "southern_recension_same_number_alignment": {
+    "assessment_date": "2026-11-12",
+    "classification": "READ_ONLY_SAMPLE_CONCORDANCE_FAILURE_NOT_CANONICAL",
+    "reference_source": "https://www.gretil.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vAlmIki-rAmAyaNa-southern-2.htm",
+    "target_source_family": "https://www.valmikiramayan.net/utf8/ayodhya/",
+    "comparison_scope": "Sampled verse 2 at Sargas 69, 84, 85, plus relevant chapter starts; differences are at narrative/passage level, not merely romanization",
+    "samples": [
+      {
+        "numeric_locator": "2.69.1",
+        "target_url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga69/ayodhyaitrans69.htm",
+        "target_context": "Bharata experiences an ominous dream as messengers enter Girivraja",
+        "gretil_southern_context": "Kausalya hears Bharata's lament and wishes to see him",
+        "same_number_text_alignment": "FAIL"
+      },
+      {
+        "numeric_locator": "2.84.2",
+        "target_url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga84/ayodhyaitrans84.htm",
+        "target_context": "Guha remarks on a great army arriving by the river",
+        "gretil_southern_context": "Bharata proceeds on foot, without arms, toward Bharadvaja's hermitage",
+        "same_number_text_alignment": "FAIL"
+      },
+      {
+        "numeric_locator": "2.85.2",
+        "target_url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga85/ayodhyaitrans85.htm",
+        "target_context": "Bharata thanks Guha for offering hospitality to his army",
+        "gretil_southern_context": "Bharata responds to Bharadvaja about the hospitality offered at the hermitage",
+        "same_number_text_alignment": "FAIL"
+      }
+    ],
+    "result": "NUMERIC_SARGA_VERSE_IDENTITY_NOT_PORTABLE_ACROSS_SAMPLED_WITNESSES",
+    "implications": [
+      "Do not use numeric verse equality to transfer text, meaning, translation, source registry identity, publication approval, or licence status between the cited witnesses and GRETIL Southern recension.",
+      "This does not prove the entire edition has different wording, nor does it establish a full cross-recension concordance or which passage appears at what alternative locator.",
+      "Require a verse-text/passage-content concordance with bibliographic edition citations before cross-source substitutions."
+    ],
+    "rights_status": "UNVERIFIED",
+    "source_edition_mapping": "UNVERIFIED",
+    "independent_editorial_approval": "PENDING",
+    "publication_allowed": false,
+    "canonical_promotion_allowed": false
   }
 }
