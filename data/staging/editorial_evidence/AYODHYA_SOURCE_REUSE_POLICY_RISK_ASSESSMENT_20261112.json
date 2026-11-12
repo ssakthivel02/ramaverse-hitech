@@ -180,5 +180,25 @@
     "rights_status": "UNVERIFIED",
     "edition_status": "UNVERIFIED",
     "approval_status": "PENDING"
+  },
+  "independent_southern_recension_candidate": {
+    "classification": "BIBLIOGRAPHIC_COMPARISON_CANDIDATE_NOT_APPROVED_SOURCE",
+    "source_url": "https://www.gretil.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vAlmIki-rAmAyaNa-southern-2.htm",
+    "publisher": "GRETIL / SUB Göttingen",
+    "attributed_digitizer": "Oliver Hellwig",
+    "named_print_basis": "T. R. Krishnacarya, The Valmiki Ramayana — According to Southern recension (1905; reprinted 1982)",
+    "scope": "Ayodhyakanda Southern recension",
+    "publisher_stated_license": "CC BY-NC-SA 4.0",
+    "verified_at": "PUBLISHER_INDEX_METADATA_ONLY",
+    "limitations": [
+      "GRETIL page supplied a source header and licensing statement in search metadata; full text was not retrievable in the verification session.",
+      "No verse-by-verse alignment to valmikiramayan.net or its Sanskrit Documents mirror has been completed; Southern recension label alone is insufficient.",
+      "CC BY-NC-SA 4.0 is conditional and may be incompatible with intended commercial use; verify source applicability, attribution, share-alike obligations and project business model before use.",
+      "This does not grant rights to third-party English/Tamil translations or resolve the original digital transcription permission.",
+      "No historical Sarga 27 source registry identity or human editor sign-off is established."
+    ],
+    "recorded_decision": "REFERENCE_CANDIDATE_ONLY; MAINTAIN_HOLD",
+    "publication_allowed": false,
+    "canonical_promotion_allowed": false
   }
 }
