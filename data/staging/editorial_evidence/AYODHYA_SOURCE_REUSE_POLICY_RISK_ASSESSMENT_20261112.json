@@ -101,5 +101,32 @@
     "editorial_signoff_implied": false,
     "verified_all_30_pages": false,
     "status": "UNVERIFIED_UPSTREAM_TRANSLATION_RIGHTS_AND_EDITION"
+  },
+  "witness_encoding_variant_review": {
+    "source_review_queue": "data/staging/editorial_evidence/AYODHYA_S66_TO_S95_INDEPENDENT_EDITORIAL_REVIEW_QUEUE_20261112.json",
+    "source_head": "51874066746c7933e93e94dfe739f5b16da06f20",
+    "unique_witness_pages": 30,
+    "roman_filename_pages": 27,
+    "itrans_filename_pages": 3,
+    "itrans_sarga_numbers": [
+      69,
+      84,
+      85
+    ],
+    "itrans_urls": [
+      "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaitrans69.htm",
+      "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga84/ayodhyaitrans84.htm",
+      "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga85/ayodhyaitrans85.htm"
+    ],
+    "web_verification_status": {
+      "sarga69": "FETCHED: page presents verse transliteration, English word glosses and English translation; locator 2-69-1 visible",
+      "sarga84": "NOT_INDEPENDENTLY_FETCHED: source URL returned HTTP 406 during review",
+      "sarga85": "NOT_INDEPENDENTLY_FETCHED: source URL unavailable in review"
+    },
+    "interpretation": "Filename spelling is a witness representation/encoding or site-file variant requiring manual alignment. It is NOT evidence that the underlying text is a different Sanskrit recension or that reuse permission changes.",
+    "mandatory_followup": "Verify textual identity, verse mapping, contributor/translator attribution and edition chain for Sargas 69, 84 and 85 against an independently documented primary witness, without republishing protected source text.",
+    "rights_state": "UNVERIFIED",
+    "editorial_approval_state": "PENDING",
+    "publication_allowed": false
   }
 }
