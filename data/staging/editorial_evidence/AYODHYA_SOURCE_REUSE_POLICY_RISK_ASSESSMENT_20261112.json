@@ -70,5 +70,36 @@
     "all_record_publication_decisions_hold": true,
     "publisher_scope": "Every entry links to the Sanskrit Documents domain (including www alias); this is one website-level source-policy review cluster, not proof of one identical edition, license or file producer.",
     "limitations": "HTTP links are cited editorial witnesses only; no bulk reuse authorization, edition binding or original text comparison is established by this host inventory."
+  },
+  "mirror_provenance_review": {
+    "assessment_date": "2026-11-12",
+    "observations": [
+      {
+        "source_url": "https://www.sanskritdocuments.org/sites/valmikiramayan/vr_index.htm",
+        "observation": "The Valmiki subsection identifies itself as a mirror of www.valmikiramayan.net and describes experimental UTF-8 transposition of previously encoded verse files.",
+        "inference_limit": "Mirror documentation does not identify a single authoritative recension for every witness, establish licence grants, or resolve who holds rights in individual translations."
+      },
+      {
+        "source_url": "https://sanskritdocuments.org/mirrors/ramayana/valmiki/ramayana.htm",
+        "observation": "The separate e-text index attributes the valmikiramayan.net site to translators K. M. K. Murthy and Desiraju Hanumanta Rao; it separately describes the Baroda Critical Edition encoding and Southern Recension translation sources.",
+        "inference_limit": "Do not transfer the Baroda Critical Edition attribution to the 30 mirrored Ayodhya witness pages; do not infer the copyright status of translations from underlying ancient text."
+      },
+      {
+        "source_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga66/ayodhyaroman66.htm",
+        "observation": "Sample mirrored Sarga 66 page identifies chapter and verse locators and notes UTF-8 conversion in November 2009; it includes English glosses and translation alongside transliterated verses.",
+        "inference_limit": "A date of encoding or URL format does not establish legal reuse rights or independent edition authenticity."
+      },
+      {
+        "source_url": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga69/ayodhyaitrans69.htm",
+        "observation": "Sample mirrored Sarga 69 page likewise includes Sanskrit transliteration, word glosses and English translation; its witness must not be treated as bare ancient text.",
+        "inference_limit": "This is sampled page inspection, not independent verification of all 30 pages."
+      }
+    ],
+    "rights_decision": "HOLD: distinguish mirror-host permission, original site/translator rights, source-edition identity and permission for any proposed full-text reproduction.",
+    "reviewer_next_action": "Identify original translation/site attribution and contact/licensing route, map the edition and verse scheme in a primary bibliographic record, and record written reuse permission or a verified alternative independently licensed source before production.",
+    "publication_allowed": false,
+    "editorial_signoff_implied": false,
+    "verified_all_30_pages": false,
+    "status": "UNVERIFIED_UPSTREAM_TRANSLATION_RIGHTS_AND_EDITION"
   }
 }
