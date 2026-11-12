@@ -322,5 +322,111 @@
     "english_tamil_signoff": "PENDING",
     "publication_allowed": false,
     "canonical_promotion_allowed": false
+  },
+  "sarga84_chapter_segmentation_audit": {
+    "assessment_date_utc": "2026-11-12",
+    "classification": "READ_ONLY_NONCANONICAL_CHAPTER_SEGMENTATION_COMPARISON",
+    "original_site": "https://www.valmikiramayan.net/utf8/ayodhya/sarga84/ayodhyaitrans84.htm",
+    "comparison_site": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_vAlmIki-rAmAyaNa-southern-2.htm",
+    "original_chapter_number": 84,
+    "comparison_chapter_number": 78,
+    "original_numbered_verses": 18,
+    "comparison_numbered_verses": 17,
+    "straightforward_sample_mapping": [
+      {
+        "original_locator": "2.84.1",
+        "gretil_locator": "RamS_2,78.1",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.2",
+        "gretil_locator": "RamS_2,78.2",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.6",
+        "gretil_locator": "RamS_2,78.5",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.7",
+        "gretil_locator": "RamS_2,78.6",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.8",
+        "gretil_locator": "RamS_2,78.7",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.9",
+        "gretil_locator": "RamS_2,78.8",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.10",
+        "gretil_locator": "RamS_2,78.9",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.11",
+        "gretil_locator": "RamS_2,78.10",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.12",
+        "gretil_locator": "RamS_2,78.11",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.13",
+        "gretil_locator": "RamS_2,78.12",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.14",
+        "gretil_locator": "RamS_2,78.13",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.15",
+        "gretil_locator": "RamS_2,78.14",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.16",
+        "gretil_locator": "RamS_2,78.15",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.17",
+        "gretil_locator": "RamS_2,78.16",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      },
+      {
+        "original_locator": "2.84.18",
+        "gretil_locator": "RamS_2,78.17",
+        "status": "PASSAGE_ALIGNED_IN_SAMPLED_WITNESSES_NOT_EDITION_APPROVED"
+      }
+    ],
+    "segmentation_exception": {
+      "original_locators": [
+        "2.84.3",
+        "2.84.4",
+        "2.84.5"
+      ],
+      "comparison_locators": [
+        "RamS_2,78.3",
+        "RamS_2,78.4"
+      ],
+      "status": "NOT_ONE_TO_ONE",
+      "description": "The original-site chapter uses an added/modified opening to the Bharata-identification passage and segments the following warning across three numbered verses; GRETIL compresses or differs in wording over two verses. Numeric offset conversion across this span is not valid.",
+      "next_review": "Human philological check required for variants, omissions, additions and any manuscript/recension attribution; do not invent exact sub-verse correspondence."
+    },
+    "scope_limit": "15 straightforward passage-level verse alignments; three source verses map to a two-verse comparison span with textual differences. Neither chapter is declared an authoritative canonical replacement.",
+    "source_reuse_rights": "UNVERIFIED",
+    "english_tamil_editor_approval": "PENDING",
+    "publication_allowed": false,
+    "canonical_promotion_allowed": false
   }
 }
