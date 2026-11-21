@@ -49,6 +49,40 @@ jobs:
       - name: Tests
         run: pnpm test
 
+      - name: Read-only staging inventory validator tests
+        run: node --test scripts/validate_ayodhya_staging_inventory.test.mjs
+
+      - name: Certify current Ayodhya physical inventory evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          set +e
+          node scripts/validate_ayodhya_staging_inventory.mjs > /tmp/ayodhya-inventory.json
+          status=$?
+          set -e
+          test "$status" -eq 1
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const result = JSON.parse(fs.readFileSync('/tmp/ayodhya-inventory.json', 'utf8'));
+          const expected = [
+            ['AYODHYA_S51_SOURCE_BACKED_RECORDS.json', 'COUNT_MISMATCH', 'recordCount=10; actual=9'],
+            ['AYODHYA_S52_SOURCE_BACKED_RECORDS.json', 'COUNT_MISMATCH', 'recordCount=14; actual=13'],
+          ];
+          const actual = result.findings.map(x => [x.file, x.code, x.detail]);
+          if (result.valid !== false) throw new Error('Expected fail-closed inventory result');
+          if (result.filesChecked !== 75) throw new Error(`Expected 75 files, got ${result.filesChecked}`);
+          if (result.physicalRecords !== 518) throw new Error(`Expected 518 physical records, got ${result.physicalRecords}`);
+          if (result.quarantinedRecords !== 518) throw new Error(`Expected 518 quarantined records, got ${result.quarantinedRecords}`);
+          if (result.uniqueRecordIds !== 518) throw new Error(`Expected 518 unique IDs, got ${result.uniqueRecordIds}`);
+          if (JSON.stringify(result.families) !== JSON.stringify({ '21-52': 32, '53-65': 13, '66-95': 30 })) {
+            throw new Error(`Unexpected family counts: ${JSON.stringify(result.families)}`);
+          }
+          if (JSON.stringify(actual) !== JSON.stringify(expected)) {
+            throw new Error(`Unexpected findings: ${JSON.stringify(actual)}`);
+          }
+          console.log('AYODHYA_PHYSICAL_INVENTORY_EXPECTED_HOLD_PASS');
+          NODE
+
       - name: Build
         run: pnpm build
 
