@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { inspectBatches } from "./validate_ayodhya_staging_inventory.mjs";
+import { discoverBatchFiles, inspectBatches } from "./validate_ayodhya_staging_inventory.mjs";
 
 const file = s => `AYODHYA_S${s}_SOURCE_BACKED_RECORDS.json`;
 const early = (s, count = 1) => ({
@@ -113,4 +113,24 @@ test("accepts explicit false as unresolved overlap classification without auto-p
   const result = inspect([a]);
   assert.equal(result.valid, true);
   assert.equal(result.quarantinedRecords, 1);
+});
+
+
+test("discovery does not silently ignore malformed Ayodhya JSON batch names", () => {
+  const names = [
+    "AYODHYA_S21_SOURCE_BACKED_RECORDS.json",
+    "AYODHYA_Soops_SOURCE_BACKED_RECORDS.json",
+    "README.md",
+    "OTHER_S21_SOURCE_BACKED_RECORDS.json"
+  ];
+  assert.deepEqual(discoverBatchFiles(names), [
+    "AYODHYA_S21_SOURCE_BACKED_RECORDS.json",
+    "AYODHYA_Soops_SOURCE_BACKED_RECORDS.json"
+  ]);
+  const result = inspect([
+    early(21),
+    { file: "AYODHYA_Soops_SOURCE_BACKED_RECORDS.json", payload: {} }
+  ]);
+  assert.equal(result.valid, false);
+  assert.ok(result.findings.some(x => x.code === "UNEXPECTED_FILENAME"));
 });

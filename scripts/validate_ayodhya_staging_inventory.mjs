@@ -9,7 +9,18 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const FILE = /^AYODHYA_S(\d+)_SOURCE_BACKED_RECORDS\.json$/;
+const AYODHYA_JSON = /^AYODHYA_S.*\.json$/;
 const fromScript = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+
+export function discoverBatchFiles(names) {
+  return names.filter(name => AYODHYA_JSON.test(name)).sort((a, b) => {
+    const am = FILE.exec(a), bm = FILE.exec(b);
+    if (am && bm) return Number(am[1]) - Number(bm[1]);
+    if (am) return -1;
+    if (bm) return 1;
+    return a.localeCompare(b);
+  });
+}
 
 export function inspectBatches(batches, { enforceCompleteRange = true } = {}) {
   const findings = [];
@@ -107,7 +118,7 @@ async function main() {
   }
   const root = args.length ? path.resolve(args[1]) : fromScript;
   const dir = path.join(root, "data/staging/post_v1");
-  const files = (await readdir(dir)).filter(name => FILE.test(name)).sort((a, b) => Number(FILE.exec(a)[1]) - Number(FILE.exec(b)[1]));
+  const files = discoverBatchFiles(await readdir(dir));
   const batches = [];
   const parseFindings = [];
   for (const file of files) {
